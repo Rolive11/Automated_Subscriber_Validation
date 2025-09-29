@@ -1,0 +1,66 @@
+Error_Message,Column,Category,Description,Resolution,Severity
+Address lacks leading number followed by street name,address,Address Format,Address does not start with a number followed by a street name,Ensure address begins with house/building number,Critical
+Address too short,address,Address Format,Address contains fewer than 5 non-space characters,Provide a complete street address with house number and street name,Critical
+Blank or whitespace-only value,address,Data Completeness,Address field is empty or contains only whitespace,Provide complete street address,Critical
+Corrected address is still invalid: Address lacks leading number followed by street name,address,Address Correction,Address was corrected but still does not start with a number and street name,Start address with house number,Critical
+Corrected address is still invalid: Address too short,address,Address Correction,Address was corrected but still contains fewer than 5 non-space characters,"Provide longer, more complete address",Critical
+Corrected address is still invalid: Blank or whitespace-only value,address,Address Correction,Address was corrected but is still empty,Provide actual address content,Critical
+Corrected address is still invalid: Invalid format,address,Address Correction,Address was corrected but still contains forbidden characters or invalid formatting,Use only standard address formatting,Critical
+Corrected address is still invalid: Lacks standard street ending,address,Address Correction,Address was corrected but still lacks a recognized street ending,Add proper street suffix,Critical
+Corrected address is still invalid: No house number,address,Address Correction,Address was corrected but still lacks a house number,Include house number at start of address,Critical
+Corrected address is still invalid: Non-address content detected,address,Address Correction,Address was corrected but still contains non-address patterns,Replace with valid street address,Critical
+Corrected address is still invalid: PO Boxes not allowed,address,Address Correction,Address was corrected but still contains PO Box references,Use physical street address only,Critical
+Invalid format,address,Address Format,Address contains forbidden characters or invalid formatting,Remove special characters and use standard address format,Critical
+Lacks standard street ending,address,Address Format,"Address does not contain a recognized street ending (St, Ave, Rd, etc.)","Add appropriate street suffix (ST, AVE, RD, DR, etc.)",Warning
+No house number,address,Address Format,Address has a street ending but no house number before the street name,Add house or building number at the beginning of address,Critical
+Non-address content detected,address,Address Content,"Address contains non-address patterns like TBD, N/A, UNKNOWN, or phone numbers",Replace with actual street address,Critical
+PO Boxes not allowed,address,Address Content,"Address contains PO Box, P.O. Box, or similar postal box references",Provide physical street address instead of PO Box,Critical
+PR to PVT RD,address,Address Correction,Address contained 'PR' which was converted to 'PVT RD',Review converted address for accuracy,Info
+,,,,,
+Blank or whitespace-only value,business_customer,Data Completeness,Business customer field is empty or contains only whitespace,Provide business customer indicator (0 or 1),Critical
+Business customer must be 0 or 1,business_customer,Data Validation,Business customer value is not 0 (residential) or 1 (business),Use 0 for residential or 1 for business customer,Critical
+,,,,,
+Blank or whitespace-only value,city,Data Completeness,City field is empty or contains only whitespace,Provide city name,Critical
+City contains forbidden character,city,Data Format,City name contains invalid special characters,Remove special characters from city name,Warning
+,,,,,
+Blank or whitespace-only value,customer,Data Completeness,Customer field is empty or contains only whitespace,Provide customer identifier,Critical
+Customer ID contains a comma,customer,Data Format,Customer ID contained a comma character which is not allowed,Remove commas from customer ID,Warning
+"Duplicate customer ID, identical row deleted",customer,Data Quality,Row was removed because it had identical customer ID and data to another row,Remove duplicate entries or modify customer ID,Warning
+"Duplicate customer ID, renamed to [new_id]",customer,Data Quality,Customer ID was renamed with a suffix to ensure uniqueness,Review renamed customer ID for accuracy,Warning
+,,,,,
+Blank or whitespace-only value,download,Data Completeness,Download speed field is empty or contains only whitespace,Provide download speed,Critical
+Download speed must be a number,download,Data Type,Download speed value cannot be converted to a valid number,Provide numeric download speed,Critical
+Download speed must be positive,download,Data Validation,Download speed value is negative or zero,Provide positive download speed value,Critical
+,,,,,
+Latitude for [state] must be between [range],lat,Coordinate Range,Latitude value is outside the valid range for the specified state,Check latitude is within state boundaries,Critical
+Latitude for [state] must be positive,lat,Coordinate Sign,Latitude value must be positive for states in the northern hemisphere,Use positive latitude for northern hemisphere states,Critical
+Latitude for AS must be negative,lat,Coordinate Sign,American Samoa latitude values must be negative (southern hemisphere),Use negative latitude for American Samoa,Critical
+Latitude must be a number,lat,Data Type,Latitude value cannot be converted to a valid number,Provide numeric latitude value,Critical
+Latitude must be between -90 and 90,lat,Coordinate Range,Latitude value is outside the valid global range,Provide latitude between -90 and 90 degrees,Critical
+Paired coordinate reset due to invalid lon,lat,Coordinate Validation,Latitude was reset to blank because longitude was invalid,"Fix longitude first, then provide valid latitude",Warning
+,,,,,
+Longitude for [state] must be negative,lon,Coordinate Sign,Longitude value must be negative for most US states (western hemisphere),Use negative longitude for western hemisphere locations,Critical
+Longitude must be a number,lon,Data Type,Longitude value cannot be converted to a valid number,Provide numeric longitude value,Critical
+Longitude must be between [range] for [state],lon,Coordinate Range,Longitude value is outside the valid range for the specified state,Check longitude is within state boundaries,Critical
+Paired coordinate reset due to invalid lat,lon,Coordinate Validation,Longitude was reset to blank because latitude was invalid,"Fix latitude first, then provide valid longitude",Warning
+,,,,,
+Missing columns,N/A,File Structure,Required columns are missing from the input CSV file,Ensure all required columns are present in CSV,Critical
+,,,,,
+Blank or whitespace-only value,state,Data Completeness,State field is empty or contains only whitespace,Provide state abbreviation,Critical
+Invalid State Abbreviation,state,Data Validation,State value is not a valid 2-letter state abbreviation,"Use standard 2-letter state abbreviation (e.g., CA, TX, NY)",Critical
+,,,,,
+Blank or whitespace-only value,technology,Data Completeness,Technology field is empty or contains only whitespace,Provide technology type,Critical
+Invalid technology,technology,Data Validation,Technology value is not in the list of valid technologies,"Use one of: wireless_unlicensed, wireless_gaa, wireless_pal, wireless_educational, fiber, cable, adsl2, ethernet, voip",Critical
+,,,,,
+Blank or whitespace-only value,upload,Data Completeness,Upload speed field is empty or contains only whitespace,Provide upload speed,Critical
+Upload speed must be a number,upload,Data Type,Upload speed value cannot be converted to a valid number,Provide numeric upload speed,Critical
+Upload speed must be positive,upload,Data Validation,Upload speed value is negative or zero,Provide positive upload speed value,Critical
+,,,,,
+Blank or whitespace-only value,voip_lines_quantity,Data Completeness,VoIP lines field is empty or contains only whitespace,Provide VoIP lines quantity,Critical
+VoIP lines must be a non-negative integer,voip_lines_quantity,Data Validation,VoIP lines value is negative or not a whole number,Provide non-negative whole number for VoIP lines,Critical
+VoIP lines must be a number,voip_lines_quantity,Data Type,VoIP lines value cannot be converted to a valid number,Provide numeric value for VoIP lines,Critical
+,,,,,
+Blank or whitespace-only value,zip,Data Completeness,ZIP code field is empty or contains only whitespace,Provide ZIP code,Critical
+Invalid ZIP code,zip,Data Validation,ZIP code failed validation during Excel export processing,Verify ZIP code format and validity,Critical
+Invalid ZIP code format,zip,Data Format,ZIP code is not in valid 5-digit or 5+4 digit format,Use 5-digit ZIP (12345) or ZIP+4 format (12345-6789),Critical
+ZIP code contains forbidden character,zip,Data Format,ZIP code contains invalid characters,Use only numbers and hyphens in ZIP code,Critical
