@@ -121,11 +121,9 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
                     break
             
             if orig_row is not None:
-                # Skip if this row was excluded from Excel
-                if orig_row in rows_excluded_from_excel:
-                    continue
-                    
                 # Categorize the error
+                # IMPORTANT: We count ALL errors, even in excluded rows
+                # Non-address errors should fail validation regardless of whether row was excluded
                 if is_address_column(col_name):
                     address_error_rows.add(orig_row)
                 else:
@@ -300,9 +298,14 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             ]
             all_rows_to_exclude.update(smarty_removal_rows)
         
-        # Simulate cell fills logic (based on save_excel function)
-        temp_cell_fills = {}
-        
+        # Check for critical non-address errors BEFORE any row exclusions
+        # This ensures we catch misaligned columns and other critical errors
+        debug_print("Checking for critical non-address errors in all flagged cells...")
+        critical_non_address_errors = set()
+
+        from src.utils.file_handling import get_error_priority_and_fill
+        from src.config.settings import is_address_column
+
         for (row_idx, col_name), cell_data in flagged_cells_converted.items():
             if isinstance(cell_data, tuple):
                 error_msg, orig_row_stored = cell_data
@@ -311,32 +314,66 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
                 orig_row_stored = None
                 if row_idx < len(cleaned_df):
                     orig_row_stored = cleaned_df["OrigRowNum"].iloc[row_idx]
-            
-            if orig_row_stored and orig_row_stored not in all_rows_to_exclude:
-                # Find Excel row position
-                orig_row_to_excel_row = {row["OrigRowNum"]: i + 2 for i, row in cleaned_df.iterrows() if row["OrigRowNum"] not in all_rows_to_exclude}
-                
-                if orig_row_stored in orig_row_to_excel_row:
-                    excel_row = orig_row_to_excel_row[orig_row_stored]
-                    col_map = {col: idx + 1 for idx, col in enumerate(cleaned_df.columns)}
-                    
-                    if col_name in col_map:
-                        import openpyxl.utils
-                        excel_col = openpyxl.utils.get_column_letter(col_map[col_name])
-                        
-                        # Determine priority using existing logic
-                        from src.utils.file_handling import get_error_priority_and_fill
-                        priority_level, fill_color = get_error_priority_and_fill(error_msg, col_name)
-                        
-                        cell_key = (excel_row, excel_col)
-                        if cell_key not in temp_cell_fills or priority_level < temp_cell_fills[cell_key][0]:
-                            temp_cell_fills[cell_key] = (priority_level, fill_color)
 
-        # Assess file validation status
-        debug_print("Assessing file validation status...")
-        file_validation = assess_file_validation_status(
-            cleaned_df, temp_cell_fills, all_rows_to_exclude
-        )
+            if orig_row_stored:
+                priority_level, fill_color = get_error_priority_and_fill(error_msg, col_name)
+
+                # Check for RED (priority 1) or PINK (priority 2) cells in non-address columns
+                if priority_level in [1, 2] and not is_address_column(col_name):
+                    critical_non_address_errors.add(orig_row_stored)
+                    debug_print(f"Critical non-address error found: OrigRowNum={orig_row_stored}, col={col_name}, error={error_msg}")
+
+        # If there are critical non-address errors, fail immediately
+        if critical_non_address_errors:
+            debug_print(f"File validation FAILED: {len(critical_non_address_errors)} rows with critical non-address errors")
+            file_validation = {
+                'file_status': 'Invalid',
+                'validation_reason': f"File contains {len(critical_non_address_errors)} rows with critical errors in required fields (customer, state, speeds, technology, etc.) that must be manually corrected. This includes column misalignment and invalid data.",
+                'total_subscribers': len(cleaned_df),
+                'address_error_count': 0,
+                'non_address_error_count': len(critical_non_address_errors),
+                'address_error_percentage': 0.0,
+                'threshold_used': {},
+                'problematic_address_rows': [],
+                'requires_manual_review': True
+            }
+        else:
+            # Simulate cell fills logic for address-only validation (based on save_excel function)
+            temp_cell_fills = {}
+
+            for (row_idx, col_name), cell_data in flagged_cells_converted.items():
+                if isinstance(cell_data, tuple):
+                    error_msg, orig_row_stored = cell_data
+                else:
+                    error_msg = cell_data
+                    orig_row_stored = None
+                    if row_idx < len(cleaned_df):
+                        orig_row_stored = cleaned_df["OrigRowNum"].iloc[row_idx]
+
+                if orig_row_stored and orig_row_stored not in all_rows_to_exclude:
+                    # Find Excel row position
+                    orig_row_to_excel_row = {row["OrigRowNum"]: i + 2 for i, row in cleaned_df.iterrows() if row["OrigRowNum"] not in all_rows_to_exclude}
+
+                    if orig_row_stored in orig_row_to_excel_row:
+                        excel_row = orig_row_to_excel_row[orig_row_stored]
+                        col_map = {col: idx + 1 for idx, col in enumerate(cleaned_df.columns)}
+
+                        if col_name in col_map:
+                            import openpyxl.utils
+                            excel_col = openpyxl.utils.get_column_letter(col_map[col_name])
+
+                            # Determine priority using existing logic
+                            priority_level, fill_color = get_error_priority_and_fill(error_msg, col_name)
+
+                            cell_key = (excel_row, excel_col)
+                            if cell_key not in temp_cell_fills or priority_level < temp_cell_fills[cell_key][0]:
+                                temp_cell_fills[cell_key] = (priority_level, fill_color)
+
+            # Assess file validation status
+            debug_print("Assessing file validation status...")
+            file_validation = assess_file_validation_status(
+                cleaned_df, temp_cell_fills, all_rows_to_exclude
+            )
         
         # Update rows to exclude based on validation decision
         if file_validation['file_status'] == 'Valid' and file_validation['problematic_address_rows']:

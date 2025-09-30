@@ -20,6 +20,14 @@ import googlemaps
 from time import time, sleep
 import re
 
+# Load environment variables from .env file if it exists
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, rely on system environment variables
+    pass
+
 
 def truncate(f, n):
     return math.floor(f * 10 ** n) / 10 ** n
@@ -230,24 +238,24 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
 
     # Build Code A command
     base_output_dir = f"/var/www/broadband/uploads/{org_id}/{period}"
-    code_a_script = "/var/www/broadband/src/main.py"
+    code_a_base_dir = "/var/www/broadband"
 
     cmd = [
         "python3",
-        code_a_script,
+        "-m",
+        "src.main",
         subscriber_file_path,
-        str(org_id),
-        "--output-dir",
-        base_output_dir
+        str(org_id)
     ]
 
     with open('validate_subs.log', 'a') as f:
-        print(f'Calling Code A validation: {" ".join(cmd)}\n', file=f)
+        print(f'Calling Code A validation from {code_a_base_dir}: {" ".join(cmd)}\n', file=f)
 
     try:
-        # Execute Code A subprocess
+        # Execute Code A subprocess with correct working directory
         result = subprocess.run(
             cmd,
+            cwd=code_a_base_dir,
             capture_output=True,
             text=True,
             timeout=600  # 10 minute timeout
@@ -267,16 +275,20 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
                 print(f'Code A stderr: {stderr}\n', file=f)
 
         # Find all artifacts created by Code A
-        validation_results_dir = f"{base_output_dir}/validation_results"
+        # Code A saves files to company_id directory relative to its working directory
+        validation_results_dir = os.path.join(code_a_base_dir, str(org_id))
         artifact_paths = []
 
         if os.path.exists(validation_results_dir):
-            # Get all files in validation_results directory
+            # Get all files in company_id directory
             artifact_paths = glob.glob(f"{validation_results_dir}/*")
             with open('validate_subs.log', 'a') as f:
-                print(f'Found {len(artifact_paths)} Code A artifacts\n',file=f)
+                print(f'Found {len(artifact_paths)} Code A artifacts in {validation_results_dir}\n',file=f)
                 for path in artifact_paths:
                     print(f'  - {os.path.basename(path)}\n', file=f)
+        else:
+            with open('validate_subs.log', 'a') as f:
+                print(f'Warning: Code A output directory not found: {validation_results_dir}\n', file=f)
 
         # Determine file paths for key outputs
         csv_path = None
