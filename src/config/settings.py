@@ -209,7 +209,9 @@ VALIDATION_THRESHOLDS = [
 ]
 
 # Address field column names for validation assessment
-ADDRESS_COLUMNS = ["address", "city", "state", "zip"]
+# NOTE: state is NOT included because invalid state values (like "1087 BIA")
+# usually indicate column misalignment or critical data errors, not just bad addresses
+ADDRESS_COLUMNS = ["address", "city", "zip"]
 
 def get_validation_threshold(subscriber_count):
     """
