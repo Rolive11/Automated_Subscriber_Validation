@@ -171,13 +171,14 @@ def get_error_priority_and_fill(error_msg, col_name):
             fill_color: The corresponding PatternFill object
     """
     # RED (Priority 1) - Critical errors that must be fixed
-    if (error_msg.startswith("Required field:") or 
-        error_msg == "Address lacks leading number followed by street name" or 
-        error_msg.startswith("Invalid technology:") or 
-        error_msg == "Removal after Invalid response from Smarty" or 
+    if (error_msg.startswith("Required field:") or
+        error_msg == "Address lacks leading number followed by street name" or
+        error_msg.startswith("Invalid technology:") or
+        error_msg == "Invalid State Abbreviation" or
+        error_msg == "Removal after Invalid response from Smarty" or
         error_msg == "Invalid format" or
-        (col_name in ["download", "upload", "voip_lines_quantity", "business_customer"] and 
-         ("must be a number" in error_msg or "must be positive" in error_msg or 
+        (col_name in ["download", "upload", "voip_lines_quantity", "business_customer"] and
+         ("must be a number" in error_msg or "must be positive" in error_msg or
           "must be a non-negative integer" in error_msg or "must be 0 or 1" in error_msg))):
         return (1, RED_FILL)
     
