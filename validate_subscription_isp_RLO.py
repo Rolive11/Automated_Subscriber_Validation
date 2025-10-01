@@ -381,11 +381,12 @@ def create_subscription(subfile, filename, isp, periodpath, period):
     # Email all artifacts to admin regardless of outcome
     subject = f"Code A Validation Results - Org {isp}, Period {period}"
     if validation_result['status'] == 'valid':
-        message = f"Code A validation completed successfully for Org {isp}.\n\nFile Status: VALID - Ready for geocoding and processing.\n\nReturn Code: {validation_result['return_code']}\n\nStdout: {validation_result['stdout']}\n\nProcessed File: {validation_result['csv_path']}"
+        message = f"Code A validation completed successfully for Org {isp}.\n\nFile Status: VALID - Ready for geocoding and processing.\n\nReturn Code: {validation_result['return_code']}\n\nProcessed File: {validation_result['csv_path']}"
     elif validation_result['status'] == 'invalid':
-        message = f"Code A validation completed for Org {isp}.\n\nFile Status: INVALID - Requires manual review.\n\nReason: {validation_result['error_message']}\n\nReturn Code: {validation_result['return_code']}\n\nStderr: {validation_result['stderr']}\n\nCorrected file has been sent to user for review."
+        # Include full stdout for debugging why validation failed
+        message = f"Code A validation completed for Org {isp}.\n\nFile Status: INVALID - Requires manual review.\n\nReason: {validation_result['error_message']}\n\nReturn Code: {validation_result['return_code']}\n\n{'='*60}\nDEBUG OUTPUT (stdout):\n{'='*60}\n{validation_result['stdout']}\n\n{'='*60}\nERROR OUTPUT (stderr):\n{'='*60}\n{validation_result['stderr']}\n\nCorrected file has been sent to user for review."
     else:  # error
-        message = f"Code A validation FAILED for Org {isp}.\n\nFile Status: ERROR\n\nError: {validation_result['error_message']}\n\nReturn Code: {validation_result['return_code']}\n\nStdout: {validation_result['stdout']}\n\nStderr: {validation_result['stderr']}"
+        message = f"Code A validation FAILED for Org {isp}.\n\nFile Status: ERROR\n\nError: {validation_result['error_message']}\n\nReturn Code: {validation_result['return_code']}\n\n{'='*60}\nDEBUG OUTPUT (stdout):\n{'='*60}\n{validation_result['stdout']}\n\n{'='*60}\nERROR OUTPUT (stderr):\n{'='*60}\n{validation_result['stderr']}"
 
     sendEmailToAdmin(subject, message, validation_result['artifact_paths'])
 
