@@ -274,6 +274,12 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
             if stderr:
                 print(f'Code A stderr: {stderr}\n', file=f)
 
+        # Give filesystem time to sync files to disk (Code A writes CSV/Excel files)
+        # This ensures files are fully written before Code B tries to read them
+        with open('validate_subs.log', 'a') as f:
+            print(f'Waiting 2 seconds for filesystem sync...\n', file=f)
+        sleep(2)
+
         # Find all artifacts created by Code A
         # Code A saves files to company_id directory relative to its working directory
         validation_results_dir = os.path.join(code_a_base_dir, str(org_id))

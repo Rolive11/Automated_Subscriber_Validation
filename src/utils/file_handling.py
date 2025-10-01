@@ -134,8 +134,10 @@ def save_csv(df, path, errors, header_comment="# the python version is 1.3.0.2\n
         with open(path, 'w', encoding='utf-8') as f:
             f.write(header_comment)
             df.to_csv(f, index=False)
+            f.flush()  # Ensure data is written to OS buffer
+            os.fsync(f.fileno())  # Force write to disk
         if os.path.isfile(path):
-            debug_print(f"Successfully saved: {path}")
+            debug_print(f"Successfully saved and synced to disk: {path}")
             return path
         else:
             errors.append({
