@@ -463,18 +463,18 @@ The Regulatory Solutions Team"""
         print("PHASE 1 RESULT: ERROR - Code A validation failed")
         print("========================================")
 
-    # Get user email and name
-    sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-    ps_cursor.execute(sql)
-    userems = ps_cursor.fetchall()
-    customer = ''
-    cname = ''
-    for em in userems:
-        customer = em["email"]
-        cname = em["name"]
+        # Get user email and name
+        sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
+        ps_cursor.execute(sql)
+        userems = ps_cursor.fetchall()
+        customer = ''
+        cname = ''
+        for em in userems:
+            customer = em["email"]
+            cname = em["name"]
 
-    # Create user error message
-    error_message = f"""Dear {cname},
+        # Create user error message
+        error_message = f"""Dear {cname},
 
     We encountered a technical issue while processing your subscriber file that prevented validation from completing.
 
@@ -491,17 +491,17 @@ The Regulatory Solutions Team"""
     Best regards,
     The Regulatory Solutions Team"""
 
-    # Send error notification to user
-    sendEmail(customer, cname, error_message, None,
-              'Subscriber File Processing Error')
+        # Send error notification to user
+        sendEmail(customer, cname, error_message, None,
+                  'Subscriber File Processing Error')
 
-    # Update database status
-    sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
-        isp + """ and filing_period = '""" + period + """' """
-    cursor.execute(sql)
-    conn.commit()
+        # Update database status
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+            isp + """ and filing_period = '""" + period + """' """
+        cursor.execute(sql)
+        conn.commit()
 
-    return  # Stop processing
+        return  # Stop processing
 
     # If we get here, validation_result['status'] == 'valid'
     print("========================================")
