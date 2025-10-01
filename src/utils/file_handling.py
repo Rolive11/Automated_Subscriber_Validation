@@ -693,7 +693,8 @@ def validate_subscriber_file(input_csv, company_id):
     # Remove OrigRowNum column - not needed for geocoding phase
     if 'OrigRowNum' in cleaned_for_csv.columns:
         cleaned_for_csv = cleaned_for_csv.drop(columns=['OrigRowNum'])
-    save_csv(cleaned_for_csv, os.path.join(company_id, f"{base_filename}_Corrected_Subscribers.csv"), errors)
+    # IMPORTANT: Use empty header_comment for Code B compatibility (no python version comment)
+    save_csv(cleaned_for_csv, os.path.join(company_id, f"{base_filename}_Corrected_Subscribers.csv"), errors, header_comment="")
     debug_print(f"Saved clean CSV for geocoding: {len(cleaned_for_csv)} rows (excluded {len(all_rows_to_exclude)} problematic rows)")
     
     # Generate validation report and get file validation status
