@@ -895,6 +895,58 @@ The Regulatory Solutions Team"""
             cursor.execute(sql)
             conn.commit()
 
+            # Send Phase 2 completion email to admin
+            print("========================================")
+            print("PHASE 2 COMPLETE: Sending results to admin")
+            print("========================================")
+
+            phase2_subject = f"Code B Processing Results - Org {isp}, Period {period}"
+
+            # Collect Phase 2 output files
+            subscription_dir = periodpath + "/subscription_processed/"
+            phase2_files = []
+            if os.path.exists(subscription_dir):
+                phase2_files = glob.glob(f"{subscription_dir}/*")
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Found {len(phase2_files)} Phase 2 output files\n', file=f)
+                    for filepath in phase2_files:
+                        print(f'  - {os.path.basename(filepath)}\n', file=f)
+
+            # Build Phase 2 completion message
+            phase2_message = f"""Code B processing completed successfully for Org {isp}.
+
+File Status: COMPLETE - All geocoding and database operations finished.
+
+Period: {period}
+Final Status: complete
+Total Rows Processed: {line_count}
+Geocoding Errors: {len(addrerr)}
+VoIP Lines Included: {'Yes' if voipneeded else 'No'}
+
+Output Files Created:
+"""
+            if phase2_files:
+                for filepath in phase2_files:
+                    file_size = os.path.getsize(filepath) if os.path.exists(filepath) else 0
+                    phase2_message += f"  - {os.path.basename(filepath)} ({file_size} bytes)\n"
+            else:
+                phase2_message += "  (No output files found)\n"
+
+            phase2_message += f"""
+Output Directory: {subscription_dir}
+
+Database Table: subscribers.subs_{isp}
+
+Processing completed at: {datetime.now().strftime("%m/%d/%Y, %H:%M:%S")}
+
+All files are attached for manual inspection.
+"""
+
+            sendEmailToAdmin(phase2_subject, phase2_message, phase2_files)
+
+            with open('validate_subs.log', 'a') as f:
+                print(f'Phase 2 completion email sent to admin with {len(phase2_files)} attachments\n', file=f)
+
     return
 
 
