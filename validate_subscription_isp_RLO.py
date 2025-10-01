@@ -294,12 +294,26 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
         csv_path = None
         excel_path = None
 
+        with open('validate_subs.log', 'a') as f:
+            print(f'Searching for CSV/Excel files in artifacts:\n', file=f)
+            for path in artifact_paths:
+                print(f'  Checking: {path}\n', file=f)
+
         for path in artifact_paths:
             filename = os.path.basename(path)
             if filename.endswith('_Corrected_Subscribers.csv'):
                 csv_path = path
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Found CSV: {csv_path}\n', file=f)
             elif filename.endswith('_Corrected_Subscribers.xlsx'):
                 excel_path = path
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Found Excel: {excel_path}\n', file=f)
+
+        if not csv_path:
+            with open('validate_subs.log', 'a') as f:
+                print(f'WARNING: No CSV file found matching pattern *_Corrected_Subscribers.csv\n', file=f)
+                print(f'Available files: {[os.path.basename(p) for p in artifact_paths]}\n', file=f)
 
         # Interpret return code
         if return_code == 0:

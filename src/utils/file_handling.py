@@ -684,6 +684,15 @@ def validate_subscriber_file(input_csv, company_id):
     save_excel(cleaned_df, os.path.join(company_id, f"{base_filename}_Corrected_Subscribers.xlsx"), errors, corrected_cells, flagged_cells, all_rows_to_exclude)
     save_csv(pd.DataFrame(errors), os.path.join(company_id, f"{base_filename}_Errors.csv"), errors)
     save_csv(pd.DataFrame(pobox_errors), os.path.join(company_id, f"{base_filename}_POBox_Errors.csv"), errors)
+
+    # Save clean CSV for Code B geocoding (matching Excel content - excluded rows removed, OrigRowNum stripped)
+    # This CSV is ready for Phase 2 processing (geocoding, tract assignment, database insertion)
+    cleaned_for_csv = cleaned_df[~cleaned_df["OrigRowNum"].isin(all_rows_to_exclude)].copy()
+    # Remove OrigRowNum column - not needed for geocoding phase
+    if 'OrigRowNum' in cleaned_for_csv.columns:
+        cleaned_for_csv = cleaned_for_csv.drop(columns=['OrigRowNum'])
+    save_csv(cleaned_for_csv, os.path.join(company_id, f"{base_filename}_Corrected_Subscribers.csv"), errors)
+    debug_print(f"Saved clean CSV for geocoding: {len(cleaned_for_csv)} rows (excluded {len(all_rows_to_exclude)} problematic rows)")
     
     # Generate validation report and get file validation status
     # This is where the final decision on Smarty failures is made using subscriber-count thresholds
