@@ -3,6 +3,16 @@
 
 import argparse
 import sys
+import os
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, rely on system environment variables
+    pass
+
 from src.utils.logging import setup_logging, debug_print
 from src.utils.file_handling import validate_subscriber_file
 from src.config.settings import EXPECTED_COLUMNS
