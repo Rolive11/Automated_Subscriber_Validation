@@ -394,10 +394,11 @@ def save_excel(df, path, errors, corrected_cells, flagged_cells, rows_to_exclude
         debug_print(f"Exception saving {path}: {str(traceback.format_exc())}")
         return None
 
-def validate_subscriber_file(input_csv, company_id):
+def validate_subscriber_file(input_csv, company_id, period):
     """Validate subscriber CSV and generate output files."""
     from src.utils.reporting import generate_validation_report
     import time
+    import shutil
     errors = []
     corrected_cells = {}
     flagged_cells = {}
@@ -405,6 +406,22 @@ def validate_subscriber_file(input_csv, company_id):
     rows_to_remove = []
     non_unique_row_removals = []
     start_time = time.time()
+
+    # Build new directory structure: /var/www/broadband/Subscriber_File_Validations/{period}/{company_id}/
+    base_validation_dir = "Subscriber_File_Validations"
+    output_dir = os.path.join(base_validation_dir, period, company_id)
+
+    # Delete existing directory if it exists (replacing old validation for same period)
+    if os.path.exists(output_dir):
+        debug_print(f"Removing existing validation directory: {output_dir}")
+        shutil.rmtree(output_dir)
+
+    # Create fresh directory structure
+    os.makedirs(output_dir, exist_ok=True)
+    debug_print(f"Created output directory: {output_dir}")
+
+    # Use output_dir instead of company_id for all file operations
+    company_id = output_dir  # Override company_id to use new path
 
     # Create company directory
     try:

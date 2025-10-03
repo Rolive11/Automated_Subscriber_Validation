@@ -13,6 +13,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Validate subscriber CSV file")
     parser.add_argument("input_csv", help="Path to input CSV file")
     parser.add_argument("company_id", help="Company ID for output directory")
+    parser.add_argument("period", help="Filing period (YYYY-MM-DD) for directory organization")
     return parser.parse_args()
 
 
@@ -21,11 +22,11 @@ def main():
     args = parse_args()
     setup_logging()
 
-    debug_print(f"Starting validation for {args.input_csv} with company_id={args.company_id}")
+    debug_print(f"Starting validation for {args.input_csv} with company_id={args.company_id}, period={args.period}")
 
     try:
         # Run validation process (now returns file validation status)
-        cleaned_df, errors, file_validation = validate_subscriber_file(args.input_csv, args.company_id)
+        cleaned_df, errors, file_validation = validate_subscriber_file(args.input_csv, args.company_id, args.period)
         
         # Log completion summary
         debug_print(f"Validation completed. Processed {len(cleaned_df)} rows with {len(errors)} errors.")

@@ -245,7 +245,8 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
         "-m",
         "src.main",
         subscriber_file_path,
-        str(org_id)
+        str(org_id),
+        period
     ]
 
     with open('validate_subs.log', 'a') as f:
@@ -281,8 +282,8 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
         sleep(2)
 
         # Find all artifacts created by Code A
-        # Code A saves files to company_id directory relative to its working directory
-        validation_results_dir = os.path.join(code_a_base_dir, str(org_id))
+        # Code A saves files to new directory structure: Subscriber_File_Validations/{period}/{org_id}/
+        validation_results_dir = os.path.join(code_a_base_dir, "Subscriber_File_Validations", period, str(org_id))
         artifact_paths = []
 
         if os.path.exists(validation_results_dir):
