@@ -13,7 +13,7 @@ import traceback
 import openpyxl
 from src.utils.logging import debug_print
 from src.config.settings import EXPECTED_COLUMNS, VALID_STATES, VALID_TECHNOLOGIES, STATE_LAT_RANGES, STATE_LON_RANGES, DTYPE_DICT, GREEN_FILL, PINK_FILL, YELLOW_FILL, RED_FILL
-from src.validation.customer import validate_customer_uniqueness, validate_data_based_duplicates
+from src.validation.customer import validate_customer_uniqueness
 from src.validation.address import validate_address, validate_address_column
 from src.validation.general import validate_general_columns, validate_and_correct_state
 from src.validation.coordinates import validate_coordinates
@@ -641,9 +641,9 @@ def validate_subscriber_file(input_csv, company_id, period):
     debug_print("Maintaining original input order - no sorting applied")
 
     # Validate customer uniqueness (marks duplicates for removal but doesn't remove them)
+    # NOTE: Only handles duplicate customer IDs, not data-based duplicates
+    # Different customers with same data are KEPT (common in MDUs - same building, different apartments)
     validate_customer_uniqueness(cleaned_df, errors, rows_to_remove, non_unique_row_removals, corrected_cells, flagged_cells)
-    # NEW: Validate data-based duplicates (different customer IDs, same data)
-    validate_data_based_duplicates(cleaned_df, errors, rows_to_remove, non_unique_row_removals, corrected_cells, flagged_cells)
     save_csv(pd.DataFrame(non_unique_row_removals), os.path.join(company_id, f"{base_filename}_N_Unq_Row_Remvl.csv"), errors)
 
     # Deduplicate errors before further processing
