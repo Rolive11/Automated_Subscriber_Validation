@@ -425,9 +425,18 @@ def create_subscription(subfile, filename, isp, periodpath, period):
         userems = ps_cursor.fetchall()
         customer = ''
         cname = ''
+        with open('validate_subs.log', 'a') as f:
+            print(f'[INVALID FILE] Retrieving user email for org_id={isp}\n', file=f)
         for em in userems:
             customer = em["email"]
             cname = em["name"]
+
+        if customer:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[INVALID FILE] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
+        else:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[INVALID FILE] WARNING: No user found in database for org_id={isp}\n', file=f)
 
         # Create user message
         user_message = f"""Dear {cname},
@@ -490,9 +499,18 @@ The Regulatory Solutions Team"""
         userems = ps_cursor.fetchall()
         customer = ''
         cname = ''
+        with open('validate_subs.log', 'a') as f:
+            print(f'[VALIDATION ERROR] Retrieving user email for org_id={isp}\n', file=f)
         for em in userems:
             customer = em["email"]
             cname = em["name"]
+
+        if customer:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[VALIDATION ERROR] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
+        else:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[VALIDATION ERROR] WARNING: No user found in database for org_id={isp}\n', file=f)
 
         # Create user error message
         error_message = f"""Dear {cname},
@@ -733,9 +751,19 @@ The Regulatory Solutions Team"""
             userems = ps_cursor.fetchall()
             customer = ''
             cname = ''
+            with open('validate_subs.log', 'a') as f:
+                print(f'[GEOCODING ERRORS] Retrieving user email for org_id={isp}\n', file=f)
             for em in userems:
                 customer = em["email"]
                 cname = em["name"]
+
+            if customer:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[GEOCODING ERRORS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
+            else:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[GEOCODING ERRORS] WARNING: No user found in database for org_id={isp}\n', file=f)
+
             em_message = 'Dear ' + cname + \
                 ', \nYour subscriber file passed validation but we encountered geocoding errors for some addresses:\n\nDate: ' + date_time + '\n'
 
