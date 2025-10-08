@@ -76,9 +76,8 @@ def geoCode(address_or_zipcode):
 def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
     """Send email to customer with optional file attachment."""
     with open('validate_subs.log', 'a') as f:
-        print(f'sending email error log for customer {customer}\n', file=f)
+        print(f'[SEND EMAIL] Preparing to send email to customer: {customer}\n', file=f)
     port = 465  # For SSL
-    customer = 'ccrum@murcevilo.com'
     # Create a secure SSL context
     context = ssl.create_default_context()
 
@@ -88,7 +87,7 @@ def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
     default_subject = 'Automated Message - Subscriber File Processing Update'
     message["Subject"] = subject if subject else default_subject
     # Recommended for mass emails
-    message["Bcc"] = 'cscrumconsulting@gmail.com'
+    message["Bcc"] = 'tbleeker@regulatorysolutions.us'
 
     # Add body to email
     message.attach(MIMEText(emessage, "plain"))
@@ -154,7 +153,7 @@ def sendEmailToAdmin(subject, message, attachment_paths=None,
         email_message["From"] = 'info@regulatorysolutions.us'
         email_message["To"] = admin_email
         email_message["Subject"] = subject
-        email_message["Bcc"] = 'cscrumconsulting@gmail.com'
+        email_message["Bcc"] = 'tbleeker@regulatorysolutions.us'
 
         # Add body to email
         email_message.attach(MIMEText(message, "plain"))
@@ -404,6 +403,13 @@ def create_subscription(subfile, filename, isp, periodpath, period):
     if validation_result['status'] == 'valid':
         message = f"Code A validation completed successfully for Org {isp}.\n\nFile Status: VALID - Ready for geocoding and processing.\n\nReturn Code: {validation_result['return_code']}\n\nProcessed File: {validation_result['csv_path']}"
     elif validation_result['status'] == 'invalid':
+        # Log stdout content for debugging
+        with open('validate_subs.log', 'a') as f:
+            print(f"[DEBUG EMAIL] Building admin email for invalid result\n", file=f)
+            print(f"[DEBUG EMAIL] stdout length = {len(validation_result['stdout'])} characters\n", file=f)
+            print(f"[DEBUG EMAIL] stdout content preview (first 500 chars):\n{validation_result['stdout'][:500]}\n", file=f)
+            print(f"[DEBUG EMAIL] stderr length = {len(validation_result['stderr'])} characters\n", file=f)
+
         # Include full stdout for debugging why validation failed
         message = f"Code A validation completed for Org {isp}.\n\nFile Status: INVALID - Requires manual review.\n\nReason: {validation_result['error_message']}\n\nReturn Code: {validation_result['return_code']}\n\n{'='*60}\nDEBUG OUTPUT (stdout):\n{'='*60}\n{validation_result['stdout']}\n\n{'='*60}\nERROR OUTPUT (stderr):\n{'='*60}\n{validation_result['stderr']}\n\nCorrected file has been sent to user for review."
     else:  # error
@@ -441,28 +447,71 @@ def create_subscription(subfile, filename, isp, periodpath, period):
         # Create user message
         user_message = f"""Dear {cname},
 
-Your subscriber file needs manual review before FCC submission.
+Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC processing.
 
-We have attached a corrected Excel file with color-coded cells:
-- Red and Pink cells: these cells must be corrected; Or, a row with a red or pink cell may be deleted by the user. The subscriber assigned to the deleted row will not be represented in your subscriber data submitted to the FCC.
-- Green/Yellow cells: Leave unchanged
+Initial review of the file suggests the file needs a little help.
+
+We have created and attached a partially corrected Excel file of your subscriber file.
+
+The file has color-coded cells that have been corrected (green) and those that need to be corrected (red, pink and yellow).
 
 Please:
 1. Open the attached Excel file
-2. Only modify data in RED and PINK cells
-3. Save as CSV format
-4. Re-upload the corrected file
+2. Correct the Red and Pink data cells; Review and correct all the yellow cells, as appropriate. Missing zip codes, for example, will be yellow and should be filled in.
+3. Complete your repairs and save the file in a CSV format - it is currently named this way: "org_id"_modified_Subscription_file.xlsx, where org_id is our internal numbering for your company.
+4. Re-upload the corrected csv file; If the file passes inspection, you will receive an email indicating that the file has been processed.
 
-For your convenience, detailed field requirements are available at:
+If your file needs to be corrected, below is a link to instructions for what needs to be submitted for each field.
 https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+Thanks for taking care of this.
+If you need help, please contact RSI at 972-836-7107.
 
 Best regards,
 The Regulatory Solutions Team"""
 
-        # Send corrected Excel file to user with attachment
+        # Process Excel file: remove OrigRowNum column and save with new name
         excel_attachment = validation_result['excel_path'] if validation_result['excel_path'] and os.path.exists(
             validation_result['excel_path']) else None
-        custom_subject = f'Subscriber File Validation - Manual Review Required'
+
+        if excel_attachment:
+            try:
+                import pandas as pd
+                import openpyxl
+                from openpyxl.styles import PatternFill
+
+                # Read the original Excel file with all formatting
+                wb = openpyxl.load_workbook(excel_attachment)
+                ws = wb.active
+
+                # Find OrigRowNum column index (should be first column)
+                header_row = [cell.value for cell in ws[1]]
+                if 'OrigRowNum' in header_row:
+                    origrownum_col_idx = header_row.index('OrigRowNum') + 1  # openpyxl uses 1-based indexing
+
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'Removing OrigRowNum column (column {origrownum_col_idx}) from Excel file\n', file=f)
+
+                    # Delete the OrigRowNum column
+                    ws.delete_cols(origrownum_col_idx)
+
+                # Save with new filename
+                excel_dir = os.path.dirname(excel_attachment)
+                modified_excel_path = os.path.join(excel_dir, f'{isp}_modified_subscription_file.xlsx')
+                wb.save(modified_excel_path)
+
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Created modified Excel file: {os.path.basename(modified_excel_path)}\n', file=f)
+
+                # Update attachment to use modified file
+                excel_attachment = modified_excel_path
+
+            except Exception as e:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Error processing Excel file: {str(e)}\n', file=f)
+                    print(f'Sending original file instead\n', file=f)
+
+        custom_subject = f'Your FCC BDC Subscriber File Failed to Upload; Action Requested ({isp})'
         sendEmail(
             customer,
             cname,
@@ -975,6 +1024,52 @@ All files are attached for manual inspection.
 
             with open('validate_subs.log', 'a') as f:
                 print(f'Phase 2 completion email sent to admin with {len(phase2_files)} attachments\n', file=f)
+
+            # Send success email to user
+            sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
+            ps_cursor.execute(sql)
+            userems = ps_cursor.fetchall()
+            customer = ''
+            cname = ''
+            with open('validate_subs.log', 'a') as f:
+                print(f'[PHASE 2 SUCCESS] Retrieving user email for org_id={isp}\n', file=f)
+            for em in userems:
+                customer = em["email"]
+                cname = em["name"]
+
+            if customer:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[PHASE 2 SUCCESS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
+
+                # Create success message for user
+                success_message = f"""Dear {cname},
+
+Thank you for submitting your subscriber file to Regulatory Solutions for FCC BDC processing.
+
+We are pleased to inform you that your subscriber file has been successfully processed and validated.
+
+Your data has been geocoded, validated against census tract boundaries, and prepared for FCC submission.
+
+If we discover any issues during our final review, we will contact you promptly. Otherwise, your submission is complete and no further action is required on your part.
+
+Thank you for your timely attention to this important filing requirement.
+
+Best regards,
+The Regulatory Solutions Team"""
+
+                success_subject = f'FCC BDC Subscriber File Successfully Processed ({isp})'
+                sendEmail(
+                    customer,
+                    cname,
+                    success_message,
+                    None,  # No attachment for success email
+                    success_subject)
+
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[PHASE 2 SUCCESS] Success email sent to user: {customer}\n', file=f)
+            else:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[PHASE 2 SUCCESS] WARNING: No user found in database for org_id={isp}\n', file=f)
 
     return
 
