@@ -186,8 +186,8 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
 
     # Validate leading number and street name, allowing optional directional prefixes
     if pd.notna(address) and not is_correction:
-        # Regex: Optional directional prefix (with optional space) followed by one or more digits
-        leading_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?[0-9]"
+        # Regex: Optional directional prefix (with optional space) followed by one or more digits and optional letter suffix
+        leading_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?[0-9]+[A-Z]?"
         if not re.match(leading_pattern, address):
             error_msg = "Corrected address is still invalid: Address lacks leading number (optionally prefixed by direction) followed by street name" if is_correction else "Address lacks leading number (optionally prefixed by direction) followed by street name"
             append_error(error_msg)

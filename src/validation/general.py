@@ -381,7 +381,25 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
 
             elif col == "technology" and val:
                 normalized_val = val.lower().strip()
-                if normalized_val not in VALID_TECHNOLOGIES:
+
+                # Auto-correct common technology entry errors
+                technology_corrections = {
+                    "licensedbyruleterrestrialfixedwireless": "wireless_gaa",
+                    "unlicensedterrestrialfixedwireless": "wireless_unlicensed",
+                    "licensedterrestrialfixedwireless": "wireless_pal"
+                }
+
+                if normalized_val in technology_corrections:
+                    corrected_val = technology_corrections[normalized_val]
+                    cleaned_df.loc[idx, col] = corrected_val
+                    corrected_cells[(idx, col)] = {
+                        "row": int(cleaned_df["OrigRowNum"].iloc[idx]),
+                        "original": val,
+                        "corrected": corrected_val,
+                        "type": "Technology Auto-Correction",
+                        "status": "Valid"
+                    }
+                elif normalized_val not in VALID_TECHNOLOGIES:
                     append_general_error_with_tracking(f"Invalid technology: {', '.join(VALID_TECHNOLOGIES)}", orig_row, col, val, idx, errors, flagged_cells)
                 elif normalized_val != val:
                     cleaned_df.loc[idx, col] = normalized_val

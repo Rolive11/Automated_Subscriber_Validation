@@ -408,7 +408,7 @@ def validate_subscriber_file(input_csv, company_id, period):
     start_time = time.time()
 
     # Build new directory structure: /var/www/broadband/Subscriber_File_Validations/{period}/{company_id}/
-    base_validation_dir = "Subscriber_File_Validations"
+    base_validation_dir = "/var/www/broadband/Subscriber_File_Validations"
     output_dir = os.path.join(base_validation_dir, period, company_id)
 
     # Delete existing directory if it exists (replacing old validation for same period)
