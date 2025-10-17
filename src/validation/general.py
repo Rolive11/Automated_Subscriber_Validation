@@ -280,7 +280,18 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
                     append_general_error_with_tracking("City contains forbidden character", orig_row, col, val, idx, errors, flagged_cells)
 
             elif col == "zip" and val:
-                if not re.match(r"^\d{5}(-\d{4})?$", val):
+                # Auto-correct 9-digit zip codes without hyphen (12345678 -> 12345-6789)
+                if re.match(r"^\d{9}$", val):
+                    corrected_zip = f"{val[:5]}-{val[5:]}"
+                    cleaned_df.loc[idx, col] = corrected_zip
+                    corrected_cells[(idx, col)] = {
+                        "row": int(cleaned_df["OrigRowNum"].iloc[idx]),
+                        "original": val,
+                        "corrected": corrected_zip,
+                        "type": "ZIP+4 Hyphen Addition",
+                        "status": "Valid"
+                    }
+                elif not re.match(r"^\d{5}(-\d{4})?$", val):
                     append_general_error_with_tracking("Invalid ZIP code format", orig_row, col, val, idx, errors, flagged_cells)
                 if re.search(FORBIDDEN_CHARS, val):
                     append_general_error_with_tracking("ZIP code contains forbidden character", orig_row, col, val, idx, errors, flagged_cells)

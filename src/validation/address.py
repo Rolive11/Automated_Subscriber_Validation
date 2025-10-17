@@ -214,8 +214,8 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
 
             # Validate street name before the ending
             address_before_ending = address[:last_match.start()].strip()
-            # Regex: Optional directional prefix, house number, followed by street name (letters, spaces, hyphens, apostrophes)
-            street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+\s+[\w\s'-]+"
+            # Regex: Optional directional prefix, house number (with optional letter suffix), followed by street name (letters, spaces, hyphens, apostrophes)
+            street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\s+[\w\s'-]+"
             if re.match(street_name_pattern, address_before_ending):
                 debug_print(f"Valid street name found for OrigRowNum={orig_row}: '{address_before_ending}'")
                 validation_passed = True
@@ -271,8 +271,12 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         non_standard_match = re.search(NON_STANDARD_ENDINGS, address, re.IGNORECASE)
         if non_standard_match:
             corrected_address = address[:non_standard_match.start(1)].strip()
-            # Ensure the corrected address still has a valid street name
-            street_name_check = re.match(r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+\s+[\w\s\-']+", corrected_address)
+            debug_print(f"DEBUG: Non-standard ending found in '{address}'")
+            debug_print(f"DEBUG: Match groups: {non_standard_match.groups()}")
+            debug_print(f"DEBUG: Corrected address: '{corrected_address}'")
+            # Ensure the corrected address still has a valid street name (allow letter suffix on house number)
+            street_name_check = re.match(r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\s+[\w\s\-']+", corrected_address)
+            debug_print(f"DEBUG: Street name check result: {street_name_check is not None}")
             if street_name_check:
                 corrected_cells[(idx, "address")] = {
                     "row": int(orig_row),
@@ -300,8 +304,8 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
     street_ending_match = re.search(rf"\s+(?:{STREET_ENDINGS})\.?(?:\s*$|\s+\S+)", address, re.IGNORECASE)
     if street_ending_match:
         address_before_ending = address[:street_ending_match.start()].strip()
-        # Regex: Optional directional prefix (with optional space) followed by one or more digits
-        house_number_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+"
+        # Regex: Optional directional prefix (with optional space) followed by one or more digits and optional letter suffix
+        house_number_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?"
         if not re.search(house_number_pattern, address_before_ending):
             error_msg = f"Corrected address is still invalid: No house number (optionally prefixed by direction)" if is_correction else "No house number (optionally prefixed by direction)"
             append_error(error_msg)

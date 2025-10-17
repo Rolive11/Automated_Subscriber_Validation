@@ -62,7 +62,7 @@ STREET_ENDINGS = f"({MULTI_WORD_ENDINGS})|({SINGLE_WORD_ENDINGS})"
 PO_BOX = r"\b(?:PO Box|P\.O\. Box|Post Office Box|P\s*O\s*Box|POBox|P\.O\.Box)\b"
 RURAL_ROUTES = r"\bRR \d+ Box \d+\b|\bRural Route \d+ Box \d+\b|\bR\.R\. \d+ Box \d+\b|\bHC \d+ Box \d+\b"
 FORBIDDEN_CHARS = r'[!@#$%^&*()+={}[\]|\"?:;<,>]'
-NON_STANDARD_ENDINGS = r"(?i)(?:^|\s)(Apt\s*\w*|Apartment\s*\w*|Suite\s*\w*|Ste\s*\w*|Unit\s*\w*|Room\s*\w*|Rm\s*\w*|Floor\s*\w*|Fl\s*\w*|Building\s*\w*|Bldg\s*\w*|Dept\s*\w*|Ofc\s*\w*|Lot\s*\w*|Slip\s*\w*|Space\s*\w*|Tower\s*\w*|Hangar\s*\w*|Box\s*\w*|#\w+|@\w+)(?:\s|$)"
+NON_STANDARD_ENDINGS = r"(?i)(?:^|\s)(Apt|Apartment|Suite|Ste|Unit|Room|Rm|Floor|Fl|Building|Bldg|Dept|Ofc|Lot|Slip|Space|Tower|Hangar|Box)(?:\s*[A-Z0-9][\w\-]*)?(?=\s*$)|(?:^|\s)(#|@)[\w\-]+(?=\s*$)"
 
 # State coordinate ranges
 STATE_LON_RANGES = {
