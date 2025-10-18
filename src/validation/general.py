@@ -236,8 +236,21 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
             for idx, (val, blank) in enumerate(zip(values, is_blank)):
                 if blank:
                     orig_row = cleaned_df["OrigRowNum"][idx]
+
+                    # Skip required field errors for address fields if ALL address fields are empty (GPS-only row)
+                    if col in ["address", "city", "state", "zip"]:
+                        row_data = cleaned_df.iloc[idx]
+                        address_empty = pd.isna(row_data.get('address', '')) or str(row_data.get('address', '')).strip() == ""
+                        city_empty = pd.isna(row_data.get('city', '')) or str(row_data.get('city', '')).strip() == ""
+                        state_empty = pd.isna(row_data.get('state', '')) or str(row_data.get('state', '')).strip() == ""
+                        zip_empty = pd.isna(row_data.get('zip', '')) or str(row_data.get('zip', '')).strip() == ""
+
+                        if address_empty and city_empty and state_empty and zip_empty:
+                            debug_print(f"Skipping required field error for {col} at OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+                            continue
+
                     error_msg = f"Required field: {col.capitalize()} cannot be empty"
-                    
+
                     # NEW: For ZIP codes, flag for Smarty processing instead of just erroring
                     if col == "zip":
                         # Check if we have enough address info for Smarty to work with

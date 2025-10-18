@@ -136,8 +136,14 @@ def validate_coordinate_value(value, col, state):
                 return False, f"Latitude for {state} must be positive"
             if not (lat_min <= value <= lat_max):
                 return False, f"Latitude for {state} must be between {lat_min} and {lat_max}"
-        elif not (-90 <= value <= 90):
-            return False, "Latitude must be between -90 and 90"
+        else:
+            # No state provided - check US territorial boundaries
+            # US latitude range: southernmost point (AS) to northernmost (AK)
+            # American Samoa: -14.6, Alaska: 71.5, Lower 48: 24.4 to 49.4, Hawaii: 18.9 to 28.5
+            us_lat_min = -14.6  # American Samoa
+            us_lat_max = 71.6   # Alaska
+            if not (us_lat_min <= value <= us_lat_max):
+                return False, f"Latitude must be within US territorial boundaries ({us_lat_min} to {us_lat_max})"
     elif col == "lon":
         if state in STATE_LON_RANGES:
             lon_min, lon_max = STATE_LON_RANGES[state]
@@ -145,4 +151,14 @@ def validate_coordinate_value(value, col, state):
                 return False, f"Longitude for {state} must be negative"
             if not (lon_min <= value <= lon_max):
                 return False, f"Longitude for {state} must be between {lon_min} and {lon_max}"
+        else:
+            # No state provided - check US territorial boundaries
+            # US longitude range: westernmost (AK/GU) to easternmost (ME)
+            # Alaska crosses date line: -179.1 to 179.7, Guam/MP: 144.6 to 145.8
+            # Continental US: -124.8 (CA) to -66.9 (ME)
+            us_lon_min = -179.2  # Alaska west
+            us_lon_max = 179.8   # Alaska east (crosses date line)
+            # Check if in western hemisphere (continental/Alaska west) OR Pacific territories
+            if not ((us_lon_min <= value <= -66.0) or (144.0 <= value <= us_lon_max)):
+                return False, f"Longitude must be within US territorial boundaries ({us_lon_min} to -66.0 or 144.0 to {us_lon_max})"
     return True, ""

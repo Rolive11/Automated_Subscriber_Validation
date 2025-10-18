@@ -615,6 +615,18 @@ def validate_subscriber_file(input_csv, company_id, period):
     # Phase 1: Non-standard address endings and state correction
     for idx, val in enumerate(cleaned_df["address"].fillna("").astype(str).str.strip()):
         orig_row = cleaned_df["OrigRowNum"][idx]
+
+        # Check if ALL address fields are empty (GPS-only row)
+        address_empty = not val or val.strip() == ""
+        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
+        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
+        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
+
+        # If ALL address fields are empty, skip address validation (GPS-only row)
+        if address_empty and city_empty and state_empty and zip_empty:
+            debug_print(f"Phase 1: Skipping address validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+            continue
+
         state = cleaned_df["state"][idx]  # NEW: Get state from the row
         validate_address(val, orig_row, idx, errors, corrected_cells, flagged_cells, pobox_errors, rows_to_remove, non_standard_only=True, state=state)
         if (idx, "address") in corrected_cells and corrected_cells[(idx, "address")]["status"] == "Valid":
@@ -623,6 +635,17 @@ def validate_subscriber_file(input_csv, company_id, period):
     # State validation
     for idx, (state_val, zip_val) in enumerate(zip(cleaned_df["state"].fillna(""), cleaned_df["zip"].fillna(""))):
         orig_row = cleaned_df["OrigRowNum"][idx]
+
+        # Check if ALL address fields are empty (GPS-only row) - skip state validation
+        address_empty = pd.isna(cleaned_df["address"].iloc[idx]) or str(cleaned_df["address"].iloc[idx]).strip() == ""
+        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
+        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
+        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
+
+        if address_empty and city_empty and state_empty and zip_empty:
+            debug_print(f"Skipping state validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+            continue
+
         corrected_state = validate_and_correct_state(state_val, zip_val, idx, orig_row, errors, corrected_cells, flagged_cells)
         if (idx, "state") in corrected_cells and corrected_cells[(idx, "state")]["status"] == "Valid":
             cleaned_df.loc[idx, "state"] = corrected_cells[(idx, "state")]["corrected"]

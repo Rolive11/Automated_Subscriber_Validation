@@ -341,6 +341,18 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
 def validate_address_column(cleaned_df, errors, corrected_cells, flagged_cells, pobox_errors, rows_to_remove):
     for idx, val in enumerate(cleaned_df["address"].fillna("").astype(str).str.strip()):
         orig_row = cleaned_df["OrigRowNum"][idx]
+
+        # Check if ALL address fields are empty (GPS-only row)
+        address_empty = not val or val.strip() == ""
+        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
+        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
+        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
+
+        # If ALL address fields are empty, skip address validation (GPS-only row)
+        if address_empty and city_empty and state_empty and zip_empty:
+            debug_print(f"Skipping address validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+            continue
+
         state = cleaned_df["state"][idx]
         is_valid = validate_address(val, orig_row, idx, errors, corrected_cells, flagged_cells, pobox_errors, rows_to_remove, is_correction=False, non_standard_only=False, state=state)
         # Apply correction immediately if valid
