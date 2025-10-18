@@ -216,6 +216,22 @@ def save_excel(df, path, errors, corrected_cells, flagged_cells, rows_to_exclude
                 if pd.notna(val):
                     try:
                         if col == "zip":
+                            # Check if this is a GPS-only row (all address fields empty)
+                            row_address = row.get('address', '')
+                            row_city = row.get('city', '')
+                            row_state = row.get('state', '')
+                            row_zip = row.get('zip', '')
+
+                            address_empty = pd.isna(row_address) or str(row_address).strip() == ""
+                            city_empty = pd.isna(row_city) or str(row_city).strip() == ""
+                            state_empty = pd.isna(row_state) or str(row_state).strip() == ""
+                            zip_empty = pd.isna(row_zip) or str(row_zip).strip() == ""
+
+                            # Skip ZIP validation for GPS-only rows
+                            if address_empty and city_empty and state_empty and zip_empty:
+                                debug_print(f"save_excel: Skipping ZIP validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+                                continue
+
                             if not re.match(r"^\d{5}(-\d{4})?$", str(val)):
                                 sorted_df.loc[idx, col] = pd.NA
                                 errors.append({
