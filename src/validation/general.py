@@ -279,11 +279,23 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
         # Column-specific validation for non-empty values
         for idx, val in enumerate(values):
             orig_row = cleaned_df["OrigRowNum"][idx]
-            
+
             # Skip if we already flagged this as a required field error
             if (idx, col) in flagged_cells and isinstance(flagged_cells[(idx, col)], tuple) and flagged_cells[(idx, col)][0].startswith("Required field:"):
                 continue
-                
+
+            # Skip address field validation for GPS-only rows
+            if col in ["address", "city", "state", "zip"]:
+                row_data = cleaned_df.iloc[idx]
+                address_empty = pd.isna(row_data.get('address', '')) or str(row_data.get('address', '')).strip() == ""
+                city_empty = pd.isna(row_data.get('city', '')) or str(row_data.get('city', '')).strip() == ""
+                state_empty = pd.isna(row_data.get('state', '')) or str(row_data.get('state', '')).strip() == ""
+                zip_empty = pd.isna(row_data.get('zip', '')) or str(row_data.get('zip', '')).strip() == ""
+
+                if address_empty and city_empty and state_empty and zip_empty:
+                    debug_print(f"Skipping {col} format validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+                    continue
+
             if col == "customer":
                 if val and "," in val:
                     append_general_error_with_tracking("Customer ID contains a comma", orig_row, col, val, idx, errors, flagged_cells)
