@@ -705,25 +705,45 @@ def validate_subscriber_file(input_csv, company_id, period):
                 "status": "Valid"
             }
 
-    # Check for critical errors before running Smarty API (exclude zip errors since addresses can still be validated)
-    critical_errors = [error for error in errors if error.get("Error", "").startswith("Required field:") and error.get("Column", "") != "zip"]
-    critical_flagged = [(k, v) for k, v in flagged_cells.items() if 
-                    ((isinstance(v, tuple) and v[0].startswith("Required field:")) or 
-                        (isinstance(v, str) and v.startswith("Required field:"))) and k[1] != "zip"]
+    # NEW LOGIC: Always run Smarty if there are Smarty-eligible addresses
+    # Only skip Smarty entirely if there are address field critical errors (missing address, city, or state)
+    # that would prevent address validation. Other critical errors (missing download, upload, customer, etc.)
+    # should not prevent us from fixing addresses that CAN be validated.
 
-    if critical_errors or critical_flagged:
-        debug_print(f"Skipping Smarty API processing due to {len(critical_errors)} critical errors (empty required fields excluding zip)")
+    # Count address-field critical errors only (address, city, state - not zip since Smarty can fill that in)
+    address_critical_errors = [error for error in errors if
+                               error.get("Error", "").startswith("Required field:") and
+                               error.get("Column", "") in ["address", "city", "state"]]
+    address_critical_flagged = [(k, v) for k, v in flagged_cells.items() if
+                                ((isinstance(v, tuple) and v[0].startswith("Required field:")) or
+                                 (isinstance(v, str) and v.startswith("Required field:"))) and
+                                k[1] in ["address", "city", "state"]]
+
+    # Check if there are ANY Smarty-eligible addresses in flagged_cells
+    from src.validation.smarty_validation import should_send_to_smarty
+    smarty_eligible_count = sum(1 for (row_idx, col_name), cell_data in flagged_cells.items()
+                                if should_send_to_smarty(cell_data[0] if isinstance(cell_data, tuple) else cell_data))
+
+    if smarty_eligible_count == 0:
+        debug_print("No addresses eligible for Smarty processing - skipping Smarty API")
         smarty_results = {
             'addresses_sent': 0,
             'successful_corrections': 0,
             'failed_corrections': 0,
-            'action_taken': 'SKIPPED_DUE_TO_CRITICAL_ERRORS',
+            'action_taken': 'NO_ELIGIBLE_ADDRESSES',
             'smarty_corrections': [],
             'processing_time': 0.0
         }
+    elif address_critical_errors or address_critical_flagged:
+        # Only log that some rows have address field issues, but still process what we can
+        debug_print(f"Found {len(address_critical_errors)} address field critical errors, but proceeding with Smarty for {smarty_eligible_count} eligible addresses")
+        debug_print("Starting Smarty API processing for eligible addresses...")
+        smarty_results = process_smarty_corrections(
+            cleaned_df, errors, corrected_cells, flagged_cells, company_id, base_filename
+        )
     else:
-        # Process Smarty corrections for flagged addresses
-        debug_print("Starting Smarty API processing...")
+        # No address field critical errors - proceed normally
+        debug_print(f"Starting Smarty API processing for {smarty_eligible_count} eligible addresses...")
         smarty_results = process_smarty_corrections(
             cleaned_df, errors, corrected_cells, flagged_cells, company_id, base_filename
         )
