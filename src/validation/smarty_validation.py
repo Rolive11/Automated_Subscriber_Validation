@@ -20,7 +20,9 @@ from src.utils.logging import debug_print
 SMARTY_ELIGIBLE_ERRORS = [
     "Lacks standard street ending",
     "Invalid format",
-    "Required field: Zip cannot be empty"  # Add missing ZIP codes
+    "Required field: Zip cannot be empty",  # Smarty can fill in missing ZIP from address/city/state
+    "Required field: City cannot be empty",  # Smarty can fill in missing city from address/zip
+    "Required field: State cannot be empty"  # Smarty can fill in missing state from address/zip
 ]
 
 def chunk_candidates(candidates):
@@ -101,6 +103,8 @@ def validate_with_smarty_batch(batch):
             'success': False,
             'corrected_address': None,
             'corrected_zip': None,
+            'corrected_city': None,
+            'corrected_state': None,
             'smarty_key': None,
             'error': 'API credentials not configured',
             'raw_response': None
@@ -137,7 +141,9 @@ def validate_with_smarty_batch(batch):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Authentication failed - check API credentials',
                     'raw_response': None
                 } for _ in batch]
@@ -146,7 +152,9 @@ def validate_with_smarty_batch(batch):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Payment required - check Smarty account balance',
                     'raw_response': None
                 } for _ in batch]
@@ -161,7 +169,9 @@ def validate_with_smarty_batch(batch):
                         'success': False,
                         'corrected_address': None,
                         'corrected_zip': None,
-                        'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                         'error': 'Payload too large for single address',
                         'raw_response': None
                     }]
@@ -173,7 +183,9 @@ def validate_with_smarty_batch(batch):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Rate limited by Smarty API',
                     'raw_response': None
                 } for _ in batch]
@@ -185,7 +197,9 @@ def validate_with_smarty_batch(batch):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': f'HTTP {response.status_code}: {response.text}',
                     'raw_response': None
                 } for _ in batch]
@@ -201,7 +215,9 @@ def validate_with_smarty_batch(batch):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Invalid JSON response from Smarty API',
                     'raw_response': None
                 } for _ in batch]
@@ -224,7 +240,9 @@ def validate_with_smarty_batch(batch):
                         'success': False,
                         'corrected_address': None,
                         'corrected_zip': None,
-                        'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                         'error': 'No valid address match found',
                         'raw_response': per_address_results
                     })
@@ -251,12 +269,25 @@ def validate_with_smarty_batch(batch):
                     corrected_zip = str(full_zip)[:5] if full_zip else None
                     debug_print(f"Smarty ZIP code formatted for FCC BDC: '{full_zip}' -> '{corrected_zip}' (5-digit compliance)")
 
+                # Extract city and state from Smarty response
+                corrected_city = None
+                corrected_state = None
+                if 'components' in first_match:
+                    if 'city_name' in first_match['components']:
+                        corrected_city = first_match['components']['city_name']
+                        debug_print(f"Smarty returned city: '{corrected_city}'")
+                    if 'state_abbreviation' in first_match['components']:
+                        corrected_state = first_match['components']['state_abbreviation']
+                        debug_print(f"Smarty returned state: '{corrected_state}'")
+
                 if corrected_address:
-                    debug_print(f"Smarty API success: '{batch[idx]['address']}' -> '{corrected_address}'" + (f", ZIP: {corrected_zip}" if corrected_zip else ""))
+                    debug_print(f"Smarty API success: '{batch[idx]['address']}' -> '{corrected_address}'" + (f", ZIP: {corrected_zip}" if corrected_zip else "") + (f", City: {corrected_city}" if corrected_city else "") + (f", State: {corrected_state}" if corrected_state else ""))
                     results.append({
                         'success': True,
                         'corrected_address': corrected_address.upper(),
                         'corrected_zip': corrected_zip,
+                        'corrected_city': corrected_city,
+                        'corrected_state': corrected_state,
                         'smarty_key': smarty_key,
                         'error': None,
                         'raw_response': per_address_results
@@ -267,6 +298,8 @@ def validate_with_smarty_batch(batch):
                         'success': False,
                         'corrected_address': None,
                         'corrected_zip': None,
+                        'corrected_city': None,
+                        'corrected_state': None,
                         'smarty_key': None,
                         'error': 'Invalid response format from Smarty API',
                         'raw_response': per_address_results
@@ -283,7 +316,9 @@ def validate_with_smarty_batch(batch):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': 'Request timeout',
                 'raw_response': None
             } for _ in batch]
@@ -295,7 +330,9 @@ def validate_with_smarty_batch(batch):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': 'Connection error',
                 'raw_response': None
             } for _ in batch]
@@ -307,7 +344,9 @@ def validate_with_smarty_batch(batch):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': f'Unexpected error: {str(e)}',
                 'raw_response': None
             } for _ in batch]
@@ -317,7 +356,9 @@ def validate_with_smarty_batch(batch):
         'success': False,
         'corrected_address': None,
         'corrected_zip': None,
-        'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
         'error': 'All retry attempts failed',
         'raw_response': None
     } for _ in batch]
@@ -385,6 +426,8 @@ def validate_with_smarty(address, city, state, zip_code):
             'success': False,
             'corrected_address': None,
             'corrected_zip': None,
+            'corrected_city': None,
+            'corrected_state': None,
             'smarty_key': None,
             'error': 'API credentials not configured',
             'raw_response': None
@@ -430,7 +473,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Authentication failed - check API credentials',
                     'raw_response': None
                 }
@@ -439,7 +484,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Payment required - check Smarty account balance',
                     'raw_response': None
                 }
@@ -451,7 +498,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Rate limited by Smarty API',
                     'raw_response': None
                 }
@@ -463,7 +512,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': f'HTTP {response.status_code}: {response.text}',
                     'raw_response': None
                 }
@@ -479,7 +530,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Invalid JSON response from Smarty API',
                     'raw_response': None
                 }
@@ -493,7 +546,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'No valid address match found',
                     'raw_response': json_response
                 }
@@ -539,7 +594,9 @@ def validate_with_smarty(address, city, state, zip_code):
                     'success': False,
                     'corrected_address': None,
                     'corrected_zip': None,
-                    'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                     'error': 'Invalid response format from Smarty API',
                     'raw_response': json_response
                 }
@@ -552,7 +609,9 @@ def validate_with_smarty(address, city, state, zip_code):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': 'Request timeout',
                 'raw_response': None
             }
@@ -565,7 +624,9 @@ def validate_with_smarty(address, city, state, zip_code):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': 'Connection error',
                 'raw_response': None
             }
@@ -578,7 +639,9 @@ def validate_with_smarty(address, city, state, zip_code):
                 'success': False,
                 'corrected_address': None,
                 'corrected_zip': None,
-                'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
                 'error': f'Unexpected error: {str(e)}',
                 'raw_response': None
             }
@@ -588,7 +651,9 @@ def validate_with_smarty(address, city, state, zip_code):
         'success': False,
         'corrected_address': None,
         'corrected_zip': None,
-        'smarty_key': None,
+            'corrected_city': None,
+            'corrected_state': None,
+            'smarty_key': None,
         'error': 'All retry attempts failed',
         'raw_response': None
     }
@@ -809,7 +874,7 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                     # Update ZIP code if Smarty provided one
                     if smarty_result['corrected_zip']:
                         cleaned_df.loc[candidate['row_idx'], 'zip'] = smarty_result['corrected_zip']
-                        
+
                         # Record ZIP correction
                         corrected_cells[(candidate['row_idx'], 'zip')] = {
                             "row": candidate['orig_row'],
@@ -821,7 +886,39 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                             "timestamp": datetime.now().isoformat()
                         }
                         debug_print(f"Smarty updated ZIP code for OrigRowNum {candidate['orig_row']}: '{candidate['zip']}' -> '{smarty_result['corrected_zip']}'")
-                    
+
+                    # Update city if Smarty provided one
+                    if smarty_result.get('corrected_city'):
+                        cleaned_df.loc[candidate['row_idx'], 'city'] = smarty_result['corrected_city'].upper()
+
+                        # Record city correction
+                        corrected_cells[(candidate['row_idx'], 'city')] = {
+                            "row": candidate['orig_row'],
+                            "original": candidate['city'] or '',
+                            "corrected": smarty_result['corrected_city'].upper(),
+                            "type": "Smarty City Correction",
+                            "status": "Valid",
+                            "smarty_key": smarty_result['smarty_key'],
+                            "timestamp": datetime.now().isoformat()
+                        }
+                        debug_print(f"Smarty updated city for OrigRowNum {candidate['orig_row']}: '{candidate['city']}' -> '{smarty_result['corrected_city']}'")
+
+                    # Update state if Smarty provided one
+                    if smarty_result.get('corrected_state'):
+                        cleaned_df.loc[candidate['row_idx'], 'state'] = smarty_result['corrected_state'].upper()
+
+                        # Record state correction
+                        corrected_cells[(candidate['row_idx'], 'state')] = {
+                            "row": candidate['orig_row'],
+                            "original": candidate['state'] or '',
+                            "corrected": smarty_result['corrected_state'].upper(),
+                            "type": "Smarty State Correction",
+                            "status": "Valid",
+                            "smarty_key": smarty_result['smarty_key'],
+                            "timestamp": datetime.now().isoformat()
+                        }
+                        debug_print(f"Smarty updated state for OrigRowNum {candidate['orig_row']}: '{candidate['state']}' -> '{smarty_result['corrected_state']}'")
+
                     # Record the address correction
                     corrected_cells[(candidate['row_idx'], 'address')] = {
                         "row": candidate['orig_row'],
@@ -839,15 +936,25 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                         del flagged_cells[(candidate['row_idx'], 'address')]
                         flagged_error_removed = True
                         debug_print(f"Removed flagged address error for OrigRowNum {candidate['orig_row']} after successful Smarty correction")
-                    
+
                     if smarty_result['corrected_zip'] and (candidate['row_idx'], 'zip') in flagged_cells:
                         del flagged_cells[(candidate['row_idx'], 'zip')]
                         flagged_error_removed = True
                         debug_print(f"Removed flagged ZIP error for OrigRowNum {candidate['orig_row']} after successful Smarty ZIP correction")
-                    
-                    # Clear all address-related errors from errors list
-                    errors[:] = [e for e in errors if not (e["Row"] == candidate['orig_row'] and e["Column"] == "address")]
-                    debug_print(f"Cleared address errors for OrigRowNum {candidate['orig_row']} after successful Smarty correction")
+
+                    if smarty_result.get('corrected_city') and (candidate['row_idx'], 'city') in flagged_cells:
+                        del flagged_cells[(candidate['row_idx'], 'city')]
+                        flagged_error_removed = True
+                        debug_print(f"Removed flagged city error for OrigRowNum {candidate['orig_row']} after successful Smarty city correction")
+
+                    if smarty_result.get('corrected_state') and (candidate['row_idx'], 'state') in flagged_cells:
+                        del flagged_cells[(candidate['row_idx'], 'state')]
+                        flagged_error_removed = True
+                        debug_print(f"Removed flagged state error for OrigRowNum {candidate['orig_row']} after successful Smarty state correction")
+
+                    # Clear all address-related errors from errors list (address, zip, city, state)
+                    errors[:] = [e for e in errors if not (e["Row"] == candidate['orig_row'] and e["Column"] in ["address", "zip", "city", "state"])]
+                    debug_print(f"Cleared address-related errors for OrigRowNum {candidate['orig_row']} after successful Smarty correction")
                     
                     if not flagged_error_removed:
                         debug_print(f"No flagged errors found to remove for OrigRowNum {candidate['orig_row']}")

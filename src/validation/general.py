@@ -251,24 +251,38 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
 
                     error_msg = f"Required field: {col.capitalize()} cannot be empty"
 
-                    # NEW: For ZIP codes, flag for Smarty processing instead of just erroring
-                    if col == "zip":
-                        # Check if we have enough address info for Smarty to work with
+                    # NEW: For address fields (city, state, zip), check if Smarty can fill them in
+                    if col in ["city", "state", "zip"]:
                         row_data = cleaned_df.iloc[idx]
                         has_address = pd.notna(row_data.get('address', '')) and str(row_data.get('address', '')).strip()
                         has_city = pd.notna(row_data.get('city', '')) and str(row_data.get('city', '')).strip()
                         has_state = pd.notna(row_data.get('state', '')) and str(row_data.get('state', '')).strip()
-                        
-                        if has_address and has_city and has_state:
-                            # Flag for Smarty processing (it can potentially fill in the ZIP)
+                        has_zip = pd.notna(row_data.get('zip', '')) and str(row_data.get('zip', '')).strip()
+
+                        can_smarty_fix = False
+
+                        if col == "zip" and has_address and has_city and has_state:
+                            # Smarty can fill in ZIP if we have address, city, state
+                            can_smarty_fix = True
+                            debug_print(f"Flagged missing ZIP for Smarty processing: OrigRowNum={orig_row}")
+                        elif col == "city" and has_address and has_zip:
+                            # Smarty can fill in city if we have address and ZIP
+                            can_smarty_fix = True
+                            debug_print(f"Flagged missing city for Smarty processing: OrigRowNum={orig_row}")
+                        elif col == "state" and has_address and has_zip:
+                            # Smarty can fill in state if we have address and ZIP
+                            can_smarty_fix = True
+                            debug_print(f"Flagged missing state for Smarty processing: OrigRowNum={orig_row}")
+
+                        if can_smarty_fix:
+                            # Flag for Smarty processing
                             from src.validation.address import append_error_with_tracking
                             append_error_with_tracking(error_msg, orig_row, col, val, idx, errors, flagged_cells)
-                            debug_print(f"Flagged missing ZIP for Smarty processing: OrigRowNum={orig_row}")
                         else:
-                            # Not enough data for Smarty - just error normally
+                            # Not enough data for Smarty - error normally
                             append_general_error_with_tracking(error_msg, orig_row, col, val, idx, errors, flagged_cells)
                     else:
-                        # For non-ZIP required fields, error normally
+                        # For non-address required fields, error normally
                         append_general_error_with_tracking(error_msg, orig_row, col, val, idx, errors, flagged_cells)
                     
                     # Set to NA but don't record as a correction since this is an error
