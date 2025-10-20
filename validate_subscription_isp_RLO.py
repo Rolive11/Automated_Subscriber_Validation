@@ -299,6 +299,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
         # Determine file paths for key outputs
         csv_path = None
         excel_path = None
+        original_csv_path = None
 
         with open('validate_subs.log', 'a') as f:
             print(f'Searching for CSV/Excel files in artifacts:\n', file=f)
@@ -320,6 +321,11 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
                 excel_path = path
                 with open('validate_subs.log', 'a') as f:
                     print(f'Found Column Count Error Excel: {excel_path}\n', file=f)
+            elif filename.endswith('_Original.csv') or (filename.endswith('.csv') and '_cleaned_temp' not in filename and '_Corrected_Subscribers' not in filename):
+                # Find the original CSV file (ends with _Original.csv or is a CSV that's not a temp/corrected file)
+                original_csv_path = path
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Found Original CSV: {original_csv_path}\n', file=f)
 
         if not csv_path:
             with open('validate_subs.log', 'a') as f:
@@ -344,6 +350,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
             'return_code': return_code,
             'csv_path': csv_path,
             'excel_path': excel_path,
+            'original_csv_path': original_csv_path,
             'artifact_paths': artifact_paths,
             'error_message': error_message,
             'stdout': stdout,
@@ -360,6 +367,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
             'return_code': 124,  # Standard timeout exit code
             'csv_path': None,
             'excel_path': None,
+            'original_csv_path': None,
             'artifact_paths': [],
             'error_message': error_msg,
             'stdout': '',
@@ -376,6 +384,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
             'return_code': 999,  # Custom error code
             'csv_path': None,
             'excel_path': None,
+            'original_csv_path': None,
             'artifact_paths': [],
             'error_message': error_msg,
             'stdout': '',
@@ -584,8 +593,17 @@ The Regulatory Solutions Team"""
     Best regards,
     The Regulatory Solutions Team"""
 
-        # Send error notification to user
-        sendEmail(customer, cname, error_message, None,
+        # Send error notification to user with original CSV attached
+        original_csv_attachment = validation_result.get('original_csv_path')
+        if original_csv_attachment and os.path.exists(original_csv_attachment):
+            with open('validate_subs.log', 'a') as f:
+                print(f'Attaching original CSV to error email: {original_csv_attachment}\n', file=f)
+        else:
+            original_csv_attachment = None
+            with open('validate_subs.log', 'a') as f:
+                print(f'Original CSV not found for attachment\n', file=f)
+
+        sendEmail(customer, cname, error_message, original_csv_attachment,
                   'Subscriber File Processing Error')
 
         # Update database status
