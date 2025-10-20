@@ -653,81 +653,65 @@ def validate_subscriber_file(input_csv, company_id, period):
         save_errors_and_exit(errors, company_id, original_filename)
         return
 
-    # NEW: Validate column count consistency before attempting pandas read
+    # NEW: Validate column count consistency and auto-fix by truncating extra columns
     debug_print(f"Validating CSV column count consistency...")
     is_valid, error_rows, all_rows_data = validate_csv_column_count(input_csv, header_row_idx)
 
+    # If column count issues exist, create a cleaned CSV with truncated rows
+    csv_to_process = input_csv  # Default to original
+
     if not is_valid:
-        debug_print(f"Column count validation failed: {len(error_rows)} rows with mismatched column counts")
+        debug_print(f"Column count validation found {len(error_rows)} rows with mismatched column counts - truncating to {len(all_rows_data[0])} columns")
 
-        # Create Excel file with error rows highlighted in red
-        error_excel_path = os.path.join(company_id, f"{base_filename}_Column_Count_Errors.xlsx")
-        expected_column_count = len(all_rows_data[0]) if all_rows_data else 12
+        # Create a cleaned CSV with all rows truncated to correct column count
+        cleaned_csv_path = os.path.join(company_id, f"{base_filename}_cleaned_temp.csv")
+        expected_column_count = len(all_rows_data[0])
 
-        excel_created = create_column_count_error_excel(all_rows_data, error_rows, error_excel_path, expected_column_count)
+        try:
+            with open(cleaned_csv_path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                for row in all_rows_data:
+                    # Truncate to expected column count (removes extra columns)
+                    # Pad with empty strings if row is too short
+                    normalized_row = row[:expected_column_count] + [''] * max(0, expected_column_count - len(row))
+                    writer.writerow(normalized_row)
 
-        if excel_created:
-            # Create detailed error summary
-            error_summary = f"CSV Structure Error: Inconsistent Column Count\n\n"
-            error_summary += f"Your file has {expected_column_count} columns in the header, but the following rows have different column counts:\n\n"
+            debug_print(f"Created cleaned CSV with truncated rows: {cleaned_csv_path}")
+            csv_to_process = cleaned_csv_path  # Process the cleaned version
 
-            for err in error_rows[:10]:  # Show first 10 errors
-                error_summary += f"Row {err['row_num']}: Expected {err['expected']} columns, found {err['actual']}\n"
-                error_summary += f"  Preview: {err['preview']}\n\n"
+            # Log which rows were affected (for debugging)
+            debug_print(f"Truncated rows: {[err['row_num'] for err in error_rows]}")
 
-            if len(error_rows) > 10:
-                error_summary += f"... and {len(error_rows) - 10} more rows with errors.\n\n"
-
-            error_summary += "These rows are highlighted in RED in the attached Excel file.\n\n"
-            error_summary += "Common causes:\n"
-            error_summary += "- Commas in address fields without proper quoting: '1800 North 4, #3' should be '1800 North 4 #3'\n"
-            error_summary += "- Extra commas at the end of rows\n"
-            error_summary += "- Missing or extra columns in specific rows\n\n"
-            error_summary += "Action Required:\n"
-            error_summary += "1. Open the attached Excel file\n"
-            error_summary += "2. Find rows highlighted in RED\n"
-            error_summary += "3. Fix the data (remove extra commas or combine split fields)\n"
-            error_summary += "4. Save as CSV format\n"
-            error_summary += "5. Resubmit your file\n"
-
+        except Exception as e:
+            debug_print(f"Failed to create cleaned CSV: {str(e)}")
             errors.append({
                 "Row": "N/A",
                 "Column": "N/A",
-                "Error": error_summary,
-                "Value": f"{len(error_rows)} rows with column count mismatches"
-            })
-
-            debug_print(f"Column count error Excel created: {error_excel_path}")
-        else:
-            # Fallback if Excel creation fails
-            errors.append({
-                "Row": "N/A",
-                "Column": "N/A",
-                "Error": f"CSV has inconsistent column counts. {len(error_rows)} rows have mismatched columns. Please ensure all rows have the same number of columns as the header.",
+                "Error": f"Failed to process CSV with column count mismatches: {str(e)}",
                 "Value": "N/A"
             })
-
-        save_errors_and_exit(errors, company_id, original_filename)
-        return
-
-    debug_print(f"Column count validation passed - all rows have consistent column counts")
+            save_errors_and_exit(errors, company_id, original_filename)
+            return
+    else:
+        debug_print(f"Column count validation passed - all rows have consistent column counts")
 
     # Skip rows above the header and read CSV properly
-    skiprows = list(range(header_row_idx)) if header_row_idx > 0 else None
+    # Note: If we created a cleaned CSV, header_row_idx should be 0 (cleaned CSV has no extra rows)
+    skiprows = list(range(header_row_idx)) if header_row_idx > 0 and csv_to_process == input_csv else None
 
-    # Read input CSV starting from the correct header row
+    # Read input CSV starting from the correct header row (or cleaned CSV if created)
     try:
-        df = pd.read_csv(input_csv, dtype={col: str for col in EXPECTED_COLUMNS}, encoding='utf-8', keep_default_na=False, sep=',', skiprows=skiprows)
-        debug_print(f"Read CSV successfully: {len(df)} rows (skipped {header_row_idx} header rows)")
+        df = pd.read_csv(csv_to_process, dtype={col: str for col in EXPECTED_COLUMNS}, encoding='utf-8', keep_default_na=False, sep=',', skiprows=skiprows)
+        debug_print(f"Read CSV successfully: {len(df)} rows (skipped {header_row_idx if skiprows else 0} header rows)")
     except UnicodeDecodeError:
         try:
-            df = pd.read_csv(input_csv, dtype={col: str for col in EXPECTED_COLUMNS}, encoding='latin1', keep_default_na=False, sep=',', skiprows=skiprows)
-            debug_print(f"Read CSV with latin1 encoding: {len(df)} rows (skipped {header_row_idx} header rows)")
+            df = pd.read_csv(csv_to_process, dtype={col: str for col in EXPECTED_COLUMNS}, encoding='latin1', keep_default_na=False, sep=',', skiprows=skiprows)
+            debug_print(f"Read CSV with latin1 encoding: {len(df)} rows (skipped {header_row_idx if skiprows else 0} header rows)")
         except Exception as e:
             errors.append({
                 "Row": "N/A",
                 "Column": "N/A",
-                "Error": f"Failed to read CSV {input_csv}: {str(e)}",
+                "Error": f"Failed to read CSV {csv_to_process}: {str(e)}",
                 "Value": "N/A"
             })
             save_errors_and_exit(errors, company_id, original_filename)
@@ -736,7 +720,7 @@ def validate_subscriber_file(input_csv, company_id, period):
         errors.append({
             "Row": "N/A",
             "Column": "N/A",
-            "Error": f"Failed to read CSV {input_csv}: {str(e)}",
+            "Error": f"Failed to read CSV {csv_to_process}: {str(e)}",
             "Value": "N/A"
         })
         save_errors_and_exit(errors, company_id, original_filename)
