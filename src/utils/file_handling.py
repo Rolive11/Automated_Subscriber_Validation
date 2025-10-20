@@ -4,6 +4,7 @@ import os
 import sys
 import re
 import shutil
+import csv
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -11,6 +12,7 @@ import time
 import json
 import traceback
 import openpyxl
+from openpyxl.styles import PatternFill
 from src.utils.logging import debug_print
 from src.config.settings import EXPECTED_COLUMNS, VALID_STATES, VALID_TECHNOLOGIES, STATE_LAT_RANGES, STATE_LON_RANGES, DTYPE_DICT, GREEN_FILL, PINK_FILL, YELLOW_FILL, RED_FILL
 from src.validation.customer import validate_customer_uniqueness
@@ -18,6 +20,173 @@ from src.validation.address import validate_address, validate_address_column
 from src.validation.general import validate_general_columns, validate_and_correct_state
 from src.validation.coordinates import validate_coordinates
 from src.validation.smarty_validation import process_smarty_corrections
+
+def validate_csv_column_count(input_csv, header_row_idx):
+    """
+    Validate that all rows in CSV have the same number of columns as the header.
+
+    Returns:
+        tuple: (is_valid, error_rows, all_rows_data)
+        - is_valid: bool - True if all rows have correct column count
+        - error_rows: list of dicts with {row_num, expected, actual, preview}
+        - all_rows_data: list of all rows (for Excel generation if needed)
+    """
+    error_rows = []
+    all_rows_data = []
+    expected_column_count = None
+
+    try:
+        with open(input_csv, 'r', encoding='utf-8', newline='') as f:
+            reader = csv.reader(f)
+
+            # Skip rows before header
+            for i in range(header_row_idx):
+                next(reader, None)
+
+            # Read header to get expected column count
+            header = next(reader, None)
+            if header is None:
+                return False, [{"row_num": 0, "expected": 0, "actual": 0, "preview": "Empty file", "data": []}], []
+
+            expected_column_count = len(header)
+            all_rows_data.append(header)  # Store header
+            debug_print(f"CSV validation: Header has {expected_column_count} columns")
+
+            # Check each data row
+            row_num = header_row_idx + 2  # Account for header being row after skipped rows, +1 for 1-indexed
+            for row in reader:
+                all_rows_data.append(row)  # Store all rows for Excel generation
+                actual_column_count = len(row)
+
+                if actual_column_count != expected_column_count:
+                    # Create preview (first 150 chars of row)
+                    preview = ",".join(row)[:150] + ("..." if len(",".join(row)) > 150 else "")
+                    error_rows.append({
+                        "row_num": row_num,
+                        "expected": expected_column_count,
+                        "actual": actual_column_count,
+                        "preview": preview,
+                        "data": row
+                    })
+                    debug_print(f"Column count mismatch at row {row_num}: expected {expected_column_count}, got {actual_column_count}")
+
+                row_num += 1
+
+        is_valid = len(error_rows) == 0
+        return is_valid, error_rows, all_rows_data
+
+    except UnicodeDecodeError:
+        # Try latin1 encoding
+        try:
+            with open(input_csv, 'r', encoding='latin1', newline='') as f:
+                reader = csv.reader(f)
+
+                for i in range(header_row_idx):
+                    next(reader, None)
+
+                header = next(reader, None)
+                if header is None:
+                    return False, [{"row_num": 0, "expected": 0, "actual": 0, "preview": "Empty file", "data": []}], []
+
+                expected_column_count = len(header)
+                all_rows_data.append(header)
+
+                row_num = header_row_idx + 2
+                for row in reader:
+                    all_rows_data.append(row)
+                    actual_column_count = len(row)
+
+                    if actual_column_count != expected_column_count:
+                        preview = ",".join(row)[:150] + ("..." if len(",".join(row)) > 150 else "")
+                        error_rows.append({
+                            "row_num": row_num,
+                            "expected": expected_column_count,
+                            "actual": actual_column_count,
+                            "preview": preview,
+                            "data": row
+                        })
+
+                    row_num += 1
+
+                is_valid = len(error_rows) == 0
+                return is_valid, error_rows, all_rows_data
+        except Exception as e:
+            debug_print(f"Failed to validate CSV with latin1 encoding: {str(e)}")
+            return False, [{"row_num": 0, "expected": 0, "actual": 0, "preview": f"Error: {str(e)}", "data": []}], []
+
+    except Exception as e:
+        debug_print(f"Failed to validate CSV column count: {str(e)}")
+        return False, [{"row_num": 0, "expected": 0, "actual": 0, "preview": f"Error: {str(e)}", "data": []}], []
+
+
+def create_column_count_error_excel(all_rows_data, error_rows, output_path, expected_column_count):
+    """
+    Create Excel file with error rows highlighted in red.
+
+    Args:
+        all_rows_data: list of all rows from CSV (including header)
+        error_rows: list of error row dicts with row_num
+        output_path: where to save the Excel file
+        expected_column_count: number of columns that should be in each row
+    """
+    try:
+        # Create workbook
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = "Column Count Errors"
+
+        # Define red fill for error rows
+        red_fill = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")
+
+        # Create set of error row numbers for quick lookup (adjust for header)
+        error_row_nums = {err["row_num"] for err in error_rows}
+
+        # Write header
+        if all_rows_data:
+            header = all_rows_data[0]
+            for col_idx, value in enumerate(header, start=1):
+                ws.cell(row=1, column=col_idx, value=value)
+
+        # Write all data rows
+        excel_row = 2  # Start after header
+        csv_row_num = 2  # Track actual CSV row number (1-indexed, accounting for header)
+
+        for row_data in all_rows_data[1:]:  # Skip header in data
+            # Pad or truncate row to match expected column count
+            normalized_row = row_data[:expected_column_count] + [''] * max(0, expected_column_count - len(row_data))
+
+            for col_idx, value in enumerate(normalized_row, start=1):
+                cell = ws.cell(row=excel_row, column=col_idx, value=value)
+
+                # Highlight entire row if it's an error row
+                if csv_row_num in error_row_nums:
+                    cell.fill = red_fill
+
+            excel_row += 1
+            csv_row_num += 1
+
+        # Auto-size columns
+        for column in ws.columns:
+            max_length = 0
+            column_letter = column[0].column_letter
+            for cell in column:
+                try:
+                    if cell.value:
+                        max_length = max(max_length, len(str(cell.value)))
+                except:
+                    pass
+            adjusted_width = min(max_length + 2, 50)  # Cap at 50
+            ws.column_dimensions[column_letter].width = adjusted_width
+
+        # Save workbook
+        wb.save(output_path)
+        debug_print(f"Created column count error Excel file: {output_path}")
+        return True
+
+    except Exception as e:
+        debug_print(f"Failed to create column count error Excel: {str(e)}")
+        return False
+
 
 def normalize_column_names(df, errors):
     """Normalize column names using common variations mapping."""
@@ -483,10 +652,69 @@ def validate_subscriber_file(input_csv, company_id, period):
         })
         save_errors_and_exit(errors, company_id, original_filename)
         return
-    
+
+    # NEW: Validate column count consistency before attempting pandas read
+    debug_print(f"Validating CSV column count consistency...")
+    is_valid, error_rows, all_rows_data = validate_csv_column_count(input_csv, header_row_idx)
+
+    if not is_valid:
+        debug_print(f"Column count validation failed: {len(error_rows)} rows with mismatched column counts")
+
+        # Create Excel file with error rows highlighted in red
+        error_excel_path = os.path.join(company_id, f"{base_filename}_Column_Count_Errors.xlsx")
+        expected_column_count = len(all_rows_data[0]) if all_rows_data else 12
+
+        excel_created = create_column_count_error_excel(all_rows_data, error_rows, error_excel_path, expected_column_count)
+
+        if excel_created:
+            # Create detailed error summary
+            error_summary = f"CSV Structure Error: Inconsistent Column Count\n\n"
+            error_summary += f"Your file has {expected_column_count} columns in the header, but the following rows have different column counts:\n\n"
+
+            for err in error_rows[:10]:  # Show first 10 errors
+                error_summary += f"Row {err['row_num']}: Expected {err['expected']} columns, found {err['actual']}\n"
+                error_summary += f"  Preview: {err['preview']}\n\n"
+
+            if len(error_rows) > 10:
+                error_summary += f"... and {len(error_rows) - 10} more rows with errors.\n\n"
+
+            error_summary += "These rows are highlighted in RED in the attached Excel file.\n\n"
+            error_summary += "Common causes:\n"
+            error_summary += "- Commas in address fields without proper quoting: '1800 North 4, #3' should be '1800 North 4 #3'\n"
+            error_summary += "- Extra commas at the end of rows\n"
+            error_summary += "- Missing or extra columns in specific rows\n\n"
+            error_summary += "Action Required:\n"
+            error_summary += "1. Open the attached Excel file\n"
+            error_summary += "2. Find rows highlighted in RED\n"
+            error_summary += "3. Fix the data (remove extra commas or combine split fields)\n"
+            error_summary += "4. Save as CSV format\n"
+            error_summary += "5. Resubmit your file\n"
+
+            errors.append({
+                "Row": "N/A",
+                "Column": "N/A",
+                "Error": error_summary,
+                "Value": f"{len(error_rows)} rows with column count mismatches"
+            })
+
+            debug_print(f"Column count error Excel created: {error_excel_path}")
+        else:
+            # Fallback if Excel creation fails
+            errors.append({
+                "Row": "N/A",
+                "Column": "N/A",
+                "Error": f"CSV has inconsistent column counts. {len(error_rows)} rows have mismatched columns. Please ensure all rows have the same number of columns as the header.",
+                "Value": "N/A"
+            })
+
+        save_errors_and_exit(errors, company_id, original_filename)
+        return
+
+    debug_print(f"Column count validation passed - all rows have consistent column counts")
+
     # Skip rows above the header and read CSV properly
     skiprows = list(range(header_row_idx)) if header_row_idx > 0 else None
-    
+
     # Read input CSV starting from the correct header row
     try:
         df = pd.read_csv(input_csv, dtype={col: str for col in EXPECTED_COLUMNS}, encoding='utf-8', keep_default_na=False, sep=',', skiprows=skiprows)

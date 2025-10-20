@@ -315,6 +315,11 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
                 excel_path = path
                 with open('validate_subs.log', 'a') as f:
                     print(f'Found Excel: {excel_path}\n', file=f)
+            elif filename.endswith('_Column_Count_Errors.xlsx'):
+                # Column count error file takes precedence (it means validation couldn't even start)
+                excel_path = path
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Found Column Count Error Excel: {excel_path}\n', file=f)
 
         if not csv_path:
             with open('validate_subs.log', 'a') as f:
