@@ -74,7 +74,11 @@ def geoCode(address_or_zipcode):
 
 
 def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
-    """Send email to customer with optional file attachment."""
+    """Send email to customer with optional file attachment(s).
+
+    Args:
+        attachment_path: Can be a single path string or a list of paths
+    """
     with open('validate_subs.log', 'a') as f:
         print(f'[SEND EMAIL] Preparing to send email to customer: {customer}\n', file=f)
     port = 465  # For SSL
@@ -92,35 +96,44 @@ def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
     # Add body to email
     message.attach(MIMEText(emessage, "plain"))
 
-    # Add file attachment if provided
-    if attachment_path and os.path.exists(attachment_path):
-        try:
-            with open(attachment_path, "rb") as attachment:
-                part = MIMEBase("application", "octet-stream")
-                part.set_payload(attachment.read())
+    # Handle both single attachment path (string) and multiple paths (list)
+    attachment_paths = []
+    if attachment_path:
+        if isinstance(attachment_path, list):
+            attachment_paths = attachment_path
+        else:
+            attachment_paths = [attachment_path]
 
-            # Encode file in ASCII characters to send by email
-            encoders.encode_base64(part)
+    # Add file attachments if provided
+    for att_path in attachment_paths:
+        if att_path and os.path.exists(att_path):
+            try:
+                with open(att_path, "rb") as attachment:
+                    part = MIMEBase("application", "octet-stream")
+                    part.set_payload(attachment.read())
 
-            # Add header as key/value pair to attachment part
-            filename = os.path.basename(attachment_path)
-            part.add_header(
-                "Content-Disposition",
-                f"attachment; filename= {filename}",
-            )
+                # Encode file in ASCII characters to send by email
+                encoders.encode_base64(part)
 
-            # Add attachment to message
-            message.attach(part)
+                # Add header as key/value pair to attachment part
+                filename = os.path.basename(att_path)
+                part.add_header(
+                    "Content-Disposition",
+                    f"attachment; filename= {filename}",
+                )
 
+                # Add attachment to message
+                message.attach(part)
+
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Added user attachment: {filename}\n', file=f)
+
+            except Exception as e:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Failed to attach file {att_path}: {str(e)}\n', file=f)
+        elif att_path:
             with open('validate_subs.log', 'a') as f:
-                print(f'Added user attachment: {filename}\n', file=f)
-
-        except Exception as e:
-            with open('validate_subs.log', 'a') as f:
-                print(f'Failed to attach file {attachment_path}: {str(e)}\n', file=f)
-    elif attachment_path:
-        with open('validate_subs.log', 'a') as f:
-            print(f'User attachment file not found: {attachment_path}\n', file=f)
+                print(f'User attachment file not found: {att_path}\n', file=f)
 
     text = message.as_string()
 
@@ -525,12 +538,27 @@ The Regulatory Solutions Team"""
                     print(f'Error processing Excel file: {str(e)}\n', file=f)
                     print(f'Sending original file instead\n', file=f)
 
+        # Get original CSV to attach
+        original_csv_attachment = validation_result.get('original_csv_path')
+        if original_csv_attachment and os.path.exists(original_csv_attachment):
+            with open('validate_subs.log', 'a') as f:
+                print(f'Attaching original CSV to invalid file email: {original_csv_attachment}\n', file=f)
+        else:
+            original_csv_attachment = None
+
+        # Prepare attachments list
+        attachments = []
+        if excel_attachment:
+            attachments.append(excel_attachment)
+        if original_csv_attachment:
+            attachments.append(original_csv_attachment)
+
         custom_subject = f'Your FCC BDC Subscriber File Failed to Upload; Action Requested ({isp})'
         sendEmail(
             customer,
             cname,
             user_message,
-            excel_attachment,
+            attachments if attachments else None,
             custom_subject)
 
         if excel_attachment:
@@ -541,6 +569,10 @@ The Regulatory Solutions Team"""
                 print(
                     f'Warning: No Excel file available to send to user for org {isp}\n',
                     file=f)
+
+        if original_csv_attachment:
+            with open('validate_subs.log', 'a') as f:
+                print(f'Sent original CSV file to user: {os.path.basename(original_csv_attachment)}\n', file=f)
 
         # Update database status
         sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_failed' where org_id = """ + \
