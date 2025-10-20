@@ -200,70 +200,77 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
     should_check_street_ending = non_standard_only or (not is_correction and ((idx, "address") not in corrected_cells or corrected_cells[(idx, "address")].get("status") != "Valid"))
     if should_check_street_ending:
         debug_print(f"Checking street ending for OrigRowNum={orig_row}: Address='{address}', non_standard_only={non_standard_only}, is_correction={is_correction}, corrected_cells_status={corrected_cells.get((idx, 'address'), {}).get('status', 'N/A')}")
-        
-        # Street endings already include required leading space in the pattern
-        street_ending_matches = list(re.finditer(rf"(?:{STREET_ENDINGS})(?:\s|$)", address, re.IGNORECASE))
-        compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
-        number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
-        
-        if street_ending_matches:
-            debug_print(f"Street ending matched for OrigRowNum={orig_row}: Matches={street_ending_matches}")
-            last_match = street_ending_matches[-1]
-            ending_end = last_match.end()
-            remaining = address[ending_end:].strip()
 
-            # Validate street name before the ending
-            address_before_ending = address[:last_match.start()].strip()
-            # Regex: Optional directional prefix, house number (with optional letter suffix), followed by street name (letters, spaces, hyphens, apostrophes)
-            street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\s+[\w\s'-]+"
-            if re.match(street_name_pattern, address_before_ending):
-                debug_print(f"Valid street name found for OrigRowNum={orig_row}: '{address_before_ending}'")
-                validation_passed = True
-            else:
-                error_msg = "Invalid street name format before street ending"
-                append_error(error_msg)
-                validation_passed = False
-                debug_print(f"Invalid street name for OrigRowNum={orig_row}: '{address_before_ending}'")
-
-            # Check for permitted extensions after street ending
-            if remaining:
-                permitted_pattern = (
-                    r"^(?:" 
-                    r"\b(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)\b"
-                    r"|(?:US|STATE)\s+(?:HWY|HIGHWAY|ROUTE|RT)\s+\d+"
-                    r"|(?:US|STATE)\s+(?:HWY|HIGHWAY|ROUTE|RT)\s+\d+\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)"
-                    r"|\d+\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)"
-                    r"|\d+"  # Allow pure numeric extension (e.g., "140" after "CR")
-                    r")(?:\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest))?$"
-                )
-                is_permitted = re.match(permitted_pattern, remaining, re.IGNORECASE)
-                if is_permitted:
-                    validation_passed = True
-                    debug_print(f"Permitted extension after street ending for OrigRowNum={orig_row}: '{remaining}'")
-                else:
-                    corrected_address = address[:ending_end].strip()
-                    corrected_cells[(idx, "address")] = {
-                        "row": int(orig_row),
-                        "original": address,
-                        "corrected": corrected_address,
-                        "type": "Non-Permitted Extension Removal After Street Ending",
-                        "status": "Valid",
-                        "removed_part": remaining
-                    }
-                    address = corrected_address
-                    validation_passed = True
-                    debug_print(f"Removed non-permitted extension after street ending for OrigRowNum={orig_row}: '{remaining}' -> Result: '{address}'")
-        elif compass_ending_matches:
-            debug_print(f"Compass pattern matched for OrigRowNum={orig_row}: Address='{address}'")
-            validation_passed = True
-        elif number_number_compass_matches:
-            debug_print(f"Number-number-compass pattern matched for OrigRowNum={orig_row}: Address='{address}'")
+        # NEW: Check if address matches SPECIFIC_ROAD_PATTERN (highways, county roads, etc.) first
+        from src.config.settings import SPECIFIC_ROAD_PATTERN
+        specific_road_match = re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE)
+        if specific_road_match:
+            debug_print(f"Specific road pattern matched for OrigRowNum={orig_row}: Address='{address}' (Highway/County Road/etc.)")
             validation_passed = True
         else:
-            error_msg = "Corrected address is still invalid: Lacks standard street ending" if is_correction else "Lacks standard street ending"
-            append_error(error_msg)
-            debug_print(f"No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}'")
-            validation_passed = False
+            # Street endings already include required leading space in the pattern
+            street_ending_matches = list(re.finditer(rf"(?:{STREET_ENDINGS})(?:\s|$)", address, re.IGNORECASE))
+            compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
+            number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
+
+            if street_ending_matches:
+                debug_print(f"Street ending matched for OrigRowNum={orig_row}: Matches={street_ending_matches}")
+                last_match = street_ending_matches[-1]
+                ending_end = last_match.end()
+                remaining = address[ending_end:].strip()
+
+                # Validate street name before the ending
+                address_before_ending = address[:last_match.start()].strip()
+                # Regex: Optional directional prefix, house number (with optional letter suffix), followed by street name (letters, spaces, hyphens, apostrophes)
+                street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\s+[\w\s'-]+"
+                if re.match(street_name_pattern, address_before_ending):
+                    debug_print(f"Valid street name found for OrigRowNum={orig_row}: '{address_before_ending}'")
+                    validation_passed = True
+                else:
+                    error_msg = "Invalid street name format before street ending"
+                    append_error(error_msg)
+                    validation_passed = False
+                    debug_print(f"Invalid street name for OrigRowNum={orig_row}: '{address_before_ending}'")
+
+                # Check for permitted extensions after street ending
+                if remaining:
+                    permitted_pattern = (
+                        r"^(?:"
+                        r"\b(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)\b"
+                        r"|(?:US|STATE)\s+(?:HWY|HIGHWAY|ROUTE|RT)\s+\d+"
+                        r"|(?:US|STATE)\s+(?:HWY|HIGHWAY|ROUTE|RT)\s+\d+\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)"
+                        r"|\d+\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest)"
+                        r"|\d+"  # Allow pure numeric extension (e.g., "140" after "CR")
+                        r")(?:\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West|Northeast|Northwest|Southeast|Southwest))?$"
+                    )
+                    is_permitted = re.match(permitted_pattern, remaining, re.IGNORECASE)
+                    if is_permitted:
+                        validation_passed = True
+                        debug_print(f"Permitted extension after street ending for OrigRowNum={orig_row}: '{remaining}'")
+                    else:
+                        corrected_address = address[:ending_end].strip()
+                        corrected_cells[(idx, "address")] = {
+                            "row": int(orig_row),
+                            "original": address,
+                            "corrected": corrected_address,
+                            "type": "Non-Permitted Extension Removal After Street Ending",
+                            "status": "Valid",
+                            "removed_part": remaining
+                        }
+                        address = corrected_address
+                        validation_passed = True
+                        debug_print(f"Removed non-permitted extension after street ending for OrigRowNum={orig_row}: '{remaining}' -> Result: '{address}'")
+            elif compass_ending_matches:
+                debug_print(f"Compass pattern matched for OrigRowNum={orig_row}: Address='{address}'")
+                validation_passed = True
+            elif number_number_compass_matches:
+                debug_print(f"Number-number-compass pattern matched for OrigRowNum={orig_row}: Address='{address}'")
+                validation_passed = True
+            else:
+                error_msg = "Corrected address is still invalid: Lacks standard street ending" if is_correction else "Lacks standard street ending"
+                append_error(error_msg)
+                debug_print(f"No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}'")
+                validation_passed = False
 
     # Check for and remove non-standard endings only if street name is valid
     from src.config.settings import NON_STANDARD_ENDINGS
@@ -324,15 +331,23 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
 
     # Final street ending check for non-corrected addresses
     if not is_correction:
-        final_street_ending_matches = list(re.finditer(rf"\s+(?:{STREET_ENDINGS})\b", address, re.IGNORECASE))
-        compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
-        number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
+        # NEW: Check if address matches SPECIFIC_ROAD_PATTERN (highways, county roads, etc.) first
+        from src.config.settings import SPECIFIC_ROAD_PATTERN
+        specific_road_match = re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE)
 
-        if not final_street_ending_matches and not compass_ending_matches and not number_number_compass_matches:
-            error_msg = "Lacks standard street ending"
-            append_error(error_msg)
-            debug_print(f"Final check: No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}'")
-            validation_passed = False
+        if not specific_road_match:
+            # Only check for standard street endings if it's not a specific road type
+            final_street_ending_matches = list(re.finditer(rf"\s+(?:{STREET_ENDINGS})\b", address, re.IGNORECASE))
+            compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
+            number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
+
+            if not final_street_ending_matches and not compass_ending_matches and not number_number_compass_matches:
+                error_msg = "Lacks standard street ending"
+                append_error(error_msg)
+                debug_print(f"Final check: No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}'")
+                validation_passed = False
+        else:
+            debug_print(f"Final check: Specific road pattern matched for OrigRowNum={orig_row}: Address='{address}' (Highway/County Road/etc.) - skipping standard ending check")
 
     return validation_passed
 
