@@ -202,7 +202,6 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         debug_print(f"Checking street ending for OrigRowNum={orig_row}: Address='{address}', non_standard_only={non_standard_only}, is_correction={is_correction}, corrected_cells_status={corrected_cells.get((idx, 'address'), {}).get('status', 'N/A')}")
 
         # NEW: Check if address matches SPECIFIC_ROAD_PATTERN (highways, county roads, etc.) first
-        from src.config.settings import SPECIFIC_ROAD_PATTERN
         specific_road_match = re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE)
         if specific_road_match:
             debug_print(f"Specific road pattern matched for OrigRowNum={orig_row}: Address='{address}' (Highway/County Road/etc.)")
@@ -332,7 +331,6 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
     # Final street ending check for non-corrected addresses
     if not is_correction:
         # NEW: Check if address matches SPECIFIC_ROAD_PATTERN (highways, county roads, etc.) first
-        from src.config.settings import SPECIFIC_ROAD_PATTERN
         specific_road_match = re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE)
 
         if not specific_road_match:
