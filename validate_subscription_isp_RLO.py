@@ -634,9 +634,30 @@ def create_subscription(subfile, filename, isp, periodpath, period):
             with open('validate_subs.log', 'a') as f:
                 print(f'[INVALID FILE] WARNING: No user found in database for org_id={isp}\n', file=f)
 
-        # Check if this is a header validation error (could be in stdout or error_message)
-        is_header_error = ('Could not locate valid column headers' in validation_result.get('error_message', '') or
-                          'Could not locate valid column headers' in validation_result.get('stdout', ''))
+        # Check if this is a header validation error
+        # Header errors are saved to an _Errors.csv file, so we need to read it
+        is_header_error = False
+
+        # Look for _Errors.csv file in artifacts
+        for artifact_path in validation_result.get('artifact_paths', []):
+            if artifact_path.endswith('_Errors.csv'):
+                try:
+                    import pandas as pd
+                    errors_df = pd.read_csv(artifact_path)
+                    # Check if any error message contains the header validation error
+                    if not errors_df.empty and 'Error' in errors_df.columns:
+                        error_messages = errors_df['Error'].astype(str).tolist()
+                        for error_msg in error_messages:
+                            if 'Could not locate valid column headers' in error_msg:
+                                is_header_error = True
+                                with open('validate_subs.log', 'a') as f:
+                                    print(f'[INVALID FILE] Found header error in {artifact_path}: {error_msg}\n', file=f)
+                                break
+                except Exception as e:
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'[INVALID FILE] Error reading errors file {artifact_path}: {str(e)}\n', file=f)
+                if is_header_error:
+                    break
 
         # If it's a header error, send header-specific email and stop
         if is_header_error:
