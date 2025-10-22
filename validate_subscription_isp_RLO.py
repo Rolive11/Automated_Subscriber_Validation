@@ -478,15 +478,18 @@ Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC
 
 Initial review of the file suggests the file needs a little help.
 
-We have created and attached a partially corrected Excel file of your subscriber file.
+We have attached two files to this email:
 
-The file has color-coded cells that have been corrected (green) and those that need to be corrected (red, pink and yellow).
+1. Your original subscriber file (for reference)
+2. {isp}_corrected_subscribers.xlsx - An Excel file with color-coded corrections
+
+The {isp}_corrected_subscribers.xlsx file has color-coded cells that have been corrected (green) and those that need to be corrected (red, pink and yellow).
 
 Please:
-1. Open the attached Excel file
+1. Open the attached {isp}_corrected_subscribers.xlsx file
 2. Correct the Red and Pink data cells; Review and correct all the yellow cells, as appropriate. Missing zip codes, for example, will be yellow and should be filled in.
-3. Complete your repairs and save the file in a CSV format - it is currently named this way: "org_id"_modified_Subscription_file.xlsx, where org_id is our internal numbering for your company.
-4. Re-upload the corrected csv file; If the file passes inspection, you will receive an email indicating that the file has been processed.
+3. Complete your repairs and SAVE THE FILE IN A CSV format
+4. Re-upload the corrected CSV file. If the file passes inspection, you will receive an email with a complete validation report.
 
 If your file needs to be corrected, below is a link to instructions for what needs to be submitted for each field.
 https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
@@ -1096,6 +1099,19 @@ All files are attached for manual inspection.
                 with open('validate_subs.log', 'a') as f:
                     print(f'[PHASE 2 SUCCESS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
 
+                # Find the VR.xlsx file to attach
+                vr_file = None
+                for filepath in phase2_files:
+                    if filepath.endswith('_VR.xlsx'):
+                        vr_file = filepath
+                        with open('validate_subs.log', 'a') as f:
+                            print(f'[PHASE 2 SUCCESS] Found VR file for user email: {os.path.basename(vr_file)}\n', file=f)
+                        break
+
+                if not vr_file:
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'[PHASE 2 SUCCESS] WARNING: VR.xlsx file not found in phase2_files\n', file=f)
+
                 # Create success message for user
                 success_message = f"""Dear {cname},
 
@@ -1104,6 +1120,14 @@ Thank you for submitting your subscriber file to Regulatory Solutions for FCC BD
 We are pleased to inform you that your subscriber file has been successfully processed and validated.
 
 Your data has been geocoded, validated against census tract boundaries, and prepared for FCC submission.
+
+Attached to this email is your complete Validation Report ({isp}_VR.xlsx). This report contains:
+- All corrections made to your data (addresses, coordinates, formatting, etc.)
+- Smarty API address validations performed
+- Any duplicate records that were renamed
+- A complete processing log
+
+We recommend reviewing this report and updating your source database to reflect these corrections for future submissions.
 
 If we discover any issues during our final review, we will contact you promptly. Otherwise, your submission is complete and no further action is required on your part.
 
@@ -1117,11 +1141,14 @@ The Regulatory Solutions Team"""
                     customer,
                     cname,
                     success_message,
-                    None,  # No attachment for success email
+                    vr_file,  # Attach VR.xlsx file
                     success_subject)
 
                 with open('validate_subs.log', 'a') as f:
-                    print(f'[PHASE 2 SUCCESS] Success email sent to user: {customer}\n', file=f)
+                    if vr_file:
+                        print(f'[PHASE 2 SUCCESS] Success email sent to user with VR attachment: {customer}\n', file=f)
+                    else:
+                        print(f'[PHASE 2 SUCCESS] Success email sent to user (no VR attachment found): {customer}\n', file=f)
             else:
                 with open('validate_subs.log', 'a') as f:
                     print(f'[PHASE 2 SUCCESS] WARNING: No user found in database for org_id={isp}\n', file=f)
