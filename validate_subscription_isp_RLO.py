@@ -634,6 +634,80 @@ def create_subscription(subfile, filename, isp, periodpath, period):
             with open('validate_subs.log', 'a') as f:
                 print(f'[INVALID FILE] WARNING: No user found in database for org_id={isp}\n', file=f)
 
+        # Check if this is a header validation error (could be in stdout or error_message)
+        is_header_error = ('Could not locate valid column headers' in validation_result.get('error_message', '') or
+                          'Could not locate valid column headers' in validation_result.get('stdout', ''))
+
+        # If it's a header error, send header-specific email and stop
+        if is_header_error:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[INVALID FILE] Header error detected in invalid status - sending header-specific email\n', file=f)
+
+            header_error_message = f"""Dear {cname},
+
+Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC processing.
+
+We were unable to process your file because the column headers do not match the required format.
+
+Your file must contain exactly these 12 column headers (in any order):
+• customer
+• lat
+• lon
+• address
+• city
+• state
+• zip
+• download
+• upload
+• voip_lines_quantity
+• business_customer
+• technology
+
+Common Issues:
+- Column headers have extra spaces or special characters
+- Headers are in a different row (not the first row)
+- Headers are misspelled or use different names
+- File contains extra rows before the header row
+
+What to do next:
+1. Review your attached file and verify the column headers match exactly
+2. Correct the headers to match the required names above
+3. Ensure headers are in the first row of your file
+4. Save your file and re-upload
+
+For detailed requirements and a template, please refer to:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+If you need assistance, please contact RSI at 972-836-7107.
+
+Best regards,
+The Regulatory Solutions Team"""
+
+            # Get original CSV to attach
+            original_csv_attachment = validation_result.get('original_csv_path')
+            if original_csv_attachment and os.path.exists(original_csv_attachment):
+                with open('validate_subs.log', 'a') as f:
+                    print(f'Attaching original CSV to header error email: {original_csv_attachment}\n', file=f)
+            else:
+                original_csv_attachment = None
+
+            header_email_subject = 'FCC BDC Subscriber File - Column Header Error'
+            sendEmail(
+                customer,
+                cname,
+                header_error_message,
+                original_csv_attachment,
+                header_email_subject)
+
+            # Update database status
+            sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+                isp + """ and filing_period = '""" + period + """' """
+            cursor.execute(sql)
+            conn.commit()
+
+            return  # Stop processing
+
+        # If not a header error, continue with normal invalid file handling
         # Create user message
         user_message = f"""Dear {cname},
 
