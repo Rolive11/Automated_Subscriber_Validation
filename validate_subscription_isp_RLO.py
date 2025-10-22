@@ -19,6 +19,7 @@ import requests
 import googlemaps
 from time import time, sleep
 import re
+import json
 
 # Load environment variables from .env file if it exists
 try:
@@ -27,6 +28,134 @@ try:
 except ImportError:
     # dotenv not installed, rely on system environment variables
     pass
+
+# Email configuration constants
+EMERGENCY_EMAIL = 'rolive@regulatorysolutions.us'
+EMAIL_CONFIG_PATH = '/var/www/broadband/src/config/email_config.json'
+
+# Global email config cache
+_email_config_cache = None
+_email_config_error = None
+
+
+def load_email_config():
+    """Load email configuration from JSON file with caching and fallback to defaults."""
+    global _email_config_cache, _email_config_error
+
+    # Return cached config if available
+    if _email_config_cache is not None:
+        return _email_config_cache, None
+
+    # Return cached error if we already tried and failed
+    if _email_config_error is not None:
+        return get_default_email_config(), _email_config_error
+
+    try:
+        with open(EMAIL_CONFIG_PATH, 'r') as f:
+            config = json.load(f)
+
+        # Validate required fields
+        required_fields = ['from_address', 'admin_email', 'bcc_addresses', 'smtp_user']
+        missing_fields = [field for field in required_fields if field not in config]
+
+        if missing_fields:
+            error_msg = f"Missing required fields in email config: {', '.join(missing_fields)}"
+            _email_config_error = error_msg
+            with open('validate_subs.log', 'a') as f:
+                print(f'[EMAIL CONFIG ERROR] {error_msg}\n', file=f)
+            return get_default_email_config(), error_msg
+
+        # Parse BCC addresses and ensure emergency email is included
+        bcc_list = [addr.strip() for addr in config['bcc_addresses'].split(',')]
+        if EMERGENCY_EMAIL not in bcc_list:
+            bcc_list.append(EMERGENCY_EMAIL)
+        config['bcc_list'] = bcc_list
+
+        _email_config_cache = config
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMAIL CONFIG] Successfully loaded from {EMAIL_CONFIG_PATH}\n', file=f)
+
+        return config, None
+
+    except FileNotFoundError:
+        error_msg = f"Email config file not found: {EMAIL_CONFIG_PATH}"
+        _email_config_error = error_msg
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMAIL CONFIG ERROR] {error_msg}\n', file=f)
+        return get_default_email_config(), error_msg
+
+    except json.JSONDecodeError as e:
+        error_msg = f"Invalid JSON in email config file: {str(e)}"
+        _email_config_error = error_msg
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMAIL CONFIG ERROR] {error_msg}\n', file=f)
+        return get_default_email_config(), error_msg
+
+    except Exception as e:
+        error_msg = f"Unexpected error loading email config: {str(e)}"
+        _email_config_error = error_msg
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMAIL CONFIG ERROR] {error_msg}\n', file=f)
+        return get_default_email_config(), error_msg
+
+
+def get_default_email_config():
+    """Return hard-coded default email configuration."""
+    return {
+        'from_address': 'info@regulatorysolutions.us',
+        'admin_email': EMERGENCY_EMAIL,
+        'bcc_addresses': EMERGENCY_EMAIL,
+        'bcc_list': [EMERGENCY_EMAIL],
+        'smtp_user': 'info@regulatorysolutions.us'
+    }
+
+
+def send_emergency_notification(error_message, intended_recipient, context_info):
+    """Send emergency notification about email config failure to hard-coded emergency email."""
+    try:
+        port = 465
+        context = ssl.create_default_context()
+
+        message = MIMEMultipart()
+        message["From"] = 'info@regulatorysolutions.us'
+        message["To"] = EMERGENCY_EMAIL
+        message["Subject"] = 'WARNING: Email Config Error - validate_subscription_isp'
+
+        body = f"""WARNING: Email Configuration Error
+
+The email configuration file could not be loaded:
+File: {EMAIL_CONFIG_PATH}
+Error: {error_message}
+
+Fallback action taken: Email WAS SENT to {intended_recipient} using hard-coded defaults.
+
+Context:
+{context_info}
+
+Note: Only {EMERGENCY_EMAIL} was copied on the email (BCC).
+
+Please fix the email_config.json file to restore full functionality.
+"""
+
+        message.attach(MIMEText(body, "plain"))
+        text = message.as_string()
+
+        smtp_password = os.getenv('SMTP_PASSWORD')
+        if not smtp_password:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[EMERGENCY EMAIL ERROR] Cannot send emergency notification - SMTP_PASSWORD not set\n', file=f)
+            return
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
+            server.login('info@regulatorysolutions.us', smtp_password)
+            server.sendmail('info@regulatorysolutions.us', EMERGENCY_EMAIL, text)
+
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMERGENCY EMAIL] Sent emergency notification to {EMERGENCY_EMAIL}\n', file=f)
+
+    except Exception as e:
+        with open('validate_subs.log', 'a') as f:
+            print(f'[EMERGENCY EMAIL ERROR] Failed to send emergency notification: {str(e)}\n', file=f)
 
 
 def truncate(f, n):
@@ -81,17 +210,32 @@ def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
     """
     with open('validate_subs.log', 'a') as f:
         print(f'[SEND EMAIL] Preparing to send email to customer: {customer}\n', file=f)
+
+    # Load email configuration
+    email_config, config_error = load_email_config()
+
+    # If config failed, send emergency notification
+    if config_error:
+        send_emergency_notification(
+            config_error,
+            customer,
+            f"Email type: Customer notification\nRecipient: {customer}\nSubject: {subject or 'Subscriber File Processing Update'}"
+        )
+
     port = 465  # For SSL
     # Create a secure SSL context
     context = ssl.create_default_context()
 
     message = MIMEMultipart()
-    message["From"] = 'info@regulatorysolutions.us'
+    message["From"] = email_config['from_address']
     message["To"] = customer
     default_subject = 'Automated Message - Subscriber File Processing Update'
     message["Subject"] = subject if subject else default_subject
-    # Recommended for mass emails
-    message["Bcc"] = 'tbleeker@regulatorysolutions.us'
+    # Add BCC recipients from config
+    message["Bcc"] = ', '.join(email_config['bcc_list'])
+
+    with open('validate_subs.log', 'a') as f:
+        print(f'[SEND EMAIL] BCC list: {", ".join(email_config["bcc_list"])}\n', file=f)
 
     # Add body to email
     message.attach(MIMEText(emessage, "plain"))
@@ -137,7 +281,7 @@ def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
 
     text = message.as_string()
 
-    smtp_user = os.getenv('SMTP_USER', 'info@regulatorysolutions.us')
+    smtp_user = os.getenv('SMTP_USER', email_config['smtp_user'])
     smtp_password = os.getenv('SMTP_PASSWORD')
     if not smtp_password:
         raise ValueError("SMTP_PASSWORD environment variable not set")
@@ -153,20 +297,39 @@ def sendEmail(customer, name, emessage, attachment_path=None, subject=None):
 
 
 def sendEmailToAdmin(subject, message, attachment_paths=None,
-                     admin_email='rolive@regulatorysolutions.us'):
+                     admin_email=None):
     """Send email to admin with optional file attachments."""
     try:
         with open('validate_subs.log', 'a') as f:
             print(f'Sending admin email: {subject}\n', file=f)
 
+        # Load email configuration
+        email_config, config_error = load_email_config()
+
+        # Use admin_email from config if not provided
+        if admin_email is None:
+            admin_email = email_config['admin_email']
+
+        # If config failed, send emergency notification
+        if config_error:
+            send_emergency_notification(
+                config_error,
+                admin_email,
+                f"Email type: Admin notification\nRecipient: {admin_email}\nSubject: {subject}"
+            )
+
         port = 465  # For SSL
         context = ssl.create_default_context()
 
         email_message = MIMEMultipart()
-        email_message["From"] = 'info@regulatorysolutions.us'
+        email_message["From"] = email_config['from_address']
         email_message["To"] = admin_email
         email_message["Subject"] = subject
-        email_message["Bcc"] = 'tbleeker@regulatorysolutions.us'
+        # Add BCC recipients from config
+        email_message["Bcc"] = ', '.join(email_config['bcc_list'])
+
+        with open('validate_subs.log', 'a') as f:
+            print(f'[SEND ADMIN EMAIL] BCC list: {", ".join(email_config["bcc_list"])}\n', file=f)
 
         # Add body to email
         email_message.attach(MIMEText(message, "plain"))
@@ -207,7 +370,7 @@ def sendEmailToAdmin(subject, message, attachment_paths=None,
         # Convert message to string and send
         text = email_message.as_string()
 
-        smtp_user = os.getenv('SMTP_USER', 'info@regulatorysolutions.us')
+        smtp_user = os.getenv('SMTP_USER', email_config['smtp_user'])
         smtp_password = os.getenv('SMTP_PASSWORD')
         if not smtp_password:
             raise ValueError("SMTP_PASSWORD environment variable not set")
