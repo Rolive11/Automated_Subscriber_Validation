@@ -650,7 +650,7 @@ def validate_subscriber_file(input_csv, company_id, period):
             "Error": f"Could not locate valid column headers in first 7 rows of {input_csv}",
             "Value": "N/A"
         })
-        save_errors_and_exit(errors, company_id, original_filename)
+        save_errors_and_exit(errors, company_id, original_filename, exit_code=2)
         return
 
     # NEW: Validate column count consistency and auto-fix by truncating extra columns
@@ -1030,10 +1030,16 @@ def validate_subscriber_file(input_csv, company_id, period):
 
     return cleaned_df, errors, file_validation
 
-def save_errors_and_exit(errors, company_id, base_filename):
-    """Save errors and exit the program."""
+def save_errors_and_exit(errors, company_id, base_filename, exit_code=1):
+    """Save errors and exit the program with specified exit code.
+
+    Exit codes:
+    1 = Invalid file (has errors but can be corrected)
+    2 = Header validation error (missing/incorrect column headers)
+    3+ = Other critical errors
+    """
     import sys
     path = os.path.join(company_id, f"{base_filename}_Errors.csv")
     save_csv(pd.DataFrame(errors), path, errors)
-    debug_print(f"Errors saved to {path}. Exiting.")
-    sys.exit(1)
+    debug_print(f"Errors saved to {path}. Exiting with code {exit_code}.")
+    sys.exit(exit_code)
