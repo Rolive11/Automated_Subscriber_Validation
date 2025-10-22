@@ -773,23 +773,78 @@ The Regulatory Solutions Team"""
             with open('validate_subs.log', 'a') as f:
                 print(f'[VALIDATION ERROR] WARNING: No user found in database for org_id={isp}\n', file=f)
 
-        # Create user error message
-        error_message = f"""Dear {cname},
+        # Check if this is a header validation error
+        is_header_error = 'Could not locate valid column headers' in validation_result.get('error_message', '')
 
-    We encountered a technical issue while processing your subscriber file that prevented validation from completing.
+        # Create user error message based on error type
+        if is_header_error:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[VALIDATION ERROR] Header error detected - sending header-specific email\n', file=f)
 
-    This is typically due to file format issues such as:
-    - Missing required columns
-    - Incorrect file structure
-    - File encoding problems
+            error_message = f"""Dear {cname},
 
-    Please verify your file follows the subscriber template format and re-upload, or contact our support team for assistance.
+Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC processing.
 
-    For your convenience, detailed field requirements are available at:
-    https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+We were unable to process your file because the column headers do not match the required format.
 
-    Best regards,
-    The Regulatory Solutions Team"""
+Your file must contain exactly these 12 column headers (in any order):
+• customer
+• lat
+• lon
+• address
+• city
+• state
+• zip
+• download
+• upload
+• voip_lines_quantity
+• business_customer
+• technology
+
+Common Issues:
+- Column headers have extra spaces or special characters
+- Headers are in a different row (not the first row)
+- Headers are misspelled or use different names
+- File contains extra rows before the header row
+
+What to do next:
+1. Review your attached file and verify the column headers match exactly
+2. Correct the headers to match the required names above
+3. Ensure headers are in the first row of your file
+4. Save your file and re-upload
+
+For detailed requirements and a template, please refer to:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+If you need assistance, please contact RSI at 972-836-7107.
+
+Best regards,
+The Regulatory Solutions Team"""
+
+            email_subject = 'FCC BDC Subscriber File - Column Header Error'
+
+        else:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[VALIDATION ERROR] Generic error - sending standard error email\n', file=f)
+
+            error_message = f"""Dear {cname},
+
+We encountered a technical issue while processing your subscriber file that prevented validation from completing.
+
+This is typically due to file format issues such as:
+- Missing required columns
+- Incorrect file structure
+- File encoding problems
+
+Please verify your file follows the subscriber template format and re-upload, or contact our support team for assistance.
+
+For your convenience, detailed field requirements are available at:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+Best regards,
+The Regulatory Solutions Team"""
+
+            email_subject = 'Subscriber File Processing Error'
 
         # Send error notification to user with original CSV attached
         original_csv_attachment = validation_result.get('original_csv_path')
@@ -802,7 +857,7 @@ The Regulatory Solutions Team"""
                 print(f'Original CSV not found for attachment\n', file=f)
 
         sendEmail(customer, cname, error_message, original_csv_attachment,
-                  'Subscriber File Processing Error')
+                  email_subject)
 
         # Update database status
         sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
