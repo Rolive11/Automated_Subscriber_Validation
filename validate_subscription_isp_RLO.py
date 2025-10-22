@@ -1314,7 +1314,7 @@ Attached to this email is your complete Validation Report ({isp}_VR.xlsx). This 
 
 We recommend reviewing this report and updating your source database to reflect these corrections for future submissions.
 
-If we discover any issues during our final review, we will contact you promptly. Otherwise, your submission is complete and no further action is required on your part.
+If we discover any issues during our final review, we will contact you promptly. Otherwise, your subscriber file submission is complete and no further action is required on your part.
 
 Thank you for your timely attention to this important filing requirement.
 
