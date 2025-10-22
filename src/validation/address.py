@@ -328,7 +328,13 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         debug_print(f"Flagged for Smarty validation due to invalid format for OrigRowNum={orig_row}: '{address}'")
         return False
 
-    # Final street ending check for ALL addresses (including Smarty corrections)
+    # If this address was corrected by Smarty, skip all further validation
+    # Smarty is the authoritative source - if it validated the address, we accept it
+    if is_correction:
+        debug_print(f"Address corrected by Smarty for OrigRowNum={orig_row}: '{address}' - skipping further validation (Smarty is authoritative)")
+        return True
+
+    # Final street ending check for non-Smarty addresses
     # NEW: Check if address matches SPECIFIC_ROAD_PATTERN (highways, county roads, etc.) first
     specific_road_match = re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE)
 
@@ -339,13 +345,10 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
 
         if not final_street_ending_matches and not compass_ending_matches and not number_number_compass_matches:
-            error_msg = "Corrected address is still invalid: Lacks standard street ending" if is_correction else "Lacks standard street ending"
+            error_msg = "Lacks standard street ending"
             append_error(error_msg)
-            debug_print(f"Final check: No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}' (is_correction={is_correction})")
+            debug_print(f"Final check: No street ending or compass pattern match for OrigRowNum={orig_row}: Address='{address}'")
             validation_passed = False
-            # Mark for Smarty if not already a Smarty correction
-            if is_correction:
-                rows_to_remove.append(orig_row)
     else:
         debug_print(f"Final check: Specific road pattern matched for OrigRowNum={orig_row}: Address='{address}' (Highway/County Road/etc.) - skipping standard ending check")
 
