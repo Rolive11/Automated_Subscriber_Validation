@@ -1263,17 +1263,39 @@ All files are attached for manual inspection.
                     print(f'[PHASE 2 SUCCESS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
 
                 # Find the VR.xlsx file to attach
+                # VR file is created by Code A in Subscriber_File_Validations directory
                 vr_file = None
+
+                # First try to find in phase2_files (subscription_processed directory)
                 for filepath in phase2_files:
                     if filepath.endswith('_VR.xlsx'):
                         vr_file = filepath
                         with open('validate_subs.log', 'a') as f:
-                            print(f'[PHASE 2 SUCCESS] Found VR file for user email: {os.path.basename(vr_file)}\n', file=f)
+                            print(f'[PHASE 2 SUCCESS] Found VR file in phase2_files: {os.path.basename(vr_file)}\n', file=f)
                         break
+
+                # If not found, search in Subscriber_File_Validations directory where Code A creates it
+                if not vr_file:
+                    validation_dir = f"/var/www/broadband/Subscriber_File_Validations/{period}/{isp}"
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'[PHASE 2 SUCCESS] Searching for VR file in validation directory: {validation_dir}\n', file=f)
+
+                    if os.path.exists(validation_dir):
+                        vr_files = glob.glob(f"{validation_dir}/*_VR.xlsx")
+                        if vr_files:
+                            vr_file = vr_files[0]  # Take the first match
+                            with open('validate_subs.log', 'a') as f:
+                                print(f'[PHASE 2 SUCCESS] Found VR file in validation directory: {os.path.basename(vr_file)}\n', file=f)
+                        else:
+                            with open('validate_subs.log', 'a') as f:
+                                print(f'[PHASE 2 SUCCESS] WARNING: No VR.xlsx files found in {validation_dir}\n', file=f)
+                    else:
+                        with open('validate_subs.log', 'a') as f:
+                            print(f'[PHASE 2 SUCCESS] WARNING: Validation directory does not exist: {validation_dir}\n', file=f)
 
                 if not vr_file:
                     with open('validate_subs.log', 'a') as f:
-                        print(f'[PHASE 2 SUCCESS] WARNING: VR.xlsx file not found in phase2_files\n', file=f)
+                        print(f'[PHASE 2 SUCCESS] WARNING: VR.xlsx file not found in any location\n', file=f)
 
                 # Create success message for user
                 success_message = f"""Dear {cname},
