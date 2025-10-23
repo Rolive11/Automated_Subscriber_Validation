@@ -646,20 +646,21 @@ Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC
 
 Initial review of the file suggests the file needs a little help.
 
-We have attached two files to this email:
-
-1. Your original subscriber file (for reference)
-2. {isp}_corrected_subscribers.xlsx - An Excel file with color-coded corrections
-
-The {isp}_corrected_subscribers.xlsx file has color-coded cells that have been corrected (green) and those that need to be corrected (red, pink and yellow).
+We have attached {isp}_corrected_subscribers.xlsx to this email. This Excel file contains color-coded cells:
+- Green cells have been automatically corrected
+- Red and Pink cells require your correction
+- Yellow cells should be reviewed and corrected as appropriate (e.g., missing zip codes)
 
 Please:
 1. Open the attached {isp}_corrected_subscribers.xlsx file
-2. Correct the Red and Pink data cells; Review and correct all the yellow cells, as appropriate. Missing zip codes, for example, will be yellow and should be filled in.
-3. Complete your repairs and SAVE THE FILE IN A CSV format
-4. Re-upload the corrected CSV file. If the file passes inspection, you will receive an email with a complete validation report.
+2. Correct the Red and Pink data cells
+3. Review and correct all Yellow cells as appropriate
+4. Complete your repairs and SAVE THE FILE IN A CSV format
+5. Re-upload the corrected CSV file
 
-If your file needs to be corrected, below is a link to instructions for what needs to be submitted for each field.
+If the file passes inspection, you will receive an email with a complete validation report.
+
+For detailed requirements and instructions, please refer to:
 https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
 
 Thanks for taking care of this.
@@ -709,27 +710,13 @@ The Regulatory Solutions Team"""
                     print(f'Error processing Excel file: {str(e)}\n', file=f)
                     print(f'Sending original file instead\n', file=f)
 
-        # Get original CSV to attach
-        original_csv_attachment = validation_result.get('original_csv_path')
-        if original_csv_attachment and os.path.exists(original_csv_attachment):
-            with open('validate_subs.log', 'a') as f:
-                print(f'Attaching original CSV to invalid file email: {original_csv_attachment}\n', file=f)
-        else:
-            original_csv_attachment = None
-
-        # Prepare attachments list
-        attachments = []
-        if excel_attachment:
-            attachments.append(excel_attachment)
-        if original_csv_attachment:
-            attachments.append(original_csv_attachment)
-
+        # Send only the corrected Excel file (not the original CSV)
         custom_subject = f'Your FCC BDC Subscriber File Failed to Complete Processing due to Errors; Action Requested ({isp})'
         sendEmail(
             customer,
             cname,
             user_message,
-            attachments if attachments else None,
+            excel_attachment,
             custom_subject)
 
         if excel_attachment:
@@ -740,10 +727,6 @@ The Regulatory Solutions Team"""
                 print(
                     f'Warning: No Excel file available to send to user for org {isp}\n',
                     file=f)
-
-        if original_csv_attachment:
-            with open('validate_subs.log', 'a') as f:
-                print(f'Sent original CSV file to user: {os.path.basename(original_csv_attachment)}\n', file=f)
 
         # Update database status
         sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_failed' where org_id = """ + \
