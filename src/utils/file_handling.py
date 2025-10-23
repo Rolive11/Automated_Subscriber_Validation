@@ -15,7 +15,7 @@ import openpyxl
 from openpyxl.styles import PatternFill
 from src.utils.logging import debug_print
 from src.config.settings import EXPECTED_COLUMNS, VALID_STATES, VALID_TECHNOLOGIES, STATE_LAT_RANGES, STATE_LON_RANGES, DTYPE_DICT, GREEN_FILL, PINK_FILL, YELLOW_FILL, RED_FILL
-from src.validation.customer import validate_customer_uniqueness
+from src.validation.customer import validate_customer_uniqueness, remove_full_row_duplicates
 from src.validation.address import validate_address, validate_address_column
 from src.validation.general import validate_general_columns, validate_and_correct_state
 from src.validation.coordinates import validate_coordinates
@@ -590,6 +590,7 @@ def validate_subscriber_file(input_csv, company_id, period):
     pobox_errors = []
     rows_to_remove = []
     non_unique_row_removals = []
+    duplicate_removals = []  # Track full-row and customer-based duplicate removals
     start_time = time.time()
 
     # Build new directory structure: /var/www/broadband/Subscriber_File_Validations/{period}/{company_id}/
@@ -840,6 +841,10 @@ def validate_subscriber_file(input_csv, company_id, period):
     cleaned_df["address"] = cleaned_df["address"].fillna("").astype(str).str.upper()
     cleaned_df["city"] = cleaned_df["city"].fillna("").astype(str).str.upper()
 
+    # Remove full-row duplicates and handle customer duplicates with speed/technology ranking
+    # This runs early to reduce processing on duplicate data
+    cleaned_df = remove_full_row_duplicates(cleaned_df, errors, rows_to_remove, duplicate_removals, corrected_cells, flagged_cells)
+
     # Phase 1: Non-standard address endings and state correction
     for idx, val in enumerate(cleaned_df["address"].fillna("").astype(str).str.strip()):
         orig_row = cleaned_df["OrigRowNum"][idx]
@@ -896,6 +901,10 @@ def validate_subscriber_file(input_csv, company_id, period):
     # Different customers with same data are KEPT (common in MDUs - same building, different apartments)
     validate_customer_uniqueness(cleaned_df, errors, rows_to_remove, non_unique_row_removals, corrected_cells, flagged_cells)
     save_csv(pd.DataFrame(non_unique_row_removals), os.path.join(company_id, f"{base_filename}_N_Unq_Row_Remvl.csv"), errors)
+
+    # Save duplicate removals report (exact duplicates and customer-based duplicates)
+    save_csv(pd.DataFrame(duplicate_removals), os.path.join(company_id, f"{base_filename}_Duplicate_Row_Removal.csv"), errors)
+    debug_print(f"Saved duplicate removals report: {len(duplicate_removals)} rows removed")
 
     # Deduplicate errors before further processing
     unique_errors = {f"{e['Row']}_{e['Column']}_{e['Error']}_{e['Value']}": e for e in errors}
@@ -988,8 +997,8 @@ def validate_subscriber_file(input_csv, company_id, period):
     # Generate validation report and get file validation status
     # This is where the final decision on Smarty failures is made using subscriber-count thresholds
     vr_excel_path, vr_json_path, file_validation = generate_validation_report(
-        cleaned_df, company_id, base_filename, errors, start_time, corrected_cells, 
-        flagged_cells, pobox_errors, non_unique_row_removals, smarty_results
+        cleaned_df, company_id, base_filename, errors, start_time, corrected_cells,
+        flagged_cells, pobox_errors, non_unique_row_removals, smarty_results, duplicate_removals
     )
     
     # Log final validation status

@@ -172,7 +172,7 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
     }
 
 
-def generate_validation_report(cleaned_df, company_id, base_filename, errors, start_time, corrected_cells, flagged_cells, pobox_errors, non_unique_row_removals, smarty_results=None):
+def generate_validation_report(cleaned_df, company_id, base_filename, errors, start_time, corrected_cells, flagged_cells, pobox_errors, non_unique_row_removals, smarty_results=None, duplicate_removals=None):
     """Generate validation report in Excel and JSON formats."""
     vr_excel_path = f"{company_id}/{base_filename}_VR.xlsx"
     vr_json_path = f"{company_id}/{base_filename}_VR.json"
@@ -189,7 +189,8 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
 
         # Convert other data structures
         pobox_errors_converted = [convert_numpy_types(error) for error in pobox_errors]
-        
+        duplicate_removals_converted = [convert_numpy_types(removal) for removal in (duplicate_removals or [])]
+
         # Deduplicate errors to prevent repetition
         debug_print(f"Raw errors before deduplication: {len(errors)}")
         unique_errors = {f"{e['Row']}_{e['Column']}_{e['Error']}_{e['Value']}": e for e in errors}
@@ -398,11 +399,12 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
         pr_auto_accepts = sum(1 for info in corrected_cells_converted.values() if info.get("type") == "PR Address Auto-Accept")
 
         summary = {
-            "Total Rows Processed": int(len(cleaned_df) + len(pobox_errors_converted) + len(non_unique_row_removals_converted) + len(invalid_address_removals_converted)),
+            "Total Rows Processed": int(len(cleaned_df) + len(pobox_errors_converted) + len(non_unique_row_removals_converted) + len(invalid_address_removals_converted) + len(duplicate_removals_converted)),
             "Rows with Corrections": int(len(set(v["row"] for k, v in corrected_cells_converted.items() if v["status"] == "Valid" and v.get("row") in cleaned_df["OrigRowNum"].values))),
             "Rows with Errors": int(len(set(error["Row"] for error in errors_converted if error["Row"] != "N/A" and int(error["Row"]) in cleaned_df["OrigRowNum"].values))),
             "PO Box Rows Removed": int(len(pobox_errors_converted)),
             "Invalid Address Rows Removed": int(len(invalid_address_removals_converted)),
+            "Duplicate Rows Removed (Full & Customer-based)": int(len(duplicate_removals_converted)),
             "Removed Duplicate Rows": int(len(non_unique_row_removals_converted)),
             "PR Addresses Auto-Accepted": pr_auto_accepts,  # NEW
             "Total Corrections": int(len(corrected_cells_converted)),
@@ -513,6 +515,10 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             non_unique_df = pd.DataFrame(non_unique_row_removals_converted).sort_values(by="OrigRowNum") if non_unique_row_removals_converted else pd.DataFrame(columns=["OrigRowNum", "customer", "lat", "lon", "address", "city", "state", "zip", "download", "upload", "voip_lines_quantity", "business_customer", "technology", "Error"])
             non_unique_df.to_excel(writer, sheet_name="Non-Unique Row Removals", index=False)
 
+            # Duplicate Rows Removed tab (exact duplicates and customer-based duplicates)
+            duplicate_removals_df = pd.DataFrame(duplicate_removals_converted).sort_values(by="OrigRowNum") if duplicate_removals_converted else pd.DataFrame(columns=["OrigRowNum", "Reason", "Duplicate_Of_Row", "Customer_ID", "Address", "Download_Speed", "Upload_Speed", "Technology"])
+            duplicate_removals_df.to_excel(writer, sheet_name="Duplicate Rows Removed", index=False)
+
             # Auto-size columns for all sheets
             wb = writer.book
             for sheet in wb.sheetnames:
@@ -531,6 +537,7 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             "PO Box Errors": pobox_errors_converted,
             "Invalid Address Removals": invalid_address_removals_converted,
             "Non-Unique Row Removals": non_unique_row_removals_converted,
+            "Duplicate Rows Removed": duplicate_removals_converted,
             "Smarty Corrections": smarty_corrections_data
         }
 
