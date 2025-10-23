@@ -724,7 +724,7 @@ The Regulatory Solutions Team"""
         if original_csv_attachment:
             attachments.append(original_csv_attachment)
 
-        custom_subject = f'Your FCC BDC Subscriber File Failed to Upload; Action Requested ({isp})'
+        custom_subject = f'Your FCC BDC Subscriber File Failed to Complete Processing due to Errors; Action Requested ({isp})'
         sendEmail(
             customer,
             cname,
