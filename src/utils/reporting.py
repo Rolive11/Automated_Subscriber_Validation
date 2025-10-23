@@ -420,7 +420,7 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             "Address Errors Found": file_validation['address_error_count'],
             "Non-Address Errors Found": file_validation['non_address_error_count'],
             "Address Error Percentage": file_validation['address_error_percentage'],
-            "Threshold Used": f"{file_validation['threshold_used']['max_error_percentage']}% for {file_validation['threshold_used']['min_subscribers']}-{file_validation['threshold_used']['max_subscribers']} subscribers",
+            "Threshold Used": f"{file_validation['threshold_used']['max_error_percentage']}% for {file_validation['threshold_used']['min_subscribers']}-{file_validation['threshold_used']['max_subscribers']} subscribers" if file_validation['threshold_used'] else "N/A (critical errors present)",
             "Requires Manual Review": file_validation['requires_manual_review']
         }
 
