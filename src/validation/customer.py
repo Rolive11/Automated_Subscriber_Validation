@@ -269,6 +269,10 @@ def remove_full_row_duplicates(cleaned_df, errors, rows_to_remove, duplicate_rem
     # Clean up temporary columns
     cleaned_df.drop(columns=['_tech_rank', '_download_numeric', '_upload_numeric'], inplace=True)
 
+    # Reset index to avoid KeyError issues in subsequent processing
+    # This ensures index is sequential 0, 1, 2, ... matching the row count
+    cleaned_df.reset_index(drop=True, inplace=True)
+
     customer_dup_count = len(duplicate_removals) - exact_dup_count
     debug_print(f"Removed {customer_dup_count} duplicate customer rows based on speed/technology ranking")
 
