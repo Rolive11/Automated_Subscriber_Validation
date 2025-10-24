@@ -46,7 +46,7 @@ SINGLE_WORD_ENDINGS = (
     r"\sAlley\b|\sALY\b|\sAvenue\b|\sAve\b|\sAv\b|\sBoulevard\b|\sBlvd\b|\sCircle\b|\sCir\b|\sCr\b|"
     r"\sCourt\b|\sCt\b|\sDrive\b|\sDr\b|\sExpressway\b|\sExpy\b|\sLane\b|\sLn\b|\sLoop\b|"
     r"\sParkway\b|\sPkwy\b|\sPlace\b|\sPl\b|\sRoad\b|\sRd\b|\sSquare\b|\sSq\b|\sStreet\b|\sSt\b|"
-    r"\sTerrace\b|\sTer\b|\sTrail\b|\sTrl\b|\sWay\b|\sWy\b|\sShores\b|\sCreek\b|\sCrk\b|"
+    r"\sTerrace\b|\sTer\b|\sTrail\b|\sTrl\b|\sWay\b|\sWy\b|\sShores\b|\sCreek\b|\sCrk\b"
     r"|\sLoop \d+(?: (?:N|S|E|W|NE|NW|SE|SW))?\b"
 )
 SPECIFIC_ROAD_PATTERN = (
