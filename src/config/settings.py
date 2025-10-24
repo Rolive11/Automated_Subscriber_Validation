@@ -52,7 +52,7 @@ SINGLE_WORD_ENDINGS = (
 SPECIFIC_ROAD_PATTERN = (
     r"(?i)(?:\d+\s+)?(?:County\s*(?:Road|Rd|CR)|Private\s*Road|Us\s*Hwy|Hwy\s*\d+|"
     r"HWY\s*\d+|Highway\s*\d+|Farm\s*to\s*Market|Farm\s*Road|Farm\s*to\s*Market\s*Road|"
-    r"FM\s*Rd|State\s*(?:Road|Rd|Route)|Old\s*State\s*(?:Road|Rd)|"
+    r"FM\s*Rd|FM\s+\d+|State\s*(?:Road|Rd|Route)|Old\s*State\s*(?:Road|Rd)|"
     r"\b(?:FM|CR|SH|TX|HWY|US)-\d+\b|"
     r"(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC|PR|VI|GU|AS|MP)-\d+|"
     r"(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New\sHampshire|New\sJersey|New\sMexico|New\sYork|North\sCarolina|North\sDakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode\sIsland|South\sCarolina|South\sDakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West\sVirginia|Wisconsin|Wyoming|District\sof\sColumbia|Puerto\sRico|Virgin\sIslands|Guam|American\sSamoa|Northern\sMariana\sIslands)\s*(?:Hwy|Highway|Route|Rte|Rt)\s*\d+)"
