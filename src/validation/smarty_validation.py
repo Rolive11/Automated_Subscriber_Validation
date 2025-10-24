@@ -838,8 +838,14 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                     'orig_row': candidate['orig_row'],
                     'original_address': candidate['address'],
                     'corrected_address': smarty_result['corrected_address'],
+                    'original_city': candidate['city'],
+                    'corrected_city': smarty_result.get('corrected_city', ''),
+                    'original_state': candidate['state'],
+                    'corrected_state': smarty_result.get('corrected_state', ''),
                     'original_zip': candidate['zip'],
                     'corrected_zip': smarty_result['corrected_zip'],
+                    'reason_sent': candidate['error_msg'],  # NEW: Why was this sent to Smarty
+                    'error_column': candidate['error_column'],  # NEW: Which column had the error
                     'success': smarty_result['success'],
                     'error': smarty_result['error'],
                     'smarty_key': smarty_result['smarty_key'],

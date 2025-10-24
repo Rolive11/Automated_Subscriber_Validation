@@ -252,8 +252,15 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             smarty_corrections_data = [
                 {
                     "OrigRowNum": correction.get("orig_row", "N/A"),
+                    "Reason Sent": correction.get("reason_sent", "Unknown"),  # NEW: Why sent to Smarty
                     "Original Address": correction.get("original_address", ""),
                     "Corrected Address": correction.get("corrected_address", "") if correction.get("success") else "Invalid",
+                    "Original City": correction.get("original_city", ""),
+                    "Corrected City": correction.get("corrected_city", ""),
+                    "Original State": correction.get("original_state", ""),
+                    "Corrected State": correction.get("corrected_state", ""),
+                    "Original ZIP": correction.get("original_zip", ""),
+                    "Corrected ZIP": correction.get("corrected_zip", ""),
                     "Status": "Valid" if correction.get("success") else "Invalid",
                     "Error Message": correction.get("error", "") if not correction.get("success") else "",
                     "Smarty Key": correction.get("smarty_key", ""),
@@ -458,32 +465,21 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
                 smarty_processing_log_df = pd.DataFrame(smarty_corrections_data).sort_values(by="OrigRowNum")
             else:
                 smarty_processing_log_df = pd.DataFrame(columns=[
-                    "OrigRowNum", 
-                    "Original Address", 
-                    "Corrected Address", 
-                    "Original ZIP",      # NEW
-                    "Corrected ZIP",     # NEW
-                    "Status", 
-                    "Error Message", 
-                    "Smarty Key", 
+                    "OrigRowNum",
+                    "Reason Sent",
+                    "Original Address",
+                    "Corrected Address",
+                    "Original City",
+                    "Corrected City",
+                    "Original State",
+                    "Corrected State",
+                    "Original ZIP",
+                    "Corrected ZIP",
+                    "Status",
+                    "Error Message",
+                    "Smarty Key",
                     "Timestamp"
                 ])
-
-            # Also update the smarty_corrections_data creation in reporting.py:
-            smarty_corrections_data = [
-                {
-                    "OrigRowNum": correction.get("orig_row", "N/A"),
-                    "Original Address": correction.get("original_address", ""),
-                    "Corrected Address": correction.get("corrected_address", "") if correction.get("success") else "Invalid",
-                    "Original ZIP": correction.get("original_zip", ""),        # NEW
-                    "Corrected ZIP": correction.get("corrected_zip", ""),      # NEW
-                    "Status": "Valid" if correction.get("success") else "Invalid",
-                    "Error Message": correction.get("error", "") if not correction.get("success") else "",
-                    "Smarty Key": correction.get("smarty_key", ""),
-                    "Timestamp": correction.get("timestamp", "")
-                }
-                for correction in smarty_results.get("smarty_corrections", [])
-            ]
             smarty_processing_log_df.to_excel(writer, sheet_name="Smarty Processing Log", index=False)
             
             # Error Reference tab
