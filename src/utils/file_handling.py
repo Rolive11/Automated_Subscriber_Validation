@@ -662,6 +662,17 @@ def validate_subscriber_file(input_csv, company_id, period):
     csv_to_process = input_csv  # Default to original
 
     if not is_valid:
+        # Check if all_rows_data is empty (e.g., file contains NUL characters or is corrupted)
+        if not all_rows_data or len(all_rows_data) == 0:
+            errors.append({
+                "Row": "N/A",
+                "Column": "N/A",
+                "Error": "CSV file appears to be corrupted or contains invalid characters (NUL bytes). Please re-export your file and ensure it is saved as a valid CSV format.",
+                "Value": "N/A"
+            })
+            save_errors_and_exit(errors, company_id, original_filename, exit_code=3)
+            return
+
         debug_print(f"Column count validation found {len(error_rows)} rows with mismatched column counts - truncating to {len(all_rows_data[0])} columns")
 
         # Create a cleaned CSV with all rows truncated to correct column count

@@ -646,16 +646,18 @@ Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC
 
 Initial review of the file suggests the file needs a little help.
 
-We have attached {isp}_corrected_subscribers.xlsx to this email. This Excel file contains color-coded cells:
-- Green cells have been automatically corrected
-- Red and Pink cells require your correction
+We have attached a file called {isp}_corrected_subscribers.xlsx to this email. 
+This file is your original subscriber file that has been partially corrected. 
+This file identifies errors that need to be manually corrected. The file has color-coded cells:
+- Green cells have been automatically corrected to match USPS standards
+- Red and Pink cells need manual correction, and 
 - Yellow cells should be reviewed and corrected as appropriate (e.g., missing zip codes)
 
 Please:
 1. Open the attached {isp}_corrected_subscribers.xlsx file
 2. Correct the Red and Pink data cells
-3. Review and correct all Yellow cells as appropriate
-4. Complete your repairs and SAVE THE FILE IN A CSV format
+3. Review and correct all Yellow cells, if you can easily otherwise the next pass will autocorrect these cells
+4. Complete your repairs and SAVE THE FILE IN A CSV format, then
 5. Re-upload the corrected CSV file
 
 If the file passes inspection, you will receive an email with a complete validation report.
