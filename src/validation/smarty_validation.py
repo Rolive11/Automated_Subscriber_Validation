@@ -738,6 +738,17 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
     }
     
     try:
+        # DEBUG: Log all flagged_cells before filtering
+        debug_print(f"=== SMARTY CANDIDATE COLLECTION START ===")
+        debug_print(f"Total flagged_cells entries: {len(flagged_cells)}")
+        for (row_idx, col_name), cell_data in flagged_cells.items():
+            if isinstance(cell_data, tuple):
+                error_msg, orig_row = cell_data
+            else:
+                error_msg = cell_data
+                orig_row = "Unknown"
+            debug_print(f"  flagged_cells entry: OrigRowNum={orig_row}, col={col_name}, error='{error_msg}'")
+
         # Find addresses flagged for Smarty processing
         smarty_candidates = []
         for (row_idx, col_name), cell_data in flagged_cells.items():
@@ -748,9 +759,9 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                 orig_row_stored = None
                 if row_idx < len(cleaned_df):
                     orig_row_stored = cleaned_df["OrigRowNum"].iloc[row_idx]
-        
-            debug_print(f"Checking flagged cell: row_idx={row_idx}, col_name={col_name}, error_msg='{error_msg}', orig_row={orig_row_stored}")
-        
+
+            debug_print(f"Checking flagged cell: row_idx={row_idx}, col_name={col_name}, error_msg='{error_msg}', orig_row={orig_row_stored}, should_send={should_send_to_smarty(error_msg)}")
+
             if should_send_to_smarty(error_msg):
                 if row_idx < len(cleaned_df):
                     row_data = cleaned_df.iloc[row_idx]
