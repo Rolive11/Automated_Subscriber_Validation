@@ -83,8 +83,13 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         pre_unit_removal = address
         unit_match = re.search(NON_STANDARD_ENDINGS, address, re.IGNORECASE)
         if unit_match:
-            # Get the start of whichever group matched (group 1 or group 2)
-            match_start = unit_match.start(1) if unit_match.group(1) else unit_match.start(2)
+            # Use the overall match start (includes the space/position before the unit designation)
+            # The pattern (?:^|\s) matches space or start, so we need to check if there's a leading space
+            match_start = unit_match.start()
+            # If the match starts with a space, keep the position; otherwise it's at start of string
+            if match_start > 0 and address[match_start] == ' ':
+                # Keep one space before the unit designation to avoid cutting mid-word
+                match_start = match_start
             removed_part = address[match_start:]
             address = address[:match_start].strip()
             # Record this correction
