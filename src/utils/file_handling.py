@@ -21,6 +21,60 @@ from src.validation.general import validate_general_columns, validate_and_correc
 from src.validation.coordinates import validate_coordinates
 from src.validation.smarty_validation import process_smarty_corrections
 
+def detect_and_clean_nul_characters(input_csv, company_id, base_filename):
+    """
+    Detect NUL characters in CSV file and create a cleaned version if found.
+
+    Returns:
+        tuple: (has_nul_chars, cleaned_file_path, nul_line_numbers)
+        - has_nul_chars: bool - True if NUL characters were found
+        - cleaned_file_path: str - Path to cleaned file (or original if no NUL found)
+        - nul_line_numbers: list - Line numbers where NUL characters were found
+    """
+    nul_line_numbers = []
+    has_nul_chars = False
+
+    try:
+        # Read file line by line to detect NUL characters
+        debug_print("Scanning file for NULL characters...")
+        with open(input_csv, 'rb') as f:
+            for line_num, line in enumerate(f, start=1):
+                if b'\0' in line:
+                    has_nul_chars = True
+                    nul_line_numbers.append(line_num)
+
+        if has_nul_chars:
+            debug_print(f"Found NULL characters at {len(nul_line_numbers)} line(s): {nul_line_numbers[:10]}{'...' if len(nul_line_numbers) > 10 else ''}")
+
+            # Create cleaned version
+            cleaned_file_path = os.path.join(company_id, f"{base_filename}_cleaned_temp.csv")
+
+            # Read entire file and strip NUL characters
+            try:
+                with open(input_csv, 'r', encoding='utf-8', errors='replace') as f:
+                    content = f.read()
+            except UnicodeDecodeError:
+                with open(input_csv, 'r', encoding='latin1', errors='replace') as f:
+                    content = f.read()
+
+            # Remove NUL characters
+            cleaned_content = content.replace('\0', '')
+
+            # Save cleaned version
+            with open(cleaned_file_path, 'w', encoding='utf-8') as f:
+                f.write(cleaned_content)
+
+            debug_print(f"Created cleaned file without NULL characters: {cleaned_file_path}")
+            return True, cleaned_file_path, nul_line_numbers
+        else:
+            debug_print("No NULL characters found in file")
+            return False, input_csv, []
+
+    except Exception as e:
+        debug_print(f"Error scanning for NULL characters: {str(e)}")
+        return False, input_csv, []
+
+
 def validate_csv_column_count(input_csv, header_row_idx):
     """
     Validate that all rows in CSV have the same number of columns as the header.
@@ -641,6 +695,30 @@ def validate_subscriber_file(input_csv, company_id, period):
         save_errors_and_exit(errors, company_id, original_filename)
         return
 
+    # Check for and clean NUL characters before processing
+    has_nul_chars, csv_to_process, nul_line_numbers = detect_and_clean_nul_characters(input_csv, company_id, base_filename)
+
+    if has_nul_chars:
+        # Log the NUL character cleaning
+        nul_count = len(nul_line_numbers)
+        line_list = ', '.join(map(str, nul_line_numbers[:10]))
+        if nul_count > 10:
+            line_list += f' (and {nul_count - 10} more)'
+
+        warning_msg = f"File contained {nul_count} NULL character(s) at line(s): {line_list}. Automatically removed and continuing validation."
+        debug_print(f"⚠️  {warning_msg}")
+
+        # Add to errors list so it appears in reports
+        errors.append({
+            "Row": "N/A",
+            "Column": "N/A",
+            "Error": f"NULL characters detected and removed from {nul_count} line(s): {line_list}",
+            "Value": "Auto-corrected"
+        })
+
+        # Use cleaned file for all subsequent processing
+        input_csv = csv_to_process
+
     # Find the actual header row (handles files with extra rows at top)
     header_row_idx = find_header_row(input_csv)
     
@@ -662,17 +740,6 @@ def validate_subscriber_file(input_csv, company_id, period):
     csv_to_process = input_csv  # Default to original
 
     if not is_valid:
-        # Check if all_rows_data is empty (e.g., file contains NUL characters or is corrupted)
-        if not all_rows_data or len(all_rows_data) == 0:
-            errors.append({
-                "Row": "N/A",
-                "Column": "N/A",
-                "Error": "CSV file appears to be corrupted or contains invalid characters (NUL bytes). Please re-export your file and ensure it is saved as a valid CSV format.",
-                "Value": "N/A"
-            })
-            save_errors_and_exit(errors, company_id, original_filename, exit_code=3)
-            return
-
         debug_print(f"Column count validation found {len(error_rows)} rows with mismatched column counts - truncating to {len(all_rows_data[0])} columns")
 
         # Create a cleaned CSV with all rows truncated to correct column count
