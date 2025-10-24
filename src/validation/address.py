@@ -85,8 +85,17 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
         if unit_match:
             # Get the start of whichever group matched (group 1 or group 2)
             match_start = unit_match.start(1) if unit_match.group(1) else unit_match.start(2)
+            removed_part = address[match_start:]
             address = address[:match_start].strip()
-            debug_print(f"Pre-filtering: Removed unit designation for OrigRowNum={orig_row}: '{pre_unit_removal}' -> '{address}'")
+            # Record this correction
+            corrected_cells[(idx, "address")] = {
+                "row": int(orig_row),
+                "original": pre_unit_removal,
+                "corrected": address,
+                "type": "Unit Designation Removal (Pre-filter)",
+                "status": "Valid"
+            }
+            debug_print(f"Pre-filtering: Removed unit designation for OrigRowNum={orig_row}: '{pre_unit_removal}' -> '{address}' (removed: '{removed_part}')")
 
     # Pre-filtering: Remove forbidden characters (MOVED UP - before other processing)
     if pd.notna(address):
