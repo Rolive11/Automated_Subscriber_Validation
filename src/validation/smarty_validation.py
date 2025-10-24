@@ -697,25 +697,6 @@ def log_smarty_usage(api_calls, successful_corrections, failed_corrections, comp
 
 
 def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cells, company_id, base_filename):
-    candidates = []
-    for idx, row in cleaned_df.iterrows():
-        orig_row = row["OrigRowNum"]
-        address_errors = [e for e in errors if e["Row"] == orig_row and e["Column"] in ["address", "zip"]]
-        # Skip Smarty if the only error was a corrected non-standard ending and correction was valid
-        if all("Non-standard ending removed" in e["Error"] for e in address_errors) and (idx, "address") in corrected_cells and corrected_cells[(idx, "address")].get("status") == "Valid":
-            debug_print(f"Skipping Smarty for OrigRowNum={orig_row}: Non-standard ending corrected locally")
-            continue
-        if any(e["Error"] in SMARTY_ELIGIBLE_ERRORS for e in address_errors):
-            address = row['address']  # Will be the locally corrected address due to address.py changes
-            debug_print(f"Sending to Smarty for OrigRowNum={orig_row}: '{address}'")
-            candidates.append({
-                'row_idx': idx,
-                'orig_row': orig_row,
-                'address': address,
-                'city': row['city'],
-                'state': row['state'],
-                'zip': row['zip']
-            })
     """
     Main function to process addresses through Smarty API and handle results.
     
