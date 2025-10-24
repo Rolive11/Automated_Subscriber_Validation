@@ -399,10 +399,17 @@ def validate_address_column(cleaned_df, errors, corrected_cells, flagged_cells, 
 
         state = cleaned_df["state"][idx]
         is_valid = validate_address(val, orig_row, idx, errors, corrected_cells, flagged_cells, pobox_errors, rows_to_remove, is_correction=False, non_standard_only=False, state=state)
+
+        # If validation passed, clear any previous Smarty-eligible errors
+        if is_valid:
+            errors[:] = [e for e in errors if not (e["Row"] == orig_row and e["Column"] == "address" and e["Error"] in SMARTY_ELIGIBLE_ERRORS)]
+            # Also clear from flagged_cells to prevent sending to Smarty
+            if (idx, "address") in flagged_cells:
+                del flagged_cells[(idx, "address")]
+                debug_print(f"Cleared flagged_cells for OrigRowNum={orig_row} - address passed Phase 2 validation")
+
         # Apply correction immediately if valid
         if (idx, "address") in corrected_cells and corrected_cells[(idx, "address")].get("status") == "Valid":
             cleaned_df.loc[idx, "address"] = corrected_cells[(idx, "address")]["corrected"]
             debug_print(f"Applied address correction for OrigRowNum={orig_row}: '{val}' -> '{corrected_cells[(idx, 'address')]['corrected']}'")
-            if is_valid:  # Only clear if final validation passed
-                errors[:] = [e for e in errors if not (e["Row"] == orig_row and e["Column"] == "address" and e["Error"] in SMARTY_ELIGIBLE_ERRORS)]
-                debug_print(f"Cleared Smarty-eligible address errors for OrigRowNum={orig_row} after valid local correction")
+            debug_print(f"Cleared Smarty-eligible address errors for OrigRowNum={orig_row} after valid local correction")
