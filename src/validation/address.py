@@ -299,6 +299,32 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
                 validation_passed = False
                 debug_print(f"Invalid corrected address after non-standard ending removal for OrigRowNum={orig_row}: '{corrected_address}'")
 
+    # TOWER-specific handling: Only remove TOWER if it appears AFTER a street ending with a number
+    # This prevents "31942 TOWER RD" from being incorrectly flagged while catching "321 PINE RD TOWER 3"
+    if validation_passed:
+        # Pattern: Finds TOWER followed by a space and alphanumeric (like "TOWER 3" or "TOWER B") at end of address
+        tower_unit_pattern = r"\s+TOWER\s+[A-Z0-9][\w\-]*$"
+        tower_match = re.search(tower_unit_pattern, address, re.IGNORECASE)
+
+        if tower_match:
+            # Verify there's a valid street ending before TOWER
+            address_before_tower = address[:tower_match.start()].strip()
+
+            # Check if address before TOWER ends with a street ending
+            if re.search(rf"(?:{STREET_ENDINGS})(?:\s|$)", address_before_tower, re.IGNORECASE):
+                corrected_address = address_before_tower
+                corrected_cells[(idx, "address")] = {
+                    "row": int(orig_row),
+                    "original": address,
+                    "corrected": corrected_address,
+                    "type": "TOWER Unit Designation Removal",
+                    "status": "Valid"
+                }
+                debug_print(f"Removed TOWER unit designation for OrigRowNum={orig_row}: '{address}' -> '{corrected_address}'")
+                address = corrected_address
+            else:
+                debug_print(f"TOWER found but no street ending before it in '{address}' - keeping as-is")
+
     # Additional checks for rural routes or specific road patterns
     if re.search(RURAL_ROUTES, address, re.IGNORECASE) or re.search(SPECIFIC_ROAD_PATTERN, address, re.IGNORECASE):
         debug_print(f"Matches RURAL_ROUTES or SPECIFIC_ROAD_PATTERN for OrigRowNum={orig_row}: '{address}'")
