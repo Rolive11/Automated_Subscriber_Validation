@@ -76,6 +76,18 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             address = upper_address
             debug_print(f"Converted to uppercase for OrigRowNum={orig_row}: '{original_address}' -> '{address}'")
 
+    # Pre-filtering: Remove unit designations BEFORE other validation
+    # This prevents "#102" from interfering with street ending detection
+    if pd.notna(address):
+        from src.config.settings import NON_STANDARD_ENDINGS
+        pre_unit_removal = address
+        unit_match = re.search(NON_STANDARD_ENDINGS, address, re.IGNORECASE)
+        if unit_match:
+            # Get the start of whichever group matched (group 1 or group 2)
+            match_start = unit_match.start(1) if unit_match.group(1) else unit_match.start(2)
+            address = address[:match_start].strip()
+            debug_print(f"Pre-filtering: Removed unit designation for OrigRowNum={orig_row}: '{pre_unit_removal}' -> '{address}'")
+
     # Pre-filtering: Remove forbidden characters (MOVED UP - before other processing)
     if pd.notna(address):
         forbidden_chars_to_remove = r'[@$%*=<>\|\^~`\\\[\]{}\(\)\+".;,]|[^\w\s\.#&!/\'"]'
