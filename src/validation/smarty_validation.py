@@ -280,11 +280,24 @@ def validate_with_smarty_batch(batch):
                             debug_print(f"WARNING: ZIP not in components, checking metadata")
 
                     if not corrected_zip:
-                        # Log when ZIP is missing from all expected fields
-                        debug_print(f"WARNING: Smarty response missing ZIP code for address: {batch[idx]['address']}")
-                        debug_print(f"  Available components: {list(first_match.get('components', {}).keys())}")
-                        debug_print(f"  Available metadata keys: {list(first_match.get('metadata', {}).keys())}")
-                        debug_print(f"  Full response keys: {list(first_match.keys())}")
+                        # Try to extract from last_line (format: "City ST ZIP" or "City ST ZIP-PLUS4")
+                        if 'last_line' in first_match:
+                            last_line = first_match['last_line']
+                            # Extract ZIP from last_line using regex (5 digits at end)
+                            import re
+                            zip_match = re.search(r'\b(\d{5})(?:-\d{4})?\b', last_line)
+                            if zip_match:
+                                corrected_zip = zip_match.group(1)
+                                debug_print(f"Smarty ZIP extracted from last_line '{last_line}': '{corrected_zip}'")
+
+                        if not corrected_zip:
+                            # Log when ZIP is missing from all expected fields
+                            debug_print(f"WARNING: Smarty response missing ZIP code for address: {batch[idx]['address']}")
+                            debug_print(f"  Available components: {list(first_match.get('components', {}).keys())}")
+                            debug_print(f"  Available metadata keys: {list(first_match.get('metadata', {}).keys())}")
+                            debug_print(f"  Full response keys: {list(first_match.keys())}")
+                            debug_print(f"  last_line: '{first_match.get('last_line', 'N/A')}'")
+                            debug_print(f"  analysis: {first_match.get('analysis', {})}")
 
                 # Extract city and state from Smarty response
                 corrected_city = None
