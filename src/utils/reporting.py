@@ -338,6 +338,7 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
         # This ensures we catch misaligned columns and other critical errors
         debug_print("Checking for critical non-address errors in all flagged cells...")
         critical_non_address_errors = set()
+        critical_errors_detail_early = []  # NEW: Collect detailed error info in early check
 
         from src.utils.file_handling import get_error_priority_and_fill
         from src.config.settings import is_address_column
@@ -359,6 +360,19 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
                     critical_non_address_errors.add(orig_row_stored)
                     debug_print(f"Critical non-address error found: OrigRowNum={orig_row_stored}, col={col_name}, error={error_msg}")
 
+                    # NEW: Collect detailed info for Critical Errors tab
+                    cell_value = ""
+                    if row_idx < len(cleaned_df):
+                        cell_value = str(cleaned_df.iloc[row_idx].get(col_name, ""))
+
+                    critical_errors_detail_early.append({
+                        "OrigRowNum": int(orig_row_stored),
+                        "Column": col_name,
+                        "Error Type": error_msg,
+                        "Current Value": cell_value,
+                        "Severity": "Critical" if priority_level == 1 else "Important"
+                    })
+
         # If there are critical non-address errors, fail immediately
         if critical_non_address_errors:
             debug_print(f"File validation FAILED: {len(critical_non_address_errors)} rows with critical non-address errors")
@@ -371,7 +385,8 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
                 'address_error_percentage': 0.0,
                 'threshold_used': {},
                 'problematic_address_rows': [],
-                'requires_manual_review': True
+                'requires_manual_review': True,
+                'critical_errors_detail': critical_errors_detail_early  # NEW: Include detailed errors
             }
         else:
             # Simulate cell fills logic for address-only validation (based on save_excel function)
