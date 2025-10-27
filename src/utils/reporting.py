@@ -122,6 +122,10 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
                     break
 
             if orig_row is not None:
+                # Check if row still exists in cleaned_df
+                if orig_row not in cleaned_df["OrigRowNum"].values:
+                    continue  # Skip rows that were already removed
+
                 # Get the actual cell value and error message from flagged_cells
                 error_msg = "Unknown error"
                 cell_value = ""
@@ -353,6 +357,11 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
                     orig_row_stored = cleaned_df["OrigRowNum"].iloc[row_idx]
 
             if orig_row_stored:
+                # IMPORTANT: Only check rows that are still in the final cleaned_df
+                if orig_row_stored not in cleaned_df["OrigRowNum"].values:
+                    debug_print(f"Skipping error for OrigRowNum={orig_row_stored} - row already removed from cleaned_df")
+                    continue
+
                 priority_level, fill_color = get_error_priority_and_fill(error_msg, col_name)
 
                 # Check for RED (priority 1) or PINK (priority 2) cells in non-address columns
