@@ -269,9 +269,22 @@ def validate_with_smarty_batch(batch):
                     corrected_zip = str(full_zip)[:5] if full_zip else None
                     debug_print(f"Smarty ZIP code formatted for FCC BDC: '{full_zip}' -> '{corrected_zip}' (5-digit compliance)")
                 else:
-                    # Log when ZIP is missing from components
-                    debug_print(f"WARNING: Smarty response missing ZIP code in components.zipcode for address: {batch[idx]['address']}")
-                    debug_print(f"  Available components: {list(first_match.get('components', {}).keys())}")
+                    # Try alternate ZIP field names
+                    if 'components' in first_match:
+                        # Check for zip9, plus4_code, or other variations
+                        if 'zip9' in first_match['components']:
+                            corrected_zip = str(first_match['components']['zip9'])[:5]
+                            debug_print(f"Smarty ZIP extracted from zip9 field: '{corrected_zip}'")
+                        elif 'default_city_name' in first_match.get('metadata', {}):
+                            # Sometimes ZIP is in metadata
+                            debug_print(f"WARNING: ZIP not in components, checking metadata")
+
+                    if not corrected_zip:
+                        # Log when ZIP is missing from all expected fields
+                        debug_print(f"WARNING: Smarty response missing ZIP code for address: {batch[idx]['address']}")
+                        debug_print(f"  Available components: {list(first_match.get('components', {}).keys())}")
+                        debug_print(f"  Available metadata keys: {list(first_match.get('metadata', {}).keys())}")
+                        debug_print(f"  Full response keys: {list(first_match.keys())}")
 
                 # Extract city and state from Smarty response
                 corrected_city = None
