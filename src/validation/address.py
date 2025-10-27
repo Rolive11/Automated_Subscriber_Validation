@@ -125,7 +125,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             debug_print(f"Normalized compass directions for OrigRowNum={orig_row}: '{pre_compass_normalization}' -> '{address}'")
 
     # NEW: Early exit for Puerto Rico (PR) addresses after basic cleanups
-    if state and state.upper() == "PR":
+    if pd.notna(state) and str(state).upper() == "PR":
         # Record auto-accept for reporting
         corrected_cells[(idx, "address")] = {
             "row": int(orig_row),
