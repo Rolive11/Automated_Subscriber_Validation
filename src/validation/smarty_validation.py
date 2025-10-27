@@ -887,7 +887,51 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                 if smarty_result['success']:
                     # Successful correction
                     results['successful_corrections'] += 1
-                    
+
+                    # Check if ZIP is missing from Smarty response
+                    if not smarty_result['corrected_zip']:
+                        # Check if lon/lat coordinates are available
+                        row_data = cleaned_df.iloc[candidate['row_idx']]
+                        has_coordinates = (
+                            pd.notna(row_data.get('longitude')) and
+                            pd.notna(row_data.get('latitude')) and
+                            str(row_data.get('longitude')).strip() != '' and
+                            str(row_data.get('latitude')).strip() != ''
+                        )
+
+                        if has_coordinates:
+                            # Clear address fields since we have valid coordinates
+                            debug_print(f"Smarty missing ZIP for OrigRowNum {candidate['orig_row']}, but lon/lat available - clearing address fields")
+                            cleaned_df.loc[candidate['row_idx'], 'address'] = ''
+                            cleaned_df.loc[candidate['row_idx'], 'city'] = ''
+                            cleaned_df.loc[candidate['row_idx'], 'state'] = ''
+                            cleaned_df.loc[candidate['row_idx'], 'zip'] = ''
+
+                            # Record this as a special correction type
+                            corrected_cells[(candidate['row_idx'], 'address')] = {
+                                "row": candidate['orig_row'],
+                                "original": candidate['address'],
+                                "corrected": '',
+                                "type": "Address Cleared - Using Lon/Lat (Smarty ZIP unavailable)",
+                                "status": "Valid",
+                                "smarty_key": smarty_result['smarty_key'],
+                                "timestamp": datetime.now().isoformat()
+                            }
+
+                            # Clear all address-related errors since coordinates provide location
+                            if (candidate['row_idx'], 'address') in flagged_cells:
+                                del flagged_cells[(candidate['row_idx'], 'address')]
+                            if (candidate['row_idx'], 'city') in flagged_cells:
+                                del flagged_cells[(candidate['row_idx'], 'city')]
+                            if (candidate['row_idx'], 'state') in flagged_cells:
+                                del flagged_cells[(candidate['row_idx'], 'state')]
+                            if (candidate['row_idx'], 'zip') in flagged_cells:
+                                del flagged_cells[(candidate['row_idx'], 'zip')]
+                                debug_print(f"Cleared ZIP error for OrigRowNum {candidate['orig_row']} - using lon/lat coordinates")
+
+                            # Skip further address processing for this row
+                            continue
+
                     # Post-process Smarty's corrected address to remove non-standard endings
                     corrected_address = smarty_result['corrected_address']
                     from src.config.settings import NON_STANDARD_ENDINGS
@@ -895,10 +939,10 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                     if match:
                         corrected_address = corrected_address[:match.start()].strip()
                         debug_print(f"Removed non-standard ending from Smarty result for OrigRowNum {candidate['orig_row']}: '{corrected_address}'")
-                    
+
                     # Update the DataFrame with the post-processed address
                     cleaned_df.loc[candidate['row_idx'], 'address'] = corrected_address
-                    
+
                     # Update ZIP code if Smarty provided one
                     if smarty_result['corrected_zip']:
                         cleaned_df.loc[candidate['row_idx'], 'zip'] = smarty_result['corrected_zip']
