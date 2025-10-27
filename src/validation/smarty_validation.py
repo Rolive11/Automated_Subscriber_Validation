@@ -892,8 +892,24 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                     if not smarty_result['corrected_zip']:
                         # Check if lon/lat coordinates are available
                         row_data = cleaned_df.iloc[candidate['row_idx']]
-                        lon_val = row_data.get('longitude')
-                        lat_val = row_data.get('latitude')
+
+                        # DEBUG: Show available columns to find coordinate column names
+                        debug_print(f"Available DataFrame columns: {list(cleaned_df.columns)}")
+
+                        # Try different possible column names for coordinates
+                        lon_val = None
+                        lat_val = None
+
+                        # Check various possible column names
+                        for lon_name in ['longitude', 'lon', 'Longitude', 'LON']:
+                            if lon_name in row_data:
+                                lon_val = row_data.get(lon_name)
+                                break
+
+                        for lat_name in ['latitude', 'lat', 'Latitude', 'LAT']:
+                            if lat_name in row_data:
+                                lat_val = row_data.get(lat_name)
+                                break
 
                         debug_print(f"Checking coordinates for OrigRowNum {candidate['orig_row']}: lon={lon_val}, lat={lat_val}, lon_notna={pd.notna(lon_val)}, lat_notna={pd.notna(lat_val)}")
 
