@@ -95,32 +95,50 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
     # Count total subscribers in final file
     total_subscribers = len(cleaned_df)
     
-    # Track problematic rows
+    # Track problematic rows and detailed error information
     address_error_rows = set()
     non_address_error_rows = set()
-    
+    critical_errors_detail = []  # NEW: Detailed list for Critical Errors tab
+
     # Analyze cell fills for RED and PINK priorities
     for (excel_row, excel_col_letter), (priority_level, fill_color) in cell_fills.items():
         # Only consider RED (priority 1) and PINK (priority 2) fills
         if priority_level not in [1, 2]:
             continue
-            
+
         # Convert Excel column letter to column index
         import openpyxl.utils
         excel_col_idx = openpyxl.utils.column_index_from_string(excel_col_letter)
-        
+
         # Find the DataFrame column name
         if excel_col_idx <= len(df_columns):
             col_name = df_columns[excel_col_idx - 1]
-            
+
             # Find the original row number for this Excel row
             orig_row = None
             for orig, ex_row in orig_row_to_excel_row.items():
                 if ex_row == excel_row:
                     orig_row = orig
                     break
-            
+
             if orig_row is not None:
+                # Get the actual cell value and error message from flagged_cells
+                error_msg = "Unknown error"
+                cell_value = ""
+
+                # Find the error in flagged_cells by matching orig_row and col_name
+                for (row_idx, flagged_col_name), cell_data in flagged_cells.items():
+                    if flagged_col_name == col_name:
+                        # Check if this flagged cell corresponds to our orig_row
+                        if row_idx < len(cleaned_df) and cleaned_df.iloc[row_idx]["OrigRowNum"] == orig_row:
+                            if isinstance(cell_data, tuple):
+                                error_msg, _ = cell_data
+                            else:
+                                error_msg = cell_data
+                            # Get the actual cell value
+                            cell_value = str(cleaned_df.iloc[row_idx].get(col_name, ""))
+                            break
+
                 # Categorize the error
                 # IMPORTANT: We count ALL errors, even in excluded rows
                 # Non-address errors should fail validation regardless of whether row was excluded
@@ -128,6 +146,15 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
                     address_error_rows.add(orig_row)
                 else:
                     non_address_error_rows.add(orig_row)
+
+                    # NEW: Collect detailed info for Critical Errors tab (non-address only)
+                    critical_errors_detail.append({
+                        "OrigRowNum": int(orig_row),
+                        "Column": col_name,
+                        "Error Type": error_msg,
+                        "Current Value": cell_value,
+                        "Severity": "Critical" if priority_level == 1 else "Important"
+                    })
     
     # Calculate metrics
     address_error_count = len(address_error_rows)
@@ -168,7 +195,8 @@ def assess_file_validation_status(cleaned_df, cell_fills, rows_excluded_from_exc
         'address_error_percentage': round(address_error_percentage, 2),
         'threshold_used': threshold_config,
         'problematic_address_rows': list(address_error_rows),  # FIXED: Convert set to list
-        'requires_manual_review': requires_manual_review
+        'requires_manual_review': requires_manual_review,
+        'critical_errors_detail': critical_errors_detail  # NEW: Detailed error info for Excel tab
     }
 
 
@@ -494,7 +522,17 @@ def generate_validation_report(cleaned_df, company_id, base_filename, errors, st
             # Errors tab
             filtered_errors_df = pd.DataFrame(filtered_errors_converted).sort_values(by=["Row", "Column"]) if filtered_errors_converted else pd.DataFrame(columns=["Row", "Column", "Error", "Value"])
             filtered_errors_df.to_excel(writer, sheet_name="Errors", index=False)
-            
+
+            # Critical Errors tab (NEW)
+            critical_errors_data = file_validation.get('critical_errors_detail', [])
+            if critical_errors_data:
+                critical_errors_df = pd.DataFrame(critical_errors_data).sort_values(by=["OrigRowNum", "Column"])
+                debug_print(f"Adding Critical Errors tab with {len(critical_errors_df)} entries")
+            else:
+                critical_errors_df = pd.DataFrame(columns=["OrigRowNum", "Column", "Error Type", "Current Value", "Severity"])
+                debug_print("Created empty Critical Errors tab (no critical errors found)")
+            critical_errors_df.to_excel(writer, sheet_name="Critical Errors", index=False)
+
             # Street Ending Errors tab
             street_ending_df = pd.DataFrame(street_ending_errors).sort_values(by=["Row", "Column"]) if street_ending_errors else pd.DataFrame(columns=["Row", "Column", "Error", "Value"])
             street_ending_df.to_excel(writer, sheet_name="Street Ending Errors", index=False)
