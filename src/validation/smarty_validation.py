@@ -892,12 +892,19 @@ def process_smarty_corrections(cleaned_df, errors, corrected_cells, flagged_cell
                     if not smarty_result['corrected_zip']:
                         # Check if lon/lat coordinates are available
                         row_data = cleaned_df.iloc[candidate['row_idx']]
+                        lon_val = row_data.get('longitude')
+                        lat_val = row_data.get('latitude')
+
+                        debug_print(f"Checking coordinates for OrigRowNum {candidate['orig_row']}: lon={lon_val}, lat={lat_val}, lon_notna={pd.notna(lon_val)}, lat_notna={pd.notna(lat_val)}")
+
                         has_coordinates = (
-                            pd.notna(row_data.get('longitude')) and
-                            pd.notna(row_data.get('latitude')) and
-                            str(row_data.get('longitude')).strip() != '' and
-                            str(row_data.get('latitude')).strip() != ''
+                            pd.notna(lon_val) and
+                            pd.notna(lat_val) and
+                            str(lon_val).strip() != '' and
+                            str(lat_val).strip() != ''
                         )
+
+                        debug_print(f"has_coordinates={has_coordinates} for OrigRowNum {candidate['orig_row']}")
 
                         if has_coordinates:
                             # Clear address fields since we have valid coordinates
