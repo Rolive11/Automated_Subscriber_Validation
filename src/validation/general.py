@@ -204,7 +204,7 @@ def validate_and_correct_state(state_val, zip_val, idx, orig_row, errors, correc
             "type": "State Abbreviation Case Correction",
             "status": "Valid"
         }
-        append_general_error_with_tracking("Invalid State Abbreviation", orig_row, "state", state_val, idx, errors, flagged_cells)
+        debug_print(f"Corrected state case for OrigRowNum={orig_row}: '{state_val}' -> '{state_val.upper()}'")
         return state_val.upper()
     return state_val
 
