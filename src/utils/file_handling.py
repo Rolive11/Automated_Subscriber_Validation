@@ -1074,8 +1074,12 @@ def validate_subscriber_file(input_csv, company_id, period):
     
     # Generate validation report and get file validation status
     # This is where the final decision on Smarty failures is made using subscriber-count thresholds
+    # IMPORTANT: Filter cleaned_df to exclude removed rows before validation assessment
+    cleaned_df_for_validation = cleaned_df[~cleaned_df["OrigRowNum"].isin(all_rows_to_exclude)].copy()
+    debug_print(f"Passing {len(cleaned_df_for_validation)} rows to validation assessment (excluded {len(all_rows_to_exclude)} rows)")
+
     vr_excel_path, vr_json_path, file_validation = generate_validation_report(
-        cleaned_df, company_id, base_filename, errors, start_time, corrected_cells,
+        cleaned_df_for_validation, company_id, base_filename, errors, start_time, corrected_cells,
         flagged_cells, pobox_errors, non_unique_row_removals, smarty_results, duplicate_removals
     )
     
