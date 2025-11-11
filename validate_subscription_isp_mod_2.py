@@ -660,7 +660,7 @@ This file identifies errors that need to be manually corrected. The file has col
 - Yellow cells should be reviewed and corrected as appropriate (e.g., missing zip codes)
 
 Please:
-1. Open the attached {isp}_Corrected_Subscribers.xlsx file
+1. Open the attached {isp}_Modified_Subscribers.xlsx file
 2. Correct the Red and Pink data cells
 3. Review and correct all Yellow cells, if you can easily otherwise the next pass will autocorrect these cells
 4. Complete your repairs and SAVE THE FILE IN A CSV format, then
@@ -741,6 +741,17 @@ The Regulatory Solutions Team"""
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
+
+        # Insert user message
+        try:
+            msg_sql = """INSERT INTO broadband.messages (message_type, message, datetime, org_id) VALUES ('subscriber', 'Data errors found – Check email for details.', now(), """ + isp + """)"""
+            cursor.execute(msg_sql)
+            conn.commit()
+            with open('validate_subs.log', 'a') as f:
+                print(f'[DATA VALIDATION FAILED] Message sent to user for org_id={isp}\n', file=f)
+        except Exception as e:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[DATA VALIDATION FAILED] Error inserting message for org_id={isp}: {e}\n', file=f)
 
         return  # Stop processing
 
@@ -834,6 +845,17 @@ The Regulatory Solutions Team"""
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
+
+        # Insert user message
+        try:
+            msg_sql = """INSERT INTO broadband.messages (message_type, message, datetime, org_id) VALUES ('subscriber', 'Data errors found – Check email for details.', now(), """ + isp + """)"""
+            cursor.execute(msg_sql)
+            conn.commit()
+            with open('validate_subs.log', 'a') as f:
+                print(f'[HEADER VALIDATION FAILED] Message sent to user for org_id={isp}\n', file=f)
+        except Exception as e:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[HEADER VALIDATION FAILED] Error inserting message for org_id={isp}: {e}\n', file=f)
 
         return  # Stop processing
 
@@ -958,6 +980,17 @@ The Regulatory Solutions Team"""
         cursor.execute(sql)
         conn.commit()
 
+        # Insert user message
+        try:
+            msg_sql = """INSERT INTO broadband.messages (message_type, message, datetime, org_id) VALUES ('subscriber', 'System error occurred – Support team notified.', now(), """ + isp + """)"""
+            cursor.execute(msg_sql)
+            conn.commit()
+            with open('validate_subs.log', 'a') as f:
+                print(f'[SYSTEM ERROR] Message sent to user for org_id={isp}\n', file=f)
+        except Exception as e:
+            with open('validate_subs.log', 'a') as f:
+                print(f'[SYSTEM ERROR] Error inserting message for org_id={isp}: {e}\n', file=f)
+
         return  # Stop processing
 
     # If we get here, validation_result['status'] == 'valid'
@@ -978,6 +1011,17 @@ The Regulatory Solutions Team"""
     print("========================================")
     print("PHASE 2: Starting geocoding and database processing")
     print("========================================")
+
+    # Insert user message - validation passed, starting location processing
+    try:
+        msg_sql = """INSERT INTO broadband.messages (message_type, message, datetime, org_id) VALUES ('subscriber', 'Validation passed – Processing locations now.', now(), """ + isp + """)"""
+        cursor.execute(msg_sql)
+        conn.commit()
+        with open('validate_subs.log', 'a') as f:
+            print(f'[VALIDATION PASSED] Message sent to user for org_id={isp}\n', file=f)
+    except Exception as e:
+        with open('validate_subs.log', 'a') as f:
+            print(f'[VALIDATION PASSED] Error inserting message for org_id={isp}: {e}\n', file=f)
 
     # Continue with Code B's database operations (geocoding, tract assignment,
     # etc.)
