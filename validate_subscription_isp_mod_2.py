@@ -571,7 +571,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
         }
 
 
-def create_subscription(subfile, filename, isp, periodpath, period):
+def create_subscription(subfile, filename, isp, periodpath, period, user_email):
     print(
         "subfile ",
         subfile,
@@ -580,7 +580,9 @@ def create_subscription(subfile, filename, isp, periodpath, period):
         " isp ",
         isp,
         " periodpath ",
-        periodpath)
+        periodpath,
+        " user_email ",
+        user_email)
     subscrfile = periodpath + "/subscribers/" + subfile
 
     # === NEW: PHASE 1 - CODE A VALIDATION ===
@@ -620,24 +622,28 @@ def create_subscription(subfile, filename, isp, periodpath, period):
         print("PHASE 1 RESULT: INVALID - Sending corrected file to user")
         print("========================================")
 
-        # Get user email and name
-        sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-        ps_cursor.execute(sql)
-        userems = ps_cursor.fetchall()
-        customer = ''
-        cname = ''
+        # Use provided user email
+        customer = user_email
+        cname = ''  # Get name from database for personalization
         with open('validate_subs.log', 'a') as f:
-            print(f'[INVALID FILE] Retrieving user email for org_id={isp}\n', file=f)
-        for em in userems:
-            customer = em["email"]
-            cname = em["name"]
+            print(f'[INVALID FILE] Using provided email: {customer} for org_id={isp}\n', file=f)
 
-        if customer:
+        # Try to get user name from database for personalization
+        try:
+            sql = """Select name from broadband.users where org_id = """ + isp + """ limit 1"""
+            ps_cursor.execute(sql)
+            userems = ps_cursor.fetchall()
+            for em in userems:
+                cname = em["name"]
+            if cname:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[INVALID FILE] Found user name: {cname}\n', file=f)
+            else:
+                cname = 'Customer'  # Default if name not found
+        except Exception as e:
             with open('validate_subs.log', 'a') as f:
-                print(f'[INVALID FILE] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
-        else:
-            with open('validate_subs.log', 'a') as f:
-                print(f'[INVALID FILE] WARNING: No user found in database for org_id={isp}\n', file=f)
+                print(f'[INVALID FILE] Could not retrieve name from database: {e}\n', file=f)
+            cname = 'Customer'  # Default if lookup fails
 
         # Create user message
         user_message = f"""Dear {cname},
@@ -646,15 +652,15 @@ Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC
 
 Initial review of the file suggests the file needs a little help.
 
-We have attached a file called {isp}_corrected_subscribers.xlsx to this email. 
-This file is your original subscriber file that has been partially corrected. 
+We have attached a file called {isp}_Corrected_Subscribers.xlsx to this email.
+This file is your original subscriber file that has been partially corrected.
 This file identifies errors that need to be manually corrected. The file has color-coded cells:
 - Green cells have been automatically corrected to match USPS standards
-- Red and Pink cells need manual correction, and 
+- Red and Pink cells need manual correction, and
 - Yellow cells should be reviewed and corrected as appropriate (e.g., missing zip codes)
 
 Please:
-1. Open the attached {isp}_corrected_subscribers.xlsx file
+1. Open the attached {isp}_Corrected_Subscribers.xlsx file
 2. Correct the Red and Pink data cells
 3. Review and correct all Yellow cells, if you can easily otherwise the next pass will autocorrect these cells
 4. Complete your repairs and SAVE THE FILE IN A CSV format, then
@@ -731,7 +737,7 @@ The Regulatory Solutions Team"""
                     file=f)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_failed' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'data_validation_failed' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
@@ -744,24 +750,28 @@ The Regulatory Solutions Team"""
         print("PHASE 1 RESULT: HEADER ERROR - Sending header-specific email to user")
         print("========================================")
 
-        # Get user email and name
-        sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-        ps_cursor.execute(sql)
-        userems = ps_cursor.fetchall()
-        customer = ''
-        cname = ''
+        # Use provided user email
+        customer = user_email
+        cname = ''  # Get name from database for personalization
         with open('validate_subs.log', 'a') as f:
-            print(f'[HEADER ERROR] Retrieving user email for org_id={isp}\n', file=f)
-        for em in userems:
-            customer = em["email"]
-            cname = em["name"]
+            print(f'[HEADER ERROR] Using provided email: {customer} for org_id={isp}\n', file=f)
 
-        if customer:
+        # Try to get user name from database for personalization
+        try:
+            sql = """Select name from broadband.users where org_id = """ + isp + """ limit 1"""
+            ps_cursor.execute(sql)
+            userems = ps_cursor.fetchall()
+            for em in userems:
+                cname = em["name"]
+            if cname:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[HEADER ERROR] Found user name: {cname}\n', file=f)
+            else:
+                cname = 'Customer'  # Default if name not found
+        except Exception as e:
             with open('validate_subs.log', 'a') as f:
-                print(f'[HEADER ERROR] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
-        else:
-            with open('validate_subs.log', 'a') as f:
-                print(f'[HEADER ERROR] WARNING: No user found in database for org_id={isp}\n', file=f)
+                print(f'[HEADER ERROR] Could not retrieve name from database: {e}\n', file=f)
+            cname = 'Customer'  # Default if lookup fails
 
         header_error_message = f"""Dear {cname},
 
@@ -820,7 +830,7 @@ The Regulatory Solutions Team"""
             header_email_subject)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'header_validation_failed' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
@@ -833,24 +843,28 @@ The Regulatory Solutions Team"""
         print("PHASE 1 RESULT: ERROR - Code A validation failed")
         print("========================================")
 
-        # Get user email and name
-        sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-        ps_cursor.execute(sql)
-        userems = ps_cursor.fetchall()
-        customer = ''
-        cname = ''
+        # Use provided user email
+        customer = user_email
+        cname = ''  # Get name from database for personalization
         with open('validate_subs.log', 'a') as f:
-            print(f'[VALIDATION ERROR] Retrieving user email for org_id={isp}\n', file=f)
-        for em in userems:
-            customer = em["email"]
-            cname = em["name"]
+            print(f'[VALIDATION ERROR] Using provided email: {customer} for org_id={isp}\n', file=f)
 
-        if customer:
+        # Try to get user name from database for personalization
+        try:
+            sql = """Select name from broadband.users where org_id = """ + isp + """ limit 1"""
+            ps_cursor.execute(sql)
+            userems = ps_cursor.fetchall()
+            for em in userems:
+                cname = em["name"]
+            if cname:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[VALIDATION ERROR] Found user name: {cname}\n', file=f)
+            else:
+                cname = 'Customer'  # Default if name not found
+        except Exception as e:
             with open('validate_subs.log', 'a') as f:
-                print(f'[VALIDATION ERROR] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
-        else:
-            with open('validate_subs.log', 'a') as f:
-                print(f'[VALIDATION ERROR] WARNING: No user found in database for org_id={isp}\n', file=f)
+                print(f'[VALIDATION ERROR] Could not retrieve name from database: {e}\n', file=f)
+            cname = 'Customer'  # Default if lookup fails
 
         # Check if this is a header validation error
         is_header_error = 'Could not locate valid column headers' in validation_result.get('error_message', '')
@@ -939,7 +953,7 @@ The Regulatory Solutions Team"""
                   email_subject)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'system_error' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
@@ -964,21 +978,6 @@ The Regulatory Solutions Team"""
     print("========================================")
     print("PHASE 2: Starting geocoding and database processing")
     print("========================================")
-
-    # Validate column count (Code A should have ensured this, but double-check)
-    with open(subscrfile) as csv_file:
-        rowtest = csv.reader(csv_file, delimiter=',')
-        ncols = len(next(rowtest))
-        if ncols != 12:
-            print(
-                "    ERROR: Code A output should have 12 cols but has " +
-                str(ncols))
-            # This should not happen if Code A worked correctly
-            sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'format_error' where org_id = """ + \
-                isp + """ and filing_period = '""" + period + """' """
-            cursor.execute(sql)
-            conn.commit()
-            return
 
     # Continue with Code B's database operations (geocoding, tract assignment,
     # etc.)
@@ -1149,24 +1148,28 @@ The Regulatory Solutions Team"""
                 "a")
             errfil.write('Date: ' + date_time + '\n')
 
-            # Send email about geocoding errors
-            sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-            ps_cursor.execute(sql)
-            userems = ps_cursor.fetchall()
-            customer = ''
-            cname = ''
+            # Use provided user email
+            customer = user_email
+            cname = ''  # Get name from database for personalization
             with open('validate_subs.log', 'a') as f:
-                print(f'[GEOCODING ERRORS] Retrieving user email for org_id={isp}\n', file=f)
-            for em in userems:
-                customer = em["email"]
-                cname = em["name"]
+                print(f'[GEOCODING ERRORS] Using provided email: {customer} for org_id={isp}\n', file=f)
 
-            if customer:
+            # Try to get user name from database for personalization
+            try:
+                sql = """Select name from broadband.users where org_id = """ + isp + """ limit 1"""
+                ps_cursor.execute(sql)
+                userems = ps_cursor.fetchall()
+                for em in userems:
+                    cname = em["name"]
+                if cname:
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'[GEOCODING ERRORS] Found user name: {cname}\n', file=f)
+                else:
+                    cname = 'Customer'  # Default if name not found
+            except Exception as e:
                 with open('validate_subs.log', 'a') as f:
-                    print(f'[GEOCODING ERRORS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
-            else:
-                with open('validate_subs.log', 'a') as f:
-                    print(f'[GEOCODING ERRORS] WARNING: No user found in database for org_id={isp}\n', file=f)
+                    print(f'[GEOCODING ERRORS] Could not retrieve name from database: {e}\n', file=f)
+                cname = 'Customer'  # Default if lookup fails
 
             em_message = 'Dear ' + cname + \
                 ', \nYour subscriber file passed validation but we encountered geocoding errors for some addresses:\n\nDate: ' + date_time + '\n'
@@ -1380,21 +1383,32 @@ All files are attached for manual inspection.
             with open('validate_subs.log', 'a') as f:
                 print(f'Phase 2 completion email sent to admin with {len(phase2_files)} attachments\n', file=f)
 
-            # Send success email to user
-            sql = """Select email,name from broadband.users where org_id = """ + isp + """ limit 1"""
-            ps_cursor.execute(sql)
-            userems = ps_cursor.fetchall()
-            customer = ''
-            cname = ''
+            # Use provided user email
+            customer = user_email
+            cname = ''  # Get name from database for personalization
             with open('validate_subs.log', 'a') as f:
-                print(f'[PHASE 2 SUCCESS] Retrieving user email for org_id={isp}\n', file=f)
-            for em in userems:
-                customer = em["email"]
-                cname = em["name"]
+                print(f'[PHASE 2 SUCCESS] Using provided email: {customer} for org_id={isp}\n', file=f)
+
+            # Try to get user name from database for personalization
+            try:
+                sql = """Select name from broadband.users where org_id = """ + isp + """ limit 1"""
+                ps_cursor.execute(sql)
+                userems = ps_cursor.fetchall()
+                for em in userems:
+                    cname = em["name"]
+                if cname:
+                    with open('validate_subs.log', 'a') as f:
+                        print(f'[PHASE 2 SUCCESS] Found user name: {cname}\n', file=f)
+                else:
+                    cname = 'Customer'  # Default if name not found
+            except Exception as e:
+                with open('validate_subs.log', 'a') as f:
+                    print(f'[PHASE 2 SUCCESS] Could not retrieve name from database: {e}\n', file=f)
+                cname = 'Customer'  # Default if lookup fails
 
             if customer:
                 with open('validate_subs.log', 'a') as f:
-                    print(f'[PHASE 2 SUCCESS] Found user: {cname} <{customer}> for org_id={isp}\n', file=f)
+                    print(f'[PHASE 2 SUCCESS] Sending success email to: {cname} <{customer}> for org_id={isp}\n', file=f)
 
                 # Find the VR.xlsx file to attach
                 # VR file is created by Code A in Subscriber_File_Validations directory
@@ -1475,16 +1489,30 @@ The Regulatory Solutions Team"""
     return
 
 
+# Check command line arguments
+if len(sys.argv) < 4:
+    print("ERROR: Missing required arguments")
+    print("Usage: python3 validate_subscription_isp_mod_2.py {isp_id} yyyy-mm-dd {user_email}")
+    print("Example: python3 validate_subscription_isp_mod_2.py 123 2025-06-30 user@example.com")
+    sys.exit(1)
+
 ispid = sys.argv[1]
 per = sys.argv[2]
+user_email = sys.argv[3]
 
+# Validate email format (basic validation)
+email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+if not re.match(email_pattern, user_email):
+    print(f"ERROR: Invalid email format: {user_email}")
+    print("Please provide a valid email address")
+    sys.exit(1)
 
 now = datetime.now()
 x = now.strftime("%m/%d/%Y, %H:%M:%S")
 
 with open('validate_subs.log', 'a') as f:
     print(x, file=f)
-    print('validate_subscription_isp run for ' + ispid + '\n', file=f)
+    print(f'validate_subscription_isp run for ISP {ispid}, Period {per}, User Email {user_email}\n', file=f)
 
 
 db_host = os.getenv('DB_HOST', 'localhost')
@@ -1584,7 +1612,7 @@ for path in os.listdir(dir_path):
                                         print(
                                             "          processing subscribers file ", subfile)
                                         create_subscription(
-                                            subfile, sfile, procisp, periodpath, endperiod)
+                                            subfile, sfile, procisp, periodpath, endperiod, user_email)
 
 conn.close()
 with open('validate_subs.log', 'a') as f:
