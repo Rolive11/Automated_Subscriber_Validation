@@ -488,7 +488,7 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
                 csv_path = path
                 with open('validate_subs.log', 'a') as f:
                     print(f'Found CSV: {csv_path}\n', file=f)
-            elif filename.endswith('_Corrected_Subscribers.xlsx'):
+            elif filename.endswith('_Prtly_Crcted_Subs.xlsx'):
                 excel_path = path
                 with open('validate_subs.log', 'a') as f:
                     print(f'Found Excel: {excel_path}\n', file=f)
@@ -646,15 +646,15 @@ Thank you for uploading your subscriber file to Regulatory Solutions for FCC BDC
 
 Initial review of the file suggests the file needs a little help.
 
-We have attached a file called {isp}_corrected_subscribers.xlsx to this email. 
-This file is your original subscriber file that has been partially corrected. 
+We have attached a file called {isp}_Prtly_Crcted_Subs.xlsx to this email.
+This file is your original subscriber file that has been partially corrected.
 This file identifies errors that need to be manually corrected. The file has color-coded cells:
 - Green cells have been automatically corrected to match USPS standards
-- Red and Pink cells need manual correction, and 
+- Red and Pink cells need manual correction, and
 - Yellow cells should be reviewed and corrected as appropriate (e.g., missing zip codes)
 
 Please:
-1. Open the attached {isp}_corrected_subscribers.xlsx file
+1. Open the attached {isp}_Prtly_Crcted_Subs.xlsx file
 2. Correct the Red and Pink data cells
 3. Review and correct all Yellow cells, if you can easily otherwise the next pass will autocorrect these cells
 4. Complete your repairs and SAVE THE FILE IN A CSV format, then
@@ -731,7 +731,7 @@ The Regulatory Solutions Team"""
                     file=f)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_failed' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'data_validation_failed' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
@@ -820,7 +820,7 @@ The Regulatory Solutions Team"""
             header_email_subject)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'header_validation_failed' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
@@ -939,7 +939,7 @@ The Regulatory Solutions Team"""
                   email_subject)
 
         # Update database status
-        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'validation_error' where org_id = """ + \
+        sql = """Update filer_processing_status set subscription_processed = true, subscription_status = 'header_validation_failed' where org_id = """ + \
             isp + """ and filing_period = '""" + period + """' """
         cursor.execute(sql)
         conn.commit()
