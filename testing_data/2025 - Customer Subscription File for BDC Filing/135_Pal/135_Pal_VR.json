@@ -1,0 +1,4622 @@
+{
+    "Summary": {
+        "Total Rows Processed": 764,
+        "Rows with Corrections": 526,
+        "Rows with Errors": 22,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 9,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 531,
+        "Total Errors": 29,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.72,
+        "Validation Date": "2025-08-27 11:22:02",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 755,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 755,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 321,
+            "Column": "address",
+            "Original Value": "312 Knolle Ln",
+            "Corrected Value": "312 KNOLLE LN",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Original Value": "106 EAST SOYARS AVENUE FEED WAREHOUSE",
+            "Corrected Value": "106 E SOYARS AVENUE FEED WAREHOUSE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "6046 FARM TO MARKET ROAD 888",
+            "Corrected Value": "6046 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "13765 FARM TO MARKET ROAD 1944",
+            "Corrected Value": "13765 FM 1944",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "14630 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "14630 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "200 SOUTH RACHAL",
+            "Corrected Value": "200 S RACHAL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "235 COUNTY ROAD 353 N",
+            "Corrected Value": "235 CR 353 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "14514 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "14514 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "830 COUNTY ROAD 352 N",
+            "Corrected Value": "830 CR 352 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "6611 FARM TO MARKET ROAD 888",
+            "Corrected Value": "6611 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "8215 FARM TO MARKET ROAD 630",
+            "Corrected Value": "8215 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "1716 SOUTH US HIGHWAY 281",
+            "Corrected Value": "1716 S US HIGHWAY 281",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "3104 FARM TO MARKET ROAD 797",
+            "Corrected Value": "3104 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "2753 WEST HIGHWAY 141",
+            "Corrected Value": "2753 W HIGHWAY 141",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "2970 EAST MAIN STREET",
+            "Corrected Value": "2970 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "205 WEST LANE",
+            "Corrected Value": "205 W LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "16923 FARM TO MARKET ROAD 630",
+            "Corrected Value": "16923 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "7168 FARM TO MARKET ROAD 631",
+            "Corrected Value": "7168 FM 631",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "6049 EAST HIGHWAY 44",
+            "Corrected Value": "6049 E HIGHWAY 44",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "1022 FARM TO MARKET ROAD 625",
+            "Corrected Value": "1022 FM 625",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "5895 FARM TO MARKET ROAD 1074",
+            "Corrected Value": "5895 FM 1074",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "3408 FARM TO MARKET 673",
+            "Corrected Value": "3408 FM 673",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "7219 FARM TO MARKET ROAD 888",
+            "Corrected Value": "7219 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "8036 FARM TO MARKET ROAD 631",
+            "Corrected Value": "8036 FM 631",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "657 N COUNTY ROAD 307",
+            "Corrected Value": "657 N CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "3668 FARM TO MARKET ROAD 735",
+            "Corrected Value": "3668 FM 735",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Original Value": "3859 FARM TO MARKET ROAD 799",
+            "Corrected Value": "3859 FM 799",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "310 FARM TO MARKET ROAD 772",
+            "Corrected Value": "310 FM 772",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "628 N COUNTY ROAD 305",
+            "Corrected Value": "628 N CR 305",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "822 SOUTH 16TH STREET",
+            "Corrected Value": "822 S 16TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "1265 COUNTY ROAD 239 E",
+            "Corrected Value": "1265 CR 239 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "254 COUNTY ROAD 1043 N",
+            "Corrected Value": "254 CR 1043 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "260 COUNTY ROAD 1043 N",
+            "Corrected Value": "260 CR 1043 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Original Value": "511 WEST LANE",
+            "Corrected Value": "511 W LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "210 COUNTY ROAD 2180 E",
+            "Corrected Value": "210 CR 2180 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "155 WEST CO ROAD 2195",
+            "Corrected Value": "155 W CO ROAD 2195",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "142 S COUNTY ROAD 1010",
+            "Corrected Value": "142 S CR 1010",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "2237 FARM TO MARKET ROAD 1349",
+            "Corrected Value": "2237 FM 1349",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "191 S COUNTY ROAD 307",
+            "Corrected Value": "191 S CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "322 FARM TO MARKET ROAD 70",
+            "Corrected Value": "322 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "15321 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "15321 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "238 COUNTY ROAD 1035 N",
+            "Corrected Value": "238 CR 1035 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "2199 FARM TO MARKET ROAD 665",
+            "Corrected Value": "2199 FM 665",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "3952 FARM TO MARKET ROAD 888",
+            "Corrected Value": "3952 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "17064 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "17064 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "7628 FARM TO MARKET ROAD 673",
+            "Corrected Value": "7628 FM 673",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "307 SOUTH 14TH STREET",
+            "Corrected Value": "307 S 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "address",
+            "Original Value": "321 COUNTY ROAD 2210 E",
+            "Corrected Value": "321 CR 2210 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "8612 FARM TO MARKET ROAD 888",
+            "Corrected Value": "8612 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "253 E COUNTY ROAD 2210",
+            "Corrected Value": "253 E CR 2210",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "1868 FARM TO MARKET ROAD 70",
+            "Corrected Value": "1868 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Original Value": "2753 WEST HIGHWAY 141",
+            "Corrected Value": "2753 W HIGHWAY 141",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Original Value": "1524 FARM TO MARKET 1349",
+            "Corrected Value": "1524 FM 1349",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "2229 FARM TO MARKET ROAD 1349",
+            "Corrected Value": "2229 FM 1349",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "152 S COUNTY ROAD 1026",
+            "Corrected Value": "152 S CR 1026",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "268 COUNTY ROAD 1042 N",
+            "Corrected Value": "268 CR 1042 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "366 W COUNTY ROAD 2180",
+            "Corrected Value": "366 W CR 2180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "426 FARM TO MARKET 70",
+            "Corrected Value": "426 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Original Value": "2991 FARM TO MARKET 799",
+            "Corrected Value": "2991 FM 799",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "16775 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "16775 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Original Value": "4225 NORTH SAINT MARYS STREET",
+            "Corrected Value": "4225 N SAINT MARYS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Original Value": "209 E COUNTY ROAD 2205",
+            "Corrected Value": "209 E CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "300 FARM TO MARKET ROAD 2986",
+            "Corrected Value": "300 FM 2986",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "11400 FARM TO MARKET ROAD 1944",
+            "Corrected Value": "11400 FM 1944",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "173 E FARM TO MARKET ROAD 772",
+            "Corrected Value": "173 E FM 772",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "2129 FARM TO MARKET 665",
+            "Corrected Value": "2129 FM 665",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Original Value": "2107 WEST KING LANE",
+            "Corrected Value": "2107 W KING LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "258 COUNTY ROAD 2210 E",
+            "Corrected Value": "258 CR 2210 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "165 S COUNTY ROAD 1060",
+            "Corrected Value": "165 S CR 1060",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "120 SOUTH CHILTIPIN STREET",
+            "Corrected Value": "120 S CHILTIPIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "3138 NORTH AIRPORT ROAD",
+            "Corrected Value": "3138 N AIRPORT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "2004 FARM TO MARKET ROAD 797",
+            "Corrected Value": "2004 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "1310 EAST GENERAL CAVAZOS BOULEVARD",
+            "Corrected Value": "1310 E GENERAL CAVAZOS BOULEVARD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "462 EAST COUNTRY ROAD 2090",
+            "Corrected Value": "462 E COUNTRY ROAD 2090",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Original Value": "349 FARM TO MARKET ROAD 625",
+            "Corrected Value": "349 FM 625",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "489 E COUNTY ROAD 2080",
+            "Corrected Value": "489 E CR 2080",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Original Value": "484 E COUNTY ROAD 2090",
+            "Corrected Value": "484 E CR 2090",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "226 N COUNTY ROAD 1026",
+            "Corrected Value": "226 N CR 1026",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "16961 FARM TO MARKET ROAD 630",
+            "Corrected Value": "16961 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "411 COUNTY ROAD 239 E",
+            "Corrected Value": "411 CR 239 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "7911 FARM TO MARKET ROAD 673",
+            "Corrected Value": "7911 FM 673",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "1464 FARM TO MARKET ROAD 70",
+            "Corrected Value": "1464 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "260 A COUNTY ROAD 1043 N",
+            "Corrected Value": "260 A CR 1043 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Original Value": "2716 EAST CORRAL",
+            "Corrected Value": "2716 E CORRAL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "1004 FARM TO MARKET ROAD 625",
+            "Corrected Value": "1004 FM 625",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "3346 FARM TO MARKET 797",
+            "Corrected Value": "3346 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "143 S COUNTY ROAD 428",
+            "Corrected Value": "143 S CR 428",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "2360 FARM TO MARKET 1781",
+            "Corrected Value": "2360 FM 1781",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "206 W COUNTY ROAD 2170",
+            "Corrected Value": "206 W CR 2170",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "4976 SOUTH US HIGHWAY 281",
+            "Corrected Value": "4976 S US HIGHWAY 281",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "11756 FARM TO MARKET ROAD 631",
+            "Corrected Value": "11756 FM 631",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "919 COUNTY ROAD 303 W",
+            "Corrected Value": "919 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Original Value": "7154 FARM TO MARKET ROAD 888",
+            "Corrected Value": "7154 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "5815 WEST ROAD",
+            "Corrected Value": "5815 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Original Value": "155 S COUNTY ROAD 1060",
+            "Corrected Value": "155 S CR 1060",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "14466 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "14466 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Original Value": "2378 WEST KING LANE",
+            "Corrected Value": "2378 W KING LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Original Value": "2471 FARM TO MARKET ROAD 735",
+            "Corrected Value": "2471 FM 735",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "498 E COUNTY ROAD 2090",
+            "Corrected Value": "498 E CR 2090",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "828 EAST ALEXANDER AVENUE",
+            "Corrected Value": "828 E ALEXANDER AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "1084 SOUTH HWY 281 BYPASS",
+            "Corrected Value": "1084 S HWY 281 BYPASS",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "1851 FARM TO MARKET 797",
+            "Corrected Value": "1851 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "1252 FARM TO MARKET ROAD 1539",
+            "Corrected Value": "1252 FM 1539",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "3423 FARM TO MARKET ROAD 665",
+            "Corrected Value": "3423 FM 665",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Original Value": "2437 WEST KING LANE",
+            "Corrected Value": "2437 W KING LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Original Value": "382 WEST LANE",
+            "Corrected Value": "382 W LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Original Value": "128 NORTH 1ST STREET",
+            "Corrected Value": "128 N 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "157 W COUNTY ROAD 2195",
+            "Corrected Value": "157 W CR 2195",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "1035 EAST 5TH STREET",
+            "Corrected Value": "1035 E 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "1115 EAST LAWNDALE DRIVE",
+            "Corrected Value": "1115 E LAWNDALE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 355,
+            "Column": "address",
+            "Original Value": "210 FARM TO MARKET ROAD 772",
+            "Corrected Value": "210 FM 772",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "3179 FARM TO MARKET 735",
+            "Corrected Value": "3179 FM 735",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "245 COUNTY ROAD 1035 N",
+            "Corrected Value": "245 CR 1035 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "2205 STATE HIGHWAY 141 #60",
+            "Corrected Value": "2205 STATE HIGHWAY 141",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "900 WEST SINTON STREET",
+            "Corrected Value": "900 W SINTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 380,
+            "Column": "address",
+            "Original Value": "656 NORTH CO ROAD 1080",
+            "Corrected Value": "656 N CO ROAD 1080",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "1362 FARM TO MARKET ROAD 1930",
+            "Corrected Value": "1362 FM 1930",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "13661 US 181 UNIT 18",
+            "Corrected Value": "13661 US 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Original Value": "1727 WEST SAGE ROAD",
+            "Corrected Value": "1727 W SAGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Original Value": "128 COUNTY ROAD 303 W",
+            "Corrected Value": "128 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "106 FARM TO MARKET 772",
+            "Corrected Value": "106 FM 772",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "1174 FARM TO MARKET ROAD 716",
+            "Corrected Value": "1174 FM 716",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "4060 EAST HIGHWAY 44",
+            "Corrected Value": "4060 E HIGHWAY 44",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "14929 FARM TO MARKET ROAD 1945 CO JIMMY RIVERA",
+            "Corrected Value": "14929 FM 1945 CO JIMMY RIVERA",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "529 FARM TO MARKET ROAD 70",
+            "Corrected Value": "529 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "5452 FARM TO MARKET 666",
+            "Corrected Value": "5452 FM 666",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "645 NORTH PIRATE BOULEVARD",
+            "Corrected Value": "645 N PIRATE BOULEVARD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "4397 FARM TO MARKET ROAD 797",
+            "Corrected Value": "4397 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "221 WEST CHRIS LANE",
+            "Corrected Value": "221 W CHRIS LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "114 SOUTH FIELD AVENUE",
+            "Corrected Value": "114 S FIELD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "525 FARM TO MARKET ROAD 70",
+            "Corrected Value": "525 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "198 WEST KING LANE",
+            "Corrected Value": "198 W KING LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Original Value": "320 FARM TO MARKET 2044",
+            "Corrected Value": "320 FM 2044",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "2024 FARM TO MARKET 624 W",
+            "Corrected Value": "2024 FM 624 W",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "3496 FARM TO MARKET ROAD 735",
+            "Corrected Value": "3496 FM 735",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 467,
+            "Column": "address",
+            "Original Value": "823 EAST KENEDY AVENUE",
+            "Corrected Value": "823 E KENEDY AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "245 FARM TO MARKET ROAD 2044",
+            "Corrected Value": "245 FM 2044",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "14671 FARM TO MARKET ROAD 1945",
+            "Corrected Value": "14671 FM 1945",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "215 W COUNTY ROAD 2180",
+            "Corrected Value": "215 W CR 2180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Original Value": "2712 EAST CORRAL AVENUE",
+            "Corrected Value": "2712 E CORRAL AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "239 COUNTY ROAD 303 E",
+            "Corrected Value": "239 CR 303 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "8306 FARM TO MARKET 631",
+            "Corrected Value": "8306 FM 631",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "3414 FARM TO MARKET 624 W",
+            "Corrected Value": "3414 FM 624 W",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "16973 FARM TO MARKET ROAD 630",
+            "Corrected Value": "16973 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "4267 FM 3167 LOT 14",
+            "Corrected Value": "4267 FM 3167",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Original Value": "1007 EAST LEWIS STREET",
+            "Corrected Value": "1007 E LEWIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Original Value": "3022 FARM TO MARKET ROAD 1349",
+            "Corrected Value": "3022 FM 1349",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "1524 N FARM TO MARKET 738",
+            "Corrected Value": "1524 N FM 738",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 528,
+            "Column": "address",
+            "Original Value": "7926 FARM TO MARKET 673",
+            "Corrected Value": "7926 FM 673",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "14482 FARM TO MARKET ROAD 3089",
+            "Corrected Value": "14482 FM 3089",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "1314 PR SALTGRASS DRIVE",
+            "Corrected Value": "1314 PVT RD SALTGRASS DRIVE",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 535,
+            "Column": "address",
+            "Original Value": "133 WEST CO ROAD 2195",
+            "Corrected Value": "133 W CO ROAD 2195",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "address",
+            "Original Value": "1571 COUNTY ROAD 303 W",
+            "Corrected Value": "1571 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "7405 NORTH US HIGHWAY 181",
+            "Corrected Value": "7405 N US HIGHWAY 181",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 542,
+            "Column": "address",
+            "Original Value": "2777 FARM TO MARKET 673",
+            "Corrected Value": "2777 FM 673",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Original Value": "1016 EAST HENRIETTA AVENUE",
+            "Corrected Value": "1016 E HENRIETTA AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 547,
+            "Column": "address",
+            "Original Value": "3389 FARM TO MARKET ROAD 888",
+            "Corrected Value": "3389 FM 888",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Original Value": "166 EAST FM 772",
+            "Corrected Value": "166 E FM 772",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "102 FARM TO MARKET ROAD 1355",
+            "Corrected Value": "102 FM 1355",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "7709 US HIGHWAY 181 NORTH",
+            "Corrected Value": "7709 US HIGHWAY 181 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "8086 FARM TO MARKET ROAD 2046",
+            "Corrected Value": "8086 FM 2046",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "15858 FARM TO MARKET ROAD 630",
+            "Corrected Value": "15858 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "3802 W FARM TO MARKET ROAD 624",
+            "Corrected Value": "3802 W FM 624",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "2415 EAST SANTA GERTRUDIS STREET",
+            "Corrected Value": "2415 E SANTA GERTRUDIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "259 COUNTY ROAD 352 N",
+            "Corrected Value": "259 CR 352 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 591,
+            "Column": "address",
+            "Original Value": "4015 FARM TO MARKET 623",
+            "Corrected Value": "4015 FM 623",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "702 WEST 4TH STREET",
+            "Corrected Value": "702 W 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 595,
+            "Column": "address",
+            "Original Value": "473 COUNTY ROAD 303 E",
+            "Corrected Value": "473 CR 303 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "2051 COUNTY ROAD 303 W",
+            "Corrected Value": "2051 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "1326 EAST JOHNSTON AVENUE",
+            "Corrected Value": "1326 E JOHNSTON AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 599,
+            "Column": "address",
+            "Original Value": "772 WEST FM",
+            "Corrected Value": "772 W FM",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Original Value": "335 S COUNTY ROAD 307",
+            "Corrected Value": "335 S CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "3029 FARM TO MARKET ROAD 1538",
+            "Corrected Value": "3029 FM 1538",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Original Value": "409 WEST MENDOZA AVENUE",
+            "Corrected Value": "409 W MENDOZA AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "14262 FARM TO MARKET ROAD 1945",
+            "Corrected Value": "14262 FM 1945",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Original Value": "268 N COUNTY ROAD 1044",
+            "Corrected Value": "268 N CR 1044",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "406 SOUTH GREGORY",
+            "Corrected Value": "406 S GREGORY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "1745 EAST F AVENUE",
+            "Corrected Value": "1745 E F AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 621,
+            "Column": "address",
+            "Original Value": "1258 FARM TO MARKET 1554",
+            "Corrected Value": "1258 FM 1554",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 623,
+            "Column": "address",
+            "Original Value": "2350 WEST KING LANE",
+            "Corrected Value": "2350 W KING LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "273 FARM TO MARKET ROAD 2441",
+            "Corrected Value": "273 FM 2441",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "311 EAST SINTON STREET",
+            "Corrected Value": "311 E SINTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 631,
+            "Column": "address",
+            "Original Value": "11520 FARM TO MARKET ROAD 1944",
+            "Corrected Value": "11520 FM 1944",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "2950 HIGHWAY 35 NORTH",
+            "Corrected Value": "2950 HIGHWAY 35 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 639,
+            "Column": "address",
+            "Original Value": "4267 COUNTY ROAD 3161",
+            "Corrected Value": "4267 CR 3161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Original Value": "5823 FARM TO MARKET ROAD 1074",
+            "Corrected Value": "5823 FM 1074",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Original Value": "148 COUNTY ROAD 303 W",
+            "Corrected Value": "148 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Original Value": "2415 E SANTA GERTRUDIS STREET LOT 60",
+            "Corrected Value": "2415 E SANTA GERTRUDIS STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Original Value": "108 W COUNTY ROAD 2160",
+            "Corrected Value": "108 W CR 2160",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 663,
+            "Column": "address",
+            "Original Value": "2205 HIGHWAY 141 #69",
+            "Corrected Value": "2205 HIGHWAY 141",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Original Value": "1757 COUNTY ROAD 303 W",
+            "Corrected Value": "1757 CR 303 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Original Value": "311 PR 3030",
+            "Corrected Value": "311 PVT RD 3030",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 678,
+            "Column": "address",
+            "Original Value": "213 W COUNTY ROAD 2180",
+            "Corrected Value": "213 W CR 2180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Original Value": "662 FARM TO MARKET ROAD 797",
+            "Corrected Value": "662 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 691,
+            "Column": "address",
+            "Original Value": "921 FARM TO MARKET ROAD 797",
+            "Corrected Value": "921 FM 797",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Original Value": "131 W COUNTY ROAD 2195",
+            "Corrected Value": "131 W CR 2195",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 694,
+            "Column": "address",
+            "Original Value": "3712 HIGHWAY 59 WEST",
+            "Corrected Value": "3712 HIGHWAY 59 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 696,
+            "Column": "address",
+            "Original Value": "101 FARM TO MARKET 772",
+            "Corrected Value": "101 FM 772",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "115 FARM TO MARKET ROAD 2441 N",
+            "Corrected Value": "115 FM 2441 N",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 700,
+            "Column": "address",
+            "Original Value": "379 RATTLESNAKE POINT ROAD #43",
+            "Corrected Value": "379 RATTLESNAKE POINT ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "2921 HIGHWAY 35 NORTH",
+            "Corrected Value": "2921 HIGHWAY 35 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Original Value": "254 E COUNTY ROAD 2210",
+            "Corrected Value": "254 E CR 2210",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 710,
+            "Column": "address",
+            "Original Value": "231 N COUNTY ROAD 1050",
+            "Corrected Value": "231 N CR 1050",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "9428 SOUTH REYNOLDS STREET",
+            "Corrected Value": "9428 S REYNOLDS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 722,
+            "Column": "address",
+            "Original Value": "440 FARM TO MARKET ROAD 3024",
+            "Corrected Value": "440 FM 3024",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 723,
+            "Column": "address",
+            "Original Value": "21 BAHAMA SOUTH",
+            "Corrected Value": "21 BAHAMA S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 727,
+            "Column": "address",
+            "Original Value": "214 COUNTY ROAD 2163 W",
+            "Corrected Value": "214 CR 2163 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 732,
+            "Column": "address",
+            "Original Value": "259 COUNTY ROAD 227 E",
+            "Corrected Value": "259 CR 227 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 734,
+            "Column": "address",
+            "Original Value": "14128 COUNTY ROAD 858",
+            "Corrected Value": "14128 CR 858",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Original Value": "16509 FARM TO MARKET ROAD 630",
+            "Corrected Value": "16509 FM 630",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "13661 US 181 LOT 13",
+            "Corrected Value": "13661 US 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 746,
+            "Column": "address",
+            "Original Value": "2952 FARM TO MARKET ROAD 70",
+            "Corrected Value": "2952 FM 70",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 690,
+            "Column": "lat",
+            "Original Value": 40.8437661,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 690,
+            "Column": "lon",
+            "Original Value": -72.939279,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "lon",
+            "Original Value": -89.6921972,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "lat",
+            "Original Value": 33.0365954,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "lat",
+            "Original Value": 42.7473073,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "lon",
+            "Original Value": -84.548546,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "10595 COUNTY ROAD 2219",
+            "Corrected Value": "10595 CR 2219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "6985 COUNTY ROAD 2004",
+            "Corrected Value": "6985 CR 2004",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "15209 COUNTY ROAD 984",
+            "Corrected Value": "15209 CR 984",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "9281 COUNTY ROAD 2367",
+            "Corrected Value": "9281 CR 2367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "4156 COUNTY ROAD 3767",
+            "Corrected Value": "4156 CR 3767",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "10316 COUNTY ROAD 2361",
+            "Corrected Value": "10316 CR 2361",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Original Value": "10188 COUNTY ROAD 2200",
+            "Corrected Value": "10188 CR 2200",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "7044 COUNTY ROAD 2703",
+            "Corrected Value": "7044 CR 2703",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "6332 COUNTY ROAD 2965",
+            "Corrected Value": "6332 CR 2965",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "8850 COUNTY ROAD 2411",
+            "Corrected Value": "8850 CR 2411",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "10505 COUNTY ROAD 2249",
+            "Corrected Value": "10505 CR 2249",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "12886 COUNTY ROAD 1394",
+            "Corrected Value": "12886 CR 1394",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "8816 COUNTY ROAD 2367",
+            "Corrected Value": "8816 CR 2367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "9243 COUNTY ROAD 2367",
+            "Corrected Value": "9243 CR 2367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "6129 COUNTY ROAD 2965",
+            "Corrected Value": "6129 CR 2965",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "9527 COUNTY ROAD 1906",
+            "Corrected Value": "9527 CR 1906",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "6840 COUNTY ROAD 1458",
+            "Corrected Value": "6840 CR 1458",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "6675 COUNTY ROAD 440",
+            "Corrected Value": "6675 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "358 COUNTY ROAD 4406",
+            "Corrected Value": "358 CR 4406",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "301 COUNTY ROAD 3391",
+            "Corrected Value": "301 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "195 COUNTY ROAD 338",
+            "Corrected Value": "195 CR 338",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "252 COUNTY ROAD 338",
+            "Corrected Value": "252 CR 338",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "7729 COUNTY ROAD 1839",
+            "Corrected Value": "7729 CR 1839",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "14586 COUNTY ROAD 722",
+            "Corrected Value": "14586 CR 722",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "5017 COUNTY ROAD 3161",
+            "Corrected Value": "5017 CR 3161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "4295 COUNTY ROAD 308",
+            "Corrected Value": "4295 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "7555 COUNTY ROAD 2763",
+            "Corrected Value": "7555 CR 2763",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Original Value": "3797 COUNTY ROAD 440",
+            "Corrected Value": "3797 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "3175 COUNTY ROAD 426",
+            "Corrected Value": "3175 CR 426",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "98 COUNTY ROAD 3362",
+            "Corrected Value": "98 CR 3362",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "234 COUNTY ROAD 322",
+            "Corrected Value": "234 CR 322",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "432 COUNTY ROAD 480",
+            "Corrected Value": "432 CR 480",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "1912 COUNTY ROAD 104",
+            "Corrected Value": "1912 CR 104",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "10394 COUNTY ROAD 2249",
+            "Corrected Value": "10394 CR 2249",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "147 COUNTY ROAD 2311",
+            "Corrected Value": "147 CR 2311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "7154 COUNTY ROAD 2253",
+            "Corrected Value": "7154 CR 2253",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "8244 COUNTY ROAD 2921",
+            "Corrected Value": "8244 CR 2921",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "7018 COUNTY ROAD 4121",
+            "Corrected Value": "7018 CR 4121",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "766 COUNTY ROAD 481",
+            "Corrected Value": "766 CR 481",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "180 COUNTY ROAD 3361",
+            "Corrected Value": "180 CR 3361",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "538 COUNTY ROAD 464",
+            "Corrected Value": "538 CR 464",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "6219 COUNTY ROAD 1612",
+            "Corrected Value": "6219 CR 1612",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "278 COUNTY ROAD 3082",
+            "Corrected Value": "278 CR 3082",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "1182 COUNTY ROAD 336",
+            "Corrected Value": "1182 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "180 COUNTY ROAD 3391",
+            "Corrected Value": "180 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "160 COUNTY ROAD 3361",
+            "Corrected Value": "160 CR 3361",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "3390 COUNTY ROAD 440",
+            "Corrected Value": "3390 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "130 COUNTY ROAD 3088",
+            "Corrected Value": "130 CR 3088",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "215 COUNTY ROAD 2205",
+            "Corrected Value": "215 CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "13914 COUNTY ROAD 1196",
+            "Corrected Value": "13914 CR 1196",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "3257 COUNTY ROAD 3463",
+            "Corrected Value": "3257 CR 3463",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "194 COUNTY ROAD 3391",
+            "Corrected Value": "194 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "3153 COUNTY ROAD 308",
+            "Corrected Value": "3153 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "285 COUNTY ROAD 1421",
+            "Corrected Value": "285 CR 1421",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "13809 COUNTY ROAD 1674",
+            "Corrected Value": "13809 CR 1674",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "9594 COUNTY ROAD 2200",
+            "Corrected Value": "9594 CR 2200",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "14063 COUNTY ROAD 2495 AKA 28B",
+            "Corrected Value": "14063 CR 2495 AKA 28B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Original Value": "6261 COUNTY ROAD 1612",
+            "Corrected Value": "6261 CR 1612",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "2386 COUNTY ROAD 307",
+            "Corrected Value": "2386 CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "9173 COUNTY ROAD 2035",
+            "Corrected Value": "9173 CR 2035",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "3938 COUNTY ROAD 440",
+            "Corrected Value": "3938 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "address",
+            "Original Value": "8015 COUNTY ROAD 3501",
+            "Corrected Value": "8015 CR 3501",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "14432 COUNTY ROAD 1412",
+            "Corrected Value": "14432 CR 1412",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "1170 COUNTY ROAD 336",
+            "Corrected Value": "1170 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "14848 COUNTY ROAD 984",
+            "Corrected Value": "14848 CR 984",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "150 COUNTY ROAD 3362",
+            "Corrected Value": "150 CR 3362",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "14191 COUNTY ROAD 1470",
+            "Corrected Value": "14191 CR 1470",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Original Value": "349 COUNTY ROAD 2208",
+            "Corrected Value": "349 CR 2208",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "1673 COUNTY ROAD 336",
+            "Corrected Value": "1673 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Original Value": "3731 COUNTY ROAD 440",
+            "Corrected Value": "3731 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "8822 COUNTY ROAD 615",
+            "Corrected Value": "8822 CR 615",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "12328 COUNTY ROAD 1394",
+            "Corrected Value": "12328 CR 1394",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "715 COUNTY ROAD 336",
+            "Corrected Value": "715 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "4051 COUNTY ROAD 170",
+            "Corrected Value": "4051 CR 170",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "15245 COUNTY ROAD 28",
+            "Corrected Value": "15245 CR 28",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "924 COUNTY ROAD 339",
+            "Corrected Value": "924 CR 339",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "3305 COUNTY ROAD 104",
+            "Corrected Value": "3305 CR 104",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "288 COUNTY ROAD 325",
+            "Corrected Value": "288 CR 325",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "150 COUNTY ROAD 3362",
+            "Corrected Value": "150 CR 3362",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "144 PRIVATE ROAD 1003",
+            "Corrected Value": "144 PVT RD 1003",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROAD 3032",
+            "Corrected Value": "318 CR 3032",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "149 COUNTY ROAD 2170",
+            "Corrected Value": "149 CR 2170",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "1050 COUNTY ROAD 448",
+            "Corrected Value": "1050 CR 448",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "14201 COUNTY ROAD 1470",
+            "Corrected Value": "14201 CR 1470",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "7065 COUNTY ROAD 2703",
+            "Corrected Value": "7065 CR 2703",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "14505 COUNTY ROAD 1392",
+            "Corrected Value": "14505 CR 1392",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "416 COUNTY ROAD 380",
+            "Corrected Value": "416 CR 380",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "20432 COUNTY ROAD 1740",
+            "Corrected Value": "20432 CR 1740",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "247 COUNTY ROAD 137",
+            "Corrected Value": "247 CR 137",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "1080 COUNTY ROAD 336",
+            "Corrected Value": "1080 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "7012 COUNTY ROAD 2703",
+            "Corrected Value": "7012 CR 2703",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "12326 COUNTY ROAD 1394",
+            "Corrected Value": "12326 CR 1394",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "365 COUNTY ROAD 2180",
+            "Corrected Value": "365 CR 2180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "455 E COUNTY ROAD 239",
+            "Corrected Value": "455 E CR 239",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "276 COUNTY ROAD 3571",
+            "Corrected Value": "276 CR 3571",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Original Value": "13692 COUNTY ROAD 1674",
+            "Corrected Value": "13692 CR 1674",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "2712 COUNTY ROAD 505",
+            "Corrected Value": "2712 CR 505",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "335 COUNTY ROAD 376",
+            "Corrected Value": "335 CR 376",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "564 COUNTY ROAD 358",
+            "Corrected Value": "564 CR 358",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "649 COUNTY ROAD 350",
+            "Corrected Value": "649 CR 350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "161 COUNTY ROAD 441",
+            "Corrected Value": "161 CR 441",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "419 COUNTY ROAD 3561",
+            "Corrected Value": "419 CR 3561",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "154 COUNTY ROAD 2192",
+            "Corrected Value": "154 CR 2192",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "179 COUNTY ROAD 336",
+            "Corrected Value": "179 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "177 COUNTY ROAD 322",
+            "Corrected Value": "177 CR 322",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "4753 COUNTY ROAD 170",
+            "Corrected Value": "4753 CR 170",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "205 COUNTY ROAD 355",
+            "Corrected Value": "205 CR 355",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "160 COUNTY ROAD 3391",
+            "Corrected Value": "160 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "3660 COUNTY ROAD 440",
+            "Corrected Value": "3660 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Original Value": "6712 COUNTY ROAD 524",
+            "Corrected Value": "6712 CR 524",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "1669 COUNTY ROAD 336",
+            "Corrected Value": "1669 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Original Value": "346 COUNTY ROAD 464",
+            "Corrected Value": "346 CR 464",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "7914 COUNTY ROAD 2415",
+            "Corrected Value": "7914 CR 2415",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "149 COUNTY ROAD 139",
+            "Corrected Value": "149 CR 139",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "22325 COUNTY ROAD 1718",
+            "Corrected Value": "22325 CR 1718",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "125 COUNTY ROAD 2311",
+            "Corrected Value": "125 CR 2311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "7066 COUNTY ROAD 608",
+            "Corrected Value": "7066 CR 608",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "10277 COUNTY ROAD 2349",
+            "Corrected Value": "10277 CR 2349",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "20561 COUNTY ROAD 1740",
+            "Corrected Value": "20561 CR 1740",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Original Value": "2671 COUNTY ROAD 301",
+            "Corrected Value": "2671 CR 301",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "1203 COUNTY ROAD 111",
+            "Corrected Value": "1203 CR 111",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "4574 PRIVATE ROAD 1814",
+            "Corrected Value": "4574 PVT RD 1814",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "249 COUNTY ROAD 355",
+            "Corrected Value": "249 CR 355",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "7019 COUNTY ROAD 604",
+            "Corrected Value": "7019 CR 604",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "520 COUNTY ROAD 419",
+            "Corrected Value": "520 CR 419",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "1976 COUNTY ROAD 104",
+            "Corrected Value": "1976 CR 104",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Original Value": "774 COUNTY ROAD 448",
+            "Corrected Value": "774 CR 448",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 302,
+            "Column": "address",
+            "Original Value": "503 COUNTY ROAD 467",
+            "Corrected Value": "503 CR 467",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Original Value": "458 COUNTY ROAD 419",
+            "Corrected Value": "458 CR 419",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "2501 COUNTY ROAD 2202",
+            "Corrected Value": "2501 CR 2202",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "456 COUNTY ROAD 2195",
+            "Corrected Value": "456 CR 2195",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "334 COUNTY ROAD 2391",
+            "Corrected Value": "334 CR 2391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Original Value": "456 COUNTY ROAD 2195 (HOUSE IN REAR)",
+            "Corrected Value": "456 CR 2195 (HOUSE IN REAR)",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "15551 COUNTY ROAD 1144",
+            "Corrected Value": "15551 CR 1144",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "8070 COUNTY ROAD 3501",
+            "Corrected Value": "8070 CR 3501",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "14544 COUNTY ROAD 1372",
+            "Corrected Value": "14544 CR 1372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "420 COUNTY ROAD 240",
+            "Corrected Value": "420 CR 240",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Original Value": "185 COUNTY ROAD 3361",
+            "Corrected Value": "185 CR 3361",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 333,
+            "Column": "address",
+            "Original Value": "7149 COUNTY ROAD 2379",
+            "Corrected Value": "7149 CR 2379",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "256 COUNTY ROAD 3101",
+            "Corrected Value": "256 CR 3101",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Original Value": "12338 COUNTY ROAD 1336",
+            "Corrected Value": "12338 CR 1336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "3409 COUNTY ROAD 3463",
+            "Corrected Value": "3409 CR 3463",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Original Value": "4989 COUNTY ROAD 110",
+            "Corrected Value": "4989 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Original Value": "244 COUNTY ROAD 3101",
+            "Corrected Value": "244 CR 3101",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "201 COUNTY ROAD 338",
+            "Corrected Value": "201 CR 338",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Original Value": "8602 COUNTY ROAD 618",
+            "Corrected Value": "8602 CR 618",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "114 COUNTY ROAD 1012",
+            "Corrected Value": "114 CR 1012",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Original Value": "423 COUNTY ROAD 357",
+            "Corrected Value": "423 CR 357",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Original Value": "150 B COUNTY ROAD 336",
+            "Corrected Value": "150 B CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "1613-1699 S COUNTY ROAD 305",
+            "Corrected Value": "1613-1699 S CR 305",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROAD 320",
+            "Corrected Value": "318 CR 320",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 367,
+            "Column": "address",
+            "Original Value": "15787 COUNTY ROAD 28",
+            "Corrected Value": "15787 CR 28",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "9657 COUNTY ROAD 2250",
+            "Corrected Value": "9657 CR 2250",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Original Value": "901 COUNTY ROAD 3081",
+            "Corrected Value": "901 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 370,
+            "Column": "address",
+            "Original Value": "14542 COUNTY ROAD 1196",
+            "Corrected Value": "14542 CR 1196",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "14574 COUNTY ROAD 1196",
+            "Corrected Value": "14574 CR 1196",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 372,
+            "Column": "address",
+            "Original Value": "114 COUNTY ROAD 2170",
+            "Corrected Value": "114 CR 2170",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "13850 COUNTY ROAD 1144",
+            "Corrected Value": "13850 CR 1144",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Original Value": "1309 COUNTY ROAD 425",
+            "Corrected Value": "1309 CR 425",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "8542 COUNTY ROAD 39",
+            "Corrected Value": "8542 CR 39",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "611 COUNTY ROAD 137",
+            "Corrected Value": "611 CR 137",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "171 COUNTY ROAD 333",
+            "Corrected Value": "171 CR 333",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "7719 COUNTY ROAD 208",
+            "Corrected Value": "7719 CR 208",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "152 COUNTY ROAD 3038",
+            "Corrected Value": "152 CR 3038",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Original Value": "9367 COUNTY ROAD 35B",
+            "Corrected Value": "9367 CR 35B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 405,
+            "Column": "address",
+            "Original Value": "3769 COUNTY ROAD 440",
+            "Corrected Value": "3769 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "1058 COUNTY ROAD 302",
+            "Corrected Value": "1058 CR 302",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "7295 COUNTY RD 2045",
+            "Corrected Value": "7295 CR 2045",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "494 COUNTY ROAD 358",
+            "Corrected Value": "494 CR 358",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 413,
+            "Column": "address",
+            "Original Value": "9150 COUNTY ROAD 1612",
+            "Corrected Value": "9150 CR 1612",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Original Value": "681 S COUNTY ROAD 305",
+            "Corrected Value": "681 S CR 305",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Original Value": "469 COUNTY ROAD 2195",
+            "Corrected Value": "469 CR 2195",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "8958 COUNTY ROAD 2249",
+            "Corrected Value": "8958 CR 2249",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "6680 COUNTY ROAD 2015",
+            "Corrected Value": "6680 CR 2015",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "721 COUNTY ROAD 350",
+            "Corrected Value": "721 CR 350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 428,
+            "Column": "address",
+            "Original Value": "13955 COUNTY ROAD 1674",
+            "Corrected Value": "13955 CR 1674",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "14561 COUNTY ROAD 28",
+            "Corrected Value": "14561 CR 28",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Original Value": "201 COUNTY ROAD 2205",
+            "Corrected Value": "201 CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "S COUNTY ROAD 352",
+            "Corrected Value": "S CR 352",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "3682 COUNTY ROAD 440",
+            "Corrected Value": "3682 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "141 PRIVATE ROAD 1026",
+            "Corrected Value": "141 PVT RD 1026",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "7537 COUNTY ROAD 2415",
+            "Corrected Value": "7537 CR 2415",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 444,
+            "Column": "address",
+            "Original Value": "2731 COUNTY ROAD 301",
+            "Corrected Value": "2731 CR 301",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "247 E COUNTY ROAD 2205",
+            "Corrected Value": "247 E CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 449,
+            "Column": "address",
+            "Original Value": "171 COUNTY ROAD 319",
+            "Corrected Value": "171 CR 319",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Original Value": "1653 COUNTY ROAD 336",
+            "Corrected Value": "1653 CR 336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 452,
+            "Column": "address",
+            "Original Value": "1011 COUNTY ROAD 354",
+            "Corrected Value": "1011 CR 354",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Original Value": "221 COUNTY ROAD 2205",
+            "Corrected Value": "221 CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "2772 COUNTY ROAD 308",
+            "Corrected Value": "2772 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "12315 COUNTY ROAD 1336",
+            "Corrected Value": "12315 CR 1336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "10042 COUNTY ROAD 2375",
+            "Corrected Value": "10042 CR 2375",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Original Value": "10208 COUNTY ROAD 124",
+            "Corrected Value": "10208 CR 124",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "649 COUNTY ROAD 3081",
+            "Corrected Value": "649 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "14322 COUNTY ROAD 1334",
+            "Corrected Value": "14322 CR 1334",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Original Value": "5781 COUNTY ROAD 308",
+            "Corrected Value": "5781 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Original Value": "188 COUNTY ROAD 441",
+            "Corrected Value": "188 CR 441",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Original Value": "12673 COUNTY ROAD 1344",
+            "Corrected Value": "12673 CR 1344",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "203 COUNTY ROAD 311",
+            "Corrected Value": "203 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Original Value": "15047 COUNTY ROAD 30A",
+            "Corrected Value": "15047 CR 30A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "219 COUNTY ROAD 355",
+            "Corrected Value": "219 CR 355",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "461 COUNTY ROAD 2391",
+            "Corrected Value": "461 CR 2391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "8161 COUNTY ROAD 2037",
+            "Corrected Value": "8161 CR 2037",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "14778 COUNTY ROAD 798",
+            "Corrected Value": "14778 CR 798",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "219 COUNTY ROAD 311",
+            "Corrected Value": "219 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "7926 COUNTY ROAD 2415",
+            "Corrected Value": "7926 CR 2415",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "13840 COUNTY ROAD 942",
+            "Corrected Value": "13840 CR 942",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "3811 COUNTY ROAD 440",
+            "Corrected Value": "3811 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "312 COUNTY ROAD 1910",
+            "Corrected Value": "312 CR 1910",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROAD 3032",
+            "Corrected Value": "318 CR 3032",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "327 COUNTY ROAD 3053",
+            "Corrected Value": "327 CR 3053",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Original Value": "8918 COUNTY ROAD 1360",
+            "Corrected Value": "8918 CR 1360",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Original Value": "142 COUNTY ROAD 3391",
+            "Corrected Value": "142 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 519,
+            "Column": "address",
+            "Original Value": "6231 COUNTY ROAD 523",
+            "Corrected Value": "6231 CR 523",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 520,
+            "Column": "address",
+            "Original Value": "12235 PRIVATE ROAD 1260",
+            "Corrected Value": "12235 PVT RD 1260",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 523,
+            "Column": "address",
+            "Original Value": "15383 COUNTY ROAD 1144",
+            "Corrected Value": "15383 CR 1144",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "address",
+            "Original Value": "10398 COUNTY ROAD 2357",
+            "Corrected Value": "10398 CR 2357",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "4267 COUNTY ROAD 3161",
+            "Corrected Value": "4267 CR 3161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "206 COUNTY ROAD 3054",
+            "Corrected Value": "206 CR 3054",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Original Value": "14209 COUNTY ROAD 1468",
+            "Corrected Value": "14209 CR 1468",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "address",
+            "Original Value": "14108 COUNTY ROAD 858",
+            "Corrected Value": "14108 CR 858",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "6967 COUNTY ROAD 2015",
+            "Corrected Value": "6967 CR 2015",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Original Value": "7134 COUNTY ROAD 2703",
+            "Corrected Value": "7134 CR 2703",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Original Value": "230 COUNTY ROAD 1035 N",
+            "Corrected Value": "230 CR 1035 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 549,
+            "Column": "address",
+            "Original Value": "381 COUNTY ROAD 3075",
+            "Corrected Value": "381 CR 3075",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "14392 COUNTY ROAD 1478",
+            "Corrected Value": "14392 CR 1478",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "303 COUNTY ROAD 140",
+            "Corrected Value": "303 CR 140",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "226 COUNTY ROAD 409",
+            "Corrected Value": "226 CR 409",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Original Value": "7799 COUNTY ROAD 208",
+            "Corrected Value": "7799 CR 208",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 555,
+            "Column": "address",
+            "Original Value": "296 COUNTY ROAD 325",
+            "Corrected Value": "296 CR 325",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Original Value": "1833 COUNTY ROAD 314",
+            "Corrected Value": "1833 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "122 COUNTY ROAD 2160 W",
+            "Corrected Value": "122 CR 2160 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "9089 COUNTY ROAD 2411",
+            "Corrected Value": "9089 CR 2411",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 562,
+            "Column": "address",
+            "Original Value": "346 COUNTY ROAD 464",
+            "Corrected Value": "346 CR 464",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "7566 COUNTY ROAD 2415",
+            "Corrected Value": "7566 CR 2415",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 571,
+            "Column": "address",
+            "Original Value": "1737 COUNTY ROAD 314",
+            "Corrected Value": "1737 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "9747 COUNTY ROAD 249",
+            "Corrected Value": "9747 CR 249",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Original Value": "957 COUNTY ROAD 358",
+            "Corrected Value": "957 CR 358",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "634 COUNTY ROAD 619",
+            "Corrected Value": "634 CR 619",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROAD 1910",
+            "Corrected Value": "318 CR 1910",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "7049 COUNTY ROAD 2703",
+            "Corrected Value": "7049 CR 2703",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 579,
+            "Column": "address",
+            "Original Value": "355 COUNTY ROAD 369",
+            "Corrected Value": "355 CR 369",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "14338 COUNTY ROAD 744",
+            "Corrected Value": "14338 CR 744",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Original Value": "646 COUNTY ROAD 3031",
+            "Corrected Value": "646 CR 3031",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 586,
+            "Column": "address",
+            "Original Value": "180 COUNTY ROAD 3391",
+            "Corrected Value": "180 CR 3391",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Original Value": "6018 COUNTY ROAD 2567",
+            "Corrected Value": "6018 CR 2567",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Original Value": "269 COUNTY ROAD 310",
+            "Corrected Value": "269 CR 310",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "21535 COUNTY ROAD 1718",
+            "Corrected Value": "21535 CR 1718",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 603,
+            "Column": "address",
+            "Original Value": "COUNTY ROAD 619",
+            "Corrected Value": "CR 619",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 607,
+            "Column": "address",
+            "Original Value": "COUNTY ROAD 319",
+            "Corrected Value": "CR 319",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Original Value": "1032 COUNTY ROAD 226",
+            "Corrected Value": "1032 CR 226",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 612,
+            "Column": "address",
+            "Original Value": "9639 COUNTY ROAD 2249",
+            "Corrected Value": "9639 CR 2249",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "134 W COUNTY ROAD 2192",
+            "Corrected Value": "134 W CR 2192",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "2633 COUNTY ROAD 3265",
+            "Corrected Value": "2633 CR 3265",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "108 COUNTY ROAD 3081",
+            "Corrected Value": "108 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "477 COUNTY ROAD 324",
+            "Corrected Value": "477 CR 324",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Original Value": "317 COUNTY ROAD 3101",
+            "Corrected Value": "317 CR 3101",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "340 COUNTY ROAD 3221",
+            "Corrected Value": "340 CR 3221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "176 COUNTY ROAD 3031",
+            "Corrected Value": "176 CR 3031",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "5520 COUNTY ROAD 1414",
+            "Corrected Value": "5520 CR 1414",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "332 COUNTY ROAD 1910",
+            "Corrected Value": "332 CR 1910",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 633,
+            "Column": "address",
+            "Original Value": "375 COUNTY ROAD 311",
+            "Corrected Value": "375 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 636,
+            "Column": "address",
+            "Original Value": "3115 COUNTY ROAD 104",
+            "Corrected Value": "3115 CR 104",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "COUNTY ROAD 319",
+            "Corrected Value": "CR 319",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "365 COUNTY ROAD 3053",
+            "Corrected Value": "365 CR 3053",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 644,
+            "Column": "address",
+            "Original Value": "16671 COUNTY ROAD 502",
+            "Corrected Value": "16671 CR 502",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 649,
+            "Column": "address",
+            "Original Value": "5041 COUNTY ROAD 440",
+            "Corrected Value": "5041 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Original Value": "177 COUNTY ROAD 175",
+            "Corrected Value": "177 CR 175",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 652,
+            "Column": "address",
+            "Original Value": "7239 COUNTY ROAD 2347",
+            "Corrected Value": "7239 CR 2347",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Original Value": "5944 COUNTY ROAD 3677",
+            "Corrected Value": "5944 CR 3677",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Original Value": "122 COUNTY ROAD 3052",
+            "Corrected Value": "122 CR 3052",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 658,
+            "Column": "address",
+            "Original Value": "7032 COUNTY ROAD 4167",
+            "Corrected Value": "7032 CR 4167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 660,
+            "Column": "address",
+            "Original Value": "7073 COUNTY ROAD 607",
+            "Corrected Value": "7073 CR 607",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "159 COUNTY ROAD 3551",
+            "Corrected Value": "159 CR 3551",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 665,
+            "Column": "address",
+            "Original Value": "2503 COUNTY ROAD 332",
+            "Corrected Value": "2503 CR 332",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "161 COUNTY ROAD 3571",
+            "Corrected Value": "161 CR 3571",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "253 COUNTY ROAD 2205",
+            "Corrected Value": "253 CR 2205",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 670,
+            "Column": "address",
+            "Original Value": "5453 COUNTY ROAD 440",
+            "Corrected Value": "5453 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "5532 COUNTY ROAD 4491",
+            "Corrected Value": "5532 CR 4491",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Original Value": "5548 COUNTY ROAD 2367",
+            "Corrected Value": "5548 CR 2367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Original Value": "13964 COUNTY ROAD 1674",
+            "Corrected Value": "13964 CR 1674",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 679,
+            "Column": "address",
+            "Original Value": "201 COUNTY ROAD 123",
+            "Corrected Value": "201 CR 123",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 682,
+            "Column": "address",
+            "Original Value": "8042 COUNTY ROAD 103",
+            "Corrected Value": "8042 CR 103",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Original Value": "263 COUNTY ROAD 3061",
+            "Corrected Value": "263 CR 3061",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Original Value": "14452 COUNTY ROAD 1412",
+            "Corrected Value": "14452 CR 1412",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 690,
+            "Column": "address",
+            "Original Value": "3428 PRIVATE ROAD 2002 TAFT",
+            "Corrected Value": "3428 PVT RD 2002 TAFT",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Original Value": "124 COUNTY ROAD 1012",
+            "Corrected Value": "124 CR 1012",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 697,
+            "Column": "address",
+            "Original Value": "12338 COUNTY ROAD 1336",
+            "Corrected Value": "12338 CR 1336",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "276 COUNTY ROAD 304",
+            "Corrected Value": "276 CR 304",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 701,
+            "Column": "address",
+            "Original Value": "3580 COUNTY ROAD 440",
+            "Corrected Value": "3580 CR 440",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 702,
+            "Column": "address",
+            "Original Value": "5526 COUNTY ROAD 2367",
+            "Corrected Value": "5526 CR 2367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Original Value": "8818 COUNTY ROAD 618",
+            "Corrected Value": "8818 CR 618",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "address",
+            "Original Value": "7204 COUNTY ROAD 4167",
+            "Corrected Value": "7204 CR 4167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 712,
+            "Column": "address",
+            "Original Value": "2796 COUNTY ROAD 505",
+            "Corrected Value": "2796 CR 505",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 716,
+            "Column": "address",
+            "Original Value": "7088 COUNTY ROAD 4167",
+            "Corrected Value": "7088 CR 4167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Original Value": "13929 COUNTY ROAD 1674",
+            "Corrected Value": "13929 CR 1674",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Original Value": "196 COUNTY ROAD 323",
+            "Corrected Value": "196 CR 323",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 725,
+            "Column": "address",
+            "Original Value": "8089 COUNTY ROAD 3501",
+            "Corrected Value": "8089 CR 3501",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 726,
+            "Column": "address",
+            "Original Value": "292 COUNTY ROAD 461",
+            "Corrected Value": "292 CR 461",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 728,
+            "Column": "address",
+            "Original Value": "664 COUNTY ROAD 3061",
+            "Corrected Value": "664 CR 3061",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "258 COUNTY ROAD 3054",
+            "Corrected Value": "258 CR 3054",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 733,
+            "Column": "address",
+            "Original Value": "15846 COUNTY ROAD 502",
+            "Corrected Value": "15846 CR 502",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Original Value": "742 COUNTY ROAD 3061",
+            "Corrected Value": "742 CR 3061",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 738,
+            "Column": "address",
+            "Original Value": "5568 COUNTY ROAD 1458",
+            "Corrected Value": "5568 CR 1458",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 741,
+            "Column": "address",
+            "Original Value": "162 COUNTY ROAD 3054",
+            "Corrected Value": "162 CR 3054",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "4267 COUNTY ROAD 3161",
+            "Corrected Value": "4267 CR 3161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "9659 COUNTY ROAD 2250",
+            "Corrected Value": "9659 CR 2250",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Original Value": "151 COUNTY ROAD 222",
+            "Corrected Value": "151 CR 222",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 748,
+            "Column": "address",
+            "Original Value": "10412 COUNTY ROAD 2331",
+            "Corrected Value": "10412 CR 2331",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 750,
+            "Column": "address",
+            "Original Value": "749 COUNTY ROAD 306",
+            "Corrected Value": "749 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 751,
+            "Column": "address",
+            "Original Value": "180 COUNTY ROAD 3054",
+            "Corrected Value": "180 CR 3054",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 754,
+            "Column": "address",
+            "Original Value": "14702 COUNTY ROAD 714",
+            "Corrected Value": "14702 CR 714",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 755,
+            "Column": "address",
+            "Original Value": "7577 COUNTY ROAD 1906",
+            "Corrected Value": "7577 CR 1906",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "6995 COUNTY ROAD 2015",
+            "Corrected Value": "6995 CR 2015",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 93,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "168 FLEMING DRIVE"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "100 FLEMING DRIVE"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "120 FLEMING DRIVE"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "KLEBERG COUNTY AIRPORT"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "S COUNTY ROAD 352"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LOS MACHOS RANCH"
+        },
+        {
+            "Row": 594,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "WHITE IBIS DRIVE"
+        },
+        {
+            "Row": 603,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COUNTY ROAD 619"
+        },
+        {
+            "Row": 607,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COUNTY ROAD 319"
+        },
+        {
+            "Row": 609,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "155 FLEMING DRIVE"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COUNTY ROAD 319"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "221 STEWART STREET"
+        },
+        {
+            "Row": 690,
+            "Column": "lat",
+            "Error": "Latitude for TX must be between 25.837377 and 36.500704",
+            "Value": "40.8437661"
+        },
+        {
+            "Row": 690,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-72.939279"
+        },
+        {
+            "Row": 690,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-72.939279"
+        },
+        {
+            "Row": 704,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-89.6921972"
+        },
+        {
+            "Row": 704,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "33.0365954"
+        },
+        {
+            "Row": 708,
+            "Column": "lat",
+            "Error": "Latitude for TX must be between 25.837377 and 36.500704",
+            "Value": "42.7473073"
+        },
+        {
+            "Row": 708,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-84.548546"
+        },
+        {
+            "Row": 708,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-84.548546"
+        },
+        {
+            "Row": 720,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2531575"
+        },
+        {
+            "Row": 721,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2531575"
+        },
+        {
+            "Row": 160,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2367079)",
+            "Value": "2371444"
+        },
+        {
+            "Row": 562,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2378283)",
+            "Value": "2388791"
+        },
+        {
+            "Row": 720,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2531575)",
+            "Value": "2531575"
+        },
+        {
+            "Row": 721,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2531575)",
+            "Value": "2531575"
+        },
+        {
+            "Row": 743,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2460667)",
+            "Value": "2561570"
+        },
+        {
+            "Row": 509,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2372461)",
+            "Value": "2387237"
+        },
+        {
+            "Row": 742,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2383994)",
+            "Value": "2559980"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 720,
+            "customer": "2531575",
+            "lat": 27.8749571,
+            "lon": -97.3259431,
+            "address": "601 MOORE AVENUE",
+            "city": "PORTLAND",
+            "state": "TX",
+            "zip": "78374",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_pal",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 721,
+            "customer": "2531575",
+            "lat": 27.8749571,
+            "lon": -97.3259431,
+            "address": "601 MOORE AVENUE",
+            "city": "PORTLAND",
+            "state": "TX",
+            "zip": "78374",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_pal",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 160,
+            "customer": "2371444",
+            "lat": 27.5369722,
+            "lon": -97.9887137,
+            "address": "2753 W HIGHWAY 141",
+            "city": "KINGSVILLE",
+            "state": "TX",
+            "zip": "78363",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2367079)"
+        },
+        {
+            "OrigRowNum": 562,
+            "customer": "2388791",
+            "lat": 27.6793612,
+            "lon": -98.1054974,
+            "address": "346 COUNTY ROAD 464",
+            "city": "ALICE",
+            "state": "TX",
+            "zip": "78332",
+            "download": 60.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2378283)"
+        },
+        {
+            "OrigRowNum": 720,
+            "customer": "2531575",
+            "lat": 27.8749571,
+            "lon": -97.3259431,
+            "address": "601 MOORE AVENUE",
+            "city": "PORTLAND",
+            "state": "TX",
+            "zip": "78374",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2531575)"
+        },
+        {
+            "OrigRowNum": 721,
+            "customer": "2531575",
+            "lat": 27.8749571,
+            "lon": -97.3259431,
+            "address": "601 MOORE AVENUE",
+            "city": "PORTLAND",
+            "state": "TX",
+            "zip": "78374",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2531575)"
+        },
+        {
+            "OrigRowNum": 743,
+            "customer": "2561570",
+            "lat": 27.91912,
+            "lon": -97.42595,
+            "address": "4267 COUNTY ROAD 3161",
+            "city": "TAFT",
+            "state": "TX",
+            "zip": "78390",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2460667)"
+        },
+        {
+            "OrigRowNum": 509,
+            "customer": "2387237",
+            "lat": 28.017306,
+            "lon": -97.992614,
+            "address": "318 COUNTY ROAD 3032",
+            "city": "ORANGE GROVE",
+            "state": "TX",
+            "zip": "78372",
+            "download": 50.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2372461)"
+        },
+        {
+            "OrigRowNum": 742,
+            "customer": "2559980",
+            "lat": 28.0451135,
+            "lon": -97.5176066,
+            "address": "13661 US 181",
+            "city": "SINTON",
+            "state": "TX",
+            "zip": "78387",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2383994)"
+        }
+    ],
+    "Smarty Corrections": []
+}

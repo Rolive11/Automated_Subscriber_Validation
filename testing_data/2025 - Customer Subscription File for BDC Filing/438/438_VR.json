@@ -1,0 +1,382 @@
+{
+    "Summary": {
+        "Total Rows Processed": 70,
+        "Rows with Corrections": 8,
+        "Rows with Errors": 11,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 5,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 14,
+        "Total Errors": 5,
+        "Street Ending Errors": 6,
+        "Validation Time (seconds)": 0.45,
+        "Validation Date": "2025-08-11 15:37:29",
+        "Addresses Sent to Smarty": 6,
+        "Successful Corrections": 6,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.36,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 65,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 65,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "1106 W SOUTH ST",
+            "Corrected Value": "1106 W S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "426 S WEST ST",
+            "Corrected Value": "426 S W ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "92806",
+            "Corrected Value": "92806",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "2831 E VIA MARTENS",
+            "Corrected Value": "2831 E VIA MARTENS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "92647",
+            "Corrected Value": "92647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "6930 WARNER",
+            "Corrected Value": "6930 WARNER AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "zip",
+            "Original Value": "92805",
+            "Corrected Value": "92805",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "1131 W BROADWAY",
+            "Corrected Value": "1131 W BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "92805",
+            "Corrected Value": "92805",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "926 E BROADWAY",
+            "Corrected Value": "926 E BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "zip",
+            "Original Value": "92804",
+            "Corrected Value": "92804",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "1759 W BROADWAY",
+            "Corrected Value": "1759 W BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "zip",
+            "Original Value": "92647",
+            "Corrected Value": "92647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "7522 SLATER",
+            "Corrected Value": "7522 SLATER AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 43,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer All County RV Solar)",
+            "Value": "Motorcycle Addicts"
+        },
+        {
+            "Row": 35,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Happy Tails)",
+            "Value": "High Demand Barber Shop"
+        },
+        {
+            "Row": 36,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1857 Parlor )",
+            "Value": "Ink Doll K"
+        },
+        {
+            "Row": 38,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1857 Parlor )",
+            "Value": "ISM Company"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1857 Parlor )",
+            "Value": "JD Prowess - Juan Vasquez"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2831 E VIA MARTENS"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6930 WARNER"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1131 W BROADWAY"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "926 E BROADWAY"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1759 W BROADWAY"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7522 SLATER"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 43,
+            "customer": "Motorcycle Addicts",
+            "lat": "",
+            "lon": "",
+            "address": "1161 N COSBY WAY",
+            "city": "ANAHEIM",
+            "state": "CA",
+            "zip": "92806",
+            "download": 150.0,
+            "upload": 150.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer All County RV Solar)"
+        },
+        {
+            "OrigRowNum": 35,
+            "customer": "High Demand Barber Shop",
+            "lat": "",
+            "lon": "",
+            "address": "1671 W KATELLA AVE",
+            "city": "ANAHEIM",
+            "state": "CA",
+            "zip": "91802",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Happy Tails)"
+        },
+        {
+            "OrigRowNum": 36,
+            "customer": "Ink Doll K",
+            "lat": "",
+            "lon": "",
+            "address": "1671 W KATELLA AVE",
+            "city": "ANAHEIM",
+            "state": "CA",
+            "zip": "92802",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1857 Parlor )"
+        },
+        {
+            "OrigRowNum": 38,
+            "customer": "ISM Company",
+            "lat": "",
+            "lon": "",
+            "address": "1671 W KATELLA AVE",
+            "city": "ANAHEIM",
+            "state": "CA",
+            "zip": "92802",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1857 Parlor )"
+        },
+        {
+            "OrigRowNum": 39,
+            "customer": "JD Prowess - Juan Vasquez",
+            "lat": "",
+            "lon": "",
+            "address": "1671 W KATELLA AVE",
+            "city": "ANAHEIM",
+            "state": "CA",
+            "zip": "92802",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1857 Parlor )"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4,
+            "Original Address": "2831 E VIA MARTENS",
+            "Corrected Address": "2831 E VIA MARTENS",
+            "Original ZIP": "92806",
+            "Corrected ZIP": "92806",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.697306"
+        },
+        {
+            "OrigRowNum": 5,
+            "Original Address": "6930 WARNER",
+            "Corrected Address": "6930 WARNER AVE",
+            "Original ZIP": "92647",
+            "Corrected ZIP": "92647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.698624"
+        },
+        {
+            "OrigRowNum": 12,
+            "Original Address": "1131 W BROADWAY",
+            "Corrected Address": "1131 W BROADWAY",
+            "Original ZIP": "92805",
+            "Corrected ZIP": "92805",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.699053"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "926 E BROADWAY",
+            "Corrected Address": "926 E BROADWAY",
+            "Original ZIP": "92805",
+            "Corrected ZIP": "92805",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.699399"
+        },
+        {
+            "OrigRowNum": 51,
+            "Original Address": "1759 W BROADWAY",
+            "Corrected Address": "1759 W BROADWAY",
+            "Original ZIP": "92804",
+            "Corrected ZIP": "92804",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.699727"
+        },
+        {
+            "OrigRowNum": 54,
+            "Original Address": "7522 SLATER",
+            "Corrected Address": "7522 SLATER AVE",
+            "Original ZIP": "92647",
+            "Corrected ZIP": "92647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T15:37:29.700037"
+        }
+    ]
+}

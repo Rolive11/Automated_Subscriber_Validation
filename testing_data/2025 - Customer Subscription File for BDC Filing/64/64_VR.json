@@ -1,0 +1,1606 @@
+{
+    "Summary": {
+        "Total Rows Processed": 301,
+        "Rows with Corrections": 43,
+        "Rows with Errors": 52,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 16,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 72,
+        "Total Errors": 34,
+        "Street Ending Errors": 29,
+        "Validation Time (seconds)": 0.49,
+        "Validation Date": "2025-08-01 08:07:50",
+        "Addresses Sent to Smarty": 29,
+        "Successful Corrections": 29,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.23,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 282,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 282,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "1480 EAST PEACE STREET",
+            "Corrected Value": "1480 E PEACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "164 EAST DINKINS ST",
+            "Corrected Value": "164 E DINKINS ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "318 E NORTH ST",
+            "Corrected Value": "318 E N ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Original Value": "115 WEST PEACE STREET",
+            "Corrected Value": "115 W PEACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "379 EAST PEACE STREET",
+            "Corrected Value": "379 E PEACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "144 ST CATHERINE",
+            "Corrected Value": "144 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "202 EAST PEACE ST",
+            "Corrected Value": "202 E PEACE ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "289 EAST COBBVILLE DRIVE",
+            "Corrected Value": "289 E COBBVILLE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "305 COBBVILLE DR EAST",
+            "Corrected Value": "305 COBBVILLE DR E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "143 EAST FULTON ST",
+            "Corrected Value": "143 E FULTON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "139 B ST CATHERINE",
+            "Corrected Value": "139 B ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "419 WELCH STREET APT# A",
+            "Corrected Value": "419 WELCH STREET",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Original Value": "279 COBBVILLE DR EAST",
+            "Corrected Value": "279 COBBVILLE DR E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "1980 HWY 16 E",
+            "Corrected Value": "1980 HIGHWAY 16 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "3287 N LIBERTY",
+            "Corrected Value": "3287 N LIBERTY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2273388",
+            "Corrected Value": "2273388_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "384 VAN BUREN",
+            "Corrected Value": "384 VAN BUREN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "2172 MISSISSIPPI 43",
+            "Corrected Value": "2172 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "2579 MISSISSIPPI 43",
+            "Corrected Value": "2579 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "2162 MISSISSIPPI 43",
+            "Corrected Value": "2162 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "2608 MISSISSIPPI 43",
+            "Corrected Value": "2608 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "1991 MISSISSIPPI 16",
+            "Corrected Value": "1991 HIGHWAY 16 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "2418 MISSISSIPPI 43",
+            "Corrected Value": "2418 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "2418 MISSISSIPPI 43",
+            "Corrected Value": "2418 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "520 HOLMES HOLLOW LM",
+            "Corrected Value": "520 HOLMES HOLLOW LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "990 ENDRIS R",
+            "Corrected Value": "990 ENDRIS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "231 W PEACE",
+            "Corrected Value": "231 W PEACE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Original Value": "1156 B HWY 43",
+            "Corrected Value": "1156 HIGHWAY 43 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "1156 B HWY 43",
+            "Corrected Value": "1156 HIGHWAY 43 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "716 PISGAH BOTTOM",
+            "Corrected Value": "716 PISGAH BOTTOM RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "2418 MISSISSIPPI 43N",
+            "Corrected Value": "2418 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "1529 HWY 43 S",
+            "Corrected Value": "1529 HIGHWAY 43 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "138 NORTHERN PINE",
+            "Corrected Value": "138 NORTHERN PINE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "115 LAKE NEOMI",
+            "Corrected Value": "115 E NEOMI",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "250 W LAKE NEOMA",
+            "Corrected Value": "250 W NEOMA RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "2399 HWY 43",
+            "Corrected Value": "2399 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Original Value": "2591 HWY 43",
+            "Corrected Value": "2591 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "998 HWY 43 S",
+            "Corrected Value": "998 HIGHWAY 43 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "133 E LAKE NEOMA",
+            "Corrected Value": "133 E NEOMI",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "1979 HWY 16",
+            "Corrected Value": "1979 HIGHWAY 16 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Original Value": "752 OLD YAZOO CITY",
+            "Corrected Value": "752 OLD YAZOO CITY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "2360 MS 16",
+            "Corrected Value": "2360 HIGHWAY 16 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "zip",
+            "Original Value": "39046",
+            "Corrected Value": "39046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "2594 HWY 43",
+            "Corrected Value": "2594 HIGHWAY 43 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PEACE ST"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "VIRLILIA RD"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DAVIS CROSSING"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DAVIS CROSSING"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LIVINGSTON VERNON ROAD"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ROYAL OAK ROAD"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "480A"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MOVIETOWN RV PARK LOT #161"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MOVIETOWN RV PARK LOT#182"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MOVIETOWN RV PARK #5"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RATLIFF FERRY RD"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1561801_001",
+            "Value": "1561801"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1561801"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1561801"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1561801"
+        },
+        {
+            "Row": 24,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1614162_002",
+            "Value": "1614162"
+        },
+        {
+            "Row": 35,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1636451_003",
+            "Value": "1636451"
+        },
+        {
+            "Row": 59,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1740123"
+        },
+        {
+            "Row": 107,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2073588"
+        },
+        {
+            "Row": 108,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2073588"
+        },
+        {
+            "Row": 134,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2180213_004",
+            "Value": "2180213"
+        },
+        {
+            "Row": 141,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2186173"
+        },
+        {
+            "Row": 156,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2217300"
+        },
+        {
+            "Row": 180,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2265035_005",
+            "Value": "2265035"
+        },
+        {
+            "Row": 187,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2273388_006",
+            "Value": "2273388"
+        },
+        {
+            "Row": 107,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2073588)",
+            "Value": "2073588"
+        },
+        {
+            "Row": 108,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2073588)",
+            "Value": "2073588"
+        },
+        {
+            "Row": 141,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2186173)",
+            "Value": "2186173"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1561801_001)",
+            "Value": "1561801"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1561801_001)",
+            "Value": "1561801"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1561801_001)",
+            "Value": "1561801"
+        },
+        {
+            "Row": 59,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1740123)",
+            "Value": "1740123"
+        },
+        {
+            "Row": 156,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2217300)",
+            "Value": "2217300"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "384 VAN BUREN"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2172 MISSISSIPPI 43"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2579 MISSISSIPPI 43"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2162 MISSISSIPPI 43"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2608 MISSISSIPPI 43"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1991 MISSISSIPPI 16"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2418 MISSISSIPPI 43"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2418 MISSISSIPPI 43"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "520 HOLMES HOLLOW LM"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "990 ENDRIS R"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "231 W PEACE"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1156 B HWY 43"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1156 B HWY 43"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "716 PISGAH BOTTOM"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2418 MISSISSIPPI 43N"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1529 HWY 43 S"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "138 NORTHERN PINE"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "115 LAKE NEOMI"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "250 W LAKE NEOMA"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2399 HWY 43"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2591 HWY 43"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "998 HWY 43 S"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "133 E LAKE NEOMA"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1979 HWY 16"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1980 HWY 16 E"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "752 OLD YAZOO CITY"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2360 MS 16"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3287 N LIBERTY"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2594 HWY 43"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 202,
+            "address": "480A",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 4,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 5,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 6,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 59,
+            "customer": "1740123",
+            "lat": 32.632596,
+            "lon": -89.980563,
+            "address": "2418 MISSISSIPPI 43",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 250.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 107,
+            "customer": "2073588",
+            "lat": 32.6045407,
+            "lon": -90.0713554,
+            "address": "1537 W PEACE ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 108,
+            "customer": "2073588",
+            "lat": 32.6045407,
+            "lon": -90.0713554,
+            "address": "1537 W PEACE ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 141,
+            "customer": "2186173",
+            "lat": 32.6123279,
+            "lon": -90.0388881,
+            "address": "339 W. PEACE STREET",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 156,
+            "customer": "2217300",
+            "lat": 32.6911522,
+            "lon": -90.0090228,
+            "address": "DAVIS CROSSING",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 250.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 107,
+            "customer": "2073588",
+            "lat": 32.6045407,
+            "lon": -90.0713554,
+            "address": "1537 W PEACE ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2073588)"
+        },
+        {
+            "OrigRowNum": 108,
+            "customer": "2073588",
+            "lat": 32.6045407,
+            "lon": -90.0713554,
+            "address": "1537 W PEACE ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2073588)"
+        },
+        {
+            "OrigRowNum": 141,
+            "customer": "2186173",
+            "lat": 32.6123279,
+            "lon": -90.0388881,
+            "address": "339 W. PEACE STREET",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 400.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2186173)"
+        },
+        {
+            "OrigRowNum": 4,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1561801_001)"
+        },
+        {
+            "OrigRowNum": 5,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1561801_001)"
+        },
+        {
+            "OrigRowNum": 6,
+            "customer": "1561801",
+            "lat": 32.6140109,
+            "lon": -90.0165782,
+            "address": "201 N HARGON ST",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1561801_001)"
+        },
+        {
+            "OrigRowNum": 59,
+            "customer": "1740123",
+            "lat": 32.632596,
+            "lon": -89.980563,
+            "address": "2418 MISSISSIPPI 43",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 250.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1740123)"
+        },
+        {
+            "OrigRowNum": 156,
+            "customer": "2217300",
+            "lat": 32.6911522,
+            "lon": -90.0090228,
+            "address": "DAVIS CROSSING",
+            "city": "CANTON",
+            "state": "MS",
+            "zip": "39046",
+            "download": 250.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2217300)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 22,
+            "Original Address": "384 VAN BUREN",
+            "Corrected Address": "384 VAN BUREN ST",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.316650"
+        },
+        {
+            "OrigRowNum": 30,
+            "Original Address": "2172 MISSISSIPPI 43",
+            "Corrected Address": "2172 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.318123"
+        },
+        {
+            "OrigRowNum": 41,
+            "Original Address": "2579 MISSISSIPPI 43",
+            "Corrected Address": "2579 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.318626"
+        },
+        {
+            "OrigRowNum": 48,
+            "Original Address": "2162 MISSISSIPPI 43",
+            "Corrected Address": "2162 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.318972"
+        },
+        {
+            "OrigRowNum": 51,
+            "Original Address": "2608 MISSISSIPPI 43",
+            "Corrected Address": "2608 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.319304"
+        },
+        {
+            "OrigRowNum": 55,
+            "Original Address": "1991 MISSISSIPPI 16",
+            "Corrected Address": "1991 HIGHWAY 16 E",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.319624"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "2418 MISSISSIPPI 43",
+            "Corrected Address": "2418 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.319937"
+        },
+        {
+            "OrigRowNum": 59,
+            "Original Address": "2418 MISSISSIPPI 43",
+            "Corrected Address": "2418 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.320245"
+        },
+        {
+            "OrigRowNum": 75,
+            "Original Address": "520 HOLMES HOLLOW LM",
+            "Corrected Address": "520 HOLMES HOLLOW LN",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.320566"
+        },
+        {
+            "OrigRowNum": 112,
+            "Original Address": "990 ENDRIS R",
+            "Corrected Address": "990 ENDRIS RD",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.320893"
+        },
+        {
+            "OrigRowNum": 115,
+            "Original Address": "231 W PEACE",
+            "Corrected Address": "231 W PEACE ST",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.321206"
+        },
+        {
+            "OrigRowNum": 133,
+            "Original Address": "1156 B HWY 43",
+            "Corrected Address": "1156 HIGHWAY 43 S",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.321515"
+        },
+        {
+            "OrigRowNum": 134,
+            "Original Address": "1156 B HWY 43",
+            "Corrected Address": "1156 HIGHWAY 43 S",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.321820"
+        },
+        {
+            "OrigRowNum": 158,
+            "Original Address": "716 PISGAH BOTTOM",
+            "Corrected Address": "716 PISGAH BOTTOM RD",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.322133"
+        },
+        {
+            "OrigRowNum": 170,
+            "Original Address": "2418 MISSISSIPPI 43N",
+            "Corrected Address": "2418 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.322444"
+        },
+        {
+            "OrigRowNum": 172,
+            "Original Address": "1529 HWY 43 S",
+            "Corrected Address": "1529 HIGHWAY 43 S",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.322724"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "138 NORTHERN PINE",
+            "Corrected Address": "138 NORTHERN PINE DR",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.322992"
+        },
+        {
+            "OrigRowNum": 183,
+            "Original Address": "115 LAKE NEOMI",
+            "Corrected Address": "115 E NEOMI",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.323263"
+        },
+        {
+            "OrigRowNum": 208,
+            "Original Address": "250 W LAKE NEOMA",
+            "Corrected Address": "250 W NEOMA RD",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.323817"
+        },
+        {
+            "OrigRowNum": 219,
+            "Original Address": "2399 HWY 43",
+            "Corrected Address": "2399 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.324089"
+        },
+        {
+            "OrigRowNum": 225,
+            "Original Address": "2591 HWY 43",
+            "Corrected Address": "2591 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.324355"
+        },
+        {
+            "OrigRowNum": 230,
+            "Original Address": "998 HWY 43 S",
+            "Corrected Address": "998 HIGHWAY 43 S",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.324586"
+        },
+        {
+            "OrigRowNum": 241,
+            "Original Address": "133 E LAKE NEOMA",
+            "Corrected Address": "133 E NEOMI",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.324814"
+        },
+        {
+            "OrigRowNum": 258,
+            "Original Address": "1979 HWY 16",
+            "Corrected Address": "1979 HIGHWAY 16 E",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.325047"
+        },
+        {
+            "OrigRowNum": 265,
+            "Original Address": "1980 HWY 16 E",
+            "Corrected Address": "1980 HIGHWAY 16 E",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.325275"
+        },
+        {
+            "OrigRowNum": 271,
+            "Original Address": "752 OLD YAZOO CITY",
+            "Corrected Address": "752 OLD YAZOO CITY RD",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.325509"
+        },
+        {
+            "OrigRowNum": 274,
+            "Original Address": "2360 MS 16",
+            "Corrected Address": "2360 HIGHWAY 16 E",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.325742"
+        },
+        {
+            "OrigRowNum": 276,
+            "Original Address": "3287 N LIBERTY",
+            "Corrected Address": "3287 N LIBERTY ST",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.325973"
+        },
+        {
+            "OrigRowNum": 278,
+            "Original Address": "2594 HWY 43",
+            "Corrected Address": "2594 HIGHWAY 43 N",
+            "Original ZIP": "39046",
+            "Corrected ZIP": "39046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:07:50.326206"
+        }
+    ]
+}

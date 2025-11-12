@@ -1,0 +1,426 @@
+{
+    "Summary": {
+        "Total Rows Processed": 356,
+        "Rows with Corrections": 11,
+        "Rows with Errors": 12,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 10,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 12,
+        "Total Errors": 17,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.6,
+        "Validation Date": "2025-08-22 08:48:57",
+        "Addresses Sent to Smarty": 1,
+        "Successful Corrections": 1,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.29,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 346,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 346,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 66,
+            "Column": "address",
+            "Original Value": "6476 218TH STREET WEST",
+            "Corrected Value": "6476 218TH STREET W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "16311 250TH WEST",
+            "Corrected Value": "16311 250TH W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "851 160TH STREET WEST",
+            "Corrected Value": "851 160TH STREET W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "2255 145TH STREET WEST",
+            "Corrected Value": "2255 145TH STREET W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2504031",
+            "Corrected Value": "2504031_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "1446 COUNTY ROAD 14",
+            "Corrected Value": "1446 CR 14",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "4087 COUNTY ROAD 79",
+            "Corrected Value": "4087 CR 79",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "3683 COUNTY ROAD 79",
+            "Corrected Value": "3683 CR 79",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "3683 COUNTY ROAD 79",
+            "Corrected Value": "3683 CR 79",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "35964 SHARON PRIVATE ROAD DR",
+            "Corrected Value": "35964 SHARON PVT RD DR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "zip",
+            "Original Value": "55372",
+            "Corrected Value": "55372",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "8/6/1925",
+            "Corrected Value": "8 6 1925",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9720 TOWERING OAKS"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9950 TOWERING OAKS CURVE"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9846 TOWERING OAKS CURVE"
+        },
+        {
+            "Row": 15,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2503062_001",
+            "Value": "2503062"
+        },
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2503076"
+        },
+        {
+            "Row": 176,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2503518_002",
+            "Value": "2503518"
+        },
+        {
+            "Row": 178,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2503519"
+        },
+        {
+            "Row": 185,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2503555_003",
+            "Value": "2503555"
+        },
+        {
+            "Row": 253,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2503968"
+        },
+        {
+            "Row": 258,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2503976"
+        },
+        {
+            "Row": 269,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2504031_004",
+            "Value": "2504031"
+        },
+        {
+            "Row": 317,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2504211"
+        },
+        {
+            "Row": 317,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2504211)",
+            "Value": "2504211"
+        },
+        {
+            "Row": 178,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2503519)",
+            "Value": "2503519"
+        },
+        {
+            "Row": 253,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2503968)",
+            "Value": "2503968"
+        },
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2503076)",
+            "Value": "2503076"
+        },
+        {
+            "Row": 258,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2503976)",
+            "Value": "2503976"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 23,
+            "customer": "2503076",
+            "lat": "44.67254",
+            "lon": "-93.49308",
+            "address": "1467 E 190TH ST",
+            "city": "JORDAN",
+            "state": "MN",
+            "zip": "55352",
+            "download": 82.0,
+            "upload": 32.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 178,
+            "customer": "2503519",
+            "lat": "44.58693",
+            "lon": "-93.85743",
+            "address": "16450 W 250TH ST",
+            "city": "BELLE PLAINE",
+            "state": "MN",
+            "zip": "56011",
+            "download": 79.0,
+            "upload": 73.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 253,
+            "customer": "2503968",
+            "lat": "44.64825",
+            "lon": "-93.48048",
+            "address": "20810 VERGUS AVE N",
+            "city": "PRIOR LAKE",
+            "state": "MN",
+            "zip": "55372",
+            "download": 94.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 258,
+            "customer": "2503976",
+            "lat": "44.72836",
+            "lon": "-93.51944",
+            "address": "3683 COUNTY ROAD 79",
+            "city": "SHAKOPEE",
+            "state": "MN",
+            "zip": "55379",
+            "download": 201.0,
+            "upload": 32.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 317,
+            "customer": "2504211",
+            "lat": "44.16093",
+            "lon": "-93.58962",
+            "address": "8912 415TH AVE",
+            "city": "JANESVILLE",
+            "state": "MN",
+            "zip": "56048",
+            "download": 47.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 317,
+            "customer": "2504211",
+            "lat": "44.16093",
+            "lon": "-93.58962",
+            "address": "8912 415TH AVE",
+            "city": "JANESVILLE",
+            "state": "MN",
+            "zip": "56048",
+            "download": 47.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2504211)"
+        },
+        {
+            "OrigRowNum": 178,
+            "customer": "2503519",
+            "lat": "44.58693",
+            "lon": "-93.85743",
+            "address": "16450 W 250TH ST",
+            "city": "BELLE PLAINE",
+            "state": "MN",
+            "zip": "56011",
+            "download": 79.0,
+            "upload": 73.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2503519)"
+        },
+        {
+            "OrigRowNum": 253,
+            "customer": "2503968",
+            "lat": "44.64825",
+            "lon": "-93.48048",
+            "address": "20810 VERGUS AVE N",
+            "city": "PRIOR LAKE",
+            "state": "MN",
+            "zip": "55372",
+            "download": 94.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2503968)"
+        },
+        {
+            "OrigRowNum": 23,
+            "customer": "2503076",
+            "lat": "44.67254",
+            "lon": "-93.49308",
+            "address": "1467 E 190TH ST",
+            "city": "JORDAN",
+            "state": "MN",
+            "zip": "55352",
+            "download": 82.0,
+            "upload": 32.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2503076)"
+        },
+        {
+            "OrigRowNum": 258,
+            "customer": "2503976",
+            "lat": "44.72836",
+            "lon": "-93.51944",
+            "address": "3683 COUNTY ROAD 79",
+            "city": "SHAKOPEE",
+            "state": "MN",
+            "zip": "55379",
+            "download": 201.0,
+            "upload": 32.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2503976)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 139,
+            "Original Address": "8/6/1925",
+            "Corrected Address": "8 6 1925",
+            "Original ZIP": "55372",
+            "Corrected ZIP": "55372",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-22T08:48:57.356032"
+        }
+    ]
+}

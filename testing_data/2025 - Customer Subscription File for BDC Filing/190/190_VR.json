@@ -1,0 +1,251 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1223,
+        "Rows with Corrections": 19,
+        "Rows with Errors": 6,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 20,
+        "Total Errors": 6,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.93,
+        "Validation Date": "2025-08-18 09:36:40",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1223,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1223,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "19604 NORTHEAST 129 ST",
+            "Corrected Value": "19604 NE 129 ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "255 W 19TH ST STE A",
+            "Corrected Value": "255 W 19TH ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1129,
+            "Column": "address",
+            "Original Value": "407 EAST 20TH TERRACE",
+            "Corrected Value": "407 E 20TH TERRACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1129,
+            "Column": "state",
+            "Original Value": "",
+            "Corrected Value": "MO",
+            "Correction Type": "State from ZIP Code",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "John Moore",
+            "Corrected Value": "John Moore_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "9301 COUNTY ROAD JJ",
+            "Corrected Value": "9301 CR JJ",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "10205 COUNTY ROAD H",
+            "Corrected Value": "10205 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "10911 COUNTY ROAD H",
+            "Corrected Value": "10911 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "16423 COUNTY ROAD H",
+            "Corrected Value": "16423 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "10617 COUNTY ROAD JJ",
+            "Corrected Value": "10617 CR JJ",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "20211 COUNTY ROAD H",
+            "Corrected Value": "20211 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 594,
+            "Column": "address",
+            "Original Value": "10705 COUNTY ROAD H",
+            "Corrected Value": "10705 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 599,
+            "Column": "address",
+            "Original Value": "16612 COUNTY ROAD H",
+            "Corrected Value": "16612 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 612,
+            "Column": "address",
+            "Original Value": "2310 E COUNTY ROAD H",
+            "Corrected Value": "2310 E CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 757,
+            "Column": "address",
+            "Original Value": "18029 COUNTY ROAD H",
+            "Corrected Value": "18029 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 759,
+            "Column": "address",
+            "Original Value": "2020 COUNTY ROAD B",
+            "Corrected Value": "2020 CR B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 821,
+            "Column": "address",
+            "Original Value": "17404 COUNTY ROAD H",
+            "Corrected Value": "17404 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Original Value": "22201 COUNTY ROAD H",
+            "Corrected Value": "22201 CR H",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 899,
+            "Column": "address",
+            "Original Value": "8019 COUNTY ROAD EE",
+            "Corrected Value": "8019 CR EE",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1224,
+            "Column": "address",
+            "Original Value": "8321 COUNTY RD N",
+            "Corrected Value": "8321 CR N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1705 FLINTROCK ST"
+        },
+        {
+            "Row": 1120,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1809 FLINTROCK ST"
+        },
+        {
+            "Row": 1145,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1704 FLINTROCK ST"
+        },
+        {
+            "Row": 1168,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1813 FLINTROCK ST"
+        },
+        {
+            "Row": 171,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Crabtree Farms_001",
+            "Value": "Crabtree Farms"
+        },
+        {
+            "Row": 390,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to John Moore_002",
+            "Value": "John Moore"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

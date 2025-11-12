@@ -1,0 +1,2897 @@
+{
+    "Summary": {
+        "Total Rows Processed": 299,
+        "Rows with Corrections": 84,
+        "Rows with Errors": 77,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 15,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 157,
+        "Total Errors": 17,
+        "Street Ending Errors": 73,
+        "Validation Time (seconds)": 0.6,
+        "Validation Date": "2025-08-05 09:46:02",
+        "Addresses Sent to Smarty": 73,
+        "Successful Corrections": 73,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.37,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 284,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 284,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "139 BAYCLIFFE DR YANKTON SD",
+            "Corrected Value": "139 BAYCLIFFE DR",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "4301 WEST CITY LIMITS RD",
+            "Corrected Value": "4301 W CITY LIMITS RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "214 SOUTH RIDGEWAY DRIVE",
+            "Corrected Value": "214 S RIDGEWAY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "45496 S DAKOTA 50",
+            "Corrected Value": "45496 W SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Original Value": "10 EAST CIRCLE",
+            "Corrected Value": "10 E CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "4710 S DAKOTA 314",
+            "Corrected Value": "4710 SD HIGHWAY 314",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "1014 WEST 39TH AVE",
+            "Corrected Value": "1014 W 39TH AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "3904 S DAKOTA 314",
+            "Corrected Value": "3904 SD HIGHWAY 314",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 249,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "406 S DAKOTA 50",
+            "Corrected Value": "406 SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "1620 EAST 17TH AVENUE",
+            "Corrected Value": "1620 E 17TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "311 WEST 22ND AVENUE",
+            "Corrected Value": "311 W 22ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "3312 WEST 8TH STREET",
+            "Corrected Value": "3312 W 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Original Value": "210 WEST DAKOTA STREET",
+            "Corrected Value": "210 W DAKOTA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "43490 S DAKOTA 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "2934 WEST 8TH STREET",
+            "Corrected Value": "2934 W 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2211611",
+            "Corrected Value": "2211611_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "109 OKIE DOKIE",
+            "Corrected Value": "109 OKIE DOKIE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "89467 HWY 81",
+            "Corrected Value": "89467 HIGHWAY 81",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "55549 HWY 121",
+            "Corrected Value": "55549 HIGHWAY 121",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "zip",
+            "Original Value": "68774",
+            "Corrected Value": "68774",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "89862 MERIDIAN BRIDGE",
+            "Corrected Value": "89862 MERIDIAN BRG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "68774",
+            "Corrected Value": "68774",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "89862 MERIDIAN BRIDGE",
+            "Corrected Value": "89862 MERIDIAN BRG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "68774",
+            "Corrected Value": "68774",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "89862 MERIDIAN BRIDGE",
+            "Corrected Value": "89862 MERIDIAN BRG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "43493 W HWY 50",
+            "Corrected Value": "43493 SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "zip",
+            "Original Value": "57031",
+            "Corrected Value": "57031",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "44821 310TH",
+            "Corrected Value": "44821 310TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "123 SHERWOOD",
+            "Corrected Value": "123 SHERWOOD DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "105 CURLIE",
+            "Corrected Value": "105 CURLIE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "4900 SD-314",
+            "Corrected Value": "4900 SD HIGHWAY 314",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "zip",
+            "Original Value": "57031",
+            "Corrected Value": "57031",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "45055 SD HIWAY 50",
+            "Corrected Value": "45055 SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "55245 NEBRASKA HIGHWAY 121",
+            "Corrected Value": "55245 HIGHWAY 121",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "55312 HIGHWAY 121",
+            "Corrected Value": "55312 HIGHWAY 121",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "zip",
+            "Original Value": "57031",
+            "Corrected Value": "57031",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "44784 310TH",
+            "Corrected Value": "44784 310TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "3808 PENINAH",
+            "Corrected Value": "3808 PENINAH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "zip",
+            "Original Value": "57046",
+            "Corrected Value": "57046",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "44732 SD HWY 50",
+            "Corrected Value": "44732 SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "89475 HWY 81",
+            "Corrected Value": "89475 HIGHWAY 81",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "3200 PENINAH",
+            "Corrected Value": "3200 PENINAH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "3709 TIMBERLAND",
+            "Corrected Value": "3709 TIMBERLAND DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "zip",
+            "Original Value": "68736",
+            "Corrected Value": "68736",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "89287 HWY 81",
+            "Corrected Value": "89287 HIGHWAY 81",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "zip",
+            "Original Value": "68736",
+            "Corrected Value": "68736",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "89488 558TH",
+            "Corrected Value": "89488 558TH AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "200 FOREST VIEW",
+            "Corrected Value": "200 FORESTVIEW DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "43520 HWY 52",
+            "Corrected Value": "43520 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "89631 U.S. 81",
+            "Corrected Value": "89631 HIGHWAY 81",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "68736",
+            "Corrected Value": "68736",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "89492 559 TH",
+            "Corrected Value": "89492 559 AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "30549 US-81",
+            "Corrected Value": "30549 US HIGHWAY 81",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "31038 SUNDANCE RIDGE",
+            "Corrected Value": "31038 SUNDANCE RDG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "zip",
+            "Original Value": "68736",
+            "Corrected Value": "68736",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "89167 557TH",
+            "Corrected Value": "89167 557 AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "43551 SD 50",
+            "Corrected Value": "43551 SD HIGHWAY 50",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "4003 TIMBERLAND",
+            "Corrected Value": "4003 TIMBERLAND DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "30963 433RD",
+            "Corrected Value": "30963 433RD AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "zip",
+            "Original Value": "68730",
+            "Corrected Value": "68730",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "55368 NEBRASKA HWY 121",
+            "Corrected Value": "55368 HIGHWAY 121",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "1913 SD 314",
+            "Corrected Value": "1913 SD HIGHWAY 314",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "zip",
+            "Original Value": "57069",
+            "Corrected Value": "57069",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "3114 PENINAH",
+            "Corrected Value": "3114 PENINAH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "zip",
+            "Original Value": "57031",
+            "Corrected Value": "57031",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "45106 308TH",
+            "Corrected Value": "45106 308TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Original Value": "30930 SD-314",
+            "Corrected Value": "30930 SD HIGHWAY 314",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "zip",
+            "Original Value": "57072",
+            "Corrected Value": "57072",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "45149 306TH",
+            "Corrected Value": "45149 306TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 249,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "zip",
+            "Original Value": "57066",
+            "Corrected Value": "57066",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "43490 SD HWY 52",
+            "Corrected Value": "43490 SD HIGHWAY 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "zip",
+            "Original Value": "57066",
+            "Corrected Value": "57066",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Original Value": "200 W 24TH",
+            "Corrected Value": "200 W 24TH AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "zip",
+            "Original Value": "57078",
+            "Corrected Value": "57078",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 210,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2211230_001",
+            "Value": "2211230"
+        },
+        {
+            "Row": 20,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2211272"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2211272"
+        },
+        {
+            "Row": 225,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2211611_002",
+            "Value": "2211611"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2212137)",
+            "Value": "2288996"
+        },
+        {
+            "Row": 280,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2315558)",
+            "Value": "2461153"
+        },
+        {
+            "Row": 20,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2211272)",
+            "Value": "2211272"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2211272)",
+            "Value": "2211272"
+        },
+        {
+            "Row": 248,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2453952)",
+            "Value": "2473439"
+        },
+        {
+            "Row": 244,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2431037)",
+            "Value": "2442905"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2431037)",
+            "Value": "2450556"
+        },
+        {
+            "Row": 247,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2431037)",
+            "Value": "2459343"
+        },
+        {
+            "Row": 241,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2261445)",
+            "Value": "2430773"
+        },
+        {
+            "Row": 243,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2261445)",
+            "Value": "2441687"
+        },
+        {
+            "Row": 249,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2261445)",
+            "Value": "2483165"
+        },
+        {
+            "Row": 250,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2261445)",
+            "Value": "2486557"
+        },
+        {
+            "Row": 251,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2261445)",
+            "Value": "2512957"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "109 OKIE DOKIE"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89467 HWY 81"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "55549 HWY 121"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89862 MERIDIAN BRIDGE"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89862 MERIDIAN BRIDGE"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89862 MERIDIAN BRIDGE"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43493 W HWY 50"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44821 310TH"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "123 SHERWOOD"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "105 CURLIE"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4900 SD314"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45055 SD HIWAY 50"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "55245 NEBRASKA HIGHWAY 121"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "55312 HIGHWAY 121"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44784 310TH"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3808 PENINAH"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44732 SD HWY 50"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89475 HWY 81"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3200 PENINAH"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3709 TIMBERLAND"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89287 HWY 81"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89488 558TH"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "200 FOREST VIEW"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43520 HWY 52"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89631 US 81"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89492 559 TH"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30549 US81"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31038 SUNDANCE RIDGE"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89167 557TH"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43551 SD 50"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4003 TIMBERLAND"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30963 433RD"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "55368 NEBRASKA HWY 121"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1913 SD 314"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45496 S DAKOTA 50"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3114 PENINAH"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45106 308TH"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4710 S DAKOTA 314"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30930 SD314"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45149 306TH"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3904 S DAKOTA 314"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 249,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "406 S DAKOTA 50"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 SD HWY 52"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "200 W 24TH"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43490 S DAKOTA 52"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 20,
+            "customer": "2211272",
+            "lat": 42.85911,
+            "lon": -97.39256,
+            "address": "89862 MERIDIAN BRIDGE",
+            "city": "ST HELENA",
+            "state": "NE",
+            "zip": "68774",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 21,
+            "customer": "2211272",
+            "lat": 42.85911,
+            "lon": -97.39256,
+            "address": "89862 MERIDIAN BRIDGE",
+            "city": "ST HELENA",
+            "state": "NE",
+            "zip": "68774",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 84,
+            "customer": "2288996",
+            "lat": 42.8540023,
+            "lon": -97.4157836,
+            "address": "89851 556TH AVENUE",
+            "city": "CROFTON",
+            "state": "NE",
+            "zip": "68730",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2212137)"
+        },
+        {
+            "OrigRowNum": 280,
+            "customer": "2461153",
+            "lat": 42.8555067,
+            "lon": -97.3947728,
+            "address": "89862 MERIDIAN AVE.",
+            "city": "ST HELENA",
+            "state": "NE",
+            "zip": "68730",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2315558)"
+        },
+        {
+            "OrigRowNum": 20,
+            "customer": "2211272",
+            "lat": 42.85911,
+            "lon": -97.39256,
+            "address": "89862 MERIDIAN BRIDGE",
+            "city": "ST HELENA",
+            "state": "NE",
+            "zip": "68774",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2211272)"
+        },
+        {
+            "OrigRowNum": 21,
+            "customer": "2211272",
+            "lat": 42.85911,
+            "lon": -97.39256,
+            "address": "89862 MERIDIAN BRIDGE",
+            "city": "ST HELENA",
+            "state": "NE",
+            "zip": "68774",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2211272)"
+        },
+        {
+            "OrigRowNum": 248,
+            "customer": "2473439",
+            "lat": 42.8748011,
+            "lon": -97.4974104,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2453952)"
+        },
+        {
+            "OrigRowNum": 244,
+            "customer": "2442905",
+            "lat": 42.8751566,
+            "lon": -97.4974739,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2431037)"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "2450556",
+            "lat": 42.8751566,
+            "lon": -97.4974739,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2431037)"
+        },
+        {
+            "OrigRowNum": 247,
+            "customer": "2459343",
+            "lat": 42.8751566,
+            "lon": -97.4974739,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2431037)"
+        },
+        {
+            "OrigRowNum": 241,
+            "customer": "2430773",
+            "lat": 42.875928,
+            "lon": -97.498135,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2261445)"
+        },
+        {
+            "OrigRowNum": 243,
+            "customer": "2441687",
+            "lat": 42.875928,
+            "lon": -97.498135,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2261445)"
+        },
+        {
+            "OrigRowNum": 249,
+            "customer": "2483165",
+            "lat": 42.875928,
+            "lon": -97.498135,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2261445)"
+        },
+        {
+            "OrigRowNum": 250,
+            "customer": "2486557",
+            "lat": 42.875928,
+            "lon": -97.498135,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2261445)"
+        },
+        {
+            "OrigRowNum": 251,
+            "customer": "2512957",
+            "lat": 42.875928,
+            "lon": -97.498135,
+            "address": "43490 S DAKOTA 52",
+            "city": "YANKTON",
+            "state": "SD",
+            "zip": "57078",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2261445)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4,
+            "Original Address": "109 OKIE DOKIE",
+            "Corrected Address": "109 OKIE DOKIE LN",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.738949"
+        },
+        {
+            "OrigRowNum": 6,
+            "Original Address": "89467 HWY 81",
+            "Corrected Address": "89467 HIGHWAY 81",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.740261"
+        },
+        {
+            "OrigRowNum": 15,
+            "Original Address": "55549 HWY 121",
+            "Corrected Address": "55549 HIGHWAY 121",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.740603"
+        },
+        {
+            "OrigRowNum": 19,
+            "Original Address": "89862 MERIDIAN BRIDGE",
+            "Corrected Address": "89862 MERIDIAN BRG",
+            "Original ZIP": "68774",
+            "Corrected ZIP": "68774",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.740897"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "89862 MERIDIAN BRIDGE",
+            "Corrected Address": "89862 MERIDIAN BRG",
+            "Original ZIP": "68774",
+            "Corrected ZIP": "68774",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.741186"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "89862 MERIDIAN BRIDGE",
+            "Corrected Address": "89862 MERIDIAN BRG",
+            "Original ZIP": "68774",
+            "Corrected ZIP": "68774",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.741463"
+        },
+        {
+            "OrigRowNum": 27,
+            "Original Address": "43493 W HWY 50",
+            "Corrected Address": "43493 SD HIGHWAY 50",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.741722"
+        },
+        {
+            "OrigRowNum": 40,
+            "Original Address": "44821 310TH",
+            "Corrected Address": "44821 310TH ST",
+            "Original ZIP": "57031",
+            "Corrected ZIP": "57031",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.741974"
+        },
+        {
+            "OrigRowNum": 45,
+            "Original Address": "123 SHERWOOD",
+            "Corrected Address": "123 SHERWOOD DR",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.742225"
+        },
+        {
+            "OrigRowNum": 48,
+            "Original Address": "105 CURLIE",
+            "Corrected Address": "105 CURLIE ST",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.742479"
+        },
+        {
+            "OrigRowNum": 51,
+            "Original Address": "4900 SD-314",
+            "Corrected Address": "4900 SD HIGHWAY 314",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.742735"
+        },
+        {
+            "OrigRowNum": 53,
+            "Original Address": "45055 SD HIWAY 50",
+            "Corrected Address": "45055 SD HIGHWAY 50",
+            "Original ZIP": "57031",
+            "Corrected ZIP": "57031",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.742988"
+        },
+        {
+            "OrigRowNum": 55,
+            "Original Address": "55245 NEBRASKA HIGHWAY 121",
+            "Corrected Address": "55245 HIGHWAY 121",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.743643"
+        },
+        {
+            "OrigRowNum": 56,
+            "Original Address": "55312 HIGHWAY 121",
+            "Corrected Address": "55312 HIGHWAY 121",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.744071"
+        },
+        {
+            "OrigRowNum": 73,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.744392"
+        },
+        {
+            "OrigRowNum": 75,
+            "Original Address": "44784 310TH",
+            "Corrected Address": "44784 310TH ST",
+            "Original ZIP": "57031",
+            "Corrected ZIP": "57031",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.744699"
+        },
+        {
+            "OrigRowNum": 76,
+            "Original Address": "3808 PENINAH",
+            "Corrected Address": "3808 PENINAH ST",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.745016"
+        },
+        {
+            "OrigRowNum": 95,
+            "Original Address": "44732 SD HWY 50",
+            "Corrected Address": "44732 SD HIGHWAY 50",
+            "Original ZIP": "57046",
+            "Corrected ZIP": "57046",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.745317"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "89475 HWY 81",
+            "Corrected Address": "89475 HIGHWAY 81",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.745618"
+        },
+        {
+            "OrigRowNum": 108,
+            "Original Address": "3200 PENINAH",
+            "Corrected Address": "3200 PENINAH ST",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.745913"
+        },
+        {
+            "OrigRowNum": 116,
+            "Original Address": "3709 TIMBERLAND",
+            "Corrected Address": "3709 TIMBERLAND DR",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.746223"
+        },
+        {
+            "OrigRowNum": 117,
+            "Original Address": "89287 HWY 81",
+            "Corrected Address": "89287 HIGHWAY 81",
+            "Original ZIP": "68736",
+            "Corrected ZIP": "68736",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.746517"
+        },
+        {
+            "OrigRowNum": 121,
+            "Original Address": "89488 558TH",
+            "Corrected Address": "89488 558TH AVE",
+            "Original ZIP": "68736",
+            "Corrected ZIP": "68736",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.746813"
+        },
+        {
+            "OrigRowNum": 123,
+            "Original Address": "200 FOREST VIEW",
+            "Corrected Address": "200 FORESTVIEW DR",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.747105"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "43520 HWY 52",
+            "Corrected Address": "43520 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.747387"
+        },
+        {
+            "OrigRowNum": 127,
+            "Original Address": "89631 U.S. 81",
+            "Corrected Address": "89631 HIGHWAY 81",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.747682"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "89492 559 TH",
+            "Corrected Address": "89492 559 AVE",
+            "Original ZIP": "68736",
+            "Corrected ZIP": "68736",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.747970"
+        },
+        {
+            "OrigRowNum": 134,
+            "Original Address": "30549 US-81",
+            "Corrected Address": "30549 US HIGHWAY 81",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.748256"
+        },
+        {
+            "OrigRowNum": 141,
+            "Original Address": "31038 SUNDANCE RIDGE",
+            "Corrected Address": "31038 SUNDANCE RDG",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.748547"
+        },
+        {
+            "OrigRowNum": 142,
+            "Original Address": "89167 557TH",
+            "Corrected Address": "89167 557 AVE",
+            "Original ZIP": "68736",
+            "Corrected ZIP": "68736",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.748828"
+        },
+        {
+            "OrigRowNum": 163,
+            "Original Address": "43551 SD 50",
+            "Corrected Address": "43551 SD HIGHWAY 50",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.749136"
+        },
+        {
+            "OrigRowNum": 164,
+            "Original Address": "4003 TIMBERLAND",
+            "Corrected Address": "4003 TIMBERLAND DR",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.749380"
+        },
+        {
+            "OrigRowNum": 172,
+            "Original Address": "30963 433RD",
+            "Corrected Address": "30963 433RD AVE",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.749629"
+        },
+        {
+            "OrigRowNum": 173,
+            "Original Address": "55368 NEBRASKA HWY 121",
+            "Corrected Address": "55368 HIGHWAY 121",
+            "Original ZIP": "68730",
+            "Corrected ZIP": "68730",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.749865"
+        },
+        {
+            "OrigRowNum": 187,
+            "Original Address": "1913 SD 314",
+            "Corrected Address": "1913 SD HIGHWAY 314",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.750118"
+        },
+        {
+            "OrigRowNum": 189,
+            "Original Address": "45496 S DAKOTA 50",
+            "Corrected Address": "45496 W SD HIGHWAY 50",
+            "Original ZIP": "57069",
+            "Corrected ZIP": "57069",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.750358"
+        },
+        {
+            "OrigRowNum": 200,
+            "Original Address": "3114 PENINAH",
+            "Corrected Address": "3114 PENINAH ST",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.750604"
+        },
+        {
+            "OrigRowNum": 206,
+            "Original Address": "45106 308TH",
+            "Corrected Address": "45106 308TH ST",
+            "Original ZIP": "57031",
+            "Corrected ZIP": "57031",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.750844"
+        },
+        {
+            "OrigRowNum": 209,
+            "Original Address": "4710 S DAKOTA 314",
+            "Corrected Address": "4710 SD HIGHWAY 314",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.751090"
+        },
+        {
+            "OrigRowNum": 215,
+            "Original Address": "30930 SD-314",
+            "Corrected Address": "30930 SD HIGHWAY 314",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.751328"
+        },
+        {
+            "OrigRowNum": 220,
+            "Original Address": "45149 306TH",
+            "Corrected Address": "45149 306TH ST",
+            "Original ZIP": "57072",
+            "Corrected ZIP": "57072",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.751575"
+        },
+        {
+            "OrigRowNum": 224,
+            "Original Address": "3904 S DAKOTA 314",
+            "Corrected Address": "3904 SD HIGHWAY 314",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.751814"
+        },
+        {
+            "OrigRowNum": 226,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.752060"
+        },
+        {
+            "OrigRowNum": 227,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.752298"
+        },
+        {
+            "OrigRowNum": 228,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.752541"
+        },
+        {
+            "OrigRowNum": 229,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.752777"
+        },
+        {
+            "OrigRowNum": 230,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.753024"
+        },
+        {
+            "OrigRowNum": 231,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.753265"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.753507"
+        },
+        {
+            "OrigRowNum": 233,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.753748"
+        },
+        {
+            "OrigRowNum": 234,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.753997"
+        },
+        {
+            "OrigRowNum": 235,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.754232"
+        },
+        {
+            "OrigRowNum": 236,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.754465"
+        },
+        {
+            "OrigRowNum": 237,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.754718"
+        },
+        {
+            "OrigRowNum": 238,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.754956"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.755173"
+        },
+        {
+            "OrigRowNum": 240,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.755374"
+        },
+        {
+            "OrigRowNum": 241,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.755581"
+        },
+        {
+            "OrigRowNum": 242,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.755784"
+        },
+        {
+            "OrigRowNum": 243,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.755997"
+        },
+        {
+            "OrigRowNum": 244,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.756201"
+        },
+        {
+            "OrigRowNum": 245,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.756407"
+        },
+        {
+            "OrigRowNum": 246,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.756605"
+        },
+        {
+            "OrigRowNum": 247,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.756811"
+        },
+        {
+            "OrigRowNum": 248,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.757016"
+        },
+        {
+            "OrigRowNum": 249,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.757225"
+        },
+        {
+            "OrigRowNum": 250,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.757426"
+        },
+        {
+            "OrigRowNum": 251,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.757625"
+        },
+        {
+            "OrigRowNum": 252,
+            "Original Address": "406 S DAKOTA 50",
+            "Corrected Address": "406 SD HIGHWAY 50",
+            "Original ZIP": "57066",
+            "Corrected ZIP": "57066",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.757832"
+        },
+        {
+            "OrigRowNum": 257,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.758034"
+        },
+        {
+            "OrigRowNum": 258,
+            "Original Address": "43490 SD HWY 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.758241"
+        },
+        {
+            "OrigRowNum": 269,
+            "Original Address": "200 W 24TH",
+            "Corrected Address": "200 W 24TH AVE",
+            "Original ZIP": "57066",
+            "Corrected ZIP": "57066",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.758445"
+        },
+        {
+            "OrigRowNum": 274,
+            "Original Address": "43490 S DAKOTA 52",
+            "Corrected Address": "43490 SD HIGHWAY 52",
+            "Original ZIP": "57078",
+            "Corrected ZIP": "57078",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:46:02.758669"
+        }
+    ]
+}

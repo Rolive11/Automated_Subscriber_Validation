@@ -1,0 +1,842 @@
+{
+    "Summary": {
+        "Total Rows Processed": 127,
+        "Rows with Corrections": 38,
+        "Rows with Errors": 20,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 3,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 54,
+        "Total Errors": 6,
+        "Street Ending Errors": 15,
+        "Validation Time (seconds)": 0.36,
+        "Validation Date": "2025-08-05 08:51:10",
+        "Addresses Sent to Smarty": 15,
+        "Successful Corrections": 15,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.23,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 122,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 122,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "508 1ST AVENUE NORTHEAST",
+            "Corrected Value": "508 1ST AVENUE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "12874 NORTH BAY TRAIL",
+            "Corrected Value": "12874 N BAY TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Original Value": "700 2ND AVENUE NORTHWEST",
+            "Corrected Value": "700 2ND AVENUE NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "316 WEST LAKE STREET",
+            "Corrected Value": "316 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "6627 NORTH LONG LAKE ROAD",
+            "Corrected Value": "6627 N LONG LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "501 1ST STREET NORTHWEST",
+            "Corrected Value": "501 1ST STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "316 WEST LAKE STREET",
+            "Corrected Value": "316 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "514 4TH STREET NORTHWEST",
+            "Corrected Value": "514 4TH STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "207 2ND STREET SOUTHWEST",
+            "Corrected Value": "207 2ND STREET SW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "7160 NORTH DARK LAKE ROAD",
+            "Corrected Value": "7160 N DARK LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "316 WEST LAKE STREET",
+            "Corrected Value": "316 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "123 WEST LAKE STREET",
+            "Corrected Value": "123 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "302 1ST STREET NORTHWEST",
+            "Corrected Value": "302 1ST STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "411 2ND STREET NORTHWEST",
+            "Corrected Value": "411 2ND STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "543 6TH STREET SOUTHWEST",
+            "Corrected Value": "543 6TH STREET SW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "301 5TH STREET SOUTHWEST",
+            "Corrected Value": "301 5TH STREET SW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "208 3RD STREET NORTHWEST",
+            "Corrected Value": "208 3RD STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "5 WEST LAKE STREET",
+            "Corrected Value": "5 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "7186 NORTH DARK LAKE ROAD",
+            "Corrected Value": "7186 N DARK LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "123 WEST LAKE STREET",
+            "Corrected Value": "123 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "123 WEST LAKE STREET",
+            "Corrected Value": "123 W LAKE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "516 3RD STREET NORTHWEST",
+            "Corrected Value": "516 3RD STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "302 1ST STREET NORTHWEST",
+            "Corrected Value": "302 1ST STREET NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "10000287",
+            "Corrected Value": "10000287_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "6081 HWY 73",
+            "Corrected Value": "6081 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "6011 HWY 73",
+            "Corrected Value": "6011 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "zip",
+            "Original Value": "55710",
+            "Corrected Value": "55710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "7178 HWY 25",
+            "Corrected Value": "7178 HIGHWAY 25",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "6727 HWY 73",
+            "Corrected Value": "6727 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "zip",
+            "Original Value": "55710",
+            "Corrected Value": "55710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "7095 HWY 25",
+            "Corrected Value": "7095 HIGHWAY 25",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "6008 HWY 73",
+            "Corrected Value": "6008 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "zip",
+            "Original Value": "55781",
+            "Corrected Value": "55781",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "7548 HIGHWAY 5",
+            "Corrected Value": "7548 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "6061 MINNESOTA 73",
+            "Corrected Value": "6061 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "55719",
+            "Corrected Value": "55719",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "5001 HIGHWAY 5",
+            "Corrected Value": "5001 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "9063 HIGHWAY 5",
+            "Corrected Value": "9063 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "9207 HIGHWAY 5",
+            "Corrected Value": "9207 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "9008 HIGHWAY 5",
+            "Corrected Value": "9008 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "9163 HIGHWAY 5",
+            "Corrected Value": "9163 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "9132 HIGHWAY 5",
+            "Corrected Value": "9132 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "zip",
+            "Original Value": "55765",
+            "Corrected Value": "55765",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "9094 HIGHWAY 5",
+            "Corrected Value": "9094 HIGHWAY 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 197"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 10000183_001",
+            "Value": "10000183"
+        },
+        {
+            "Row": 98,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 10000287_002",
+            "Value": "10000287"
+        },
+        {
+            "Row": 123,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "10000307"
+        },
+        {
+            "Row": 119,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 10000355)",
+            "Value": "10000356"
+        },
+        {
+            "Row": 123,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 10000307)",
+            "Value": "10000307"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 24,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6081 HWY 73"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6011 HWY 73"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7178 HWY 25"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6727 HWY 73"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7095 HWY 25"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6008 HWY 73"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7548 HIGHWAY 5"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6061 MINNESOTA 73"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5001 HIGHWAY 5"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9063 HIGHWAY 5"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9207 HIGHWAY 5"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9008 HIGHWAY 5"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9163 HIGHWAY 5"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9132 HIGHWAY 5"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9094 HIGHWAY 5"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 197"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 197"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 123,
+            "customer": "10000307",
+            "lat": 47.4903965,
+            "lon": -92.8839799,
+            "address": "302 1ST STREET NW",
+            "city": "CHISHOLM",
+            "state": "MN",
+            "zip": "55719",
+            "download": 50.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 119,
+            "customer": "10000356",
+            "lat": 47.4888871,
+            "lon": -92.88145,
+            "address": "123 W LAKE STREET",
+            "city": "CHISHOLM",
+            "state": "MN",
+            "zip": "55719",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "ethernet",
+            "Error": "Data-based duplicate (same as customer 10000355)"
+        },
+        {
+            "OrigRowNum": 123,
+            "customer": "10000307",
+            "lat": 47.4903965,
+            "lon": -92.8839799,
+            "address": "302 1ST STREET NW",
+            "city": "CHISHOLM",
+            "state": "MN",
+            "zip": "55719",
+            "download": 50.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 10000307)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 24,
+            "Original Address": "6081 HWY 73",
+            "Corrected Address": "6081 HIGHWAY 73",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.957708"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "6011 HWY 73",
+            "Corrected Address": "6011 HIGHWAY 73",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.959105"
+        },
+        {
+            "OrigRowNum": 35,
+            "Original Address": "7178 HWY 25",
+            "Corrected Address": "7178 HIGHWAY 25",
+            "Original ZIP": "55710",
+            "Corrected ZIP": "55710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.959653"
+        },
+        {
+            "OrigRowNum": 52,
+            "Original Address": "6727 HWY 73",
+            "Corrected Address": "6727 HIGHWAY 73",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.960110"
+        },
+        {
+            "OrigRowNum": 56,
+            "Original Address": "7095 HWY 25",
+            "Corrected Address": "7095 HIGHWAY 25",
+            "Original ZIP": "55710",
+            "Corrected ZIP": "55710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.960553"
+        },
+        {
+            "OrigRowNum": 79,
+            "Original Address": "6008 HWY 73",
+            "Corrected Address": "6008 HIGHWAY 73",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.960982"
+        },
+        {
+            "OrigRowNum": 82,
+            "Original Address": "7548 HIGHWAY 5",
+            "Corrected Address": "7548 HIGHWAY 5",
+            "Original ZIP": "55781",
+            "Corrected ZIP": "55781",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.961398"
+        },
+        {
+            "OrigRowNum": 83,
+            "Original Address": "6061 MINNESOTA 73",
+            "Corrected Address": "6061 HIGHWAY 73",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.961817"
+        },
+        {
+            "OrigRowNum": 88,
+            "Original Address": "5001 HIGHWAY 5",
+            "Corrected Address": "5001 HIGHWAY 5",
+            "Original ZIP": "55719",
+            "Corrected ZIP": "55719",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.962233"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "9063 HIGHWAY 5",
+            "Corrected Address": "9063 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.962586"
+        },
+        {
+            "OrigRowNum": 102,
+            "Original Address": "9207 HIGHWAY 5",
+            "Corrected Address": "9207 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.962899"
+        },
+        {
+            "OrigRowNum": 104,
+            "Original Address": "9008 HIGHWAY 5",
+            "Corrected Address": "9008 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.963209"
+        },
+        {
+            "OrigRowNum": 107,
+            "Original Address": "9163 HIGHWAY 5",
+            "Corrected Address": "9163 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.963513"
+        },
+        {
+            "OrigRowNum": 109,
+            "Original Address": "9132 HIGHWAY 5",
+            "Corrected Address": "9132 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.963815"
+        },
+        {
+            "OrigRowNum": 111,
+            "Original Address": "9094 HIGHWAY 5",
+            "Corrected Address": "9094 HIGHWAY 5",
+            "Original ZIP": "55765",
+            "Corrected ZIP": "55765",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T08:51:09.964123"
+        }
+    ]
+}

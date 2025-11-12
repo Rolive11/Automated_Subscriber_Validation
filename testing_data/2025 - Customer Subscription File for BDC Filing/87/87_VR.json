@@ -1,0 +1,4516 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1148,
+        "Rows with Corrections": 138,
+        "Rows with Errors": 136,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 21,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 252,
+        "Total Errors": 28,
+        "Street Ending Errors": 114,
+        "Validation Time (seconds)": 1.67,
+        "Validation Date": "2025-07-31 14:36:03",
+        "Addresses Sent to Smarty": 114,
+        "Successful Corrections": 114,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.84,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1127,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1127,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "99 EVANS RD # 5",
+            "Corrected Value": "99 EVANS RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "174 FRONTIER TRAIL SO",
+            "Corrected Value": "174 FRONTIER TRAIL",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "1071 NORTH FRONTIER TRAIL",
+            "Corrected Value": "1071 N FRONTIER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "11825 SIERRA WAY # 21",
+            "Corrected Value": "11825 SIERRA WAY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "6507 WOFFORD HEIGHTS BLVD # 4",
+            "Corrected Value": "6507 WOFFORD HEIGHTS BLVD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "224 CYPRESS LN #27",
+            "Corrected Value": "224 CYPRESS LN",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Original Value": "1278 NORTH FRONTIER TRAIL",
+            "Corrected Value": "1278 N FRONTIER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "3820 GOLDEN SPUR ST # F",
+            "Corrected Value": "3820 GOLDEN SPUR ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "448 SCODIE AVE # 3",
+            "Corrected Value": "448 SCODIE AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "212 NORTH SALAINE AVE",
+            "Corrected Value": "212 N SALAINE AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "2516 ERSKINE CREEK RD APT B",
+            "Corrected Value": "2516 ERSKINE CREEK RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "2916 STEENSEN ST # B",
+            "Corrected Value": "2916 STEENSEN ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 815,
+            "Column": "address",
+            "Original Value": "8507 SOUTH LAKE DR",
+            "Corrected Value": "8507 S LAKE DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 896,
+            "Column": "address",
+            "Original Value": "7458 WOFFORD BLVD UNIT I",
+            "Corrected Value": "7458 WOFFORD BLVD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 980,
+            "Column": "address",
+            "Original Value": "4735 EAST RD",
+            "Corrected Value": "4735 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1038,
+            "Column": "address",
+            "Original Value": "7458 WOFFORD BLVD # A 11",
+            "Corrected Value": "7458 WOFFORD BLVD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1066,
+            "Column": "address",
+            "Original Value": "4316 GOAT RANCH RD APT C",
+            "Corrected Value": "4316 GOAT RANCH RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1068,
+            "Column": "address",
+            "Original Value": "2100 CRESTVIEW AVE APT 3",
+            "Corrected Value": "2100 CRESTVIEW AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1078,
+            "Column": "address",
+            "Original Value": "7458 WOFFORD HTS BLVD SPACE H",
+            "Corrected Value": "7458 WOFFORD HTS BLVD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1100,
+            "Column": "address",
+            "Original Value": "2800 ERSKINE CREEK RD #2",
+            "Corrected Value": "2800 ERSKINE CREEK RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1106,
+            "Column": "address",
+            "Original Value": "1042 EVANS RD #6",
+            "Corrected Value": "1042 EVANS RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1107,
+            "Column": "address",
+            "Original Value": "316 CYPRESS LANE #27",
+            "Corrected Value": "316 CYPRESS LANE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1111,
+            "Column": "address",
+            "Original Value": "100 EVANS RD #31",
+            "Corrected Value": "100 EVANS RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "436",
+            "Corrected Value": "436_003",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "33 SILVERMINE",
+            "Corrected Value": "33 SILVER MINE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "230 E SAWMILL",
+            "Corrected Value": "230 E SAWMILL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "6689 HUNGRY GULCH",
+            "Corrected Value": "6689 HUNGRY GULCH RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "524 BURLANDO",
+            "Corrected Value": "524 BURLANDO RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "211 BURLANDO",
+            "Corrected Value": "211 BURLANDO RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "423 S ALPINE",
+            "Corrected Value": "423 S ALPINE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "28 ROGERS",
+            "Corrected Value": "28 ROGERS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "30 CHAPARRAL",
+            "Corrected Value": "30 CHAPARRAL CT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "770 SYCAMORE",
+            "Corrected Value": "770 SYCAMORE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "212 SYCAMORE",
+            "Corrected Value": "212 SYCAMORE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "1137 N FRONTIER TR",
+            "Corrected Value": "1137 FRONTIER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "137 WOODLAND",
+            "Corrected Value": "137 WOODLAND DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "42 N SALAINE",
+            "Corrected Value": "42 N SALAINE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "277 BURLANDO",
+            "Corrected Value": "277 BURLANDO RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "663 FRONTIER TRAILS",
+            "Corrected Value": "663 FRONTIER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "4315 BUCK",
+            "Corrected Value": "4315 BUCK RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "268 BURLANDO",
+            "Corrected Value": "268 BURLANDO RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "44 BIG BLUE",
+            "Corrected Value": "44 BIG BLUE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "2904 STEENSEN",
+            "Corrected Value": "2904",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "120 VERNA",
+            "Corrected Value": "120 VERNA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "4941 BELLA VISTA",
+            "Corrected Value": "4941 BELLA VISTA DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "448 SCODIE",
+            "Corrected Value": "448 SCODIE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "2454 COMMERCIAL",
+            "Corrected Value": "2454 COMMERCIAL AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "11665 HWY 178",
+            "Corrected Value": "11665 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Original Value": "3024 DRIFTWOOD",
+            "Corrected Value": "3024 DRIFTWOOD AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "511 LUCILLE",
+            "Corrected Value": "511 LUCILLE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "16406 HIGHWAY 178",
+            "Corrected Value": "16406 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "11936 HWY 178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "5336 SHOFFSTALL",
+            "Corrected Value": "5336 SHOFFSTALL LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "400 SCODIE",
+            "Corrected Value": "400 SCODIE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "1200 S ALPINE",
+            "Corrected Value": "1200 S ALPINE WAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "4400 FIDDLENECK",
+            "Corrected Value": "4400 FIDDLENECK ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "448 SCODIE #6",
+            "Corrected Value": "448 SCODIE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "448 SCODIE #30",
+            "Corrected Value": "448 SCODIE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "41 BIG BLUE",
+            "Corrected Value": "41 BIG BLUE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "4918 LARSEN",
+            "Corrected Value": "4918 LARSEN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "245 SIRRETTA",
+            "Corrected Value": "245 SIRRETTA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "10801 POWERS",
+            "Corrected Value": "10801 POWERS AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Original Value": "12090 HWY 178",
+            "Corrected Value": "12090 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "10116 VAIL",
+            "Corrected Value": "10116 VAIL LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "27 LAGO VISTA",
+            "Corrected Value": "27 LAGO VISTA DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "535 BRISTLECONE",
+            "Corrected Value": "535 BRISTLECONE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "4219 WINDSONG",
+            "Corrected Value": "4219 WINDSONG CT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "130 WINDY HILL",
+            "Corrected Value": "130 WINDY HILL CT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "2741 MOUNTAIN VIEW",
+            "Corrected Value": "2741 MOUNTAIN VIEW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Original Value": "6111 CYRUS CAYNON",
+            "Corrected Value": "6111 CYRUS CANYON RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "12201 HIGHWAY 178",
+            "Corrected Value": "12201 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "781 SYCAMORE",
+            "Corrected Value": "781 SYCAMORE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "241 BIG BLUE",
+            "Corrected Value": "241 BIG BLUE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "61 SIRRETTA",
+            "Corrected Value": "61 SIRRETTA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Original Value": "832 SYCAMORE",
+            "Corrected Value": "832 SYCAMORE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "2405 COMMERCIAL",
+            "Corrected Value": "2405 COMMERCIAL AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Original Value": "2721 REMBACH",
+            "Corrected Value": "2721 REMBACH AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "6409 JUNIPER",
+            "Corrected Value": "6409 JUNIPER RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 413,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 413,
+            "Column": "address",
+            "Original Value": "518 BURLANDO",
+            "Corrected Value": "518 BURLANDO RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "107 DURWOOD",
+            "Corrected Value": "107 DURWOOD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "621 OAKWOOD",
+            "Corrected Value": "621 OAKWOOD DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "170 KNOB HILL",
+            "Corrected Value": "170 KNOB HILL DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "249 COUNTRYWOOD",
+            "Corrected Value": "249 COUNTRYWOOD DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "11300 MAVERICK",
+            "Corrected Value": "11300 MAVERICK AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "2600 SCOVERN",
+            "Corrected Value": "2600 SCOVERN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "6108 WIDLWOOD",
+            "Corrected Value": "6108 WILDWOOD RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "2825 AUDREY",
+            "Corrected Value": "2825 AUDREY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "501 WOODLAND",
+            "Corrected Value": "501 WOODLAND DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "zip",
+            "Original Value": "92385",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "720 SIERRA VISTA",
+            "Corrected Value": "720 SIERRA VISTA DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "5212 LAKE ISABELLA BL",
+            "Corrected Value": "5212 LAKE ISABELLA BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Original Value": "10168 BULL RUN",
+            "Corrected Value": "10168 BULL RUN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "5104 SHAWNEE",
+            "Corrected Value": "5104 SHAWNEE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "120 VERNA",
+            "Corrected Value": "120 VERNA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 539,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 539,
+            "Column": "address",
+            "Original Value": "9001 SIOUX",
+            "Corrected Value": "9001 SIOUX CT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Original Value": "2009 PECOS",
+            "Corrected Value": "2009 PECOS AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Original Value": "2737 ALTA SIERRA",
+            "Corrected Value": "2737 ALTA SIERRA AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Original Value": "6504 SAGEBRUSH",
+            "Corrected Value": "6504 SAGEBRUSH RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "200 KNOB HILL",
+            "Corrected Value": "200 KNOB HILL DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "4408 POPLAR",
+            "Corrected Value": "4408 POPLAR ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "2725 AUDREY",
+            "Corrected Value": "2725 AUDREY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "5305 PIUTE MOUNTAIN",
+            "Corrected Value": "5305 PIUTE MOUNTAIN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "150  FRONTIER TR SO",
+            "Corrected Value": "150 FRONTIER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "4508 BUCK",
+            "Corrected Value": "4508 BUCK RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Original Value": "4900 BELLA VISTA",
+            "Corrected Value": "4900 BELLA VISTA DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Original Value": "319 MOUNTAIN SHADOW",
+            "Corrected Value": "319 MOUNTAIN SHADOW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "428 BRISTLECONE",
+            "Corrected Value": "428 BRISTLECONE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "194 SIRRETTA",
+            "Corrected Value": "194 SIRRETTA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "2804 CLAIRE",
+            "Corrected Value": "2804 CLAIRE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "5270 SHOFSTALL",
+            "Corrected Value": "5270 SHOFFSTALL LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "5600 HOOPER",
+            "Corrected Value": "5600 HOOPER RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Original Value": "11667 HIGHWAY 178",
+            "Corrected Value": "11667 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 644,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 644,
+            "Column": "address",
+            "Original Value": "6106 CYPRESS",
+            "Corrected Value": "6106 CYPRESS AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "zip",
+            "Original Value": "93283",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Original Value": "9228 NAVAJO",
+            "Corrected Value": "9228 NAVAJO AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Original Value": "11936 HWY 178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 720,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93283",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 720,
+            "Column": "address",
+            "Original Value": "5580 VISTA GRANDE",
+            "Corrected Value": "5580 VISTA GRANDE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "11936 HWY 178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 761,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 761,
+            "Column": "address",
+            "Original Value": "2912 STEENSEN",
+            "Corrected Value": "2912",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "11936 HIGHWAY 178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 793,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 793,
+            "Column": "address",
+            "Original Value": "19 MAC HILL",
+            "Corrected Value": "19 MAC HILL DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "2601 SCOVERN",
+            "Corrected Value": "2601 SCOVERN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Original Value": "6400 LYNCH CANYON",
+            "Corrected Value": "6400 LYNCH CANYON DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Original Value": "377 HWY 155",
+            "Corrected Value": "377 HIGHWAY 155",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "2512 IRWIN",
+            "Corrected Value": "2512 IRWIN AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 875,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Original Value": "7420 WOFFORD HEIGHTS BL",
+            "Corrected Value": "7420 WOFFORD BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 877,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Original Value": "12201 CA-178",
+            "Corrected Value": "12201 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 879,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Original Value": "35 E. EVANS",
+            "Corrected Value": "35 E EVANS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 904,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 904,
+            "Column": "address",
+            "Original Value": "51 ROCKLEDGE TR.",
+            "Corrected Value": "51 ROCKLEDGE TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Original Value": "3710 GOLDEN SPUR",
+            "Corrected Value": "3710 GOLDEN SPUR ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 946,
+            "Column": "zip",
+            "Original Value": "93238",
+            "Corrected Value": "93238",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Original Value": "6 TOBIAS",
+            "Corrected Value": "6 TOBIAS ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 959,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 959,
+            "Column": "address",
+            "Original Value": "2032 KEM",
+            "Corrected Value": "2032 KEM AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 981,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 981,
+            "Column": "address",
+            "Original Value": "2825 STEENSEN",
+            "Corrected Value": "2825",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "zip",
+            "Original Value": "93205",
+            "Corrected Value": "93205",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Original Value": "84 LUCILLE",
+            "Corrected Value": "84 LUCILLE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1055,
+            "Column": "zip",
+            "Original Value": "93285",
+            "Corrected Value": "93285",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1055,
+            "Column": "address",
+            "Original Value": "21 TIETGEN TR",
+            "Corrected Value": "21 TIETGEN TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1064,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Original Value": "8676 ENTRADA #C",
+            "Corrected Value": "8676 ENTRADA BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1070,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1070,
+            "Column": "address",
+            "Original Value": "11936 HWY 178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1093,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Original Value": "12201 HWY 178 #38",
+            "Corrected Value": "12201 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1123,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1123,
+            "Column": "address",
+            "Original Value": "11936 CA-178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1124,
+            "Column": "zip",
+            "Original Value": "93240",
+            "Corrected Value": "93240",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1124,
+            "Column": "address",
+            "Original Value": "11936 CA-178",
+            "Corrected Value": "11936 HIGHWAY 178",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "448 SCODIE #6"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "448 SCODIE #30"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "8676 ENTRADA #C"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "12201 HWY 178 #38"
+        },
+        {
+            "Row": 278,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 232_001",
+            "Value": "232"
+        },
+        {
+            "Row": 538,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2828_002",
+            "Value": "2828"
+        },
+        {
+            "Row": 297,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 436_003",
+            "Value": "436"
+        },
+        {
+            "Row": 853,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3846)",
+            "Value": "4923"
+        },
+        {
+            "Row": 1068,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5514)",
+            "Value": "6140"
+        },
+        {
+            "Row": 730,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4049)",
+            "Value": "4222"
+        },
+        {
+            "Row": 1069,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4866)",
+            "Value": "6144"
+        },
+        {
+            "Row": 623,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2853)",
+            "Value": "3372"
+        },
+        {
+            "Row": 751,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2853)",
+            "Value": "4344"
+        },
+        {
+            "Row": 1103,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6271)",
+            "Value": "6338"
+        },
+        {
+            "Row": 594,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1433)",
+            "Value": "3158"
+        },
+        {
+            "Row": 783,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3778)",
+            "Value": "4491"
+        },
+        {
+            "Row": 709,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 298)",
+            "Value": "4035"
+        },
+        {
+            "Row": 198,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3897)",
+            "Value": "5049"
+        },
+        {
+            "Row": 684,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3535)",
+            "Value": "3785"
+        },
+        {
+            "Row": 896,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3535)",
+            "Value": "5209"
+        },
+        {
+            "Row": 602,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1106)",
+            "Value": "3206"
+        },
+        {
+            "Row": 719,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1106)",
+            "Value": "4089"
+        },
+        {
+            "Row": 1106,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2797)",
+            "Value": "6352"
+        },
+        {
+            "Row": 208,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1368)",
+            "Value": "5452"
+        },
+        {
+            "Row": 220,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1368)",
+            "Value": "5694"
+        },
+        {
+            "Row": 163,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1347)",
+            "Value": "3488"
+        },
+        {
+            "Row": 202,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1347)",
+            "Value": "5226"
+        },
+        {
+            "Row": 115,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1697)",
+            "Value": "2379"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "33 SILVERMINE"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "230 E SAWMILL"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6689 HUNGRY GULCH"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "524 BURLANDO"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "211 BURLANDO"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "423 S ALPINE"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28 ROGERS"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30 CHAPARRAL"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "770 SYCAMORE"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "212 SYCAMORE"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1137 N FRONTIER TR"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "137 WOODLAND"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "42 N SALAINE"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "277 BURLANDO"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "663 FRONTIER TRAILS"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4315 BUCK"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "268 BURLANDO"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44 BIG BLUE"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2904 STEENSEN"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "120 VERNA"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4941 BELLA VISTA"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "448 SCODIE"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2454 COMMERCIAL"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11665 HWY 178"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3024 DRIFTWOOD"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "511 LUCILLE"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16406 HIGHWAY 178"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 HWY 178"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5336 SHOFFSTALL"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "400 SCODIE"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1200 S ALPINE"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4400 FIDDLENECK"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "448 SCODIE #6"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "448 SCODIE #30"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41 BIG BLUE"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4918 LARSEN"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "245 SIRRETTA"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10801 POWERS"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12090 HWY 178"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10116 VAIL"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27 LAGO VISTA"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "535 BRISTLECONE"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4219 WINDSONG"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "130 WINDY HILL"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2741 MOUNTAIN VIEW"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6111 CYRUS CAYNON"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12201 HIGHWAY 178"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "781 SYCAMORE"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "241 BIG BLUE"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "61 SIRRETTA"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "832 SYCAMORE"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2405 COMMERCIAL"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2721 REMBACH"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6409 JUNIPER"
+        },
+        {
+            "Row": 413,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "518 BURLANDO"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "107 DURWOOD"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "621 OAKWOOD"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "170 KNOB HILL"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "249 COUNTRYWOOD"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11300 MAVERICK"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2600 SCOVERN"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6108 WIDLWOOD"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2825 AUDREY"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "501 WOODLAND"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "720 SIERRA VISTA"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5212 LAKE ISABELLA BL"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10168 BULL RUN"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5104 SHAWNEE"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "120 VERNA"
+        },
+        {
+            "Row": 539,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9001 SIOUX"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2009 PECOS"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2737 ALTA SIERRA"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6504 SAGEBRUSH"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "200 KNOB HILL"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4408 POPLAR"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2725 AUDREY"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5305 PIUTE MOUNTAIN"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "150 FRONTIER TR SO"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4508 BUCK"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4900 BELLA VISTA"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "319 MOUNTAIN SHADOW"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "428 BRISTLECONE"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "194 SIRRETTA"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2804 CLAIRE"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5270 SHOFSTALL"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5600 HOOPER"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11667 HIGHWAY 178"
+        },
+        {
+            "Row": 644,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6106 CYPRESS"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9228 NAVAJO"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 HWY 178"
+        },
+        {
+            "Row": 720,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5580 VISTA GRANDE"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 HWY 178"
+        },
+        {
+            "Row": 761,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2912 STEENSEN"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 HIGHWAY 178"
+        },
+        {
+            "Row": 793,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 MAC HILL"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2601 SCOVERN"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6400 LYNCH CANYON"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "377 HWY 155"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2512 IRWIN"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7420 WOFFORD HEIGHTS BL"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12201 CA178"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35 E EVANS"
+        },
+        {
+            "Row": 904,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51 ROCKLEDGE TR"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3710 GOLDEN SPUR"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6 TOBIAS"
+        },
+        {
+            "Row": 959,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2032 KEM"
+        },
+        {
+            "Row": 981,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2825 STEENSEN"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "84 LUCILLE"
+        },
+        {
+            "Row": 1055,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 TIETGEN TR"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8676 ENTRADA #C"
+        },
+        {
+            "Row": 1070,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 HWY 178"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12201 HWY 178 #38"
+        },
+        {
+            "Row": 1123,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 CA178"
+        },
+        {
+            "Row": 1124,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11936 CA178"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 853,
+            "customer": "4923",
+            "lat": 35.590166,
+            "lon": -118.493509,
+            "address": "3316 LAKE ISABELLA BLVD",
+            "city": "LAKE ISABELLA",
+            "state": "CA",
+            "zip": "93240",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3846)"
+        },
+        {
+            "OrigRowNum": 1068,
+            "customer": "6140",
+            "lat": 35.6120142,
+            "lon": -118.4844575,
+            "address": "2100 CRESTVIEW AVE",
+            "city": "LAKE ISABELLA",
+            "state": "CA",
+            "zip": "93240",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 5514)"
+        },
+        {
+            "OrigRowNum": 730,
+            "customer": "4222",
+            "lat": 35.6424633,
+            "lon": -118.4132639,
+            "address": "11936 HWY 178",
+            "city": "MOUNTAIN MESA",
+            "state": "CA",
+            "zip": "93240",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 4049)"
+        },
+        {
+            "OrigRowNum": 1069,
+            "customer": "6144",
+            "lat": 35.6939321,
+            "lon": -118.4628692,
+            "address": "316 CYPRESS LN",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 4866)"
+        },
+        {
+            "OrigRowNum": 623,
+            "customer": "3372",
+            "lat": 35.6939348,
+            "lon": -118.4628607,
+            "address": "316 CYPRESS LN",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2853)"
+        },
+        {
+            "OrigRowNum": 751,
+            "customer": "4344",
+            "lat": 35.6939348,
+            "lon": -118.4628607,
+            "address": "316 CYPRESS LN",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2853)"
+        },
+        {
+            "OrigRowNum": 1103,
+            "customer": "6338",
+            "lat": 35.6939589,
+            "lon": -118.4628814,
+            "address": "316 CYPRESS LN",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 6271)"
+        },
+        {
+            "OrigRowNum": 594,
+            "customer": "3158",
+            "lat": 35.695055,
+            "lon": -118.462702,
+            "address": "224 CYPRESS LN",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1433)"
+        },
+        {
+            "OrigRowNum": 783,
+            "customer": "4491",
+            "lat": 35.7069112,
+            "lon": -118.4543,
+            "address": "35 E EVANS RD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3778)"
+        },
+        {
+            "OrigRowNum": 709,
+            "customer": "4035",
+            "lat": 35.70785,
+            "lon": -118.45392,
+            "address": "6708 WOFFORD BLVD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 298)"
+        },
+        {
+            "OrigRowNum": 198,
+            "customer": "5049",
+            "lat": 35.7091195,
+            "lon": -118.4210794,
+            "address": "9890 SIERRA WAY",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 3897)"
+        },
+        {
+            "OrigRowNum": 684,
+            "customer": "3785",
+            "lat": 35.7099739,
+            "lon": -118.4429839,
+            "address": "7458 WOFFORD BLVD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3535)"
+        },
+        {
+            "OrigRowNum": 896,
+            "customer": "5209",
+            "lat": 35.7099739,
+            "lon": -118.4429839,
+            "address": "7458 WOFFORD BLVD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3535)"
+        },
+        {
+            "OrigRowNum": 602,
+            "customer": "3206",
+            "lat": 35.712152,
+            "lon": -118.4718316,
+            "address": "1040 EVANS RD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1106)"
+        },
+        {
+            "OrigRowNum": 719,
+            "customer": "4089",
+            "lat": 35.712152,
+            "lon": -118.4718316,
+            "address": "1040 EVANS RD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1106)"
+        },
+        {
+            "OrigRowNum": 1106,
+            "customer": "6352",
+            "lat": 35.7128817,
+            "lon": -118.4730179,
+            "address": "1042 EVANS RD",
+            "city": "WOFFORD HEIGHTS",
+            "state": "CA",
+            "zip": "93285",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2797)"
+        },
+        {
+            "OrigRowNum": 208,
+            "customer": "5452",
+            "lat": 35.7361603,
+            "lon": -118.4150225,
+            "address": "11901 SIERRA WAY",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1368)"
+        },
+        {
+            "OrigRowNum": 220,
+            "customer": "5694",
+            "lat": 35.7361603,
+            "lon": -118.4150225,
+            "address": "11901 SIERRA WAY",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1368)"
+        },
+        {
+            "OrigRowNum": 163,
+            "customer": "3488",
+            "lat": 35.7361603,
+            "lon": -118.4150225,
+            "address": "11901 SIERRA WAY",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1347)"
+        },
+        {
+            "OrigRowNum": 202,
+            "customer": "5226",
+            "lat": 35.7361603,
+            "lon": -118.4150225,
+            "address": "11901 SIERRA WAY",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1347)"
+        },
+        {
+            "OrigRowNum": 115,
+            "customer": "2379",
+            "lat": 35.7583536,
+            "lon": -118.4240002,
+            "address": "448 SCODIE AVE",
+            "city": "KERNVILLE",
+            "state": "CA",
+            "zip": "93238",
+            "download": 6.2,
+            "upload": 2.2,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1697)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 5,
+            "Original Address": "33 SILVERMINE",
+            "Corrected Address": "33 SILVER MINE DR",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.722987"
+        },
+        {
+            "OrigRowNum": 15,
+            "Original Address": "230 E SAWMILL",
+            "Corrected Address": "230 E SAWMILL RD",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.724336"
+        },
+        {
+            "OrigRowNum": 19,
+            "Original Address": "6689 HUNGRY GULCH",
+            "Corrected Address": "6689 HUNGRY GULCH RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.724851"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "524 BURLANDO",
+            "Corrected Address": "524 BURLANDO RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.725276"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "211 BURLANDO",
+            "Corrected Address": "211 BURLANDO RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.725812"
+        },
+        {
+            "OrigRowNum": 23,
+            "Original Address": "423 S ALPINE",
+            "Corrected Address": "423 S ALPINE ST",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.726237"
+        },
+        {
+            "OrigRowNum": 30,
+            "Original Address": "28 ROGERS",
+            "Corrected Address": "28 ROGERS RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.726649"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "30 CHAPARRAL",
+            "Corrected Address": "30 CHAPARRAL CT",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.727028"
+        },
+        {
+            "OrigRowNum": 39,
+            "Original Address": "770 SYCAMORE",
+            "Corrected Address": "770 SYCAMORE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.727410"
+        },
+        {
+            "OrigRowNum": 40,
+            "Original Address": "212 SYCAMORE",
+            "Corrected Address": "212 SYCAMORE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.727782"
+        },
+        {
+            "OrigRowNum": 42,
+            "Original Address": "1137 N FRONTIER TR",
+            "Corrected Address": "1137 FRONTIER TRL",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.728183"
+        },
+        {
+            "OrigRowNum": 52,
+            "Original Address": "137 WOODLAND",
+            "Corrected Address": "137 WOODLAND DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.728574"
+        },
+        {
+            "OrigRowNum": 55,
+            "Original Address": "42 N SALAINE",
+            "Corrected Address": "42 N SALAINE DR",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.728903"
+        },
+        {
+            "OrigRowNum": 64,
+            "Original Address": "277 BURLANDO",
+            "Corrected Address": "277 BURLANDO RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.729241"
+        },
+        {
+            "OrigRowNum": 81,
+            "Original Address": "663 FRONTIER TRAILS",
+            "Corrected Address": "663 FRONTIER TRL",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.729579"
+        },
+        {
+            "OrigRowNum": 87,
+            "Original Address": "4315 BUCK",
+            "Corrected Address": "4315 BUCK RD",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.729895"
+        },
+        {
+            "OrigRowNum": 88,
+            "Original Address": "268 BURLANDO",
+            "Corrected Address": "268 BURLANDO RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.730208"
+        },
+        {
+            "OrigRowNum": 108,
+            "Original Address": "44 BIG BLUE",
+            "Corrected Address": "44 BIG BLUE RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.730511"
+        },
+        {
+            "OrigRowNum": 121,
+            "Original Address": "2904 STEENSEN",
+            "Corrected Address": "2904",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.730800"
+        },
+        {
+            "OrigRowNum": 135,
+            "Original Address": "120 VERNA",
+            "Corrected Address": "120 VERNA ST",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.731096"
+        },
+        {
+            "OrigRowNum": 137,
+            "Original Address": "4941 BELLA VISTA",
+            "Corrected Address": "4941 BELLA VISTA DR",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.731376"
+        },
+        {
+            "OrigRowNum": 143,
+            "Original Address": "448 SCODIE",
+            "Corrected Address": "448 SCODIE AVE",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.731667"
+        },
+        {
+            "OrigRowNum": 148,
+            "Original Address": "2454 COMMERCIAL",
+            "Corrected Address": "2454 COMMERCIAL AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.731961"
+        },
+        {
+            "OrigRowNum": 152,
+            "Original Address": "11665 HWY 178",
+            "Corrected Address": "11665 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.732270"
+        },
+        {
+            "OrigRowNum": 155,
+            "Original Address": "3024 DRIFTWOOD",
+            "Corrected Address": "3024 DRIFTWOOD AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.732873"
+        },
+        {
+            "OrigRowNum": 171,
+            "Original Address": "511 LUCILLE",
+            "Corrected Address": "511 LUCILLE ST",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.733177"
+        },
+        {
+            "OrigRowNum": 173,
+            "Original Address": "16406 HIGHWAY 178",
+            "Corrected Address": "16406 HIGHWAY 178",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.733536"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "11936 HWY 178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.733888"
+        },
+        {
+            "OrigRowNum": 184,
+            "Original Address": "5336 SHOFFSTALL",
+            "Corrected Address": "5336 SHOFFSTALL LN",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.734242"
+        },
+        {
+            "OrigRowNum": 191,
+            "Original Address": "400 SCODIE",
+            "Corrected Address": "400 SCODIE AVE",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.734585"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "1200 S ALPINE",
+            "Corrected Address": "1200 S ALPINE WAY",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.734918"
+        },
+        {
+            "OrigRowNum": 229,
+            "Original Address": "4400 FIDDLENECK",
+            "Corrected Address": "4400 FIDDLENECK ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.735264"
+        },
+        {
+            "OrigRowNum": 250,
+            "Original Address": "448 SCODIE #6",
+            "Corrected Address": "448 SCODIE AVE",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.735597"
+        },
+        {
+            "OrigRowNum": 253,
+            "Original Address": "448 SCODIE #30",
+            "Corrected Address": "448 SCODIE AVE",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.735924"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "41 BIG BLUE",
+            "Corrected Address": "41 BIG BLUE RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.736263"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "4918 LARSEN",
+            "Corrected Address": "4918 LARSEN RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.736567"
+        },
+        {
+            "OrigRowNum": 294,
+            "Original Address": "245 SIRRETTA",
+            "Corrected Address": "245 SIRRETTA ST",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.736858"
+        },
+        {
+            "OrigRowNum": 296,
+            "Original Address": "10801 POWERS",
+            "Corrected Address": "10801 POWERS AVE",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.737139"
+        },
+        {
+            "OrigRowNum": 298,
+            "Original Address": "12090 HWY 178",
+            "Corrected Address": "12090 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.737419"
+        },
+        {
+            "OrigRowNum": 299,
+            "Original Address": "10116 VAIL",
+            "Corrected Address": "10116 VAIL LN",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.737708"
+        },
+        {
+            "OrigRowNum": 307,
+            "Original Address": "27 LAGO VISTA",
+            "Corrected Address": "27 LAGO VISTA DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.737985"
+        },
+        {
+            "OrigRowNum": 314,
+            "Original Address": "535 BRISTLECONE",
+            "Corrected Address": "535 BRISTLECONE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.738226"
+        },
+        {
+            "OrigRowNum": 316,
+            "Original Address": "4219 WINDSONG",
+            "Corrected Address": "4219 WINDSONG CT",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.738471"
+        },
+        {
+            "OrigRowNum": 319,
+            "Original Address": "130 WINDY HILL",
+            "Corrected Address": "130 WINDY HILL CT",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.738723"
+        },
+        {
+            "OrigRowNum": 328,
+            "Original Address": "2741 MOUNTAIN VIEW",
+            "Corrected Address": "2741 MOUNTAIN VIEW RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.738998"
+        },
+        {
+            "OrigRowNum": 330,
+            "Original Address": "6111 CYRUS CAYNON",
+            "Corrected Address": "6111 CYRUS CANYON RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.739279"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "12201 HIGHWAY 178",
+            "Corrected Address": "12201 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.739553"
+        },
+        {
+            "OrigRowNum": 357,
+            "Original Address": "781 SYCAMORE",
+            "Corrected Address": "781 SYCAMORE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.739825"
+        },
+        {
+            "OrigRowNum": 368,
+            "Original Address": "241 BIG BLUE",
+            "Corrected Address": "241 BIG BLUE RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.740108"
+        },
+        {
+            "OrigRowNum": 381,
+            "Original Address": "61 SIRRETTA",
+            "Corrected Address": "61 SIRRETTA ST",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.740386"
+        },
+        {
+            "OrigRowNum": 383,
+            "Original Address": "832 SYCAMORE",
+            "Corrected Address": "832 SYCAMORE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.740664"
+        },
+        {
+            "OrigRowNum": 389,
+            "Original Address": "2405 COMMERCIAL",
+            "Corrected Address": "2405 COMMERCIAL AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.740957"
+        },
+        {
+            "OrigRowNum": 402,
+            "Original Address": "2721 REMBACH",
+            "Corrected Address": "2721 REMBACH AVE",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.741238"
+        },
+        {
+            "OrigRowNum": 406,
+            "Original Address": "6409 JUNIPER",
+            "Corrected Address": "6409 JUNIPER RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.741513"
+        },
+        {
+            "OrigRowNum": 413,
+            "Original Address": "518 BURLANDO",
+            "Corrected Address": "518 BURLANDO RD",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.741794"
+        },
+        {
+            "OrigRowNum": 414,
+            "Original Address": "107 DURWOOD",
+            "Corrected Address": "107 DURWOOD ST",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.742070"
+        },
+        {
+            "OrigRowNum": 425,
+            "Original Address": "621 OAKWOOD",
+            "Corrected Address": "621 OAKWOOD DR",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.742330"
+        },
+        {
+            "OrigRowNum": 441,
+            "Original Address": "170 KNOB HILL",
+            "Corrected Address": "170 KNOB HILL DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.742589"
+        },
+        {
+            "OrigRowNum": 461,
+            "Original Address": "249 COUNTRYWOOD",
+            "Corrected Address": "249 COUNTRYWOOD DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.742826"
+        },
+        {
+            "OrigRowNum": 469,
+            "Original Address": "11300 MAVERICK",
+            "Corrected Address": "11300 MAVERICK AVE",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.743058"
+        },
+        {
+            "OrigRowNum": 484,
+            "Original Address": "2600 SCOVERN",
+            "Corrected Address": "2600 SCOVERN ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.743287"
+        },
+        {
+            "OrigRowNum": 494,
+            "Original Address": "6108 WIDLWOOD",
+            "Corrected Address": "6108 WILDWOOD RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.743529"
+        },
+        {
+            "OrigRowNum": 498,
+            "Original Address": "2825 AUDREY",
+            "Corrected Address": "2825 AUDREY AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.743762"
+        },
+        {
+            "OrigRowNum": 499,
+            "Original Address": "501 WOODLAND",
+            "Corrected Address": "501 WOODLAND DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.743997"
+        },
+        {
+            "OrigRowNum": 509,
+            "Original Address": "720 SIERRA VISTA",
+            "Corrected Address": "720 SIERRA VISTA DR",
+            "Original ZIP": "92385",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.744230"
+        },
+        {
+            "OrigRowNum": 512,
+            "Original Address": "5212 LAKE ISABELLA BL",
+            "Corrected Address": "5212 LAKE ISABELLA BLVD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.744460"
+        },
+        {
+            "OrigRowNum": 525,
+            "Original Address": "10168 BULL RUN",
+            "Corrected Address": "10168 BULL RUN RD",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.744700"
+        },
+        {
+            "OrigRowNum": 526,
+            "Original Address": "5104 SHAWNEE",
+            "Corrected Address": "5104 SHAWNEE DR",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.744945"
+        },
+        {
+            "OrigRowNum": 538,
+            "Original Address": "120 VERNA",
+            "Corrected Address": "120 VERNA ST",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.745174"
+        },
+        {
+            "OrigRowNum": 539,
+            "Original Address": "9001 SIOUX",
+            "Corrected Address": "9001 SIOUX CT",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.745416"
+        },
+        {
+            "OrigRowNum": 544,
+            "Original Address": "2009 PECOS",
+            "Corrected Address": "2009 PECOS AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.745648"
+        },
+        {
+            "OrigRowNum": 548,
+            "Original Address": "2737 ALTA SIERRA",
+            "Corrected Address": "2737 ALTA SIERRA AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.745877"
+        },
+        {
+            "OrigRowNum": 554,
+            "Original Address": "6504 SAGEBRUSH",
+            "Corrected Address": "6504 SAGEBRUSH RD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.746108"
+        },
+        {
+            "OrigRowNum": 557,
+            "Original Address": "200 KNOB HILL",
+            "Corrected Address": "200 KNOB HILL DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.746343"
+        },
+        {
+            "OrigRowNum": 559,
+            "Original Address": "4408 POPLAR",
+            "Corrected Address": "4408 POPLAR ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.746579"
+        },
+        {
+            "OrigRowNum": 560,
+            "Original Address": "2725 AUDREY",
+            "Corrected Address": "2725 AUDREY AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.746813"
+        },
+        {
+            "OrigRowNum": 561,
+            "Original Address": "5305 PIUTE MOUNTAIN",
+            "Corrected Address": "5305 PIUTE MOUNTAIN RD",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.747045"
+        },
+        {
+            "OrigRowNum": 568,
+            "Original Address": "150  FRONTIER TR SO",
+            "Corrected Address": "150 FRONTIER TRL",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.747296"
+        },
+        {
+            "OrigRowNum": 573,
+            "Original Address": "4508 BUCK",
+            "Corrected Address": "4508 BUCK RD",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.747540"
+        },
+        {
+            "OrigRowNum": 577,
+            "Original Address": "4900 BELLA VISTA",
+            "Corrected Address": "4900 BELLA VISTA DR",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.747768"
+        },
+        {
+            "OrigRowNum": 610,
+            "Original Address": "319 MOUNTAIN SHADOW",
+            "Corrected Address": "319 MOUNTAIN SHADOW RD",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.747996"
+        },
+        {
+            "OrigRowNum": 615,
+            "Original Address": "428 BRISTLECONE",
+            "Corrected Address": "428 BRISTLECONE DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.748231"
+        },
+        {
+            "OrigRowNum": 627,
+            "Original Address": "194 SIRRETTA",
+            "Corrected Address": "194 SIRRETTA ST",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.748438"
+        },
+        {
+            "OrigRowNum": 630,
+            "Original Address": "2804 CLAIRE",
+            "Corrected Address": "2804 CLAIRE ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.748637"
+        },
+        {
+            "OrigRowNum": 632,
+            "Original Address": "5270 SHOFSTALL",
+            "Corrected Address": "5270 SHOFFSTALL LN",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.748841"
+        },
+        {
+            "OrigRowNum": 634,
+            "Original Address": "5600 HOOPER",
+            "Corrected Address": "5600 HOOPER RD",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.749039"
+        },
+        {
+            "OrigRowNum": 637,
+            "Original Address": "11667 HIGHWAY 178",
+            "Corrected Address": "11667 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.749245"
+        },
+        {
+            "OrigRowNum": 644,
+            "Original Address": "6106 CYPRESS",
+            "Corrected Address": "6106 CYPRESS AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.749445"
+        },
+        {
+            "OrigRowNum": 651,
+            "Original Address": "9228 NAVAJO",
+            "Corrected Address": "9228 NAVAJO AVE",
+            "Original ZIP": "93283",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.749646"
+        },
+        {
+            "OrigRowNum": 711,
+            "Original Address": "11936 HWY 178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.749854"
+        },
+        {
+            "OrigRowNum": 720,
+            "Original Address": "5580 VISTA GRANDE",
+            "Corrected Address": "5580 VISTA GRANDE DR",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93283",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.750054"
+        },
+        {
+            "OrigRowNum": 730,
+            "Original Address": "11936 HWY 178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.750258"
+        },
+        {
+            "OrigRowNum": 761,
+            "Original Address": "2912 STEENSEN",
+            "Corrected Address": "2912",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.750457"
+        },
+        {
+            "OrigRowNum": 784,
+            "Original Address": "11936 HIGHWAY 178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.750664"
+        },
+        {
+            "OrigRowNum": 793,
+            "Original Address": "19 MAC HILL",
+            "Corrected Address": "19 MAC HILL DR",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.750867"
+        },
+        {
+            "OrigRowNum": 818,
+            "Original Address": "2601 SCOVERN",
+            "Corrected Address": "2601 SCOVERN ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.751079"
+        },
+        {
+            "OrigRowNum": 830,
+            "Original Address": "6400 LYNCH CANYON",
+            "Corrected Address": "6400 LYNCH CANYON DR",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.751282"
+        },
+        {
+            "OrigRowNum": 838,
+            "Original Address": "377 HWY 155",
+            "Corrected Address": "377 HIGHWAY 155",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.751480"
+        },
+        {
+            "OrigRowNum": 872,
+            "Original Address": "2512 IRWIN",
+            "Corrected Address": "2512 IRWIN AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.751685"
+        },
+        {
+            "OrigRowNum": 875,
+            "Original Address": "7420 WOFFORD HEIGHTS BL",
+            "Corrected Address": "7420 WOFFORD BLVD",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:02.751884"
+        },
+        {
+            "OrigRowNum": 877,
+            "Original Address": "12201 CA-178",
+            "Corrected Address": "12201 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.016501"
+        },
+        {
+            "OrigRowNum": 879,
+            "Original Address": "35 E. EVANS",
+            "Corrected Address": "35 E EVANS RD",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.017738"
+        },
+        {
+            "OrigRowNum": 904,
+            "Original Address": "51 ROCKLEDGE TR.",
+            "Corrected Address": "51 ROCKLEDGE TER",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.018196"
+        },
+        {
+            "OrigRowNum": 912,
+            "Original Address": "3710 GOLDEN SPUR",
+            "Corrected Address": "3710 GOLDEN SPUR ST",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.018596"
+        },
+        {
+            "OrigRowNum": 946,
+            "Original Address": "6 TOBIAS",
+            "Corrected Address": "6 TOBIAS ST",
+            "Original ZIP": "93238",
+            "Corrected ZIP": "93238",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.018990"
+        },
+        {
+            "OrigRowNum": 959,
+            "Original Address": "2032 KEM",
+            "Corrected Address": "2032 KEM AVE",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.019367"
+        },
+        {
+            "OrigRowNum": 981,
+            "Original Address": "2825 STEENSEN",
+            "Corrected Address": "2825",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.019698"
+        },
+        {
+            "OrigRowNum": 1044,
+            "Original Address": "84 LUCILLE",
+            "Corrected Address": "84 LUCILLE ST",
+            "Original ZIP": "93205",
+            "Corrected ZIP": "93205",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.020020"
+        },
+        {
+            "OrigRowNum": 1055,
+            "Original Address": "21 TIETGEN TR",
+            "Corrected Address": "21 TIETGEN TER",
+            "Original ZIP": "93285",
+            "Corrected ZIP": "93285",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.020343"
+        },
+        {
+            "OrigRowNum": 1064,
+            "Original Address": "8676 ENTRADA #C",
+            "Corrected Address": "8676 ENTRADA BLVD",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.020696"
+        },
+        {
+            "OrigRowNum": 1070,
+            "Original Address": "11936 HWY 178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.020993"
+        },
+        {
+            "OrigRowNum": 1093,
+            "Original Address": "12201 HWY 178 #38",
+            "Corrected Address": "12201 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.021287"
+        },
+        {
+            "OrigRowNum": 1123,
+            "Original Address": "11936 CA-178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.021575"
+        },
+        {
+            "OrigRowNum": 1124,
+            "Original Address": "11936 CA-178",
+            "Corrected Address": "11936 HIGHWAY 178",
+            "Original ZIP": "93240",
+            "Corrected ZIP": "93240",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T14:36:03.021862"
+        }
+    ]
+}

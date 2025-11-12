@@ -1,0 +1,31 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+93,address,Corrected address lacks valid street name after non-standard ending removal,168 FLEMING DRIVE
+115,address,Corrected address lacks valid street name after non-standard ending removal,100 FLEMING DRIVE
+294,address,Corrected address lacks valid street name after non-standard ending removal,120 FLEMING DRIVE
+400,address,Address lacks leading number (optionally prefixed by direction) followed by street name,KLEBERG COUNTY AIRPORT
+437,address,Address lacks leading number (optionally prefixed by direction) followed by street name,S COUNTY ROAD 352
+582,address,Address lacks leading number (optionally prefixed by direction) followed by street name,LOS MACHOS RANCH
+594,address,Address lacks leading number (optionally prefixed by direction) followed by street name,WHITE IBIS DRIVE
+603,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 619
+607,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 319
+609,address,Corrected address lacks valid street name after non-standard ending removal,155 FLEMING DRIVE
+641,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 319
+707,address,Corrected address lacks valid street name after non-standard ending removal,221 STEWART STREET
+690,lat,Latitude for TX must be between 25.837377 and 36.500704,40.8437661
+690,lon,Paired coordinate reset due to invalid lat,-72.939279
+690,lon,Longitude for TX must be between -106.645646 and -93.508292,-72.939279
+704,lon,Longitude for TX must be between -106.645646 and -93.508292,-89.6921972
+704,lat,Paired coordinate reset due to invalid lon,33.0365954
+708,lat,Latitude for TX must be between 25.837377 and 36.500704,42.7473073
+708,lon,Paired coordinate reset due to invalid lat,-84.548546
+708,lon,Longitude for TX must be between -106.645646 and -93.508292,-84.548546
+720,customer,"Duplicate customer ID, identical row deleted",2531575
+721,customer,"Duplicate customer ID, identical row deleted",2531575
+160,customer,"Data-based duplicate, removed (identical to customer 2367079)",2371444
+562,customer,"Data-based duplicate, removed (identical to customer 2378283)",2388791
+720,customer,"Data-based duplicate, removed (identical to customer 2531575)",2531575
+721,customer,"Data-based duplicate, removed (identical to customer 2531575)",2531575
+743,customer,"Data-based duplicate, removed (identical to customer 2460667)",2561570
+509,customer,"Data-based duplicate, removed (identical to customer 2372461)",2387237
+742,customer,"Data-based duplicate, removed (identical to customer 2383994)",2559980

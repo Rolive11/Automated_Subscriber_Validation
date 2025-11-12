@@ -1,0 +1,881 @@
+{
+    "Summary": {
+        "Total Rows Processed": 113,
+        "Rows with Corrections": 25,
+        "Rows with Errors": 25,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 50,
+        "Total Errors": 0,
+        "Street Ending Errors": 25,
+        "Validation Time (seconds)": 0.41,
+        "Validation Date": "2025-08-11 09:50:52",
+        "Addresses Sent to Smarty": 25,
+        "Successful Corrections": 25,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.29,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 113,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 113,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "36944 CHARLES TOWN PIKE",
+            "Corrected Value": "36944 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "36959 CHARLES TOWN PIKE",
+            "Corrected Value": "36959 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "36978 CHARLES TOWN PIKE",
+            "Corrected Value": "36978 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "36906 CHARLES TOWN PIKE",
+            "Corrected Value": "36906 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "36930 CHARLES TOWN PIKE",
+            "Corrected Value": "36930 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "36991 CHARLES TOWN PIKE",
+            "Corrected Value": "36991 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "36963 CHARLES TOWN PIKE",
+            "Corrected Value": "36963 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "36911 CHARLES TOWN PIKE",
+            "Corrected Value": "36911 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "36966 CHARLES TOWN PIKE",
+            "Corrected Value": "36966 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "37004 CHARLES TOWN PIKE",
+            "Corrected Value": "37004 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "36952 CHARLES TOWN PIKE",
+            "Corrected Value": "36952 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "37000 CHARLES TOWN PIKE",
+            "Corrected Value": "37000 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Original Value": "37042 CHARLES TOWN PIKE",
+            "Corrected Value": "37042 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Original Value": "36960 CHARLES TOWN PIKE",
+            "Corrected Value": "36960 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "37042 CHARLES TOWN PIKE",
+            "Corrected Value": "37042 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "36933 CHARLES TOWN PIKE",
+            "Corrected Value": "36933 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "36951 CHARLES TOWN PIKE",
+            "Corrected Value": "36951 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "36996 CHARLES TOWN PIKE",
+            "Corrected Value": "36996 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "37091 CHARLESTOWN PIKE",
+            "Corrected Value": "37091 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "36986 CHARLES TOWN PIKE",
+            "Corrected Value": "36986 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "36985 CHARLES TOWN PIKE",
+            "Corrected Value": "36985 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "36956 CHARLES TOWN PIKE",
+            "Corrected Value": "36956 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "zip",
+            "Original Value": "20132",
+            "Corrected Value": "20132",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "37010 CHARLES TOWN PIKE",
+            "Corrected Value": "37010 CHARLES TOWN PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "zip",
+            "Original Value": "22554",
+            "Corrected Value": "22554",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "632 MARLBOROUGH POINT",
+            "Corrected Value": "632 MARLBOROUGH POINT RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "zip",
+            "Original Value": "22485",
+            "Corrected Value": "22485",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Original Value": "5405 KINGS HWY",
+            "Corrected Value": "5405 KINGS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [],
+    "Street Ending Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36944 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36959 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36978 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36906 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36930 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36991 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36963 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36911 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36966 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37004 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36952 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37000 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37042 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36960 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37042 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36933 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36951 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36996 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37091 CHARLESTOWN PIKE"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36986 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36985 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36956 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37010 CHARLES TOWN PIKE"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "632 MARLBOROUGH POINT"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5405 KINGS HWY"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 2,
+            "Original Address": "36944 CHARLES TOWN PIKE",
+            "Corrected Address": "36944 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.860796"
+        },
+        {
+            "OrigRowNum": 3,
+            "Original Address": "36959 CHARLES TOWN PIKE",
+            "Corrected Address": "36959 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.862244"
+        },
+        {
+            "OrigRowNum": 5,
+            "Original Address": "36978 CHARLES TOWN PIKE",
+            "Corrected Address": "36978 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.862726"
+        },
+        {
+            "OrigRowNum": 6,
+            "Original Address": "36906 CHARLES TOWN PIKE",
+            "Corrected Address": "36906 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.863159"
+        },
+        {
+            "OrigRowNum": 7,
+            "Original Address": "36930 CHARLES TOWN PIKE",
+            "Corrected Address": "36930 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.863570"
+        },
+        {
+            "OrigRowNum": 8,
+            "Original Address": "36991 CHARLES TOWN PIKE",
+            "Corrected Address": "36991 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.863992"
+        },
+        {
+            "OrigRowNum": 9,
+            "Original Address": "36963 CHARLES TOWN PIKE",
+            "Corrected Address": "36963 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.864400"
+        },
+        {
+            "OrigRowNum": 10,
+            "Original Address": "36911 CHARLES TOWN PIKE",
+            "Corrected Address": "36911 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.864805"
+        },
+        {
+            "OrigRowNum": 11,
+            "Original Address": "36966 CHARLES TOWN PIKE",
+            "Corrected Address": "36966 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.865168"
+        },
+        {
+            "OrigRowNum": 12,
+            "Original Address": "37004 CHARLES TOWN PIKE",
+            "Corrected Address": "37004 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.865473"
+        },
+        {
+            "OrigRowNum": 13,
+            "Original Address": "36952 CHARLES TOWN PIKE",
+            "Corrected Address": "36952 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.865778"
+        },
+        {
+            "OrigRowNum": 15,
+            "Original Address": "37000 CHARLES TOWN PIKE",
+            "Corrected Address": "37000 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.866075"
+        },
+        {
+            "OrigRowNum": 16,
+            "Original Address": "37042 CHARLES TOWN PIKE",
+            "Corrected Address": "37042 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.866373"
+        },
+        {
+            "OrigRowNum": 18,
+            "Original Address": "36960 CHARLES TOWN PIKE",
+            "Corrected Address": "36960 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.866667"
+        },
+        {
+            "OrigRowNum": 19,
+            "Original Address": "37042 CHARLES TOWN PIKE",
+            "Corrected Address": "37042 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.866957"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "36933 CHARLES TOWN PIKE",
+            "Corrected Address": "36933 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.867219"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "36951 CHARLES TOWN PIKE",
+            "Corrected Address": "36951 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.867486"
+        },
+        {
+            "OrigRowNum": 22,
+            "Original Address": "36996 CHARLES TOWN PIKE",
+            "Corrected Address": "36996 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.867750"
+        },
+        {
+            "OrigRowNum": 24,
+            "Original Address": "37091 CHARLESTOWN PIKE",
+            "Corrected Address": "37091 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.868011"
+        },
+        {
+            "OrigRowNum": 27,
+            "Original Address": "36986 CHARLES TOWN PIKE",
+            "Corrected Address": "36986 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.868271"
+        },
+        {
+            "OrigRowNum": 28,
+            "Original Address": "36985 CHARLES TOWN PIKE",
+            "Corrected Address": "36985 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.868536"
+        },
+        {
+            "OrigRowNum": 31,
+            "Original Address": "36956 CHARLES TOWN PIKE",
+            "Corrected Address": "36956 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.868799"
+        },
+        {
+            "OrigRowNum": 32,
+            "Original Address": "37010 CHARLES TOWN PIKE",
+            "Corrected Address": "37010 CHARLES TOWN PIKE",
+            "Original ZIP": "20132",
+            "Corrected ZIP": "20132",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.869070"
+        },
+        {
+            "OrigRowNum": 43,
+            "Original Address": "632 MARLBOROUGH POINT",
+            "Corrected Address": "632 MARLBOROUGH POINT RD",
+            "Original ZIP": "22554",
+            "Corrected ZIP": "22554",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.869346"
+        },
+        {
+            "OrigRowNum": 105,
+            "Original Address": "5405 KINGS HWY",
+            "Corrected Address": "5405 KINGS HWY",
+            "Original ZIP": "22485",
+            "Corrected ZIP": "22485",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:50:52.869590"
+        }
+    ]
+}

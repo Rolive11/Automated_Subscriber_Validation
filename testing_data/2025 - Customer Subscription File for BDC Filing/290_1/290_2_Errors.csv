@@ -1,0 +1,46 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+150,address,Corrected address lacks valid street name after non-standard ending removal,4711 FLORENCE AVE
+189,address,PO Boxes not allowed,PO BOX 14338
+229,address,Invalid street name format before street ending,1920A S 18TH ST
+312,address,Corrected address lacks valid street name after non-standard ending removal,200 FLINT ACRES
+471,address,Corrected address lacks valid street name after non-standard ending removal,4697 FLORENCE AVE
+522,address,Invalid street name format before street ending,777MOON VALLEY RD
+567,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD AK544
+146,zip,Invalid ZIP code format,657212
+5,voip_lines_quantity,Required field: Voip_lines_quantity cannot be empty,
+6,voip_lines_quantity,Required field: Voip_lines_quantity cannot be empty,
+62,voip_lines_quantity,Required field: Voip_lines_quantity cannot be empty,
+227,voip_lines_quantity,Required field: Voip_lines_quantity cannot be empty,
+519,technology,Required field: Technology cannot be empty,
+520,technology,Required field: Technology cannot be empty,
+522,technology,Required field: Technology cannot be empty,
+524,technology,Required field: Technology cannot be empty,
+527,technology,Required field: Technology cannot be empty,
+528,technology,Required field: Technology cannot be empty,
+529,technology,Required field: Technology cannot be empty,
+530,technology,Required field: Technology cannot be empty,
+531,technology,Required field: Technology cannot be empty,
+532,technology,Required field: Technology cannot be empty,
+533,technology,Required field: Technology cannot be empty,
+535,technology,Required field: Technology cannot be empty,
+536,technology,Required field: Technology cannot be empty,
+537,technology,Required field: Technology cannot be empty,
+538,technology,Required field: Technology cannot be empty,
+539,technology,Required field: Technology cannot be empty,
+540,technology,Required field: Technology cannot be empty,
+541,technology,Required field: Technology cannot be empty,
+542,technology,Required field: Technology cannot be empty,
+544,technology,Required field: Technology cannot be empty,
+545,technology,Required field: Technology cannot be empty,
+546,technology,Required field: Technology cannot be empty,
+547,technology,Required field: Technology cannot be empty,
+548,technology,Required field: Technology cannot be empty,
+549,technology,Required field: Technology cannot be empty,
+550,technology,Required field: Technology cannot be empty,
+197,lat,Latitude for GA must be positive,37.00353
+197,lon,Paired coordinate reset due to invalid lat,-93.13275
+197,lon,Longitude for GA must be negative,-93.13275
+469,lon,Longitude for MO must be negative,37.01215099
+469,lat,Paired coordinate reset due to invalid lon,37.01215099
+146,zip,Invalid ZIP code,657212

@@ -1,0 +1,2731 @@
+{
+    "Summary": {
+        "Total Rows Processed": 339,
+        "Rows with Corrections": 168,
+        "Rows with Errors": 53,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 20,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 201,
+        "Total Errors": 36,
+        "Street Ending Errors": 30,
+        "Validation Time (seconds)": 0.61,
+        "Validation Date": "2025-08-01 09:29:38",
+        "Addresses Sent to Smarty": 30,
+        "Successful Corrections": 30,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.34,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 316,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 316,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "303 PR 3365",
+            "Corrected Value": "303 PVT RD 3365",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "303 PR 3365",
+            "Corrected Value": "303 PVT RD 3365",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "311 PR 3365",
+            "Corrected Value": "311 PVT RD 3365",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "lat",
+            "Original Value": 33.0718379,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "lon",
+            "Original Value": -97.7145788,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2181897",
+            "Corrected Value": "2181897_010",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "1470715",
+            "Corrected Value": "1470715_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "151 PRIVATE ROAD 4913",
+            "Corrected Value": "151 PVT RD 4913",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "1162 COUNTY ROAD 4698",
+            "Corrected Value": "1162 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "214 COUNTY ROAD 4698",
+            "Corrected Value": "214 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "242 COUNTY ROAD 3689",
+            "Corrected Value": "242 CR 3689",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "1011 COUNTY ROAD 3591",
+            "Corrected Value": "1011 CR 3591",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "1198 COUNTY ROAD 4698",
+            "Corrected Value": "1198 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Original Value": "791 COUNTY ROAD 4797",
+            "Corrected Value": "791 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "1222 COUNTY ROAD 4698",
+            "Corrected Value": "1222 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "1881 COUNTY ROAD 4790",
+            "Corrected Value": "1881 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "1881 COUNTY ROAD 4790",
+            "Corrected Value": "1881 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "123 COUNTY ROAD 4894",
+            "Corrected Value": "123 CR 4894",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "914 COUNTY ROAD 4680",
+            "Corrected Value": "914 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "1580 COUNTY ROAD 4698",
+            "Corrected Value": "1580 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "967 COUNTY ROAD 4797",
+            "Corrected Value": "967 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "195 COUNTY ROAD 4695",
+            "Corrected Value": "195 CR 4695",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "108 COUNTY ROAD 4698",
+            "Corrected Value": "108 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "1069 COUNTY ROAD 4698",
+            "Corrected Value": "1069 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "1069 COUNTY ROAD 4698",
+            "Corrected Value": "1069 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "1454 COUNTY ROAD 4680",
+            "Corrected Value": "1454 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "1477 COUNTY ROAD 4698",
+            "Corrected Value": "1477 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "1477 COUNTY ROAD 4698",
+            "Corrected Value": "1477 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "1302 COUNTY ROAD 4680",
+            "Corrected Value": "1302 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "419 COUNTY ROAD 4576",
+            "Corrected Value": "419 CR 4576",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "506 COUNTY ROAD 4590",
+            "Corrected Value": "506 CR 4590",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "240 PRIVATE ROAD 4245",
+            "Corrected Value": "240 PVT RD 4245",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "749 COUNTY ROAD 3592",
+            "Corrected Value": "749 CR 3592",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "1193 COUNTY ROAD 4590",
+            "Corrected Value": "1193 CR 4590",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "110 COUNTY ROAD 4591",
+            "Corrected Value": "110 CR 4591",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "338 COUNTY ROAD 3573",
+            "Corrected Value": "338 CR 3573",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "483 COUNTY ROAD 3673",
+            "Corrected Value": "483 CR 3673",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "119 COUNTY ROAD 4693",
+            "Corrected Value": "119 CR 4693",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "258 COUNTY ROAD 4695",
+            "Corrected Value": "258 CR 4695",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "1895 COUNTY ROAD 3655",
+            "Corrected Value": "1895 CR 3655",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "478 COUNTY ROAD 3597",
+            "Corrected Value": "478 CR 3597",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "176 PRIVATE ROAD 3367",
+            "Corrected Value": "176 PVT RD 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "1789 COUNTY ROAD 4698",
+            "Corrected Value": "1789 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "615 COUNTY ROAD 3591",
+            "Corrected Value": "615 CR 3591",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "407 COUNTY ROAD 4783",
+            "Corrected Value": "407 CR 4783",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "668 COUNTY ROAD 4699",
+            "Corrected Value": "668 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "246 PRIVATE ROAD 3367",
+            "Corrected Value": "246 PVT RD 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "1696 COUNTY ROAD 3381",
+            "Corrected Value": "1696 CR 3381",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "333 COUNTY ROAD 4794",
+            "Corrected Value": "333 CR 4794",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "151 PRIVATE ROAD 4729",
+            "Corrected Value": "151 PVT RD 4729",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "1219 COUNTY ROAD 4699",
+            "Corrected Value": "1219 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "807 COUNTY ROAD 3585",
+            "Corrected Value": "807 CR 3585",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "391 COUNTY ROAD 3690",
+            "Corrected Value": "391 CR 3690",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "104 COUNTY ROAD 4698",
+            "Corrected Value": "104 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "1034 COUNTY ROAD 3585",
+            "Corrected Value": "1034 CR 3585",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "2079 COUNTY ROAD 4680",
+            "Corrected Value": "2079 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "1023 COUNTY ROAD 4699",
+            "Corrected Value": "1023 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "769 COUNTY ROAD 3341",
+            "Corrected Value": "769 CR 3341",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "1311 COUNTY ROAD 3451",
+            "Corrected Value": "1311 CR 3451",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "1282 COUNTY ROAD 3451",
+            "Corrected Value": "1282 CR 3451",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "243 PRIVATE ROAD 3338",
+            "Corrected Value": "243 PVT RD 3338",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "716 COUNTY ROAD 3341",
+            "Corrected Value": "716 CR 3341",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "2144 COUNTY ROAD 4680",
+            "Corrected Value": "2144 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "address",
+            "Original Value": "1856 COUNTY ROAD 3451",
+            "Corrected Value": "1856 CR 3451",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "1667 COUNTY ROAD 3591",
+            "Corrected Value": "1667 CR 3591",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "239 PRIVATE ROAD 3361",
+            "Corrected Value": "239 PVT RD 3361",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "179 PRIVATE ROAD 4590",
+            "Corrected Value": "179 PVT RD 4590",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "192 COUNTY ROAD 3547",
+            "Corrected Value": "192 CR 3547",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "1152 COUNTY ROAD 4698",
+            "Corrected Value": "1152 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "677 COUNTY ROAD 3341",
+            "Corrected Value": "677 CR 3341",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "137 COUNTY ROAD 3351",
+            "Corrected Value": "137 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Original Value": "137 COUNTY ROAD 3351",
+            "Corrected Value": "137 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Original Value": "137 COUNTY ROAD 3351",
+            "Corrected Value": "137 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "137 COUNTY ROAD 3351",
+            "Corrected Value": "137 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "137 COUNTY ROAD 3351",
+            "Corrected Value": "137 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "182 COUNTY ROAD 4695",
+            "Corrected Value": "182 CR 4695",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "440 COUNTY ROAD 3690",
+            "Corrected Value": "440 CR 3690",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Original Value": "2633 COUNTY ROAD 3555",
+            "Corrected Value": "2633 CR 3555",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "157 PRIVATE ROAD 3329",
+            "Corrected Value": "157 PVT RD 3329",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Original Value": "220 PRIVATE ROAD 4575",
+            "Corrected Value": "220 PVT RD 4575",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "2456 COUNTY ROAD 3555",
+            "Corrected Value": "2456 CR 3555",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "268 PRIVATE ROAD 4575",
+            "Corrected Value": "268 PVT RD 4575",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "1905 COUNTY ROAD 4790",
+            "Corrected Value": "1905 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "233 PRIVATE ROAD 4575",
+            "Corrected Value": "233 PVT RD 4575",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "211 PRIVATE ROAD 4656",
+            "Corrected Value": "211 PVT RD 4656",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "234 COUNTY ROAD 3594",
+            "Corrected Value": "234 CR 3594",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "877 COUNTY ROAD 4699",
+            "Corrected Value": "877 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "112 COUNTY ROAD 3386",
+            "Corrected Value": "112 CR 3386",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "449 COUNTY ROAD 3330",
+            "Corrected Value": "449 CR 3330",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "478 COUNTY ROAD 3597",
+            "Corrected Value": "478 CR 3597",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Original Value": "127 PRIVATE ROAD 3329",
+            "Corrected Value": "127 PVT RD 3329",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "885 COUNTY ROAD 4699",
+            "Corrected Value": "885 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Original Value": "1132 COUNTY ROAD 4797",
+            "Corrected Value": "1132 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "693 COUNTY ROAD 4793",
+            "Corrected Value": "693 CR 4793",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "471 COUNTY ROAD 3342",
+            "Corrected Value": "471 CR 3342",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "1653 COUNTY ROAD 4698",
+            "Corrected Value": "1653 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "252 COUNTY ROAD 4693",
+            "Corrected Value": "252 CR 4693",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "1186 COUNTY ROAD 4698",
+            "Corrected Value": "1186 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "1233 COUNTY ROAD 3550",
+            "Corrected Value": "1233 CR 3550",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "179 PRIVATE ROAD 3446",
+            "Corrected Value": "179 PVT RD 3446",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Original Value": "COUNTY ROAD 4698",
+            "Corrected Value": "CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Original Value": "118 PRIVATE ROAD 4596",
+            "Corrected Value": "118 PVT RD 4596",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "236 COUNTY ROAD 3689",
+            "Corrected Value": "236 CR 3689",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "2003 COUNTY ROAD 4680",
+            "Corrected Value": "2003 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "213 COUNTY ROAD 3481",
+            "Corrected Value": "213 CR 3481",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "324 COUNTY ROAD 4795",
+            "Corrected Value": "324 CR 4795",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Original Value": "1485 COUNTY ROAD 4698",
+            "Corrected Value": "1485 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "363 COUNTY ROAD 3585",
+            "Corrected Value": "363 CR 3585",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "400 COUNTY ROAD 4699",
+            "Corrected Value": "400 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "324 COUNTY ROAD 4795",
+            "Corrected Value": "324 CR 4795",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "345 PRIVATE ROAD 3464",
+            "Corrected Value": "345 PVT RD 3464",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "214 COUNTY ROAD 4698",
+            "Corrected Value": "214 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "419 COUNTY ROAD 4794",
+            "Corrected Value": "419 CR 4794",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "1210 COUNTY ROAD 4698",
+            "Corrected Value": "1210 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "119 COUNTY ROAD 4693",
+            "Corrected Value": "119 CR 4693",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "130 PRIVATE ROAD 4596",
+            "Corrected Value": "130 PVT RD 4596",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "1246 COUNTY ROAD 4698",
+            "Corrected Value": "1246 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "379 PRIVATE ROAD 4650",
+            "Corrected Value": "379 PVT RD 4650",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "1212 COUNTY ROAD 4797",
+            "Corrected Value": "1212 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "110 COUNTY ROAD 3599",
+            "Corrected Value": "110 CR 3599",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "1275 COUNTY ROAD 4699",
+            "Corrected Value": "1275 CR 4699",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "463 COUNTY ROAD 3355",
+            "Corrected Value": "463 CR 3355",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "2305 COUNTY ROAD 4680",
+            "Corrected Value": "2305 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "1077 COUNTY ROAD 4698",
+            "Corrected Value": "1077 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "360 COUNTY ROAD 3579",
+            "Corrected Value": "360 CR 3579",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "2368 COUNTY ROAD 4790",
+            "Corrected Value": "2368 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Original Value": "2368 COUNTY ROAD 4790",
+            "Corrected Value": "2368 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "2430 COUNTY ROAD 4790",
+            "Corrected Value": "2430 CR 4790",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "663 COUNTY ROAD 4797",
+            "Corrected Value": "663 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "1719 COUNTY ROAD 4680",
+            "Corrected Value": "1719 CR 4680",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "770 COUNTY ROAD 3591",
+            "Corrected Value": "770 CR 3591",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "450 COUNTY ROAD 4698",
+            "Corrected Value": "450 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "166 PRIVATE ROAD 3562",
+            "Corrected Value": "166 PVT RD 3562",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "330 COUNTY ROAD 3573",
+            "Corrected Value": "330 CR 3573",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 292,
+            "Column": "address",
+            "Original Value": "1286 COUNTY ROAD 4698",
+            "Corrected Value": "1286 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "2461 COUNTY ROAD 3555",
+            "Corrected Value": "2461 CR 3555",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "258 COUNTY ROAD 3594",
+            "Corrected Value": "258 CR 3594",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 302,
+            "Column": "address",
+            "Original Value": "246 PRIVATE ROAD 3367",
+            "Corrected Value": "246 PVT RD 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "1499 COUNTY ROAD 4698",
+            "Corrected Value": "1499 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "145 COUNTY ROAD 4797",
+            "Corrected Value": "145 CR 4797",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "532 COUNTY ROAD 4698",
+            "Corrected Value": "532 CR 4698",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "8099 FM 2123",
+            "Corrected Value": "8099 FM 2123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "zip",
+            "Original Value": "76020",
+            "Corrected Value": "76020",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "1155 QUAIL RUN",
+            "Corrected Value": "1155 QUAIL RUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "1667 E HIGHWAY 114",
+            "Corrected Value": "1667 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "1667 E HIGHWAY 114",
+            "Corrected Value": "1667 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "zip",
+            "Original Value": "76020",
+            "Corrected Value": "76020",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "1167 W. WHITE DOVE",
+            "Corrected Value": "1167 W WHITE DOVE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "zip",
+            "Original Value": "76082",
+            "Corrected Value": "76082",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "150 W WHITE DOVE",
+            "Corrected Value": "150 DOVE TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "9292 S. FM 51",
+            "Corrected Value": "9292 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "3207 FM 2048",
+            "Corrected Value": "3207 FM 2048",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "zip",
+            "Original Value": "76073",
+            "Corrected Value": "76073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "591 SUNFLOWER",
+            "Corrected Value": "591 SUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "zip",
+            "Original Value": "76073",
+            "Corrected Value": "76073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "794 SUNFLOWER",
+            "Corrected Value": "794 SUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "1374 E. HWY 114",
+            "Corrected Value": "1374 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "1374 E. HWY 114",
+            "Corrected Value": "1374 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "3076 FM 2048",
+            "Corrected Value": "3076 FM 2048",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "zip",
+            "Original Value": "76073",
+            "Corrected Value": "76073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "6719 FM 2123",
+            "Corrected Value": "6719 FM 2123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "zip",
+            "Original Value": "76073",
+            "Corrected Value": "76073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "1035 SUNFLOWER",
+            "Corrected Value": "1035 SUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Original Value": "2913 FM 2048",
+            "Corrected Value": "2913 FM 2048",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Original Value": "9614 S. FM 51",
+            "Corrected Value": "9614 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "9614 S. FM 51",
+            "Corrected Value": "9614 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "1376 E. HWY 114",
+            "Corrected Value": "1376 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "zip",
+            "Original Value": "76020",
+            "Corrected Value": "76020",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "1109 QUAIL RUN",
+            "Corrected Value": "1109 QUAIL RUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "3452 FM 2048",
+            "Corrected Value": "3452 FM 2048",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "103 SILVER SPUR",
+            "Corrected Value": "103 SILVER SPUR RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "2988 FM 2048",
+            "Corrected Value": "2988 FM 2048",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "zip",
+            "Original Value": "76073",
+            "Corrected Value": "76073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "509 HONEYSUCKLE",
+            "Corrected Value": "509 HONEYSUCKLE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "7871 S FM 51",
+            "Corrected Value": "7871 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "9614 S. FM 51",
+            "Corrected Value": "9614 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "7887 S FM 51",
+            "Corrected Value": "7887 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Original Value": "8101 S FM 51",
+            "Corrected Value": "8101 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "7911 S FM 51",
+            "Corrected Value": "7911 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "zip",
+            "Original Value": "76023",
+            "Corrected Value": "76023",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "9292 S. FM 51",
+            "Corrected Value": "9292 S FM 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COUNTY ROAD 4698"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "1234"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 433"
+        },
+        {
+            "Row": 170,
+            "Column": "lat",
+            "Error": "Latitude for TN must be positive",
+            "Value": "33.0718379"
+        },
+        {
+            "Row": 170,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-97.7145788"
+        },
+        {
+            "Row": 170,
+            "Column": "lon",
+            "Error": "Longitude for TN must be negative",
+            "Value": "-97.7145788"
+        },
+        {
+            "Row": 7,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1442273_001",
+            "Value": "1442273"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1470715"
+        },
+        {
+            "Row": 20,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1470715_002",
+            "Value": "1470715"
+        },
+        {
+            "Row": 25,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1474676_003",
+            "Value": "1474676"
+        },
+        {
+            "Row": 33,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1499780_004",
+            "Value": "1499780"
+        },
+        {
+            "Row": 56,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1538282"
+        },
+        {
+            "Row": 61,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1544661_005",
+            "Value": "1544661"
+        },
+        {
+            "Row": 64,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1546875"
+        },
+        {
+            "Row": 87,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1592664"
+        },
+        {
+            "Row": 106,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1626797_006",
+            "Value": "1626797"
+        },
+        {
+            "Row": 113,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1633228_007",
+            "Value": "1633228"
+        },
+        {
+            "Row": 149,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1761076_008",
+            "Value": "1761076"
+        },
+        {
+            "Row": 160,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1779723"
+        },
+        {
+            "Row": 161,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1779723"
+        },
+        {
+            "Row": 162,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1779723"
+        },
+        {
+            "Row": 163,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1779723"
+        },
+        {
+            "Row": 219,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1985205"
+        },
+        {
+            "Row": 249,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2080624_009",
+            "Value": "2080624"
+        },
+        {
+            "Row": 271,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2181897_010",
+            "Value": "2181897"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1470715)",
+            "Value": "1470715"
+        },
+        {
+            "Row": 219,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1985205)",
+            "Value": "1985205"
+        },
+        {
+            "Row": 230,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1995732)",
+            "Value": "2015389"
+        },
+        {
+            "Row": 234,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1440447)",
+            "Value": "2039346"
+        },
+        {
+            "Row": 56,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1538282)",
+            "Value": "1538282"
+        },
+        {
+            "Row": 64,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1546875)",
+            "Value": "1546875"
+        },
+        {
+            "Row": 87,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1592664)",
+            "Value": "1592664"
+        },
+        {
+            "Row": 160,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1779723)",
+            "Value": "1779723"
+        },
+        {
+            "Row": 161,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1779723)",
+            "Value": "1779723"
+        },
+        {
+            "Row": 162,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1779723)",
+            "Value": "1779723"
+        },
+        {
+            "Row": 163,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1779723)",
+            "Value": "1779723"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 43,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8099 FM 2123"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1155 QUAIL RUN"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1667 E HIGHWAY 114"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1667 E HIGHWAY 114"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1167 W WHITE DOVE"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "150 W WHITE DOVE"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9292 S FM 51"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3207 FM 2048"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "591 SUNFLOWER"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "794 SUNFLOWER"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1374 E HWY 114"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1374 E HWY 114"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3076 FM 2048"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6719 FM 2123"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1035 SUNFLOWER"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2913 FM 2048"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9614 S FM 51"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9614 S FM 51"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1376 E HWY 114"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1109 QUAIL RUN"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3452 FM 2048"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "103 SILVER SPUR"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2988 FM 2048"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "509 HONEYSUCKLE"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7871 S FM 51"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9614 S FM 51"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7887 S FM 51"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8101 S FM 51"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7911 S FM 51"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9292 S FM 51"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 304,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 433"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 433"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 295,
+            "address": "1234",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 19,
+            "customer": "1470715",
+            "lat": 32.9481271,
+            "lon": -97.5957718,
+            "address": "974 OLD RENO RD",
+            "city": "SPRINGTOWN",
+            "state": "TX",
+            "zip": "76082",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 56,
+            "customer": "1538282",
+            "lat": 33.0560424,
+            "lon": -97.634024,
+            "address": "1069 COUNTY ROAD 4698",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 64,
+            "customer": "1546875",
+            "lat": 33.058509,
+            "lon": -97.6329131,
+            "address": "1477 COUNTY ROAD 4698",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 87,
+            "customer": "1592664",
+            "lat": 33.0800095,
+            "lon": -97.6257088,
+            "address": "1667 E HIGHWAY 114",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 160,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 161,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 162,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 163,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 219,
+            "customer": "1985205",
+            "lat": 32.995244,
+            "lon": -97.639893,
+            "address": "1851 MCVOID RD",
+            "city": "SPRINGTOWN",
+            "state": "TX",
+            "zip": "76082",
+            "download": 25.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 19,
+            "customer": "1470715",
+            "lat": 32.9481271,
+            "lon": -97.5957718,
+            "address": "974 OLD RENO RD",
+            "city": "SPRINGTOWN",
+            "state": "TX",
+            "zip": "76082",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1470715)"
+        },
+        {
+            "OrigRowNum": 219,
+            "customer": "1985205",
+            "lat": 32.995244,
+            "lon": -97.639893,
+            "address": "1851 MCVOID RD",
+            "city": "SPRINGTOWN",
+            "state": "TX",
+            "zip": "76082",
+            "download": 25.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1985205)"
+        },
+        {
+            "OrigRowNum": 230,
+            "customer": "2015389",
+            "lat": 33.020198,
+            "lon": -97.662888,
+            "address": "324 COUNTY ROAD 4795",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 25.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1995732)"
+        },
+        {
+            "OrigRowNum": 234,
+            "customer": "2039346",
+            "lat": 33.0408408,
+            "lon": -97.6538149,
+            "address": "214 COUNTY ROAD 4698",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1440447)"
+        },
+        {
+            "OrigRowNum": 56,
+            "customer": "1538282",
+            "lat": 33.0560424,
+            "lon": -97.634024,
+            "address": "1069 COUNTY ROAD 4698",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1538282)"
+        },
+        {
+            "OrigRowNum": 64,
+            "customer": "1546875",
+            "lat": 33.058509,
+            "lon": -97.6329131,
+            "address": "1477 COUNTY ROAD 4698",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1546875)"
+        },
+        {
+            "OrigRowNum": 87,
+            "customer": "1592664",
+            "lat": 33.0800095,
+            "lon": -97.6257088,
+            "address": "1667 E HIGHWAY 114",
+            "city": "BOYD",
+            "state": "TX",
+            "zip": "76023",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1592664)"
+        },
+        {
+            "OrigRowNum": 160,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1779723)"
+        },
+        {
+            "OrigRowNum": 161,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1779723)"
+        },
+        {
+            "OrigRowNum": 162,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1779723)"
+        },
+        {
+            "OrigRowNum": 163,
+            "customer": "1779723",
+            "lat": 33.1406722,
+            "lon": -97.7139551,
+            "address": "137 COUNTY ROAD 3351",
+            "city": "PARADISE",
+            "state": "TX",
+            "zip": "76073",
+            "download": 15.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1779723)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 43,
+            "Original Address": "8099 FM 2123",
+            "Corrected Address": "8099 FM 2123",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.890941"
+        },
+        {
+            "OrigRowNum": 54,
+            "Original Address": "1155 QUAIL RUN",
+            "Corrected Address": "1155 QUAIL RUN",
+            "Original ZIP": "76020",
+            "Corrected ZIP": "76020",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.892093"
+        },
+        {
+            "OrigRowNum": 86,
+            "Original Address": "1667 E HIGHWAY 114",
+            "Corrected Address": "1667 E HIGHWAY 114",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.892595"
+        },
+        {
+            "OrigRowNum": 87,
+            "Original Address": "1667 E HIGHWAY 114",
+            "Corrected Address": "1667 E HIGHWAY 114",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.893053"
+        },
+        {
+            "OrigRowNum": 89,
+            "Original Address": "1167 W. WHITE DOVE",
+            "Corrected Address": "1167 W WHITE DOVE ST",
+            "Original ZIP": "76020",
+            "Corrected ZIP": "76020",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.893485"
+        },
+        {
+            "OrigRowNum": 97,
+            "Original Address": "150 W WHITE DOVE",
+            "Corrected Address": "150 DOVE TRL",
+            "Original ZIP": "76082",
+            "Corrected ZIP": "76082",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.893843"
+        },
+        {
+            "OrigRowNum": 104,
+            "Original Address": "9292 S. FM 51",
+            "Corrected Address": "9292 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.894160"
+        },
+        {
+            "OrigRowNum": 108,
+            "Original Address": "3207 FM 2048",
+            "Corrected Address": "3207 FM 2048",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.894470"
+        },
+        {
+            "OrigRowNum": 123,
+            "Original Address": "591 SUNFLOWER",
+            "Corrected Address": "591 SUN",
+            "Original ZIP": "76073",
+            "Corrected ZIP": "76073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.894781"
+        },
+        {
+            "OrigRowNum": 147,
+            "Original Address": "794 SUNFLOWER",
+            "Corrected Address": "794 SUN",
+            "Original ZIP": "76073",
+            "Corrected ZIP": "76073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.895096"
+        },
+        {
+            "OrigRowNum": 148,
+            "Original Address": "1374 E. HWY 114",
+            "Corrected Address": "1374 E HIGHWAY 114",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.895410"
+        },
+        {
+            "OrigRowNum": 149,
+            "Original Address": "1374 E. HWY 114",
+            "Corrected Address": "1374 E HIGHWAY 114",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.895720"
+        },
+        {
+            "OrigRowNum": 169,
+            "Original Address": "3076 FM 2048",
+            "Corrected Address": "3076 FM 2048",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.896034"
+        },
+        {
+            "OrigRowNum": 176,
+            "Original Address": "6719 FM 2123",
+            "Corrected Address": "6719 FM 2123",
+            "Original ZIP": "76073",
+            "Corrected ZIP": "76073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.896345"
+        },
+        {
+            "OrigRowNum": 189,
+            "Original Address": "1035 SUNFLOWER",
+            "Corrected Address": "1035 SUN",
+            "Original ZIP": "76073",
+            "Corrected ZIP": "76073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.896654"
+        },
+        {
+            "OrigRowNum": 196,
+            "Original Address": "2913 FM 2048",
+            "Corrected Address": "2913 FM 2048",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.896972"
+        },
+        {
+            "OrigRowNum": 199,
+            "Original Address": "9614 S. FM 51",
+            "Corrected Address": "9614 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.897279"
+        },
+        {
+            "OrigRowNum": 201,
+            "Original Address": "9614 S. FM 51",
+            "Corrected Address": "9614 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.897595"
+        },
+        {
+            "OrigRowNum": 213,
+            "Original Address": "1376 E. HWY 114",
+            "Corrected Address": "1376 E HIGHWAY 114",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.897865"
+        },
+        {
+            "OrigRowNum": 237,
+            "Original Address": "1109 QUAIL RUN",
+            "Corrected Address": "1109 QUAIL RUN",
+            "Original ZIP": "76020",
+            "Corrected ZIP": "76020",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.898127"
+        },
+        {
+            "OrigRowNum": 244,
+            "Original Address": "3452 FM 2048",
+            "Corrected Address": "3452 FM 2048",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.898382"
+        },
+        {
+            "OrigRowNum": 246,
+            "Original Address": "103 SILVER SPUR",
+            "Corrected Address": "103 SILVER SPUR RD",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.898637"
+        },
+        {
+            "OrigRowNum": 253,
+            "Original Address": "2988 FM 2048",
+            "Corrected Address": "2988 FM 2048",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.898890"
+        },
+        {
+            "OrigRowNum": 258,
+            "Original Address": "509 HONEYSUCKLE",
+            "Corrected Address": "509 HONEYSUCKLE",
+            "Original ZIP": "76073",
+            "Corrected ZIP": "76073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.899142"
+        },
+        {
+            "OrigRowNum": 277,
+            "Original Address": "7871 S FM 51",
+            "Corrected Address": "7871 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.899398"
+        },
+        {
+            "OrigRowNum": 279,
+            "Original Address": "9614 S. FM 51",
+            "Corrected Address": "9614 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.899654"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "7887 S FM 51",
+            "Corrected Address": "7887 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.899892"
+        },
+        {
+            "OrigRowNum": 308,
+            "Original Address": "8101 S FM 51",
+            "Corrected Address": "8101 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.900132"
+        },
+        {
+            "OrigRowNum": 312,
+            "Original Address": "7911 S FM 51",
+            "Corrected Address": "7911 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.900367"
+        },
+        {
+            "OrigRowNum": 317,
+            "Original Address": "9292 S. FM 51",
+            "Corrected Address": "9292 S FM 51",
+            "Original ZIP": "76023",
+            "Corrected ZIP": "76023",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T09:29:37.900598"
+        }
+    ]
+}

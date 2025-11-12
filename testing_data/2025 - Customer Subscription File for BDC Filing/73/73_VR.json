@@ -1,0 +1,1534 @@
+{
+    "Summary": {
+        "Total Rows Processed": 540,
+        "Rows with Corrections": 122,
+        "Rows with Errors": 20,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 19,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 124,
+        "Total Errors": 29,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.42,
+        "Validation Date": "2025-08-26 08:38:03",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 1 rows (0.19%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 520,
+        "Address Errors Found": 1,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.19,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 1 rows (0.19%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 520,
+        "address_error_count": 1,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.19,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            2
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "3544 NORTH ARM RD",
+            "Corrected Value": "3544 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "3718 NORTH ARM RD",
+            "Corrected Value": "3718 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "3460 NORTH ARM ROAD",
+            "Corrected Value": "3460 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "417 WEST SHAGAWA ROAD",
+            "Corrected Value": "417 W SHAGAWA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "3542 NORTH ARM ROAD",
+            "Corrected Value": "3542 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "3788 NORTH ARM RD",
+            "Corrected Value": "3788 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "3422 NORTH ARM RD",
+            "Corrected Value": "3422 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "3389 NORTH ARM ROAD",
+            "Corrected Value": "3389 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "3708 NORTH ARM RD",
+            "Corrected Value": "3708 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "135 WEST CONAN STREET",
+            "Corrected Value": "135 W CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "3384 NORTH ARM ROAD",
+            "Corrected Value": "3384 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "3484 NORTH ARM ROAD",
+            "Corrected Value": "3484 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "355 WEST HARVEY STREET",
+            "Corrected Value": "355 W HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "3550 NORTH ARM RD",
+            "Corrected Value": "3550 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "908 EAST SHERIDAN STREET",
+            "Corrected Value": "908 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "16 NORTH 1ST AVENUE EAST",
+            "Corrected Value": "16 N 1ST AVENUE E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "3488 NORTH ARM RD",
+            "Corrected Value": "3488 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "3488 NORTH ARM RD",
+            "Corrected Value": "3488 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "3387 NORTH ARM ROAD",
+            "Corrected Value": "3387 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "3536 NORTH ARM RD",
+            "Corrected Value": "3536 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "3061 EAST ARM ROAD",
+            "Corrected Value": "3061 E ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "3716 NORTH ARM RD ELY 55731",
+            "Corrected Value": "3716 N ARM RD ELY 55731",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "3390 NORTH ARM RD",
+            "Corrected Value": "3390 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "2431 TRUE NORTH ISLAND",
+            "Corrected Value": "2431 TRUE N ISLAND",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "435 EAST BOUNDARY",
+            "Corrected Value": "435 E BOUNDARY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "3381 NORTH ARM RD",
+            "Corrected Value": "3381 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "1550 EAST WASHINGTON STREET",
+            "Corrected Value": "1550 E WASHINGTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "223 EAST HARVEY STREET",
+            "Corrected Value": "223 E HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "147 EAST CONAN STREET",
+            "Corrected Value": "147 E CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "1324 SOUTH WHITE IRON ROAD",
+            "Corrected Value": "1324 S WHITE IRON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Original Value": "2751 EAST CHIGABIG ROAD",
+            "Corrected Value": "2751 E CHIGABIG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "3634 NORTH ARM RD",
+            "Corrected Value": "3634 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "1778 ECHO TRAIL #2",
+            "Corrected Value": "1778 ECHO TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "226 EAST CONAN STREET",
+            "Corrected Value": "226 E CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "310 WEST CHAPMAN STREET",
+            "Corrected Value": "310 W CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "1353 NORTH WHITE IRON ROAD",
+            "Corrected Value": "1353 N WHITE IRON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "205 NORTH CENTRAL AVENUE",
+            "Corrected Value": "205 N CENTRAL AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "845 EAST PATTISON STREET",
+            "Corrected Value": "845 E PATTISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "1355 NORTH WHITE IRON ROAD",
+            "Corrected Value": "1355 N WHITE IRON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Original Value": "1338 SOUTH WHITE IRON LAKE ROAD",
+            "Corrected Value": "1338 S WHITE IRON LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "336 WEST SHAGAWA ROAD",
+            "Corrected Value": "336 W SHAGAWA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Original Value": "7 NORTH YUKON DRIVE",
+            "Corrected Value": "7 N YUKON DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Original Value": "1342 HIDDEN VALLEY ROAD #2",
+            "Corrected Value": "1342 HIDDEN VALLEY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "13 WEST HARVEY STREET",
+            "Corrected Value": "13 W HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Original Value": "901 SOUTH CENTRAL AVE",
+            "Corrected Value": "901 S CENTRAL AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "227 EAST CONAN STREET",
+            "Corrected Value": "227 E CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Original Value": "145 WEST CAMP STREET",
+            "Corrected Value": "145 W CAMP STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Original Value": "1357 NORTH WHITE IRON ROAD",
+            "Corrected Value": "1357 N WHITE IRON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "235 EAST BOUNDARY STREET",
+            "Corrected Value": "235 E BOUNDARY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "5 EAST CHAPMAN STREET",
+            "Corrected Value": "5 E CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "2761 EAST CHIGABIG ROAD",
+            "Corrected Value": "2761 E CHIGABIG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 351,
+            "Column": "address",
+            "Original Value": "34 SOUTH 2ND AVENUE EAST",
+            "Corrected Value": "34 S 2ND AVENUE E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "125 NORTH CENTRAL AVENUE",
+            "Corrected Value": "125 N CENTRAL AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 358,
+            "Column": "address",
+            "Original Value": "104 WEST CONAN STREET",
+            "Corrected Value": "104 W CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "207 W HARVEY STREET #2",
+            "Corrected Value": "207 W HARVEY STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 372,
+            "Column": "address",
+            "Original Value": "10 NORTH 1ST AVENUE EAST",
+            "Corrected Value": "10 N 1ST AVENUE E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "3524 NORTH ARM ROAD",
+            "Corrected Value": "3524 N ARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "14 EAST CONAN STREET",
+            "Corrected Value": "14 E CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 386,
+            "Column": "address",
+            "Original Value": "3552 NORTH ARM RD",
+            "Corrected Value": "3552 N ARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "1616 EAST CAMP STREET",
+            "Corrected Value": "1616 E CAMP STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "206 EAST HARVEY STREET",
+            "Corrected Value": "206 E HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "43 EAST PATTISON STREET",
+            "Corrected Value": "43 E PATTISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #1",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #2",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #3",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #5",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #6",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Original Value": "469 SUNSET ROAD #8",
+            "Corrected Value": "469 SUNSET ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 405,
+            "Column": "address",
+            "Original Value": "751 NORTH PIONEER ROAD",
+            "Corrected Value": "751 N PIONEER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "10 SOUTH 2ND AVENUE",
+            "Corrected Value": "10 S 2ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 419,
+            "Column": "address",
+            "Original Value": "1342 HIDDEN VALLEY ROAD #3",
+            "Corrected Value": "1342 HIDDEN VALLEY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Original Value": "1342 HIDDEN VALLEY ROAD #4",
+            "Corrected Value": "1342 HIDDEN VALLEY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 421,
+            "Column": "address",
+            "Original Value": "1403 EAST SHERIDAN STREET",
+            "Corrected Value": "1403 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "1436 EAST CAMP STREET",
+            "Corrected Value": "1436 E CAMP STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "1444 EAST CAMP STREET",
+            "Corrected Value": "1444 E CAMP STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "343 EAST SHERIDAN STREET",
+            "Corrected Value": "343 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "343 EAST SHERIDAN STREET",
+            "Corrected Value": "343 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "1406 EAST SHERIDAN STREET",
+            "Corrected Value": "1406 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "7 NORTH CENTRAL AVENUE",
+            "Corrected Value": "7 N CENTRAL AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Original Value": "1148 EAST SHERIDAN STREET",
+            "Corrected Value": "1148 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "1782 WEST CHIGABIG ROAD",
+            "Corrected Value": "1782 W CHIGABIG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "1 EAST CHAPMAN STREET",
+            "Corrected Value": "1 E CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "28 EAST PATTISON STREET",
+            "Corrected Value": "28 E PATTISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "11 WEST JAMES STREET",
+            "Corrected Value": "11 W JAMES STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 444,
+            "Column": "address",
+            "Original Value": "98 WEST CHANDLER STREET",
+            "Corrected Value": "98 W CHANDLER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "137 EAST SHERIDAN STREET",
+            "Corrected Value": "137 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "638 EAST BOUNDARY STREET",
+            "Corrected Value": "638 E BOUNDARY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "123 NORTH CENTRAL AVENUE",
+            "Corrected Value": "123 N CENTRAL AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Original Value": "106 WEST CONAN STREET",
+            "Corrected Value": "106 W CONAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Original Value": "51 WEST CHANDLER STREET",
+            "Corrected Value": "51 W CHANDLER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 452,
+            "Column": "address",
+            "Original Value": "428 EAST SHERIDAN STREET",
+            "Corrected Value": "428 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "15 EAST SHERIDAN STREET",
+            "Corrected Value": "15 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Original Value": "13464 NORTH PINE ROAD",
+            "Corrected Value": "13464 N PINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "2 EAST SHERIDAN STREET",
+            "Corrected Value": "2 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "2 EAST SHERIDAN STREET",
+            "Corrected Value": "2 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "15 EAST HARVEY STREET",
+            "Corrected Value": "15 E HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "21 EAST SHERIDAN STREET",
+            "Corrected Value": "21 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Original Value": "230 WEST CAMP STREET",
+            "Corrected Value": "230 W CAMP STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "221 EAST WASHINGTON STREET",
+            "Corrected Value": "221 E WASHINGTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Original Value": "58 SOUTH 7TH AVENUE EAST",
+            "Corrected Value": "58 S 7TH AVENUE E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "26 EAST JAMES STREET",
+            "Corrected Value": "26 E JAMES STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "1340 EAST SHERIDAN STREET",
+            "Corrected Value": "1340 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Original Value": "3 E HARVEY ST APT 1",
+            "Corrected Value": "3 E HARVEY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "209 EAST CHAPMAN STREET",
+            "Corrected Value": "209 E CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Original Value": "1881 WEST SHAGAWA ROAD",
+            "Corrected Value": "1881 W SHAGAWA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "345 WEST CHAPMAN STREET",
+            "Corrected Value": "345 W CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "247 EAST CHAPMAN STREET",
+            "Corrected Value": "247 E CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "903 EAST HARVEY STREET",
+            "Corrected Value": "903 E HARVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "409 EAST BOUNDARY",
+            "Corrected Value": "409 E BOUNDARY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "143 EAST CHAPMAN STREET",
+            "Corrected Value": "143 E CHAPMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Original Value": "931 EAST SHERIDAN STREET",
+            "Corrected Value": "931 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Original Value": "128 E SHERIDAN STREET APT",
+            "Corrected Value": "128 E SHERIDAN STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "40 N 1ST AVENUE E #202",
+            "Corrected Value": "40 N 1ST AVENUE E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "747 EAST SHERIDAN STREET",
+            "Corrected Value": "747 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "747 EAST SHERIDAN STREET",
+            "Corrected Value": "747 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "30 S 1ST AVE EAST",
+            "Corrected Value": "30 S 1ST AVE E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 511,
+            "Column": "address",
+            "Original Value": "449 WEST SHERIDAN STREET",
+            "Corrected Value": "449 W SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "107 W HARVEY STREET #3",
+            "Corrected Value": "107 W HARVEY STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Original Value": "234 EAST SHERIDAN STREET",
+            "Corrected Value": "234 E SHERIDAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "lat",
+            "Original Value": 40.7390219,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "lon",
+            "Original Value": -74.0278934,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "lat",
+            "Original Value": 40.9377394,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "lon",
+            "Original Value": -73.9341323,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "1741066",
+            "Corrected Value": "1741066_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 100,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "15E CHAPMAN ST"
+        },
+        {
+            "Row": 2,
+            "Column": "city",
+            "Error": "Required field: City cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 458,
+            "Column": "lat",
+            "Error": "Latitude for MN must be between 43.499361 and 49.384358",
+            "Value": "40.7390219"
+        },
+        {
+            "Row": 458,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-74.0278934"
+        },
+        {
+            "Row": 458,
+            "Column": "lon",
+            "Error": "Longitude for MN must be between -97.239209 and -89.483385",
+            "Value": "-74.0278934"
+        },
+        {
+            "Row": 478,
+            "Column": "lat",
+            "Error": "Latitude for MN must be between 43.499361 and 49.384358",
+            "Value": "40.9377394"
+        },
+        {
+            "Row": 478,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-73.9341323"
+        },
+        {
+            "Row": 478,
+            "Column": "lon",
+            "Error": "Longitude for MN must be between -97.239209 and -89.483385",
+            "Value": "-73.9341323"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1516401_001",
+            "Value": "1516401"
+        },
+        {
+            "Row": 98,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1741066_002",
+            "Value": "1741066"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1835524"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1916444"
+        },
+        {
+            "Row": 182,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1916444"
+        },
+        {
+            "Row": 425,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2353606"
+        },
+        {
+            "Row": 464,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2438576"
+        },
+        {
+            "Row": 399,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324449"
+        },
+        {
+            "Row": 400,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324452"
+        },
+        {
+            "Row": 401,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324455"
+        },
+        {
+            "Row": 402,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324458"
+        },
+        {
+            "Row": 403,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324461"
+        },
+        {
+            "Row": 404,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2324446)",
+            "Value": "2324466"
+        },
+        {
+            "Row": 464,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2438576)",
+            "Value": "2438576"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1916444)",
+            "Value": "1916444"
+        },
+        {
+            "Row": 182,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1916444)",
+            "Value": "1916444"
+        },
+        {
+            "Row": 425,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2353606)",
+            "Value": "2353606"
+        },
+        {
+            "Row": 419,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2192074)",
+            "Value": "2352007"
+        },
+        {
+            "Row": 420,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2192074)",
+            "Value": "2352008"
+        },
+        {
+            "Row": 216,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1969925)",
+            "Value": "1975305"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1835524)",
+            "Value": "1835524"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 2,
+            "address": "1575 GRANT MCMAHAN BLVD",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 143,
+            "customer": "1835524",
+            "lat": 47.974508,
+            "lon": -91.9896909,
+            "address": "3488 N ARM RD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "1916444",
+            "lat": 47.9032372,
+            "lon": -91.8670873,
+            "address": "2867 OLIVER ISLAND ELY",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 182,
+            "customer": "1916444",
+            "lat": 47.9032372,
+            "lon": -91.8670873,
+            "address": "2867 OLIVER ISLAND ELY",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 425,
+            "customer": "2353606",
+            "lat": 47.9034188,
+            "lon": -91.8611944,
+            "address": "343 E SHERIDAN STREET",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 464,
+            "customer": "2438576",
+            "lat": 47.9030242,
+            "lon": -91.8667467,
+            "address": "2 E SHERIDAN STREET",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 399,
+            "customer": "2324449",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 400,
+            "customer": "2324452",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 401,
+            "customer": "2324455",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 402,
+            "customer": "2324458",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 403,
+            "customer": "2324461",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 404,
+            "customer": "2324466",
+            "lat": 47.893901,
+            "lon": -91.7547529,
+            "address": "469 SUNSET ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2324446)"
+        },
+        {
+            "OrigRowNum": 464,
+            "customer": "2438576",
+            "lat": 47.9030242,
+            "lon": -91.8667467,
+            "address": "2 E SHERIDAN STREET",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2438576)"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "1916444",
+            "lat": 47.9032372,
+            "lon": -91.8670873,
+            "address": "2867 OLIVER ISLAND ELY",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1916444)"
+        },
+        {
+            "OrigRowNum": 182,
+            "customer": "1916444",
+            "lat": 47.9032372,
+            "lon": -91.8670873,
+            "address": "2867 OLIVER ISLAND ELY",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1916444)"
+        },
+        {
+            "OrigRowNum": 425,
+            "customer": "2353606",
+            "lat": 47.9034188,
+            "lon": -91.8611944,
+            "address": "343 E SHERIDAN STREET",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2353606)"
+        },
+        {
+            "OrigRowNum": 419,
+            "customer": "2352007",
+            "lat": 47.903676,
+            "lon": -91.8245955,
+            "address": "1342 HIDDEN VALLEY ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2192074)"
+        },
+        {
+            "OrigRowNum": 420,
+            "customer": "2352008",
+            "lat": 47.903676,
+            "lon": -91.8245955,
+            "address": "1342 HIDDEN VALLEY ROAD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 800.0,
+            "upload": 800.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2192074)"
+        },
+        {
+            "OrigRowNum": 216,
+            "customer": "1975305",
+            "lat": 47.9530282,
+            "lon": -91.9024552,
+            "address": "3162 WOODLAND RIDGE DRIVE",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1969925)"
+        },
+        {
+            "OrigRowNum": 143,
+            "customer": "1835524",
+            "lat": 47.974508,
+            "lon": -91.9896909,
+            "address": "3488 N ARM RD",
+            "city": "ELY",
+            "state": "MN",
+            "zip": "55731",
+            "download": 750.0,
+            "upload": 750.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1835524)"
+        }
+    ],
+    "Smarty Corrections": []
+}

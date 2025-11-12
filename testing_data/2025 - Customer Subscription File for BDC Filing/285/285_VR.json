@@ -1,0 +1,1788 @@
+{
+    "Summary": {
+        "Total Rows Processed": 564,
+        "Rows with Corrections": 73,
+        "Rows with Errors": 54,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 24,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 95,
+        "Total Errors": 97,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.69,
+        "Validation Date": "2025-09-03 10:52:42",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 539,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 539,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "2000 THOMAS LN APT 3",
+            "Corrected Value": "2000 THOMAS LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "1900 THOMAS LANE APT 1",
+            "Corrected Value": "1900 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "104 ZANE DR APT B",
+            "Corrected Value": "104 ZANE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "2200 THOMAS LANE APT 1",
+            "Corrected Value": "2200 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "2100 THOMAS LANE APT 6",
+            "Corrected Value": "2100 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "6775 SOUTH EDMOND STREET",
+            "Corrected Value": "6775 S EDMOND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "203 SOUTH MAIN STREET",
+            "Corrected Value": "203 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "102 WEST SPLITLOG STREET",
+            "Corrected Value": "102 W SPLITLOG STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "127 EAST MAIN STREET",
+            "Corrected Value": "127 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "203 WEST BARLOW STREET",
+            "Corrected Value": "203 W BARLOW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "203 WEST BARLOW STREET",
+            "Corrected Value": "203 W BARLOW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "203 WEST BARLOW STREET",
+            "Corrected Value": "203 W BARLOW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "203 WEST BARLOW STREET",
+            "Corrected Value": "203 W BARLOW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "206 NORTH JANICE STREET",
+            "Corrected Value": "206 N JANICE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "70399 EAST 175 ROAD",
+            "Corrected Value": "70399 E 175 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "66299 EAST 160 ROAD",
+            "Corrected Value": "66299 E 160 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "66300 EAST 160 ROAD",
+            "Corrected Value": "66300 E 160 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "66348 EAST 160 ROAD",
+            "Corrected Value": "66348 E 160 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "66250 EAST 160 ROAD",
+            "Corrected Value": "66250 E 160 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "64615 EAST 145 ROAD",
+            "Corrected Value": "64615 E 145 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "14010 SOUTH 690 ROAD",
+            "Corrected Value": "14010 S 690 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "105 ZANE DRIVE APT B",
+            "Corrected Value": "105 ZANE DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "2002 THOMAS LANE APT 4",
+            "Corrected Value": "2002 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "2000 THOMAS LANE APT 6",
+            "Corrected Value": "2000 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "2200 THOMAS LANE APT 6",
+            "Corrected Value": "2200 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "2100 THOMAS LANE APT 3",
+            "Corrected Value": "2100 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "2200 THOMAS LANE APT 5",
+            "Corrected Value": "2200 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "1900 THOMAS LANE APT 2",
+            "Corrected Value": "1900 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Original Value": "4616 NORTH STATE HIGHWAY 43",
+            "Corrected Value": "4616 N STATE HIGHWAY 43",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Original Value": "2200 THOMAS LN APT 4",
+            "Corrected Value": "2200 THOMAS LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "1900 THOMAS LN APT 5",
+            "Corrected Value": "1900 THOMAS LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "EAST 120 ROAD",
+            "Corrected Value": "E 120 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "70050 EAST 120 ROAD",
+            "Corrected Value": "70050 E 120 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 386,
+            "Column": "address",
+            "Original Value": "70110 EAST 120 ROAD",
+            "Corrected Value": "70110 E 120 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "70220 EAST 120 ROAD",
+            "Corrected Value": "70220 E 120 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Original Value": "70181 EAST 119 ROAD",
+            "Corrected Value": "70181 E 119 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "13724 HWY 43 BOX 54",
+            "Corrected Value": "13724 HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "13724 STATE HWY 43 LOT 11",
+            "Corrected Value": "13724 STATE HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "13724 STATE HIGHWAY 43 BOX 1",
+            "Corrected Value": "13724 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "13724 STATE HIGHWAY 43 LOT 60A",
+            "Corrected Value": "13724 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "13724 MISSOURI 43 LOT 13",
+            "Corrected Value": "13724 MISSOURI 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "13724 STATE HIGHWAY 43 LOT 57",
+            "Corrected Value": "13724 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "68352 EAST 100 ROAD",
+            "Corrected Value": "68352 E 100 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "68352 EAST 100 ROAD",
+            "Corrected Value": "68352 E 100 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "69501 EAST 85 ROAD",
+            "Corrected Value": "69501 E 85 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "5337 HWY 43 LOT 26",
+            "Corrected Value": "5337 HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Original Value": "5337 HWY 43 LOT 52",
+            "Corrected Value": "5337 HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Original Value": "5337 STATE HIGHWAY 43 LOT 22",
+            "Corrected Value": "5337 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Original Value": "5337 STATE HIGHWAY 43 LOT 32",
+            "Corrected Value": "5337 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "5337 STATE HIGHWAY 43 LOT 40",
+            "Corrected Value": "5337 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "5337 STATE HIGHWAY 43 LOT 6",
+            "Corrected Value": "5337 STATE HIGHWAY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "5337 HWY 43 LOT 45",
+            "Corrected Value": "5337 HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "5337 HWY 43 LOT 27",
+            "Corrected Value": "5337 HWY 43",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Original Value": "11304 SOUTHEAST BAGDAD ROAD",
+            "Corrected Value": "11304 SE BAGDAD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Original Value": "302 SOUTH MAIN",
+            "Corrected Value": "302 S MAIN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "address",
+            "Original Value": "920 SOUTH CHEROKEE AVENUE",
+            "Corrected Value": "920 S CHEROKEE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Original Value": "1900 THOMAS LANE APT 6",
+            "Corrected Value": "1900 THOMAS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "address",
+            "Original Value": "119 EAST MAIN STREET",
+            "Corrected Value": "119 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "lat",
+            "Original Value": "32.7836707",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "lon",
+            "Original Value": "-96.7483125",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "lat",
+            "Original Value": "32.798242",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "lon",
+            "Original Value": "-96.7868005",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "lat",
+            "Original Value": "32.8665474",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "lon",
+            "Original Value": "-97.3017177",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "lat",
+            "Original Value": "32.9188804",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "lon",
+            "Original Value": "-96.9230313",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "lat",
+            "Original Value": "33.4433341",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "lon",
+            "Original Value": "-82.0293013",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "lat",
+            "Original Value": "33.4433341",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "lon",
+            "Original Value": "-82.0293013",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "lat",
+            "Original Value": "33.7034883",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "lon",
+            "Original Value": "73.0932554",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "lat",
+            "Original Value": "35.7802789",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "lon",
+            "Original Value": "-119.2437782",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "lon",
+            "Original Value": "-82.7606706",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "lat",
+            "Original Value": "36.8770521",
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "lon",
+            "Original Value": "-76.6000214",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "lat",
+            "Original Value": "39.3134603",
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "lat",
+            "Original Value": "41.4274421",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "lon",
+            "Original Value": "-87.3366093",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "lat",
+            "Original Value": "41.526384",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Original Value": "-88.0933016",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "lat",
+            "Original Value": "41.8839246",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "lon",
+            "Original Value": "-87.6385295",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 535,
+            "Column": "lat",
+            "Original Value": "41.8912837",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 535,
+            "Column": "lon",
+            "Original Value": "-87.6353812",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "lat",
+            "Original Value": "42.1039409",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "lon",
+            "Original Value": "-87.9592038",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "lat",
+            "Original Value": "42.1540252",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "lon",
+            "Original Value": "-88.1354523",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "lat",
+            "Original Value": "42.1774539",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "lon",
+            "Original Value": "-73.5722481",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 539,
+            "Column": "lat",
+            "Original Value": "42.3177069",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 539,
+            "Column": "lon",
+            "Original Value": "-83.0271003",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "1760818",
+            "Corrected Value": "1760818_001",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RESTORE AND REDEEMED APT 4"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MANOR APT 12"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RESTORE AND REDEEMED APT 7"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SPORTS COMPLEX"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ROWAN DRIVE"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "200 STEELE LANE"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "54A OAK HILL DR"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SHAMROCK LANE"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "134WARNALL CIRCLE"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CURTIN AVENUE"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PARK PLACE LOT 14"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "119TH ROAD"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TP LOT 63"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RESTORED AND REDEEMED APT 6"
+        },
+        {
+            "Row": 387,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LOST CREEK MANOR STREET APT 16"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LOST CREEK MANOR STREET APT 13"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CROW ROAD"
+        },
+        {
+            "Row": 519,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PARK PLACE LOT 51"
+        },
+        {
+            "Row": 521,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "8753"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TP TRAILER PARK LOT 44"
+        },
+        {
+            "Row": 30,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "32.7836707"
+        },
+        {
+            "Row": 30,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-96.7483125"
+        },
+        {
+            "Row": 30,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-96.7483125"
+        },
+        {
+            "Row": 31,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "32.798242"
+        },
+        {
+            "Row": 31,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-96.7868005"
+        },
+        {
+            "Row": 31,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-96.7868005"
+        },
+        {
+            "Row": 32,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "32.8665474"
+        },
+        {
+            "Row": 32,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-97.3017177"
+        },
+        {
+            "Row": 32,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-97.3017177"
+        },
+        {
+            "Row": 33,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "32.9188804"
+        },
+        {
+            "Row": 33,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-96.9230313"
+        },
+        {
+            "Row": 33,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-96.9230313"
+        },
+        {
+            "Row": 34,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "33.4433341"
+        },
+        {
+            "Row": 34,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-82.0293013"
+        },
+        {
+            "Row": 34,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-82.0293013"
+        },
+        {
+            "Row": 35,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "33.4433341"
+        },
+        {
+            "Row": 35,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-82.0293013"
+        },
+        {
+            "Row": 35,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-82.0293013"
+        },
+        {
+            "Row": 36,
+            "Column": "lat",
+            "Error": "Latitude for MO must be between 35.995683 and 40.613639",
+            "Value": "33.7034883"
+        },
+        {
+            "Row": 36,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "73.0932554"
+        },
+        {
+            "Row": 36,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "73.0932554"
+        },
+        {
+            "Row": 37,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "35.7802789"
+        },
+        {
+            "Row": 37,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-119.2437782"
+        },
+        {
+            "Row": 37,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-119.2437782"
+        },
+        {
+            "Row": 436,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-82.7606706"
+        },
+        {
+            "Row": 436,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "36.8770521"
+        },
+        {
+            "Row": 529,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-76.6000214"
+        },
+        {
+            "Row": 529,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "39.3134603"
+        },
+        {
+            "Row": 532,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "41.4274421"
+        },
+        {
+            "Row": 532,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-87.3366093"
+        },
+        {
+            "Row": 532,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-87.3366093"
+        },
+        {
+            "Row": 533,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "41.526384"
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-88.0933016"
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-88.0933016"
+        },
+        {
+            "Row": 534,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "41.8839246"
+        },
+        {
+            "Row": 534,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-87.6385295"
+        },
+        {
+            "Row": 534,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-87.6385295"
+        },
+        {
+            "Row": 535,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "41.8912837"
+        },
+        {
+            "Row": 535,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-87.6353812"
+        },
+        {
+            "Row": 535,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-87.6353812"
+        },
+        {
+            "Row": 536,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "42.1039409"
+        },
+        {
+            "Row": 536,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-87.9592038"
+        },
+        {
+            "Row": 536,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "-87.9592038"
+        },
+        {
+            "Row": 537,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "42.1540252"
+        },
+        {
+            "Row": 537,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-88.1354523"
+        },
+        {
+            "Row": 537,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-88.1354523"
+        },
+        {
+            "Row": 538,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "42.1774539"
+        },
+        {
+            "Row": 538,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-73.5722481"
+        },
+        {
+            "Row": 538,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-73.5722481"
+        },
+        {
+            "Row": 539,
+            "Column": "lat",
+            "Error": "Latitude for MO must be positive",
+            "Value": "42.3177069"
+        },
+        {
+            "Row": 539,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-83.0271003"
+        },
+        {
+            "Row": 539,
+            "Column": "lon",
+            "Error": "Longitude for MO must be between -95.774704 and -89.098843",
+            "Value": "-83.0271003"
+        },
+        {
+            "Row": 334,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1760818_001",
+            "Value": "1760818"
+        },
+        {
+            "Row": 312,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1875695"
+        },
+        {
+            "Row": 499,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1895879"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1932248"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2165566"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2172807"
+        },
+        {
+            "Row": 120,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2292340"
+        },
+        {
+            "Row": 459,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2472322"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2165566)",
+            "Value": "2165566"
+        },
+        {
+            "Row": 47,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2165566)",
+            "Value": "2364891"
+        },
+        {
+            "Row": 48,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2165566)",
+            "Value": "2364892"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2172807)",
+            "Value": "2172807"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1932248)",
+            "Value": "1932248"
+        },
+        {
+            "Row": 103,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2430231)",
+            "Value": "2434221"
+        },
+        {
+            "Row": 120,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2292340)",
+            "Value": "2292340"
+        },
+        {
+            "Row": 191,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2401841)",
+            "Value": "2402823"
+        },
+        {
+            "Row": 312,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1875695)",
+            "Value": "1875695"
+        },
+        {
+            "Row": 410,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1981880)",
+            "Value": "1982003"
+        },
+        {
+            "Row": 459,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2472322)",
+            "Value": "2472322"
+        },
+        {
+            "Row": 499,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1895879)",
+            "Value": "1895879"
+        },
+        {
+            "Row": 501,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2023445)",
+            "Value": "2106046"
+        },
+        {
+            "Row": 503,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2145283)",
+            "Value": "2217382"
+        },
+        {
+            "Row": 505,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2145283)",
+            "Value": "2453589"
+        },
+        {
+            "Row": 506,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2223952)",
+            "Value": "2466025"
+        },
+        {
+            "Row": 509,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1705102)",
+            "Value": "1756261"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 521,
+            "address": "8753",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 312,
+            "customer": "1875695",
+            "lat": "36.8401314",
+            "lon": "-94.6109657",
+            "address": "1303 CHEROKEE AVENUE",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 30.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 499,
+            "customer": "1895879",
+            "lat": "36.9939755",
+            "lon": "-94.5518646",
+            "address": "5337 MISSOURI 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 84,
+            "customer": "1932248",
+            "lat": "36.7883833",
+            "lon": "-94.6090669",
+            "address": "2326 ROWAN DRIVE",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 46,
+            "customer": "2165566",
+            "lat": "36.7413226",
+            "lon": "-94.4129644",
+            "address": "203 W BARLOW STREET",
+            "city": "GOODMAN",
+            "state": "MO",
+            "zip": "64843",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 65,
+            "customer": "2172807",
+            "lat": "36.7789623",
+            "lon": "-94.5354437",
+            "address": "6308 COUNTY HIGHWAY DD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 60.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 120,
+            "customer": "2292340",
+            "lat": "36.8077597",
+            "lon": "-94.7240169",
+            "address": "102 WOLF ROAD",
+            "city": "WYANDOTTE",
+            "state": "OK",
+            "zip": "74370",
+            "download": 15.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 459,
+            "customer": "2472322",
+            "lat": "36.8971655",
+            "lon": "-94.5927515",
+            "address": "2662 KENTUCKY ROAD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 46,
+            "customer": "2165566",
+            "lat": "36.7413226",
+            "lon": "-94.4129644",
+            "address": "203 W BARLOW STREET",
+            "city": "GOODMAN",
+            "state": "MO",
+            "zip": "64843",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2165566)"
+        },
+        {
+            "OrigRowNum": 47,
+            "customer": "2364891",
+            "lat": "36.7413226",
+            "lon": "-94.4129644",
+            "address": "203 W BARLOW STREET",
+            "city": "GOODMAN",
+            "state": "MO",
+            "zip": "64843",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2165566)"
+        },
+        {
+            "OrigRowNum": 48,
+            "customer": "2364892",
+            "lat": "36.7413226",
+            "lon": "-94.4129644",
+            "address": "203 W BARLOW STREET",
+            "city": "GOODMAN",
+            "state": "MO",
+            "zip": "64843",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2165566)"
+        },
+        {
+            "OrigRowNum": 65,
+            "customer": "2172807",
+            "lat": "36.7789623",
+            "lon": "-94.5354437",
+            "address": "6308 COUNTY HIGHWAY DD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 60.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2172807)"
+        },
+        {
+            "OrigRowNum": 84,
+            "customer": "1932248",
+            "lat": "36.7883833",
+            "lon": "-94.6090669",
+            "address": "2326 ROWAN DRIVE",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1932248)"
+        },
+        {
+            "OrigRowNum": 103,
+            "customer": "2434221",
+            "lat": "36.79847",
+            "lon": "-94.5603783",
+            "address": "19694 CROW ROAD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2430231)"
+        },
+        {
+            "OrigRowNum": 120,
+            "customer": "2292340",
+            "lat": "36.8077597",
+            "lon": "-94.7240169",
+            "address": "102 WOLF ROAD",
+            "city": "WYANDOTTE",
+            "state": "OK",
+            "zip": "74370",
+            "download": 15.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2292340)"
+        },
+        {
+            "OrigRowNum": 191,
+            "customer": "2402823",
+            "lat": "36.8309358",
+            "lon": "-94.5984605",
+            "address": "17746 ANTELOPE ROAD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2401841)"
+        },
+        {
+            "OrigRowNum": 312,
+            "customer": "1875695",
+            "lat": "36.8401314",
+            "lon": "-94.6109657",
+            "address": "1303 CHEROKEE AVENUE",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 30.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1875695)"
+        },
+        {
+            "OrigRowNum": 410,
+            "customer": "1982003",
+            "lat": "36.8482029",
+            "lon": "-94.6081997",
+            "address": "907 THURMAN STREET",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 60.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1981880)"
+        },
+        {
+            "OrigRowNum": 459,
+            "customer": "2472322",
+            "lat": "36.8971655",
+            "lon": "-94.5927515",
+            "address": "2662 KENTUCKY ROAD",
+            "city": "SENECA",
+            "state": "MO",
+            "zip": "64865",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2472322)"
+        },
+        {
+            "OrigRowNum": 499,
+            "customer": "1895879",
+            "lat": "36.9939755",
+            "lon": "-94.5518646",
+            "address": "5337 MISSOURI 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1895879)"
+        },
+        {
+            "OrigRowNum": 501,
+            "customer": "2106046",
+            "lat": "36.9940183",
+            "lon": "-94.5510499",
+            "address": "5337 HWY 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 60.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2023445)"
+        },
+        {
+            "OrigRowNum": 503,
+            "customer": "2217382",
+            "lat": "36.9940183",
+            "lon": "-94.5510499",
+            "address": "5337 STATE HIGHWAY 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2145283)"
+        },
+        {
+            "OrigRowNum": 505,
+            "customer": "2453589",
+            "lat": "36.9940183",
+            "lon": "-94.5510499",
+            "address": "5337 STATE HIGHWAY 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2145283)"
+        },
+        {
+            "OrigRowNum": 506,
+            "customer": "2466025",
+            "lat": "36.9940183",
+            "lon": "-94.5510499",
+            "address": "5337 STATE HIGHWAY 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 60.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2223952)"
+        },
+        {
+            "OrigRowNum": 509,
+            "customer": "1756261",
+            "lat": "36.9945622",
+            "lon": "-94.5497083",
+            "address": "5337 HWY 43",
+            "city": "JOPLIN",
+            "state": "MO",
+            "zip": "64804",
+            "download": 30.0,
+            "upload": 6.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1705102)"
+        }
+    ],
+    "Smarty Corrections": []
+}

@@ -1,0 +1,3310 @@
+{
+    "Summary": {
+        "Total Rows Processed": 453,
+        "Rows with Corrections": 102,
+        "Rows with Errors": 102,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 4,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 193,
+        "Total Errors": 14,
+        "Street Ending Errors": 91,
+        "Validation Time (seconds)": 0.83,
+        "Validation Date": "2025-07-30 13:12:14",
+        "Addresses Sent to Smarty": 91,
+        "Successful Corrections": 91,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.47,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 447,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 447,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "5932 S 40 CRT",
+            "Corrected Value": "5932 S 40 CT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "2080 N JEFF DAVIS WARD LINE",
+            "Corrected Value": "2080 N JEFF DAVIS WARD LINE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "4401 HWY 108 S",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "4359 WEST TANK FARM ROAD",
+            "Corrected Value": "4359 W TANK FARM ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "6121 HWY 27 S",
+            "Corrected Value": "6121 HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "5830 SOUTH 40 COURT",
+            "Corrected Value": "5830 S 40 COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "200 WEST SALE RD",
+            "Corrected Value": "200 W SALE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "607 NORTH LIGHTNER AVENUE",
+            "Corrected Value": "607 N LIGHTNER AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "129 WEST PRIEN LAKE RD",
+            "Corrected Value": "129 W PRIEN LAKE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "4902 IHLES RD SUITE A",
+            "Corrected Value": "4902 IHLES RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "3307 EAST NAPOLEON ST",
+            "Corrected Value": "3307 E NAPOLEON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "4244 WEST TANK FARM RD",
+            "Corrected Value": "4244 W TANK FARM RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "1548 EAST NAPOLEON ST",
+            "Corrected Value": "1548 E NAPOLEON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Original Value": "2070 EAST HOLBROOK CIRCLE",
+            "Corrected Value": "2070 E HOLBROOK CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "6170 HIGHWAY 90 E",
+            "Corrected Value": "6170 HIGHWAY 90 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 378,
+            "Column": "address",
+            "Original Value": "120 EAST MCNEESE STREET",
+            "Corrected Value": "120 E MCNEESE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "4401 LA108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "625 MARTIN LUTHER KING HWY",
+            "Corrected Value": "625 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Original Value": "2200 BAYOU DINDE",
+            "Corrected Value": "2200 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "4401 HWY 108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "5644 HWY 14 E",
+            "Corrected Value": "5644 HIGHWAY 14 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "17825 LA383",
+            "Corrected Value": "17825 HIGHWAY 383",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "5454 HWY 3059",
+            "Corrected Value": "5454 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "5817 SADDLE DIVE",
+            "Corrected Value": "5817 SADDLE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "601 W HIGHWAY 90",
+            "Corrected Value": "601 W HIGHWAY 90",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "4914 LA1133",
+            "Corrected Value": "4914 HIGHWAY 1133",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "4101 HIGHWAY 108  S",
+            "Corrected Value": "4101 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "900 LA108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "zip",
+            "Original Value": "70634",
+            "Corrected Value": "70634",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "5964 HWY 171",
+            "Corrected Value": "5964 HIGHWAY 171",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "701 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "address",
+            "Original Value": "4401 LA108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "zip",
+            "Original Value": "70607",
+            "Corrected Value": "70607",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "7680 GULF HWY",
+            "Corrected Value": "7680 GULF HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "701 S MLK HWY",
+            "Corrected Value": "701 S MLK HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "900 LA108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "900 E HWY 108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "701 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "4856 HWY 397",
+            "Corrected Value": "4856 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "254 US165",
+            "Corrected Value": "254 HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "70640",
+            "Corrected Value": "70640",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "1311 HIGHWAY 165",
+            "Corrected Value": "1311 HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "17853 HWY 383",
+            "Corrected Value": "17853 HIGHWAY 383",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "900 E HIGHWAY 108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "5012 LA397",
+            "Corrected Value": "5012 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "5842 HWY 14 E",
+            "Corrected Value": "5842 HIGHWAY 14 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "5460 HWY 3059",
+            "Corrected Value": "5460 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "2200 BAYOUN DINDE PASS",
+            "Corrected Value": "2200 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "2200 BAYOU DINDE PASS",
+            "Corrected Value": "2200 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "zip",
+            "Original Value": "70605",
+            "Corrected Value": "70605",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "205 W COLLEGE",
+            "Corrected Value": "205 W COLLEGE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "5408 LA3059",
+            "Corrected Value": "5408 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "zip",
+            "Original Value": "70607",
+            "Corrected Value": "70607",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Original Value": "9008 HWY 397",
+            "Corrected Value": "9008 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "701 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "1601 LA108",
+            "Corrected Value": "1601 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "4401 HWY 108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "4401 LA108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "4401 LA108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "4914 LA1133",
+            "Corrected Value": "4914 HIGHWAY 1133",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "3300 BAYOU DINDE PASS",
+            "Corrected Value": "3300 BAYOU DINDE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "4101 LA108",
+            "Corrected Value": "4101 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "4101 HWY 108",
+            "Corrected Value": "4101 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "629 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "629 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "6407 HWY 3059",
+            "Corrected Value": "6407 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "4401 S CITIES SERVICE HWY",
+            "Corrected Value": "4401 S CITIES SERVICE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "701 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "2200 BAYOU DINDE PASS",
+            "Corrected Value": "2200 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "2574 LA3059",
+            "Corrected Value": "2574 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "2200 BAYOU DINDE PASS",
+            "Corrected Value": "2200 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "900 HIGHWAY 108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "1801 LA108",
+            "Corrected Value": "1801 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "zip",
+            "Original Value": "70664",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "900 E HWY 108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "3641 LA378",
+            "Corrected Value": "3641 HIGHWAY 378",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Original Value": "1801 E HWY 108",
+            "Corrected Value": "1801 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "zip",
+            "Original Value": "70607",
+            "Corrected Value": "70607",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "3415 HWY 14",
+            "Corrected Value": "3415 HIGHWAY 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "4401 HIGHWAY 108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 339,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Original Value": "5830 LA3059",
+            "Corrected Value": "5830 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "3748 HIGHWAY 3059",
+            "Corrected Value": "3748 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "2600 HIGHWAY 397",
+            "Corrected Value": "2600 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Original Value": "5611 LA14",
+            "Corrected Value": "5611 HIGHWAY 14 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 370,
+            "Column": "zip",
+            "Original Value": "70652",
+            "Corrected Value": "70652",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 370,
+            "Column": "address",
+            "Original Value": "12733 HIGHWAY 171",
+            "Corrected Value": "12733 HIGHWAY 171",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "2626 HIGHWAY 397",
+            "Corrected Value": "2626 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "732 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "732 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "101 W HWY 90",
+            "Corrected Value": "101 W HIGHWAY 90",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "zip",
+            "Original Value": "70631",
+            "Corrected Value": "70631",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Original Value": "3 BB1 LA 238",
+            "Corrected Value": "3 BB1 LA 238",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "zip",
+            "Original Value": "70546",
+            "Corrected Value": "70546",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "1558 LA1126",
+            "Corrected Value": "1558 HIGHWAY 1126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "zip",
+            "Original Value": "70601",
+            "Corrected Value": "70601",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Value": "701 S MARTIN LUTHER KING HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 400,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Original Value": "1901 BAYOU DINDE PASS",
+            "Corrected Value": "1901 BAYOU DINDE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "5317 HWY 397",
+            "Corrected Value": "5317 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "8021 HIGHWAY 27",
+            "Corrected Value": "8021 HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "zip",
+            "Original Value": "70663",
+            "Corrected Value": "70663",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "120 E BURTON",
+            "Corrected Value": "120 E BURTON ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "zip",
+            "Original Value": "70664",
+            "Corrected Value": "70663",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Original Value": "3525 CITIES SERVICES HWY",
+            "Corrected Value": "3525 N CITIES SERVICE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "4401 LA108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "zip",
+            "Original Value": "70630",
+            "Corrected Value": "70630",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "5140 LA397",
+            "Corrected Value": "5140 HIGHWAY 397",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "zip",
+            "Original Value": "70647",
+            "Corrected Value": "70647",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "5628 HWY 14 E",
+            "Corrected Value": "5628 HIGHWAY 14 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "4401 LA 108",
+            "Corrected Value": "4401 HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "zip",
+            "Original Value": "70665",
+            "Corrected Value": "70665",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "900 LA108",
+            "Corrected Value": "900 E HIGHWAY 108",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "zip",
+            "Original Value": "70669",
+            "Corrected Value": "70669",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "3501 LA378",
+            "Corrected Value": "3501 HIGHWAY 378",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "zip",
+            "Original Value": "70615",
+            "Corrected Value": "70615",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "6443 HWY 3059",
+            "Corrected Value": "6443 HIGHWAY 3059",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 19215"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BROAD ST3RD AVE"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HWY 14OPELOUSAS"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LAKE STMCNEESE ST"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PUJOL RD MARK LEBLEU RD"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RYAN STCOLLEGE ST"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MCNEESE ST5TH AVE"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "JENKINS FARM RD"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DUPONT BUILDING INC"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CITGO PARK HWY 1133"
+        },
+        {
+            "Row": 20,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Customer 18)",
+            "Value": "Customer 19"
+        },
+        {
+            "Row": 396,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Customer 231)",
+            "Value": "Customer 396"
+        },
+        {
+            "Row": 255,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Customer 67)",
+            "Value": "Customer 255"
+        },
+        {
+            "Row": 399,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Customer 261)",
+            "Value": "Customer 399"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA108"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "625 MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2200 BAYOU DINDE"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 HWY 108"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5644 HWY 14 E"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17825 LA383"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5454 HWY 3059"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5932 S 40 CRT"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5817 SADDLE DIVE"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "601 W HIGHWAY 90"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2080 N JEFF DAVIS WARD LINE"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4914 LA1133"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4101 HIGHWAY 108 S"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 LA108"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 HWY 108 S"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5964 HWY 171"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 85,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA108"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7680 GULF HWY"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MLK HWY"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 LA108"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 E HWY 108"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4856 HWY 397"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "254 US165"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6121 HWY 27 S"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1311 HIGHWAY 165"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17853 HWY 383"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 E HIGHWAY 108"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5012 LA397"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5842 HWY 14 E"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5460 HWY 3059"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2200 BAYOUN DINDE PASS"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2200 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 W COLLEGE"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5408 LA3059"
+        },
+        {
+            "Row": 225,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9008 HWY 397"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1601 LA108"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 HWY 108"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA108"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA108"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4914 LA1133"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3300 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4101 LA108"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4101 HWY 108"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "629 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6407 HWY 3059"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 S CITIES SERVICE HWY"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2200 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2574 LA3059"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2200 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 HIGHWAY 108"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6170 HIGHWAY 90 E"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1801 LA108"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 E HWY 108"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3641 LA378"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1801 E HWY 108"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3415 HWY 14"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 HIGHWAY 108"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5830 LA3059"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3748 HIGHWAY 3059"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2600 HIGHWAY 397"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5611 LA14"
+        },
+        {
+            "Row": 370,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12733 HIGHWAY 171"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2626 HIGHWAY 397"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "732 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "101 W HWY 90"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3 BB1 LA 238"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1558 LA1126"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 S MARTIN LUTHER KING HWY"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1901 BAYOU DINDE PASS"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5317 HWY 397"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8021 HIGHWAY 27"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "120 E BURTON"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3525 CITIES SERVICES HWY"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA108"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5140 LA397"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5628 HWY 14 E"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4401 LA 108"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "900 LA108"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3501 LA378"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6443 HWY 3059"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 19215"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 19215"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 20,
+            "customer": "Customer 19",
+            "lat": 30.213037,
+            "lon": -93.2398421,
+            "address": "1161 W SALLIER ST",
+            "city": "LAKE CHARLES",
+            "state": "LA",
+            "zip": "70601",
+            "download": 500.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Customer 18)"
+        },
+        {
+            "OrigRowNum": 396,
+            "customer": "Customer 396",
+            "lat": 30.21651283,
+            "lon": -93.30864228,
+            "address": "1901 BAYOU DINDE PASS",
+            "city": "WESTLAKE",
+            "state": "LA",
+            "zip": "70669",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Customer 231)"
+        },
+        {
+            "OrigRowNum": 255,
+            "customer": "Customer 255",
+            "lat": 30.21651285,
+            "lon": -93.30864204,
+            "address": "1901 BAYOU DINDE PASS",
+            "city": "WESTLAKE",
+            "state": "LA",
+            "zip": "70669",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Customer 67)"
+        },
+        {
+            "OrigRowNum": 399,
+            "customer": "Customer 399",
+            "lat": 30.22938274,
+            "lon": -93.18012759,
+            "address": "701 S MARTIN LUTHER KING HWY",
+            "city": "LAKE CHARLES",
+            "state": "LA",
+            "zip": "70601",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Customer 261)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4,
+            "Original Address": "4401 LA108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.495086"
+        },
+        {
+            "OrigRowNum": 7,
+            "Original Address": "625 MARTIN LUTHER KING HWY",
+            "Corrected Address": "625 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.496477"
+        },
+        {
+            "OrigRowNum": 18,
+            "Original Address": "2200 BAYOU DINDE",
+            "Corrected Address": "2200 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.496916"
+        },
+        {
+            "OrigRowNum": 24,
+            "Original Address": "4401 HWY 108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.497278"
+        },
+        {
+            "OrigRowNum": 27,
+            "Original Address": "5644 HWY 14 E",
+            "Corrected Address": "5644 HIGHWAY 14 E",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.497635"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "17825 LA383",
+            "Corrected Address": "17825 HIGHWAY 383",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.497968"
+        },
+        {
+            "OrigRowNum": 35,
+            "Original Address": "5454 HWY 3059",
+            "Corrected Address": "5454 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.498262"
+        },
+        {
+            "OrigRowNum": 37,
+            "Original Address": "5932 S 40 CRT",
+            "Corrected Address": "5932 S 40 CT",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.498545"
+        },
+        {
+            "OrigRowNum": 40,
+            "Original Address": "5817 SADDLE DIVE",
+            "Corrected Address": "5817 SADDLE DR",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.498826"
+        },
+        {
+            "OrigRowNum": 41,
+            "Original Address": "601 W HIGHWAY 90",
+            "Corrected Address": "601 W HIGHWAY 90",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.499110"
+        },
+        {
+            "OrigRowNum": 49,
+            "Original Address": "2080 N JEFF DAVIS WARD LINE",
+            "Corrected Address": "2080 N JEFF DAVIS WARD LINE RD",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.499392"
+        },
+        {
+            "OrigRowNum": 53,
+            "Original Address": "4914 LA1133",
+            "Corrected Address": "4914 HIGHWAY 1133",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.499680"
+        },
+        {
+            "OrigRowNum": 57,
+            "Original Address": "4101 HIGHWAY 108  S",
+            "Corrected Address": "4101 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.499975"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "900 LA108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.500237"
+        },
+        {
+            "OrigRowNum": 60,
+            "Original Address": "4401 HWY 108 S",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.500518"
+        },
+        {
+            "OrigRowNum": 68,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.500798"
+        },
+        {
+            "OrigRowNum": 78,
+            "Original Address": "5964 HWY 171",
+            "Corrected Address": "5964 HIGHWAY 171",
+            "Original ZIP": "70634",
+            "Corrected ZIP": "70634",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.501062"
+        },
+        {
+            "OrigRowNum": 79,
+            "Original Address": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "701 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.501323"
+        },
+        {
+            "OrigRowNum": 85,
+            "Original Address": "4401 LA108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.501583"
+        },
+        {
+            "OrigRowNum": 86,
+            "Original Address": "7680 GULF HWY",
+            "Corrected Address": "7680 GULF HWY",
+            "Original ZIP": "70607",
+            "Corrected ZIP": "70607",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.501844"
+        },
+        {
+            "OrigRowNum": 88,
+            "Original Address": "701 S MLK HWY",
+            "Corrected Address": "701 S MLK HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.502587"
+        },
+        {
+            "OrigRowNum": 91,
+            "Original Address": "900 LA108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.502959"
+        },
+        {
+            "OrigRowNum": 93,
+            "Original Address": "900 E HWY 108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.503284"
+        },
+        {
+            "OrigRowNum": 102,
+            "Original Address": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "701 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.503604"
+        },
+        {
+            "OrigRowNum": 115,
+            "Original Address": "4856 HWY 397",
+            "Corrected Address": "4856 HIGHWAY 397",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.503930"
+        },
+        {
+            "OrigRowNum": 121,
+            "Original Address": "254 US165",
+            "Corrected Address": "254 HIGHWAY 165",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.504237"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "6121 HWY 27 S",
+            "Corrected Address": "6121 HIGHWAY 27",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.504539"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "1311 HIGHWAY 165",
+            "Corrected Address": "1311 HIGHWAY 165",
+            "Original ZIP": "70640",
+            "Corrected ZIP": "70640",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.504860"
+        },
+        {
+            "OrigRowNum": 140,
+            "Original Address": "17853 HWY 383",
+            "Corrected Address": "17853 HIGHWAY 383",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.505164"
+        },
+        {
+            "OrigRowNum": 157,
+            "Original Address": "900 E HIGHWAY 108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.505601"
+        },
+        {
+            "OrigRowNum": 158,
+            "Original Address": "5012 LA397",
+            "Corrected Address": "5012 HIGHWAY 397",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.505903"
+        },
+        {
+            "OrigRowNum": 186,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.506214"
+        },
+        {
+            "OrigRowNum": 194,
+            "Original Address": "5842 HWY 14 E",
+            "Corrected Address": "5842 HIGHWAY 14 E",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.506516"
+        },
+        {
+            "OrigRowNum": 198,
+            "Original Address": "5460 HWY 3059",
+            "Corrected Address": "5460 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.506821"
+        },
+        {
+            "OrigRowNum": 208,
+            "Original Address": "2200 BAYOUN DINDE PASS",
+            "Corrected Address": "2200 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.507112"
+        },
+        {
+            "OrigRowNum": 209,
+            "Original Address": "2200 BAYOU DINDE PASS",
+            "Corrected Address": "2200 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.507415"
+        },
+        {
+            "OrigRowNum": 220,
+            "Original Address": "205 W COLLEGE",
+            "Corrected Address": "205 W COLLEGE ST",
+            "Original ZIP": "70605",
+            "Corrected ZIP": "70605",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.507710"
+        },
+        {
+            "OrigRowNum": 224,
+            "Original Address": "5408 LA3059",
+            "Corrected Address": "5408 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.508002"
+        },
+        {
+            "OrigRowNum": 225,
+            "Original Address": "9008 HWY 397",
+            "Corrected Address": "9008 HIGHWAY 397",
+            "Original ZIP": "70607",
+            "Corrected ZIP": "70607",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.508260"
+        },
+        {
+            "OrigRowNum": 229,
+            "Original Address": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "701 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.508510"
+        },
+        {
+            "OrigRowNum": 231,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.508754"
+        },
+        {
+            "OrigRowNum": 234,
+            "Original Address": "1601 LA108",
+            "Corrected Address": "1601 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.509012"
+        },
+        {
+            "OrigRowNum": 235,
+            "Original Address": "4401 HWY 108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.509258"
+        },
+        {
+            "OrigRowNum": 236,
+            "Original Address": "4401 LA108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.509502"
+        },
+        {
+            "OrigRowNum": 238,
+            "Original Address": "4401 LA108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.509761"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.510009"
+        },
+        {
+            "OrigRowNum": 240,
+            "Original Address": "4914 LA1133",
+            "Corrected Address": "4914 HIGHWAY 1133",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.510258"
+        },
+        {
+            "OrigRowNum": 243,
+            "Original Address": "3300 BAYOU DINDE PASS",
+            "Corrected Address": "3300 BAYOU DINDE RD",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.510507"
+        },
+        {
+            "OrigRowNum": 246,
+            "Original Address": "4101 LA108",
+            "Corrected Address": "4101 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.510754"
+        },
+        {
+            "OrigRowNum": 247,
+            "Original Address": "4101 HWY 108",
+            "Corrected Address": "4101 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.511007"
+        },
+        {
+            "OrigRowNum": 253,
+            "Original Address": "629 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "629 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.511254"
+        },
+        {
+            "OrigRowNum": 254,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.511505"
+        },
+        {
+            "OrigRowNum": 255,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.511750"
+        },
+        {
+            "OrigRowNum": 257,
+            "Original Address": "6407 HWY 3059",
+            "Corrected Address": "6407 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.512018"
+        },
+        {
+            "OrigRowNum": 258,
+            "Original Address": "4401 S CITIES SERVICE HWY",
+            "Corrected Address": "4401 S CITIES SERVICE HWY",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.512266"
+        },
+        {
+            "OrigRowNum": 261,
+            "Original Address": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "701 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.512510"
+        },
+        {
+            "OrigRowNum": 263,
+            "Original Address": "2200 BAYOU DINDE PASS",
+            "Corrected Address": "2200 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.512777"
+        },
+        {
+            "OrigRowNum": 272,
+            "Original Address": "2574 LA3059",
+            "Corrected Address": "2574 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.513038"
+        },
+        {
+            "OrigRowNum": 289,
+            "Original Address": "2200 BAYOU DINDE PASS",
+            "Corrected Address": "2200 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.513300"
+        },
+        {
+            "OrigRowNum": 295,
+            "Original Address": "900 HIGHWAY 108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.513547"
+        },
+        {
+            "OrigRowNum": 312,
+            "Original Address": "6170 HIGHWAY 90 E",
+            "Corrected Address": "6170 HIGHWAY 90 E",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.513807"
+        },
+        {
+            "OrigRowNum": 315,
+            "Original Address": "1801 LA108",
+            "Corrected Address": "1801 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.514019"
+        },
+        {
+            "OrigRowNum": 316,
+            "Original Address": "900 E HWY 108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70664",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.514226"
+        },
+        {
+            "OrigRowNum": 317,
+            "Original Address": "3641 LA378",
+            "Corrected Address": "3641 HIGHWAY 378",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.514441"
+        },
+        {
+            "OrigRowNum": 321,
+            "Original Address": "1801 E HWY 108",
+            "Corrected Address": "1801 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.514650"
+        },
+        {
+            "OrigRowNum": 327,
+            "Original Address": "3415 HWY 14",
+            "Corrected Address": "3415 HIGHWAY 14",
+            "Original ZIP": "70607",
+            "Corrected ZIP": "70607",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.514854"
+        },
+        {
+            "OrigRowNum": 329,
+            "Original Address": "4401 HIGHWAY 108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.515068"
+        },
+        {
+            "OrigRowNum": 339,
+            "Original Address": "5830 LA3059",
+            "Corrected Address": "5830 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.515276"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "3748 HIGHWAY 3059",
+            "Corrected Address": "3748 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.515489"
+        },
+        {
+            "OrigRowNum": 345,
+            "Original Address": "2600 HIGHWAY 397",
+            "Corrected Address": "2600 HIGHWAY 397",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.515699"
+        },
+        {
+            "OrigRowNum": 369,
+            "Original Address": "5611 LA14",
+            "Corrected Address": "5611 HIGHWAY 14 E",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.515914"
+        },
+        {
+            "OrigRowNum": 370,
+            "Original Address": "12733 HIGHWAY 171",
+            "Corrected Address": "12733 HIGHWAY 171",
+            "Original ZIP": "70652",
+            "Corrected ZIP": "70652",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.516122"
+        },
+        {
+            "OrigRowNum": 371,
+            "Original Address": "2626 HIGHWAY 397",
+            "Corrected Address": "2626 HIGHWAY 397",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.516339"
+        },
+        {
+            "OrigRowNum": 373,
+            "Original Address": "732 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "732 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.516552"
+        },
+        {
+            "OrigRowNum": 381,
+            "Original Address": "101 W HWY 90",
+            "Corrected Address": "101 W HIGHWAY 90",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.516756"
+        },
+        {
+            "OrigRowNum": 393,
+            "Original Address": "3 BB1 LA 238",
+            "Corrected Address": "3 BB1 LA 238",
+            "Original ZIP": "70631",
+            "Corrected ZIP": "70631",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.516971"
+        },
+        {
+            "OrigRowNum": 396,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.517177"
+        },
+        {
+            "OrigRowNum": 398,
+            "Original Address": "1558 LA1126",
+            "Corrected Address": "1558 HIGHWAY 1126",
+            "Original ZIP": "70546",
+            "Corrected ZIP": "70546",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.517385"
+        },
+        {
+            "OrigRowNum": 399,
+            "Original Address": "701 S MARTIN LUTHER KING HWY",
+            "Corrected Address": "701 S MARTIN LUTHER KING HWY",
+            "Original ZIP": "70601",
+            "Corrected ZIP": "70601",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.517595"
+        },
+        {
+            "OrigRowNum": 400,
+            "Original Address": "1901 BAYOU DINDE PASS",
+            "Corrected Address": "1901 BAYOU DINDE PASS",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.517803"
+        },
+        {
+            "OrigRowNum": 406,
+            "Original Address": "5317 HWY 397",
+            "Corrected Address": "5317 HIGHWAY 397",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.518021"
+        },
+        {
+            "OrigRowNum": 412,
+            "Original Address": "8021 HIGHWAY 27",
+            "Corrected Address": "8021 HIGHWAY 27",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.518228"
+        },
+        {
+            "OrigRowNum": 415,
+            "Original Address": "120 E BURTON",
+            "Corrected Address": "120 E BURTON ST",
+            "Original ZIP": "70663",
+            "Corrected ZIP": "70663",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.518433"
+        },
+        {
+            "OrigRowNum": 420,
+            "Original Address": "3525 CITIES SERVICES HWY",
+            "Corrected Address": "3525 N CITIES SERVICE HWY",
+            "Original ZIP": "70664",
+            "Corrected ZIP": "70663",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.518645"
+        },
+        {
+            "OrigRowNum": 422,
+            "Original Address": "4401 LA108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.518854"
+        },
+        {
+            "OrigRowNum": 423,
+            "Original Address": "5140 LA397",
+            "Corrected Address": "5140 HIGHWAY 397",
+            "Original ZIP": "70630",
+            "Corrected ZIP": "70630",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.519061"
+        },
+        {
+            "OrigRowNum": 424,
+            "Original Address": "5628 HWY 14 E",
+            "Corrected Address": "5628 HIGHWAY 14 E",
+            "Original ZIP": "70647",
+            "Corrected ZIP": "70647",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.519269"
+        },
+        {
+            "OrigRowNum": 426,
+            "Original Address": "4401 LA 108",
+            "Corrected Address": "4401 HIGHWAY 108",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.519477"
+        },
+        {
+            "OrigRowNum": 429,
+            "Original Address": "900 LA108",
+            "Corrected Address": "900 E HIGHWAY 108",
+            "Original ZIP": "70665",
+            "Corrected ZIP": "70665",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.519685"
+        },
+        {
+            "OrigRowNum": 434,
+            "Original Address": "3501 LA378",
+            "Corrected Address": "3501 HIGHWAY 378",
+            "Original ZIP": "70669",
+            "Corrected ZIP": "70669",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.519884"
+        },
+        {
+            "OrigRowNum": 437,
+            "Original Address": "6443 HWY 3059",
+            "Corrected Address": "6443 HIGHWAY 3059",
+            "Original ZIP": "70615",
+            "Corrected ZIP": "70615",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T13:12:14.520061"
+        }
+    ]
+}

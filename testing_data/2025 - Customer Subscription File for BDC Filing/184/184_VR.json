@@ -1,0 +1,102 @@
+{
+    "Summary": {
+        "Total Rows Processed": 725,
+        "Rows with Corrections": 0,
+        "Rows with Errors": 8,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 0,
+        "Total Errors": 8,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.59,
+        "Validation Date": "2025-08-19 11:46:50",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 725,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 725,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [],
+    "Errors": [
+        {
+            "Row": 44,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "34 FLAMINGO CIR"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "25 FLAMINGO CIRCLE"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "28 FLAMINGO CIRCLE"
+        },
+        {
+            "Row": 378,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31 FLAMINGO DR"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5 FLAMINGO CIRCLE"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1547 FLETCHERS TRAIL"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1919 FLETCHER TRAIL"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1912 FLETCHERS TRAIL"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

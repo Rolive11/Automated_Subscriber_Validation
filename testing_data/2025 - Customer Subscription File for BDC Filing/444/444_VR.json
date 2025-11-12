@@ -1,0 +1,122 @@
+{
+    "Summary": {
+        "Total Rows Processed": 4,
+        "Rows with Corrections": 2,
+        "Rows with Errors": 2,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 4,
+        "Total Errors": 0,
+        "Street Ending Errors": 2,
+        "Validation Time (seconds)": 0.35,
+        "Validation Date": "2025-07-29 19:47:08",
+        "Addresses Sent to Smarty": 2,
+        "Successful Corrections": 2,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.31,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 4,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 4,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "70537",
+            "Corrected Value": "70537",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "2165 OLD EVANGELINE HWY",
+            "Corrected Value": "2165 OLD EVANGELINE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "70543",
+            "Corrected Value": "70543",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "3634 EUNICE IOTA HWY",
+            "Corrected Value": "3634 EUNICE IOTA HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [],
+    "Street Ending Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2165 OLD EVANGELINE HWY"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3634 EUNICE IOTA HWY"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4,
+            "Original Address": "2165 OLD EVANGELINE HWY",
+            "Corrected Address": "2165 OLD EVANGELINE HWY",
+            "Original ZIP": "70537",
+            "Corrected ZIP": "70537",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-29T19:47:08.621502"
+        },
+        {
+            "OrigRowNum": 5,
+            "Original Address": "3634 EUNICE IOTA HWY",
+            "Corrected Address": "3634 EUNICE IOTA HWY",
+            "Original ZIP": "70543",
+            "Corrected ZIP": "70543",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-29T19:47:08.622772"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+135,address,Corrected address lacks valid street name after non-standard ending removal,9720 TOWERING OAKS
+170,address,Corrected address lacks valid street name after non-standard ending removal,9950 TOWERING OAKS CURVE
+262,address,Corrected address lacks valid street name after non-standard ending removal,9846 TOWERING OAKS CURVE
+15,customer,"Duplicate customer ID, renamed to 2503062_001",2503062
+23,customer,"Duplicate customer ID, identical row deleted",2503076
+176,customer,"Duplicate customer ID, renamed to 2503518_002",2503518
+178,customer,"Duplicate customer ID, identical row deleted",2503519
+185,customer,"Duplicate customer ID, renamed to 2503555_003",2503555
+253,customer,"Duplicate customer ID, identical row deleted",2503968
+258,customer,"Duplicate customer ID, identical row deleted",2503976
+269,customer,"Duplicate customer ID, renamed to 2504031_004",2504031
+317,customer,"Duplicate customer ID, identical row deleted",2504211
+317,customer,"Data-based duplicate, removed (identical to customer 2504211)",2504211
+178,customer,"Data-based duplicate, removed (identical to customer 2503519)",2503519
+253,customer,"Data-based duplicate, removed (identical to customer 2503968)",2503968
+23,customer,"Data-based duplicate, removed (identical to customer 2503076)",2503076
+258,customer,"Data-based duplicate, removed (identical to customer 2503976)",2503976

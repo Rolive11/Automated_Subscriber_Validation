@@ -1,0 +1,5326 @@
+{
+    "Summary": {
+        "Total Rows Processed": 834,
+        "Rows with Corrections": 31,
+        "Rows with Errors": 795,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 3,
+        "Removed Duplicate Rows": 2,
+        "Total Corrections": 32,
+        "Total Errors": 799,
+        "Street Ending Errors": 28,
+        "Validation Time (seconds)": 7.01,
+        "Validation Date": "2025-07-02 13:40:05",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Invalid",
+        "Validation Reason": "File contains 789 rows with critical errors in required fields (customer, speeds, technology, etc.) that must be manually corrected.",
+        "Total Subscribers in Final File": 829,
+        "Address Errors Found": 3,
+        "Non-Address Errors Found": 789,
+        "Address Error Percentage": 0.36,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": true
+    },
+    "File Validation Details": {
+        "file_status": "Invalid",
+        "validation_reason": "File contains 789 rows with critical errors in required fields (customer, speeds, technology, etc.) that must be manually corrected.",
+        "total_subscribers": 829,
+        "address_error_count": 3,
+        "non_address_error_count": 789,
+        "address_error_percentage": 0.36,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            451,
+            14,
+            30
+        ],
+        "requires_manual_review": true
+    },
+    "Corrections": [
+        {
+            "Row": 9,
+            "Column": "customer",
+            "Original Value": "Fine Dining Concepts, Inc",
+            "Corrected Value": "Fine Dining Concepts Inc",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "12857 SOUTH FORK LOOKOUT RD",
+            "Corrected Value": "12857 S FORK LOOKOUT RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "202 HEMSTED DR",
+            "Corrected Value": "202 HEM",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "SOUTHFORK MOUNTAIN ",
+            "Corrected Value": "SOUTHFORK MOUNTAIN",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "2590 NORTH ST",
+            "Corrected Value": "2590 N ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "SOUTH FORK MOUNTAIN",
+            "Corrected Value": "S FORK MOUNTAIN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "20546 WINCHESTER TRL",
+            "Corrected Value": "20546 WINCHE",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "17190 FLOWERS LN",
+            "Corrected Value": "17190",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "15315 SMALL FARMS DRIVE",
+            "Corrected Value": "15315 SMALL FA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "15510 RED BLUFF RD. #6",
+            "Corrected Value": "15510 RED BLUFF RD",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 195,
+            "Column": "address",
+            "Original Value": "7082 KARMA LN",
+            "Corrected Value": "7082 KA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "23495 NORTH STAR DR",
+            "Corrected Value": "23495 N STAR DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "1419 NORMAN DRIVE",
+            "Corrected Value": "1419 NO",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "17437 FLOWERS LN",
+            "Corrected Value": "17437",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "10660 NORTH GATE DRIVE",
+            "Corrected Value": "10660 N GATE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "11451 EAST STILLWATER WAY",
+            "Corrected Value": "11451 E STILLWATER WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Original Value": "2955 SOUTH ST",
+            "Corrected Value": "2955 S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "7082 KARMA LN",
+            "Corrected Value": "7082 KA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "14027 SMALL FARMS DR",
+            "Corrected Value": "14027 SMALL FA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "20583 WINCHESTER TRAIL",
+            "Corrected Value": "20583 WINCHE",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Original Value": "17776 FLOWERS LANE",
+            "Corrected Value": "17776",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Original Value": "9789 HWY 99 WEST",
+            "Corrected Value": "9789 HWY 99 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "21077 STEPHENO LN",
+            "Corrected Value": "21077",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "11933 INTERMOUNTAIN RD",
+            "Corrected Value": "11933 INTE",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Original Value": "15315 SMALL FARMS DRIVE",
+            "Corrected Value": "15315 SMALL FA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 652,
+            "Column": "address",
+            "Original Value": "9858 KERMAN LN",
+            "Corrected Value": "9858 KE",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "22235 LONE TREE RD #26",
+            "Corrected Value": "22235 LONE TREE RD",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "19705 HOLSTEIN LN",
+            "Corrected Value": "19705 HOL",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 768,
+            "Column": "address",
+            "Original Value": "14515 SMALL FARMS DR",
+            "Corrected Value": "14515 SMALL FA",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Original Value": "17757 FLOWERS LANE",
+            "Corrected Value": "17757",
+            "Correction Type": "Building/Unit Designator Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Original Value": "Linda Siniard",
+            "Corrected Value": "Linda Siniard_001",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "zip",
+            "Original Value": "960031987",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 14,
+            "Column": "address",
+            "Error": "Address lacks leading number followed by street name",
+            "Value": "SOUTHFORK MOUNTAIN"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Error": "Address lacks leading number followed by street name",
+            "Value": "S FORK MOUNTAIN"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Error": "Address lacks leading number followed by street name",
+            "Value": "LOWER COAL PIT RD"
+        },
+        {
+            "Row": 212,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "960031987"
+        },
+        {
+            "Row": 40,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 41,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 42,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 43,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 44,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 45,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 46,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 47,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 48,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 49,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 50,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 51,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 52,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 53,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 54,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 55,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 56,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 57,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 58,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 59,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 60,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 61,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 62,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 63,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 64,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 65,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 66,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 67,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 68,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 69,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 70,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 71,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 72,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 73,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 74,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 75,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 76,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 77,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 78,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 79,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 80,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 81,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 82,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 83,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 84,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 85,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 86,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 87,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 88,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 89,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 90,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 91,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 92,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 93,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 94,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 95,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 96,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 97,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 98,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 99,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 100,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 101,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 102,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 103,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 104,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 105,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 106,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 107,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 108,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 109,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 110,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 111,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 112,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 113,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 114,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 115,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 116,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 117,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 118,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 119,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 120,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 121,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 122,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 123,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 124,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 125,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 126,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 127,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 128,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 129,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 130,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 131,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 132,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 133,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 134,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 135,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 136,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 137,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 138,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 139,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 140,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 141,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 142,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 143,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 144,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 145,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 146,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 147,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 148,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 149,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 150,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 151,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 152,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 153,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 154,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 155,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 156,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 157,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 158,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 159,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 160,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 161,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 162,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 163,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 164,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 165,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 166,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 167,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 168,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 169,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 170,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 171,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 172,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 173,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 174,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 175,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 176,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 177,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 178,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 179,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 180,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 181,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 182,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 183,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 184,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 185,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 186,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 187,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 188,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 189,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 190,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 191,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 192,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 193,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 194,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 195,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 196,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 197,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 198,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 199,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 200,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 201,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 202,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 203,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 204,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 205,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 206,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 207,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 208,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 209,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 210,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 211,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 212,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 213,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 214,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 215,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 216,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 217,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 218,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 219,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 220,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 221,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 222,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 223,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 224,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 225,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 226,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 227,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 228,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 229,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 230,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 231,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 232,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 233,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 234,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 235,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 236,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 237,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 238,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 239,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 240,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 241,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 242,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 243,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 244,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 245,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 246,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 247,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 248,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 249,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 250,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 251,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 252,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 253,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 254,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 255,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 256,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 257,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 258,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 259,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 260,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 261,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 262,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 263,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 264,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 265,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 266,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 267,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 268,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 269,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 270,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 271,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 272,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 273,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 274,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 275,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 276,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 277,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 278,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 279,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 280,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 281,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 282,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 283,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 284,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 285,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 286,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 287,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 288,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 289,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 290,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 291,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 292,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 293,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 294,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 295,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 296,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 297,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 298,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 299,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 300,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 301,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 302,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 303,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 304,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 305,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 306,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 307,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 308,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 309,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 310,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 311,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 312,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 313,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 314,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 315,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 316,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 317,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 318,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 319,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 320,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 321,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 322,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 323,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 324,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 325,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 326,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 327,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 328,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 329,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 330,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 331,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 332,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 333,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 334,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 335,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 336,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 337,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 338,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 339,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 340,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 341,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 342,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 343,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 344,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 345,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 346,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 347,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 348,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 349,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 350,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 351,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 352,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 353,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 354,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 355,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 356,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 357,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 358,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 359,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 360,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 361,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 362,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 363,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 364,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 365,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 366,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 367,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 368,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 369,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 370,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 371,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 372,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 373,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 374,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 375,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 376,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 377,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 378,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 379,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 380,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 381,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 382,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 383,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 384,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 385,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 386,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 387,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 388,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 389,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 390,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 391,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 392,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 393,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 394,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 395,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 396,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 397,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 398,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 399,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 400,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 401,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 402,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 403,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 404,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 405,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 406,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 407,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 408,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 409,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 410,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 411,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 412,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 413,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 414,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 415,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 416,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 417,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 418,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 419,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 420,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 421,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 422,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 423,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 424,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 425,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 426,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 427,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 428,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 429,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 430,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 431,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 432,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 433,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 434,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 435,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 436,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 437,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 438,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 439,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 440,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 441,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 442,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 443,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 444,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 445,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 446,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 447,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 448,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 449,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 450,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 451,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 452,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 453,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 454,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 455,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 456,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 457,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 458,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 459,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 460,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 461,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 462,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 463,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 464,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 465,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 466,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 467,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 468,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 469,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 470,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 471,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 472,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 473,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 474,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 475,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 476,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 477,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 478,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 479,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 480,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 481,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 482,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 483,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 484,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 485,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 486,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 487,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 488,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 489,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 490,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 491,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 492,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 493,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 494,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 495,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 496,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 497,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 498,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 499,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 500,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 501,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 502,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 503,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 504,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 505,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 506,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 507,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 508,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 509,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 510,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 511,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 512,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 513,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 514,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 515,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 516,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 517,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 518,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 519,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 520,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 521,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 522,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 523,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 524,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 525,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 526,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 527,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 528,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 529,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 530,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 531,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 532,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 533,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 534,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 535,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 536,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 537,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 538,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 539,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 540,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 541,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 542,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 543,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 544,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 545,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 546,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 547,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 548,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 549,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 550,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 551,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 552,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 553,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 554,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 555,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 556,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 557,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 558,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 559,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 560,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 561,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 562,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 563,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 564,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 565,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 566,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 567,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 568,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 569,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 570,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 571,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 572,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 573,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 574,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 575,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 576,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 577,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 578,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 579,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 580,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 581,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 582,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 583,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 584,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 585,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 586,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 587,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 588,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 589,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 590,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 591,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 592,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 593,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 594,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 595,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 596,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 597,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 598,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 599,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 600,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 601,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 602,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 603,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 604,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 605,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 606,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 607,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 608,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 609,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 610,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 611,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 612,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 613,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 614,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 615,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 616,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 617,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 618,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 619,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 620,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 621,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 622,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 623,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 624,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 625,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 626,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 627,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 628,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 629,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 630,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 631,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 632,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 633,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 634,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 635,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 636,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 637,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 638,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 639,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 640,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 641,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 642,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 643,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 644,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 645,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 646,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 647,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 648,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 649,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 650,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 651,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 652,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 653,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 654,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 655,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 656,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 657,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 658,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 659,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 660,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 661,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 662,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 663,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 664,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 665,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 666,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 667,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 668,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 669,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 670,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 671,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 672,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 673,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 674,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 675,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 676,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 677,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 678,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 679,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 680,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 681,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 682,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 683,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 684,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 685,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 686,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 687,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 688,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 689,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 690,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 691,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 692,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 693,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 694,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 695,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 696,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 697,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 698,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 699,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 700,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 701,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 702,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 703,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 704,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 705,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 706,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 707,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 708,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 709,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 710,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 711,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 712,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 713,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 714,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 715,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 716,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 717,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 718,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 719,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 720,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 721,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 722,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 723,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 724,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 725,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 726,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 727,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 728,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 729,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 730,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 731,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 732,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 733,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 734,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 735,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 736,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 737,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 738,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 739,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 740,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 741,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 742,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 743,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 744,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 745,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 746,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 747,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 748,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 749,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 750,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 751,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 752,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 753,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 754,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 755,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 756,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 757,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 758,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 759,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 760,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 761,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 762,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 763,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 764,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 765,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 766,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 767,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 768,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 769,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 770,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 771,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 772,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 773,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 774,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 775,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 776,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 777,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 778,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 779,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 780,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 781,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 782,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 783,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 784,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 785,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 786,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 787,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 788,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 789,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 790,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 791,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 792,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 793,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 794,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 795,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 796,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 797,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 798,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 799,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 800,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 801,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 802,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 803,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 804,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 805,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 806,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 807,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 808,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 809,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 810,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 811,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 812,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 813,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 814,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 815,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 816,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 817,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 818,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 819,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 820,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 821,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 822,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 823,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 824,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 825,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 826,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 827,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 828,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 829,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 830,
+            "Column": "business_customer",
+            "Error": "Required field: Business_customer cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 523,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Linda Siniard_001",
+            "Value": "Linda Siniard"
+        },
+        {
+            "Row": 604,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Candy Derrigo)",
+            "Value": "Mike Voris"
+        },
+        {
+            "Row": 826,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Barbra Ochoa)",
+            "Value": "Wyatt Prentice"
+        },
+        {
+            "Row": 212,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "960031987"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 9,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "202 HEM"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20546 WINCHE"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21323 EL SERENO"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17190"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16942 CAMPO CALLE"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15633 RANCHLAND"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15315 SMALL FA"
+        },
+        {
+            "Row": 195,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7082 KA"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1419 NO"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17437"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11470 E STILLWATER"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7082 KA"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14027 SMALL FA"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23330 OAK CREEK"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16945 CAMPO CALLE"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16211 PURPLE ELM"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20583 WINCHE"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17776"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21077"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11933 INTE"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15315 SMALL FA"
+        },
+        {
+            "Row": 639,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10821 GREEN OAKS"
+        },
+        {
+            "Row": 652,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9858 KE"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19705 HOL"
+        },
+        {
+            "Row": 714,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21953 BERKELEY D"
+        },
+        {
+            "Row": 768,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14515 SMALL FA"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17757"
+        },
+        {
+            "Row": 794,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10481 FIRE MOUNTAIN VIEW"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 14,
+            "address": "SOUTHFORK MOUNTAIN",
+            "Error": "Address lacks leading number followed by street name"
+        },
+        {
+            "OrigRowNum": 30,
+            "address": "S FORK MOUNTAIN",
+            "Error": "Address lacks leading number followed by street name"
+        },
+        {
+            "OrigRowNum": 451,
+            "address": "LOWER COAL PIT RD",
+            "Error": "Address lacks leading number followed by street name"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 604,
+            "customer": "Mike Voris",
+            "lat": 40.456792,
+            "lon": -122.488772,
+            "address": "15315 SMALL FA",
+            "city": "IGO",
+            "state": "CA",
+            "zip": "96047",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": null,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Candy Derrigo)"
+        },
+        {
+            "OrigRowNum": 826,
+            "customer": "Wyatt Prentice",
+            "lat": 40.554839,
+            "lon": -122.468939,
+            "address": "15905 DELANO DR",
+            "city": "REDDING",
+            "state": "CA",
+            "zip": "96001",
+            "download": 1000.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": null,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Barbra Ochoa)"
+        }
+    ],
+    "Smarty Corrections": []
+}

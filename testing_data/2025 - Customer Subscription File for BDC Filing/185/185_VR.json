@@ -1,0 +1,3078 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1123,
+        "Rows with Corrections": 122,
+        "Rows with Errors": 82,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 2,
+        "Total Corrections": 202,
+        "Total Errors": 22,
+        "Street Ending Errors": 73,
+        "Validation Time (seconds)": 19.08,
+        "Validation Date": "2025-07-20 15:46:29",
+        "Addresses Sent to Smarty": 73,
+        "Successful Corrections": 73,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 18.12,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1121,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1121,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 1090,
+            "Column": "address",
+            "Original Value": "13091 N Highcreek Rd",
+            "Corrected Value": "13091 N HIGHCREEK RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "641 WEST 90 NORTH",
+            "Corrected Value": "641 W 90 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "1305 WEST 2200 SOUTH",
+            "Corrected Value": "1305 W 2200 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "6116 SOUTH 2400 WEST",
+            "Corrected Value": "6116 S 2400 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "2080 E HWY 101",
+            "Corrected Value": "2080 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "240 E CENTER",
+            "Corrected Value": "240 E CENTER ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "2810 SOUTH 1000 WEST",
+            "Corrected Value": "2810 S 1000 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "1250 SOUTH CENTER ST",
+            "Corrected Value": "1250 S CENTER ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "1281 S 200 EAST",
+            "Corrected Value": "1281 S 200 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "513 S CENTER",
+            "Corrected Value": "513 S CENTER ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "350 E MAIN",
+            "Corrected Value": "350 E MAIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "77 NORTH 100 WEST",
+            "Corrected Value": "77 N 100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "2512 N DRY CREEK PASS",
+            "Corrected Value": "2512 N DRY CREEK",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "8267 PARADISE WEST DR",
+            "Corrected Value": "8267 PARADISE W DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "8659 S PARADISE WEST CIR",
+            "Corrected Value": "8659 S PARADISE W CIR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "8525 PARADISE WEST DR",
+            "Corrected Value": "8525 PARADISE W DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "1166 WEST 3200 SOUTH",
+            "Corrected Value": "1166 W 3200 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "32 W WEST CANYON RD",
+            "Corrected Value": "32 W W CANYON RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "5475 WEST 16800 NORTH",
+            "Corrected Value": "5475 W 16800 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "1197 EAST 13000 NORTH",
+            "Corrected Value": "1197 E 13000 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Original Value": "3895 WEST 16000 NORTH",
+            "Corrected Value": "3895 W 16000 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 667,
+            "Column": "address",
+            "Original Value": "16775 NORTH 6000 WEST",
+            "Corrected Value": "16775 N 6000 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Original Value": "17720 NORTH 5200 W",
+            "Corrected Value": "17720 N 5200 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Original Value": "3434 WEST 2200 SOUTH",
+            "Corrected Value": "3434 W 2200 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Original Value": "15480 N 4740 WEST",
+            "Corrected Value": "15480 N 4740 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "2207 S HWY 23",
+            "Corrected Value": "2207 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Original Value": "11685 SOUTH 800 EAST",
+            "Corrected Value": "11685 S 800 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 748,
+            "Column": "address",
+            "Original Value": "380 SOUTH 2400 WEST",
+            "Corrected Value": "380 S 2400 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 755,
+            "Column": "address",
+            "Original Value": "2778 WEST 600 SOUTH",
+            "Corrected Value": "2778 W 600 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "1225 EAST HIGH CREEK RD",
+            "Corrected Value": "1225 E HIGH CREEK RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Original Value": "718 EAST 440 SOUTH",
+            "Corrected Value": "718 E 440 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 772,
+            "Column": "address",
+            "Original Value": "10760 SOUTH 800 EAST",
+            "Corrected Value": "10760 S 800 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 777,
+            "Column": "address",
+            "Original Value": "14523 NORTH MT HOME RD",
+            "Corrected Value": "14523 N MT HOME RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 778,
+            "Column": "address",
+            "Original Value": "435 EAST CANNIBAL ROAD",
+            "Corrected Value": "435 E CANNIBAL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 780,
+            "Column": "address",
+            "Original Value": "13400 NORTH 4376 WEST",
+            "Corrected Value": "13400 N 4376 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 787,
+            "Column": "address",
+            "Original Value": "749 WEST 4800 SOUTH",
+            "Corrected Value": "749 W 4800 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 788,
+            "Column": "address",
+            "Original Value": "5517 WEST 760 SOUTH",
+            "Corrected Value": "5517 W 760 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 793,
+            "Column": "address",
+            "Original Value": "248 EAST 200 SOUTH",
+            "Corrected Value": "248 E 200 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 798,
+            "Column": "address",
+            "Original Value": "5375 WEST 20000 NORTH",
+            "Corrected Value": "5375 W 20000 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 804,
+            "Column": "address",
+            "Original Value": "956 E 800 SOUTH",
+            "Corrected Value": "956 E 800 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "address",
+            "Original Value": "146 WEST 100 NORTH",
+            "Corrected Value": "146 W 100 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "95 SOUTH 300 WEST",
+            "Corrected Value": "95 S 300 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 820,
+            "Column": "address",
+            "Original Value": "411 SOUTH 800 EAST",
+            "Corrected Value": "411 S 800 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 822,
+            "Column": "address",
+            "Original Value": "7771 SOUTH 400 WEST",
+            "Corrected Value": "7771 S 400 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "address",
+            "Original Value": "374 N 140 WEST",
+            "Corrected Value": "374 N 140 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 836,
+            "Column": "address",
+            "Original Value": "11130 NORTH 2000 EAST",
+            "Corrected Value": "11130 N 2000 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 848,
+            "Column": "address",
+            "Original Value": "14074 NORTH 3100 WEST",
+            "Corrected Value": "14074 N 3100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Original Value": "5366 WEST 20300 NORTH",
+            "Corrected Value": "5366 W 20300 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Original Value": "42 W 300 N #2",
+            "Corrected Value": "42 W 300 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Original Value": "345 W MAIN ST APT 1",
+            "Corrected Value": "345 W MAIN ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Original Value": "1153 E 1230",
+            "Corrected Value": "1153 E 1230 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "lat",
+            "Original Value": 42.0203549,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "lon",
+            "Original Value": -111.7960165,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "lat",
+            "Original Value": 42.007107,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "lon",
+            "Original Value": -111.9168084,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "lat",
+            "Original Value": 42.04172,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "lon",
+            "Original Value": -111.8436,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "lat",
+            "Original Value": 42.0069054,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "lon",
+            "Original Value": -111.8052725,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 787,
+            "Column": "lat",
+            "Original Value": 42.0129623,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 787,
+            "Column": "lon",
+            "Original Value": -111.8954012,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "lat",
+            "Original Value": 42.0136887,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "lon",
+            "Original Value": -111.8744533,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "84326",
+            "Corrected Value": "84326",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "1755 E. HWY 101",
+            "Corrected Value": "1755 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "1859 E. HIGHWAY 101",
+            "Corrected Value": "1859 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "1833 E. HIGHWAY 101",
+            "Corrected Value": "1833 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "1915 E. HIGHWAY 101",
+            "Corrected Value": "1915 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "1875 E. HIGHWAY 101",
+            "Corrected Value": "1875 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "1867 E. HIGHWAY 101",
+            "Corrected Value": "1867 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "1821 E. HIGHWAY 101",
+            "Corrected Value": "1821 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "zip",
+            "Original Value": "84312",
+            "Corrected Value": "84312",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "1261 RIVERVIEW",
+            "Corrected Value": "1261 RIVERVIEW DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "1575 E. HWY 101",
+            "Corrected Value": "1575 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "zip",
+            "Original Value": "84326",
+            "Corrected Value": "84326",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "760 N. MAIN",
+            "Corrected Value": "760 N MAIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "985 W HWY 30",
+            "Corrected Value": "985 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "zip",
+            "Original Value": "84330",
+            "Corrected Value": "84330",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "20350 N. HWY-13",
+            "Corrected Value": "20350 N HIGHWAY 13",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "zip",
+            "Original Value": "84228",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "9850 S HIGHWAY 165",
+            "Corrected Value": "9850 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "10980 S HIGHWAY 165",
+            "Corrected Value": "10980 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "3810 S HIGHWAY 23",
+            "Corrected Value": "3810 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "721 N HIGHWAY 23",
+            "Corrected Value": "721 N HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "6700 W HIGHWAY 30",
+            "Corrected Value": "6700 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "1909 E HIGHWAY 101",
+            "Corrected Value": "1909 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "zip",
+            "Original Value": "84332",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "3555 S HIGHWAY 89",
+            "Corrected Value": "3555 S HIGHWAY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "3015 S HIGHWAY 23",
+            "Corrected Value": "3015 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "1809 E. HWY 101",
+            "Corrected Value": "1809 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "825 W HIGHWAY 30",
+            "Corrected Value": "825 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "1795 E. HWY101",
+            "Corrected Value": "1795 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "2831 HIGHWAY 23",
+            "Corrected Value": "2831 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "10750 S HWY 165",
+            "Corrected Value": "10750 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "2628 S HIGHWAY 89",
+            "Corrected Value": "2628 S HIGHWAY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "2318 W HIGHWAY 101",
+            "Corrected Value": "2318 W HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Original Value": "2808 W HIGHWAY 101",
+            "Corrected Value": "2808 W HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "7641 W HIGHWAY 30",
+            "Corrected Value": "7641 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "zip",
+            "Original Value": "84320",
+            "Corrected Value": "84320",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "675 W 1600 S LEWISTON",
+            "Corrected Value": "675 W 1600 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Original Value": "1817 UT-101",
+            "Corrected Value": "1817 UT-101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "10894 S HWY 165",
+            "Corrected Value": "10894 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Original Value": "9800 S HIGHWAY 165",
+            "Corrected Value": "9800 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "3505 S HIGHWAY 89",
+            "Corrected Value": "3505 S HIGHWAY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "4605 S HIGHWAY 89",
+            "Corrected Value": "4605 S HIGHWAY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "zip",
+            "Original Value": "84333",
+            "Corrected Value": "84333",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "300 US-91",
+            "Corrected Value": "300 US-91",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 547,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 547,
+            "Column": "address",
+            "Original Value": "321 S 200 W WELLSVILLE",
+            "Corrected Value": "321 S 200 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Original Value": "10802 UT-165",
+            "Corrected Value": "10802 UT-165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "9611 S HIGHWAY 165",
+            "Corrected Value": "9611 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "zip",
+            "Original Value": "84330",
+            "Corrected Value": "84330",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "20965 UT-13",
+            "Corrected Value": "20965 UT-13",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 659,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 659,
+            "Column": "address",
+            "Original Value": "3495 W 15200 N APT 1",
+            "Corrected Value": "3495 W 15200 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 661,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Original Value": "7645 W HWY 30",
+            "Corrected Value": "7645 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Original Value": "3470 W HIGHWAY 30",
+            "Corrected Value": "3470 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 695,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 695,
+            "Column": "address",
+            "Original Value": "4615 US-89",
+            "Corrected Value": "4615 S HIGHWAY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "1785 E HIGHWAY 101",
+            "Corrected Value": "1785 E HIGHWAY 101",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "1900 S 1100 W #2",
+            "Corrected Value": "1900 S 1100 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "zip",
+            "Original Value": "94325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 766,
+            "Column": "zip",
+            "Original Value": "84328",
+            "Corrected Value": "84328",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 766,
+            "Column": "address",
+            "Original Value": "9715 S HWY 165",
+            "Corrected Value": "9715 S HIGHWAY 165",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 776,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 776,
+            "Column": "address",
+            "Original Value": "2390 VALLEY VIEW W",
+            "Corrected Value": "2390 VALLEY VW W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "zip",
+            "Original Value": "84321",
+            "Corrected Value": "84321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Original Value": "2693 W 600 SÂ",
+            "Corrected Value": "2693 W 600 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "address",
+            "Original Value": "13840 N HIGHWAY 38",
+            "Corrected Value": "13840 N HIGHWAY 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 837,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 837,
+            "Column": "address",
+            "Original Value": "14510 HWY 38",
+            "Corrected Value": "14510 N HIGHWAY 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 853,
+            "Column": "zip",
+            "Original Value": "84738",
+            "Corrected Value": "84738",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 853,
+            "Column": "address",
+            "Original Value": "244 S MAIN",
+            "Corrected Value": "244 S MAIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 874,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Original Value": "455 W HIGHWAY 30",
+            "Corrected Value": "455 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Original Value": "441 W HWY 30",
+            "Corrected Value": "441 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 931,
+            "Column": "zip",
+            "Original Value": "83237",
+            "Corrected Value": "83237",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Original Value": "3784 US-91",
+            "Corrected Value": "3784 S HIGHWAY 91",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 936,
+            "Column": "zip",
+            "Original Value": "84337",
+            "Corrected Value": "84337",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 936,
+            "Column": "address",
+            "Original Value": "429 W 350 N #4",
+            "Corrected Value": "429 W 350 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 953,
+            "Column": "zip",
+            "Original Value": "84312",
+            "Corrected Value": "84312",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 953,
+            "Column": "address",
+            "Original Value": "16031 N 6000 W #2",
+            "Corrected Value": "16031 N 6000 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 993,
+            "Column": "zip",
+            "Original Value": "84319",
+            "Corrected Value": "84319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "zip",
+            "Original Value": "84306",
+            "Corrected Value": "84306",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Original Value": "985 W HWY 30",
+            "Corrected Value": "985 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1011,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1011,
+            "Column": "address",
+            "Original Value": "7124 W. HWY30",
+            "Corrected Value": "7124 W HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1033,
+            "Column": "zip",
+            "Original Value": "84334",
+            "Corrected Value": "84334",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1033,
+            "Column": "address",
+            "Original Value": "15750 N 5400 W #3",
+            "Corrected Value": "15750 N 5400 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1036,
+            "Column": "zip",
+            "Original Value": "84312",
+            "Corrected Value": "84312",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Original Value": "16031 N 6000 W #1",
+            "Corrected Value": "16031 N 6000 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1040,
+            "Column": "zip",
+            "Original Value": "84312",
+            "Corrected Value": "84312",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "zip",
+            "Original Value": "84334",
+            "Corrected Value": "84334",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Original Value": "16031 N 6000 W UNIT 3",
+            "Corrected Value": "16031 N 6000 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1080,
+            "Column": "zip",
+            "Original Value": "84325",
+            "Corrected Value": "84325",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1080,
+            "Column": "address",
+            "Original Value": "2195 S HIGHWAY 23",
+            "Corrected Value": "2195 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1100,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1100,
+            "Column": "address",
+            "Original Value": "3750 US-91",
+            "Corrected Value": "3750 US-91",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1112,
+            "Column": "zip",
+            "Original Value": "84330",
+            "Corrected Value": "84330",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1112,
+            "Column": "address",
+            "Original Value": "20075 UT-13",
+            "Corrected Value": "20075 UT-13",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1118,
+            "Column": "zip",
+            "Original Value": "84339",
+            "Corrected Value": "84339",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1118,
+            "Column": "address",
+            "Original Value": "3305 S HIGHWAY 23",
+            "Corrected Value": "3305 S HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 706,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "1900 S 1100 W #2"
+        },
+        {
+            "Row": 936,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "429 W 350 N #4"
+        },
+        {
+            "Row": 953,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "16031 N 6000 W #2"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "42 W 300 N #2"
+        },
+        {
+            "Row": 1033,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "15750 N 5400 W #3"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "16031 N 6000 W #1"
+        },
+        {
+            "Row": 363,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "COVE, UT"
+        },
+        {
+            "Row": 582,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "HYRUM, UT"
+        },
+        {
+            "Row": 221,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.0203549"
+        },
+        {
+            "Row": 221,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.7960165"
+        },
+        {
+            "Row": 502,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.007107"
+        },
+        {
+            "Row": 502,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.9168084"
+        },
+        {
+            "Row": 718,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.04172"
+        },
+        {
+            "Row": 718,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8436"
+        },
+        {
+            "Row": 747,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.0069054"
+        },
+        {
+            "Row": 747,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8052725"
+        },
+        {
+            "Row": 787,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.0129623"
+        },
+        {
+            "Row": 787,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8954012"
+        },
+        {
+            "Row": 978,
+            "Column": "lat",
+            "Error": "Latitude for UT must be positive",
+            "Value": "42.0136887"
+        },
+        {
+            "Row": 978,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8744533"
+        },
+        {
+            "Row": 1113,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3832)",
+            "Value": "3837"
+        },
+        {
+            "Row": 1008,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 374)",
+            "Value": "3630"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2080 E HWY 101"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "240 E CENTER"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1755 E HWY 101"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1859 E HIGHWAY 101"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1833 E HIGHWAY 101"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1915 E HIGHWAY 101"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1875 E HIGHWAY 101"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1867 E HIGHWAY 101"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1821 E HIGHWAY 101"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "513 S CENTER"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "350 E MAIN"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1261 RIVERVIEW"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1575 E HWY 101"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "760 N MAIN"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "985 W HWY 30"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20350 N HWY13"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9850 S HIGHWAY 165"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10980 S HIGHWAY 165"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3810 S HIGHWAY 23"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "721 N HIGHWAY 23"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6700 W HIGHWAY 30"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1909 E HIGHWAY 101"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3555 S HIGHWAY 89"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3015 S HIGHWAY 23"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1809 E HWY 101"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "825 W HIGHWAY 30"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1795 E HWY101"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2831 HIGHWAY 23"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10750 S HWY 165"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2628 S HIGHWAY 89"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2318 W HIGHWAY 101"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2808 W HIGHWAY 101"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7641 W HIGHWAY 30"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "675 W 1600 S LEWISTON"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1817 UT101"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10894 S HWY 165"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9800 S HIGHWAY 165"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3505 S HIGHWAY 89"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4605 S HIGHWAY 89"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "300 US91"
+        },
+        {
+            "Row": 547,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "321 S 200 W WELLSVILLE"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10802 UT165"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9611 S HIGHWAY 165"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20965 UT13"
+        },
+        {
+            "Row": 659,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3495 W 15200 N APT 1"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7645 W HWY 30"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3470 W HIGHWAY 30"
+        },
+        {
+            "Row": 695,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4615 US89"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1785 E HIGHWAY 101"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1900 S 1100 W #2"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2207 S HWY 23"
+        },
+        {
+            "Row": 766,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9715 S HWY 165"
+        },
+        {
+            "Row": 776,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2390 VALLEY VIEW W"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2693 W 600 SÂ"
+        },
+        {
+            "Row": 829,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13840 N HIGHWAY 38"
+        },
+        {
+            "Row": 837,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14510 HWY 38"
+        },
+        {
+            "Row": 853,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "244 S MAIN"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "455 W HIGHWAY 30"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "441 W HWY 30"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3784 US91"
+        },
+        {
+            "Row": 936,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "429 W 350 N #4"
+        },
+        {
+            "Row": 953,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16031 N 6000 W #2"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "42 W 300 N #2"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "985 W HWY 30"
+        },
+        {
+            "Row": 1011,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7124 W HWY30"
+        },
+        {
+            "Row": 1033,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15750 N 5400 W #3"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16031 N 6000 W #1"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1153 E 1230"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16031 N 6000 W UNIT 3"
+        },
+        {
+            "Row": 1080,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2195 S HIGHWAY 23"
+        },
+        {
+            "Row": 1100,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3750 US91"
+        },
+        {
+            "Row": 1112,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20075 UT13"
+        },
+        {
+            "Row": 1118,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3305 S HIGHWAY 23"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 1113,
+            "customer": "3837",
+            "lat": 41.6925329,
+            "lon": -111.8818281,
+            "address": "2010 W 2200 S",
+            "city": "WELLSVILLE",
+            "state": "UT",
+            "zip": "84339",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3832)"
+        },
+        {
+            "OrigRowNum": 1008,
+            "customer": "3630",
+            "lat": 41.794125,
+            "lon": -112.042977,
+            "address": "985 W HWY 30",
+            "city": "BEAVERDAM",
+            "state": "UT",
+            "zip": "84306",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 374)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 21,
+            "Original Address": "2080 E HWY 101",
+            "Corrected Address": "2080 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:10.876391"
+        },
+        {
+            "OrigRowNum": 22,
+            "Original Address": "240 E CENTER",
+            "Corrected Address": "240 E CENTER ST",
+            "Original ZIP": "84326",
+            "Corrected ZIP": "84326",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:11.147814"
+        },
+        {
+            "OrigRowNum": 29,
+            "Original Address": "1755 E. HWY 101",
+            "Corrected Address": "1755 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:11.426914"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "1859 E. HIGHWAY 101",
+            "Corrected Address": "1859 E HIGHWAY 101",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:11.705029"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "1833 E. HIGHWAY 101",
+            "Corrected Address": "1833 E HIGHWAY 101",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:11.949616"
+        },
+        {
+            "OrigRowNum": 35,
+            "Original Address": "1915 E. HIGHWAY 101",
+            "Corrected Address": "1915 E HIGHWAY 101",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:12.176520"
+        },
+        {
+            "OrigRowNum": 36,
+            "Original Address": "1875 E. HIGHWAY 101",
+            "Corrected Address": "1875 E HIGHWAY 101",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:12.391944"
+        },
+        {
+            "OrigRowNum": 37,
+            "Original Address": "1867 E. HIGHWAY 101",
+            "Corrected Address": "1867 E HIGHWAY 101",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:12.615159"
+        },
+        {
+            "OrigRowNum": 38,
+            "Original Address": "1821 E. HIGHWAY 101",
+            "Corrected Address": "1821 E HIGHWAY 101",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:12.829740"
+        },
+        {
+            "OrigRowNum": 49,
+            "Original Address": "513 S CENTER",
+            "Corrected Address": "513 S CENTER ST",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:13.079826"
+        },
+        {
+            "OrigRowNum": 50,
+            "Original Address": "350 E MAIN",
+            "Corrected Address": "350 E MAIN ST",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:13.358755"
+        },
+        {
+            "OrigRowNum": 56,
+            "Original Address": "1261 RIVERVIEW",
+            "Corrected Address": "1261 RIVERVIEW DR",
+            "Original ZIP": "84312",
+            "Corrected ZIP": "84312",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:13.599487"
+        },
+        {
+            "OrigRowNum": 59,
+            "Original Address": "1575 E. HWY 101",
+            "Corrected Address": "1575 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:13.854715"
+        },
+        {
+            "OrigRowNum": 76,
+            "Original Address": "760 N. MAIN",
+            "Corrected Address": "760 N MAIN ST",
+            "Original ZIP": "84326",
+            "Corrected ZIP": "84326",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:14.216480"
+        },
+        {
+            "OrigRowNum": 78,
+            "Original Address": "985 W HWY 30",
+            "Corrected Address": "985 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:14.547871"
+        },
+        {
+            "OrigRowNum": 93,
+            "Original Address": "20350 N. HWY-13",
+            "Corrected Address": "20350 N HIGHWAY 13",
+            "Original ZIP": "84330",
+            "Corrected ZIP": "84330",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:14.909684"
+        },
+        {
+            "OrigRowNum": 99,
+            "Original Address": "9850 S HIGHWAY 165",
+            "Corrected Address": "9850 S HIGHWAY 165",
+            "Original ZIP": "84228",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:15.273058"
+        },
+        {
+            "OrigRowNum": 109,
+            "Original Address": "10980 S HIGHWAY 165",
+            "Corrected Address": "10980 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:15.636757"
+        },
+        {
+            "OrigRowNum": 118,
+            "Original Address": "3810 S HIGHWAY 23",
+            "Corrected Address": "3810 S HIGHWAY 23",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:15.993116"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "721 N HIGHWAY 23",
+            "Corrected Address": "721 N HIGHWAY 23",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:16.234186"
+        },
+        {
+            "OrigRowNum": 156,
+            "Original Address": "6700 W HIGHWAY 30",
+            "Corrected Address": "6700 W HIGHWAY 30",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:16.471345"
+        },
+        {
+            "OrigRowNum": 159,
+            "Original Address": "1909 E HIGHWAY 101",
+            "Corrected Address": "1909 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:16.709301"
+        },
+        {
+            "OrigRowNum": 169,
+            "Original Address": "3555 S HIGHWAY 89",
+            "Corrected Address": "3555 S HIGHWAY 89",
+            "Original ZIP": "84332",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:16.949827"
+        },
+        {
+            "OrigRowNum": 187,
+            "Original Address": "3015 S HIGHWAY 23",
+            "Corrected Address": "3015 S HIGHWAY 23",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:17.178363"
+        },
+        {
+            "OrigRowNum": 208,
+            "Original Address": "1809 E. HWY 101",
+            "Corrected Address": "1809 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:17.446800"
+        },
+        {
+            "OrigRowNum": 250,
+            "Original Address": "825 W HIGHWAY 30",
+            "Corrected Address": "825 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:17.725238"
+        },
+        {
+            "OrigRowNum": 280,
+            "Original Address": "1795 E. HWY101",
+            "Corrected Address": "1795 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:18.006440"
+        },
+        {
+            "OrigRowNum": 282,
+            "Original Address": "2831 HIGHWAY 23",
+            "Corrected Address": "2831 S HIGHWAY 23",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:18.287140"
+        },
+        {
+            "OrigRowNum": 309,
+            "Original Address": "10750 S HWY 165",
+            "Corrected Address": "10750 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:18.557876"
+        },
+        {
+            "OrigRowNum": 312,
+            "Original Address": "2628 S HIGHWAY 89",
+            "Corrected Address": "2628 S HIGHWAY 89",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:18.820013"
+        },
+        {
+            "OrigRowNum": 314,
+            "Original Address": "2318 W HIGHWAY 101",
+            "Corrected Address": "2318 W HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:19.069425"
+        },
+        {
+            "OrigRowNum": 318,
+            "Original Address": "2808 W HIGHWAY 101",
+            "Corrected Address": "2808 W HIGHWAY 101",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:19.323273"
+        },
+        {
+            "OrigRowNum": 329,
+            "Original Address": "7641 W HIGHWAY 30",
+            "Corrected Address": "7641 W HIGHWAY 30",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:19.570162"
+        },
+        {
+            "OrigRowNum": 331,
+            "Original Address": "675 W 1600 S LEWISTON",
+            "Corrected Address": "675 W 1600 S",
+            "Original ZIP": "84320",
+            "Corrected ZIP": "84320",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:19.801755"
+        },
+        {
+            "OrigRowNum": 336,
+            "Original Address": "1817 UT-101",
+            "Corrected Address": "1817 UT-101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:20.031808"
+        },
+        {
+            "OrigRowNum": 346,
+            "Original Address": "10894 S HWY 165",
+            "Corrected Address": "10894 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:20.273086"
+        },
+        {
+            "OrigRowNum": 353,
+            "Original Address": "9800 S HIGHWAY 165",
+            "Corrected Address": "9800 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:20.501599"
+        },
+        {
+            "OrigRowNum": 371,
+            "Original Address": "3505 S HIGHWAY 89",
+            "Corrected Address": "3505 S HIGHWAY 89",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:20.729558"
+        },
+        {
+            "OrigRowNum": 461,
+            "Original Address": "4605 S HIGHWAY 89",
+            "Corrected Address": "4605 S HIGHWAY 89",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:20.948752"
+        },
+        {
+            "OrigRowNum": 529,
+            "Original Address": "300 US-91",
+            "Corrected Address": "300 US-91",
+            "Original ZIP": "84333",
+            "Corrected ZIP": "84333",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:21.170143"
+        },
+        {
+            "OrigRowNum": 547,
+            "Original Address": "321 S 200 W WELLSVILLE",
+            "Corrected Address": "321 S 200 W",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:21.388246"
+        },
+        {
+            "OrigRowNum": 550,
+            "Original Address": "10802 UT-165",
+            "Corrected Address": "10802 UT-165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:21.631371"
+        },
+        {
+            "OrigRowNum": 552,
+            "Original Address": "9611 S HIGHWAY 165",
+            "Corrected Address": "9611 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:21.853064"
+        },
+        {
+            "OrigRowNum": 605,
+            "Original Address": "20965 UT-13",
+            "Corrected Address": "20965 UT-13",
+            "Original ZIP": "84330",
+            "Corrected ZIP": "84330",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:22.054067"
+        },
+        {
+            "OrigRowNum": 659,
+            "Original Address": "3495 W 15200 N APT 1",
+            "Corrected Address": "3495 W 15200 N",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:22.268492"
+        },
+        {
+            "OrigRowNum": 661,
+            "Original Address": "7645 W HWY 30",
+            "Corrected Address": "7645 W HIGHWAY 30",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:22.504271"
+        },
+        {
+            "OrigRowNum": 683,
+            "Original Address": "3470 W HIGHWAY 30",
+            "Corrected Address": "3470 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:22.729997"
+        },
+        {
+            "OrigRowNum": 695,
+            "Original Address": "4615 US-89",
+            "Corrected Address": "4615 S HIGHWAY 89",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:22.949310"
+        },
+        {
+            "OrigRowNum": 699,
+            "Original Address": "1785 E HIGHWAY 101",
+            "Corrected Address": "1785 E HIGHWAY 101",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:23.171429"
+        },
+        {
+            "OrigRowNum": 706,
+            "Original Address": "1900 S 1100 W #2",
+            "Corrected Address": "1900 S 1100 W",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:23.413730"
+        },
+        {
+            "OrigRowNum": 744,
+            "Original Address": "2207 S HWY 23",
+            "Corrected Address": "2207 S HIGHWAY 23",
+            "Original ZIP": "94325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:23.631484"
+        },
+        {
+            "OrigRowNum": 766,
+            "Original Address": "9715 S HWY 165",
+            "Corrected Address": "9715 S HIGHWAY 165",
+            "Original ZIP": "84328",
+            "Corrected ZIP": "84328",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:23.846899"
+        },
+        {
+            "OrigRowNum": 776,
+            "Original Address": "2390 VALLEY VIEW W",
+            "Corrected Address": "2390 VALLEY VW W",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:24.069296"
+        },
+        {
+            "OrigRowNum": 808,
+            "Original Address": "2693 W 600 SÂ",
+            "Corrected Address": "2693 W 600 S",
+            "Original ZIP": "84321",
+            "Corrected ZIP": "84321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:24.290011"
+        },
+        {
+            "OrigRowNum": 829,
+            "Original Address": "13840 N HIGHWAY 38",
+            "Corrected Address": "13840 N HIGHWAY 38",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:24.510232"
+        },
+        {
+            "OrigRowNum": 837,
+            "Original Address": "14510 HWY 38",
+            "Corrected Address": "14510 N HIGHWAY 38",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:24.750658"
+        },
+        {
+            "OrigRowNum": 853,
+            "Original Address": "244 S MAIN",
+            "Corrected Address": "244 S MAIN ST",
+            "Original ZIP": "84738",
+            "Corrected ZIP": "84738",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:24.968876"
+        },
+        {
+            "OrigRowNum": 874,
+            "Original Address": "455 W HIGHWAY 30",
+            "Corrected Address": "455 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:25.213680"
+        },
+        {
+            "OrigRowNum": 914,
+            "Original Address": "441 W HWY 30",
+            "Corrected Address": "441 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:25.433477"
+        },
+        {
+            "OrigRowNum": 931,
+            "Original Address": "3784 US-91",
+            "Corrected Address": "3784 S HIGHWAY 91",
+            "Original ZIP": "83237",
+            "Corrected ZIP": "83237",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:25.678173"
+        },
+        {
+            "OrigRowNum": 936,
+            "Original Address": "429 W 350 N #4",
+            "Corrected Address": "429 W 350 N",
+            "Original ZIP": "84337",
+            "Corrected ZIP": "84337",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:25.917137"
+        },
+        {
+            "OrigRowNum": 953,
+            "Original Address": "16031 N 6000 W #2",
+            "Corrected Address": "16031 N 6000 W",
+            "Original ZIP": "84312",
+            "Corrected ZIP": "84312",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:26.147750"
+        },
+        {
+            "OrigRowNum": 993,
+            "Original Address": "42 W 300 N #2",
+            "Corrected Address": "42 W 300 N",
+            "Original ZIP": "84319",
+            "Corrected ZIP": "84319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:26.388775"
+        },
+        {
+            "OrigRowNum": 1008,
+            "Original Address": "985 W HWY 30",
+            "Corrected Address": "985 W HIGHWAY 30",
+            "Original ZIP": "84306",
+            "Corrected ZIP": "84306",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:26.614392"
+        },
+        {
+            "OrigRowNum": 1011,
+            "Original Address": "7124 W. HWY30",
+            "Corrected Address": "7124 W HIGHWAY 30",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:26.851563"
+        },
+        {
+            "OrigRowNum": 1033,
+            "Original Address": "15750 N 5400 W #3",
+            "Corrected Address": "15750 N 5400 W",
+            "Original ZIP": "84334",
+            "Corrected ZIP": "84334",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:27.084825"
+        },
+        {
+            "OrigRowNum": 1036,
+            "Original Address": "16031 N 6000 W #1",
+            "Corrected Address": "16031 N 6000 W",
+            "Original ZIP": "84312",
+            "Corrected ZIP": "84312",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:27.308431"
+        },
+        {
+            "OrigRowNum": 1040,
+            "Original Address": "1153 E 1230",
+            "Corrected Address": "1153 E 1230 S",
+            "Original ZIP": "84312",
+            "Corrected ZIP": "84312",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:27.529502"
+        },
+        {
+            "OrigRowNum": 1043,
+            "Original Address": "16031 N 6000 W UNIT 3",
+            "Corrected Address": "16031 N 6000 W",
+            "Original ZIP": "84334",
+            "Corrected ZIP": "84334",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:27.766492"
+        },
+        {
+            "OrigRowNum": 1080,
+            "Original Address": "2195 S HIGHWAY 23",
+            "Corrected Address": "2195 S HIGHWAY 23",
+            "Original ZIP": "84325",
+            "Corrected ZIP": "84325",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:27.993646"
+        },
+        {
+            "OrigRowNum": 1100,
+            "Original Address": "3750 US-91",
+            "Corrected Address": "3750 US-91",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:28.231327"
+        },
+        {
+            "OrigRowNum": 1112,
+            "Original Address": "20075 UT-13",
+            "Corrected Address": "20075 UT-13",
+            "Original ZIP": "84330",
+            "Corrected ZIP": "84330",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:28.450509"
+        },
+        {
+            "OrigRowNum": 1118,
+            "Original Address": "3305 S HIGHWAY 23",
+            "Corrected Address": "3305 S HIGHWAY 23",
+            "Original ZIP": "84339",
+            "Corrected ZIP": "84339",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T15:46:28.664327"
+        }
+    ]
+}

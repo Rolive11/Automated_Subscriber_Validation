@@ -1,0 +1,886 @@
+{
+    "Summary": {
+        "Total Rows Processed": 717,
+        "Rows with Corrections": 53,
+        "Rows with Errors": 28,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 3,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 64,
+        "Total Errors": 45,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.69,
+        "Validation Date": "2025-08-19 11:22:43",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 714,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 714,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Original Value": "GOOD LIFE WELLNESS, LLC",
+            "Corrected Value": "GOOD LIFE WELLNESS LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "customer",
+            "Original Value": "DBA DOMINO'S PI MAX PSI, INC",
+            "Corrected Value": "DBA DOMINO'S PI MAX PSI INC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "customer",
+            "Original Value": "LIGHT IT UP, INC",
+            "Corrected Value": "LIGHT IT UP INC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "customer",
+            "Original Value": "M & M OFFICE PRODUCTS, INC",
+            "Corrected Value": "M & M OFFICE PRODUCTS INC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "customer",
+            "Original Value": "RON'S AUTO SALES, IN",
+            "Corrected Value": "RON'S AUTO SALES IN",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "customer",
+            "Original Value": "INDIANA BOTTLE CO, INC",
+            "Corrected Value": "INDIANA BOTTLE CO INC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "customer",
+            "Original Value": "WELCOME HOME, LLC",
+            "Corrected Value": "WELCOME HOME LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 370,
+            "Column": "customer",
+            "Original Value": "LIGHTHOUSE REALTY GROUP, LLC",
+            "Corrected Value": "LIGHTHOUSE REALTY GROUP LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "customer",
+            "Original Value": "SCOTT HOTEL GROUP, LLC",
+            "Corrected Value": "SCOTT HOTEL GROUP LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "customer",
+            "Original Value": "VALLEY APARTMENTS ONE, LLC OFFICE",
+            "Corrected Value": "VALLEY APARTMENTS ONE LLC OFFICE",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 542,
+            "Column": "customer",
+            "Original Value": "SIGNATURE COUNTERTOPS, INC",
+            "Corrected Value": "SIGNATURE COUNTERTOPS INC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "customer",
+            "Original Value": "HOUSTON THOMPSON & LEWIS, PC",
+            "Corrected Value": "HOUSTON THOMPSON & LEWIS PC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "customer",
+            "Original Value": "EPC - COLUMBIA, LLC",
+            "Corrected Value": "EPC - COLUMBIA LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "696 S LAKE RD SOUTH",
+            "Corrected Value": "696 S LAKE RD S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "1244 E RADIO TOWER RD",
+            "Corrected Value": "1244 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "1254 E RADIO TOWER RD",
+            "Corrected Value": "1254 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "1534 E RADIO TOWER RD",
+            "Corrected Value": "1534 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "1662 E RADIO TOWER RD",
+            "Corrected Value": "1662 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "1680 E RADIO TOWER RD",
+            "Corrected Value": "1680 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "1789 E RADIO TOWER RD",
+            "Corrected Value": "1789 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "1824 E RADIO TOWER RD",
+            "Corrected Value": "1824 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "770 S LAKE RD SOUTH",
+            "Corrected Value": "770 S LAKE RD S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "827 E RADIO TOWER RD",
+            "Corrected Value": "827 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "902 ELM ST UNIT C",
+            "Corrected Value": "902 ELM ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "1122 E RADIO TOWER RD",
+            "Corrected Value": "1122 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "869 E RADIO TOWER RD",
+            "Corrected Value": "869 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "1692 E RADIO TOWER RD",
+            "Corrected Value": "1692 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "22806 EAST ST",
+            "Corrected Value": "22806 E ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "22817 WEST ST",
+            "Corrected Value": "22817 W ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "251 S LAKE RD NORTH",
+            "Corrected Value": "251 S LAKE RD N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "693 SOUTH ST",
+            "Corrected Value": "693 S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "1142 S MAIN ST UNIT 12",
+            "Corrected Value": "1142 S MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "929 E RADIO TOWER RD",
+            "Corrected Value": "929 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "1084 E RADIO TOWER RD",
+            "Corrected Value": "1084 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "1188 E RADIO TOWER RD",
+            "Corrected Value": "1188 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "965 E RADIO TOWER RD",
+            "Corrected Value": "965 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "1951 E RADIO TOWER RD",
+            "Corrected Value": "1951 E RADIO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "5783 N WATER TOWER RD",
+            "Corrected Value": "5783 N WATER",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 687,
+            "Column": "address",
+            "Original Value": "940 WOODED TRAIL APT 7",
+            "Corrected Value": "940 WOODED TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "719 CURSTINGER LOT 3",
+            "Corrected Value": "719 CURSTINGER",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 705,
+            "Column": "address",
+            "Original Value": "850 WOODED TRAIL APT 3",
+            "Corrected Value": "850 WOODED TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "870 WOODED TR APT 6",
+            "Corrected Value": "870 WOODED TR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "860 WOODED TRAIL APT 4",
+            "Corrected Value": "860 WOODED TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 697,
+            "Column": "state",
+            "Original Value": "iN",
+            "Corrected Value": "IN",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "lat",
+            "Original Value": "38.699448,",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "lon",
+            "Original Value": "-85.78575",
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "lat",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "lon",
+            "Original Value": ".",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "TONY STEPHANUS",
+            "Corrected Value": "TONY STEPHANUS_011",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "RYBC HOLDINGS",
+            "Corrected Value": "RYBC HOLDINGS_009",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 287,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "S 7TH ST"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "N BOND ST"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "N THIRD ST"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "N THIRD ST"
+        },
+        {
+            "Row": 697,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "iN"
+        },
+        {
+            "Row": 46,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 46,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 46,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 263,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 263,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 263,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 279,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 510,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 510,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 510,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 524,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 524,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 524,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 533,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 533,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 548,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 548,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 548,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 632,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "38.699448,"
+        },
+        {
+            "Row": 632,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-85.78575"
+        },
+        {
+            "Row": 637,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 637,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "."
+        },
+        {
+            "Row": 637,
+            "Column": "lon",
+            "Error": "Lon must be a number",
+            "Value": "."
+        },
+        {
+            "Row": 386,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to DOROTA ROBISON_001",
+            "Value": "DOROTA ROBISON"
+        },
+        {
+            "Row": 606,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to DUSTIN SMITH_002",
+            "Value": "DUSTIN SMITH"
+        },
+        {
+            "Row": 306,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to HOME HELPERS_003",
+            "Value": "HOME HELPERS"
+        },
+        {
+            "Row": 709,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to KERRY TURNER_004",
+            "Value": "KERRY TURNER"
+        },
+        {
+            "Row": 393,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to LODO_005",
+            "Value": "LODO"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to PAUL MILLIGAN_006",
+            "Value": "PAUL MILLIGAN"
+        },
+        {
+            "Row": 515,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to RUSS EMBRY_007",
+            "Value": "RUSS EMBRY"
+        },
+        {
+            "Row": 320,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to RYBC HOLDINGS_008",
+            "Value": "RYBC HOLDINGS"
+        },
+        {
+            "Row": 323,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to RYBC HOLDINGS_009",
+            "Value": "RYBC HOLDINGS"
+        },
+        {
+            "Row": 58,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to SCOTTSBURG FIRE DEPT_010",
+            "Value": "SCOTTSBURG FIRE DEPT"
+        },
+        {
+            "Row": 225,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to TONY STEPHANUS_011",
+            "Value": "TONY STEPHANUS"
+        },
+        {
+            "Row": 531,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer PATRICIA ROBISON)",
+            "Value": "BREANNA SEBASTIAN"
+        },
+        {
+            "Row": 532,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer PATRICIA ROBISON)",
+            "Value": "WILLIAM MCDERMOTT"
+        },
+        {
+            "Row": 668,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer HEATHER DUNCAN)",
+            "Value": "ANGELA SEBASTIAN"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 531,
+            "customer": "BREANNA SEBASTIAN",
+            "lat": "38.6863153",
+            "lon": "-85.7766697",
+            "address": "30 N HYLAND ST",
+            "city": "SCOTTSBURG",
+            "state": "IN",
+            "zip": "47170",
+            "download": 150.0,
+            "upload": 150.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer PATRICIA ROBISON)"
+        },
+        {
+            "OrigRowNum": 532,
+            "customer": "WILLIAM MCDERMOTT",
+            "lat": "38.6863153",
+            "lon": "-85.7766697",
+            "address": "30 N HYLAND ST",
+            "city": "SCOTTSBURG",
+            "state": "IN",
+            "zip": "47170",
+            "download": 150.0,
+            "upload": 150.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer PATRICIA ROBISON)"
+        },
+        {
+            "OrigRowNum": 668,
+            "customer": "ANGELA SEBASTIAN",
+            "lat": "38.6863153",
+            "lon": "-85.7766697",
+            "address": "30 N HYLAND ST",
+            "city": "SCOTTSBURG",
+            "state": "IN",
+            "zip": "47170",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer HEATHER DUNCAN)"
+        }
+    ],
+    "Smarty Corrections": []
+}

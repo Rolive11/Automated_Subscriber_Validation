@@ -1,0 +1,4161 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1566,
+        "Rows with Corrections": 135,
+        "Rows with Errors": 121,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 256,
+        "Total Errors": 0,
+        "Street Ending Errors": 121,
+        "Validation Time (seconds)": 1.9,
+        "Validation Date": "2025-07-30 21:01:43",
+        "Addresses Sent to Smarty": 121,
+        "Successful Corrections": 121,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.8,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1566,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1566,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "17798 ST HWY 20",
+            "Corrected Value": "17798 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "15198 ST HWY 20",
+            "Corrected Value": "15198 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "398801 ST HWY 10",
+            "Corrected Value": "398801 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "12275 ST HIGHWAY 123",
+            "Corrected Value": "12275 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Original Value": "5732 ST HIGHWAY 10",
+            "Corrected Value": "5732 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 569,
+            "Column": "address",
+            "Original Value": "2282 ST HIGHWAY 123",
+            "Corrected Value": "2282 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Original Value": "399632 ST HWY 10",
+            "Corrected Value": "399632 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Original Value": "13729 ST HIGHWAY 11",
+            "Corrected Value": "13729 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 796,
+            "Column": "address",
+            "Original Value": "396811 W 2900 RD LOT 9",
+            "Corrected Value": "396811 W 2900 RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "address",
+            "Original Value": "13942 ST HWY",
+            "Corrected Value": "13942 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 821,
+            "Column": "address",
+            "Original Value": "23008 ST HWY 11",
+            "Corrected Value": "23008 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1049,
+            "Column": "address",
+            "Original Value": "396050 W 2900 RD LOT 31",
+            "Corrected Value": "396050 W 2900 RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1237,
+            "Column": "address",
+            "Original Value": "396811 W 2900 RD LOT 29",
+            "Corrected Value": "396811 W 2900 RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1410,
+            "Column": "address",
+            "Original Value": "910 W MAIN ST BOX 41",
+            "Corrected Value": "910 W MAIN ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "2276 HIGHWAY 123",
+            "Corrected Value": "2276 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "74056",
+            "Corrected Value": "74056",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "28805 US 60",
+            "Corrected Value": "28805 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "689 WHITETAIL RDG",
+            "Corrected Value": "689 WHITETAIL RDG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "74021",
+            "Corrected Value": "74021",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "11308 E 176ST N",
+            "Corrected Value": "11308 E 176TH ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "9445 STATE HIGHWAY 20",
+            "Corrected Value": "9445 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "402289 E HWY 60",
+            "Corrected Value": "402289 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "19322 N 4020",
+            "Corrected Value": "19322 N 4020 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "zip",
+            "Original Value": "67355",
+            "Corrected Value": "67355",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "101 W JEROME",
+            "Corrected Value": "101 W JEROME ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "1317 SW FRANK PHILLIPS",
+            "Corrected Value": "1317 SW FRANK PHILLIPS BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "12610 COOPER RIDGE",
+            "Corrected Value": "12610 N COOPER RIDGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "zip",
+            "Original Value": "74035",
+            "Corrected Value": "74035",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "17794 STATE HIGHWAY 20",
+            "Corrected Value": "17794 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "13771 U.S. 75",
+            "Corrected Value": "13771 US HIGHWAY 75",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "14749 STATE HIGHWAY 20",
+            "Corrected Value": "14749 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "zip",
+            "Original Value": "74051",
+            "Corrected Value": "74051",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "396811 W 2900 LOT 58",
+            "Corrected Value": "396811 W 2900 RD LOT 58",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "2903 HIGHWAY 60",
+            "Corrected Value": "2903 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "zip",
+            "Original Value": "74021",
+            "Corrected Value": "74021",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "7515 E 126TH N",
+            "Corrected Value": "7515 E 126TH ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "393040 W 2300",
+            "Corrected Value": "393040 W 2300 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "13691 STATE HIGHWAY 11",
+            "Corrected Value": "13691 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "6408 HIGHWAY 11",
+            "Corrected Value": "6408 HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "325 RR 2698",
+            "Corrected Value": "325 PRIVATE ROAD 2698",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Original Value": "12255 HWY 75",
+            "Corrected Value": "12255 US HIGHWAY 75",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "40326 HWY 11",
+            "Corrected Value": "40326 HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "19216 HWY 11",
+            "Corrected Value": "19216 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "14571 N 3980RD",
+            "Corrected Value": "14571 N 3980 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 405,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 405,
+            "Column": "address",
+            "Original Value": "8689 STATE HIGHWAY 11",
+            "Corrected Value": "8689 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "zip",
+            "Original Value": "74346",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "15502 STATE HIGHWAY 20",
+            "Corrected Value": "15502 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "zip",
+            "Original Value": "74051",
+            "Corrected Value": "74051",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "396811 W 2900 LOT 57",
+            "Corrected Value": "396811 W 2900 RD LOT 57",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 428,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 428,
+            "Column": "address",
+            "Original Value": "16665 STATE HIGHWAY 123",
+            "Corrected Value": "16665 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "399432 W 2200",
+            "Corrected Value": "399432 W 2200 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Original Value": "13749 OKLAHOMA 11",
+            "Corrected Value": "13749 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "zip",
+            "Original Value": "74346",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "15194 HWY 20",
+            "Corrected Value": "15194 HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "3171 HWY 123",
+            "Corrected Value": "3171 HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Original Value": "9122 STATE HIGHWAY 11",
+            "Corrected Value": "9122 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "20010 N 4030",
+            "Corrected Value": "20010 N 4030 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "zip",
+            "Original Value": "74073",
+            "Corrected Value": "74073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "12432 BOULDER RIDGE",
+            "Corrected Value": "12432 BOULDER RDG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "14938 STATE HIGHWAY 20",
+            "Corrected Value": "14938 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "zip",
+            "Original Value": "74073",
+            "Corrected Value": "74073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "6794 W 116TH S N",
+            "Corrected Value": "6794 W 116TH ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "16457 STATE HIGHWAY 123",
+            "Corrected Value": "16457 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "8720 OKLAHOMA 11",
+            "Corrected Value": "8720 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "address",
+            "Original Value": "8608 STATE HIGHWAY 20",
+            "Corrected Value": "8608 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Original Value": "97 STATE HIGHWAY 123",
+            "Corrected Value": "97 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "23536 N 4025",
+            "Corrected Value": "23536 N 4025 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "zip",
+            "Original Value": "74027",
+            "Corrected Value": "74027",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "408 CHEROKEE",
+            "Corrected Value": "408 W CHEROKEE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "zip",
+            "Original Value": "74022",
+            "Corrected Value": "74022",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "398351 E STATE HIGHWAY 10",
+            "Corrected Value": "398351 STATE HIGHWAY 10",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "zip",
+            "Original Value": "74083",
+            "Corrected Value": "74083",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "9093 N 4010",
+            "Corrected Value": "9093 N 4010 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "1513 S HIGHWAY 123",
+            "Corrected Value": "1513 HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "zip",
+            "Original Value": "74051",
+            "Corrected Value": "74051",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "303 W VERA",
+            "Corrected Value": "303 W VERA AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Original Value": "19497 N JAVINE HILL",
+            "Corrected Value": "19497 N JAVINE HILL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "zip",
+            "Original Value": "74073",
+            "Corrected Value": "74073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Original Value": "3039 W 91ST N",
+            "Corrected Value": "3039 W 91ST ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "22386 N 4032",
+            "Corrected Value": "22386 N 4032 DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "4198 HIGHWAY 123",
+            "Corrected Value": "4198 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "1018 N DELAWARE",
+            "Corrected Value": "1018 N DELAWARE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "20813 N 4040",
+            "Corrected Value": "20813 N 4040 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 716,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 716,
+            "Column": "address",
+            "Original Value": "402351 W 2650",
+            "Corrected Value": "402351 W 2650 DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 760,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 760,
+            "Column": "address",
+            "Original Value": "18003 N PEORIA",
+            "Corrected Value": "18003 N PEORIA AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "address",
+            "Original Value": "22938 N 4032",
+            "Corrected Value": "22938 N 4032 DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "address",
+            "Original Value": "9373 STATE HIGHWAY 11",
+            "Corrected Value": "9373 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Original Value": "10939 OKLAHOMA 20",
+            "Corrected Value": "10939 STATE HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "2964 OKLAHOMA 123",
+            "Corrected Value": "2964 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 876,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 876,
+            "Column": "address",
+            "Original Value": "725 W CEDAR",
+            "Corrected Value": "725 W CEDAR AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Original Value": "801 OKLAHOMA 123",
+            "Corrected Value": "801 HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 909,
+            "Column": "zip",
+            "Original Value": "73722",
+            "Corrected Value": "73722",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Original Value": "40030 SH 11",
+            "Corrected Value": "40030 SH 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Original Value": "399821 W 2500",
+            "Corrected Value": "399821 W 2500 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 917,
+            "Column": "zip",
+            "Original Value": "74035",
+            "Corrected Value": "74056",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Original Value": "24584 STATE HIGHWAY 99",
+            "Corrected Value": "24584 STATE HIGHWAY 99",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "zip",
+            "Original Value": "74048",
+            "Corrected Value": "74048",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Original Value": "26373 NS 4157",
+            "Corrected Value": "26373 NS 4157 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 964,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 964,
+            "Column": "address",
+            "Original Value": "11151 STATE HIGHWAY 11",
+            "Corrected Value": "11151 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "zip",
+            "Original Value": "74056",
+            "Corrected Value": "74056",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Original Value": "539 LEAHY",
+            "Corrected Value": "539 LEAHY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 996,
+            "Column": "zip",
+            "Original Value": "74027",
+            "Corrected Value": "74027",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 996,
+            "Column": "address",
+            "Original Value": "305 W CHEROKEE",
+            "Corrected Value": "305 W CHEROKEE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 998,
+            "Column": "zip",
+            "Original Value": "74073",
+            "Corrected Value": "74073",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 998,
+            "Column": "address",
+            "Original Value": "7291 W 121ST N",
+            "Corrected Value": "7291 W 121ST ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "zip",
+            "Original Value": "74042",
+            "Corrected Value": "74042",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Original Value": "28 E 8TH STEEET",
+            "Corrected Value": "28 E 8TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Original Value": "8646 OKLAHOMA 11",
+            "Corrected Value": "8646 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1025,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1025,
+            "Column": "address",
+            "Original Value": "3814 SH 123",
+            "Corrected Value": "3814 HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1045,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1045,
+            "Column": "address",
+            "Original Value": "6032 SH 11",
+            "Corrected Value": "6032 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1060,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1060,
+            "Column": "address",
+            "Original Value": "3058 OK-123",
+            "Corrected Value": "3058 OK-123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1082,
+            "Column": "zip",
+            "Original Value": "74061",
+            "Corrected Value": "74061",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1082,
+            "Column": "address",
+            "Original Value": "38009 U.S. 75",
+            "Corrected Value": "38009 US HIGHWAY 75",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1083,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1083,
+            "Column": "address",
+            "Original Value": "13181 U.S. 75",
+            "Corrected Value": "13181 US HIGHWAY 75",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1154,
+            "Column": "zip",
+            "Original Value": "74053",
+            "Corrected Value": "74053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1154,
+            "Column": "address",
+            "Original Value": "3600 QUAIL RUN",
+            "Corrected Value": "3600 QUAIL RUN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1182,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1182,
+            "Column": "address",
+            "Original Value": "411 E 5TH",
+            "Corrected Value": "411 E 5TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1198,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1198,
+            "Column": "address",
+            "Original Value": "12251 U.S. 75",
+            "Corrected Value": "12251 US HIGHWAY 75",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1216,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Original Value": "810 N CHOCTAW",
+            "Corrected Value": "810 N CHOCTAW ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1219,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1219,
+            "Column": "address",
+            "Original Value": "12660 BEAR PAW PATH",
+            "Corrected Value": "12660 BEAR PAW PATH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1227,
+            "Column": "zip",
+            "Original Value": "74022",
+            "Corrected Value": "74022",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1227,
+            "Column": "address",
+            "Original Value": "120 S MAPLE",
+            "Corrected Value": "120 S MAPLE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1235,
+            "Column": "zip",
+            "Original Value": "74027",
+            "Corrected Value": "74027",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1235,
+            "Column": "address",
+            "Original Value": "11021 EW 19",
+            "Corrected Value": "11021 EW 19 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1247,
+            "Column": "zip",
+            "Original Value": "74021",
+            "Corrected Value": "74021",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1247,
+            "Column": "address",
+            "Original Value": "13312 N SHERIDAN",
+            "Corrected Value": "13312 N SHERIDAN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1257,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1257,
+            "Column": "address",
+            "Original Value": "41 VALLEYVIEW HLS",
+            "Corrected Value": "41 VALLEYVIEW HLS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1270,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1270,
+            "Column": "address",
+            "Original Value": "6496 U.S. 60",
+            "Corrected Value": "6496 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1284,
+            "Column": "zip",
+            "Original Value": "74055",
+            "Corrected Value": "74055",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1284,
+            "Column": "address",
+            "Original Value": "11122 N MEMORIAL",
+            "Corrected Value": "11122 N MEMORIAL DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1286,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1286,
+            "Column": "address",
+            "Original Value": "40060 STATE HIGHWAY 11",
+            "Corrected Value": "40060 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1314,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1314,
+            "Column": "address",
+            "Original Value": "300 CR2280",
+            "Corrected Value": "300 COUNTY ROAD 2280",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1316,
+            "Column": "zip",
+            "Original Value": "74048",
+            "Corrected Value": "74048",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1316,
+            "Column": "address",
+            "Original Value": "11857 U.S. 60",
+            "Corrected Value": "11857 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1336,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1336,
+            "Column": "address",
+            "Original Value": "5860 STATE HW 11",
+            "Corrected Value": "5860 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1337,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1337,
+            "Column": "address",
+            "Original Value": "177 STATE HIGHWAY 123",
+            "Corrected Value": "177 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1378,
+            "Column": "zip",
+            "Original Value": "74053",
+            "Corrected Value": "74053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1378,
+            "Column": "address",
+            "Original Value": "13399 S HWY 169",
+            "Corrected Value": "13399 S HIGHWAY 169",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1401,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1401,
+            "Column": "address",
+            "Original Value": "5929 OKLAHOMA 11",
+            "Corrected Value": "5929 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1402,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1402,
+            "Column": "address",
+            "Original Value": "14987 STATE HIGHWAY 123",
+            "Corrected Value": "14987 STATE HIGHWAY 123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1405,
+            "Column": "zip",
+            "Original Value": "74053",
+            "Corrected Value": "74053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1405,
+            "Column": "address",
+            "Original Value": "11361 S 4075RD",
+            "Corrected Value": "11361 S 4075 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1407,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1407,
+            "Column": "address",
+            "Original Value": "601 SW JENNINGS",
+            "Corrected Value": "601 SW JENNINGS AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1408,
+            "Column": "zip",
+            "Original Value": "74021",
+            "Corrected Value": "74021",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1408,
+            "Column": "address",
+            "Original Value": "11423 E 177TH N",
+            "Corrected Value": "11423 E 177TH ST N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1413,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1413,
+            "Column": "address",
+            "Original Value": "13731 OKLAHOMA 11",
+            "Corrected Value": "13731 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1419,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1419,
+            "Column": "address",
+            "Original Value": "722 W CEDAR",
+            "Corrected Value": "722 W CEDAR AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1420,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1420,
+            "Column": "address",
+            "Original Value": "401610 US 60 HWY",
+            "Corrected Value": "401610 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1422,
+            "Column": "zip",
+            "Original Value": "74056",
+            "Corrected Value": "74056",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1422,
+            "Column": "address",
+            "Original Value": "1624 E MAIN",
+            "Corrected Value": "1624 E MAIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1431,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1431,
+            "Column": "address",
+            "Original Value": "14237 OKLAHOMA 20",
+            "Corrected Value": "14237 W HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1447,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1447,
+            "Column": "address",
+            "Original Value": "13749 OK 11",
+            "Corrected Value": "13749 STATE HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1452,
+            "Column": "zip",
+            "Original Value": "74048",
+            "Corrected Value": "74048",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1452,
+            "Column": "address",
+            "Original Value": "19972 U.S. 169",
+            "Corrected Value": "19972 US HIGHWAY 169",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1475,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1475,
+            "Column": "address",
+            "Original Value": "15870 N 3982",
+            "Corrected Value": "15870 N 3982 DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1483,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1483,
+            "Column": "address",
+            "Original Value": "2290 SE BISON",
+            "Corrected Value": "2290 SE BISON RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Original Value": "106 E BIRCH",
+            "Corrected Value": "106 E BIRCH AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1490,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1490,
+            "Column": "address",
+            "Original Value": "410 W VINE",
+            "Corrected Value": "410 W VINE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1496,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1496,
+            "Column": "address",
+            "Original Value": "110 E BIRCH",
+            "Corrected Value": "110E W BIRCH AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1499,
+            "Column": "zip",
+            "Original Value": "74022",
+            "Corrected Value": "74022",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1499,
+            "Column": "address",
+            "Original Value": "7550 OKLAHOMA 10",
+            "Corrected Value": "7550 STATE HIGHWAY 10",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1502,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1502,
+            "Column": "address",
+            "Original Value": "410 N 10TH",
+            "Corrected Value": "410 N 10TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1508,
+            "Column": "zip",
+            "Original Value": "74006",
+            "Corrected Value": "74006",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1508,
+            "Column": "address",
+            "Original Value": "402070 U.S. 60",
+            "Corrected Value": "402070 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1510,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1510,
+            "Column": "address",
+            "Original Value": "111 S 2ND",
+            "Corrected Value": "111 S 2ND RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1512,
+            "Column": "zip",
+            "Original Value": "74001",
+            "Corrected Value": "74001",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1512,
+            "Column": "address",
+            "Original Value": "315 N BROADWAY",
+            "Corrected Value": "315 N BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1517,
+            "Column": "zip",
+            "Original Value": "74029",
+            "Corrected Value": "74029",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1517,
+            "Column": "address",
+            "Original Value": "11491 N 3980",
+            "Corrected Value": "11491 N 3980 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1523,
+            "Column": "zip",
+            "Original Value": "74053",
+            "Corrected Value": "74053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1523,
+            "Column": "address",
+            "Original Value": "9550 S HWY 169",
+            "Corrected Value": "9550 S HIGHWAY 169",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1528,
+            "Column": "zip",
+            "Original Value": "74002",
+            "Corrected Value": "74002",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1528,
+            "Column": "address",
+            "Original Value": "700 W VINE",
+            "Corrected Value": "700 W VINE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1541,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1541,
+            "Column": "address",
+            "Original Value": "40700 OKLAHOMA 11",
+            "Corrected Value": "40700 HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1545,
+            "Column": "zip",
+            "Original Value": "74003",
+            "Corrected Value": "74003",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1545,
+            "Column": "address",
+            "Original Value": "2888 U.S. 60",
+            "Corrected Value": "2888 US HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1558,
+            "Column": "zip",
+            "Original Value": "74070",
+            "Corrected Value": "74070",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1558,
+            "Column": "address",
+            "Original Value": "40700 OKLAHOMA  HWY 11",
+            "Corrected Value": "40700 HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [],
+    "Street Ending Errors": [
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2276 HIGHWAY 123"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28805 US 60"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "689 WHITETAIL RDG"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11308 E 176ST N"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9445 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402289 E HWY 60"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19322 N 4020"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "101 W JEROME"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1317 SW FRANK PHILLIPS"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12610 COOPER RIDGE"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17794 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13771 US 75"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14749 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "396811 W 2900 LOT 58"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2903 HIGHWAY 60"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7515 E 126TH N"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "393040 W 2300"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13691 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6408 HIGHWAY 11"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "325 RR 2698"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12255 HWY 75"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40326 HWY 11"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19216 HWY 11"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14571 N 3980RD"
+        },
+        {
+            "Row": 405,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8689 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15502 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "396811 W 2900 LOT 57"
+        },
+        {
+            "Row": 428,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16665 STATE HIGHWAY 123"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "399432 W 2200"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13749 OKLAHOMA 11"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15194 HWY 20"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3171 HWY 123"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9122 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20010 N 4030"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12432 BOULDER RIDGE"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14938 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6794 W 116TH S N"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16457 STATE HIGHWAY 123"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8720 OKLAHOMA 11"
+        },
+        {
+            "Row": 572,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8608 STATE HIGHWAY 20"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "97 STATE HIGHWAY 123"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23536 N 4025"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "408 CHEROKEE"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "398351 E STATE HIGHWAY 10"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9093 N 4010"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1513 S HIGHWAY 123"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "303 W VERA"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19497 N JAVINE HILL"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3039 W 91ST N"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22386 N 4032"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4198 HIGHWAY 123"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1018 N DELAWARE"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20813 N 4040"
+        },
+        {
+            "Row": 716,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402351 W 2650"
+        },
+        {
+            "Row": 760,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18003 N PEORIA"
+        },
+        {
+            "Row": 823,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22938 N 4032"
+        },
+        {
+            "Row": 843,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9373 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10939 OKLAHOMA 20"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2964 OKLAHOMA 123"
+        },
+        {
+            "Row": 876,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "725 W CEDAR"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "801 OKLAHOMA 123"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40030 SH 11"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "399821 W 2500"
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24584 STATE HIGHWAY 99"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26373 NS 4157"
+        },
+        {
+            "Row": 964,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11151 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "539 LEAHY"
+        },
+        {
+            "Row": 996,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "305 W CHEROKEE"
+        },
+        {
+            "Row": 998,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7291 W 121ST N"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28 E 8TH STEEET"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8646 OKLAHOMA 11"
+        },
+        {
+            "Row": 1025,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3814 SH 123"
+        },
+        {
+            "Row": 1045,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6032 SH 11"
+        },
+        {
+            "Row": 1060,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3058 OK123"
+        },
+        {
+            "Row": 1082,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38009 US 75"
+        },
+        {
+            "Row": 1083,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13181 US 75"
+        },
+        {
+            "Row": 1154,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3600 QUAIL RUN"
+        },
+        {
+            "Row": 1182,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "411 E 5TH"
+        },
+        {
+            "Row": 1198,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12251 US 75"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "810 N CHOCTAW"
+        },
+        {
+            "Row": 1219,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12660 BEAR PAW PATH"
+        },
+        {
+            "Row": 1227,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "120 S MAPLE"
+        },
+        {
+            "Row": 1235,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11021 EW 19"
+        },
+        {
+            "Row": 1247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13312 N SHERIDAN"
+        },
+        {
+            "Row": 1257,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41 VALLEYVIEW HLS"
+        },
+        {
+            "Row": 1270,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6496 US 60"
+        },
+        {
+            "Row": 1284,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11122 N MEMORIAL"
+        },
+        {
+            "Row": 1286,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40060 STATE HIGHWAY 11"
+        },
+        {
+            "Row": 1314,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "300 CR2280"
+        },
+        {
+            "Row": 1316,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11857 US 60"
+        },
+        {
+            "Row": 1336,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5860 STATE HW 11"
+        },
+        {
+            "Row": 1337,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "177 STATE HIGHWAY 123"
+        },
+        {
+            "Row": 1378,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13399 S HWY 169"
+        },
+        {
+            "Row": 1401,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5929 OKLAHOMA 11"
+        },
+        {
+            "Row": 1402,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14987 STATE HIGHWAY 123"
+        },
+        {
+            "Row": 1405,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11361 S 4075RD"
+        },
+        {
+            "Row": 1407,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "601 SW JENNINGS"
+        },
+        {
+            "Row": 1408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11423 E 177TH N"
+        },
+        {
+            "Row": 1413,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13731 OKLAHOMA 11"
+        },
+        {
+            "Row": 1419,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "722 W CEDAR"
+        },
+        {
+            "Row": 1420,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "401610 US 60 HWY"
+        },
+        {
+            "Row": 1422,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1624 E MAIN"
+        },
+        {
+            "Row": 1431,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14237 OKLAHOMA 20"
+        },
+        {
+            "Row": 1447,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13749 OK 11"
+        },
+        {
+            "Row": 1452,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19972 US 169"
+        },
+        {
+            "Row": 1475,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15870 N 3982"
+        },
+        {
+            "Row": 1483,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2290 SE BISON"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "106 E BIRCH"
+        },
+        {
+            "Row": 1490,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "410 W VINE"
+        },
+        {
+            "Row": 1496,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "110 E BIRCH"
+        },
+        {
+            "Row": 1499,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7550 OKLAHOMA 10"
+        },
+        {
+            "Row": 1502,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "410 N 10TH"
+        },
+        {
+            "Row": 1508,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402070 US 60"
+        },
+        {
+            "Row": 1510,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "111 S 2ND"
+        },
+        {
+            "Row": 1512,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "315 N BROADWAY"
+        },
+        {
+            "Row": 1517,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11491 N 3980"
+        },
+        {
+            "Row": 1523,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9550 S HWY 169"
+        },
+        {
+            "Row": 1528,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "700 W VINE"
+        },
+        {
+            "Row": 1541,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40700 OKLAHOMA 11"
+        },
+        {
+            "Row": 1545,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2888 US 60"
+        },
+        {
+            "Row": 1558,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40700 OKLAHOMA HWY 11"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 12,
+            "Original Address": "2276 HIGHWAY 123",
+            "Corrected Address": "2276 STATE HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.568714"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "28805 US 60",
+            "Corrected Address": "28805 US HIGHWAY 60",
+            "Original ZIP": "74056",
+            "Corrected ZIP": "74056",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.570053"
+        },
+        {
+            "OrigRowNum": 26,
+            "Original Address": "689 WHITETAIL RDG",
+            "Corrected Address": "689 WHITETAIL RDG",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.570565"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "11308 E 176ST N",
+            "Corrected Address": "11308 E 176TH ST N",
+            "Original ZIP": "74021",
+            "Corrected ZIP": "74021",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.570989"
+        },
+        {
+            "OrigRowNum": 73,
+            "Original Address": "9445 STATE HIGHWAY 20",
+            "Corrected Address": "9445 STATE HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.571351"
+        },
+        {
+            "OrigRowNum": 79,
+            "Original Address": "402289 E HWY 60",
+            "Corrected Address": "402289 US HIGHWAY 60",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.571700"
+        },
+        {
+            "OrigRowNum": 82,
+            "Original Address": "19322 N 4020",
+            "Corrected Address": "19322 N 4020 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.572052"
+        },
+        {
+            "OrigRowNum": 182,
+            "Original Address": "101 W JEROME",
+            "Corrected Address": "101 W JEROME ST",
+            "Original ZIP": "67355",
+            "Corrected ZIP": "67355",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.572394"
+        },
+        {
+            "OrigRowNum": 201,
+            "Original Address": "1317 SW FRANK PHILLIPS",
+            "Corrected Address": "1317 SW FRANK PHILLIPS BLVD",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.572734"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "12610 COOPER RIDGE",
+            "Corrected Address": "12610 N COOPER RIDGE RD",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.573053"
+        },
+        {
+            "OrigRowNum": 212,
+            "Original Address": "17794 STATE HIGHWAY 20",
+            "Corrected Address": "17794 STATE HIGHWAY 20",
+            "Original ZIP": "74035",
+            "Corrected ZIP": "74035",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.573342"
+        },
+        {
+            "OrigRowNum": 213,
+            "Original Address": "13771 U.S. 75",
+            "Corrected Address": "13771 US HIGHWAY 75",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.573627"
+        },
+        {
+            "OrigRowNum": 227,
+            "Original Address": "14749 STATE HIGHWAY 20",
+            "Corrected Address": "14749 STATE HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.573915"
+        },
+        {
+            "OrigRowNum": 241,
+            "Original Address": "396811 W 2900 LOT 58",
+            "Corrected Address": "396811 W 2900 RD LOT 58",
+            "Original ZIP": "74051",
+            "Corrected ZIP": "74051",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.574199"
+        },
+        {
+            "OrigRowNum": 247,
+            "Original Address": "2903 HIGHWAY 60",
+            "Corrected Address": "2903 US HIGHWAY 60",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.574488"
+        },
+        {
+            "OrigRowNum": 262,
+            "Original Address": "7515 E 126TH N",
+            "Corrected Address": "7515 E 126TH ST N",
+            "Original ZIP": "74021",
+            "Corrected ZIP": "74021",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.574931"
+        },
+        {
+            "OrigRowNum": 270,
+            "Original Address": "393040 W 2300",
+            "Corrected Address": "393040 W 2300 RD",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.575612"
+        },
+        {
+            "OrigRowNum": 277,
+            "Original Address": "13691 STATE HIGHWAY 11",
+            "Corrected Address": "13691 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.576008"
+        },
+        {
+            "OrigRowNum": 294,
+            "Original Address": "6408 HIGHWAY 11",
+            "Corrected Address": "6408 HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.576403"
+        },
+        {
+            "OrigRowNum": 323,
+            "Original Address": "325 RR 2698",
+            "Corrected Address": "325 PRIVATE ROAD 2698",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.576773"
+        },
+        {
+            "OrigRowNum": 342,
+            "Original Address": "12255 HWY 75",
+            "Corrected Address": "12255 US HIGHWAY 75",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.577144"
+        },
+        {
+            "OrigRowNum": 345,
+            "Original Address": "40326 HWY 11",
+            "Corrected Address": "40326 HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.577501"
+        },
+        {
+            "OrigRowNum": 347,
+            "Original Address": "19216 HWY 11",
+            "Corrected Address": "19216 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.577862"
+        },
+        {
+            "OrigRowNum": 396,
+            "Original Address": "14571 N 3980RD",
+            "Corrected Address": "14571 N 3980 RD",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.578211"
+        },
+        {
+            "OrigRowNum": 405,
+            "Original Address": "8689 STATE HIGHWAY 11",
+            "Corrected Address": "8689 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.578572"
+        },
+        {
+            "OrigRowNum": 408,
+            "Original Address": "15502 STATE HIGHWAY 20",
+            "Corrected Address": "15502 STATE HIGHWAY 20",
+            "Original ZIP": "74346",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.578899"
+        },
+        {
+            "OrigRowNum": 414,
+            "Original Address": "396811 W 2900 LOT 57",
+            "Corrected Address": "396811 W 2900 RD LOT 57",
+            "Original ZIP": "74051",
+            "Corrected ZIP": "74051",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.579195"
+        },
+        {
+            "OrigRowNum": 428,
+            "Original Address": "16665 STATE HIGHWAY 123",
+            "Corrected Address": "16665 STATE HIGHWAY 123",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.579504"
+        },
+        {
+            "OrigRowNum": 429,
+            "Original Address": "399432 W 2200",
+            "Corrected Address": "399432 W 2200 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.579799"
+        },
+        {
+            "OrigRowNum": 450,
+            "Original Address": "13749 OKLAHOMA 11",
+            "Corrected Address": "13749 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.580104"
+        },
+        {
+            "OrigRowNum": 457,
+            "Original Address": "15194 HWY 20",
+            "Corrected Address": "15194 HIGHWAY 20",
+            "Original ZIP": "74346",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.580399"
+        },
+        {
+            "OrigRowNum": 461,
+            "Original Address": "3171 HWY 123",
+            "Corrected Address": "3171 HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.580696"
+        },
+        {
+            "OrigRowNum": 471,
+            "Original Address": "9122 STATE HIGHWAY 11",
+            "Corrected Address": "9122 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.580997"
+        },
+        {
+            "OrigRowNum": 484,
+            "Original Address": "20010 N 4030",
+            "Corrected Address": "20010 N 4030 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.581290"
+        },
+        {
+            "OrigRowNum": 527,
+            "Original Address": "12432 BOULDER RIDGE",
+            "Corrected Address": "12432 BOULDER RDG",
+            "Original ZIP": "74073",
+            "Corrected ZIP": "74073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.581591"
+        },
+        {
+            "OrigRowNum": 533,
+            "Original Address": "14938 STATE HIGHWAY 20",
+            "Corrected Address": "14938 STATE HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.581882"
+        },
+        {
+            "OrigRowNum": 559,
+            "Original Address": "6794 W 116TH S N",
+            "Corrected Address": "6794 W 116TH ST N",
+            "Original ZIP": "74073",
+            "Corrected ZIP": "74073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.582173"
+        },
+        {
+            "OrigRowNum": 561,
+            "Original Address": "16457 STATE HIGHWAY 123",
+            "Corrected Address": "16457 STATE HIGHWAY 123",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.582472"
+        },
+        {
+            "OrigRowNum": 566,
+            "Original Address": "8720 OKLAHOMA 11",
+            "Corrected Address": "8720 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.582765"
+        },
+        {
+            "OrigRowNum": 572,
+            "Original Address": "8608 STATE HIGHWAY 20",
+            "Corrected Address": "8608 STATE HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.583056"
+        },
+        {
+            "OrigRowNum": 589,
+            "Original Address": "97 STATE HIGHWAY 123",
+            "Corrected Address": "97 STATE HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.583356"
+        },
+        {
+            "OrigRowNum": 620,
+            "Original Address": "23536 N 4025",
+            "Corrected Address": "23536 N 4025 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.583647"
+        },
+        {
+            "OrigRowNum": 622,
+            "Original Address": "408 CHEROKEE",
+            "Corrected Address": "408 W CHEROKEE",
+            "Original ZIP": "74027",
+            "Corrected ZIP": "74027",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.583945"
+        },
+        {
+            "OrigRowNum": 626,
+            "Original Address": "398351 E STATE HIGHWAY 10",
+            "Corrected Address": "398351 STATE HIGHWAY 10",
+            "Original ZIP": "74022",
+            "Corrected ZIP": "74022",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.584242"
+        },
+        {
+            "OrigRowNum": 630,
+            "Original Address": "9093 N 4010",
+            "Corrected Address": "9093 N 4010 RD",
+            "Original ZIP": "74083",
+            "Corrected ZIP": "74083",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.584530"
+        },
+        {
+            "OrigRowNum": 632,
+            "Original Address": "1513 S HIGHWAY 123",
+            "Corrected Address": "1513 HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.584807"
+        },
+        {
+            "OrigRowNum": 642,
+            "Original Address": "303 W VERA",
+            "Corrected Address": "303 W VERA AVE",
+            "Original ZIP": "74051",
+            "Corrected ZIP": "74051",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.585055"
+        },
+        {
+            "OrigRowNum": 681,
+            "Original Address": "19497 N JAVINE HILL",
+            "Corrected Address": "19497 N JAVINE HILL RD",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.585297"
+        },
+        {
+            "OrigRowNum": 692,
+            "Original Address": "3039 W 91ST N",
+            "Corrected Address": "3039 W 91ST ST N",
+            "Original ZIP": "74073",
+            "Corrected ZIP": "74073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.585546"
+        },
+        {
+            "OrigRowNum": 698,
+            "Original Address": "22386 N 4032",
+            "Corrected Address": "22386 N 4032 DR",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.585788"
+        },
+        {
+            "OrigRowNum": 699,
+            "Original Address": "4198 HIGHWAY 123",
+            "Corrected Address": "4198 STATE HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.586036"
+        },
+        {
+            "OrigRowNum": 708,
+            "Original Address": "1018 N DELAWARE",
+            "Corrected Address": "1018 N DELAWARE ST",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.586277"
+        },
+        {
+            "OrigRowNum": 713,
+            "Original Address": "20813 N 4040",
+            "Corrected Address": "20813 N 4040 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.586527"
+        },
+        {
+            "OrigRowNum": 716,
+            "Original Address": "402351 W 2650",
+            "Corrected Address": "402351 W 2650 DR",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.586770"
+        },
+        {
+            "OrigRowNum": 760,
+            "Original Address": "18003 N PEORIA",
+            "Corrected Address": "18003 N PEORIA AVE",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.587017"
+        },
+        {
+            "OrigRowNum": 823,
+            "Original Address": "22938 N 4032",
+            "Corrected Address": "22938 N 4032 DR",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.587258"
+        },
+        {
+            "OrigRowNum": 843,
+            "Original Address": "9373 STATE HIGHWAY 11",
+            "Corrected Address": "9373 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.587509"
+        },
+        {
+            "OrigRowNum": 858,
+            "Original Address": "10939 OKLAHOMA 20",
+            "Corrected Address": "10939 STATE HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.587752"
+        },
+        {
+            "OrigRowNum": 861,
+            "Original Address": "2964 OKLAHOMA 123",
+            "Corrected Address": "2964 STATE HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.588003"
+        },
+        {
+            "OrigRowNum": 876,
+            "Original Address": "725 W CEDAR",
+            "Corrected Address": "725 W CEDAR AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.588246"
+        },
+        {
+            "OrigRowNum": 884,
+            "Original Address": "801 OKLAHOMA 123",
+            "Corrected Address": "801 HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.588498"
+        },
+        {
+            "OrigRowNum": 909,
+            "Original Address": "40030 SH 11",
+            "Corrected Address": "40030 SH 11",
+            "Original ZIP": "73722",
+            "Corrected ZIP": "73722",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.588745"
+        },
+        {
+            "OrigRowNum": 912,
+            "Original Address": "399821 W 2500",
+            "Corrected Address": "399821 W 2500 RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.588987"
+        },
+        {
+            "OrigRowNum": 917,
+            "Original Address": "24584 STATE HIGHWAY 99",
+            "Corrected Address": "24584 STATE HIGHWAY 99",
+            "Original ZIP": "74035",
+            "Corrected ZIP": "74056",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.589237"
+        },
+        {
+            "OrigRowNum": 928,
+            "Original Address": "26373 NS 4157",
+            "Corrected Address": "26373 NS 4157 RD",
+            "Original ZIP": "74048",
+            "Corrected ZIP": "74048",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.589480"
+        },
+        {
+            "OrigRowNum": 964,
+            "Original Address": "11151 STATE HIGHWAY 11",
+            "Corrected Address": "11151 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.589721"
+        },
+        {
+            "OrigRowNum": 966,
+            "Original Address": "539 LEAHY",
+            "Corrected Address": "539 LEAHY AVE",
+            "Original ZIP": "74056",
+            "Corrected ZIP": "74056",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.589972"
+        },
+        {
+            "OrigRowNum": 996,
+            "Original Address": "305 W CHEROKEE",
+            "Corrected Address": "305 W CHEROKEE",
+            "Original ZIP": "74027",
+            "Corrected ZIP": "74027",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.590214"
+        },
+        {
+            "OrigRowNum": 998,
+            "Original Address": "7291 W 121ST N",
+            "Corrected Address": "7291 W 121ST ST N",
+            "Original ZIP": "74073",
+            "Corrected ZIP": "74073",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.590453"
+        },
+        {
+            "OrigRowNum": 1001,
+            "Original Address": "28 E 8TH STEEET",
+            "Corrected Address": "28 E 8TH ST",
+            "Original ZIP": "74042",
+            "Corrected ZIP": "74042",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.590692"
+        },
+        {
+            "OrigRowNum": 1008,
+            "Original Address": "8646 OKLAHOMA 11",
+            "Corrected Address": "8646 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.590900"
+        },
+        {
+            "OrigRowNum": 1025,
+            "Original Address": "3814 SH 123",
+            "Corrected Address": "3814 HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.591115"
+        },
+        {
+            "OrigRowNum": 1045,
+            "Original Address": "6032 SH 11",
+            "Corrected Address": "6032 STATE HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.591325"
+        },
+        {
+            "OrigRowNum": 1060,
+            "Original Address": "3058 OK-123",
+            "Corrected Address": "3058 OK-123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.591540"
+        },
+        {
+            "OrigRowNum": 1082,
+            "Original Address": "38009 U.S. 75",
+            "Corrected Address": "38009 US HIGHWAY 75",
+            "Original ZIP": "74061",
+            "Corrected ZIP": "74061",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.591750"
+        },
+        {
+            "OrigRowNum": 1083,
+            "Original Address": "13181 U.S. 75",
+            "Corrected Address": "13181 US HIGHWAY 75",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.591965"
+        },
+        {
+            "OrigRowNum": 1154,
+            "Original Address": "3600 QUAIL RUN",
+            "Corrected Address": "3600 QUAIL RUN",
+            "Original ZIP": "74053",
+            "Corrected ZIP": "74053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.592174"
+        },
+        {
+            "OrigRowNum": 1182,
+            "Original Address": "411 E 5TH",
+            "Corrected Address": "411 E 5TH ST",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.592389"
+        },
+        {
+            "OrigRowNum": 1198,
+            "Original Address": "12251 U.S. 75",
+            "Corrected Address": "12251 US HIGHWAY 75",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.592600"
+        },
+        {
+            "OrigRowNum": 1216,
+            "Original Address": "810 N CHOCTAW",
+            "Corrected Address": "810 N CHOCTAW ST",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.592813"
+        },
+        {
+            "OrigRowNum": 1219,
+            "Original Address": "12660 BEAR PAW PATH",
+            "Corrected Address": "12660 BEAR PAW PATH",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.593020"
+        },
+        {
+            "OrigRowNum": 1227,
+            "Original Address": "120 S MAPLE",
+            "Corrected Address": "120 S MAPLE ST",
+            "Original ZIP": "74022",
+            "Corrected ZIP": "74022",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.593234"
+        },
+        {
+            "OrigRowNum": 1235,
+            "Original Address": "11021 EW 19",
+            "Corrected Address": "11021 EW 19 RD",
+            "Original ZIP": "74027",
+            "Corrected ZIP": "74027",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.593443"
+        },
+        {
+            "OrigRowNum": 1247,
+            "Original Address": "13312 N SHERIDAN",
+            "Corrected Address": "13312 N SHERIDAN RD",
+            "Original ZIP": "74021",
+            "Corrected ZIP": "74021",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.593651"
+        },
+        {
+            "OrigRowNum": 1257,
+            "Original Address": "41 VALLEYVIEW HLS",
+            "Corrected Address": "41 VALLEYVIEW HLS",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.593867"
+        },
+        {
+            "OrigRowNum": 1270,
+            "Original Address": "6496 U.S. 60",
+            "Corrected Address": "6496 US HIGHWAY 60",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.594077"
+        },
+        {
+            "OrigRowNum": 1284,
+            "Original Address": "11122 N MEMORIAL",
+            "Corrected Address": "11122 N MEMORIAL DR",
+            "Original ZIP": "74055",
+            "Corrected ZIP": "74055",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.594291"
+        },
+        {
+            "OrigRowNum": 1286,
+            "Original Address": "40060 STATE HIGHWAY 11",
+            "Corrected Address": "40060 STATE HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.594500"
+        },
+        {
+            "OrigRowNum": 1314,
+            "Original Address": "300 CR2280",
+            "Corrected Address": "300 COUNTY ROAD 2280",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.594718"
+        },
+        {
+            "OrigRowNum": 1316,
+            "Original Address": "11857 U.S. 60",
+            "Corrected Address": "11857 US HIGHWAY 60",
+            "Original ZIP": "74048",
+            "Corrected ZIP": "74048",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.594930"
+        },
+        {
+            "OrigRowNum": 1336,
+            "Original Address": "5860 STATE HW 11",
+            "Corrected Address": "5860 STATE HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.595145"
+        },
+        {
+            "OrigRowNum": 1337,
+            "Original Address": "177 STATE HIGHWAY 123",
+            "Corrected Address": "177 STATE HIGHWAY 123",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.595354"
+        },
+        {
+            "OrigRowNum": 1378,
+            "Original Address": "13399 S HWY 169",
+            "Corrected Address": "13399 S HIGHWAY 169",
+            "Original ZIP": "74053",
+            "Corrected ZIP": "74053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.595561"
+        },
+        {
+            "OrigRowNum": 1401,
+            "Original Address": "5929 OKLAHOMA 11",
+            "Corrected Address": "5929 STATE HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.595778"
+        },
+        {
+            "OrigRowNum": 1402,
+            "Original Address": "14987 STATE HIGHWAY 123",
+            "Corrected Address": "14987 STATE HIGHWAY 123",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.595986"
+        },
+        {
+            "OrigRowNum": 1405,
+            "Original Address": "11361 S 4075RD",
+            "Corrected Address": "11361 S 4075 RD",
+            "Original ZIP": "74053",
+            "Corrected ZIP": "74053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.596196"
+        },
+        {
+            "OrigRowNum": 1407,
+            "Original Address": "601 SW JENNINGS",
+            "Corrected Address": "601 SW JENNINGS AVE",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.596411"
+        },
+        {
+            "OrigRowNum": 1408,
+            "Original Address": "11423 E 177TH N",
+            "Corrected Address": "11423 E 177TH ST N",
+            "Original ZIP": "74021",
+            "Corrected ZIP": "74021",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.596621"
+        },
+        {
+            "OrigRowNum": 1413,
+            "Original Address": "13731 OKLAHOMA 11",
+            "Corrected Address": "13731 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.596834"
+        },
+        {
+            "OrigRowNum": 1419,
+            "Original Address": "722 W CEDAR",
+            "Corrected Address": "722 W CEDAR AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.597044"
+        },
+        {
+            "OrigRowNum": 1420,
+            "Original Address": "401610 US 60 HWY",
+            "Corrected Address": "401610 US HIGHWAY 60",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.888220"
+        },
+        {
+            "OrigRowNum": 1422,
+            "Original Address": "1624 E MAIN",
+            "Corrected Address": "1624 E MAIN ST",
+            "Original ZIP": "74056",
+            "Corrected ZIP": "74056",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.889533"
+        },
+        {
+            "OrigRowNum": 1431,
+            "Original Address": "14237 OKLAHOMA 20",
+            "Corrected Address": "14237 W HIGHWAY 20",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.890043"
+        },
+        {
+            "OrigRowNum": 1447,
+            "Original Address": "13749 OK 11",
+            "Corrected Address": "13749 STATE HIGHWAY 11",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.890461"
+        },
+        {
+            "OrigRowNum": 1452,
+            "Original Address": "19972 U.S. 169",
+            "Corrected Address": "19972 US HIGHWAY 169",
+            "Original ZIP": "74048",
+            "Corrected ZIP": "74048",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.890860"
+        },
+        {
+            "OrigRowNum": 1475,
+            "Original Address": "15870 N 3982",
+            "Corrected Address": "15870 N 3982 DR",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.891247"
+        },
+        {
+            "OrigRowNum": 1483,
+            "Original Address": "2290 SE BISON",
+            "Corrected Address": "2290 SE BISON RD",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.891634"
+        },
+        {
+            "OrigRowNum": 1489,
+            "Original Address": "106 E BIRCH",
+            "Corrected Address": "106 E BIRCH AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.892013"
+        },
+        {
+            "OrigRowNum": 1490,
+            "Original Address": "410 W VINE",
+            "Corrected Address": "410 W VINE AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.892406"
+        },
+        {
+            "OrigRowNum": 1496,
+            "Original Address": "110 E BIRCH",
+            "Corrected Address": "110E W BIRCH AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.892811"
+        },
+        {
+            "OrigRowNum": 1499,
+            "Original Address": "7550 OKLAHOMA 10",
+            "Corrected Address": "7550 STATE HIGHWAY 10",
+            "Original ZIP": "74022",
+            "Corrected ZIP": "74022",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.893183"
+        },
+        {
+            "OrigRowNum": 1502,
+            "Original Address": "410 N 10TH",
+            "Corrected Address": "410 N 10TH ST",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.893489"
+        },
+        {
+            "OrigRowNum": 1508,
+            "Original Address": "402070 U.S. 60",
+            "Corrected Address": "402070 US HIGHWAY 60",
+            "Original ZIP": "74006",
+            "Corrected ZIP": "74006",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.893793"
+        },
+        {
+            "OrigRowNum": 1510,
+            "Original Address": "111 S 2ND",
+            "Corrected Address": "111 S 2ND RD",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.894099"
+        },
+        {
+            "OrigRowNum": 1512,
+            "Original Address": "315 N BROADWAY",
+            "Corrected Address": "315 N BROADWAY",
+            "Original ZIP": "74001",
+            "Corrected ZIP": "74001",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.894405"
+        },
+        {
+            "OrigRowNum": 1517,
+            "Original Address": "11491 N 3980",
+            "Corrected Address": "11491 N 3980 RD",
+            "Original ZIP": "74029",
+            "Corrected ZIP": "74029",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.894707"
+        },
+        {
+            "OrigRowNum": 1523,
+            "Original Address": "9550 S HWY 169",
+            "Corrected Address": "9550 S HIGHWAY 169",
+            "Original ZIP": "74053",
+            "Corrected ZIP": "74053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.895010"
+        },
+        {
+            "OrigRowNum": 1528,
+            "Original Address": "700 W VINE",
+            "Corrected Address": "700 W VINE AVE",
+            "Original ZIP": "74002",
+            "Corrected ZIP": "74002",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.895308"
+        },
+        {
+            "OrigRowNum": 1541,
+            "Original Address": "40700 OKLAHOMA 11",
+            "Corrected Address": "40700 HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.895588"
+        },
+        {
+            "OrigRowNum": 1545,
+            "Original Address": "2888 U.S. 60",
+            "Corrected Address": "2888 US HIGHWAY 60",
+            "Original ZIP": "74003",
+            "Corrected ZIP": "74003",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.895870"
+        },
+        {
+            "OrigRowNum": 1558,
+            "Original Address": "40700 OKLAHOMA  HWY 11",
+            "Corrected Address": "40700 HIGHWAY 11",
+            "Original ZIP": "74070",
+            "Corrected ZIP": "74070",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-30T21:01:42.896151"
+        }
+    ]
+}

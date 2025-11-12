@@ -1,0 +1,3404 @@
+{
+    "Summary": {
+        "Total Rows Processed": 422,
+        "Rows with Corrections": 20,
+        "Rows with Errors": 144,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 122,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 20,
+        "Total Errors": 205,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.28,
+        "Validation Date": "2025-08-30 11:17:00",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 299,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 299,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "16750 SW 301 Street",
+            "Corrected Value": "16750 SW 301 STREET",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "24395 SOUTHWEST 202ND AVENUE",
+            "Corrected Value": "24395 SW 202ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "32070 SOUTHWEST 196TH AVENUE",
+            "Corrected Value": "32070 SW 196TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "23400 SOUTHWEST 187TH AVENUE",
+            "Corrected Value": "23400 SW 187TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "34975 SW 188th Ave",
+            "Corrected Value": "34975 SW 188TH AVE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "32981 SW 210th Ave",
+            "Corrected Value": "32981 SW 210TH AVE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "20460 SOUTHWEST 292ND STREET",
+            "Corrected Value": "20460 SW 292ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "20570 SOUTHWEST 368TH STREET",
+            "Corrected Value": "20570 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "20960 SOUTHWEST 368TH STREET",
+            "Corrected Value": "20960 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Original Value": "19782 SW 325th St",
+            "Corrected Value": "19782 SW 325TH ST",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "21590 SOUTHWEST 368TH STREET",
+            "Corrected Value": "21590 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "47 NORTH KROME AVE",
+            "Corrected Value": "47 N KROME AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "17 N FLAGLER AVE",
+            "Corrected Value": "17 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "23750 SOUTHWEST 119TH AVENUE",
+            "Corrected Value": "23750 SW 119TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "35500 SOUTHWEST 213TH AVENUE",
+            "Corrected Value": "35500 SW 213TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "20351 SOUTHWEST 256TH STREET",
+            "Corrected Value": "20351 SW 256TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "35200 SOUTHWEST 212TH AVENUE",
+            "Corrected Value": "35200 SW 212TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "14100 SOUTHWEST 199TH AVENUE",
+            "Corrected Value": "14100 SW 199TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "14800 SOUTHWEST 184TH STREET",
+            "Corrected Value": "14800 SW 184TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Yoel Gonzalez",
+            "Corrected Value": "Yoel Gonzalez_082",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "17 N"
+        },
+        {
+            "Row": 226,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Aaron Flodin_001",
+            "Value": "Aaron Flodin"
+        },
+        {
+            "Row": 169,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Aguacate y Mamey Nursery"
+        },
+        {
+            "Row": 209,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Alejandro Fernandez_002",
+            "Value": "Alejandro Fernandez"
+        },
+        {
+            "Row": 253,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Alejandro Perez_003",
+            "Value": "Alejandro Perez"
+        },
+        {
+            "Row": 282,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Aloha Lock and Safe"
+        },
+        {
+            "Row": 219,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Alvaro Diaz_004",
+            "Value": "Alvaro Diaz"
+        },
+        {
+            "Row": 264,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Amanda Coleman"
+        },
+        {
+            "Row": 171,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Amilia Sanchez"
+        },
+        {
+            "Row": 162,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Ana Miron_005",
+            "Value": "Ana Miron"
+        },
+        {
+            "Row": 158,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Andrews Technology Systems_006",
+            "Value": "Andrews Technology Systems"
+        },
+        {
+            "Row": 224,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Armando BelMontes_007",
+            "Value": "Armando BelMontes"
+        },
+        {
+            "Row": 203,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Ascencion Ponce_008",
+            "Value": "Ascencion Ponce"
+        },
+        {
+            "Row": 185,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Aura Largaespada_009",
+            "Value": "Aura Largaespada"
+        },
+        {
+            "Row": 267,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Avelina Lopez"
+        },
+        {
+            "Row": 233,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Belinda Herbert_010",
+            "Value": "Belinda Herbert"
+        },
+        {
+            "Row": 189,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Brothers Farm"
+        },
+        {
+            "Row": 210,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Carl Delva_011",
+            "Value": "Carl Delva"
+        },
+        {
+            "Row": 206,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Carlos Troconis_012",
+            "Value": "Carlos Troconis"
+        },
+        {
+            "Row": 273,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Carmen Menendez"
+        },
+        {
+            "Row": 195,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Chanthy Chea"
+        },
+        {
+            "Row": 252,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Chris Lonic_013",
+            "Value": "Chris Lonic"
+        },
+        {
+            "Row": 237,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Christina Desantiago_014",
+            "Value": "Christina Desantiago"
+        },
+        {
+            "Row": 272,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Clara Regalado"
+        },
+        {
+            "Row": 212,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Connie Rodgers_015",
+            "Value": "Connie Rodgers"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Costa Farm ND 2749"
+        },
+        {
+            "Row": 294,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Costa Farms ND 2181_016",
+            "Value": "Costa Farms ND 2181"
+        },
+        {
+            "Row": 295,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Costa Farms ND 2235 CC-RND_017",
+            "Value": "Costa Farms ND 2235 CC-RND"
+        },
+        {
+            "Row": 229,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Daniel Bidwell_018",
+            "Value": "Daniel Bidwell"
+        },
+        {
+            "Row": 266,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Daniel Isoba"
+        },
+        {
+            "Row": 274,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "De Bin Xie"
+        },
+        {
+            "Row": 200,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Debbie Munoz #2"
+        },
+        {
+            "Row": 227,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Diana Marroquin_019",
+            "Value": "Diana Marroquin"
+        },
+        {
+            "Row": 182,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "DiMare Circle D Farms"
+        },
+        {
+            "Row": 298,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to DP Real Estate Holding_020",
+            "Value": "DP Real Estate Holding"
+        },
+        {
+            "Row": 178,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Eddie Martinez"
+        },
+        {
+            "Row": 246,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Elida Paz_021",
+            "Value": "Elida Paz"
+        },
+        {
+            "Row": 283,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Evelio Astray-Caneda"
+        },
+        {
+            "Row": 290,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Evelyn Irizar_022",
+            "Value": "Evelyn Irizar"
+        },
+        {
+            "Row": 184,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "FL TREE FARMS"
+        },
+        {
+            "Row": 176,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "ForteFarms"
+        },
+        {
+            "Row": 180,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Francela Aybar"
+        },
+        {
+            "Row": 257,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Frank Cabrera_023",
+            "Value": "Frank Cabrera"
+        },
+        {
+            "Row": 186,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Frank Diaz"
+        },
+        {
+            "Row": 188,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Franklyn Dunbar"
+        },
+        {
+            "Row": 289,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Grove Service Inc Of Miami_024",
+            "Value": "Grove Service Inc Of Miami"
+        },
+        {
+            "Row": 192,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "GuiaMiami LLC"
+        },
+        {
+            "Row": 231,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Gustavo Gonzalez_025",
+            "Value": "Gustavo Gonzalez"
+        },
+        {
+            "Row": 291,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Hitesh Kotecha_026",
+            "Value": "Hitesh Kotecha"
+        },
+        {
+            "Row": 159,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Homestead Full Contact Fitness_027",
+            "Value": "Homestead Full Contact Fitness"
+        },
+        {
+            "Row": 160,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Homestead Traning Center_028",
+            "Value": "Homestead Traning Center"
+        },
+        {
+            "Row": 259,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Hugo Ramirez_029",
+            "Value": "Hugo Ramirez"
+        },
+        {
+            "Row": 271,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Ileana Rabelo"
+        },
+        {
+            "Row": 292,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to In-N-Out Market Place Inc_030",
+            "Value": "In-N-Out Market Place Inc"
+        },
+        {
+            "Row": 238,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jacobo Lopez_031",
+            "Value": "Jacobo Lopez"
+        },
+        {
+            "Row": 260,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to JAMES FRANKLIN_032",
+            "Value": "JAMES FRANKLIN"
+        },
+        {
+            "Row": 207,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Janet Llanas_033",
+            "Value": "Janet Llanas"
+        },
+        {
+            "Row": 198,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Jason Gomez"
+        },
+        {
+            "Row": 256,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Javier Campos_034",
+            "Value": "Javier Campos"
+        },
+        {
+            "Row": 218,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jean Michel_035",
+            "Value": "Jean Michel"
+        },
+        {
+            "Row": 199,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Jessica Calderon"
+        },
+        {
+            "Row": 250,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jorge Marchena_036",
+            "Value": "Jorge Marchena"
+        },
+        {
+            "Row": 247,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jose Benitez_037",
+            "Value": "Jose Benitez"
+        },
+        {
+            "Row": 299,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jose Mirabal_038",
+            "Value": "Jose Mirabal"
+        },
+        {
+            "Row": 278,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Jose Siam"
+        },
+        {
+            "Row": 164,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Joseph W Chandler"
+        },
+        {
+            "Row": 232,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jovito Alvarado_039",
+            "Value": "Jovito Alvarado"
+        },
+        {
+            "Row": 255,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Juan Balarezo_040",
+            "Value": "Juan Balarezo"
+        },
+        {
+            "Row": 277,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Juan Hernandez"
+        },
+        {
+            "Row": 191,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Juan Velazquez"
+        },
+        {
+            "Row": 270,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Kelly Blanco"
+        },
+        {
+            "Row": 157,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to KSGNF LLC_041",
+            "Value": "KSGNF LLC"
+        },
+        {
+            "Row": 269,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Kurtis Rickert"
+        },
+        {
+            "Row": 187,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Laguna Bay Growers Nursery"
+        },
+        {
+            "Row": 216,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Lazaro Martinez_042",
+            "Value": "Lazaro Martinez"
+        },
+        {
+            "Row": 300,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Levi Boyle_043",
+            "Value": "Levi Boyle"
+        },
+        {
+            "Row": 248,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Magolia Diaz Moral_044",
+            "Value": "Magolia Diaz Moral"
+        },
+        {
+            "Row": 275,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Manuel Ponce"
+        },
+        {
+            "Row": 235,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Manuel Ponce 2_045",
+            "Value": "Manuel Ponce 2"
+        },
+        {
+            "Row": 276,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Marcia Artiles"
+        },
+        {
+            "Row": 217,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Marco Camacho_046",
+            "Value": "Marco Camacho"
+        },
+        {
+            "Row": 205,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Margaret Gonzalez_047",
+            "Value": "Margaret Gonzalez"
+        },
+        {
+            "Row": 193,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Maria Munoz"
+        },
+        {
+            "Row": 279,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Maria Sandino"
+        },
+        {
+            "Row": 244,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Maricela Mendez_048",
+            "Value": "Maricela Mendez"
+        },
+        {
+            "Row": 228,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Mario Garcia_049",
+            "Value": "Mario Garcia"
+        },
+        {
+            "Row": 201,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Marlon Ramirez"
+        },
+        {
+            "Row": 242,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Martha Diaz_050",
+            "Value": "Martha Diaz"
+        },
+        {
+            "Row": 262,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Martin Ponce"
+        },
+        {
+            "Row": 167,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Mary Foreman"
+        },
+        {
+            "Row": 190,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Matias Averhoff"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to MAYRA RUBIO_051",
+            "Value": "MAYRA RUBIO"
+        },
+        {
+            "Row": 263,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Melanie Alers"
+        },
+        {
+            "Row": 286,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Melquis Urgelles_052",
+            "Value": "Melquis Urgelles"
+        },
+        {
+            "Row": 225,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Melva omil_053",
+            "Value": "Melva omil"
+        },
+        {
+            "Row": 214,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Michael Claridy_054",
+            "Value": "Michael Claridy"
+        },
+        {
+            "Row": 258,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Michelle Hernandez_055",
+            "Value": "Michelle Hernandez"
+        },
+        {
+            "Row": 175,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Mike Huter"
+        },
+        {
+            "Row": 213,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Mirka Hernandez_056",
+            "Value": "Mirka Hernandez"
+        },
+        {
+            "Row": 251,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Monorom Farm_057",
+            "Value": "Monorom Farm"
+        },
+        {
+            "Row": 268,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Montana Erb"
+        },
+        {
+            "Row": 163,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Nancy Garcia"
+        },
+        {
+            "Row": 287,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Noel Ramirez_058",
+            "Value": "Noel Ramirez"
+        },
+        {
+            "Row": 211,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Olga Bautista_059",
+            "Value": "Olga Bautista"
+        },
+        {
+            "Row": 241,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Omar Sian_060",
+            "Value": "Omar Sian"
+        },
+        {
+            "Row": 249,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Orlando Fenandez_061",
+            "Value": "Orlando Fenandez"
+        },
+        {
+            "Row": 222,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Oveidy Fuentes_062",
+            "Value": "Oveidy Fuentes"
+        },
+        {
+            "Row": 284,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Pak Lam"
+        },
+        {
+            "Row": 230,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Partida Corporation_063",
+            "Value": "Partida Corporation"
+        },
+        {
+            "Row": 239,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Porfirio Garcia_064",
+            "Value": "Porfirio Garcia"
+        },
+        {
+            "Row": 183,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Radhe Farms LLC"
+        },
+        {
+            "Row": 179,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Raisel DeLaRosa"
+        },
+        {
+            "Row": 172,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Ricardo Perez"
+        },
+        {
+            "Row": 170,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Richard Mcneer"
+        },
+        {
+            "Row": 265,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Richard Naranjo"
+        },
+        {
+            "Row": 288,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Richard Pittius_065",
+            "Value": "Richard Pittius"
+        },
+        {
+            "Row": 220,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Rina Intindola_066",
+            "Value": "Rina Intindola"
+        },
+        {
+            "Row": 254,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Risnelys Oliva_067",
+            "Value": "Risnelys Oliva"
+        },
+        {
+            "Row": 166,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "RK Nursery"
+        },
+        {
+            "Row": 280,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Roman Arguello"
+        },
+        {
+            "Row": 297,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Rosa Arguello_068",
+            "Value": "Rosa Arguello"
+        },
+        {
+            "Row": 261,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Rosemarie Schiavone_069",
+            "Value": "Rosemarie Schiavone"
+        },
+        {
+            "Row": 204,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Rosendo Gasca_070",
+            "Value": "Rosendo Gasca"
+        },
+        {
+            "Row": 177,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Santiago ceto"
+        },
+        {
+            "Row": 165,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Sayla Pith"
+        },
+        {
+            "Row": 223,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Sheni Peralta_071",
+            "Value": "Sheni Peralta"
+        },
+        {
+            "Row": 240,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Sherri Arrington_072",
+            "Value": "Sherri Arrington"
+        },
+        {
+            "Row": 296,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Shore Line Builders_073",
+            "Value": "Shore Line Builders"
+        },
+        {
+            "Row": 293,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Sithol Yin_074",
+            "Value": "Sithol Yin"
+        },
+        {
+            "Row": 285,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Skynet360_075",
+            "Value": "Skynet360"
+        },
+        {
+            "Row": 281,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "SMA Nursary"
+        },
+        {
+            "Row": 221,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Steve Milone_076",
+            "Value": "Steve Milone"
+        },
+        {
+            "Row": 202,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Steve Moore_077",
+            "Value": "Steve Moore"
+        },
+        {
+            "Row": 174,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Strong Current Stables LLC 1"
+        },
+        {
+            "Row": 173,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Strong Current Stables LLC 2"
+        },
+        {
+            "Row": 161,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Sunrise Growers Inc_078",
+            "Value": "Sunrise Growers Inc"
+        },
+        {
+            "Row": 234,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Tim Tranthem_079",
+            "Value": "Tim Tranthem"
+        },
+        {
+            "Row": 168,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Tommy UY"
+        },
+        {
+            "Row": 196,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Tracy Carroll"
+        },
+        {
+            "Row": 215,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Valerie Watt_080",
+            "Value": "Valerie Watt"
+        },
+        {
+            "Row": 243,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Victor Ponce_081",
+            "Value": "Victor Ponce"
+        },
+        {
+            "Row": 194,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "vouch Chhay"
+        },
+        {
+            "Row": 197,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Yeni Medina"
+        },
+        {
+            "Row": 236,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Yoel Gonzalez_082",
+            "Value": "Yoel Gonzalez"
+        },
+        {
+            "Row": 163,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Nancy Garcia)",
+            "Value": "Nancy Garcia"
+        },
+        {
+            "Row": 262,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Martin Ponce)",
+            "Value": "Martin Ponce"
+        },
+        {
+            "Row": 169,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Aguacate y Mamey Nursery)",
+            "Value": "Aguacate y Mamey Nursery"
+        },
+        {
+            "Row": 188,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Franklyn Dunbar)",
+            "Value": "Franklyn Dunbar"
+        },
+        {
+            "Row": 196,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Tracy Carroll)",
+            "Value": "Tracy Carroll"
+        },
+        {
+            "Row": 195,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Chanthy Chea)",
+            "Value": "Chanthy Chea"
+        },
+        {
+            "Row": 183,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Radhe Farms LLC)",
+            "Value": "Radhe Farms LLC"
+        },
+        {
+            "Row": 168,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Tommy UY)",
+            "Value": "Tommy UY"
+        },
+        {
+            "Row": 193,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Maria Munoz)",
+            "Value": "Maria Munoz"
+        },
+        {
+            "Row": 200,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Debbie Munoz #2)",
+            "Value": "Debbie Munoz #2"
+        },
+        {
+            "Row": 172,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Ricardo Perez)",
+            "Value": "Ricardo Perez"
+        },
+        {
+            "Row": 201,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Marlon Ramirez)",
+            "Value": "Marlon Ramirez"
+        },
+        {
+            "Row": 270,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Kelly Blanco)",
+            "Value": "Kelly Blanco"
+        },
+        {
+            "Row": 192,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer GuiaMiami LLC)",
+            "Value": "GuiaMiami LLC"
+        },
+        {
+            "Row": 199,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Jessica Calderon)",
+            "Value": "Jessica Calderon"
+        },
+        {
+            "Row": 275,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Manuel Ponce)",
+            "Value": "Manuel Ponce"
+        },
+        {
+            "Row": 164,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Joseph W Chandler)",
+            "Value": "Joseph W Chandler"
+        },
+        {
+            "Row": 189,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Brothers Farm)",
+            "Value": "Brothers Farm"
+        },
+        {
+            "Row": 264,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Amanda Coleman)",
+            "Value": "Amanda Coleman"
+        },
+        {
+            "Row": 178,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Eddie Martinez)",
+            "Value": "Eddie Martinez"
+        },
+        {
+            "Row": 182,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer DiMare Circle D Farms)",
+            "Value": "DiMare Circle D Farms"
+        },
+        {
+            "Row": 197,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Yeni Medina)",
+            "Value": "Yeni Medina"
+        },
+        {
+            "Row": 282,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Aloha Lock and Safe)",
+            "Value": "Aloha Lock and Safe"
+        },
+        {
+            "Row": 263,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Melanie Alers)",
+            "Value": "Melanie Alers"
+        },
+        {
+            "Row": 165,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Sayla Pith)",
+            "Value": "Sayla Pith"
+        },
+        {
+            "Row": 266,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Daniel Isoba)",
+            "Value": "Daniel Isoba"
+        },
+        {
+            "Row": 277,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Juan Hernandez)",
+            "Value": "Juan Hernandez"
+        },
+        {
+            "Row": 184,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer FL TREE FARMS)",
+            "Value": "FL TREE FARMS"
+        },
+        {
+            "Row": 267,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Avelina Lopez)",
+            "Value": "Avelina Lopez"
+        },
+        {
+            "Row": 284,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Pak Lam)",
+            "Value": "Pak Lam"
+        },
+        {
+            "Row": 269,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Kurtis Rickert)",
+            "Value": "Kurtis Rickert"
+        },
+        {
+            "Row": 281,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer SMA Nursary)",
+            "Value": "SMA Nursary"
+        },
+        {
+            "Row": 273,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Carmen Menendez)",
+            "Value": "Carmen Menendez"
+        },
+        {
+            "Row": 268,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Montana Erb)",
+            "Value": "Montana Erb"
+        },
+        {
+            "Row": 194,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer vouch Chhay)",
+            "Value": "vouch Chhay"
+        },
+        {
+            "Row": 191,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Juan Velazquez)",
+            "Value": "Juan Velazquez"
+        },
+        {
+            "Row": 175,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Mike Huter)",
+            "Value": "Mike Huter"
+        },
+        {
+            "Row": 176,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer ForteFarms)",
+            "Value": "ForteFarms"
+        },
+        {
+            "Row": 173,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Strong Current Stables LLC 2)",
+            "Value": "Strong Current Stables LLC 2"
+        },
+        {
+            "Row": 174,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Strong Current Stables LLC 1)",
+            "Value": "Strong Current Stables LLC 1"
+        },
+        {
+            "Row": 171,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Amilia Sanchez)",
+            "Value": "Amilia Sanchez"
+        },
+        {
+            "Row": 187,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Laguna Bay Growers Nursery)",
+            "Value": "Laguna Bay Growers Nursery"
+        },
+        {
+            "Row": 279,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Maria Sandino)",
+            "Value": "Maria Sandino"
+        },
+        {
+            "Row": 276,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Marcia Artiles)",
+            "Value": "Marcia Artiles"
+        },
+        {
+            "Row": 278,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Jose Siam)",
+            "Value": "Jose Siam"
+        },
+        {
+            "Row": 180,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Francela Aybar)",
+            "Value": "Francela Aybar"
+        },
+        {
+            "Row": 274,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer De Bin Xie)",
+            "Value": "De Bin Xie"
+        },
+        {
+            "Row": 166,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer RK Nursery)",
+            "Value": "RK Nursery"
+        },
+        {
+            "Row": 283,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Evelio Astray-Caneda)",
+            "Value": "Evelio Astray-Caneda"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Costa Farm ND 2749)",
+            "Value": "Costa Farm ND 2749"
+        },
+        {
+            "Row": 167,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Mary Foreman)",
+            "Value": "Mary Foreman"
+        },
+        {
+            "Row": 265,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Naranjo)",
+            "Value": "Richard Naranjo"
+        },
+        {
+            "Row": 190,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Matias Averhoff)",
+            "Value": "Matias Averhoff"
+        },
+        {
+            "Row": 271,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Ileana Rabelo)",
+            "Value": "Ileana Rabelo"
+        },
+        {
+            "Row": 198,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Jason Gomez)",
+            "Value": "Jason Gomez"
+        },
+        {
+            "Row": 179,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Raisel DeLaRosa)",
+            "Value": "Raisel DeLaRosa"
+        },
+        {
+            "Row": 186,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Frank Diaz)",
+            "Value": "Frank Diaz"
+        },
+        {
+            "Row": 177,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Santiago ceto)",
+            "Value": "Santiago ceto"
+        },
+        {
+            "Row": 272,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Clara Regalado)",
+            "Value": "Clara Regalado"
+        },
+        {
+            "Row": 170,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Mcneer)",
+            "Value": "Richard Mcneer"
+        },
+        {
+            "Row": 280,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Roman Arguello)",
+            "Value": "Roman Arguello"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 8,
+            "address": "17 N",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 169,
+            "customer": "Aguacate y Mamey Nursery",
+            "lat": 25.417811,
+            "lon": -80.5300843,
+            "address": "20900 SW 376TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 282,
+            "customer": "Aloha Lock and Safe",
+            "lat": 25.4676626,
+            "lon": -80.4742508,
+            "address": "34 SE 4TH RD",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 264,
+            "customer": "Amanda Coleman",
+            "lat": 25.45579529,
+            "lon": -80.45827484,
+            "address": "1535 SANDPIPER BLVD",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33035",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 171,
+            "customer": "Amilia Sanchez",
+            "lat": 25.5411858,
+            "lon": -80.5122398,
+            "address": "19790 SW 242 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 267,
+            "customer": "Avelina Lopez",
+            "lat": 25.48556328,
+            "lon": -80.432724,
+            "address": "30300 SW 149TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 189,
+            "customer": "Brothers Farm",
+            "lat": 25.454881,
+            "lon": -80.5339567,
+            "address": "33225 SW 336 STREET",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 273,
+            "customer": "Carmen Menendez",
+            "lat": 25.4970686,
+            "lon": -80.4454302,
+            "address": "15711 SW 290 TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 195,
+            "customer": "Chanthy Chea",
+            "lat": 25.4256366,
+            "lon": -80.5256646,
+            "address": "20570 SW 368TH STREET",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 272,
+            "customer": "Clara Regalado",
+            "lat": 25.63674,
+            "lon": -80.51259,
+            "address": "19720 SW 136TH STREET",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "Costa Farm ND 2749",
+            "lat": 25.56883,
+            "lon": -80.48731,
+            "address": "18201 SW 216TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33033",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 266,
+            "customer": "Daniel Isoba",
+            "lat": 25.4758701,
+            "lon": -80.4858131,
+            "address": "630 NW 6TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 274,
+            "customer": "De Bin Xie",
+            "lat": 25.5570519,
+            "lon": -80.3718324,
+            "address": "22101 SW 226TH TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33170",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 200,
+            "customer": "Debbie Munoz #2",
+            "lat": 25.4399532,
+            "lon": -80.5343219,
+            "address": "35200 SW 212TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 182,
+            "customer": "DiMare Circle D Farms",
+            "lat": 25.46306,
+            "lon": -80.54306,
+            "address": "32700 SW 217TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 178,
+            "customer": "Eddie Martinez",
+            "lat": 25.4604268,
+            "lon": -80.5317123,
+            "address": "32981 SW 210TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 283,
+            "customer": "Evelio Astray-Caneda",
+            "lat": 25.5669064,
+            "lon": -80.539309,
+            "address": "21385 SW 213 AVE RD",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 184,
+            "customer": "FL TREE FARMS",
+            "lat": 25.4851418,
+            "lon": -80.3720198,
+            "address": "11200 SW 304TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 176,
+            "customer": "ForteFarms",
+            "lat": 25.532276,
+            "lon": -80.517556,
+            "address": "25155 SW 202 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 180,
+            "customer": "Francela Aybar",
+            "lat": 25.5545098,
+            "lon": -80.5464797,
+            "address": "21850 SW 226TH TERRACE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 186,
+            "customer": "Frank Diaz",
+            "lat": 25.63266,
+            "lon": -80.52891,
+            "address": "14177 SW 208TH AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 188,
+            "customer": "Franklyn Dunbar",
+            "lat": 25.42046,
+            "lon": -80.52857,
+            "address": "37401 SW 209TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 192,
+            "customer": "GuiaMiami LLC",
+            "lat": 25.4459602,
+            "lon": -80.5347945,
+            "address": "34550 SW 212TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 271,
+            "customer": "Ileana Rabelo",
+            "lat": 25.61678123,
+            "lon": -80.49453735,
+            "address": "18695 SW 158TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 198,
+            "customer": "Jason Gomez",
+            "lat": 25.6198672,
+            "lon": -80.5050639,
+            "address": "15600 SW 193 AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33197",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 199,
+            "customer": "Jessica Calderon",
+            "lat": 25.4462327,
+            "lon": -80.5357594,
+            "address": "34521 SW 213TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 278,
+            "customer": "Jose Siam",
+            "lat": 25.5535111,
+            "lon": -80.5403466,
+            "address": "21400 SW 228TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 164,
+            "customer": "Joseph W Chandler",
+            "lat": 25.44865417,
+            "lon": -80.5040741,
+            "address": "19325 SW 344TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 277,
+            "customer": "Juan Hernandez",
+            "lat": 25.4819425,
+            "lon": -80.4946301,
+            "address": "18724 SW 306TH TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 191,
+            "customer": "Juan Velazquez",
+            "lat": 25.5238783,
+            "lon": -80.5143952,
+            "address": "26500 SW 199 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 270,
+            "customer": "Kelly Blanco",
+            "lat": 25.444742,
+            "lon": -80.5039674,
+            "address": "34600 SW 193RD AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 269,
+            "customer": "Kurtis Rickert",
+            "lat": 25.48671341,
+            "lon": -80.51750946,
+            "address": "30105 SW 202ND AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 187,
+            "customer": "Laguna Bay Growers Nursery",
+            "lat": 25.54157319,
+            "lon": -80.44534903,
+            "address": "24201 SW 157TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 275,
+            "customer": "Manuel Ponce",
+            "lat": 25.44682884,
+            "lon": -80.53539276,
+            "address": "35751 SW 214TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 276,
+            "customer": "Marcia Artiles",
+            "lat": 25.54672241,
+            "lon": -80.53087616,
+            "address": "20905 SW 236TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 193,
+            "customer": "Maria Munoz",
+            "lat": 25.4399036,
+            "lon": -80.5343386,
+            "address": "35200 SW 212TH AVENUE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 279,
+            "customer": "Maria Sandino",
+            "lat": 25.5462955,
+            "lon": -80.3845455,
+            "address": "23750 SW 119TH AVENUE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33032",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 201,
+            "customer": "Marlon Ramirez",
+            "lat": 25.4424786,
+            "lon": -80.4950902,
+            "address": "18739 SW 349TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 262,
+            "customer": "Martin Ponce",
+            "lat": 25.40681076,
+            "lon": -80.53126526,
+            "address": "20994 SW 388TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 167,
+            "customer": "Mary Foreman",
+            "lat": 25.58462524,
+            "lon": -80.49155426,
+            "address": "19325 SW 185TH CT",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 190,
+            "customer": "Matias Averhoff",
+            "lat": 25.6093843,
+            "lon": -80.4692189,
+            "address": "17000 SW 168TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 263,
+            "customer": "Melanie Alers",
+            "lat": 25.47003619,
+            "lon": -80.4586798,
+            "address": "1424 E MOWRY DR",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 175,
+            "customer": "Mike Huter",
+            "lat": 25.529053,
+            "lon": -80.521334,
+            "address": "20351 SW 256TH STREET",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 268,
+            "customer": "Montana Erb",
+            "lat": 25.5176073,
+            "lon": -80.4730854,
+            "address": "17364 SW 267TH LANE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 163,
+            "customer": "Nancy Garcia",
+            "lat": 25.40374473,
+            "lon": -80.53340815,
+            "address": "21199 SW 392ND ST",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 284,
+            "customer": "Pak Lam",
+            "lat": 25.485662,
+            "lon": -80.474044,
+            "address": "141 NE 16TH ST",
+            "city": "HOMESTEAD FL",
+            "state": "FL",
+            "zip": "33030",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 183,
+            "customer": "Radhe Farms LLC",
+            "lat": 25.4296401,
+            "lon": -80.4564679,
+            "address": "20500 SW 364TH ST",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 179,
+            "customer": "Raisel DeLaRosa",
+            "lat": 25.6215787,
+            "lon": -80.5315319,
+            "address": "15375 SW 209TH AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 172,
+            "customer": "Ricardo Perez",
+            "lat": 25.4423515,
+            "lon": -80.5342735,
+            "address": "34950 SW 212 AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 170,
+            "customer": "Richard Mcneer",
+            "lat": 25.649596,
+            "lon": -80.491952,
+            "address": "18340 SW 122 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 265,
+            "customer": "Richard Naranjo",
+            "lat": 25.58544922,
+            "lon": -80.50737762,
+            "address": "19430 SW 192 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 166,
+            "customer": "RK Nursery",
+            "lat": 25.560016,
+            "lon": -80.542614,
+            "address": "21650 SW 220 STREET",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 280,
+            "customer": "Roman Arguello",
+            "lat": 25.6498435,
+            "lon": -80.4919636,
+            "address": "18420 SW 122ND ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 177,
+            "customer": "Santiago ceto",
+            "lat": 25.6328787,
+            "lon": -80.5159843,
+            "address": "14100 SW 199TH AVENUE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 165,
+            "customer": "Sayla Pith",
+            "lat": 25.4747854,
+            "lon": -80.5274198,
+            "address": "31513 SW 208TH CT",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 281,
+            "customer": "SMA Nursary",
+            "lat": 25.4915044,
+            "lon": -80.5379117,
+            "address": "21399 SW 296TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 174,
+            "customer": "Strong Current Stables LLC 1",
+            "lat": 25.5331436,
+            "lon": -80.517841,
+            "address": "25025 SW 202 AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 173,
+            "customer": "Strong Current Stables LLC 2",
+            "lat": 25.5331436,
+            "lon": -80.517841,
+            "address": "25025 SW 202 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 168,
+            "customer": "Tommy UY",
+            "lat": 25.4360981,
+            "lon": -80.54289246,
+            "address": "35651 SW 218TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 196,
+            "customer": "Tracy Carroll",
+            "lat": 25.4252224,
+            "lon": -80.5309308,
+            "address": "20960 SW 368TH STREET",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 194,
+            "customer": "vouch Chhay",
+            "lat": 25.5210273,
+            "lon": -80.5487819,
+            "address": "22097 SW 264 ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 197,
+            "customer": "Yeni Medina",
+            "lat": 25.4647214,
+            "lon": -80.5114485,
+            "address": "19782 SW 325TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 163,
+            "customer": "Nancy Garcia",
+            "lat": 25.40374473,
+            "lon": -80.53340815,
+            "address": "21199 SW 392ND ST",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Nancy Garcia)"
+        },
+        {
+            "OrigRowNum": 262,
+            "customer": "Martin Ponce",
+            "lat": 25.40681076,
+            "lon": -80.53126526,
+            "address": "20994 SW 388TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Martin Ponce)"
+        },
+        {
+            "OrigRowNum": 169,
+            "customer": "Aguacate y Mamey Nursery",
+            "lat": 25.417811,
+            "lon": -80.5300843,
+            "address": "20900 SW 376TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Aguacate y Mamey Nursery)"
+        },
+        {
+            "OrigRowNum": 188,
+            "customer": "Franklyn Dunbar",
+            "lat": 25.42046,
+            "lon": -80.52857,
+            "address": "37401 SW 209TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Franklyn Dunbar)"
+        },
+        {
+            "OrigRowNum": 196,
+            "customer": "Tracy Carroll",
+            "lat": 25.4252224,
+            "lon": -80.5309308,
+            "address": "20960 SW 368TH STREET",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Tracy Carroll)"
+        },
+        {
+            "OrigRowNum": 195,
+            "customer": "Chanthy Chea",
+            "lat": 25.4256366,
+            "lon": -80.5256646,
+            "address": "20570 SW 368TH STREET",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Chanthy Chea)"
+        },
+        {
+            "OrigRowNum": 183,
+            "customer": "Radhe Farms LLC",
+            "lat": 25.4296401,
+            "lon": -80.4564679,
+            "address": "20500 SW 364TH ST",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Radhe Farms LLC)"
+        },
+        {
+            "OrigRowNum": 168,
+            "customer": "Tommy UY",
+            "lat": 25.4360981,
+            "lon": -80.54289246,
+            "address": "35651 SW 218TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Tommy UY)"
+        },
+        {
+            "OrigRowNum": 193,
+            "customer": "Maria Munoz",
+            "lat": 25.4399036,
+            "lon": -80.5343386,
+            "address": "35200 SW 212TH AVENUE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Maria Munoz)"
+        },
+        {
+            "OrigRowNum": 200,
+            "customer": "Debbie Munoz #2",
+            "lat": 25.4399532,
+            "lon": -80.5343219,
+            "address": "35200 SW 212TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Debbie Munoz #2)"
+        },
+        {
+            "OrigRowNum": 172,
+            "customer": "Ricardo Perez",
+            "lat": 25.4423515,
+            "lon": -80.5342735,
+            "address": "34950 SW 212 AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Ricardo Perez)"
+        },
+        {
+            "OrigRowNum": 201,
+            "customer": "Marlon Ramirez",
+            "lat": 25.4424786,
+            "lon": -80.4950902,
+            "address": "18739 SW 349TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Marlon Ramirez)"
+        },
+        {
+            "OrigRowNum": 270,
+            "customer": "Kelly Blanco",
+            "lat": 25.444742,
+            "lon": -80.5039674,
+            "address": "34600 SW 193RD AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Kelly Blanco)"
+        },
+        {
+            "OrigRowNum": 192,
+            "customer": "GuiaMiami LLC",
+            "lat": 25.4459602,
+            "lon": -80.5347945,
+            "address": "34550 SW 212TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer GuiaMiami LLC)"
+        },
+        {
+            "OrigRowNum": 199,
+            "customer": "Jessica Calderon",
+            "lat": 25.4462327,
+            "lon": -80.5357594,
+            "address": "34521 SW 213TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Jessica Calderon)"
+        },
+        {
+            "OrigRowNum": 275,
+            "customer": "Manuel Ponce",
+            "lat": 25.44682884,
+            "lon": -80.53539276,
+            "address": "35751 SW 214TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Manuel Ponce)"
+        },
+        {
+            "OrigRowNum": 164,
+            "customer": "Joseph W Chandler",
+            "lat": 25.44865417,
+            "lon": -80.5040741,
+            "address": "19325 SW 344TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Joseph W Chandler)"
+        },
+        {
+            "OrigRowNum": 189,
+            "customer": "Brothers Farm",
+            "lat": 25.454881,
+            "lon": -80.5339567,
+            "address": "33225 SW 336 STREET",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Brothers Farm)"
+        },
+        {
+            "OrigRowNum": 264,
+            "customer": "Amanda Coleman",
+            "lat": 25.45579529,
+            "lon": -80.45827484,
+            "address": "1535 SANDPIPER BLVD",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33035",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Amanda Coleman)"
+        },
+        {
+            "OrigRowNum": 178,
+            "customer": "Eddie Martinez",
+            "lat": 25.4604268,
+            "lon": -80.5317123,
+            "address": "32981 SW 210TH AVE",
+            "city": "FLORIDA CITY",
+            "state": "FL",
+            "zip": "33034",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Eddie Martinez)"
+        },
+        {
+            "OrigRowNum": 182,
+            "customer": "DiMare Circle D Farms",
+            "lat": 25.46306,
+            "lon": -80.54306,
+            "address": "32700 SW 217TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer DiMare Circle D Farms)"
+        },
+        {
+            "OrigRowNum": 197,
+            "customer": "Yeni Medina",
+            "lat": 25.4647214,
+            "lon": -80.5114485,
+            "address": "19782 SW 325TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Yeni Medina)"
+        },
+        {
+            "OrigRowNum": 282,
+            "customer": "Aloha Lock and Safe",
+            "lat": 25.4676626,
+            "lon": -80.4742508,
+            "address": "34 SE 4TH RD",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Aloha Lock and Safe)"
+        },
+        {
+            "OrigRowNum": 263,
+            "customer": "Melanie Alers",
+            "lat": 25.47003619,
+            "lon": -80.4586798,
+            "address": "1424 E MOWRY DR",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Melanie Alers)"
+        },
+        {
+            "OrigRowNum": 165,
+            "customer": "Sayla Pith",
+            "lat": 25.4747854,
+            "lon": -80.5274198,
+            "address": "31513 SW 208TH CT",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Sayla Pith)"
+        },
+        {
+            "OrigRowNum": 266,
+            "customer": "Daniel Isoba",
+            "lat": 25.4758701,
+            "lon": -80.4858131,
+            "address": "630 NW 6TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Daniel Isoba)"
+        },
+        {
+            "OrigRowNum": 277,
+            "customer": "Juan Hernandez",
+            "lat": 25.4819425,
+            "lon": -80.4946301,
+            "address": "18724 SW 306TH TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Juan Hernandez)"
+        },
+        {
+            "OrigRowNum": 184,
+            "customer": "FL TREE FARMS",
+            "lat": 25.4851418,
+            "lon": -80.3720198,
+            "address": "11200 SW 304TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer FL TREE FARMS)"
+        },
+        {
+            "OrigRowNum": 267,
+            "customer": "Avelina Lopez",
+            "lat": 25.48556328,
+            "lon": -80.432724,
+            "address": "30300 SW 149TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Avelina Lopez)"
+        },
+        {
+            "OrigRowNum": 284,
+            "customer": "Pak Lam",
+            "lat": 25.485662,
+            "lon": -80.474044,
+            "address": "141 NE 16TH ST",
+            "city": "HOMESTEAD FL",
+            "state": "FL",
+            "zip": "33030",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Pak Lam)"
+        },
+        {
+            "OrigRowNum": 269,
+            "customer": "Kurtis Rickert",
+            "lat": 25.48671341,
+            "lon": -80.51750946,
+            "address": "30105 SW 202ND AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Kurtis Rickert)"
+        },
+        {
+            "OrigRowNum": 281,
+            "customer": "SMA Nursary",
+            "lat": 25.4915044,
+            "lon": -80.5379117,
+            "address": "21399 SW 296TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33030",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer SMA Nursary)"
+        },
+        {
+            "OrigRowNum": 273,
+            "customer": "Carmen Menendez",
+            "lat": 25.4970686,
+            "lon": -80.4454302,
+            "address": "15711 SW 290 TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33033",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Carmen Menendez)"
+        },
+        {
+            "OrigRowNum": 268,
+            "customer": "Montana Erb",
+            "lat": 25.5176073,
+            "lon": -80.4730854,
+            "address": "17364 SW 267TH LANE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Montana Erb)"
+        },
+        {
+            "OrigRowNum": 194,
+            "customer": "vouch Chhay",
+            "lat": 25.5210273,
+            "lon": -80.5487819,
+            "address": "22097 SW 264 ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer vouch Chhay)"
+        },
+        {
+            "OrigRowNum": 191,
+            "customer": "Juan Velazquez",
+            "lat": 25.5238783,
+            "lon": -80.5143952,
+            "address": "26500 SW 199 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Juan Velazquez)"
+        },
+        {
+            "OrigRowNum": 175,
+            "customer": "Mike Huter",
+            "lat": 25.529053,
+            "lon": -80.521334,
+            "address": "20351 SW 256TH STREET",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Mike Huter)"
+        },
+        {
+            "OrigRowNum": 176,
+            "customer": "ForteFarms",
+            "lat": 25.532276,
+            "lon": -80.517556,
+            "address": "25155 SW 202 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer ForteFarms)"
+        },
+        {
+            "OrigRowNum": 173,
+            "customer": "Strong Current Stables LLC 2",
+            "lat": 25.5331436,
+            "lon": -80.517841,
+            "address": "25025 SW 202 AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Strong Current Stables LLC 2)"
+        },
+        {
+            "OrigRowNum": 174,
+            "customer": "Strong Current Stables LLC 1",
+            "lat": 25.5331436,
+            "lon": -80.517841,
+            "address": "25025 SW 202 AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Strong Current Stables LLC 1)"
+        },
+        {
+            "OrigRowNum": 171,
+            "customer": "Amilia Sanchez",
+            "lat": 25.5411858,
+            "lon": -80.5122398,
+            "address": "19790 SW 242 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33031",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Amilia Sanchez)"
+        },
+        {
+            "OrigRowNum": 187,
+            "customer": "Laguna Bay Growers Nursery",
+            "lat": 25.54157319,
+            "lon": -80.44534903,
+            "address": "24201 SW 157TH AVE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Laguna Bay Growers Nursery)"
+        },
+        {
+            "OrigRowNum": 279,
+            "customer": "Maria Sandino",
+            "lat": 25.5462955,
+            "lon": -80.3845455,
+            "address": "23750 SW 119TH AVENUE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33032",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Maria Sandino)"
+        },
+        {
+            "OrigRowNum": 276,
+            "customer": "Marcia Artiles",
+            "lat": 25.54672241,
+            "lon": -80.53087616,
+            "address": "20905 SW 236TH ST",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33031",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Marcia Artiles)"
+        },
+        {
+            "OrigRowNum": 278,
+            "customer": "Jose Siam",
+            "lat": 25.5535111,
+            "lon": -80.5403466,
+            "address": "21400 SW 228TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Jose Siam)"
+        },
+        {
+            "OrigRowNum": 180,
+            "customer": "Francela Aybar",
+            "lat": 25.5545098,
+            "lon": -80.5464797,
+            "address": "21850 SW 226TH TERRACE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Francela Aybar)"
+        },
+        {
+            "OrigRowNum": 274,
+            "customer": "De Bin Xie",
+            "lat": 25.5570519,
+            "lon": -80.3718324,
+            "address": "22101 SW 226TH TERRACE",
+            "city": "HOMESTEAD",
+            "state": "FL",
+            "zip": "33170",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer De Bin Xie)"
+        },
+        {
+            "OrigRowNum": 166,
+            "customer": "RK Nursery",
+            "lat": 25.560016,
+            "lon": -80.542614,
+            "address": "21650 SW 220 STREET",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33170",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer RK Nursery)"
+        },
+        {
+            "OrigRowNum": 283,
+            "customer": "Evelio Astray-Caneda",
+            "lat": 25.5669064,
+            "lon": -80.539309,
+            "address": "21385 SW 213 AVE RD",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Evelio Astray-Caneda)"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "Costa Farm ND 2749",
+            "lat": 25.56883,
+            "lon": -80.48731,
+            "address": "18201 SW 216TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33033",
+            "download": 65.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Costa Farm ND 2749)"
+        },
+        {
+            "OrigRowNum": 167,
+            "customer": "Mary Foreman",
+            "lat": 25.58462524,
+            "lon": -80.49155426,
+            "address": "19325 SW 185TH CT",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Mary Foreman)"
+        },
+        {
+            "OrigRowNum": 265,
+            "customer": "Richard Naranjo",
+            "lat": 25.58544922,
+            "lon": -80.50737762,
+            "address": "19430 SW 192 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Naranjo)"
+        },
+        {
+            "OrigRowNum": 190,
+            "customer": "Matias Averhoff",
+            "lat": 25.6093843,
+            "lon": -80.4692189,
+            "address": "17000 SW 168TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Matias Averhoff)"
+        },
+        {
+            "OrigRowNum": 271,
+            "customer": "Ileana Rabelo",
+            "lat": 25.61678123,
+            "lon": -80.49453735,
+            "address": "18695 SW 158TH ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Ileana Rabelo)"
+        },
+        {
+            "OrigRowNum": 198,
+            "customer": "Jason Gomez",
+            "lat": 25.6198672,
+            "lon": -80.5050639,
+            "address": "15600 SW 193 AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33197",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Jason Gomez)"
+        },
+        {
+            "OrigRowNum": 179,
+            "customer": "Raisel DeLaRosa",
+            "lat": 25.6215787,
+            "lon": -80.5315319,
+            "address": "15375 SW 209TH AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33187",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Raisel DeLaRosa)"
+        },
+        {
+            "OrigRowNum": 186,
+            "customer": "Frank Diaz",
+            "lat": 25.63266,
+            "lon": -80.52891,
+            "address": "14177 SW 208TH AVE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 85.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Frank Diaz)"
+        },
+        {
+            "OrigRowNum": 177,
+            "customer": "Santiago ceto",
+            "lat": 25.6328787,
+            "lon": -80.5159843,
+            "address": "14100 SW 199TH AVENUE",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Santiago ceto)"
+        },
+        {
+            "OrigRowNum": 272,
+            "customer": "Clara Regalado",
+            "lat": 25.63674,
+            "lon": -80.51259,
+            "address": "19720 SW 136TH STREET",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 20.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Clara Regalado)"
+        },
+        {
+            "OrigRowNum": 170,
+            "customer": "Richard Mcneer",
+            "lat": 25.649596,
+            "lon": -80.491952,
+            "address": "18340 SW 122 ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 360.0,
+            "upload": 65.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Mcneer)"
+        },
+        {
+            "OrigRowNum": 280,
+            "customer": "Roman Arguello",
+            "lat": 25.6498435,
+            "lon": -80.4919636,
+            "address": "18420 SW 122ND ST",
+            "city": "MIAMI",
+            "state": "FL",
+            "zip": "33196",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Roman Arguello)"
+        }
+    ],
+    "Smarty Corrections": []
+}

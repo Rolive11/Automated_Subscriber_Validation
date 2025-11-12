@@ -1,0 +1,2505 @@
+{
+    "Summary": {
+        "Total Rows Processed": 763,
+        "Rows with Corrections": 73,
+        "Rows with Errors": 86,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 3,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 140,
+        "Total Errors": 24,
+        "Street Ending Errors": 66,
+        "Validation Time (seconds)": 1.04,
+        "Validation Date": "2025-08-04 09:43:14",
+        "Addresses Sent to Smarty": 66,
+        "Successful Corrections": 66,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.37,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 758,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 758,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 195,
+            "Column": "address",
+            "Original Value": "36625 Sand Hill Rd",
+            "Corrected Value": "36625 SAND HILL RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "49810 EAST LETART ROAD",
+            "Corrected Value": "49810 E LETART ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Original Value": "41399 ST RT 684",
+            "Corrected Value": "41399 ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "EAST MEIGS INDUSTRIAL PARK",
+            "Corrected Value": "E MEIGS INDUSTRIAL PARK",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 390,
+            "Column": "lat",
+            "Original Value": 39.0375914,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 390,
+            "Column": "lon",
+            "Original Value": -82.0459493,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "45545 TR 67",
+            "Corrected Value": "45545 TR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "45641 SAND RIDGE R",
+            "Corrected Value": "45641 SAND RIDGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "34085 PINE GROVE",
+            "Corrected Value": "34085 PINE GROVE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "zip",
+            "Original Value": "435771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "43965 POMEROY PIKE",
+            "Corrected Value": "43965 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "34105 OH-681",
+            "Corrected Value": "34105 SR 681 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "39626 OH-684",
+            "Corrected Value": "39626 OH-684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "50479 RAINBOW RIDGE",
+            "Corrected Value": "50479 RAINBOW RIDGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Original Value": "33455 T-673",
+            "Corrected Value": "33455 TOWNSHIP ROAD 673",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "zip",
+            "Original Value": "45741",
+            "Corrected Value": "45741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "27124 OH 124",
+            "Corrected Value": "27124 OH 124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "39825 OH-684",
+            "Corrected Value": "39825 OH-684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "36258 OH-143",
+            "Corrected Value": "36258 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "41037 SR 684",
+            "Corrected Value": "41037 SR 684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "36008 OH-143",
+            "Corrected Value": "36008 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "38269 TOWNSHIP HWY 684",
+            "Corrected Value": "38269 TOWNSHIP HWY 684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "33837 OHIO 684",
+            "Corrected Value": "33837 OHIO 684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "35272 OH-143",
+            "Corrected Value": "35272 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "35359 OH-143",
+            "Corrected Value": "35359 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "44766 POMEROY PIKE",
+            "Corrected Value": "44766 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "34265 OH-681",
+            "Corrected Value": "34265 SR 681 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Original Value": "38253 OH-684",
+            "Corrected Value": "38253 OH-684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "zip",
+            "Original Value": "45741",
+            "Corrected Value": "45741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Original Value": "27284 OH-124",
+            "Corrected Value": "27284 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Original Value": "36258 SR 143",
+            "Corrected Value": "36258 SR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 409,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 409,
+            "Column": "address",
+            "Original Value": "51290 SR 248",
+            "Corrected Value": "51290 SR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "40068 OH-689",
+            "Corrected Value": "40068 689TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "50997 SR 248",
+            "Corrected Value": "50997 SR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "35822 OH 143",
+            "Corrected Value": "35822 OH 143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Original Value": "45741",
+            "Corrected Value": "45741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "28854 OH 124",
+            "Corrected Value": "28854 OH 124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "40205 OH 689",
+            "Corrected Value": "40205 689TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Original Value": "42075 POMEROY PIKE",
+            "Corrected Value": "42075 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "32623 OH-143",
+            "Corrected Value": "32623 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "44781 POMEROY PIKE",
+            "Corrected Value": "44781 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Original Value": "47430 OAK GROVE CEMETERY",
+            "Corrected Value": "47430 OAK GROVE CEMETERY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "32615 OH-143",
+            "Corrected Value": "32615 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 515,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Original Value": "44495 POMEROY PIKE",
+            "Corrected Value": "44495 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "zip",
+            "Original Value": "45741",
+            "Corrected Value": "45741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Original Value": "28320 OH-124",
+            "Corrected Value": "28320 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "39161 OH-681",
+            "Corrected Value": "39161 SR 681 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "44722 POMEROY PIKE",
+            "Corrected Value": "44722 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Original Value": "34517 OH-7",
+            "Corrected Value": "34517 OH-7",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 569,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 569,
+            "Column": "address",
+            "Original Value": "38810 OH-689",
+            "Corrected Value": "38810 689TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 590,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 590,
+            "Column": "address",
+            "Original Value": "29140 OH-143",
+            "Corrected Value": "29140 OH-143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "41859 POMEROY PIKE",
+            "Corrected Value": "41859 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 602,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 602,
+            "Column": "address",
+            "Original Value": "45740 OH-124",
+            "Corrected Value": "45740 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "zip",
+            "Original Value": "45651",
+            "Corrected Value": "45651",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Original Value": "31809 OH-93",
+            "Corrected Value": "31809 OH-93",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "zip",
+            "Original Value": "45651",
+            "Corrected Value": "45651",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "31310 OH-93",
+            "Corrected Value": "31310 OH-93",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "51179 OH-124",
+            "Corrected Value": "51179 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Original Value": "50478 OH-124",
+            "Corrected Value": "50478 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "zip",
+            "Original Value": "45772",
+            "Corrected Value": "45772",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "40395 CRISTY",
+            "Corrected Value": "40395 CHRISTY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "51558 OH-124",
+            "Corrected Value": "51558 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "zip",
+            "Original Value": "45710",
+            "Corrected Value": "45710",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Original Value": "34265 OH-681",
+            "Corrected Value": "34265 SR 681 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Original Value": "43050 OH-124",
+            "Corrected Value": "43050 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Original Value": "51061 OH-248",
+            "Corrected Value": "51061 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 657,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 657,
+            "Column": "address",
+            "Original Value": "51025 OH-248",
+            "Corrected Value": "51025 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 666,
+            "Column": "zip",
+            "Original Value": "45720",
+            "Corrected Value": "45720",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 666,
+            "Column": "address",
+            "Original Value": "46454 OH-248",
+            "Corrected Value": "46454 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "44772 POMEROY PIKE",
+            "Corrected Value": "44772 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Original Value": "44714 POMEROY PIKE",
+            "Corrected Value": "44714 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "43817 POMEROY PIKE",
+            "Corrected Value": "43817 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "zip",
+            "Original Value": "45720",
+            "Corrected Value": "45720",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Original Value": "46480 OH-248",
+            "Corrected Value": "46480 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 677,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Original Value": "46397 OH-248",
+            "Corrected Value": "46397 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "zip",
+            "Original Value": "45720",
+            "Corrected Value": "45720",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Original Value": "36291 OH-7",
+            "Corrected Value": "36291 OH-7",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 687,
+            "Column": "zip",
+            "Original Value": "45776",
+            "Corrected Value": "45776",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 687,
+            "Column": "address",
+            "Original Value": "316 OLD US ROUTE 33",
+            "Corrected Value": "316 OLD US ROUTE 33",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "zip",
+            "Original Value": "45662",
+            "Corrected Value": "45662",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "2229 OH-140",
+            "Corrected Value": "2229 OHIO AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "zip",
+            "Original Value": "45776",
+            "Corrected Value": "45776",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Original Value": "170 OLD US ROUTE 33",
+            "Corrected Value": "170 OLD US ROUTE 33",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "zip",
+            "Original Value": "45771",
+            "Corrected Value": "45771",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "45754 OH-124",
+            "Corrected Value": "45754 OH-124",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "zip",
+            "Original Value": "45743",
+            "Corrected Value": "45743",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Original Value": "51580 OH-248",
+            "Corrected Value": "51580 OH-248",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Original Value": "41859 POMEROY PIKE",
+            "Corrected Value": "41859 POMEROY PIKE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "zip",
+            "Original Value": "45769",
+            "Corrected Value": "45769",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "address",
+            "Original Value": "37043 OH-7",
+            "Corrected Value": "37043 OH-7",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "zip",
+            "Original Value": "455743",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "zip",
+            "Original Value": "4568",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 305"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "E MEIGS INDUSTRIAL PARK"
+        },
+        {
+            "Row": 670,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BURNETT RD"
+        },
+        {
+            "Row": 73,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "LONG BOTTOM,"
+        },
+        {
+            "Row": 104,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "LONG BOTTOM,OH"
+        },
+        {
+            "Row": 153,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "REEDSVILLE, OH"
+        },
+        {
+            "Row": 226,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "REEDSVILLE,"
+        },
+        {
+            "Row": 231,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "LANGSVILLE,"
+        },
+        {
+            "Row": 241,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "RACINE,"
+        },
+        {
+            "Row": 255,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "SHADE,"
+        },
+        {
+            "Row": 293,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "RACINE,"
+        },
+        {
+            "Row": 314,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "LONG BOTTOM,OH"
+        },
+        {
+            "Row": 359,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "RACINE,"
+        },
+        {
+            "Row": 388,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "RACINE (LETART) OH"
+        },
+        {
+            "Row": 110,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "435771"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "455743"
+        },
+        {
+            "Row": 358,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "4568"
+        },
+        {
+            "Row": 390,
+            "Column": "lat",
+            "Error": "Latitude for AK must be positive",
+            "Value": "39.0375914"
+        },
+        {
+            "Row": 390,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-82.0459493"
+        },
+        {
+            "Row": 750,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1964)",
+            "Value": "1965"
+        },
+        {
+            "Row": 751,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1964)",
+            "Value": "1966"
+        },
+        {
+            "Row": 663,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1209)",
+            "Value": "1814"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "455743"
+        },
+        {
+            "Row": 358,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "4568"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45545 TR 67"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45641 SAND RIDGE R"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34085 PINE GROVE"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43965 POMEROY PIKE"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34105 OH681"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39626 OH684"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "50479 RAINBOW RIDGE"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "33455 T673"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27124 OH 124"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39825 OH684"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36258 OH143"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41037 SR 684"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36008 OH143"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38269 TOWNSHIP HWY 684"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "33837 OHIO 684"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35272 OH143"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35359 OH143"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44766 POMEROY PIKE"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34265 OH681"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38253 OH684"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27284 OH124"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36258 SR 143"
+        },
+        {
+            "Row": 409,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51290 SR 248"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40068 OH689"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "50997 SR 248"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35822 OH 143"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28854 OH 124"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40205 OH 689"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "42075 POMEROY PIKE"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "32623 OH143"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44781 POMEROY PIKE"
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "47430 OAK GROVE CEMETERY"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "32615 OH143"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44495 POMEROY PIKE"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28320 OH124"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39161 OH681"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44722 POMEROY PIKE"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34517 OH7"
+        },
+        {
+            "Row": 569,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38810 OH689"
+        },
+        {
+            "Row": 590,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29140 OH143"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41859 POMEROY PIKE"
+        },
+        {
+            "Row": 602,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45740 OH124"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31809 OH93"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31310 OH93"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51179 OH124"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "50478 OH124"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "40395 CRISTY"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51558 OH124"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34265 OH681"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43050 OH124"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51061 OH248"
+        },
+        {
+            "Row": 657,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51025 OH248"
+        },
+        {
+            "Row": 666,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46454 OH248"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44772 POMEROY PIKE"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44714 POMEROY PIKE"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43817 POMEROY PIKE"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46480 OH248"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46397 OH248"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36291 OH7"
+        },
+        {
+            "Row": 687,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "316 OLD US ROUTE 33"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2229 OH140"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "170 OLD US ROUTE 33"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45754 OH124"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51580 OH248"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41859 POMEROY PIKE"
+        },
+        {
+            "Row": 747,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37043 OH7"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 305"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 305"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 750,
+            "customer": "1965",
+            "lat": 39.0382704,
+            "lon": -82.0453094,
+            "address": "115 E MEMORIAL DR",
+            "city": "POMEROY",
+            "state": "OH",
+            "zip": "45769",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1964)"
+        },
+        {
+            "OrigRowNum": 751,
+            "customer": "1966",
+            "lat": 39.0382704,
+            "lon": -82.0453094,
+            "address": "115 E MEMORIAL DR",
+            "city": "POMEROY",
+            "state": "OH",
+            "zip": "45769",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1964)"
+        },
+        {
+            "OrigRowNum": 663,
+            "customer": "1814",
+            "lat": 39.0795811,
+            "lon": -81.8348409,
+            "address": "50835 MT OLIVE RD",
+            "city": "LONG BOTTOM",
+            "state": "OH",
+            "zip": "45743",
+            "download": 50.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1209)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 47,
+            "Original Address": "45545 TR 67",
+            "Corrected Address": "45545 TR",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.114329"
+        },
+        {
+            "OrigRowNum": 50,
+            "Original Address": "45641 SAND RIDGE R",
+            "Corrected Address": "45641 SAND RIDGE RD",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.115592"
+        },
+        {
+            "OrigRowNum": 99,
+            "Original Address": "34085 PINE GROVE",
+            "Corrected Address": "34085 PINE GROVE RD",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.116011"
+        },
+        {
+            "OrigRowNum": 110,
+            "Original Address": "43965 POMEROY PIKE",
+            "Corrected Address": "43965 POMEROY PIKE",
+            "Original ZIP": "435771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.116376"
+        },
+        {
+            "OrigRowNum": 120,
+            "Original Address": "34105 OH-681",
+            "Corrected Address": "34105 SR 681 S",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.116672"
+        },
+        {
+            "OrigRowNum": 126,
+            "Original Address": "39626 OH-684",
+            "Corrected Address": "39626 OH-684",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.116960"
+        },
+        {
+            "OrigRowNum": 194,
+            "Original Address": "50479 RAINBOW RIDGE",
+            "Corrected Address": "50479 RAINBOW RIDGE RD",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.117239"
+        },
+        {
+            "OrigRowNum": 196,
+            "Original Address": "33455 T-673",
+            "Corrected Address": "33455 TOWNSHIP ROAD 673",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.117516"
+        },
+        {
+            "OrigRowNum": 220,
+            "Original Address": "27124 OH 124",
+            "Corrected Address": "27124 OH 124",
+            "Original ZIP": "45741",
+            "Corrected ZIP": "45741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.117793"
+        },
+        {
+            "OrigRowNum": 253,
+            "Original Address": "39825 OH-684",
+            "Corrected Address": "39825 OH-684",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.118067"
+        },
+        {
+            "OrigRowNum": 280,
+            "Original Address": "36258 OH-143",
+            "Corrected Address": "36258 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.118340"
+        },
+        {
+            "OrigRowNum": 284,
+            "Original Address": "41037 SR 684",
+            "Corrected Address": "41037 SR 684",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.118596"
+        },
+        {
+            "OrigRowNum": 285,
+            "Original Address": "36008 OH-143",
+            "Corrected Address": "36008 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.118858"
+        },
+        {
+            "OrigRowNum": 286,
+            "Original Address": "38269 TOWNSHIP HWY 684",
+            "Corrected Address": "38269 TOWNSHIP HWY 684",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.119109"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "33837 OHIO 684",
+            "Corrected Address": "33837 OHIO 684",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.119362"
+        },
+        {
+            "OrigRowNum": 294,
+            "Original Address": "35272 OH-143",
+            "Corrected Address": "35272 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.119619"
+        },
+        {
+            "OrigRowNum": 295,
+            "Original Address": "35359 OH-143",
+            "Corrected Address": "35359 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.119877"
+        },
+        {
+            "OrigRowNum": 328,
+            "Original Address": "44766 POMEROY PIKE",
+            "Corrected Address": "44766 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.120130"
+        },
+        {
+            "OrigRowNum": 338,
+            "Original Address": "34265 OH-681",
+            "Corrected Address": "34265 SR 681 S",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.120729"
+        },
+        {
+            "OrigRowNum": 353,
+            "Original Address": "38253 OH-684",
+            "Corrected Address": "38253 OH-684",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.121125"
+        },
+        {
+            "OrigRowNum": 366,
+            "Original Address": "27284 OH-124",
+            "Corrected Address": "27284 OH-124",
+            "Original ZIP": "45741",
+            "Corrected ZIP": "45741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.121459"
+        },
+        {
+            "OrigRowNum": 403,
+            "Original Address": "36258 SR 143",
+            "Corrected Address": "36258 SR",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.121791"
+        },
+        {
+            "OrigRowNum": 409,
+            "Original Address": "51290 SR 248",
+            "Corrected Address": "51290 SR",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.122123"
+        },
+        {
+            "OrigRowNum": 422,
+            "Original Address": "40068 OH-689",
+            "Corrected Address": "40068 689TH",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.122442"
+        },
+        {
+            "OrigRowNum": 440,
+            "Original Address": "50997 SR 248",
+            "Corrected Address": "50997 SR",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.122756"
+        },
+        {
+            "OrigRowNum": 442,
+            "Original Address": "35822 OH 143",
+            "Corrected Address": "35822 OH 143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.123071"
+        },
+        {
+            "OrigRowNum": 446,
+            "Original Address": "28854 OH 124",
+            "Corrected Address": "28854 OH 124",
+            "Original ZIP": "45741",
+            "Corrected ZIP": "45741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.123396"
+        },
+        {
+            "OrigRowNum": 472,
+            "Original Address": "40205 OH 689",
+            "Corrected Address": "40205 689TH",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.123714"
+        },
+        {
+            "OrigRowNum": 476,
+            "Original Address": "42075 POMEROY PIKE",
+            "Corrected Address": "42075 POMEROY PIKE",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.124032"
+        },
+        {
+            "OrigRowNum": 496,
+            "Original Address": "32623 OH-143",
+            "Corrected Address": "32623 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.124347"
+        },
+        {
+            "OrigRowNum": 499,
+            "Original Address": "44781 POMEROY PIKE",
+            "Corrected Address": "44781 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.124615"
+        },
+        {
+            "OrigRowNum": 501,
+            "Original Address": "47430 OAK GROVE CEMETERY",
+            "Corrected Address": "47430 OAK GROVE CEMETERY RD",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.124876"
+        },
+        {
+            "OrigRowNum": 507,
+            "Original Address": "32615 OH-143",
+            "Corrected Address": "32615 OH-143",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.125149"
+        },
+        {
+            "OrigRowNum": 515,
+            "Original Address": "44495 POMEROY PIKE",
+            "Corrected Address": "44495 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.125420"
+        },
+        {
+            "OrigRowNum": 525,
+            "Original Address": "28320 OH-124",
+            "Corrected Address": "28320 OH-124",
+            "Original ZIP": "45741",
+            "Corrected ZIP": "45741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.125690"
+        },
+        {
+            "OrigRowNum": 541,
+            "Original Address": "39161 OH-681",
+            "Corrected Address": "39161 SR 681 S",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.125949"
+        },
+        {
+            "OrigRowNum": 563,
+            "Original Address": "44722 POMEROY PIKE",
+            "Corrected Address": "44722 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.126211"
+        },
+        {
+            "OrigRowNum": 567,
+            "Original Address": "34517 OH-7",
+            "Corrected Address": "34517 OH-7",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.126481"
+        },
+        {
+            "OrigRowNum": 569,
+            "Original Address": "38810 OH-689",
+            "Corrected Address": "38810 689TH",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.126742"
+        },
+        {
+            "OrigRowNum": 590,
+            "Original Address": "29140 OH-143",
+            "Corrected Address": "29140 OH-143",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.127008"
+        },
+        {
+            "OrigRowNum": 598,
+            "Original Address": "41859 POMEROY PIKE",
+            "Corrected Address": "41859 POMEROY PIKE",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.127273"
+        },
+        {
+            "OrigRowNum": 602,
+            "Original Address": "45740 OH-124",
+            "Corrected Address": "45740 OH-124",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.127540"
+        },
+        {
+            "OrigRowNum": 610,
+            "Original Address": "31809 OH-93",
+            "Corrected Address": "31809 OH-93",
+            "Original ZIP": "45651",
+            "Corrected ZIP": "45651",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.127799"
+        },
+        {
+            "OrigRowNum": 618,
+            "Original Address": "31310 OH-93",
+            "Corrected Address": "31310 OH-93",
+            "Original ZIP": "45651",
+            "Corrected ZIP": "45651",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.128069"
+        },
+        {
+            "OrigRowNum": 622,
+            "Original Address": "51179 OH-124",
+            "Corrected Address": "51179 OH-124",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.128334"
+        },
+        {
+            "OrigRowNum": 625,
+            "Original Address": "50478 OH-124",
+            "Corrected Address": "50478 OH-124",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.128593"
+        },
+        {
+            "OrigRowNum": 626,
+            "Original Address": "40395 CRISTY",
+            "Corrected Address": "40395 CHRISTY RD",
+            "Original ZIP": "45772",
+            "Corrected ZIP": "45772",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.128853"
+        },
+        {
+            "OrigRowNum": 635,
+            "Original Address": "51558 OH-124",
+            "Corrected Address": "51558 OH-124",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.129128"
+        },
+        {
+            "OrigRowNum": 645,
+            "Original Address": "34265 OH-681",
+            "Corrected Address": "34265 SR 681 S",
+            "Original ZIP": "45710",
+            "Corrected ZIP": "45710",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.129391"
+        },
+        {
+            "OrigRowNum": 650,
+            "Original Address": "43050 OH-124",
+            "Corrected Address": "43050 OH-124",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.129648"
+        },
+        {
+            "OrigRowNum": 656,
+            "Original Address": "51061 OH-248",
+            "Corrected Address": "51061 OH-248",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.129918"
+        },
+        {
+            "OrigRowNum": 657,
+            "Original Address": "51025 OH-248",
+            "Corrected Address": "51025 OH-248",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.130170"
+        },
+        {
+            "OrigRowNum": 666,
+            "Original Address": "46454 OH-248",
+            "Corrected Address": "46454 OH-248",
+            "Original ZIP": "45720",
+            "Corrected ZIP": "45720",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.130388"
+        },
+        {
+            "OrigRowNum": 668,
+            "Original Address": "44772 POMEROY PIKE",
+            "Corrected Address": "44772 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.130612"
+        },
+        {
+            "OrigRowNum": 672,
+            "Original Address": "44714 POMEROY PIKE",
+            "Corrected Address": "44714 POMEROY PIKE",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.130836"
+        },
+        {
+            "OrigRowNum": 673,
+            "Original Address": "43817 POMEROY PIKE",
+            "Corrected Address": "43817 POMEROY PIKE",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.131063"
+        },
+        {
+            "OrigRowNum": 676,
+            "Original Address": "46480 OH-248",
+            "Corrected Address": "46480 OH-248",
+            "Original ZIP": "45720",
+            "Corrected ZIP": "45720",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.131282"
+        },
+        {
+            "OrigRowNum": 677,
+            "Original Address": "46397 OH-248",
+            "Corrected Address": "46397 OH-248",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.131500"
+        },
+        {
+            "OrigRowNum": 681,
+            "Original Address": "36291 OH-7",
+            "Corrected Address": "36291 OH-7",
+            "Original ZIP": "45720",
+            "Corrected ZIP": "45720",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.131727"
+        },
+        {
+            "OrigRowNum": 687,
+            "Original Address": "316 OLD US ROUTE 33",
+            "Corrected Address": "316 OLD US ROUTE 33",
+            "Original ZIP": "45776",
+            "Corrected ZIP": "45776",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.131943"
+        },
+        {
+            "OrigRowNum": 698,
+            "Original Address": "2229 OH-140",
+            "Corrected Address": "2229 OHIO AVE",
+            "Original ZIP": "45662",
+            "Corrected ZIP": "45662",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.132160"
+        },
+        {
+            "OrigRowNum": 703,
+            "Original Address": "170 OLD US ROUTE 33",
+            "Corrected Address": "170 OLD US ROUTE 33",
+            "Original ZIP": "45776",
+            "Corrected ZIP": "45776",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.132385"
+        },
+        {
+            "OrigRowNum": 706,
+            "Original Address": "45754 OH-124",
+            "Corrected Address": "45754 OH-124",
+            "Original ZIP": "45771",
+            "Corrected ZIP": "45771",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.132601"
+        },
+        {
+            "OrigRowNum": 711,
+            "Original Address": "51580 OH-248",
+            "Corrected Address": "51580 OH-248",
+            "Original ZIP": "45743",
+            "Corrected ZIP": "45743",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.132824"
+        },
+        {
+            "OrigRowNum": 719,
+            "Original Address": "41859 POMEROY PIKE",
+            "Corrected Address": "41859 POMEROY PIKE",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.133040"
+        },
+        {
+            "OrigRowNum": 747,
+            "Original Address": "37043 OH-7",
+            "Corrected Address": "37043 OH-7",
+            "Original ZIP": "45769",
+            "Corrected ZIP": "45769",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:43:14.133265"
+        }
+    ]
+}

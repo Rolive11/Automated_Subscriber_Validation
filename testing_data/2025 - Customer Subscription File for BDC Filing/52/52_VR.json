@@ -1,0 +1,507 @@
+{
+    "Summary": {
+        "Total Rows Processed": 622,
+        "Rows with Corrections": 24,
+        "Rows with Errors": 20,
+        "PO Box Rows Removed": 14,
+        "Invalid Address Rows Removed": 3,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 24,
+        "Total Errors": 23,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.52,
+        "Validation Date": "2025-08-14 11:51:05",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 3 rows (0.50%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 604,
+        "Address Errors Found": 3,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.5,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 3 rows (0.50%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 604,
+        "address_error_count": 3,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.5,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            370,
+            482,
+            156
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "7218 E 1125 SOUTH",
+            "Corrected Value": "7218 E 1125 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "6540 E 600 SOUTH",
+            "Corrected Value": "6540 E 600 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "705 W LANDESS LOT 2",
+            "Corrected Value": "705 W LANDESS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "277 W THOBURN BOX 31",
+            "Corrected Value": "277 W THOBURN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Original Value": "705 W LANDESS ST LOT 4",
+            "Corrected Value": "705 W LANDESS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "10795 E 400 S APT A",
+            "Corrected Value": "10795 E 400 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "101 E 9TH ST APTB",
+            "Corrected Value": "101 E 9TH ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Original Value": "253 W SPENCER APT 13",
+            "Corrected Value": "253 W SPENCER",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "2504 S 1000 EAST",
+            "Corrected Value": "2504 S 1000 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "101 E 9TH STREET APT A",
+            "Corrected Value": "101 E 9TH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Original Value": "7453 E 400 SOUTH",
+            "Corrected Value": "7453 E 400 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "state",
+            "Original Value": "",
+            "Corrected Value": "IN",
+            "Correction Type": "State from ZIP Code",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "12221 W COUNTY ROAD 1050 N",
+            "Corrected Value": "12221 W CR 1050 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "9550 W COUNTY ROAD 1200 N",
+            "Corrected Value": "9550 W CR 1200 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "16500 N COUNTY ROAD 600 W",
+            "Corrected Value": "16500 N CR 600 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "8089 W COUNTY ROAD 850 N",
+            "Corrected Value": "8089 W CR 850 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "17000 N COUNTY ROAD 500 W",
+            "Corrected Value": "17000 N CR 500 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Original Value": "15340 N COUNTY ROAD 600 W",
+            "Corrected Value": "15340 N CR 600 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 390,
+            "Column": "address",
+            "Original Value": "5601 W COUNTY ROAD 1070 N",
+            "Corrected Value": "5601 W CR 1070 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "9531 E COUNTY ROAD 1200 S",
+            "Corrected Value": "9531 E CR 1200 S",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "5700 W COUNTY ROAD 1070 N",
+            "Corrected Value": "5700 W CR 1070 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "10695 W COUNTY ROAD 1300 N",
+            "Corrected Value": "10695 W CR 1300 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Original Value": "10701 W COUNTY ROAD 1200 N",
+            "Corrected Value": "10701 W CR 1200 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "zip",
+            "Original Value": "466933",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SPENCER FARMS"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 392"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 139"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COMMERCE DR"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 53"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "62A W TAYLOR AVE"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "10320E S 00 N"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 107"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 156"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 152"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "9061E 900 S"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "0311S 900 E"
+        },
+        {
+            "Row": 569,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "10200S 1000 E"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TAYLOR BOOK STORE"
+        },
+        {
+            "Row": 156,
+            "Column": "city",
+            "Error": "Required field: City cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 370,
+            "Column": "city",
+            "Error": "Required field: City cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 370,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 482,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "466933"
+        },
+        {
+            "Row": 402,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5534)",
+            "Value": "4952"
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "466933"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 26,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 392"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 139"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 53"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 107"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 156"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 152"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 392"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 139"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 53"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 107"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 156"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 152"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 370,
+            "address": "201 S FIRST ST",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 482,
+            "address": "916 S WISCONSIN AVE",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 156,
+            "address": "215 W 10TH",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 402,
+            "customer": "4952",
+            "lat": 40.52,
+            "lon": -85.43,
+            "address": "4818 N 300 W",
+            "city": "HARTFORD CITY",
+            "state": "IN",
+            "zip": "47348",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 5534)"
+        }
+    ],
+    "Smarty Corrections": []
+}

@@ -1,0 +1,1353 @@
+{
+    "Summary": {
+        "Total Rows Processed": 166,
+        "Rows with Corrections": 58,
+        "Rows with Errors": 37,
+        "PO Box Rows Removed": 4,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 10,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 79,
+        "Total Errors": 23,
+        "Street Ending Errors": 20,
+        "Validation Time (seconds)": 0.52,
+        "Validation Date": "2025-08-01 12:33:07",
+        "Addresses Sent to Smarty": 20,
+        "Successful Corrections": 20,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.37,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 152,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 152,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "207 WEST MONROE STREET",
+            "Corrected Value": "207 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "204 WEST MONROE STREET",
+            "Corrected Value": "204 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "206 WEST MONROE STREET",
+            "Corrected Value": "206 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "206 WEST MONROE STREET",
+            "Corrected Value": "206 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "405 AVENUE H",
+            "Corrected Value": "405 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "203 WEST MONROE STREET",
+            "Corrected Value": "203 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "1701 AVENUE L",
+            "Corrected Value": "1701 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "512 WEST MONROE STREET",
+            "Corrected Value": "512 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "1482 FM 2306",
+            "Corrected Value": "1482 W FM 2306",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "1869 FM 1490",
+            "Corrected Value": "1869 N FM 1490",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "106 AVENUE K",
+            "Corrected Value": "106 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "107 N AVENUE H",
+            "Corrected Value": "107 N AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "1916 WEST AVENUE",
+            "Corrected Value": "1916 W AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "1916 WEST AVENUE",
+            "Corrected Value": "1916 W AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "210 AVENUE U",
+            "Corrected Value": "210 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "209 WEST MONROE STREET",
+            "Corrected Value": "209 W MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "1843 N 385",
+            "Corrected Value": "1843 N HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "607 AVENUE G",
+            "Corrected Value": "607 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "607 AVENUE G",
+            "Corrected Value": "607 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "1712 WEST AVENUE",
+            "Corrected Value": "1712 W AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "3261 SOUTH STATE ROAD",
+            "Corrected Value": "3261 S STATE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "1869 FM 303",
+            "Corrected Value": "1869 S FM 303",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "2375 EAST ELLIS STREET",
+            "Corrected Value": "2375 E ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "811 N 385",
+            "Corrected Value": "811 N HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "301 AVENUE F",
+            "Corrected Value": "301 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "309 WEST ELLIS STREET",
+            "Corrected Value": "309 W ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "804 NORTH US HIGHWAY 385",
+            "Corrected Value": "804 N US HIGHWAY 385",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "407 AVENUE H",
+            "Corrected Value": "407 AVENUE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "3189 PANTHER RD LEVELLAND TX 79336",
+            "Corrected Value": "3189 PANTHER RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "2140 S FM 2646",
+            "Corrected Value": "2140 S FM 2646",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "201 WEST JACKSON STREET",
+            "Corrected Value": "201 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "301 WEST AVENUE",
+            "Corrected Value": "301 W AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "1170 WEST ELLIS STREET",
+            "Corrected Value": "1170 W ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "2438 EAST ELLIS STREET",
+            "Corrected Value": "2438 E ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "309 NORTH SHERMAN AVENUE",
+            "Corrected Value": "309 N SHERMAN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "2356 EAST ELLIS STREET",
+            "Corrected Value": "2356 E ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "1829 FM 300",
+            "Corrected Value": "1829 W FM 300",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "121 SOUTH BARTON LANE",
+            "Corrected Value": "121 S BARTON LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "302 NORTH COLLEGE AVENUE",
+            "Corrected Value": "302 N COLLEGE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "104 EAST ELLIS STREET",
+            "Corrected Value": "104 E ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "2385 EAST ELLIS STREET",
+            "Corrected Value": "2385 E ELLIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "2808 N FM 1490",
+            "Corrected Value": "2808 N FM 1490",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "lon",
+            "Original Value": "-83.9079235",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "lat",
+            "Original Value": "30.5151067",
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2495685",
+            "Corrected Value": "2495685_008",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "1887 COUNTY ROAD",
+            "Corrected Value": "1887 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "1870 COUNTY ROAD",
+            "Corrected Value": "1870 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "850 N FM 1490",
+            "Corrected Value": "850 N FM 1490",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "112 INDIANA",
+            "Corrected Value": "112 INDIANA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "112 INDIANA",
+            "Corrected Value": "112 INDIANA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "839 N. U.S. 385",
+            "Corrected Value": "839 N HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "701 MARTIN LUTHER KING",
+            "Corrected Value": "701 MARTIN LUTHER KING BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "2401 TEXAS 114",
+            "Corrected Value": "2401 E HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "1923 TEXAS 114",
+            "Corrected Value": "1923 W HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "1923 TEXAS 114",
+            "Corrected Value": "1923 W HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "2813 U.S. 385",
+            "Corrected Value": "2813 S HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "2813 U.S. 385",
+            "Corrected Value": "2813 S HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "883 U.S. 385",
+            "Corrected Value": "883 S HIGHWAY 385",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "1702 TEXAS 114",
+            "Corrected Value": "1702 W HIGHWAY 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "zip",
+            "Original Value": "79336",
+            "Corrected Value": "79336",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1225"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 76"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PANTHER ROAD"
+        },
+        {
+            "Row": 106,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-83.9079235"
+        },
+        {
+            "Row": 106,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "30.5151067"
+        },
+        {
+            "Row": 11,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2391921_001",
+            "Value": "2391921"
+        },
+        {
+            "Row": 28,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2391947_002",
+            "Value": "2391947"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2391971"
+        },
+        {
+            "Row": 51,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2391985_003",
+            "Value": "2391985"
+        },
+        {
+            "Row": 56,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2391992_004",
+            "Value": "2391992"
+        },
+        {
+            "Row": 63,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2392008_005",
+            "Value": "2392008"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2392009_006",
+            "Value": "2392009"
+        },
+        {
+            "Row": 71,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2392019"
+        },
+        {
+            "Row": 99,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2450262_007",
+            "Value": "2450262"
+        },
+        {
+            "Row": 111,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2495685_008",
+            "Value": "2495685"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2391971)",
+            "Value": "2391971"
+        },
+        {
+            "Row": 71,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2392019)",
+            "Value": "2392019"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2391939)",
+            "Value": "2391970"
+        },
+        {
+            "Row": 131,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2431930)",
+            "Value": "2524246"
+        },
+        {
+            "Row": 151,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2431930)",
+            "Value": "2559096"
+        },
+        {
+            "Row": 147,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2403209)",
+            "Value": "2557042"
+        },
+        {
+            "Row": 126,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2517999)",
+            "Value": "2520300"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2517999)",
+            "Value": "2539572"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "850 N FM 1490"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "112 INDIANA"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "112 INDIANA"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1482 FM 2306"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "839 N US 385"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1869 FM 1490"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 MARTIN LUTHER KING"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2401 TEXAS 114"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1923 TEXAS 114"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1923 TEXAS 114"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1843 N 385"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2813 US 385"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2813 US 385"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1869 FM 303"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "883 US 385"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "811 N 385"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2140 S FM 2646"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1702 TEXAS 114"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1829 FM 300"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2808 N FM 1490"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1225"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 76"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1225"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 76"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 41,
+            "customer": "2391971",
+            "lat": "33.5716302",
+            "lon": "-102.3657405",
+            "address": "2006 TECH DRIVE",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 71,
+            "customer": "2392019",
+            "lat": "33.5871143",
+            "lon": "-102.3631226",
+            "address": "219 CACTUS DRIVE",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 85.0,
+            "upload": 85.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 41,
+            "customer": "2391971",
+            "lat": "33.5716302",
+            "lon": "-102.3657405",
+            "address": "2006 TECH DRIVE",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2391971)"
+        },
+        {
+            "OrigRowNum": 71,
+            "customer": "2392019",
+            "lat": "33.5871143",
+            "lon": "-102.3631226",
+            "address": "219 CACTUS DRIVE",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 85.0,
+            "upload": 85.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2392019)"
+        },
+        {
+            "OrigRowNum": 39,
+            "customer": "2391970",
+            "lat": "33.6004737",
+            "lon": "-102.3738008",
+            "address": "701 MARTIN LUTHER KING BOULEVARD",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 28.0,
+            "upload": 28.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2391939)"
+        },
+        {
+            "OrigRowNum": 131,
+            "customer": "2524246",
+            "lat": "33.600474",
+            "lon": "-102.373801",
+            "address": "701 MARTIN LUTHER KING STREET",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2431930)"
+        },
+        {
+            "OrigRowNum": 151,
+            "customer": "2559096",
+            "lat": "33.600474",
+            "lon": "-102.373801",
+            "address": "701 MARTIN LUTHER KING STREET",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2431930)"
+        },
+        {
+            "OrigRowNum": 147,
+            "customer": "2557042",
+            "lat": "33.600474",
+            "lon": "-102.373801",
+            "address": "701 MARTIN LUTHER KING STREET",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 28.0,
+            "upload": 28.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2403209)"
+        },
+        {
+            "OrigRowNum": 126,
+            "customer": "2520300",
+            "lat": "33.600474",
+            "lon": "-102.373801",
+            "address": "701 MARTIN LUTHER KING STREET",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 35.0,
+            "upload": 35.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2517999)"
+        },
+        {
+            "OrigRowNum": 143,
+            "customer": "2539572",
+            "lat": "33.600474",
+            "lon": "-102.373801",
+            "address": "701 MARTIN LUTHER KING STREET",
+            "city": "LEVELLAND",
+            "state": "TX",
+            "zip": "79336",
+            "download": 35.0,
+            "upload": 35.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2517999)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 19,
+            "Original Address": "850 N FM 1490",
+            "Corrected Address": "850 N FM 1490",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.703023"
+        },
+        {
+            "OrigRowNum": 27,
+            "Original Address": "112 INDIANA",
+            "Corrected Address": "112 INDIANA ST",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.704518"
+        },
+        {
+            "OrigRowNum": 28,
+            "Original Address": "112 INDIANA",
+            "Corrected Address": "112 INDIANA ST",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.704999"
+        },
+        {
+            "OrigRowNum": 30,
+            "Original Address": "1482 FM 2306",
+            "Corrected Address": "1482 W FM 2306",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.705424"
+        },
+        {
+            "OrigRowNum": 32,
+            "Original Address": "839 N. U.S. 385",
+            "Corrected Address": "839 N HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.705838"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "1869 FM 1490",
+            "Corrected Address": "1869 N FM 1490",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.706248"
+        },
+        {
+            "OrigRowNum": 42,
+            "Original Address": "701 MARTIN LUTHER KING",
+            "Corrected Address": "701 MARTIN LUTHER KING BLVD",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.706655"
+        },
+        {
+            "OrigRowNum": 44,
+            "Original Address": "2401 TEXAS 114",
+            "Corrected Address": "2401 E HIGHWAY 114",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.707058"
+        },
+        {
+            "OrigRowNum": 55,
+            "Original Address": "1923 TEXAS 114",
+            "Corrected Address": "1923 W HIGHWAY 114",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.707452"
+        },
+        {
+            "OrigRowNum": 56,
+            "Original Address": "1923 TEXAS 114",
+            "Corrected Address": "1923 W HIGHWAY 114",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.707845"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "1843 N 385",
+            "Corrected Address": "1843 N HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.708242"
+        },
+        {
+            "OrigRowNum": 62,
+            "Original Address": "2813 U.S. 385",
+            "Corrected Address": "2813 S HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.708582"
+        },
+        {
+            "OrigRowNum": 63,
+            "Original Address": "2813 U.S. 385",
+            "Corrected Address": "2813 S HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.708879"
+        },
+        {
+            "OrigRowNum": 69,
+            "Original Address": "1869 FM 303",
+            "Corrected Address": "1869 S FM 303",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.709173"
+        },
+        {
+            "OrigRowNum": 76,
+            "Original Address": "883 U.S. 385",
+            "Corrected Address": "883 S HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.709465"
+        },
+        {
+            "OrigRowNum": 77,
+            "Original Address": "811 N 385",
+            "Corrected Address": "811 N HIGHWAY 385",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.709758"
+        },
+        {
+            "OrigRowNum": 91,
+            "Original Address": "2140 S FM 2646",
+            "Corrected Address": "2140 S FM 2646",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.710049"
+        },
+        {
+            "OrigRowNum": 113,
+            "Original Address": "1702 TEXAS 114",
+            "Corrected Address": "1702 W HIGHWAY 114",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.710347"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "1829 FM 300",
+            "Corrected Address": "1829 W FM 300",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.710615"
+        },
+        {
+            "OrigRowNum": 149,
+            "Original Address": "2808 N FM 1490",
+            "Corrected Address": "2808 N FM 1490",
+            "Original ZIP": "79336",
+            "Corrected ZIP": "79336",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:33:07.710879"
+        }
+    ]
+}

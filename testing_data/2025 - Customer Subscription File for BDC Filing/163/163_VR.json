@@ -1,0 +1,147 @@
+{
+    "Summary": {
+        "Total Rows Processed": 304,
+        "Rows with Corrections": 1,
+        "Rows with Errors": 9,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 1,
+        "Total Errors": 9,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.25,
+        "Validation Date": "2025-08-27 19:03:02",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 301,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 301,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 107,
+            "Column": "state",
+            "Original Value": "ms",
+            "Corrected Value": "MS",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CONSERVATION LEAGUE RD"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LOT 13 ISLAND 66 ELAINE"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "876B FRONT ST"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "157 FLETCHER DR"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CONSERVATION LEAGUE RD"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 315 1326 PEARL STREET"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LOT 44 DESOTO LAKE TRAIL"
+        },
+        {
+            "Row": 107,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ms"
+        },
+        {
+            "Row": 183,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer John Cocke)",
+            "Value": "Laura Adamski"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 315 1326 PEARL STREET"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 315 1326 PEARL STREET"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 183,
+            "customer": "Laura Adamski",
+            "lat": 34.21947,
+            "lon": -90.5646,
+            "address": "16 OAK KNOLL DR ",
+            "city": "CLARKSDALE",
+            "state": "MS",
+            "zip": "38614",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer John Cocke)"
+        }
+    ],
+    "Smarty Corrections": []
+}

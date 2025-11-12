@@ -1,0 +1,719 @@
+{
+    "Summary": {
+        "Total Rows Processed": 33,
+        "Rows with Corrections": 31,
+        "Rows with Errors": 31,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 45,
+        "Total Errors": 34,
+        "Street Ending Errors": 5,
+        "Validation Time (seconds)": 0.34,
+        "Validation Date": "2025-08-04 14:42:17",
+        "Addresses Sent to Smarty": 5,
+        "Successful Corrections": 5,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.26,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 31,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 31,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 7,
+            "Column": "customer",
+            "Original Value": "Sharon, James, and Kyle Kroll",
+            "Corrected Value": "Sharon James and Kyle Kroll",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "838 EAST MAIN ST",
+            "Corrected Value": "838 E MAIN ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "2052 EAST MAIN ST",
+            "Corrected Value": "2052 E MAIN ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "1374 PEPERD FLAT RD #31",
+            "Corrected Value": "1374 PEPERD FLAT RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "state",
+            "Original Value": "ca",
+            "Corrected Value": "CA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "95971",
+            "Corrected Value": "95971",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "42331 CA-70",
+            "Corrected Value": "42331 HIGHWAY 70",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "zip",
+            "Original Value": "95971",
+            "Corrected Value": "95971",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "39300 CALIFORNIA 70",
+            "Corrected Value": "39300 HIGHWAY 70",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "zip",
+            "Original Value": "95971",
+            "Corrected Value": "95971",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "39300 CALIFORNIA 70",
+            "Corrected Value": "39300 HIGHWAY 70",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "95971",
+            "Corrected Value": "95971",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "39300 CALIFORNIA 70",
+            "Corrected Value": "39300 HIGHWAY 70",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "zip",
+            "Original Value": "96105",
+            "Corrected Value": "96105",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "102 SAGE FLAT VISTA",
+            "Corrected Value": "102 SAGE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "QUARRY ROAD"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "QUARRY ROAD"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 676"
+        },
+        {
+            "Row": 2,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 3,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 5,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 6,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 7,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 9,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 10,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 12,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 13,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 14,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 15,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 16,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 17,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 19,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 20,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 21,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 22,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 23,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 24,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 26,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 27,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 28,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 29,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 30,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 31,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        },
+        {
+            "Row": 32,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "ca"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "42331 CA70"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39300 CALIFORNIA 70"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39300 CALIFORNIA 70"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39300 CALIFORNIA 70"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "102 SAGE FLAT VISTA"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 676"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 676"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 5,
+            "Original Address": "42331 CA-70",
+            "Corrected Address": "42331 HIGHWAY 70",
+            "Original ZIP": "95971",
+            "Corrected ZIP": "95971",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T14:42:17.910053"
+        },
+        {
+            "OrigRowNum": 6,
+            "Original Address": "39300 CALIFORNIA 70",
+            "Corrected Address": "39300 HIGHWAY 70",
+            "Original ZIP": "95971",
+            "Corrected ZIP": "95971",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T14:42:17.911372"
+        },
+        {
+            "OrigRowNum": 10,
+            "Original Address": "39300 CALIFORNIA 70",
+            "Corrected Address": "39300 HIGHWAY 70",
+            "Original ZIP": "95971",
+            "Corrected ZIP": "95971",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T14:42:17.911943"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "39300 CALIFORNIA 70",
+            "Corrected Address": "39300 HIGHWAY 70",
+            "Original ZIP": "95971",
+            "Corrected ZIP": "95971",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T14:42:17.912412"
+        },
+        {
+            "OrigRowNum": 29,
+            "Original Address": "102 SAGE FLAT VISTA",
+            "Corrected Address": "102 SAGE",
+            "Original ZIP": "96105",
+            "Corrected ZIP": "96105",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T14:42:17.912896"
+        }
+    ]
+}

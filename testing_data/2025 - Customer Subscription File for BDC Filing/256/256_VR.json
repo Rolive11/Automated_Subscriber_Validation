@@ -1,0 +1,5659 @@
+{
+    "Summary": {
+        "Total Rows Processed": 946,
+        "Rows with Corrections": 259,
+        "Rows with Errors": 134,
+        "PO Box Rows Removed": 8,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 46,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 351,
+        "Total Errors": 108,
+        "Street Ending Errors": 80,
+        "Validation Time (seconds)": 1.2,
+        "Validation Date": "2025-08-01 13:08:47",
+        "Addresses Sent to Smarty": 80,
+        "Successful Corrections": 80,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.45,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 892,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 892,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "105 23 S 30 WEST",
+            "Corrected Value": "105 23 S 30 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "8961 SOUTH ST",
+            "Corrected Value": "8961 S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "12072 S 780 WEST",
+            "Corrected Value": "12072 S 780 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "13739 SOUTH 1080 WEST",
+            "Corrected Value": "13739 S 1080 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "3200 SOUTH 950 WEST",
+            "Corrected Value": "3200 S 950 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "6887 W COUNTY ROAD 200 S",
+            "Corrected Value": "6887 W CR 200 S",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "801 N MCKINLEY",
+            "Corrected Value": "801 N MCKINLEY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "8277 WEST 500 NORTH",
+            "Corrected Value": "8277 W 500 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "106 GRACE ST APT #5",
+            "Corrected Value": "106 GRACE ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "1548 WEST STATE ROAD 14",
+            "Corrected Value": "1548 W STATE ROAD 14",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Original Value": "1172 SOUTH 900 WEST",
+            "Corrected Value": "1172 S 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "340 EAST BABCOCK LANE",
+            "Corrected Value": "340 E BABCOCK LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 350,
+            "Column": "address",
+            "Original Value": "515 EAST 225 NORTH",
+            "Corrected Value": "515 E 225 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "4903 WEST 250 NORTH",
+            "Corrected Value": "4903 W 250 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "1640 NORTH MCCADE STREET",
+            "Corrected Value": "1640 N MCCADE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "1742 EAST 400 NORTH",
+            "Corrected Value": "1742 E 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "1782 EAST MCCOYSBURG RD",
+            "Corrected Value": "1782 E MCCOYSBURG RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "3008 COUNTY ROAD 1750 N",
+            "Corrected Value": "3008 CR 1750 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "3105 EAST 2000 NORTH ROAD",
+            "Corrected Value": "3105 E 2000 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "1701 EAST AMSLER ROAD",
+            "Corrected Value": "1701 E AMSLER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "3195 WEST CLARK STREET",
+            "Corrected Value": "3195 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "862 SOUTH 200 EAST",
+            "Corrected Value": "862 S 200 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 562,
+            "Column": "address",
+            "Original Value": "1491 NORTH 350 WEST",
+            "Corrected Value": "1491 N 350 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "5862 WEST FAIRWAY DRIVE",
+            "Corrected Value": "5862 W FAIRWAY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "address",
+            "Original Value": "212 EAST RUTSEN STREET",
+            "Corrected Value": "212 E RUTSEN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "815 NORTH WEBSTER STREET",
+            "Corrected Value": "815 N WEBSTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "562 NORTH 350 WEST",
+            "Corrected Value": "562 N 350 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "2923 EAST MCCOYSBURG ROAD",
+            "Corrected Value": "2923 E MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 579,
+            "Column": "address",
+            "Original Value": "4781 WEST 250 NORTH",
+            "Corrected Value": "4781 W 250 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 587,
+            "Column": "address",
+            "Original Value": "1010 WEST MONNETT STREET",
+            "Corrected Value": "1010 W MONNETT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "194 W SR 16",
+            "Corrected Value": "194 W STATE ROAD 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "317 NORTH WEBSTER ST",
+            "Corrected Value": "317 N WEBSTER ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "5623 STATE RD INDIANA 55",
+            "Corrected Value": "5623 STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Original Value": "560 NORTH 900 WEST",
+            "Corrected Value": "560 N 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "9237 WEST 100 SOUTH",
+            "Corrected Value": "9237 W 100 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 621,
+            "Column": "address",
+            "Original Value": "1574 NORTH OWEN STREET",
+            "Corrected Value": "1574 N OWEN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "4618 NORTH 200 WEST",
+            "Corrected Value": "4618 N 200 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 623,
+            "Column": "address",
+            "Original Value": "4618 NORTH 200 WEST",
+            "Corrected Value": "4618 N 200 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "4618 NORTH 200 WEST",
+            "Corrected Value": "4618 N 200 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Original Value": "4382 EAST 400 NORTH",
+            "Corrected Value": "4382 E 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "208 WEST HOWARD STREET",
+            "Corrected Value": "208 W HOWARD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "16023 WEST 400 NORTH",
+            "Corrected Value": "16023 W 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "405 WEST MOODY ROAD",
+            "Corrected Value": "405 W MOODY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "6039 SOUTH 50 EAST",
+            "Corrected Value": "6039 S 50 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 631,
+            "Column": "address",
+            "Original Value": "6039 SOUTH 50 EAST",
+            "Corrected Value": "6039 S 50 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "4875 WEST STATE ROAD 14",
+            "Corrected Value": "4875 W STATE ROAD 14",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 636,
+            "Column": "address",
+            "Original Value": "9877 WEST 700 SOUTH",
+            "Corrected Value": "9877 W 700 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 663,
+            "Column": "address",
+            "Original Value": "977 EAST MCCOYSBURG ROAD",
+            "Corrected Value": "977 E MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 665,
+            "Column": "address",
+            "Original Value": "5025 WEST 1300 SOUTH",
+            "Corrected Value": "5025 W 1300 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 666,
+            "Column": "address",
+            "Original Value": "133 WEST PRAIRIE AVENUE",
+            "Corrected Value": "133 W PRAIRIE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 667,
+            "Column": "address",
+            "Original Value": "2713 WEST MCCOYSBURG ROAD",
+            "Corrected Value": "2713 W MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "7450 WEST 700 NORTH",
+            "Corrected Value": "7450 W 700 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "6650 WEST 550 NORTH",
+            "Corrected Value": "6650 W 550 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Original Value": "2161 NORTH 450 WEST",
+            "Corrected Value": "2161 N 450 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "12442 SOUTH 880 WEST",
+            "Corrected Value": "12442 S 880 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Original Value": "1447 WEST MCCOYSBURG ROAD",
+            "Corrected Value": "1447 W MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Original Value": "9302 SOUTH 630 WEST",
+            "Corrected Value": "9302 S 630 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 678,
+            "Column": "address",
+            "Original Value": "3105 SOUTH 250 WEST",
+            "Corrected Value": "3105 S 250 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 679,
+            "Column": "address",
+            "Original Value": "523 WEST GRACE STREET",
+            "Corrected Value": "523 W GRACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 680,
+            "Column": "address",
+            "Original Value": "4584 NORTH 300 WEST",
+            "Corrected Value": "4584 N 300 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Original Value": "2020 WEST MCCOYSBURG ROAD",
+            "Corrected Value": "2020 W MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Original Value": "1742 EAST MCCOYSBURG ROAD",
+            "Corrected Value": "1742 E MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Original Value": "226 E WASHINGTON ST APT 1",
+            "Corrected Value": "226 E WASHINGTON ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 687,
+            "Column": "address",
+            "Original Value": "643 EAST 225 NORTH",
+            "Corrected Value": "643 E 225 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Original Value": "3601 WEST 725 SOUTH",
+            "Corrected Value": "3601 W 725 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 690,
+            "Column": "address",
+            "Original Value": "8100 WEST 500 NORTH",
+            "Corrected Value": "8100 W 500 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 691,
+            "Column": "address",
+            "Original Value": "2559 EAST 600 NORTH",
+            "Corrected Value": "2559 E 600 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Original Value": "1056 WEST 625 SOUTH",
+            "Corrected Value": "1056 W 625 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 694,
+            "Column": "address",
+            "Original Value": "16674 WEST 400 NORTH",
+            "Corrected Value": "16674 W 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 695,
+            "Column": "address",
+            "Original Value": "6123 WEST 400 NORTH",
+            "Corrected Value": "6123 W 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 696,
+            "Column": "address",
+            "Original Value": "918 NORTH MCKINLEY AVENUE",
+            "Corrected Value": "918 N MCKINLEY AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "6346 NORTH 900 EAST",
+            "Corrected Value": "6346 N 900 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "11505 WEST 100 SOUTH",
+            "Corrected Value": "11505 W 100 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 702,
+            "Column": "address",
+            "Original Value": "210 EAST MAPLE STREET",
+            "Corrected Value": "210 E MAPLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "address",
+            "Original Value": "10523 WEST DIVISION ROAD",
+            "Corrected Value": "10523 W DIVISION ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 705,
+            "Column": "address",
+            "Original Value": "9045 WEST 500 NORTH",
+            "Corrected Value": "9045 W 500 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "5093 EAST 700 NORTH",
+            "Corrected Value": "5093 E 700 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "438 SOUTH 1100 WEST",
+            "Corrected Value": "438 S 1100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Original Value": "1745 SOUTH 400 WEST",
+            "Corrected Value": "1745 S 400 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 710,
+            "Column": "address",
+            "Original Value": "1644 SOUTH 450 WEST",
+            "Corrected Value": "1644 S 450 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Original Value": "3431 NORTH 450 WEST",
+            "Corrected Value": "3431 N 450 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "4610 NORTH 200 WEST",
+            "Corrected Value": "4610 N 200 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 714,
+            "Column": "address",
+            "Original Value": "1976 COUNTY ROAD 300 W",
+            "Corrected Value": "1976 CR 300 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 716,
+            "Column": "address",
+            "Original Value": "2485 WEST MCCOYSBURG ROAD",
+            "Corrected Value": "2485 W MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Original Value": "604 NORTH CULLEN STREET",
+            "Corrected Value": "604 N CULLEN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Original Value": "8231 SOUTH 650 WEST",
+            "Corrected Value": "8231 S 650 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 720,
+            "Column": "address",
+            "Original Value": "450 EAST ARNOTTS DRIVE",
+            "Corrected Value": "450 E ARNOTTS DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 722,
+            "Column": "address",
+            "Original Value": "4543 NORTH 1100 WEST",
+            "Corrected Value": "4543 N 1100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 723,
+            "Column": "address",
+            "Original Value": "76 EAST 700 SOUTH",
+            "Corrected Value": "76 E 700 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 725,
+            "Column": "address",
+            "Original Value": "761 WEST DIVISION ROAD",
+            "Corrected Value": "761 W DIVISION ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 727,
+            "Column": "address",
+            "Original Value": "450 EAST AMSLER ROAD",
+            "Corrected Value": "450 E AMSLER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 731,
+            "Column": "address",
+            "Original Value": "2735 NORTH 350 WEST",
+            "Corrected Value": "2735 N 350 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 732,
+            "Column": "address",
+            "Original Value": "133 NORTH NEWTON STREET",
+            "Corrected Value": "133 N NEWTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 733,
+            "Column": "address",
+            "Original Value": "1212 SOUTH 900 WEST",
+            "Corrected Value": "1212 S 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Original Value": "3901 WEST 400 NORTH",
+            "Corrected Value": "3901 W 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 736,
+            "Column": "address",
+            "Original Value": "1050 NORTH 900 WEST",
+            "Corrected Value": "1050 N 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 737,
+            "Column": "address",
+            "Original Value": "4127 COUNTY ROAD 400 E",
+            "Corrected Value": "4127 CR 400 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Original Value": "228 WEST HARRISON STREET",
+            "Corrected Value": "228 W HARRISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "1249 NORTH 900 WEST",
+            "Corrected Value": "1249 N 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "409 WEST MAIN STREET",
+            "Corrected Value": "409 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Original Value": "8468 WEST 1500 SOUTH",
+            "Corrected Value": "8468 W 1500 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "address",
+            "Original Value": "8736 WEST 1080 SOUTH",
+            "Corrected Value": "8736 W 1080 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 748,
+            "Column": "address",
+            "Original Value": "106 1/2 SOUTH VAN RENSSELAER STREET",
+            "Corrected Value": "106 1/2 S VAN RENSSELAER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 749,
+            "Column": "address",
+            "Original Value": "2257 NORTH 450 WEST",
+            "Corrected Value": "2257 N 450 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 750,
+            "Column": "address",
+            "Original Value": "2383 NORTH 100 WEST",
+            "Corrected Value": "2383 N 100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 753,
+            "Column": "address",
+            "Original Value": "71 WEST 250 NORTH",
+            "Corrected Value": "71 W 250 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 754,
+            "Column": "address",
+            "Original Value": "2909 SOUTH 400 WEST",
+            "Corrected Value": "2909 S 400 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 755,
+            "Column": "address",
+            "Original Value": "3670 NORTH 250 EAST",
+            "Corrected Value": "3670 N 250 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "2392 COUNTY ROAD 500 E",
+            "Corrected Value": "2392 CR 500 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 758,
+            "Column": "address",
+            "Original Value": "1010 NORTH MELVILLE STREET",
+            "Corrected Value": "1010 N MELVILLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 759,
+            "Column": "address",
+            "Original Value": "1556 SOUTH 300 WEST",
+            "Corrected Value": "1556 S 300 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 760,
+            "Column": "address",
+            "Original Value": "7112 EAST 900 NORTH",
+            "Corrected Value": "7112 E 900 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 761,
+            "Column": "address",
+            "Original Value": "330 NORTH MELVILLE STREET",
+            "Corrected Value": "330 N MELVILLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 765,
+            "Column": "address",
+            "Original Value": "855 EAST MOODY ROAD",
+            "Corrected Value": "855 E MOODY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 766,
+            "Column": "address",
+            "Original Value": "1558 EAST MCCOYSBURG ROAD",
+            "Corrected Value": "1558 E MCCOYSBURG ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "1756 EAST 550 NORTH",
+            "Corrected Value": "1756 E 550 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Original Value": "6744 COUNTY ROAD 550 N",
+            "Corrected Value": "6744 CR 550 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 770,
+            "Column": "address",
+            "Original Value": "964 COUNTY ROAD 750 W",
+            "Corrected Value": "964 CR 750 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 771,
+            "Column": "address",
+            "Original Value": "9110 SOUTH 280 WEST",
+            "Corrected Value": "9110 S 280 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 772,
+            "Column": "address",
+            "Original Value": "2008 SOUTH 1100 WEST",
+            "Corrected Value": "2008 S 1100 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 774,
+            "Column": "address",
+            "Original Value": "3862 SOUTH 1600 WEST",
+            "Corrected Value": "3862 S 1600 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 775,
+            "Column": "address",
+            "Original Value": "501 SOUTH 1425 WEST",
+            "Corrected Value": "501 S 1425 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 776,
+            "Column": "address",
+            "Original Value": "2396 NORTH 600 EAST",
+            "Corrected Value": "2396 N 600 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 777,
+            "Column": "address",
+            "Original Value": "4551 S US 421",
+            "Corrected Value": "4551 S US 421",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 778,
+            "Column": "address",
+            "Original Value": "4661 SOUTH 1450 WEST",
+            "Corrected Value": "4661 S 1450 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Original Value": "118 WEST MONTGOMERY STREET",
+            "Corrected Value": "118 W MONTGOMERY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 780,
+            "Column": "address",
+            "Original Value": "12 WEST VIOLET DRIVE",
+            "Corrected Value": "12 W VIOLET DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 781,
+            "Column": "address",
+            "Original Value": "14209 WEST 300 SOUTH",
+            "Corrected Value": "14209 W 300 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 783,
+            "Column": "address",
+            "Original Value": "100 NORTH BROOKS STREET",
+            "Corrected Value": "100 N BROOKS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "100 NORTH BROOKS STREET",
+            "Corrected Value": "100 N BROOKS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 785,
+            "Column": "address",
+            "Original Value": "100 NORTH BROOKS STREET",
+            "Corrected Value": "100 N BROOKS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 786,
+            "Column": "address",
+            "Original Value": "100 NORTH BROOKS STREET",
+            "Corrected Value": "100 N BROOKS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 787,
+            "Column": "address",
+            "Original Value": "100 NORTH BROOKS STREET",
+            "Corrected Value": "100 N BROOKS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 788,
+            "Column": "address",
+            "Original Value": "268 SOUTH PARK AVENUE",
+            "Corrected Value": "268 S PARK AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 835,
+            "Column": "address",
+            "Original Value": "16582 W STATE RD 114 LOT 12",
+            "Corrected Value": "16582 W STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 853,
+            "Column": "address",
+            "Original Value": "1396 NORTH 900 WEST",
+            "Corrected Value": "1396 N 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 854,
+            "Column": "address",
+            "Original Value": "3391 WEST 100 SOUTH",
+            "Corrected Value": "3391 W 100 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Original Value": "15340 SOUTH 630 WEST",
+            "Corrected Value": "15340 S 630 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 857,
+            "Column": "address",
+            "Original Value": "1912 WEST 100 SOUTH",
+            "Corrected Value": "1912 W 100 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 859,
+            "Column": "address",
+            "Original Value": "3821 NORTH CLUBHOUSE ROAD",
+            "Corrected Value": "3821 N CLUBHOUSE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 860,
+            "Column": "address",
+            "Original Value": "5474 WEST 200 NORTH",
+            "Corrected Value": "5474 W 200 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "1382 SOUTH 900 WEST",
+            "Corrected Value": "1382 S 900 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 864,
+            "Column": "address",
+            "Original Value": "298 SOUTH 650 WEST",
+            "Corrected Value": "298 S 650 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 865,
+            "Column": "address",
+            "Original Value": "629 SOUTH DEAN PLACE",
+            "Corrected Value": "629 S DEAN PLACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Original Value": "404 WEST SEYMOUR STREET",
+            "Corrected Value": "404 W SEYMOUR STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 870,
+            "Column": "address",
+            "Original Value": "7758 SOUTH 780 WEST",
+            "Corrected Value": "7758 S 780 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 871,
+            "Column": "address",
+            "Original Value": "3928 NORTH CLUBHOUSE ROAD",
+            "Corrected Value": "3928 N CLUBHOUSE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "565 EAST BABCOCK LANE",
+            "Corrected Value": "565 E BABCOCK LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Original Value": "231 EAST MAIN STREET",
+            "Corrected Value": "231 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Original Value": "330 NORTH MELVILLE STREET",
+            "Corrected Value": "330 N MELVILLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Original Value": "4763 WEST 400 NORTH",
+            "Corrected Value": "4763 W 400 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 876,
+            "Column": "address",
+            "Original Value": "1719 NORTH 350 WEST",
+            "Corrected Value": "1719 N 350 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Original Value": "8931 WEST 550 SOUTH",
+            "Corrected Value": "8931 W 550 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Original Value": "819 NORTH JEFFERSON STREET",
+            "Corrected Value": "819 N JEFFERSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 880,
+            "Column": "address",
+            "Original Value": "5615 EAST 500 NORTH",
+            "Corrected Value": "5615 E 500 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Original Value": "494 NORTH VAN RENSSELAER STREET",
+            "Corrected Value": "494 N VAN RENSSELAER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 887,
+            "Column": "address",
+            "Original Value": "494 NORTH VAN RENSSELAER STREET",
+            "Corrected Value": "494 N VAN RENSSELAER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 888,
+            "Column": "address",
+            "Original Value": "1472 COUNTY ROAD 650 W",
+            "Corrected Value": "1472 CR 650 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 889,
+            "Column": "address",
+            "Original Value": "925 WEST CLARK STREET",
+            "Corrected Value": "925 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Original Value": "8202 SOUTH IROQUOIS RIVER ROAD",
+            "Corrected Value": "8202 S IROQUOIS RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "lon",
+            "Original Value": -87.147296,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "lat",
+            "Original Value": 40.9411643,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 674,
+            "Column": "lat",
+            "Original Value": 13.0333333333,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 674,
+            "Column": "lon",
+            "Original Value": -100.0,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "lon",
+            "Original Value": -4.8333333333,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "lat",
+            "Original Value": 38.15,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "lat",
+            "Original Value": -1.1563888889,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "lon",
+            "Original Value": -5.3333333333,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2177760",
+            "Corrected Value": "2177760_028",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_003",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_005",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_007",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_008",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_009",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "customer",
+            "Original Value": "1348793",
+            "Corrected Value": "1348793_010",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "1409469",
+            "Corrected Value": "1409469_020",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Original Value": "8029 N COUNTY ROAD 300 E",
+            "Corrected Value": "8029 N CR 300 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "4276 W COUNTY RD 1400 S",
+            "Corrected Value": "4276 W CR 1400 S",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "5613 COUNTY ROAD 875",
+            "Corrected Value": "5613 CR 875",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 542,
+            "Column": "address",
+            "Original Value": "129 E COUNTY ROAD 900 S",
+            "Corrected Value": "129 E CR 900 S",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 611,
+            "Column": "address",
+            "Original Value": "1307 N COUNTY RD 100 W",
+            "Corrected Value": "1307 N CR 100 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "address",
+            "Original Value": "4763 E COUNTY RD 200 S",
+            "Corrected Value": "4763 E CR 200 S",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "521 W SR 16",
+            "Corrected Value": "521 W STATE ROAD 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "zip",
+            "Original Value": "47959",
+            "Corrected Value": "47959",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "686 E SR 16",
+            "Corrected Value": "686 E STATE ROAD 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "751 INDIANA 114",
+            "Corrected Value": "751 INDIANA 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "zip",
+            "Original Value": "46310",
+            "Corrected Value": "46310",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "7505 INDIANA 110",
+            "Corrected Value": "7505 INDIANA 110",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "zip",
+            "Original Value": "47942",
+            "Corrected Value": "47942",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "7475 N HIGHWAY 41",
+            "Corrected Value": "7475 N US HIGHWAY 41",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "6851 INDIANA 14",
+            "Corrected Value": "6851 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "9882 S US 231",
+            "Corrected Value": "9882 S US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "5438 IN-16",
+            "Corrected Value": "5438 W 16TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Original Value": "7520 W SR 16",
+            "Corrected Value": "7520 W STATE ROAD 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "8412 INDIANA 114",
+            "Corrected Value": "8412 INDIANA 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "2868 INDIANA 114",
+            "Corrected Value": "2868 INDIANA 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "1885 INDIANA 114",
+            "Corrected Value": "1885 INDIANA 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "2435 S MERIDIAN",
+            "Corrected Value": "2435 S MERIDIAN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "11541 INDIANA 114",
+            "Corrected Value": "11541 INDIANA 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "220 W HARRISON",
+            "Corrected Value": "220 W HARRISON ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "zip",
+            "Original Value": "46310",
+            "Corrected Value": "46310",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "6300 INDIANA 110",
+            "Corrected Value": "6300 INDIANA 110",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "4205 N US 231",
+            "Corrected Value": "4205 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "669 US 231",
+            "Corrected Value": "669 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "2906 W SR14",
+            "Corrected Value": "2906 W STATE ROAD 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "2906 W SR14",
+            "Corrected Value": "2906 W STATE ROAD 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "2906 W SR14",
+            "Corrected Value": "2906 W STATE ROAD 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "703 US 231",
+            "Corrected Value": "703 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "1269 N MERIDAN",
+            "Corrected Value": "1269 N MERIDIAN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "1891 N MERIDIAN",
+            "Corrected Value": "1891 N MERIDIAN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Original Value": "4707 N  US 231",
+            "Corrected Value": "4707 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "2501 W SR 16",
+            "Corrected Value": "2501 W STATE ROAD 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "1313 INDIANA 14",
+            "Corrected Value": "1313 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "3044 N US-231",
+            "Corrected Value": "3044 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Original Value": "3253 US-231",
+            "Corrected Value": "3253 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "3698 W 170 N APT1",
+            "Corrected Value": "3698 W 170 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "4492 IN-39",
+            "Corrected Value": "4492 IN-39",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "5197 U.S. 231",
+            "Corrected Value": "5197 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "zip",
+            "Original Value": "46310",
+            "Corrected Value": "46310",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "1201 FORSYTHIA SE",
+            "Corrected Value": "1201 FORSYTHIA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Original Value": "219-866-0149",
+            "Corrected Value": "219866-- 0149",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Original Value": "9843 S U.S. 231",
+            "Corrected Value": "9843 S US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Original Value": "8774 INDIANA 14",
+            "Corrected Value": "8774 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "2303 U.S. 231",
+            "Corrected Value": "2303 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Original Value": "10391 80W",
+            "Corrected Value": "10391 S 80 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Original Value": "10391 80W",
+            "Corrected Value": "10391 S 80 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Original Value": "6364 W SR 14",
+            "Corrected Value": "6364 W STATE ROAD 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 586,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 586,
+            "Column": "address",
+            "Original Value": "1895 E 114",
+            "Corrected Value": "1895 EAST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 601,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Original Value": "5389 W SR 14",
+            "Corrected Value": "5389 W STATE ROAD 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Original Value": "8766 S 275TH W",
+            "Corrected Value": "8766 S 275 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 612,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 612,
+            "Column": "address",
+            "Original Value": "5014 S 230 E RENSSELAER IN",
+            "Corrected Value": "5014 S 230 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "647 INDIANA 16",
+            "Corrected Value": "647 W 16TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "zip",
+            "Original Value": "47980",
+            "Corrected Value": "47980",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "2559 W 100 S RENYOLDS INDIANA",
+            "Corrected Value": "2559 W 100 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "6600 INDIANA 14",
+            "Corrected Value": "6600 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "zip",
+            "Original Value": "47948",
+            "Corrected Value": "47948",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "11440 U.S. 24",
+            "Corrected Value": "11440 W US HIGHWAY 24",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "zip",
+            "Original Value": "47948",
+            "Corrected Value": "47948",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "11440 U.S. 24",
+            "Corrected Value": "11440 W US HIGHWAY 24",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "zip",
+            "Original Value": "47942",
+            "Corrected Value": "47942",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Original Value": "8585  IN-71",
+            "Corrected Value": "8585 IN-71",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Original Value": "378 IN-14",
+            "Corrected Value": "378 IN-14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "zip",
+            "Original Value": "47944",
+            "Corrected Value": "47944",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Original Value": "388 IN-71",
+            "Corrected Value": "388 IN-71",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "1477 INDIANA 49",
+            "Corrected Value": "1477 INDIANA 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 674,
+            "Column": "zip",
+            "Original Value": "47980",
+            "Corrected Value": "47980",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 674,
+            "Column": "address",
+            "Original Value": "1262N 100 W",
+            "Corrected Value": "1262 N 100 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Original Value": "3107 U.S. 231",
+            "Corrected Value": "3107 N US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "zip",
+            "Original Value": "47948",
+            "Corrected Value": "47948",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "address",
+            "Original Value": "11094 U.S. 24",
+            "Corrected Value": "11094 W US HIGHWAY 24",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Original Value": "8942 INDIANA 14",
+            "Corrected Value": "8942 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 697,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 697,
+            "Column": "address",
+            "Original Value": "2338 INDIANA 55",
+            "Corrected Value": "2338 E INDIANA AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Original Value": "732 INDIANA 16",
+            "Corrected Value": "732 W 16TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 721,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Original Value": "746 U.S. 231",
+            "Corrected Value": "746 S US HIGHWAY 231",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 740,
+            "Column": "zip",
+            "Original Value": "47943",
+            "Corrected Value": "47943",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 740,
+            "Column": "address",
+            "Original Value": "9748 INDIANA 14",
+            "Corrected Value": "9748 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "zip",
+            "Original Value": "47922",
+            "Corrected Value": "47922",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "2508 INDIANA 16",
+            "Corrected Value": "2508 INDIANA 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 752,
+            "Column": "zip",
+            "Original Value": "47977",
+            "Corrected Value": "47977",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Original Value": "3507 W U.S. 24",
+            "Corrected Value": "3507 W US HIGHWAY 24",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 757,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 757,
+            "Column": "address",
+            "Original Value": "6632 INDIANA 39",
+            "Corrected Value": "6632 INDIANA 39",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 762,
+            "Column": "zip",
+            "Original Value": "47933",
+            "Corrected Value": "47933",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 762,
+            "Column": "address",
+            "Original Value": "5847 E US136",
+            "Corrected Value": "5847 E US HIGHWAY 136",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 763,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 763,
+            "Column": "address",
+            "Original Value": "359 INDIANA 14",
+            "Corrected Value": "359 INDIANA 14",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 764,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 764,
+            "Column": "address",
+            "Original Value": "702 INDIANA 16",
+            "Corrected Value": "702 W 16TH",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Original Value": "4527 MEDOWLAKE",
+            "Corrected Value": "4527 MEADOW LAKE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 777,
+            "Column": "zip",
+            "Original Value": "46374",
+            "Corrected Value": "46374",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "address",
+            "Original Value": "8776 S US 421",
+            "Corrected Value": "8776 S US HIGHWAY 421",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 792,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 792,
+            "Column": "address",
+            "Original Value": "4385 S 1450",
+            "Corrected Value": "4385 S 1450 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 809,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 809,
+            "Column": "address",
+            "Original Value": "7259 S 1400W",
+            "Corrected Value": "7259 S 1400 W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "zip",
+            "Original Value": "47963",
+            "Corrected Value": "47963",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Original Value": "943 INDIANA 114",
+            "Corrected Value": "943 E INDIANA AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "zip",
+            "Original Value": "47946",
+            "Corrected Value": "47946",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "314 U.S. 421",
+            "Corrected Value": "314 N US 421",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 867,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 867,
+            "Column": "address",
+            "Original Value": "3791 SANDY HILL",
+            "Corrected Value": "3791 SANDY HILL LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 869,
+            "Column": "zip",
+            "Original Value": "47978",
+            "Corrected Value": "47978",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 869,
+            "Column": "address",
+            "Original Value": "1735 INDIANA 49",
+            "Corrected Value": "1735 INDIANA 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 881,
+            "Column": "zip",
+            "Original Value": "47948",
+            "Corrected Value": "47948",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 881,
+            "Column": "address",
+            "Original Value": "4128 INDIANA 55",
+            "Corrected Value": "4128 INDIANA 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 893,
+            "Column": "zip",
+            "Original Value": "46319",
+            "Corrected Value": "46319",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Original Value": "145 N. ELGIN",
+            "Corrected Value": "145 N ELGIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 177,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 215"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CO RD 200 E"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CO RD 200 E"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CO RD 200 E"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CO RD 200 E"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CO RD 200 E"
+        },
+        {
+            "Row": 275,
+            "Column": "lat",
+            "Error": "Latitude for IN must be positive",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 275,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 275,
+            "Column": "lon",
+            "Error": "Longitude for IN must be negative",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 276,
+            "Column": "lat",
+            "Error": "Latitude for IN must be positive",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 276,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 276,
+            "Column": "lon",
+            "Error": "Longitude for IN must be negative",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 277,
+            "Column": "lat",
+            "Error": "Latitude for IN must be positive",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 277,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 277,
+            "Column": "lon",
+            "Error": "Longitude for IN must be negative",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 278,
+            "Column": "lat",
+            "Error": "Latitude for IN must be positive",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 278,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 278,
+            "Column": "lon",
+            "Error": "Longitude for IN must be negative",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 279,
+            "Column": "lat",
+            "Error": "Latitude for IN must be between 37.771743 and 41.760592",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 279,
+            "Column": "lon",
+            "Error": "Longitude for IN must be between -88.097892 and -84.787981",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 615,
+            "Column": "lon",
+            "Error": "Longitude for IL must be negative",
+            "Value": "-87.147296"
+        },
+        {
+            "Row": 615,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "40.9411643"
+        },
+        {
+            "Row": 674,
+            "Column": "lat",
+            "Error": "Latitude for IN must be between 37.771743 and 41.760592",
+            "Value": "13.0333333333"
+        },
+        {
+            "Row": 674,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-100.0"
+        },
+        {
+            "Row": 674,
+            "Column": "lon",
+            "Error": "Longitude for IN must be between -88.097892 and -84.787981",
+            "Value": "-100.0"
+        },
+        {
+            "Row": 681,
+            "Column": "lon",
+            "Error": "Longitude for IN must be between -88.097892 and -84.787981",
+            "Value": "-4.8333333333"
+        },
+        {
+            "Row": 681,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "38.15"
+        },
+        {
+            "Row": 884,
+            "Column": "lat",
+            "Error": "Latitude for IN must be positive",
+            "Value": "-1.1563888889"
+        },
+        {
+            "Row": 884,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-5.3333333333"
+        },
+        {
+            "Row": 884,
+            "Column": "lon",
+            "Error": "Longitude for IN must be between -88.097892 and -84.787981",
+            "Value": "-5.3333333333"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1328901_001",
+            "Value": "1328901"
+        },
+        {
+            "Row": 10,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348018"
+        },
+        {
+            "Row": 18,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348631_002",
+            "Value": "1348631"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348631"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 22,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_003",
+            "Value": "1348793"
+        },
+        {
+            "Row": 24,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_004",
+            "Value": "1348793"
+        },
+        {
+            "Row": 25,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 26,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_005",
+            "Value": "1348793"
+        },
+        {
+            "Row": 27,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_006",
+            "Value": "1348793"
+        },
+        {
+            "Row": 28,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_007",
+            "Value": "1348793"
+        },
+        {
+            "Row": 29,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 30,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_008",
+            "Value": "1348793"
+        },
+        {
+            "Row": 31,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 32,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1348793"
+        },
+        {
+            "Row": 33,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_009",
+            "Value": "1348793"
+        },
+        {
+            "Row": 34,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1348793_010",
+            "Value": "1348793"
+        },
+        {
+            "Row": 101,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1385281_011",
+            "Value": "1385281"
+        },
+        {
+            "Row": 103,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1385309_012",
+            "Value": "1385309"
+        },
+        {
+            "Row": 131,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1393760_013",
+            "Value": "1393760"
+        },
+        {
+            "Row": 178,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1395031_014",
+            "Value": "1395031"
+        },
+        {
+            "Row": 179,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1395031_015",
+            "Value": "1395031"
+        },
+        {
+            "Row": 233,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1408965_016",
+            "Value": "1408965"
+        },
+        {
+            "Row": 236,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1408980_017",
+            "Value": "1408980"
+        },
+        {
+            "Row": 262,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1409326_018",
+            "Value": "1409326"
+        },
+        {
+            "Row": 276,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1409445"
+        },
+        {
+            "Row": 277,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1409445"
+        },
+        {
+            "Row": 278,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1409445"
+        },
+        {
+            "Row": 279,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1409445"
+        },
+        {
+            "Row": 287,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1409469_019",
+            "Value": "1409469"
+        },
+        {
+            "Row": 288,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1409469_020",
+            "Value": "1409469"
+        },
+        {
+            "Row": 308,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1410699_021",
+            "Value": "1410699"
+        },
+        {
+            "Row": 332,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1411046_022",
+            "Value": "1411046"
+        },
+        {
+            "Row": 355,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1413651_023",
+            "Value": "1413651"
+        },
+        {
+            "Row": 498,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1720494_024",
+            "Value": "1720494"
+        },
+        {
+            "Row": 515,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1767550_025",
+            "Value": "1767550"
+        },
+        {
+            "Row": 623,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2059086"
+        },
+        {
+            "Row": 624,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2059086"
+        },
+        {
+            "Row": 631,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2107758_026",
+            "Value": "2107758"
+        },
+        {
+            "Row": 635,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2114114_027",
+            "Value": "2114114"
+        },
+        {
+            "Row": 655,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2177760_028",
+            "Value": "2177760"
+        },
+        {
+            "Row": 784,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465715"
+        },
+        {
+            "Row": 785,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465715"
+        },
+        {
+            "Row": 786,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465715"
+        },
+        {
+            "Row": 787,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465715"
+        },
+        {
+            "Row": 800,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465888"
+        },
+        {
+            "Row": 816,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465930"
+        },
+        {
+            "Row": 821,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2465935"
+        },
+        {
+            "Row": 887,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2536666"
+        },
+        {
+            "Row": 576,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1915813)",
+            "Value": "1919321"
+        },
+        {
+            "Row": 10,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348018)",
+            "Value": "1348018"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348631_002)",
+            "Value": "1348631"
+        },
+        {
+            "Row": 887,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2536666)",
+            "Value": "2536666"
+        },
+        {
+            "Row": 874,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2432628)",
+            "Value": "2517792"
+        },
+        {
+            "Row": 31,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793_006)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 32,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793_007)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 22,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 25,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 29,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1348793_004)",
+            "Value": "1348793"
+        },
+        {
+            "Row": 821,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465935)",
+            "Value": "2465935"
+        },
+        {
+            "Row": 800,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465888)",
+            "Value": "2465888"
+        },
+        {
+            "Row": 784,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465715)",
+            "Value": "2465715"
+        },
+        {
+            "Row": 785,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465715)",
+            "Value": "2465715"
+        },
+        {
+            "Row": 786,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465715)",
+            "Value": "2465715"
+        },
+        {
+            "Row": 787,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465715)",
+            "Value": "2465715"
+        },
+        {
+            "Row": 816,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2465930)",
+            "Value": "2465930"
+        },
+        {
+            "Row": 623,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2059086)",
+            "Value": "2059086"
+        },
+        {
+            "Row": 624,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2059086)",
+            "Value": "2059086"
+        },
+        {
+            "Row": 276,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1409445)",
+            "Value": "1409445"
+        },
+        {
+            "Row": 277,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1409445)",
+            "Value": "1409445"
+        },
+        {
+            "Row": 278,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1409445)",
+            "Value": "1409445"
+        },
+        {
+            "Row": 279,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1409445)",
+            "Value": "1409445"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 43,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "521 W SR 16"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "686 E SR 16"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "751 INDIANA 114"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7505 INDIANA 110"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7475 N HIGHWAY 41"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6851 INDIANA 14"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9882 S US 231"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5438 IN16"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7520 W SR 16"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8412 INDIANA 114"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2868 INDIANA 114"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1885 INDIANA 114"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "801 N MCKINLEY"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2435 S MERIDIAN"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11541 INDIANA 114"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "220 W HARRISON"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6300 INDIANA 110"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4205 N US 231"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "669 US 231"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2906 W SR14"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2906 W SR14"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2906 W SR14"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "703 US 231"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1269 N MERIDAN"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1891 N MERIDIAN"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4707 N US 231"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2501 W SR 16"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1313 INDIANA 14"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3044 N US231"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3253 US231"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3698 W 170 N APT1"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4492 IN39"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5197 US 231"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1201 FORSYTHIA SE"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2198660149"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9843 S US 231"
+        },
+        {
+            "Row": 554,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8774 INDIANA 14"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2303 US 231"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10391 80W"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10391 80W"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6364 W SR 14"
+        },
+        {
+            "Row": 586,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1895 E 114"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "194 W SR 16"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5389 W SR 14"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8766 S 275TH W"
+        },
+        {
+            "Row": 612,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5014 S 230 E RENSSELAER IN"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "647 INDIANA 16"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2559 W 100 S RENYOLDS INDIANA"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6600 INDIANA 14"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11440 US 24"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11440 US 24"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8585 IN71"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "378 IN14"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "388 IN71"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1477 INDIANA 49"
+        },
+        {
+            "Row": 674,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1262N 100 W"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3107 US 231"
+        },
+        {
+            "Row": 684,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11094 US 24"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8942 INDIANA 14"
+        },
+        {
+            "Row": 697,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2338 INDIANA 55"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "732 INDIANA 16"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "746 US 231"
+        },
+        {
+            "Row": 740,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9748 INDIANA 14"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2508 INDIANA 16"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3507 W US 24"
+        },
+        {
+            "Row": 757,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6632 INDIANA 39"
+        },
+        {
+            "Row": 762,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5847 E US136"
+        },
+        {
+            "Row": 763,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "359 INDIANA 14"
+        },
+        {
+            "Row": 764,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "702 INDIANA 16"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4527 MEDOWLAKE"
+        },
+        {
+            "Row": 777,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4551 S US 421"
+        },
+        {
+            "Row": 791,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8776 S US 421"
+        },
+        {
+            "Row": 792,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4385 S 1450"
+        },
+        {
+            "Row": 809,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7259 S 1400W"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "943 INDIANA 114"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "314 US 421"
+        },
+        {
+            "Row": 867,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3791 SANDY HILL"
+        },
+        {
+            "Row": 869,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1735 INDIANA 49"
+        },
+        {
+            "Row": 881,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4128 INDIANA 55"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "145 N ELGIN"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 177,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 215"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX D"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 215"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 10,
+            "customer": "1348018",
+            "lat": 40.856959,
+            "lon": -87.415789,
+            "address": "9663 S 150 W",
+            "city": "BROOK",
+            "state": "IN",
+            "zip": "47922",
+            "download": 9.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 19,
+            "customer": "1348631",
+            "lat": 40.865896,
+            "lon": -87.364274,
+            "address": "112 MAIN STREET",
+            "city": "BROOK",
+            "state": "IN",
+            "zip": "47922",
+            "download": 18.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 21,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 22,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 25,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 29,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 31,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 32,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 30.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 276,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 277,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 278,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 279,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 623,
+            "customer": "2059086",
+            "lat": 41.085766,
+            "lon": -87.0845176,
+            "address": "4618 N 200 W",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 624,
+            "customer": "2059086",
+            "lat": 41.085766,
+            "lon": -87.0845176,
+            "address": "4618 N 200 W",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 784,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 785,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 786,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 787,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 800,
+            "customer": "2465888",
+            "lat": 40.9848008,
+            "lon": -86.8823293,
+            "address": "117 S BILL ST",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 816,
+            "customer": "2465930",
+            "lat": 40.9888376,
+            "lon": -86.8787774,
+            "address": "318 E ADA ST",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 821,
+            "customer": "2465935",
+            "lat": 40.9677195,
+            "lon": -86.8480725,
+            "address": "6176 S 1275 W",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 887,
+            "customer": "2536666",
+            "lat": 40.9405523,
+            "lon": -87.156061,
+            "address": "494 N VAN RENSSELAER STREET",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 9.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 576,
+            "customer": "1919321",
+            "lat": 40.8561404,
+            "lon": -87.0618109,
+            "address": "10391 80W",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 12.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1915813)"
+        },
+        {
+            "OrigRowNum": 10,
+            "customer": "1348018",
+            "lat": 40.856959,
+            "lon": -87.415789,
+            "address": "9663 S 150 W",
+            "city": "BROOK",
+            "state": "IN",
+            "zip": "47922",
+            "download": 9.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348018)"
+        },
+        {
+            "OrigRowNum": 19,
+            "customer": "1348631",
+            "lat": 40.865896,
+            "lon": -87.364274,
+            "address": "112 MAIN STREET",
+            "city": "BROOK",
+            "state": "IN",
+            "zip": "47922",
+            "download": 18.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348631_002)"
+        },
+        {
+            "OrigRowNum": 887,
+            "customer": "2536666",
+            "lat": 40.9405523,
+            "lon": -87.156061,
+            "address": "494 N VAN RENSSELAER STREET",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 9.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2536666)"
+        },
+        {
+            "OrigRowNum": 874,
+            "customer": "2517792",
+            "lat": 40.9415891,
+            "lon": -87.1422595,
+            "address": "330 N MELVILLE STREET",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 18.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2432628)"
+        },
+        {
+            "OrigRowNum": 31,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793_006)"
+        },
+        {
+            "OrigRowNum": 32,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 30.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793_007)"
+        },
+        {
+            "OrigRowNum": 21,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793)"
+        },
+        {
+            "OrigRowNum": 22,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793)"
+        },
+        {
+            "OrigRowNum": 25,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793)"
+        },
+        {
+            "OrigRowNum": 29,
+            "customer": "1348793",
+            "lat": 40.9481997,
+            "lon": -87.1520682,
+            "address": "1250 N. MCKINLEY AVE.",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1348793_004)"
+        },
+        {
+            "OrigRowNum": 821,
+            "customer": "2465935",
+            "lat": 40.9677195,
+            "lon": -86.8480725,
+            "address": "6176 S 1275 W",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465935)"
+        },
+        {
+            "OrigRowNum": 800,
+            "customer": "2465888",
+            "lat": 40.9848008,
+            "lon": -86.8823293,
+            "address": "117 S BILL ST",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465888)"
+        },
+        {
+            "OrigRowNum": 784,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465715)"
+        },
+        {
+            "OrigRowNum": 785,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465715)"
+        },
+        {
+            "OrigRowNum": 786,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465715)"
+        },
+        {
+            "OrigRowNum": 787,
+            "customer": "2465715",
+            "lat": 40.9854493,
+            "lon": -86.8809125,
+            "address": "100 N BROOKS STREET",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465715)"
+        },
+        {
+            "OrigRowNum": 816,
+            "customer": "2465930",
+            "lat": 40.9888376,
+            "lon": -86.8787774,
+            "address": "318 E ADA ST",
+            "city": "FRANCESVILLE",
+            "state": "IN",
+            "zip": "47946",
+            "download": 20.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2465930)"
+        },
+        {
+            "OrigRowNum": 623,
+            "customer": "2059086",
+            "lat": 41.085766,
+            "lon": -87.0845176,
+            "address": "4618 N 200 W",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2059086)"
+        },
+        {
+            "OrigRowNum": 624,
+            "customer": "2059086",
+            "lat": 41.085766,
+            "lon": -87.0845176,
+            "address": "4618 N 200 W",
+            "city": "RENSSELAER",
+            "state": "IN",
+            "zip": "47978",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2059086)"
+        },
+        {
+            "OrigRowNum": 276,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1409445)"
+        },
+        {
+            "OrigRowNum": 277,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1409445)"
+        },
+        {
+            "OrigRowNum": 278,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1409445)"
+        },
+        {
+            "OrigRowNum": 279,
+            "customer": "1409445",
+            "lat": NaN,
+            "lon": NaN,
+            "address": "CO RD 200 E",
+            "city": "MOROCCO",
+            "state": "IN",
+            "zip": "47963",
+            "download": 6.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1409445)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 43,
+            "Original Address": "521 W SR 16",
+            "Corrected Address": "521 W STATE ROAD 16",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.086482"
+        },
+        {
+            "OrigRowNum": 47,
+            "Original Address": "686 E SR 16",
+            "Corrected Address": "686 E STATE ROAD 16",
+            "Original ZIP": "47959",
+            "Corrected ZIP": "47959",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.088297"
+        },
+        {
+            "OrigRowNum": 50,
+            "Original Address": "751 INDIANA 114",
+            "Corrected Address": "751 INDIANA 114",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.088951"
+        },
+        {
+            "OrigRowNum": 72,
+            "Original Address": "7505 INDIANA 110",
+            "Corrected Address": "7505 INDIANA 110",
+            "Original ZIP": "46310",
+            "Corrected ZIP": "46310",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.089503"
+        },
+        {
+            "OrigRowNum": 95,
+            "Original Address": "7475 N HIGHWAY 41",
+            "Corrected Address": "7475 N US HIGHWAY 41",
+            "Original ZIP": "47942",
+            "Corrected ZIP": "47942",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.089981"
+        },
+        {
+            "OrigRowNum": 129,
+            "Original Address": "6851 INDIANA 14",
+            "Corrected Address": "6851 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.090371"
+        },
+        {
+            "OrigRowNum": 134,
+            "Original Address": "9882 S US 231",
+            "Corrected Address": "9882 S US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.090735"
+        },
+        {
+            "OrigRowNum": 138,
+            "Original Address": "5438 IN-16",
+            "Corrected Address": "5438 W 16TH",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.091078"
+        },
+        {
+            "OrigRowNum": 161,
+            "Original Address": "7520 W SR 16",
+            "Corrected Address": "7520 W STATE ROAD 16",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.091393"
+        },
+        {
+            "OrigRowNum": 172,
+            "Original Address": "8412 INDIANA 114",
+            "Corrected Address": "8412 INDIANA 114",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.091716"
+        },
+        {
+            "OrigRowNum": 186,
+            "Original Address": "2868 INDIANA 114",
+            "Corrected Address": "2868 INDIANA 114",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.092019"
+        },
+        {
+            "OrigRowNum": 198,
+            "Original Address": "1885 INDIANA 114",
+            "Corrected Address": "1885 INDIANA 114",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.092323"
+        },
+        {
+            "OrigRowNum": 204,
+            "Original Address": "801 N MCKINLEY",
+            "Corrected Address": "801 N MCKINLEY AVE",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.092628"
+        },
+        {
+            "OrigRowNum": 222,
+            "Original Address": "2435 S MERIDIAN",
+            "Corrected Address": "2435 S MERIDIAN RD",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.092932"
+        },
+        {
+            "OrigRowNum": 223,
+            "Original Address": "11541 INDIANA 114",
+            "Corrected Address": "11541 INDIANA 114",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.093581"
+        },
+        {
+            "OrigRowNum": 228,
+            "Original Address": "220 W HARRISON",
+            "Corrected Address": "220 W HARRISON ST",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.094073"
+        },
+        {
+            "OrigRowNum": 243,
+            "Original Address": "6300 INDIANA 110",
+            "Corrected Address": "6300 INDIANA 110",
+            "Original ZIP": "46310",
+            "Corrected ZIP": "46310",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.094445"
+        },
+        {
+            "OrigRowNum": 252,
+            "Original Address": "4205 N US 231",
+            "Corrected Address": "4205 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.094796"
+        },
+        {
+            "OrigRowNum": 274,
+            "Original Address": "669 US 231",
+            "Corrected Address": "669 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.095145"
+        },
+        {
+            "OrigRowNum": 286,
+            "Original Address": "2906 W SR14",
+            "Corrected Address": "2906 W STATE ROAD 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.095495"
+        },
+        {
+            "OrigRowNum": 287,
+            "Original Address": "2906 W SR14",
+            "Corrected Address": "2906 W STATE ROAD 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.095833"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "2906 W SR14",
+            "Corrected Address": "2906 W STATE ROAD 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.096168"
+        },
+        {
+            "OrigRowNum": 295,
+            "Original Address": "703 US 231",
+            "Corrected Address": "703 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.096495"
+        },
+        {
+            "OrigRowNum": 338,
+            "Original Address": "1269 N MERIDAN",
+            "Corrected Address": "1269 N MERIDIAN RD",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.096817"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "1891 N MERIDIAN",
+            "Corrected Address": "1891 N MERIDIAN RD",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.097151"
+        },
+        {
+            "OrigRowNum": 360,
+            "Original Address": "4707 N  US 231",
+            "Corrected Address": "4707 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.097469"
+        },
+        {
+            "OrigRowNum": 363,
+            "Original Address": "2501 W SR 16",
+            "Corrected Address": "2501 W STATE ROAD 16",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.097803"
+        },
+        {
+            "OrigRowNum": 395,
+            "Original Address": "1313 INDIANA 14",
+            "Corrected Address": "1313 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.098125"
+        },
+        {
+            "OrigRowNum": 460,
+            "Original Address": "3044 N US-231",
+            "Corrected Address": "3044 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.098443"
+        },
+        {
+            "OrigRowNum": 478,
+            "Original Address": "3253 US-231",
+            "Corrected Address": "3253 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.098773"
+        },
+        {
+            "OrigRowNum": 507,
+            "Original Address": "3698 W 170 N APT1",
+            "Corrected Address": "3698 W 170 N",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.099082"
+        },
+        {
+            "OrigRowNum": 510,
+            "Original Address": "4492 IN-39",
+            "Corrected Address": "4492 IN-39",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.099348"
+        },
+        {
+            "OrigRowNum": 526,
+            "Original Address": "5197 U.S. 231",
+            "Corrected Address": "5197 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.099628"
+        },
+        {
+            "OrigRowNum": 527,
+            "Original Address": "1201 FORSYTHIA SE",
+            "Corrected Address": "1201 FORSYTHIA ST",
+            "Original ZIP": "46310",
+            "Corrected ZIP": "46310",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.099896"
+        },
+        {
+            "OrigRowNum": 545,
+            "Original Address": "219-866-0149",
+            "Corrected Address": "219866-- 0149",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.100162"
+        },
+        {
+            "OrigRowNum": 550,
+            "Original Address": "9843 S U.S. 231",
+            "Corrected Address": "9843 S US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.100436"
+        },
+        {
+            "OrigRowNum": 554,
+            "Original Address": "8774 INDIANA 14",
+            "Corrected Address": "8774 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.100704"
+        },
+        {
+            "OrigRowNum": 564,
+            "Original Address": "2303 U.S. 231",
+            "Corrected Address": "2303 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.100966"
+        },
+        {
+            "OrigRowNum": 574,
+            "Original Address": "10391 80W",
+            "Corrected Address": "10391 S 80 W",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.101244"
+        },
+        {
+            "OrigRowNum": 576,
+            "Original Address": "10391 80W",
+            "Corrected Address": "10391 S 80 W",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.101513"
+        },
+        {
+            "OrigRowNum": 582,
+            "Original Address": "6364 W SR 14",
+            "Corrected Address": "6364 W STATE ROAD 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.101778"
+        },
+        {
+            "OrigRowNum": 586,
+            "Original Address": "1895 E 114",
+            "Corrected Address": "1895 EAST ST",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.102050"
+        },
+        {
+            "OrigRowNum": 596,
+            "Original Address": "194 W SR 16",
+            "Corrected Address": "194 W STATE ROAD 16",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.102328"
+        },
+        {
+            "OrigRowNum": 601,
+            "Original Address": "5389 W SR 14",
+            "Corrected Address": "5389 W STATE ROAD 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.102596"
+        },
+        {
+            "OrigRowNum": 606,
+            "Original Address": "8766 S 275TH W",
+            "Corrected Address": "8766 S 275 W",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.102886"
+        },
+        {
+            "OrigRowNum": 612,
+            "Original Address": "5014 S 230 E RENSSELAER IN",
+            "Corrected Address": "5014 S 230 E",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.103154"
+        },
+        {
+            "OrigRowNum": 613,
+            "Original Address": "647 INDIANA 16",
+            "Corrected Address": "647 W 16TH",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.103426"
+        },
+        {
+            "OrigRowNum": 618,
+            "Original Address": "2559 W 100 S RENYOLDS INDIANA",
+            "Corrected Address": "2559 W 100 S",
+            "Original ZIP": "47980",
+            "Corrected ZIP": "47980",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.103690"
+        },
+        {
+            "OrigRowNum": 629,
+            "Original Address": "6600 INDIANA 14",
+            "Corrected Address": "6600 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.103964"
+        },
+        {
+            "OrigRowNum": 634,
+            "Original Address": "11440 U.S. 24",
+            "Corrected Address": "11440 W US HIGHWAY 24",
+            "Original ZIP": "47948",
+            "Corrected ZIP": "47948",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.104226"
+        },
+        {
+            "OrigRowNum": 635,
+            "Original Address": "11440 U.S. 24",
+            "Corrected Address": "11440 W US HIGHWAY 24",
+            "Original ZIP": "47948",
+            "Corrected ZIP": "47948",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.104499"
+        },
+        {
+            "OrigRowNum": 646,
+            "Original Address": "8585  IN-71",
+            "Corrected Address": "8585 IN-71",
+            "Original ZIP": "47942",
+            "Corrected ZIP": "47942",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.104762"
+        },
+        {
+            "OrigRowNum": 648,
+            "Original Address": "378 IN-14",
+            "Corrected Address": "378 IN-14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.105029"
+        },
+        {
+            "OrigRowNum": 650,
+            "Original Address": "388 IN-71",
+            "Corrected Address": "388 IN-71",
+            "Original ZIP": "47944",
+            "Corrected ZIP": "47944",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.105254"
+        },
+        {
+            "OrigRowNum": 662,
+            "Original Address": "1477 INDIANA 49",
+            "Corrected Address": "1477 INDIANA 49",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.105483"
+        },
+        {
+            "OrigRowNum": 674,
+            "Original Address": "1262N 100 W",
+            "Corrected Address": "1262 N 100 W",
+            "Original ZIP": "47980",
+            "Corrected ZIP": "47980",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.105705"
+        },
+        {
+            "OrigRowNum": 676,
+            "Original Address": "3107 U.S. 231",
+            "Corrected Address": "3107 N US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.105962"
+        },
+        {
+            "OrigRowNum": 684,
+            "Original Address": "11094 U.S. 24",
+            "Corrected Address": "11094 W US HIGHWAY 24",
+            "Original ZIP": "47948",
+            "Corrected ZIP": "47948",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.106195"
+        },
+        {
+            "OrigRowNum": 692,
+            "Original Address": "8942 INDIANA 14",
+            "Corrected Address": "8942 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.106419"
+        },
+        {
+            "OrigRowNum": 697,
+            "Original Address": "2338 INDIANA 55",
+            "Corrected Address": "2338 E INDIANA AVE",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.106741"
+        },
+        {
+            "OrigRowNum": 703,
+            "Original Address": "732 INDIANA 16",
+            "Corrected Address": "732 W 16TH",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.106985"
+        },
+        {
+            "OrigRowNum": 721,
+            "Original Address": "746 U.S. 231",
+            "Corrected Address": "746 S US HIGHWAY 231",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.107216"
+        },
+        {
+            "OrigRowNum": 740,
+            "Original Address": "9748 INDIANA 14",
+            "Corrected Address": "9748 INDIANA 14",
+            "Original ZIP": "47943",
+            "Corrected ZIP": "47943",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.107443"
+        },
+        {
+            "OrigRowNum": 743,
+            "Original Address": "2508 INDIANA 16",
+            "Corrected Address": "2508 INDIANA 16",
+            "Original ZIP": "47922",
+            "Corrected ZIP": "47922",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.107667"
+        },
+        {
+            "OrigRowNum": 752,
+            "Original Address": "3507 W U.S. 24",
+            "Corrected Address": "3507 W US HIGHWAY 24",
+            "Original ZIP": "47977",
+            "Corrected ZIP": "47977",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.107901"
+        },
+        {
+            "OrigRowNum": 757,
+            "Original Address": "6632 INDIANA 39",
+            "Corrected Address": "6632 INDIANA 39",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.108139"
+        },
+        {
+            "OrigRowNum": 762,
+            "Original Address": "5847 E US136",
+            "Corrected Address": "5847 E US HIGHWAY 136",
+            "Original ZIP": "47933",
+            "Corrected ZIP": "47933",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.108362"
+        },
+        {
+            "OrigRowNum": 763,
+            "Original Address": "359 INDIANA 14",
+            "Corrected Address": "359 INDIANA 14",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.108588"
+        },
+        {
+            "OrigRowNum": 764,
+            "Original Address": "702 INDIANA 16",
+            "Corrected Address": "702 W 16TH",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.108813"
+        },
+        {
+            "OrigRowNum": 773,
+            "Original Address": "4527 MEDOWLAKE",
+            "Corrected Address": "4527 MEADOW LAKE LN",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.109044"
+        },
+        {
+            "OrigRowNum": 777,
+            "Original Address": "4551 S US 421",
+            "Corrected Address": "4551 S US 421",
+            "Original ZIP": "46374",
+            "Corrected ZIP": "46374",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.109266"
+        },
+        {
+            "OrigRowNum": 791,
+            "Original Address": "8776 S US 421",
+            "Corrected Address": "8776 S US HIGHWAY 421",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.109494"
+        },
+        {
+            "OrigRowNum": 792,
+            "Original Address": "4385 S 1450",
+            "Corrected Address": "4385 S 1450 W",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.109716"
+        },
+        {
+            "OrigRowNum": 809,
+            "Original Address": "7259 S 1400W",
+            "Corrected Address": "7259 S 1400 W",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.109948"
+        },
+        {
+            "OrigRowNum": 858,
+            "Original Address": "943 INDIANA 114",
+            "Corrected Address": "943 E INDIANA AVE",
+            "Original ZIP": "47963",
+            "Corrected ZIP": "47963",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.110173"
+        },
+        {
+            "OrigRowNum": 861,
+            "Original Address": "314 U.S. 421",
+            "Corrected Address": "314 N US 421",
+            "Original ZIP": "47946",
+            "Corrected ZIP": "47946",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.110397"
+        },
+        {
+            "OrigRowNum": 867,
+            "Original Address": "3791 SANDY HILL",
+            "Corrected Address": "3791 SANDY HILL LN",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.110635"
+        },
+        {
+            "OrigRowNum": 869,
+            "Original Address": "1735 INDIANA 49",
+            "Corrected Address": "1735 INDIANA 49",
+            "Original ZIP": "47978",
+            "Corrected ZIP": "47978",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.110861"
+        },
+        {
+            "OrigRowNum": 881,
+            "Original Address": "4128 INDIANA 55",
+            "Corrected Address": "4128 INDIANA 55",
+            "Original ZIP": "47948",
+            "Corrected ZIP": "47948",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.111067"
+        },
+        {
+            "OrigRowNum": 893,
+            "Original Address": "145 N. ELGIN",
+            "Corrected Address": "145 N ELGIN ST",
+            "Original ZIP": "46319",
+            "Corrected ZIP": "46319",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:08:47.111265"
+        }
+    ]
+}

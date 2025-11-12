@@ -1,0 +1,1910 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1160,
+        "Rows with Corrections": 95,
+        "Rows with Errors": 51,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 2,
+        "Removed Duplicate Rows": 45,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 96,
+        "Total Errors": 57,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.88,
+        "Validation Date": "2025-08-13 17:00:03",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1111,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1111,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "499 SOUTH 6TH STREET",
+            "Corrected Value": "499 S 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "452 FINNIE FLAT ROAD",
+            "Corrected Value": "452 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "3900 NORTH CHERRY ROAD",
+            "Corrected Value": "3900 N CHERRY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "671 W FINNIE FLAT RD",
+            "Corrected Value": "671 W FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "5250 SOUTH WINCHESTER TRAIL",
+            "Corrected Value": "5250 S WINCHESTER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "1773 SOUTH BROGDON DRIVE",
+            "Corrected Value": "1773 S BROGDON DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "231 EAST MECKEM LANE",
+            "Corrected Value": "231 E MECKEM LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "2940 EAST ZACHARY LANE",
+            "Corrected Value": "2940 E ZACHARY LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "783 SOUTH SGT WOODALL LANE",
+            "Corrected Value": "783 S SGT WOODALL LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "28 WEST GENERAL CROOK TRAIL",
+            "Corrected Value": "28 W GENERAL CROOK TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "3701 WEST CHERRY CREEK ROAD",
+            "Corrected Value": "3701 W CHERRY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "823 WEST PETERSON ROAD",
+            "Corrected Value": "823 W PETERSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "115 SOUTH MONTEZUMA CASTLE HIGHWAY",
+            "Corrected Value": "115 S MONTEZUMA CASTLE HIGHWAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "2584 SOUTH OLD CHURCH ROAD",
+            "Corrected Value": "2584 S OLD CHURCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "2372 BEASLEY FLAT ROAD",
+            "Corrected Value": "2372 BEASLEY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Original Value": "1821 SOUTH BROGDON DRIVE",
+            "Corrected Value": "1821 S BROGDON DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "455 E FLINT KNAP WAY",
+            "Corrected Value": "455 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "335 WEST PHEASANT RUN CIRCLE",
+            "Corrected Value": "335 W PHEASANT RUN CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "2322 BEASLEY FLAT ROAD",
+            "Corrected Value": "2322 BEASLEY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "723 FINNIE FLAT RD",
+            "Corrected Value": "723 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "500 EAST CORNVILLE ROAD",
+            "Corrected Value": "500 E CORNVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "500 EAST CORNVILLE ROAD",
+            "Corrected Value": "500 E CORNVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 273,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "507 WEST PHEASANT RUN CIRCLE",
+            "Corrected Value": "507 W PHEASANT RUN CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "3445 EAST BEAVER CREEK ROAD",
+            "Corrected Value": "3445 E BEAVER CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 302,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "5998 SOUTH TRES BRISAS LANE",
+            "Corrected Value": "5998 S TRES BRISAS LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 325,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "810 EAST ROUTE 66",
+            "Corrected Value": "810 E ROUTE 66",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 367,
+            "Column": "address",
+            "Original Value": "1425 EAST SHARPS TRAIL",
+            "Corrected Value": "1425 E SHARPS TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 386,
+            "Column": "address",
+            "Original Value": "3299 NORTH RUNNING WOLF",
+            "Corrected Value": "3299 N RUNNING WOLF",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 391,
+            "Column": "address",
+            "Original Value": "5712 SOUTH EGRET NEST LANE",
+            "Corrected Value": "5712 S EGRET NEST LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "370 E FLINT KNAP WAY",
+            "Corrected Value": "370 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "3855 EAST MILLENNIUM WAY",
+            "Corrected Value": "3855 E MILLENNIUM WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "5650 N TOWERS DR",
+            "Corrected Value": "5650 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "6625 NORTH FALCON VIEW DRIVE",
+            "Corrected Value": "6625 N FALCON VIEW DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Original Value": "1812 NORTH THEO COURT",
+            "Corrected Value": "1812 N THEO COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Original Value": "3747 EAST LARK DR",
+            "Corrected Value": "3747 E LARK DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "1274 WEST WINDSONG DRIVE",
+            "Corrected Value": "1274 W WINDSONG DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 521,
+            "Column": "address",
+            "Original Value": "6400 EAST THOUSAND TRAILS ROAD",
+            "Corrected Value": "6400 E THOUSAND TRAILS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Original Value": "723 W FINNIE FLAT RD",
+            "Corrected Value": "723 W FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "2034 NORTH RUSTLER TRAIL",
+            "Corrected Value": "2034 N RUSTLER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "2034 NORTH RUSTLER TRAIL",
+            "Corrected Value": "2034 N RUSTLER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 528,
+            "Column": "address",
+            "Original Value": "2034 NORTH RUSTLER TRAIL",
+            "Corrected Value": "2034 N RUSTLER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "address",
+            "Original Value": "1472 WEST HORSESHOE BEND DRIVE",
+            "Corrected Value": "1472 W HORSESHOE BEND DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "983 W FINNIE FLAT RD",
+            "Corrected Value": "983 W FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "1509 WEST HORSESHOE BEND DRIVE",
+            "Corrected Value": "1509 W HORSESHOE BEND DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "4580 E STEVENS WAY",
+            "Corrected Value": "4580 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "1701 SOUTH OLD CHURCH ROAD",
+            "Corrected Value": "1701 S OLD CHURCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "2371 BEASLEY FLAT ROAD",
+            "Corrected Value": "2371 BEASLEY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "5200 SOUTH SPENCER TRAIL",
+            "Corrected Value": "5200 S SPENCER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "2575 EAST MOSHER ROAD",
+            "Corrected Value": "2575 E MOSHER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "3663 NORTH GRACEFUL TRAIL",
+            "Corrected Value": "3663 N GRACEFUL TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "4978 EAST GOSS COURT",
+            "Corrected Value": "4978 E GOSS COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "723 FINNIE FLAT ROAD",
+            "Corrected Value": "723 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "1761 NORTH RUSTLER TRAIL",
+            "Corrected Value": "1761 N RUSTLER TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 633,
+            "Column": "address",
+            "Original Value": "390 WEST PHEASANT RUN CIRCLE",
+            "Corrected Value": "390 W PHEASANT RUN CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "2150 SOUTH SQUAW PEAK ROAD",
+            "Corrected Value": "2150 S SQUAW PEAK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Original Value": "856 SOUTH SGT WOODALL",
+            "Corrected Value": "856 S SGT WOODALL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 660,
+            "Column": "address",
+            "Original Value": "430 FINNIE FLAT RD",
+            "Corrected Value": "430 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "5600 N TOWERS DR",
+            "Corrected Value": "5600 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Original Value": "5715 N TOWERS DR",
+            "Corrected Value": "5715 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "522 FINNIE FLAT RD",
+            "Corrected Value": "522 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Original Value": "4595 E STEVENS WAY",
+            "Corrected Value": "4595 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 776,
+            "Column": "address",
+            "Original Value": "4680 E STEVENS WAY",
+            "Corrected Value": "4680 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Original Value": "4590 E STEVENS WAY",
+            "Corrected Value": "4590 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Original Value": "2235 VERDE WEST DR",
+            "Corrected Value": "2235 VERDE W DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Original Value": "5645 N TOWERS RD",
+            "Corrected Value": "5645 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 921,
+            "Column": "address",
+            "Original Value": "360 FINNIE FLAD RD",
+            "Corrected Value": "360 FINNIE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 932,
+            "Column": "address",
+            "Original Value": "2572 QUIRT CIRCLE APT A",
+            "Corrected Value": "2572 QUIRT CIRCLE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Original Value": "2836 SOUTH DIAMOND S RD",
+            "Corrected Value": "2836 S DIAMOND S RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 712,
+            "Column": "lat",
+            "Original Value": 34.4808688,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 712,
+            "Column": "lon",
+            "Original Value": -111.8218551,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2019135",
+            "Corrected Value": "2019135_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "2019135",
+            "Corrected Value": "2019135_005",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "2019135",
+            "Corrected Value": "2019135_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "325 FLINT KNAP WAY"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 3178"
+        },
+        {
+            "Row": 712,
+            "Column": "lat",
+            "Error": "Latitude for AK must be positive",
+            "Value": "34.4808688"
+        },
+        {
+            "Row": 712,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8218551"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "455 E"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "370 E"
+        },
+        {
+            "Row": 79,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1569287"
+        },
+        {
+            "Row": 83,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1569293_001",
+            "Value": "1569293"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1569293"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1569310"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1613778"
+        },
+        {
+            "Row": 527,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2009755_002",
+            "Value": "2009755"
+        },
+        {
+            "Row": 528,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2009755_003",
+            "Value": "2009755"
+        },
+        {
+            "Row": 539,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2019135_004",
+            "Value": "2019135"
+        },
+        {
+            "Row": 540,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2019135_005",
+            "Value": "2019135"
+        },
+        {
+            "Row": 541,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2019135_006",
+            "Value": "2019135"
+        },
+        {
+            "Row": 542,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2019135"
+        },
+        {
+            "Row": 1087,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2313162)",
+            "Value": "2532041"
+        },
+        {
+            "Row": 228,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569247)",
+            "Value": "1582558"
+        },
+        {
+            "Row": 1057,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2514285)",
+            "Value": "2516991"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1613778)",
+            "Value": "1613778"
+        },
+        {
+            "Row": 834,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2297003)",
+            "Value": "2330486"
+        },
+        {
+            "Row": 542,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2019135_006)",
+            "Value": "2019135"
+        },
+        {
+            "Row": 753,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2070149)",
+            "Value": "2268103"
+        },
+        {
+            "Row": 242,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1580839)",
+            "Value": "1608034"
+        },
+        {
+            "Row": 463,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1580839)",
+            "Value": "1937424"
+        },
+        {
+            "Row": 474,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1783793)",
+            "Value": "1960854"
+        },
+        {
+            "Row": 79,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569287)",
+            "Value": "1569287"
+        },
+        {
+            "Row": 323,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1710414)",
+            "Value": "1745877"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569293_001)",
+            "Value": "1569293"
+        },
+        {
+            "Row": 763,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2260250)",
+            "Value": "2274001"
+        },
+        {
+            "Row": 70,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1569273"
+        },
+        {
+            "Row": 162,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1569440"
+        },
+        {
+            "Row": 204,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1569520"
+        },
+        {
+            "Row": 219,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1578327"
+        },
+        {
+            "Row": 229,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1590958"
+        },
+        {
+            "Row": 273,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1674209"
+        },
+        {
+            "Row": 303,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1706289"
+        },
+        {
+            "Row": 349,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1791123"
+        },
+        {
+            "Row": 399,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1863162"
+        },
+        {
+            "Row": 408,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1867694"
+        },
+        {
+            "Row": 448,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1920945"
+        },
+        {
+            "Row": 509,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569265)",
+            "Value": "1993428"
+        },
+        {
+            "Row": 262,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1578332)",
+            "Value": "1642076"
+        },
+        {
+            "Row": 302,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1578332)",
+            "Value": "1705547"
+        },
+        {
+            "Row": 325,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1578332)",
+            "Value": "1749708"
+        },
+        {
+            "Row": 435,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1578332)",
+            "Value": "1901063"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1569310)",
+            "Value": "1569310"
+        },
+        {
+            "Row": 747,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2215646)",
+            "Value": "2263618"
+        },
+        {
+            "Row": 756,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2215646)",
+            "Value": "2269304"
+        },
+        {
+            "Row": 814,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2215646)",
+            "Value": "2321660"
+        },
+        {
+            "Row": 710,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2194460)",
+            "Value": "2217318"
+        },
+        {
+            "Row": 728,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2194460)",
+            "Value": "2223610"
+        },
+        {
+            "Row": 826,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2194460)",
+            "Value": "2328283"
+        },
+        {
+            "Row": 1021,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2481152)",
+            "Value": "2491699"
+        },
+        {
+            "Row": 1004,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2200986)",
+            "Value": "2478346"
+        },
+        {
+            "Row": 263,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1598972)",
+            "Value": "1642107"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 831,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 3178"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 3178"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 177,
+            "address": "455 E",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 398,
+            "address": "370 E",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 79,
+            "customer": "1569287",
+            "lat": 34.6083751,
+            "lon": -111.9195287,
+            "address": "3900 W CHERRY CREEK RD",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 84,
+            "customer": "1569293",
+            "lat": 34.6314879,
+            "lon": -111.9108478,
+            "address": "3380 W CLOVERLEAF RANCH",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 35.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1569310",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 25.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "1613778",
+            "lat": 34.5636358,
+            "lon": -111.8543178,
+            "address": "6200 S HARVEY LANE",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 542,
+            "customer": "2019135",
+            "lat": 34.5794365,
+            "lon": -111.8779862,
+            "address": "1000 STATE RTE 260",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 1087,
+            "customer": "2532041",
+            "lat": 34.5204259,
+            "lon": -111.789679,
+            "address": "3704 E RIPPLE RD",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2313162)"
+        },
+        {
+            "OrigRowNum": 228,
+            "customer": "1582558",
+            "lat": 34.5250764,
+            "lon": -111.8450976,
+            "address": "550 E VISTA DR",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569247)"
+        },
+        {
+            "OrigRowNum": 1057,
+            "customer": "2516991",
+            "lat": 34.5310869,
+            "lon": -111.8416042,
+            "address": "707 E QUARTERHORSE LN",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2514285)"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "1613778",
+            "lat": 34.5636358,
+            "lon": -111.8543178,
+            "address": "6200 S HARVEY LANE",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1613778)"
+        },
+        {
+            "OrigRowNum": 834,
+            "customer": "2330486",
+            "lat": 34.568613,
+            "lon": -111.8528296,
+            "address": "90 E CLIFFHOUSE DR",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2297003)"
+        },
+        {
+            "OrigRowNum": 542,
+            "customer": "2019135",
+            "lat": 34.5794365,
+            "lon": -111.8779862,
+            "address": "1000 STATE RTE 260",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2019135_006)"
+        },
+        {
+            "OrigRowNum": 753,
+            "customer": "2268103",
+            "lat": 34.5996754,
+            "lon": -111.8841299,
+            "address": "1472 W HORSESHOE BEND DR",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2070149)"
+        },
+        {
+            "OrigRowNum": 242,
+            "customer": "1608034",
+            "lat": 34.600905,
+            "lon": -111.8710532,
+            "address": "2075 N ARENA DEL LOMA",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1580839)"
+        },
+        {
+            "OrigRowNum": 463,
+            "customer": "1937424",
+            "lat": 34.600905,
+            "lon": -111.8710532,
+            "address": "2075 N ARENA DEL LOMA",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1580839)"
+        },
+        {
+            "OrigRowNum": 474,
+            "customer": "1960854",
+            "lat": 34.600905,
+            "lon": -111.8710532,
+            "address": "2075 N ARENA DEL LOMA",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1783793)"
+        },
+        {
+            "OrigRowNum": 79,
+            "customer": "1569287",
+            "lat": 34.6083751,
+            "lon": -111.9195287,
+            "address": "3900 W CHERRY CREEK RD",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569287)"
+        },
+        {
+            "OrigRowNum": 323,
+            "customer": "1745877",
+            "lat": 34.6284605,
+            "lon": -111.7766973,
+            "address": "4105 N PIMA WAY",
+            "city": "RIMROCK",
+            "state": "AZ",
+            "zip": "86335",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1710414)"
+        },
+        {
+            "OrigRowNum": 84,
+            "customer": "1569293",
+            "lat": 34.6314879,
+            "lon": -111.9108478,
+            "address": "3380 W CLOVERLEAF RANCH",
+            "city": "CAMP VERDE",
+            "state": "AZ",
+            "zip": "86322",
+            "download": 35.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569293_001)"
+        },
+        {
+            "OrigRowNum": 763,
+            "customer": "2274001",
+            "lat": 34.6499571,
+            "lon": -111.8107112,
+            "address": "5470 BICE RD",
+            "city": "RIMROCK",
+            "state": "AZ",
+            "zip": "86335",
+            "download": 20.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2260250)"
+        },
+        {
+            "OrigRowNum": 70,
+            "customer": "1569273",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 162,
+            "customer": "1569440",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 204,
+            "customer": "1569520",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 219,
+            "customer": "1578327",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 229,
+            "customer": "1590958",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 273,
+            "customer": "1674209",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 303,
+            "customer": "1706289",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 349,
+            "customer": "1791123",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 399,
+            "customer": "1863162",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 408,
+            "customer": "1867694",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 448,
+            "customer": "1920945",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 509,
+            "customer": "1993428",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569265)"
+        },
+        {
+            "OrigRowNum": 262,
+            "customer": "1642076",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1578332)"
+        },
+        {
+            "OrigRowNum": 302,
+            "customer": "1705547",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1578332)"
+        },
+        {
+            "OrigRowNum": 325,
+            "customer": "1749708",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1578332)"
+        },
+        {
+            "OrigRowNum": 435,
+            "customer": "1901063",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1578332)"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1569310",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS ROAD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 25.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1569310)"
+        },
+        {
+            "OrigRowNum": 747,
+            "customer": "2263618",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2215646)"
+        },
+        {
+            "OrigRowNum": 756,
+            "customer": "2269304",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2215646)"
+        },
+        {
+            "OrigRowNum": 814,
+            "customer": "2321660",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2215646)"
+        },
+        {
+            "OrigRowNum": 710,
+            "customer": "2217318",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2194460)"
+        },
+        {
+            "OrigRowNum": 728,
+            "customer": "2223610",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2194460)"
+        },
+        {
+            "OrigRowNum": 826,
+            "customer": "2328283",
+            "lat": 34.6717314,
+            "lon": -111.9409076,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2194460)"
+        },
+        {
+            "OrigRowNum": 1021,
+            "customer": "2491699",
+            "lat": 34.6717462,
+            "lon": -111.9408135,
+            "address": "6400 E THOUSAND TRAILS RD",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2481152)"
+        },
+        {
+            "OrigRowNum": 1004,
+            "customer": "2478346",
+            "lat": 34.6717462,
+            "lon": -111.9408135,
+            "address": "6400 E THOUSAND TRAILS",
+            "city": "COTTONWOOD",
+            "state": "AZ",
+            "zip": "86326",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2200986)"
+        },
+        {
+            "OrigRowNum": 263,
+            "customer": "1642107",
+            "lat": 34.6844905,
+            "lon": -111.8422333,
+            "address": "500 E CORNVILLE ROAD",
+            "city": "RIMROCK",
+            "state": "AZ",
+            "zip": "86335",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1598972)"
+        }
+    ],
+    "Smarty Corrections": []
+}

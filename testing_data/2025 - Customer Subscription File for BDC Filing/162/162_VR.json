@@ -1,0 +1,3444 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1533,
+        "Rows with Corrections": 376,
+        "Rows with Errors": 10,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 414,
+        "Total Errors": 10,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.22,
+        "Validation Date": "2025-08-20 09:30:55",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1532,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1532,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "401 E Pietzsch St",
+            "Corrected Value": "401 E PIETZSCH ST",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "212 Coal Dr",
+            "Corrected Value": "212 COAL DR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "723 SPRING CREEK RD FLORENCE TX USA",
+            "Corrected Value": "723 SPRING CREEK RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 643,
+            "Column": "address",
+            "Original Value": "100 Shelby Ln",
+            "Corrected Value": "100 SHELBY LN",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 701,
+            "Column": "address",
+            "Original Value": "501 Summerwood Drive",
+            "Corrected Value": "501 SUMMERWOOD DRIVE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "925 Spring Creek Rd",
+            "Corrected Value": "925 SPRING CREEK RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 819,
+            "Column": "address",
+            "Original Value": "4650 COUNTY ROAD 284",
+            "Corrected Value": "4650 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Original Value": "328 Farmer Ln",
+            "Corrected Value": "328 FARMER LN",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1054,
+            "Column": "address",
+            "Original Value": "120 Rowdy Yates Wy",
+            "Corrected Value": "120 ROWDY YATES WY",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1151,
+            "Column": "address",
+            "Original Value": "345 N Fawn Ridge Dr",
+            "Corrected Value": "345 N FAWN RIDGE DR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1342,
+            "Column": "address",
+            "Original Value": "160 Watch Hl Jarrell",
+            "Corrected Value": "160 WATCH HL JARRELL",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "WEST JACKSON STREET",
+            "Corrected Value": "W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "514 EAST CLARK ST",
+            "Corrected Value": "514 E CLARK ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "543 WEST CLARK STREET",
+            "Corrected Value": "543 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "429 WEST BELL STREET",
+            "Corrected Value": "429 W BELL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "1237 WEST BELL STREET",
+            "Corrected Value": "1237 W BELL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "177 EAST DAVILLA STREET",
+            "Corrected Value": "177 E DAVILLA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "825 WEST CLARK STREET",
+            "Corrected Value": "825 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "117 EMMA STREET APARTMENT C",
+            "Corrected Value": "117 EMMA STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "624 EAST CLARK STREET",
+            "Corrected Value": "624 E CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "619 WEST DAVILLA STREET",
+            "Corrected Value": "619 W DAVILLA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "817 WEST CLARK STREET",
+            "Corrected Value": "817 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "529 WEST CLARK STREET",
+            "Corrected Value": "529 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "439 WEST ELM AVENUE",
+            "Corrected Value": "439 W ELM AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "502 NORTHEAST FRONT STREET",
+            "Corrected Value": "502 NE FRONT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "343 WEST CLARK STREET",
+            "Corrected Value": "343 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "445 EAST BELL STREET",
+            "Corrected Value": "445 E BELL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "1301 WEST PIETZSCH STREET",
+            "Corrected Value": "1301 W PIETZSCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "230 WEST CLARK STREET",
+            "Corrected Value": "230 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "342 WEST CLARK STREET",
+            "Corrected Value": "342 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "1340 WEST CLARK STREET",
+            "Corrected Value": "1340 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "420 WEST CLARK STREET",
+            "Corrected Value": "420 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "101 SOUTH FONTAINE STREET",
+            "Corrected Value": "101 S FONTAINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "407 EAST CLEARMAN STREET",
+            "Corrected Value": "407 E CLEARMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "441 WEST CLARK STREET",
+            "Corrected Value": "441 W CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "441 WEST BROOK STREET",
+            "Corrected Value": "441 W BROOK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "305 NORTH LUCY STREET",
+            "Corrected Value": "305 N LUCY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "814 WEST BELL STREET",
+            "Corrected Value": "814 W BELL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "1304 WEST JACKSON STREET",
+            "Corrected Value": "1304 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "206 EAST CLEARMAN STREET",
+            "Corrected Value": "206 E CLEARMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "242 SOUTH ALAMO STREET",
+            "Corrected Value": "242 S ALAMO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "address",
+            "Original Value": "811 WEST JACKSON STREET",
+            "Corrected Value": "811 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "133 WEST PIETZSCH STREET",
+            "Corrected Value": "133 W PIETZSCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "115 WEST ELM AVENUE",
+            "Corrected Value": "115 W ELM AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "403 NORTHWEST FRONT STREET",
+            "Corrected Value": "403 NW FRONT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "address",
+            "Original Value": "334 WEST ELM AVENUE",
+            "Corrected Value": "334 W ELM AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "612 EAST CLARK STREET",
+            "Corrected Value": "612 E CLARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "808 NORTH 6TH STREET",
+            "Corrected Value": "808 N 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "250 SOUTH SAN GABRIEL LOOP",
+            "Corrected Value": "250 S SAN GABRIEL LOOP",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Original Value": "410 EAST AVENUE B",
+            "Corrected Value": "410 E AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 653,
+            "Column": "address",
+            "Original Value": "3151 FARM TO MARKET ROAD 487",
+            "Corrected Value": "3151 FM 487",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Original Value": "5900 FARM TO MARKET ROAD 2657",
+            "Corrected Value": "5900 FM 2657",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 803,
+            "Column": "address",
+            "Original Value": "4250 FARM TO MARKET ROAD 3405",
+            "Corrected Value": "4250 FM 3405",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 848,
+            "Column": "address",
+            "Original Value": "512 NORTH 9TH STREET",
+            "Corrected Value": "512 N 9TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 935,
+            "Column": "address",
+            "Original Value": "2575 W FARM TO MARKET RD 243",
+            "Corrected Value": "2575 W FM 243",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1086,
+            "Column": "address",
+            "Original Value": "203 NORTH 8TH STREET",
+            "Corrected Value": "203 N 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1092,
+            "Column": "address",
+            "Original Value": "5055 WEST HIGHWAY 29",
+            "Corrected Value": "5055 W HIGHWAY 29",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1162,
+            "Column": "address",
+            "Original Value": "303 WEST AVE",
+            "Corrected Value": "303 W AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1265,
+            "Column": "address",
+            "Original Value": "642 B WEST BELL",
+            "Corrected Value": "642 B W BELL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1270,
+            "Column": "address",
+            "Original Value": "101 BAILEY KAY CT UNIT B",
+            "Corrected Value": "101 BAILEY KAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1329,
+            "Column": "address",
+            "Original Value": "100 NORTH ALLIGATOR ROAD",
+            "Corrected Value": "100 N ALLIGATOR ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1371,
+            "Column": "address",
+            "Original Value": "12185 FARM TO MARKET ROAD 487",
+            "Corrected Value": "12185 FM 487",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1469,
+            "Column": "address",
+            "Original Value": "4250 FARM TO MARKET ROAD 3405",
+            "Corrected Value": "4250 FM 3405",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1484,
+            "Column": "address",
+            "Original Value": "208 WEST AVENUE C",
+            "Corrected Value": "208 W AVENUE C",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1487,
+            "Column": "address",
+            "Original Value": "1248 FARM TO MARKET ROAD 970",
+            "Corrected Value": "1248 FM 970",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1505,
+            "Column": "address",
+            "Original Value": "1050 FARM TO MARKET ROAD 970",
+            "Corrected Value": "1050 FM 970",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1509,
+            "Column": "address",
+            "Original Value": "5041 FARM TO MARKET 243",
+            "Corrected Value": "5041 FM 243",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1523,
+            "Column": "address",
+            "Original Value": "1050 FARM TO MARKET ROAD 970",
+            "Corrected Value": "1050 FM 970",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1524,
+            "Column": "address",
+            "Original Value": "4035 EAST STATE HWY 29",
+            "Corrected Value": "4035 E STATE HWY 29",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1531,
+            "Column": "address",
+            "Original Value": "202 NORTH DALTON ST",
+            "Corrected Value": "202 N DALTON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "1060 COUNTY ROAD 257",
+            "Corrected Value": "1060 CR 257",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "2100 COUNTY RD 307",
+            "Corrected Value": "2100 CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "600 COUNTY RD 370",
+            "Corrected Value": "600 CR 370",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "881 COUNTY RD 304 E",
+            "Corrected Value": "881 CR 304 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "405 COUNTY RD 308",
+            "Corrected Value": "405 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "1250 COUNTY RD 311",
+            "Corrected Value": "1250 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "795 COUNTY RD 311",
+            "Corrected Value": "795 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "1520 COUNTY RD 311",
+            "Corrected Value": "1520 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "2561 COUNTY ROAD 219",
+            "Corrected Value": "2561 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "4575 COUNTY ROAD 223",
+            "Corrected Value": "4575 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "1600 COUNTY RD 311",
+            "Corrected Value": "1600 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "6907 COUNTY ROAD 211",
+            "Corrected Value": "6907 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "419 COUNTY ROAD 218",
+            "Corrected Value": "419 CR 218",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Original Value": "1450 COUNTY RD 314",
+            "Corrected Value": "1450 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "3700 COUNTY ROAD 258",
+            "Corrected Value": "3700 CR 258",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "430 COUNTY ROAD 221",
+            "Corrected Value": "430 CR 221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "750 COUNTY ROAD 217",
+            "Corrected Value": "750 CR 217",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Original Value": "2800 COUNTY ROAD 307",
+            "Corrected Value": "2800 CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 325,
+            "Column": "address",
+            "Original Value": "4000 COUNTY ROAD 258",
+            "Corrected Value": "4000 CR 258",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "1881 COUNTY ROAD 251",
+            "Corrected Value": "1881 CR 251",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Original Value": "101 COUNTY RD 304 W",
+            "Corrected Value": "101 CR 304 W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Original Value": "600 COUNTY ROAD 257",
+            "Corrected Value": "600 CR 257",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Original Value": "950 COUNTY ROAD 237",
+            "Corrected Value": "950 CR 237",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "350 COUNTY ROAD 306",
+            "Corrected Value": "350 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "5616 COUNTY ROAD 245",
+            "Corrected Value": "5616 CR 245",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "1901 COUNTY ROAD 221",
+            "Corrected Value": "1901 CR 221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "2001 COUNTY RD 279",
+            "Corrected Value": "2001 CR 279",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "550 COUNTY ROAD 375",
+            "Corrected Value": "550 CR 375",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Original Value": "3310 COUNTY ROAD 211",
+            "Corrected Value": "3310 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "1000 COUNTY RD 282",
+            "Corrected Value": "1000 CR 282",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Original Value": "4521 COUNTY ROAD 211",
+            "Corrected Value": "4521 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 380,
+            "Column": "address",
+            "Original Value": "2670 COUNTY ROAD 223",
+            "Corrected Value": "2670 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "1801 COUNTY ROAD 214",
+            "Corrected Value": "1801 CR 214",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Original Value": "600 COUNTY ROAD 344",
+            "Corrected Value": "600 CR 344",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 384,
+            "Column": "address",
+            "Original Value": "301 COUNTY RD 313",
+            "Corrected Value": "301 CR 313",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "1900 COUNTY ROAD 220",
+            "Corrected Value": "1900 CR 220",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 390,
+            "Column": "address",
+            "Original Value": "5890 COUNTY ROAD 245",
+            "Corrected Value": "5890 CR 245",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "770 COUNTY ROAD 284",
+            "Corrected Value": "770 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Original Value": "454 COUNTY ROAD 219",
+            "Corrected Value": "454 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "985 COUNTY ROAD 388",
+            "Corrected Value": "985 CR 388",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Original Value": "2820 S COUNTY RD 289",
+            "Corrected Value": "2820 S CR 289",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "655 COUNTY ROAD 224",
+            "Corrected Value": "655 CR 224",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 428,
+            "Column": "address",
+            "Original Value": "4377 COUNTY ROAD 201",
+            "Corrected Value": "4377 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Original Value": "2555 COUNTY ROAD 281",
+            "Corrected Value": "2555 CR 281",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "4055 COUNTY ROAD 201",
+            "Corrected Value": "4055 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Original Value": "6700 COUNTY ROAD 211",
+            "Corrected Value": "6700 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "308 COUNTY ROAD 229",
+            "Corrected Value": "308 CR 229",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Original Value": "580 COUNTY ROAD 220",
+            "Corrected Value": "580 CR 220",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "880 COUNTY ROAD 308",
+            "Corrected Value": "880 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "6320 COUNTY ROAD 211",
+            "Corrected Value": "6320 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Original Value": "7055 COUNTY ROAD 211",
+            "Corrected Value": "7055 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "815 COUNTY ROAD 284",
+            "Corrected Value": "815 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "3950 COUNTY ROAD 234",
+            "Corrected Value": "3950 CR 234",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "1903 COUNTY ROAD 223",
+            "Corrected Value": "1903 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "2980 COUNTY ROAD 303",
+            "Corrected Value": "2980 CR 303",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "996 COUNTY ROAD 204",
+            "Corrected Value": "996 CR 204",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "301 COUNTY RD 315",
+            "Corrected Value": "301 CR 315",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "1917 COUNTY ROAD 311",
+            "Corrected Value": "1917 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "930 COUNTY ROAD 279",
+            "Corrected Value": "930 CR 279",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "2608 COUNTY ROAD 322",
+            "Corrected Value": "2608 CR 322",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "328 COUNTY ROAD 229",
+            "Corrected Value": "328 CR 229",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 600,
+            "Column": "address",
+            "Original Value": "900 COUNTY ROAD 221",
+            "Corrected Value": "900 CR 221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 602,
+            "Column": "address",
+            "Original Value": "6940 COUNTY ROAD 211",
+            "Corrected Value": "6940 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "520 COUNTY ROAD 278",
+            "Corrected Value": "520 CR 278",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 623,
+            "Column": "address",
+            "Original Value": "3890 COUNTY ROAD 284",
+            "Corrected Value": "3890 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "360 COUNTY ROAD 283",
+            "Corrected Value": "360 CR 283",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "3898 COUNTY ROAD 284",
+            "Corrected Value": "3898 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "1765 COUNTY ROAD 223",
+            "Corrected Value": "1765 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Original Value": "420 COUNTY ROAD 218A",
+            "Corrected Value": "420 CR 218A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Original Value": "4810 COUNTY ROAD 207",
+            "Corrected Value": "4810 CR 207",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "2085 COUNTY ROAD 226",
+            "Corrected Value": "2085 CR 226",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "address",
+            "Original Value": "730 COUNTY ROAD 206",
+            "Corrected Value": "730 CR 206",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Original Value": "950 COUNTY ROAD 206",
+            "Corrected Value": "950 CR 206",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Original Value": "6750 COUNTY ROAD 200",
+            "Corrected Value": "6750 CR 200",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 694,
+            "Column": "address",
+            "Original Value": "400 COUNTY ROAD 217",
+            "Corrected Value": "400 CR 217",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "4501 COUNTY ROAD 207",
+            "Corrected Value": "4501 CR 207",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 702,
+            "Column": "address",
+            "Original Value": "775 COUNTY ROAD 201",
+            "Corrected Value": "775 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 706,
+            "Column": "address",
+            "Original Value": "1000 COUNTY RD 308",
+            "Corrected Value": "1000 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 714,
+            "Column": "address",
+            "Original Value": "408 COUNTY ROAD 396",
+            "Corrected Value": "408 CR 396",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 722,
+            "Column": "address",
+            "Original Value": "3655 COUNTY ROAD 284",
+            "Corrected Value": "3655 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 729,
+            "Column": "address",
+            "Original Value": "767 COUNTY ROAD 207",
+            "Corrected Value": "767 CR 207",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "6632 COUNTY ROAD 211",
+            "Corrected Value": "6632 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 750,
+            "Column": "address",
+            "Original Value": "920 COUNTY ROAD 375",
+            "Corrected Value": "920 CR 375",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 764,
+            "Column": "address",
+            "Original Value": "51 COUNTY ROAD 306",
+            "Corrected Value": "51 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 765,
+            "Column": "address",
+            "Original Value": "351 COUNTY ROAD 213",
+            "Corrected Value": "351 CR 213",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "1611 COUNTY RD 323A",
+            "Corrected Value": "1611 CR 323A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 772,
+            "Column": "address",
+            "Original Value": "1008 COUNTY RD 323A",
+            "Corrected Value": "1008 CR 323A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Original Value": "2800 COUNTY RD 307",
+            "Corrected Value": "2800 CR 307",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 794,
+            "Column": "address",
+            "Original Value": "3900 COUNTY ROAD 284",
+            "Corrected Value": "3900 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 798,
+            "Column": "address",
+            "Original Value": "6900 COUNTY ROAD 211",
+            "Corrected Value": "6900 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "address",
+            "Original Value": "1625 COUNTY RD 323A",
+            "Corrected Value": "1625 CR 323A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Original Value": "3730 COUNTY RD 207",
+            "Corrected Value": "3730 CR 207",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 811,
+            "Column": "address",
+            "Original Value": "3495 COUNTY ROAD 258",
+            "Corrected Value": "3495 CR 258",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "address",
+            "Original Value": "630 COUNTY ROAD 309",
+            "Corrected Value": "630 CR 309",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Original Value": "2701 COUNTY RD 274",
+            "Corrected Value": "2701 CR 274",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Original Value": "6024 COUNTY ROAD 211",
+            "Corrected Value": "6024 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 826,
+            "Column": "address",
+            "Original Value": "3400 COUNTY ROAD 285",
+            "Corrected Value": "3400 CR 285",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 827,
+            "Column": "address",
+            "Original Value": "1000 COUNTY RD 308",
+            "Corrected Value": "1000 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "address",
+            "Original Value": "1210 COUNTY RD 212",
+            "Corrected Value": "1210 CR 212",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 836,
+            "Column": "address",
+            "Original Value": "2185 COUNTY ROAD 212",
+            "Corrected Value": "2185 CR 212",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 841,
+            "Column": "address",
+            "Original Value": "3454 COUNTY ROAD 284",
+            "Corrected Value": "3454 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "address",
+            "Original Value": "701 COUNTY ROAD 212A",
+            "Corrected Value": "701 CR 212A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "2019 COUNTY RD 326",
+            "Corrected Value": "2019 CR 326",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "800 COUNTY RD 222",
+            "Corrected Value": "800 CR 222",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 855,
+            "Column": "address",
+            "Original Value": "5353 COUNTY ROAD 200",
+            "Corrected Value": "5353 CR 200",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Original Value": "415 COUNTY ROAD 283",
+            "Corrected Value": "415 CR 283",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 859,
+            "Column": "address",
+            "Original Value": "1906 B COUNTY RD 210",
+            "Corrected Value": "1906 B CR 210",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 865,
+            "Column": "address",
+            "Original Value": "3251 COUNTY ROAD 284",
+            "Corrected Value": "3251 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Original Value": "5656 COUNTY ROAD 200",
+            "Corrected Value": "5656 CR 200",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 881,
+            "Column": "address",
+            "Original Value": "800 COUNTY RD 375",
+            "Corrected Value": "800 CR 375",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 889,
+            "Column": "address",
+            "Original Value": "1501 COUNTY RD 223",
+            "Corrected Value": "1501 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 890,
+            "Column": "address",
+            "Original Value": "400 COUNTY ROAD 283",
+            "Corrected Value": "400 CR 283",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 900,
+            "Column": "address",
+            "Original Value": "4060 COUNTY ROAD 201",
+            "Corrected Value": "4060 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Original Value": "2590 COUNTY ROAD 289",
+            "Corrected Value": "2590 CR 289",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 913,
+            "Column": "address",
+            "Original Value": "1651 COUNTY RD 323A",
+            "Corrected Value": "1651 CR 323A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Original Value": "815 COUNTY ROAD 226",
+            "Corrected Value": "815 CR 226",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 921,
+            "Column": "address",
+            "Original Value": "930 COUNTY ROAD 284",
+            "Corrected Value": "930 CR 284",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Original Value": "800 COUNTY ROAD 274",
+            "Corrected Value": "800 CR 274",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 943,
+            "Column": "address",
+            "Original Value": "301 COUNTY RD 220",
+            "Corrected Value": "301 CR 220",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 944,
+            "Column": "address",
+            "Original Value": "1951 COUNTY ROAD 248",
+            "Corrected Value": "1951 CR 248",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Original Value": "630 COUNTY ROAD 282",
+            "Corrected Value": "630 CR 282",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 965,
+            "Column": "address",
+            "Original Value": "404 COUNTY ROAD 219",
+            "Corrected Value": "404 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 967,
+            "Column": "address",
+            "Original Value": "1775 COUNTY RD 279",
+            "Corrected Value": "1775 CR 279",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 968,
+            "Column": "address",
+            "Original Value": "2412 S COUNTY RD 289",
+            "Corrected Value": "2412 S CR 289",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "address",
+            "Original Value": "325 COUNTY RD 242",
+            "Corrected Value": "325 CR 242",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 987,
+            "Column": "address",
+            "Original Value": "192 COUNTY RD. 256",
+            "Corrected Value": "192 CR. 256",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 990,
+            "Column": "address",
+            "Original Value": "1529 COUNTY ROAD 304",
+            "Corrected Value": "1529 CR 304",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 998,
+            "Column": "address",
+            "Original Value": "2970 COUNTY RD 303",
+            "Corrected Value": "2970 CR 303",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Original Value": "1900 COUNTY ROAD 221",
+            "Corrected Value": "1900 CR 221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1009,
+            "Column": "address",
+            "Original Value": "635 COUNTY ROAD 288",
+            "Corrected Value": "635 CR 288",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1016,
+            "Column": "address",
+            "Original Value": "251 COUNTY ROAD 288",
+            "Corrected Value": "251 CR 288",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1019,
+            "Column": "address",
+            "Original Value": "3710 COUNTY ROAD 211",
+            "Corrected Value": "3710 CR 211",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Original Value": "600 COUNTY ROAD 258",
+            "Corrected Value": "600 CR 258",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Original Value": "1230 COUNTY RD 323A",
+            "Corrected Value": "1230 CR 323A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1051,
+            "Column": "address",
+            "Original Value": "487 COUNTY RD 310",
+            "Corrected Value": "487 CR 310",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1052,
+            "Column": "address",
+            "Original Value": "1440 COUNTY RD 332",
+            "Corrected Value": "1440 CR 332",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1053,
+            "Column": "address",
+            "Original Value": "401 COUNTY RD 370",
+            "Corrected Value": "401 CR 370",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1065,
+            "Column": "address",
+            "Original Value": "1830 COUNTY ROAD 304",
+            "Corrected Value": "1830 CR 304",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1067,
+            "Column": "address",
+            "Original Value": "5875 COUNTY ROAD 234",
+            "Corrected Value": "5875 CR 234",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1080,
+            "Column": "address",
+            "Original Value": "200 COUNTY RD 314",
+            "Corrected Value": "200 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Original Value": "680 COUNTY ROAD 225",
+            "Corrected Value": "680 CR 225",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1103,
+            "Column": "address",
+            "Original Value": "2052 COUNTY ROAD 201",
+            "Corrected Value": "2052 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1104,
+            "Column": "address",
+            "Original Value": "835 COUNTY RD 304 E",
+            "Corrected Value": "835 CR 304 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1109,
+            "Column": "address",
+            "Original Value": "2700 S COUNTY ROAD 289",
+            "Corrected Value": "2700 S CR 289",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1110,
+            "Column": "address",
+            "Original Value": "694 COUNTY ROAD 225",
+            "Corrected Value": "694 CR 225",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1137,
+            "Column": "address",
+            "Original Value": "2050 COUNTY RD 311",
+            "Corrected Value": "2050 CR 311",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1140,
+            "Column": "address",
+            "Original Value": "2760 COUNTY ROAD 223",
+            "Corrected Value": "2760 CR 223",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1148,
+            "Column": "address",
+            "Original Value": "550 COUNTY ROAD 202",
+            "Corrected Value": "550 CR 202",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1154,
+            "Column": "address",
+            "Original Value": "450 COUNTY ROAD 219",
+            "Corrected Value": "450 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1156,
+            "Column": "address",
+            "Original Value": "170 PRIVATE ROAD 907",
+            "Corrected Value": "170 PVT RD 907",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1169,
+            "Column": "address",
+            "Original Value": "6461 COUNTY ROAD 239",
+            "Corrected Value": "6461 CR 239",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1179,
+            "Column": "address",
+            "Original Value": "3930 COUNTY ROAD 234",
+            "Corrected Value": "3930 CR 234",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1183,
+            "Column": "address",
+            "Original Value": "2052 COUNTY ROAD 201",
+            "Corrected Value": "2052 CR 201",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1191,
+            "Column": "address",
+            "Original Value": "2675 COUNTY ROAD 241",
+            "Corrected Value": "2675 CR 241",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1195,
+            "Column": "address",
+            "Original Value": "2060 COUNTY ROAD 210",
+            "Corrected Value": "2060 CR 210",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1210,
+            "Column": "address",
+            "Original Value": "481 COUNTY RD 310",
+            "Corrected Value": "481 CR 310",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1243,
+            "Column": "address",
+            "Original Value": "1750 COUNTY RD 305",
+            "Corrected Value": "1750 CR 305",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1249,
+            "Column": "address",
+            "Original Value": "1458 COUNTY RD 314",
+            "Corrected Value": "1458 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1276,
+            "Column": "address",
+            "Original Value": "2165 COUNTY RD 313",
+            "Corrected Value": "2165 CR 313",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1285,
+            "Column": "address",
+            "Original Value": "2756 S COUNTY RD 289",
+            "Corrected Value": "2756 S CR 289",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1294,
+            "Column": "address",
+            "Original Value": "444 COUNTY ROAD 219",
+            "Corrected Value": "444 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1295,
+            "Column": "address",
+            "Original Value": "1466 COUNTY RD 332",
+            "Corrected Value": "1466 CR 332",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1314,
+            "Column": "address",
+            "Original Value": "161 COUNTY RD 375",
+            "Corrected Value": "161 CR 375",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1328,
+            "Column": "address",
+            "Original Value": "611 COUNTY RD 310",
+            "Corrected Value": "611 CR 310",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1337,
+            "Column": "address",
+            "Original Value": "1000 COUNTY ROAD 308",
+            "Corrected Value": "1000 CR 308",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1338,
+            "Column": "address",
+            "Original Value": "601 COUNTY RD 256",
+            "Corrected Value": "601 CR 256",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1364,
+            "Column": "address",
+            "Original Value": "1400 COUNTY ROAD 219",
+            "Corrected Value": "1400 CR 219",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1365,
+            "Column": "address",
+            "Original Value": "1181 COUNTY RD 388",
+            "Corrected Value": "1181 CR 388",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1373,
+            "Column": "address",
+            "Original Value": "200 COUNTY ROAD 306",
+            "Corrected Value": "200 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1374,
+            "Column": "address",
+            "Original Value": "1001 COUNTY ROAD 279",
+            "Corrected Value": "1001 CR 279",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1377,
+            "Column": "address",
+            "Original Value": "1580 COUNTY ROAD 226",
+            "Corrected Value": "1580 CR 226",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1381,
+            "Column": "address",
+            "Original Value": "3954 COUNTY ROAD 234",
+            "Corrected Value": "3954 CR 234",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1400,
+            "Column": "address",
+            "Original Value": "1052 COUNTY ROAD 226",
+            "Corrected Value": "1052 CR 226",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Original Value": "1121 COUNTY ROAD 264",
+            "Corrected Value": "1121 CR 264",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1424,
+            "Column": "address",
+            "Original Value": "2721 COUNTY ROAD 248",
+            "Corrected Value": "2721 CR 248",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1426,
+            "Column": "address",
+            "Original Value": "375 COUNTY ROAD 3001",
+            "Corrected Value": "375 CR 3001",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1439,
+            "Column": "address",
+            "Original Value": "800 COUNTY ROAD 224",
+            "Corrected Value": "800 CR 224",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1442,
+            "Column": "address",
+            "Original Value": "643 COUNTY ROAD 306",
+            "Corrected Value": "643 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1454,
+            "Column": "address",
+            "Original Value": "501 COUNTY ROAD 221",
+            "Corrected Value": "501 CR 221",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1456,
+            "Column": "address",
+            "Original Value": "576 COUNTY ROAD 306",
+            "Corrected Value": "576 CR 306",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1464,
+            "Column": "address",
+            "Original Value": "1655 COUNTY ROAD 255",
+            "Corrected Value": "1655 CR 255",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1468,
+            "Column": "address",
+            "Original Value": "1155 COUNTY ROAD 222",
+            "Corrected Value": "1155 CR 222",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1472,
+            "Column": "address",
+            "Original Value": "1069 COUNTY ROAD 264",
+            "Corrected Value": "1069 CR 264",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1478,
+            "Column": "address",
+            "Original Value": "500 COUNTY ROAD 222",
+            "Corrected Value": "500 CR 222",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1486,
+            "Column": "address",
+            "Original Value": "319 COUNTY ROAD 218A",
+            "Corrected Value": "319 CR 218A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1488,
+            "Column": "address",
+            "Original Value": "490 COUNTY ROAD 222",
+            "Corrected Value": "490 CR 222",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Original Value": "3900 COUNTY ROAD 258",
+            "Corrected Value": "3900 CR 258",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1492,
+            "Column": "address",
+            "Original Value": "631 COUNTY ROAD 270",
+            "Corrected Value": "631 CR 270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1500,
+            "Column": "address",
+            "Original Value": "2701 COUNTY ROAD 224",
+            "Corrected Value": "2701 CR 224",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1501,
+            "Column": "address",
+            "Original Value": "2701 COUNTY ROAD 224",
+            "Corrected Value": "2701 CR 224",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1511,
+            "Column": "address",
+            "Original Value": "1454 COUNTY ROAD 314",
+            "Corrected Value": "1454 CR 314",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1521,
+            "Column": "address",
+            "Original Value": "4500 COUNTY ROAD 207",
+            "Corrected Value": "4500 CR 207",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1526,
+            "Column": "address",
+            "Original Value": "155 COUNTY RD 313",
+            "Corrected Value": "155 CR 313",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 77,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "W JACKSON STREET"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "144A COMPTON ST"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "251 TOWER RD"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "231 TOWER RD"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "211 TOWER RD"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "241 TOWER RD"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "271 TOWER ROAD"
+        },
+        {
+            "Row": 579,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "200 FLOWER SMITH LN"
+        },
+        {
+            "Row": 1076,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ASHLEIGH MARTINEZ"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 9014)",
+            "Value": "9443"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 65,
+            "customer": "9443",
+            "lat": 30.70191,
+            "lon": -97.86639,
+            "address": "1060 CO RD 257",
+            "city": "LIBERTY HILL",
+            "state": "TX",
+            "zip": "78642",
+            "download": 75.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 9014)"
+        }
+    ],
+    "Smarty Corrections": []
+}

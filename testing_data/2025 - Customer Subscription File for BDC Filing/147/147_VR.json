@@ -1,0 +1,184 @@
+{
+    "Summary": {
+        "Total Rows Processed": 173,
+        "Rows with Corrections": 8,
+        "Rows with Errors": 8,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 8,
+        "Total Errors": 8,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.14,
+        "Validation Date": "2025-08-07 11:02:59",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 172,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 172,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "5935 SOUTH CANTRALL CREEK ROAD",
+            "Corrected Value": "5935 S CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "6839 NORTH CANTRALL CREEK ROAD",
+            "Corrected Value": "6839 N CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "6736 NORTH CANTRALL CREEK ROAD",
+            "Corrected Value": "6736 N CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "5913 SOUTH CANTRALL CREEK ROAD",
+            "Corrected Value": "5913 S CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "7967 NORTH CANTRALL CREEK ROAD",
+            "Corrected Value": "7967 N CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "5875 SOUTH CANTRALL CREEK ROAD",
+            "Corrected Value": "5875 S CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "5955 SOUTH CANTRALL CREEK ROAD",
+            "Corrected Value": "5955 S CANTRALL CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Smith",
+            "Corrected Value": "Smith_007",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 17,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Bradley_001",
+            "Value": "Bradley"
+        },
+        {
+            "Row": 45,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Ethell_002",
+            "Value": "Ethell"
+        },
+        {
+            "Row": 67,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Howard_003",
+            "Value": "Howard"
+        },
+        {
+            "Row": 97,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Miller_004",
+            "Value": "Miller"
+        },
+        {
+            "Row": 100,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Mundhenke_005",
+            "Value": "Mundhenke"
+        },
+        {
+            "Row": 113,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Peacock_006",
+            "Value": "Peacock"
+        },
+        {
+            "Row": 139,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Smith_007",
+            "Value": "Smith"
+        },
+        {
+            "Row": 147,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Central Pointe)",
+            "Value": "Tillett"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 147,
+            "customer": "Tillett",
+            "lat": "",
+            "lon": "",
+            "address": "427 E. MONROE STREET",
+            "city": "SPRINGFIELD",
+            "state": "IL",
+            "zip": "62701",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Central Pointe)"
+        }
+    ],
+    "Smarty Corrections": []
+}

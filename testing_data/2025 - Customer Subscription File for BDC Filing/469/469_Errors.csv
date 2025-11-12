@@ -1,0 +1,49 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+10,address,Lacks standard street ending,936 VT RT 114
+21,address,Lacks standard street ending,1428 VT RT 114
+27,address,Address lacks leading number (optionally prefixed by direction) followed by street name,FAIRGROUNDS ROAD
+35,address,Lacks standard street ending,1892 VERMONT 114
+51,address,PO Boxes not allowed,PO BOX 63
+57,address,PO Boxes not allowed,PO BOX 395
+59,address,PO Boxes not allowed,PO BOX 64
+64,address,PO Boxes not allowed,PO BOX 125
+72,address,Lacks standard street ending,2329 VT RT 114
+83,address,PO Boxes not allowed,PO BOX 1573
+84,address,Lacks standard street ending,2653 VERMONT 114
+86,address,Lacks standard street ending,917 SIMPSON HILL
+91,address,PO Boxes not allowed,PO BOX 176
+111,address,Lacks standard street ending,4331 VERMONT 114
+112,address,PO Boxes not allowed,PO BOX 263
+115,address,PO Boxes not allowed,PO BOX 206
+119,address,PO Boxes not allowed,PO BOX 153
+126,address,PO Boxes not allowed,PO BOX 177
+128,address,PO Boxes not allowed,PO BOX 110
+140,address,PO Boxes not allowed,PO BOX 255
+146,address,Lacks standard street ending,531 VERMONT 14
+149,address,PO Boxes not allowed,PO BOX 498
+155,address,PO Boxes not allowed,PO BOX 232
+165,address,Lacks standard street ending,1579 VT ROUTE 114
+178,address,Lacks standard street ending,227 US RT 5
+179,address,Lacks standard street ending,227 US RT 5
+194,address,PO Boxes not allowed,PO BOX 295
+206,address,Lacks standard street ending,330 VERMONT 114
+207,address,Lacks standard street ending,2029 VERMONT 114
+210,address,Lacks standard street ending,69 GUYS VIEW
+223,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ST JOHNSBURY
+122,lat,Latitude for VT must be between 42.726853 and 45.016659,42.4142608
+122,lon,Paired coordinate reset due to invalid lat,-71.2292633
+122,lon,Longitude for VT must be negative,-71.2292633
+15,customer,"Duplicate customer ID, renamed to 2343898_001",2343898
+16,customer,"Duplicate customer ID, renamed to 2343898_002",2343898
+46,customer,"Duplicate customer ID, renamed to 2343993_003",2343993
+79,customer,"Duplicate customer ID, renamed to 2344104_004",2344104
+172,customer,"Duplicate customer ID, identical row deleted",2344389
+173,customer,"Duplicate customer ID, identical row deleted",2344389
+179,customer,"Duplicate customer ID, identical row deleted",2344404
+190,customer,"Duplicate customer ID, renamed to 2344425_005",2344425
+191,customer,"Duplicate customer ID, renamed to 2344425_006",2344425
+208,customer,"Data-based duplicate, removed (identical to customer 2344400)",2363930
+172,customer,"Data-based duplicate, removed (identical to customer 2344389)",2344389
+173,customer,"Data-based duplicate, removed (identical to customer 2344389)",2344389
+179,customer,"Data-based duplicate, removed (identical to customer 2344404)",2344404

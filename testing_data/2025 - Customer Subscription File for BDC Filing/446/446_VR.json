@@ -1,0 +1,3978 @@
+{
+    "Summary": {
+        "Total Rows Processed": 719,
+        "Rows with Corrections": 139,
+        "Rows with Errors": 114,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 249,
+        "Total Errors": 5,
+        "Street Ending Errors": 111,
+        "Validation Time (seconds)": 1.17,
+        "Validation Date": "2025-08-11 09:37:16",
+        "Addresses Sent to Smarty": 110,
+        "Successful Corrections": 110,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.62,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 717,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 717,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "99 SOUTH RD",
+            "Corrected Value": "99 S RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "312 EAST RD",
+            "Corrected Value": "312 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "299 COACH RD BLDG 2",
+            "Corrected Value": "299 COACH RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "726 W RIVER RD BLDG 2",
+            "Corrected Value": "726 W RIVER RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "8422 STATE ROUTE 40 BLDG 2",
+            "Corrected Value": "8422 STATE ROUTE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "32 IVES HILL RD BLDG 2",
+            "Corrected Value": "32 IVES HILL RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "123 SOUTH RD",
+            "Corrected Value": "123 S RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "313 EAST RD",
+            "Corrected Value": "313 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "159 TABOR RD BLDG 2",
+            "Corrected Value": "159 TABOR RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "39 WEST RD",
+            "Corrected Value": "39 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "173 NORTH RD",
+            "Corrected Value": "173 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "892 FM",
+            "Corrected Value": "892 FA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "13 GUILDER HOLLOW RD BLDG 2",
+            "Corrected Value": "13 GUILDER HOLLOW RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "351 E RD BLDG 2",
+            "Corrected Value": "351 E RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Original Value": "525 BEADLE HILL RD BLDG 2",
+            "Corrected Value": "525 BEADLE HILL RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "8262 NORTH RD",
+            "Corrected Value": "8262 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Original Value": "37 FARM TO MARKET RD",
+            "Corrected Value": "37 FM",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 419,
+            "Column": "address",
+            "Original Value": "113 MOUNTAIN RD BLDG 2",
+            "Corrected Value": "113 MOUNTAIN RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "5 LAMOS LN BLDG 2",
+            "Corrected Value": "5 LAMOS LN",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "40 ABI ACRES WAY BLDG 2",
+            "Corrected Value": "40 ABI ACRES WAY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 523,
+            "Column": "address",
+            "Original Value": "187 NORTH RD",
+            "Corrected Value": "187 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Original Value": "190 NORTH RD",
+            "Corrected Value": "190 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Original Value": "135 NORTH RD",
+            "Corrected Value": "135 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Original Value": "195 WEST RD",
+            "Corrected Value": "195 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 679,
+            "Column": "address",
+            "Original Value": "222 WEST ROAD",
+            "Corrected Value": "222 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Original Value": "206 NORTH ROAD",
+            "Corrected Value": "206 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "674 WEST RIVER ROAD",
+            "Corrected Value": "674 W RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Crystal Grimaldi",
+            "Corrected Value": "Crystal Grimaldi_001",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "address",
+            "Original Value": "846 COUNTY ROAD 59",
+            "Corrected Value": "846 CR 59",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "zip",
+            "Original Value": "13626",
+            "Corrected Value": "13626",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "1833 COUNTY ROUTE 194",
+            "Corrected Value": "1833 COUNTY ROUTE 194",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "231 COUNTY ROUTE 17",
+            "Corrected Value": "231 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "2215 COUNTY ROUTE 47",
+            "Corrected Value": "2215 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "3172 COUNTY ROUTE 30",
+            "Corrected Value": "3172 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "773 ROUTE 4 S",
+            "Corrected Value": "773 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "934 COUNTY ROUTE 74",
+            "Corrected Value": "934 COUNTY ROUTE 74",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "197 COUNTY ROUTE 42",
+            "Corrected Value": "197 COUNTY ROUTE 42",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "4262 COUNTY ROUTE 30",
+            "Corrected Value": "4262 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "827 ROUTE 4 S",
+            "Corrected Value": "827 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "747 COUNTY ROUTE 17",
+            "Corrected Value": "747 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "281 COUNTY ROUTE 44",
+            "Corrected Value": "281 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "3180 COUNTY ROUTE 30",
+            "Corrected Value": "3180 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "3139 COUNTY ROUTE 30",
+            "Corrected Value": "3139 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "3492 COUNTY ROUTE 43",
+            "Corrected Value": "3492 COUNTY ROUTE 43",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "1046 COUNTY ROUTE 45",
+            "Corrected Value": "1046 COUNTY ROUTE 45",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "299 COUNTY ROUTE 17",
+            "Corrected Value": "299 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "60 COUNTY ROUTE 17",
+            "Corrected Value": "60 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "1601 COUNTY ROUTE 23",
+            "Corrected Value": "1601 COUNTY ROUTE 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "1498 COUNTY ROUTE 23",
+            "Corrected Value": "1498 COUNTY ROUTE 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "2218 COUNTY ROUTE 47",
+            "Corrected Value": "2218 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "2520 COUNTY ROUTE 46",
+            "Corrected Value": "2520 COUNTY ROUTE 46",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "38 COUNTY ROUTE 42",
+            "Corrected Value": "38 COUNTY ROUTE 42",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "1601 COUNTY ROUTE 23",
+            "Corrected Value": "1601 COUNTY ROUTE 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Original Value": "223 COUNTY ROUTE 44 BLDG 2",
+            "Corrected Value": "223 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "zip",
+            "Original Value": "12094",
+            "Corrected Value": "12094",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "570 COUNTY ROUTE 74",
+            "Corrected Value": "570 COUNTY ROUTE 74",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "382 COUNTY ROUTE 44",
+            "Corrected Value": "382 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 195,
+            "Column": "zip",
+            "Original Value": "12170",
+            "Corrected Value": "12170",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 195,
+            "Column": "address",
+            "Original Value": "411 COUNTY ROUTE 71",
+            "Corrected Value": "411 COUNTY ROUTE 71",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Original Value": "1043 COUNTY ROUTE 45",
+            "Corrected Value": "1043 COUNTY ROUTE 45",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Original Value": "3167 COUNTY ROUTE 30",
+            "Corrected Value": "3167 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "914 COUNTY ROUTE 74",
+            "Corrected Value": "914 COUNTY ROUTE 74",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "zip",
+            "Original Value": "12170",
+            "Corrected Value": "12170",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "948 ROUTE 32",
+            "Corrected Value": "948 ROUTE 32",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "459 COUNTY ROUTE 16",
+            "Corrected Value": "459 COUNTY ROUTE 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "950 COUNTY ROUTE 30",
+            "Corrected Value": "950 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "3131 COUNTY ROUTE 30",
+            "Corrected Value": "3131 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "2056 COUNTY ROUTE 46",
+            "Corrected Value": "2056 COUNTY ROUTE 46",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "402 COUNTY ROUTE 74A",
+            "Corrected Value": "402 COUNTY ROUTE 74A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Original Value": "435 COUNTY ROUTE 47",
+            "Corrected Value": "435 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "zip",
+            "Original Value": "12180",
+            "Corrected Value": "12180",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "zip",
+            "Original Value": "12839",
+            "Corrected Value": "12839",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "532 COUNTY ROUTE 41",
+            "Corrected Value": "532 COUNTY ROUTE 41",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "3463 3466 COUNTY ROUTE 43",
+            "Corrected Value": "3463 COUNTY ROUTE 43",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "123 COUNTY ROUTE 19",
+            "Corrected Value": "123 COUNTY ROUTE 19",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 325,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 325,
+            "Column": "address",
+            "Original Value": "329 COUNTY ROUTE 44",
+            "Corrected Value": "329 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "3168 COUNTY ROUTE 30",
+            "Corrected Value": "3168 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "3132 COUNTY ROUTE 30",
+            "Corrected Value": "3132 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Original Value": "80 COUNTY ROUTE 44",
+            "Corrected Value": "80 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "3183 COUNTY ROUTE 30",
+            "Corrected Value": "3183 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Original Value": "217 COUNTY ROUTE 44",
+            "Corrected Value": "217 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "437 COUNTY ROUTE 42",
+            "Corrected Value": "437 COUNTY ROUTE 42",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 350,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 350,
+            "Column": "address",
+            "Original Value": "3202 COUNTY ROUTE 30",
+            "Corrected Value": "3202 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Original Value": "508 COUNTY ROUTE 17",
+            "Corrected Value": "508 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "1731 COUNTY ROUTE 31",
+            "Corrected Value": "1731 COUNTY ROUTE 31",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 361,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 361,
+            "Column": "address",
+            "Original Value": "847 ROUTE 4 S",
+            "Corrected Value": "847 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "2236 COUNTY ROUTE 47",
+            "Corrected Value": "2236 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "1586 COUNTY ROUTE 31",
+            "Corrected Value": "1586 COUNTY ROUTE 31",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 382,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 382,
+            "Column": "address",
+            "Original Value": "1575 COUNTY ROUTE 23",
+            "Corrected Value": "1575 COUNTY ROUTE 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "902 ROUTE 4 S",
+            "Corrected Value": "902 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "1235 COUNTY ROUTE 47",
+            "Corrected Value": "1235 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 391,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 391,
+            "Column": "address",
+            "Original Value": "1378 COUNTY ROUTE 49",
+            "Corrected Value": "1378 COUNTY ROUTE 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "1336 COUNTY ROUTE 49",
+            "Corrected Value": "1336 COUNTY ROUTE 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "301 COUNTY ROUTE 19",
+            "Corrected Value": "301 COUNTY ROUTE 19",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "491 COUNTY ROUTE 74A",
+            "Corrected Value": "491 COUNTY ROUTE 74A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "329 COUNTY ROUTE 74A",
+            "Corrected Value": "329 COUNTY ROUTE 74A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "5630 COUNTY ROUTE 30",
+            "Corrected Value": "5630 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "236 COUNTY ROUTE 44",
+            "Corrected Value": "236 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "246 COUNTY ROUTE 77",
+            "Corrected Value": "246 COUNTY ROUTE 77",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "2386 COUNTY ROUTE 46",
+            "Corrected Value": "2386 COUNTY ROUTE 46",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "1615 COUNTY ROUTE 23",
+            "Corrected Value": "1615 COUNTY ROUTE 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Original Value": "44 COUNTY ROUTE 77",
+            "Corrected Value": "44 COUNTY ROUTE 77",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "99 COUNTY ROUTE 19",
+            "Corrected Value": "99 COUNTY ROUTE 19",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "90 COUNTY ROUTE 44",
+            "Corrected Value": "90 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "3125 COUNTY ROUTE 30",
+            "Corrected Value": "3125 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "428 COUNTY ROUTE 42",
+            "Corrected Value": "428 COUNTY ROUTE 42",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "3171 COUNTY ROUTE 30",
+            "Corrected Value": "3171 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "274 COUNTY ROUTE 44",
+            "Corrected Value": "274 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Original Value": "3344 COUNTY ROUTE 43",
+            "Corrected Value": "3344 COUNTY ROUTE 43",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "zip",
+            "Original Value": "13626",
+            "Corrected Value": "13626",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "2034 COUNTY ROUTE 194",
+            "Corrected Value": "2034 COUNTY ROUTE 194",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "735 COUNTY ROUTE 46",
+            "Corrected Value": "735 COUNTY ROUTE 46",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "zip",
+            "Original Value": "13626",
+            "Corrected Value": "13626",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Original Value": "1860 COUNTY ROUTE 194",
+            "Corrected Value": "1860 COUNTY ROUTE 194",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "335 COUNTY ROUTE 44",
+            "Corrected Value": "335 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Original Value": "3499 COUNTY ROUTE 43",
+            "Corrected Value": "3499 COUNTY ROUTE 43",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "1668 COUNTY ROUTE 31",
+            "Corrected Value": "1668 COUNTY ROUTE 31",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "483 COUNTY ROUTE 16",
+            "Corrected Value": "483 COUNTY ROUTE 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "zip",
+            "Original Value": "12170",
+            "Corrected Value": "12170",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "1095 COUNTY ROUTE 70",
+            "Corrected Value": "1095 COUNTY ROUTE 70",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "2216 COUNTY ROUTE 47",
+            "Corrected Value": "2216 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "zip",
+            "Original Value": "12028",
+            "Corrected Value": "12028",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Original Value": "560 COUNTY ROUTE 59",
+            "Corrected Value": "560 COUNTY ROUTE 59",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "835 ROUTE 4 S",
+            "Corrected Value": "835 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "823 ROUTE 4 S",
+            "Corrected Value": "823 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Original Value": "4294 COUNTY ROUTE 30",
+            "Corrected Value": "4294 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "156 COUNTY ROUTE 44",
+            "Corrected Value": "156 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "3137 COUNTY ROUTE 30",
+            "Corrected Value": "3137 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "zip",
+            "Original Value": "12170",
+            "Corrected Value": "12170",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "1670 ROUTE 4",
+            "Corrected Value": "1670 ROUTE 4",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "zip",
+            "Original Value": "12832",
+            "Corrected Value": "12832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Original Value": "4372 COUNTY ROUTE 30",
+            "Corrected Value": "4372 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "zip",
+            "Original Value": "12839",
+            "Corrected Value": "12839",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "721 COUNTY ROUTE 41",
+            "Corrected Value": "721 COUNTY ROUTE 41",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 571,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 571,
+            "Column": "address",
+            "Original Value": "1110 COUNTY ROUTE 17",
+            "Corrected Value": "1110 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "470 ROUTE 68",
+            "Corrected Value": "470 ROUTE 68",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "1239 COUNTY ROUTE 47",
+            "Corrected Value": "1239 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "zip",
+            "Original Value": "12828",
+            "Corrected Value": "12828",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "270 COUNTY ROUTE 42",
+            "Corrected Value": "270 COUNTY ROUTE 42",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "272 COUNTY ROUTE 44",
+            "Corrected Value": "272 COUNTY ROUTE 44",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "4305 COUNTY ROUTE 30",
+            "Corrected Value": "4305 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROUTE 19",
+            "Corrected Value": "318 COUNTY ROUTE 19",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "160 COUNTY ROUTE 77",
+            "Corrected Value": "160 COUNTY ROUTE 77",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "zip",
+            "Original Value": "12871",
+            "Corrected Value": "12871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Original Value": "873 ROUTE 4 S",
+            "Corrected Value": "873 ROUTE 4 S",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "zip",
+            "Original Value": "12834",
+            "Corrected Value": "12834",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Original Value": "231 COUNTY ROUTE 77",
+            "Corrected Value": "231 COUNTY ROUTE 77",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "zip",
+            "Original Value": "12809",
+            "Corrected Value": "12809",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "228 COUNTY ROUTE 47",
+            "Corrected Value": "228 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 675,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Original Value": "2219 COUNTY ROUTE 47",
+            "Corrected Value": "2219 COUNTY ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 682,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 682,
+            "Column": "address",
+            "Original Value": "4234 COUNTY ROUTE 30",
+            "Corrected Value": "4234 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Original Value": "1055 COUNTY ROUTE 30",
+            "Corrected Value": "1055 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "1056 COUNTY ROUTE 30",
+            "Corrected Value": "1056 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 701,
+            "Column": "zip",
+            "Original Value": "12827",
+            "Corrected Value": "12827",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 701,
+            "Column": "address",
+            "Original Value": "322 COUNTY ROUTE 17",
+            "Corrected Value": "322 COUNTY ROUTE 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 707,
+            "Column": "zip",
+            "Original Value": "12865",
+            "Corrected Value": "12865",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Original Value": "1072 COUNTY ROUTE 30",
+            "Corrected Value": "1072 COUNTY ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "zip",
+            "Original Value": "5770",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 691,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "5770"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "37 FM"
+        },
+        {
+            "Row": 122,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Crystal Grimaldi_001",
+            "Value": "Crystal Grimaldi"
+        },
+        {
+            "Row": 563,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Lauren Taylor)",
+            "Value": "Sara Ginsburg"
+        },
+        {
+            "Row": 691,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "5770"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 14,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1833 COUNTY ROUTE 194"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "231 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2215 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3172 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "773 ROUTE 4 S"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "934 COUNTY ROUTE 74"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "197 COUNTY ROUTE 42"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4262 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "827 ROUTE 4 S"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "747 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "281 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3180 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3139 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3492 COUNTY ROUTE 43"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1046 COUNTY ROUTE 45"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "299 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "60 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1601 COUNTY ROUTE 23"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1498 COUNTY ROUTE 23"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2218 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2520 COUNTY ROUTE 46"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38 COUNTY ROUTE 42"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1601 COUNTY ROUTE 23"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "223 COUNTY ROUTE 44 BLDG 2"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "570 COUNTY ROUTE 74"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "382 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 195,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "411 COUNTY ROUTE 71"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1043 COUNTY ROUTE 45"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3167 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "914 COUNTY ROUTE 74"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "948 ROUTE 32"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "459 COUNTY ROUTE 16"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "950 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3131 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2056 COUNTY ROUTE 46"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402 COUNTY ROUTE 74A"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "435 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "892 FM"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "532 COUNTY ROUTE 41"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3463 3466 COUNTY ROUTE 43"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "123 COUNTY ROUTE 19"
+        },
+        {
+            "Row": 325,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "329 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3168 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3132 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "80 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3183 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 340,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "217 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "437 COUNTY ROUTE 42"
+        },
+        {
+            "Row": 350,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3202 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "508 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1731 COUNTY ROUTE 31"
+        },
+        {
+            "Row": 361,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "847 ROUTE 4 S"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2236 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1586 COUNTY ROUTE 31"
+        },
+        {
+            "Row": 382,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1575 COUNTY ROUTE 23"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "902 ROUTE 4 S"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1235 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 391,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1378 COUNTY ROUTE 49"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37 FM"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1336 COUNTY ROUTE 49"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "301 COUNTY ROUTE 19"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "491 COUNTY ROUTE 74A"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "329 COUNTY ROUTE 74A"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5630 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "236 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "246 COUNTY ROUTE 77"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2386 COUNTY ROUTE 46"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1615 COUNTY ROUTE 23"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44 COUNTY ROUTE 77"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "99 COUNTY ROUTE 19"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "90 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3125 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "428 COUNTY ROUTE 42"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3171 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "274 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3344 COUNTY ROUTE 43"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2034 COUNTY ROUTE 194"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "735 COUNTY ROUTE 46"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1860 COUNTY ROUTE 194"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "335 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3499 COUNTY ROUTE 43"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1668 COUNTY ROUTE 31"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "483 COUNTY ROUTE 16"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1095 COUNTY ROUTE 70"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2216 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "560 COUNTY ROUTE 59"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "835 ROUTE 4 S"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "823 ROUTE 4 S"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4294 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "156 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3137 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1670 ROUTE 4"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4372 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "721 COUNTY ROUTE 41"
+        },
+        {
+            "Row": 571,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1110 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "470 ROUTE 68"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1239 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "270 COUNTY ROUTE 42"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "272 COUNTY ROUTE 44"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4305 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "318 COUNTY ROUTE 19"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "160 COUNTY ROUTE 77"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "873 ROUTE 4 S"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "231 COUNTY ROUTE 77"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "228 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2219 COUNTY ROUTE 47"
+        },
+        {
+            "Row": 682,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4234 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 692,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1055 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1056 COUNTY ROUTE 30"
+        },
+        {
+            "Row": 701,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "322 COUNTY ROUTE 17"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1072 COUNTY ROUTE 30"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 400,
+            "address": "37 FM",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 563,
+            "customer": "Sara Ginsburg",
+            "lat": 43.42382,
+            "lon": -73.33898,
+            "address": "238 DUBLIN RD",
+            "city": "GRANVILLE",
+            "state": "NY",
+            "zip": "12832",
+            "download": 25.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer Lauren Taylor)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 14,
+            "Original Address": "1833 COUNTY ROUTE 194",
+            "Corrected Address": "1833 COUNTY ROUTE 194",
+            "Original ZIP": "13626",
+            "Corrected ZIP": "13626",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.607176"
+        },
+        {
+            "OrigRowNum": 25,
+            "Original Address": "231 COUNTY ROUTE 17",
+            "Corrected Address": "231 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.608493"
+        },
+        {
+            "OrigRowNum": 36,
+            "Original Address": "2215 COUNTY ROUTE 47",
+            "Corrected Address": "2215 COUNTY ROUTE 47",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.608834"
+        },
+        {
+            "OrigRowNum": 38,
+            "Original Address": "3172 COUNTY ROUTE 30",
+            "Corrected Address": "3172 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.609163"
+        },
+        {
+            "OrigRowNum": 47,
+            "Original Address": "773 ROUTE 4 S",
+            "Corrected Address": "773 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.609465"
+        },
+        {
+            "OrigRowNum": 48,
+            "Original Address": "934 COUNTY ROUTE 74",
+            "Corrected Address": "934 COUNTY ROUTE 74",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.609762"
+        },
+        {
+            "OrigRowNum": 53,
+            "Original Address": "197 COUNTY ROUTE 42",
+            "Corrected Address": "197 COUNTY ROUTE 42",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.610056"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "4262 COUNTY ROUTE 30",
+            "Corrected Address": "4262 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.610354"
+        },
+        {
+            "OrigRowNum": 62,
+            "Original Address": "827 ROUTE 4 S",
+            "Corrected Address": "827 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.610630"
+        },
+        {
+            "OrigRowNum": 70,
+            "Original Address": "747 COUNTY ROUTE 17",
+            "Corrected Address": "747 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.610901"
+        },
+        {
+            "OrigRowNum": 74,
+            "Original Address": "281 COUNTY ROUTE 44",
+            "Corrected Address": "281 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.611171"
+        },
+        {
+            "OrigRowNum": 78,
+            "Original Address": "3180 COUNTY ROUTE 30",
+            "Corrected Address": "3180 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.611443"
+        },
+        {
+            "OrigRowNum": 81,
+            "Original Address": "3139 COUNTY ROUTE 30",
+            "Corrected Address": "3139 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.611715"
+        },
+        {
+            "OrigRowNum": 97,
+            "Original Address": "3492 COUNTY ROUTE 43",
+            "Corrected Address": "3492 COUNTY ROUTE 43",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.611985"
+        },
+        {
+            "OrigRowNum": 103,
+            "Original Address": "1046 COUNTY ROUTE 45",
+            "Corrected Address": "1046 COUNTY ROUTE 45",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.612254"
+        },
+        {
+            "OrigRowNum": 114,
+            "Original Address": "299 COUNTY ROUTE 17",
+            "Corrected Address": "299 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.612873"
+        },
+        {
+            "OrigRowNum": 120,
+            "Original Address": "60 COUNTY ROUTE 17",
+            "Corrected Address": "60 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.613291"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "1601 COUNTY ROUTE 23",
+            "Corrected Address": "1601 COUNTY ROUTE 23",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.613628"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "1498 COUNTY ROUTE 23",
+            "Corrected Address": "1498 COUNTY ROUTE 23",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.613952"
+        },
+        {
+            "OrigRowNum": 136,
+            "Original Address": "2218 COUNTY ROUTE 47",
+            "Corrected Address": "2218 COUNTY ROUTE 47",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.614283"
+        },
+        {
+            "OrigRowNum": 143,
+            "Original Address": "2520 COUNTY ROUTE 46",
+            "Corrected Address": "2520 COUNTY ROUTE 46",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.614602"
+        },
+        {
+            "OrigRowNum": 147,
+            "Original Address": "38 COUNTY ROUTE 42",
+            "Corrected Address": "38 COUNTY ROUTE 42",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.614927"
+        },
+        {
+            "OrigRowNum": 164,
+            "Original Address": "1601 COUNTY ROUTE 23",
+            "Corrected Address": "1601 COUNTY ROUTE 23",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.615239"
+        },
+        {
+            "OrigRowNum": 168,
+            "Original Address": "223 COUNTY ROUTE 44 BLDG 2",
+            "Corrected Address": "223 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.615559"
+        },
+        {
+            "OrigRowNum": 169,
+            "Original Address": "570 COUNTY ROUTE 74",
+            "Corrected Address": "570 COUNTY ROUTE 74",
+            "Original ZIP": "12094",
+            "Corrected ZIP": "12094",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.615866"
+        },
+        {
+            "OrigRowNum": 192,
+            "Original Address": "382 COUNTY ROUTE 44",
+            "Corrected Address": "382 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.616178"
+        },
+        {
+            "OrigRowNum": 195,
+            "Original Address": "411 COUNTY ROUTE 71",
+            "Corrected Address": "411 COUNTY ROUTE 71",
+            "Original ZIP": "12170",
+            "Corrected ZIP": "12170",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.616508"
+        },
+        {
+            "OrigRowNum": 196,
+            "Original Address": "1043 COUNTY ROUTE 45",
+            "Corrected Address": "1043 COUNTY ROUTE 45",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.616823"
+        },
+        {
+            "OrigRowNum": 202,
+            "Original Address": "3167 COUNTY ROUTE 30",
+            "Corrected Address": "3167 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.617142"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "914 COUNTY ROUTE 74",
+            "Corrected Address": "914 COUNTY ROUTE 74",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.617448"
+        },
+        {
+            "OrigRowNum": 219,
+            "Original Address": "948 ROUTE 32",
+            "Corrected Address": "948 ROUTE 32",
+            "Original ZIP": "12170",
+            "Corrected ZIP": "12170",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.617765"
+        },
+        {
+            "OrigRowNum": 220,
+            "Original Address": "459 COUNTY ROUTE 16",
+            "Corrected Address": "459 COUNTY ROUTE 16",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.618066"
+        },
+        {
+            "OrigRowNum": 221,
+            "Original Address": "950 COUNTY ROUTE 30",
+            "Corrected Address": "950 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.618364"
+        },
+        {
+            "OrigRowNum": 229,
+            "Original Address": "3131 COUNTY ROUTE 30",
+            "Corrected Address": "3131 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.618635"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "2056 COUNTY ROUTE 46",
+            "Corrected Address": "2056 COUNTY ROUTE 46",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.618894"
+        },
+        {
+            "OrigRowNum": 254,
+            "Original Address": "402 COUNTY ROUTE 74A",
+            "Corrected Address": "402 COUNTY ROUTE 74A",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.619148"
+        },
+        {
+            "OrigRowNum": 269,
+            "Original Address": "435 COUNTY ROUTE 47",
+            "Corrected Address": "435 COUNTY ROUTE 47",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.619412"
+        },
+        {
+            "OrigRowNum": 270,
+            "Original Address": "892 FM",
+            "Corrected Address": "892 FA",
+            "Original ZIP": "12180",
+            "Corrected ZIP": "12180",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.619693"
+        },
+        {
+            "OrigRowNum": 277,
+            "Original Address": "532 COUNTY ROUTE 41",
+            "Corrected Address": "532 COUNTY ROUTE 41",
+            "Original ZIP": "12839",
+            "Corrected ZIP": "12839",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.619959"
+        },
+        {
+            "OrigRowNum": 315,
+            "Original Address": "3463 3466 COUNTY ROUTE 43",
+            "Corrected Address": "3463 COUNTY ROUTE 43",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.620236"
+        },
+        {
+            "OrigRowNum": 322,
+            "Original Address": "123 COUNTY ROUTE 19",
+            "Corrected Address": "123 COUNTY ROUTE 19",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.620501"
+        },
+        {
+            "OrigRowNum": 325,
+            "Original Address": "329 COUNTY ROUTE 44",
+            "Corrected Address": "329 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.620760"
+        },
+        {
+            "OrigRowNum": 328,
+            "Original Address": "3168 COUNTY ROUTE 30",
+            "Corrected Address": "3168 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.621033"
+        },
+        {
+            "OrigRowNum": 331,
+            "Original Address": "3132 COUNTY ROUTE 30",
+            "Corrected Address": "3132 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.621295"
+        },
+        {
+            "OrigRowNum": 332,
+            "Original Address": "80 COUNTY ROUTE 44",
+            "Corrected Address": "80 COUNTY ROUTE 44",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.621554"
+        },
+        {
+            "OrigRowNum": 338,
+            "Original Address": "3183 COUNTY ROUTE 30",
+            "Corrected Address": "3183 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.621824"
+        },
+        {
+            "OrigRowNum": 340,
+            "Original Address": "217 COUNTY ROUTE 44",
+            "Corrected Address": "217 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.622084"
+        },
+        {
+            "OrigRowNum": 349,
+            "Original Address": "437 COUNTY ROUTE 42",
+            "Corrected Address": "437 COUNTY ROUTE 42",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.622342"
+        },
+        {
+            "OrigRowNum": 350,
+            "Original Address": "3202 COUNTY ROUTE 30",
+            "Corrected Address": "3202 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.622603"
+        },
+        {
+            "OrigRowNum": 354,
+            "Original Address": "508 COUNTY ROUTE 17",
+            "Corrected Address": "508 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.622873"
+        },
+        {
+            "OrigRowNum": 356,
+            "Original Address": "1731 COUNTY ROUTE 31",
+            "Corrected Address": "1731 COUNTY ROUTE 31",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.623134"
+        },
+        {
+            "OrigRowNum": 361,
+            "Original Address": "847 ROUTE 4 S",
+            "Corrected Address": "847 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.623390"
+        },
+        {
+            "OrigRowNum": 363,
+            "Original Address": "2236 COUNTY ROUTE 47",
+            "Corrected Address": "2236 COUNTY ROUTE 47",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.623656"
+        },
+        {
+            "OrigRowNum": 364,
+            "Original Address": "1586 COUNTY ROUTE 31",
+            "Corrected Address": "1586 COUNTY ROUTE 31",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.623915"
+        },
+        {
+            "OrigRowNum": 382,
+            "Original Address": "1575 COUNTY ROUTE 23",
+            "Corrected Address": "1575 COUNTY ROUTE 23",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.624178"
+        },
+        {
+            "OrigRowNum": 385,
+            "Original Address": "902 ROUTE 4 S",
+            "Corrected Address": "902 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.624432"
+        },
+        {
+            "OrigRowNum": 389,
+            "Original Address": "1235 COUNTY ROUTE 47",
+            "Corrected Address": "1235 COUNTY ROUTE 47",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.624655"
+        },
+        {
+            "OrigRowNum": 391,
+            "Original Address": "1378 COUNTY ROUTE 49",
+            "Corrected Address": "1378 COUNTY ROUTE 49",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.624874"
+        },
+        {
+            "OrigRowNum": 415,
+            "Original Address": "1336 COUNTY ROUTE 49",
+            "Corrected Address": "1336 COUNTY ROUTE 49",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.625098"
+        },
+        {
+            "OrigRowNum": 417,
+            "Original Address": "301 COUNTY ROUTE 19",
+            "Corrected Address": "301 COUNTY ROUTE 19",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.625318"
+        },
+        {
+            "OrigRowNum": 423,
+            "Original Address": "491 COUNTY ROUTE 74A",
+            "Corrected Address": "491 COUNTY ROUTE 74A",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.625541"
+        },
+        {
+            "OrigRowNum": 431,
+            "Original Address": "329 COUNTY ROUTE 74A",
+            "Corrected Address": "329 COUNTY ROUTE 74A",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.625759"
+        },
+        {
+            "OrigRowNum": 433,
+            "Original Address": "5630 COUNTY ROUTE 30",
+            "Corrected Address": "5630 COUNTY ROUTE 30",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.625982"
+        },
+        {
+            "OrigRowNum": 434,
+            "Original Address": "236 COUNTY ROUTE 44",
+            "Corrected Address": "236 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.626198"
+        },
+        {
+            "OrigRowNum": 441,
+            "Original Address": "246 COUNTY ROUTE 77",
+            "Corrected Address": "246 COUNTY ROUTE 77",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.626422"
+        },
+        {
+            "OrigRowNum": 442,
+            "Original Address": "2386 COUNTY ROUTE 46",
+            "Corrected Address": "2386 COUNTY ROUTE 46",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.626644"
+        },
+        {
+            "OrigRowNum": 445,
+            "Original Address": "1615 COUNTY ROUTE 23",
+            "Corrected Address": "1615 COUNTY ROUTE 23",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.626866"
+        },
+        {
+            "OrigRowNum": 450,
+            "Original Address": "44 COUNTY ROUTE 77",
+            "Corrected Address": "44 COUNTY ROUTE 77",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.627080"
+        },
+        {
+            "OrigRowNum": 454,
+            "Original Address": "99 COUNTY ROUTE 19",
+            "Corrected Address": "99 COUNTY ROUTE 19",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.627304"
+        },
+        {
+            "OrigRowNum": 457,
+            "Original Address": "90 COUNTY ROUTE 44",
+            "Corrected Address": "90 COUNTY ROUTE 44",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.627518"
+        },
+        {
+            "OrigRowNum": 459,
+            "Original Address": "3125 COUNTY ROUTE 30",
+            "Corrected Address": "3125 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.627746"
+        },
+        {
+            "OrigRowNum": 463,
+            "Original Address": "428 COUNTY ROUTE 42",
+            "Corrected Address": "428 COUNTY ROUTE 42",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.627967"
+        },
+        {
+            "OrigRowNum": 465,
+            "Original Address": "3171 COUNTY ROUTE 30",
+            "Corrected Address": "3171 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.628184"
+        },
+        {
+            "OrigRowNum": 468,
+            "Original Address": "274 COUNTY ROUTE 44",
+            "Corrected Address": "274 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.628411"
+        },
+        {
+            "OrigRowNum": 471,
+            "Original Address": "3344 COUNTY ROUTE 43",
+            "Corrected Address": "3344 COUNTY ROUTE 43",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.628626"
+        },
+        {
+            "OrigRowNum": 477,
+            "Original Address": "2034 COUNTY ROUTE 194",
+            "Corrected Address": "2034 COUNTY ROUTE 194",
+            "Original ZIP": "13626",
+            "Corrected ZIP": "13626",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.628847"
+        },
+        {
+            "OrigRowNum": 480,
+            "Original Address": "735 COUNTY ROUTE 46",
+            "Corrected Address": "735 COUNTY ROUTE 46",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.629063"
+        },
+        {
+            "OrigRowNum": 487,
+            "Original Address": "1860 COUNTY ROUTE 194",
+            "Corrected Address": "1860 COUNTY ROUTE 194",
+            "Original ZIP": "13626",
+            "Corrected ZIP": "13626",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.629285"
+        },
+        {
+            "OrigRowNum": 489,
+            "Original Address": "335 COUNTY ROUTE 44",
+            "Corrected Address": "335 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.629507"
+        },
+        {
+            "OrigRowNum": 491,
+            "Original Address": "3499 COUNTY ROUTE 43",
+            "Corrected Address": "3499 COUNTY ROUTE 43",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.629723"
+        },
+        {
+            "OrigRowNum": 497,
+            "Original Address": "1668 COUNTY ROUTE 31",
+            "Corrected Address": "1668 COUNTY ROUTE 31",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.629935"
+        },
+        {
+            "OrigRowNum": 500,
+            "Original Address": "483 COUNTY ROUTE 16",
+            "Corrected Address": "483 COUNTY ROUTE 16",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.630160"
+        },
+        {
+            "OrigRowNum": 509,
+            "Original Address": "1095 COUNTY ROUTE 70",
+            "Corrected Address": "1095 COUNTY ROUTE 70",
+            "Original ZIP": "12170",
+            "Corrected ZIP": "12170",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.630355"
+        },
+        {
+            "OrigRowNum": 527,
+            "Original Address": "2216 COUNTY ROUTE 47",
+            "Corrected Address": "2216 COUNTY ROUTE 47",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.630539"
+        },
+        {
+            "OrigRowNum": 536,
+            "Original Address": "560 COUNTY ROUTE 59",
+            "Corrected Address": "560 COUNTY ROUTE 59",
+            "Original ZIP": "12028",
+            "Corrected ZIP": "12028",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.630733"
+        },
+        {
+            "OrigRowNum": 540,
+            "Original Address": "835 ROUTE 4 S",
+            "Corrected Address": "835 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.630920"
+        },
+        {
+            "OrigRowNum": 541,
+            "Original Address": "823 ROUTE 4 S",
+            "Corrected Address": "823 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.631127"
+        },
+        {
+            "OrigRowNum": 548,
+            "Original Address": "4294 COUNTY ROUTE 30",
+            "Corrected Address": "4294 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.631327"
+        },
+        {
+            "OrigRowNum": 552,
+            "Original Address": "156 COUNTY ROUTE 44",
+            "Corrected Address": "156 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.631513"
+        },
+        {
+            "OrigRowNum": 564,
+            "Original Address": "3137 COUNTY ROUTE 30",
+            "Corrected Address": "3137 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.631709"
+        },
+        {
+            "OrigRowNum": 566,
+            "Original Address": "1670 ROUTE 4",
+            "Corrected Address": "1670 ROUTE 4",
+            "Original ZIP": "12170",
+            "Corrected ZIP": "12170",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.631893"
+        },
+        {
+            "OrigRowNum": 567,
+            "Original Address": "4372 COUNTY ROUTE 30",
+            "Corrected Address": "4372 COUNTY ROUTE 30",
+            "Original ZIP": "12832",
+            "Corrected ZIP": "12832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.632076"
+        },
+        {
+            "OrigRowNum": 568,
+            "Original Address": "721 COUNTY ROUTE 41",
+            "Corrected Address": "721 COUNTY ROUTE 41",
+            "Original ZIP": "12839",
+            "Corrected ZIP": "12839",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.632270"
+        },
+        {
+            "OrigRowNum": 571,
+            "Original Address": "1110 COUNTY ROUTE 17",
+            "Corrected Address": "1110 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.632459"
+        },
+        {
+            "OrigRowNum": 592,
+            "Original Address": "470 ROUTE 68",
+            "Corrected Address": "470 ROUTE 68",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.632643"
+        },
+        {
+            "OrigRowNum": 614,
+            "Original Address": "1239 COUNTY ROUTE 47",
+            "Corrected Address": "1239 COUNTY ROUTE 47",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.632841"
+        },
+        {
+            "OrigRowNum": 615,
+            "Original Address": "270 COUNTY ROUTE 42",
+            "Corrected Address": "270 COUNTY ROUTE 42",
+            "Original ZIP": "12828",
+            "Corrected ZIP": "12828",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.633030"
+        },
+        {
+            "OrigRowNum": 616,
+            "Original Address": "272 COUNTY ROUTE 44",
+            "Corrected Address": "272 COUNTY ROUTE 44",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.633221"
+        },
+        {
+            "OrigRowNum": 624,
+            "Original Address": "4305 COUNTY ROUTE 30",
+            "Corrected Address": "4305 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.633410"
+        },
+        {
+            "OrigRowNum": 630,
+            "Original Address": "318 COUNTY ROUTE 19",
+            "Corrected Address": "318 COUNTY ROUTE 19",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.633598"
+        },
+        {
+            "OrigRowNum": 642,
+            "Original Address": "160 COUNTY ROUTE 77",
+            "Corrected Address": "160 COUNTY ROUTE 77",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.822734"
+        },
+        {
+            "OrigRowNum": 648,
+            "Original Address": "873 ROUTE 4 S",
+            "Corrected Address": "873 ROUTE 4 S",
+            "Original ZIP": "12871",
+            "Corrected ZIP": "12871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.824002"
+        },
+        {
+            "OrigRowNum": 655,
+            "Original Address": "231 COUNTY ROUTE 77",
+            "Corrected Address": "231 COUNTY ROUTE 77",
+            "Original ZIP": "12834",
+            "Corrected ZIP": "12834",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.824664"
+        },
+        {
+            "OrigRowNum": 662,
+            "Original Address": "228 COUNTY ROUTE 47",
+            "Corrected Address": "228 COUNTY ROUTE 47",
+            "Original ZIP": "12809",
+            "Corrected ZIP": "12809",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.825198"
+        },
+        {
+            "OrigRowNum": 675,
+            "Original Address": "2219 COUNTY ROUTE 47",
+            "Corrected Address": "2219 COUNTY ROUTE 47",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.825703"
+        },
+        {
+            "OrigRowNum": 682,
+            "Original Address": "4234 COUNTY ROUTE 30",
+            "Corrected Address": "4234 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.826199"
+        },
+        {
+            "OrigRowNum": 692,
+            "Original Address": "1055 COUNTY ROUTE 30",
+            "Corrected Address": "1055 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.826685"
+        },
+        {
+            "OrigRowNum": 699,
+            "Original Address": "1056 COUNTY ROUTE 30",
+            "Corrected Address": "1056 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.827168"
+        },
+        {
+            "OrigRowNum": 701,
+            "Original Address": "322 COUNTY ROUTE 17",
+            "Corrected Address": "322 COUNTY ROUTE 17",
+            "Original ZIP": "12827",
+            "Corrected ZIP": "12827",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.827633"
+        },
+        {
+            "OrigRowNum": 707,
+            "Original Address": "1072 COUNTY ROUTE 30",
+            "Corrected Address": "1072 COUNTY ROUTE 30",
+            "Original ZIP": "12865",
+            "Corrected ZIP": "12865",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-11T09:37:15.828104"
+        }
+    ]
+}

@@ -1,0 +1,731 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+315,address,Invalid street name format before street ending,469THREE MILE RD
+1374,address,Corrected address lacks valid street name after non-standard ending removal,1901 BOXER LANE
+1885,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 2 BOX 374
+2825,address,Address lacks leading number (optionally prefixed by direction) followed by street name,OLD US HIGHWAY 59
+2903,address,Corrected address lacks valid street name after non-standard ending removal,177124 STEPHENS DRIVE
+3333,address,Corrected address lacks valid street name after non-standard ending removal,177155 STEPHENS DRIVE
+3473,address,Corrected address lacks valid street name after non-standard ending removal,3420 FLAMINGO DRIVE
+3551,address,Corrected address lacks valid street name after non-standard ending removal,943 STEPHEN COURT
+3790,address,Corrected address lacks valid street name after non-standard ending removal,813 FLANAGAN ROAD
+4928,address,Corrected address lacks valid street name after non-standard ending removal,1314 FLEMING ROAD
+5558,address,Corrected address lacks valid street name after non-standard ending removal,398 TOWER ROAD
+5658,address,Corrected address lacks valid street name after non-standard ending removal,1385 FLEMING ROAD
+6584,address,Corrected address lacks valid street name after non-standard ending removal,7530 STERLING DRIVE
+6907,address,Corrected address lacks valid street name after non-standard ending removal,949 STEPHEN COURT
+7134,address,Corrected address lacks valid street name after non-standard ending removal,937 STEPHEN COURT
+7340,address,Corrected address lacks valid street name after non-standard ending removal,1510 FLOYD WAY
+9133,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 4300
+9303,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 4802
+9391,address,Corrected address lacks valid street name after non-standard ending removal,1605 FLEMING ROAD
+9439,address,Corrected address lacks valid street name after non-standard ending removal,1575 FLEMING ROAD
+10095,address,Address lacks leading number (optionally prefixed by direction) followed by street name,STAPLES RD
+10102,address,Address lacks leading number (optionally prefixed by direction) followed by street name,KFS TOWER BUILDING
+10109,address,Address lacks leading number (optionally prefixed by direction) followed by street name,USE GPS
+10124,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 5 BOX 560
+10128,address,Address lacks leading number (optionally prefixed by direction) followed by street name,S OF CLARITA ON 48
+10130,address,PO Boxes not allowed,PO BOX 22
+10140,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 1 BOX 76
+10143,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT1 BOX146
+10147,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 1 BOX 218
+10151,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 5 BOX 305
+10153,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 1 BOX 135
+10155,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ROUTE 1 BOX 2030
+10163,address,PO Boxes not allowed,PO BOX 85
+10181,address,Address lacks leading number (optionally prefixed by direction) followed by street name,GPS IS CORRECT
+10183,address,PO Boxes not allowed,PO BOX 65
+10186,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 1 BOX 1075
+10354,address,Invalid street name format before street ending,1398W BOGGY DEPOT RD
+10494,address,Corrected address lacks valid street name after non-standard ending removal,957 STERRET ROAD
+10519,address,Address lacks leading number (optionally prefixed by direction) followed by street name,HC 61 BOX 596
+10641,address,Address lacks leading number (optionally prefixed by direction) followed by street name,WATERPLANT ROAD
+10654,address,PO Boxes not allowed,PO BOX 757
+10733,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COLEMAN STORE
+10809,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT 5 BOX 618
+10867,address,PO Boxes not allowed,PO BOX 555
+10897,address,Corrected address lacks valid street name after non-standard ending removal,891 STERRETT RD
+10900,address,PO Boxes not allowed,PO BOX 68
+10901,address,PO Boxes not allowed,PO BOX 68  MORAN RD
+10964,address,Invalid street name format before street ending,2535S RANCHETTE RD
+11116,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+11143,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ROOSTER CREEK CATFISH BAY MARINA
+11149,address,Address lacks leading number (optionally prefixed by direction) followed by street name,PARK AREA 400 BOAT HOUSE 17 3R
+11230,address,Address lacks leading number (optionally prefixed by direction) followed by street name,LAKE W RD
+11249,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COWBOY LN
+11513,address,Address lacks leading number (optionally prefixed by direction) followed by street name,S PARK HILL LN
+11524,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+11535,address,Address lacks leading number (optionally prefixed by direction) followed by street name,E CR 1610
+11839,address,Invalid street name format before street ending,320B GATIE FRANK
+11881,address,Corrected address lacks valid street name after non-standard ending removal,2897 FLOWERY MOUNDS ROAD
+11910,address,Corrected address lacks valid street name after non-standard ending removal,2601 FLOWREY MOUND RD
+11970,address,Corrected address lacks valid street name after non-standard ending removal,703 STEPHAIE ST
+12061,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CR 1750
+12125,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ROOSTER CREEK CATFISH BAY MARINA
+12197,address,Address lacks leading number (optionally prefixed by direction) followed by street name,R E 1600 AND N 3720 ROAD
+12200,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CHIEF RD
+12222,address,Corrected address lacks valid street name after non-standard ending removal,470 STERRETT
+12231,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CAT FISH BAY MARINA
+12251,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY
+12257,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RT1 BOX146
+12316,address,Address lacks leading number (optionally prefixed by direction) followed by street name,H ST AND 69 HWY
+12503,address,Corrected address lacks valid street name after non-standard ending removal,2322 FLOWERY MOUNDS RD
+12528,address,Invalid street name format before street ending,22201WITTEVILLE DR
+12651,address,Address lacks leading number (optionally prefixed by direction) followed by street name,NEED PHYSICAL ADDRESS
+12673,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY
+12841,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ATOKA CO
+12899,address,Address too short,1 C ST
+12962,address,Invalid street name format before street ending,13154MEDOWLARK LN
+12965,address,Invalid street name format before street ending,87L STREET
+12997,address,Corrected address lacks valid street name after non-standard ending removal,14372 STEPP ROAD
+13029,address,Invalid street name format before street ending,206A TEAKWOOD DRIVE
+13065,address,Corrected address lacks valid street name after non-standard ending removal,2340 FLOWEY MOUND RD
+13110,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+13114,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MOSSY LAKE DRIVE
+13149,address,Address lacks leading number (optionally prefixed by direction) followed by street name,PARK AREA 400
+13255,address,Address lacks leading number (optionally prefixed by direction) followed by street name,HILLTOP SUBDIVISION
+13345,address,Corrected address lacks valid street name after non-standard ending removal,14369 STEPP RD
+13375,address,Address lacks leading number (optionally prefixed by direction) followed by street name,HARBOR VW
+13456,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA DOCK 18
+13775,address,Corrected address lacks valid street name after non-standard ending removal,1867 FLOWERY MOUND ROAD
+13848,address,Address lacks leading number (optionally prefixed by direction) followed by street name,WILLOW SPRINGS ROAD
+13919,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+13988,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+14001,address,Address lacks leading number (optionally prefixed by direction) followed by street name,HWY 70W
+14082,address,Corrected address lacks valid street name after non-standard ending removal,1929 FLOWERY MOUND RD
+14217,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 4720
+14282,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ROOSTER CREEK DRIVE
+14317,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+14408,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+14522,address,Corrected address lacks valid street name after non-standard ending removal,2782 STERRET ROAD
+14570,address,Address lacks leading number (optionally prefixed by direction) followed by street name,WHITEMOUND ROAD
+14604,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY DRIVE
+14714,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MCCUBBIN DRIVE
+14733,address,Address lacks leading number (optionally prefixed by direction) followed by street name,UNIT 4 N HARDY AVENUE
+14817,address,Corrected address lacks valid street name after non-standard ending removal,3230 FLOWERY MOUND ROAD
+15241,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COUNTY ROAD 3136
+15294,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CATFISH BAY MARINA
+2479,city,City contains forbidden character,"MARLOW,"
+328,zip,Invalid ZIP code format,74701-235
+376,zip,Invalid ZIP code format,74701-233
+383,zip,Invalid ZIP code format,74701-233
+785,zip,Invalid ZIP code format,74701-254
+787,zip,Invalid ZIP code format,74701-261
+795,zip,Invalid ZIP code format,74701-261
+801,zip,Invalid ZIP code format,74701-260
+805,zip,Invalid ZIP code format,74701-233
+936,zip,Invalid ZIP code format,74701-846
+986,zip,Invalid ZIP code format,74701-845
+1019,zip,Invalid ZIP code format,74701-834
+1026,zip,Invalid ZIP code format,74701-834
+1030,zip,Invalid ZIP code format,74701-817
+1041,zip,Invalid ZIP code format,74701-845
+1075,zip,Invalid ZIP code format,74701-205
+1082,zip,Invalid ZIP code format,74701-242
+1092,zip,Invalid ZIP code format,74701-816
+1117,zip,Invalid ZIP code format,74701-813
+1122,zip,Invalid ZIP code format,74701-816
+1284,zip,Invalid ZIP code format,74701-502
+1318,zip,Invalid ZIP code format,74701-246
+1403,zip,Invalid ZIP code format,74701-206
+1435,zip,Invalid ZIP code format,74701-502
+1503,zip,Invalid ZIP code format,74701-501
+1786,zip,Invalid ZIP code format,74701-175
+1849,zip,Invalid ZIP code format,74701-842
+1886,zip,Invalid ZIP code format,74701-351
+1890,zip,Invalid ZIP code format,74701-332
+1895,zip,Invalid ZIP code format,74701-111
+1897,zip,Invalid ZIP code format,74701-151
+1898,zip,Invalid ZIP code format,74701-145
+1908,zip,Invalid ZIP code format,74701-349
+1938,zip,Invalid ZIP code format,74701-178
+1946,zip,Invalid ZIP code format,74701-361
+1966,zip,Invalid ZIP code format,74701-823
+1968,zip,Invalid ZIP code format,74701-345
+1977,zip,Invalid ZIP code format,74701-437
+2004,zip,Invalid ZIP code format,74701-446
+2027,zip,Invalid ZIP code format,74701-858
+2029,zip,Invalid ZIP code format,74820-240
+2042,zip,Invalid ZIP code format,74820-990
+2052,zip,Invalid ZIP code format,74820-220
+2055,zip,Invalid ZIP code format,74701-123
+2079,zip,Invalid ZIP code format,74701-805
+2104,zip,Invalid ZIP code format,74701-805
+2110,zip,Invalid ZIP code format,74701-109
+2288,zip,Invalid ZIP code format,74820-831
+2354,zip,Invalid ZIP code format,74701-147
+2376,zip,Invalid ZIP code format,74701-149
+2404,zip,Invalid ZIP code format,74701-323
+2431,zip,Invalid ZIP code format,74701-805
+2455,zip,Invalid ZIP code format,74701-316
+2465,zip,Invalid ZIP code format,74701-425
+2471,zip,Invalid ZIP code format,74701-128
+2493,zip,Invalid ZIP code format,74701-447
+2515,zip,Invalid ZIP code format,74701-446
+2518,zip,Invalid ZIP code format,74701-447
+2520,zip,Invalid ZIP code format,74820-277
+2522,zip,Invalid ZIP code format,74701-448
+2528,zip,Invalid ZIP code format,74701-182
+2541,zip,Invalid ZIP code format,74701-835
+2550,zip,Invalid ZIP code format,74701-448
+2557,zip,Invalid ZIP code format,74701-606
+2599,zip,Invalid ZIP code format,74701-425
+2608,zip,Invalid ZIP code format,74701-456
+2618,zip,Invalid ZIP code format,73055-35
+2667,zip,Invalid ZIP code format,74701-827
+2892,zip,Invalid ZIP code format,74701-171
+2901,zip,Invalid ZIP code format,74701-709
+3030,zip,Invalid ZIP code format,74701-448
+3037,zip,Invalid ZIP code format,74701-858
+3084,zip,Invalid ZIP code format,74701-446
+3092,zip,Invalid ZIP code format,74701-863
+3094,zip,Invalid ZIP code format,74701-208
+3167,zip,Invalid ZIP code format,74701-808
+3264,zip,Invalid ZIP code format,74701-807
+3271,zip,Invalid ZIP code format,74701-449
+3355,zip,Invalid ZIP code format,74701-863
+3376,zip,Invalid ZIP code format,74701-448
+3415,zip,Invalid ZIP code format,74701-735
+3512,zip,Invalid ZIP code format,75454-600
+4048,zip,Invalid ZIP code format,75424-107
+4287,zip,Invalid ZIP code format,75424-169
+4466,zip,Invalid ZIP code format,75424-80
+4566,zip,Invalid ZIP code format,75424-50
+4641,zip,Invalid ZIP code format,75424-149
+4642,zip,Invalid ZIP code format,75424-60
+4787,zip,Invalid ZIP code format,75424-80
+4869,zip,Invalid ZIP code format,75409-135
+5047,zip,Invalid ZIP code format,75071-559
+5100,zip,Invalid ZIP code format,75424-180
+5195,zip,Invalid ZIP code format,75071-560
+5196,zip,Invalid ZIP code format,75071-557
+5271,zip,Invalid ZIP code format,75424-59
+5498,zip,Invalid ZIP code format,75452-200
+5566,zip,Invalid ZIP code format,75424-78
+5634,zip,Invalid ZIP code format,75424-149
+5745,zip,Invalid ZIP code format,75424-109
+5759,zip,Invalid ZIP code format,75424-18
+5818,zip,Invalid ZIP code format,75452-227
+5873,zip,Invalid ZIP code format,75418-149
+5900,zip,Invalid ZIP code format,75401-8
+6062,zip,Invalid ZIP code format,75071-553
+6279,zip,Invalid ZIP code format,75071-610
+6325,zip,Invalid ZIP code format,75424-109
+6441,zip,Invalid ZIP code format,75071-686
+6573,zip,Invalid ZIP code format,75452-228
+6597,zip,Invalid ZIP code format,75424-137
+6652,zip,Invalid ZIP code format,75071-808
+6665,zip,Invalid ZIP code format,75424-140
+6837,zip,Invalid ZIP code format,75452-200
+6841,zip,Invalid ZIP code format,75424-179
+6947,zip,Invalid ZIP code format,75424-50
+7048,zip,Invalid ZIP code format,75424-200
+7275,zip,Invalid ZIP code format,75418-167
+7290,zip,Invalid ZIP code format,75071-400
+7340,zip,Invalid ZIP code format,75418-148
+7376,zip,Invalid ZIP code format,75424-209
+7523,zip,Invalid ZIP code format,75071-536
+7559,zip,Invalid ZIP code format,75424-209
+7917,zip,Invalid ZIP code format,75442-34
+7948,zip,Invalid ZIP code format,75071-548
+8012,zip,Invalid ZIP code format,75452-229
+8129,zip,Invalid ZIP code format,75071-548
+8225,zip,Invalid ZIP code format,5452
+8251,zip,Invalid ZIP code format,75071-617
+8277,zip,Invalid ZIP code format,75071-542
+8373,zip,Invalid ZIP code format,75424-138
+8637,zip,Invalid ZIP code format,75424-77
+8708,zip,Invalid ZIP code format,75424-110
+8808,zip,Invalid ZIP code format,75071-465
+8940,zip,Invalid ZIP code format,75424-110
+8960,zip,Invalid ZIP code format,75071-831
+8974,zip,Invalid ZIP code format,75071-548
+9082,zip,Invalid ZIP code format,75069-996
+9200,zip,Invalid ZIP code format,75071-548
+9235,zip,Invalid ZIP code format,75424-139
+9491,zip,Invalid ZIP code format,75424-168
+9527,zip,Invalid ZIP code format,75454-210
+9784,zip,Invalid ZIP code format,75424-170
+9915,zip,Invalid ZIP code format,75452-259
+9942,zip,Invalid ZIP code format,75424-78
+10224,zip,Invalid ZIP code format,74701-737
+10285,zip,Invalid ZIP code format,74701-239
+10307,zip,Invalid ZIP code format,74701-336
+10338,zip,Invalid ZIP code format,74701-428
+10348,zip,Invalid ZIP code format,773439
+10370,zip,Invalid ZIP code format,74701-842
+10400,zip,Invalid ZIP code format,74701-839
+10423,zip,Invalid ZIP code format,74701-138
+10439,zip,Invalid ZIP code format,74701-307
+10458,zip,Invalid ZIP code format,74701-166
+10499,zip,Invalid ZIP code format,74701-405
+10506,zip,Invalid ZIP code format,74701-833
+10536,zip,Invalid ZIP code format,74701-174
+10547,zip,Invalid ZIP code format,74701-351
+10584,zip,Invalid ZIP code format,74701-105
+10684,zip,Invalid ZIP code format,74701-427
+10746,zip,Invalid ZIP code format,74701-422
+10819,zip,Invalid ZIP code format,74701-139
+10841,zip,Invalid ZIP code format,74701-229
+10860,zip,Invalid ZIP code format,74701-602
+10884,zip,Invalid ZIP code format,74701-255
+10902,zip,Invalid ZIP code format,74820-962
+10907,zip,Invalid ZIP code format,747820
+10913,zip,Invalid ZIP code format,74820-728
+10916,zip,Invalid ZIP code format,74820-950
+10917,zip,Invalid ZIP code format,74820-762
+10923,zip,Invalid ZIP code format,74820-740
+10952,zip,Invalid ZIP code format,74820-320
+10959,zip,Invalid ZIP code format,74820-499
+10999,zip,Invalid ZIP code format,74820-840
+11009,zip,Invalid ZIP code format,74701-145
+11012,zip,Invalid ZIP code format,74820-206
+11058,zip,Invalid ZIP code format,74701-162
+11062,zip,Invalid ZIP code format,74820-954
+11078,zip,Invalid ZIP code format,74701-409
+11094,zip,Invalid ZIP code format,74701-132
+11145,zip,Invalid ZIP code format,74701-738
+11172,zip,Invalid ZIP code format,74701-331
+11182,zip,Invalid ZIP code format,74820-689
+11208,zip,Invalid ZIP code format,74820-770
+11223,zip,Invalid ZIP code format,74701-180
+11236,zip,Invalid ZIP code format,74820-955
+11241,zip,Invalid ZIP code format,74820-369
+11276,zip,Invalid ZIP code format,74820-285
+11294,zip,Invalid ZIP code format,74701-822
+11348,zip,Invalid ZIP code format,74820-752
+11358,zip,Invalid ZIP code format,74701-417
+11366,zip,Invalid ZIP code format,74820-197
+11418,zip,Invalid ZIP code format,74820-258
+11447,zip,Invalid ZIP code format,74820-762
+11473,zip,Invalid ZIP code format,74701-506
+11499,zip,Invalid ZIP code format,74820-467
+11548,zip,Invalid ZIP code format,74701-810
+11577,zip,Invalid ZIP code format,74820-978
+11595,zip,Invalid ZIP code format,74701-800
+11631,zip,Invalid ZIP code format,74820-752
+11647,zip,Invalid ZIP code format,74701-601
+11654,zip,Invalid ZIP code format,74820-212
+11658,zip,Invalid ZIP code format,74701-805
+11677,zip,Invalid ZIP code format,74701-133
+11713,zip,Invalid ZIP code format,74701-456
+11873,zip,Invalid ZIP code format,74701-720
+11991,zip,Invalid ZIP code format,74820-728
+12000,zip,Invalid ZIP code format,74820-254
+12018,zip,Invalid ZIP code format,74701-860
+12043,zip,Invalid ZIP code format,74820-228
+12046,zip,Invalid ZIP code format,74701-332
+12090,zip,Invalid ZIP code format,74955-19
+12115,zip,Invalid ZIP code format,74701-810
+12117,zip,Invalid ZIP code format,74701-255
+12151,zip,Invalid ZIP code format,74701-842
+12159,zip,Invalid ZIP code format,74701-147
+12166,zip,Invalid ZIP code format,74820-755
+12221,zip,Invalid ZIP code format,74701-850
+12249,zip,Invalid ZIP code format,74820-750
+12254,zip,Invalid ZIP code format,74701-855
+12359,zip,Invalid ZIP code format,74820-769
+12381,zip,Invalid ZIP code format,74820-740
+12403,zip,Invalid ZIP code format,74701-829
+12419,zip,Invalid ZIP code format,74701-223
+12445,zip,Invalid ZIP code format,74820-273
+12462,zip,Invalid ZIP code format,74820-224
+12522,zip,Invalid ZIP code format,74701-141
+12575,zip,Invalid ZIP code format,74701-421
+12615,zip,Invalid ZIP code format,74820-753
+12626,zip,Invalid ZIP code format,74701-251
+12646,zip,Invalid ZIP code format,74701-336
+12676,zip,Invalid ZIP code format,74701-124
+12843,zip,Invalid ZIP code format,74701-338
+12912,zip,Invalid ZIP code format,74820-753
+13012,zip,Invalid ZIP code format,74701-146
+13087,zip,Invalid ZIP code format,74701-448
+13172,zip,Invalid ZIP code format,74701-448
+13202,zip,Invalid ZIP code format,7.449
+13261,zip,Invalid ZIP code format,74701-447
+13271,zip,Invalid ZIP code format,74820-761
+13276,zip,Invalid ZIP code format,74701-433
+13335,zip,Invalid ZIP code format,74820-715
+13351,zip,Invalid ZIP code format,74820-713
+13369,zip,Invalid ZIP code format,74701-179
+13389,zip,Invalid ZIP code format,74820-620
+13430,zip,Invalid ZIP code format,74701-158
+13454,zip,Invalid ZIP code format,74701-413
+13583,zip,Invalid ZIP code format,74701-324
+13615,zip,Invalid ZIP code format,74820-753
+13675,zip,Invalid ZIP code format,74820-727
+13708,zip,Invalid ZIP code format,74701-842
+13721,zip,Invalid ZIP code format,74701-421
+13744,zip,Invalid ZIP code format,74820-225
+13758,zip,Invalid ZIP code format,74820-743
+13762,zip,Invalid ZIP code format,73439-18
+13786,zip,Invalid ZIP code format,7451
+13788,zip,Invalid ZIP code format,74701-147
+13805,zip,Invalid ZIP code format,Ok
+13849,zip,Invalid ZIP code format,74820-254
+13880,zip,Invalid ZIP code format,74701-100
+13885,zip,Invalid ZIP code format,74820-228
+13895,zip,Invalid ZIP code format,74820-759
+13915,zip,Invalid ZIP code format,73055-35
+13918,zip,Invalid ZIP code format,74701-802
+13979,zip,Invalid ZIP code format,74820-753
+13987,zip,Invalid ZIP code format,74820-714
+14093,zip,Invalid ZIP code format,74701-333
+14243,zip,Invalid ZIP code format,74701-336
+14327,zip,Invalid ZIP code format,74820-220
+14376,zip,Invalid ZIP code format,75071-744
+14458,zip,Invalid ZIP code format,74701-848
+14473,zip,Invalid ZIP code format,75452-229
+14478,zip,Invalid ZIP code format,75452-199
+14555,zip,Invalid ZIP code format,74701-420
+14575,zip,Invalid ZIP code format,74701-420
+14671,zip,Invalid ZIP code format,74701-402
+14681,zip,Invalid ZIP code format,75452-259
+14783,zip,Invalid ZIP code format,74701-453
+15214,zip,Invalid ZIP code format,75452-199
+11257,lon,Longitude for OK must be between -103.002455 and -94.430662,-94.38027742
+11257,lat,Paired coordinate reset due to invalid lon,35.38501144
+15054,address,Address too short,120 N
+8763,customer,"Data-based duplicate, removed (identical to customer 12098)",14413
+5694,customer,"Data-based duplicate, removed (identical to customer 5815)",6116
+7763,customer,"Data-based duplicate, removed (identical to customer 960)",12075
+9182,customer,"Data-based duplicate, removed (identical to customer 13080)",15341
+5495,customer,"Data-based duplicate, removed (identical to customer 5438)",5526
+14280,customer,"Data-based duplicate, removed (identical to customer 15337)",236027
+7544,customer,"Data-based duplicate, removed (identical to customer 11364)",11526
+7574,customer,"Data-based duplicate, removed (identical to customer 11364)",11604
+6473,customer,"Data-based duplicate, removed (identical to customer 2407)",8316
+5119,customer,"Data-based duplicate, removed (identical to customer 583)",4346
+9758,customer,"Data-based duplicate, removed (identical to customer 12172)",17335
+6812,customer,"Data-based duplicate, removed (identical to customer 8837)",9334
+1668,customer,"Data-based duplicate, removed (identical to customer 6217)",6680
+1736,customer,"Data-based duplicate, removed (identical to customer 10532)",10533
+9177,customer,"Data-based duplicate, removed (identical to customer 7282)",15333
+9908,customer,"Data-based duplicate, removed (identical to customer 16534)",17783
+14731,customer,"Data-based duplicate, removed (identical to customer 240228)",241364
+15016,customer,"Data-based duplicate, removed (identical to customer 237506)",244125
+8037,customer,"Data-based duplicate, removed (identical to customer 10132)",12745
+14360,customer,"Data-based duplicate, removed (identical to customer 10996)",236797
+6434,customer,"Data-based duplicate, removed (identical to customer 6614)",8215
+9977,customer,"Data-based duplicate, removed (identical to customer 17918)",17980
+5082,customer,"Data-based duplicate, removed (identical to customer 4002)",4263
+285,customer,"Data-based duplicate, removed (identical to customer 4930)",17749
+176,customer,"Data-based duplicate, removed (identical to customer 2460)",9772
+4796,customer,"Data-based duplicate, removed (identical to customer 473)",3465
+9093,customer,"Data-based duplicate, removed (identical to customer 13407)",15132
+9833,customer,"Data-based duplicate, removed (identical to customer 620)",17559
+7703,customer,"Data-based duplicate, removed (identical to customer 3150)",11916
+9685,customer,"Data-based duplicate, removed (identical to customer 14408)",17082
+8769,customer,"Data-based duplicate, removed (identical to customer 14424)",14426
+5652,customer,"Data-based duplicate, removed (identical to customer 2346)",5987
+9056,customer,"Data-based duplicate, removed (identical to customer 6972)",15049
+6607,customer,"Data-based duplicate, removed (identical to customer 8519)",8680
+6295,customer,"Data-based duplicate, removed (identical to customer 5636)",7802
+6309,customer,"Data-based duplicate, removed (identical to customer 3887)",7837
+5131,customer,"Data-based duplicate, removed (identical to customer 4218)",4378
+3350,customer,"Data-based duplicate, removed (identical to customer 246086)",246705
+3363,customer,"Data-based duplicate, removed (identical to customer 239057)",247130
+7602,customer,"Data-based duplicate, removed (identical to customer 6891)",11667
+9168,customer,"Data-based duplicate, removed (identical to customer 3343)",15317
+5168,customer,"Data-based duplicate, removed (identical to customer 4323)",4467
+6545,customer,"Data-based duplicate, removed (identical to customer 7429)",8522
+2929,customer,"Data-based duplicate, removed (identical to customer 233579)",238877
+2993,customer,"Data-based duplicate, removed (identical to customer 233579)",239877
+3004,customer,"Data-based duplicate, removed (identical to customer 233579)",240121
+3358,customer,"Data-based duplicate, removed (identical to customer 233579)",247054
+13232,customer,"Data-based duplicate, removed (identical to customer 220425)",224757
+13233,customer,"Data-based duplicate, removed (identical to customer 224571)",224761
+13340,customer,"Data-based duplicate, removed (identical to customer 224571)",225231
+14317,customer,"Data-based duplicate, removed (identical to customer 232576)",236304
+15059,customer,"Data-based duplicate, removed (identical to customer 236893)",244612
+12670,customer,"Data-based duplicate, removed (identical to customer 219288)",219342
+12341,customer,"Data-based duplicate, removed (identical to customer 216221)",216662
+13193,customer,"Data-based duplicate, removed (identical to customer 216221)",224526
+13292,customer,"Data-based duplicate, removed (identical to customer 216221)",225079
+13613,customer,"Data-based duplicate, removed (identical to customer 216221)",228055
+14016,customer,"Data-based duplicate, removed (identical to customer 209812)",232899
+13582,customer,"Data-based duplicate, removed (identical to customer 222095)",227715
+12253,customer,"Data-based duplicate, removed (identical to customer 214387)",215987
+11529,customer,"Data-based duplicate, removed (identical to customer 201110)",210670
+3388,customer,"Data-based duplicate, removed (identical to customer 244346)",247835
+1884,customer,"Data-based duplicate, removed (identical to customer 201454)",201455
+10148,customer,"Data-based duplicate, removed (identical to customer 200276)",200400
+3404,customer,"Data-based duplicate, removed (identical to customer 200225)",200236
+2978,customer,"Data-based duplicate, removed (identical to customer 231285)",239621
+328,zip,Invalid ZIP code,74701-235
+376,zip,Invalid ZIP code,74701-233
+383,zip,Invalid ZIP code,74701-233
+785,zip,Invalid ZIP code,74701-254
+787,zip,Invalid ZIP code,74701-261
+795,zip,Invalid ZIP code,74701-261
+801,zip,Invalid ZIP code,74701-260
+805,zip,Invalid ZIP code,74701-233
+936,zip,Invalid ZIP code,74701-846
+986,zip,Invalid ZIP code,74701-845
+1019,zip,Invalid ZIP code,74701-834
+1026,zip,Invalid ZIP code,74701-834
+1030,zip,Invalid ZIP code,74701-817
+1041,zip,Invalid ZIP code,74701-845
+1075,zip,Invalid ZIP code,74701-205
+1082,zip,Invalid ZIP code,74701-242
+1092,zip,Invalid ZIP code,74701-816
+1117,zip,Invalid ZIP code,74701-813
+1122,zip,Invalid ZIP code,74701-816
+1284,zip,Invalid ZIP code,74701-502
+1318,zip,Invalid ZIP code,74701-246
+1403,zip,Invalid ZIP code,74701-206
+1435,zip,Invalid ZIP code,74701-502
+1503,zip,Invalid ZIP code,74701-501
+1786,zip,Invalid ZIP code,74701-175
+1849,zip,Invalid ZIP code,74701-842
+1886,zip,Invalid ZIP code,74701-351
+1890,zip,Invalid ZIP code,74701-332
+1895,zip,Invalid ZIP code,74701-111
+1897,zip,Invalid ZIP code,74701-151
+1898,zip,Invalid ZIP code,74701-145
+1908,zip,Invalid ZIP code,74701-349
+1938,zip,Invalid ZIP code,74701-178
+1946,zip,Invalid ZIP code,74701-361
+1966,zip,Invalid ZIP code,74701-823
+1968,zip,Invalid ZIP code,74701-345
+1977,zip,Invalid ZIP code,74701-437
+2004,zip,Invalid ZIP code,74701-446
+2027,zip,Invalid ZIP code,74701-858
+2029,zip,Invalid ZIP code,74820-240
+2042,zip,Invalid ZIP code,74820-990
+2052,zip,Invalid ZIP code,74820-220
+2055,zip,Invalid ZIP code,74701-123
+2079,zip,Invalid ZIP code,74701-805
+2104,zip,Invalid ZIP code,74701-805
+2110,zip,Invalid ZIP code,74701-109
+2288,zip,Invalid ZIP code,74820-831
+2354,zip,Invalid ZIP code,74701-147
+2376,zip,Invalid ZIP code,74701-149
+2404,zip,Invalid ZIP code,74701-323
+2431,zip,Invalid ZIP code,74701-805
+2455,zip,Invalid ZIP code,74701-316
+2465,zip,Invalid ZIP code,74701-425
+2471,zip,Invalid ZIP code,74701-128
+2493,zip,Invalid ZIP code,74701-447
+2515,zip,Invalid ZIP code,74701-446
+2518,zip,Invalid ZIP code,74701-447
+2520,zip,Invalid ZIP code,74820-277
+2522,zip,Invalid ZIP code,74701-448
+2528,zip,Invalid ZIP code,74701-182
+2541,zip,Invalid ZIP code,74701-835
+2550,zip,Invalid ZIP code,74701-448
+2557,zip,Invalid ZIP code,74701-606
+2599,zip,Invalid ZIP code,74701-425
+2608,zip,Invalid ZIP code,74701-456
+2618,zip,Invalid ZIP code,73055-35
+2667,zip,Invalid ZIP code,74701-827
+2892,zip,Invalid ZIP code,74701-171
+2901,zip,Invalid ZIP code,74701-709
+3030,zip,Invalid ZIP code,74701-448
+3037,zip,Invalid ZIP code,74701-858
+3084,zip,Invalid ZIP code,74701-446
+3092,zip,Invalid ZIP code,74701-863
+3094,zip,Invalid ZIP code,74701-208
+3167,zip,Invalid ZIP code,74701-808
+3264,zip,Invalid ZIP code,74701-807
+3271,zip,Invalid ZIP code,74701-449
+3355,zip,Invalid ZIP code,74701-863
+3376,zip,Invalid ZIP code,74701-448
+3415,zip,Invalid ZIP code,74701-735
+3512,zip,Invalid ZIP code,75454-600
+4048,zip,Invalid ZIP code,75424-107
+4287,zip,Invalid ZIP code,75424-169
+4466,zip,Invalid ZIP code,75424-80
+4566,zip,Invalid ZIP code,75424-50
+4641,zip,Invalid ZIP code,75424-149
+4642,zip,Invalid ZIP code,75424-60
+4787,zip,Invalid ZIP code,75424-80
+4869,zip,Invalid ZIP code,75409-135
+5047,zip,Invalid ZIP code,75071-559
+5100,zip,Invalid ZIP code,75424-180
+5195,zip,Invalid ZIP code,75071-560
+5196,zip,Invalid ZIP code,75071-557
+5271,zip,Invalid ZIP code,75424-59
+5498,zip,Invalid ZIP code,75452-200
+5566,zip,Invalid ZIP code,75424-78
+5634,zip,Invalid ZIP code,75424-149
+5745,zip,Invalid ZIP code,75424-109
+5759,zip,Invalid ZIP code,75424-18
+5818,zip,Invalid ZIP code,75452-227
+5873,zip,Invalid ZIP code,75418-149
+5900,zip,Invalid ZIP code,75401-8
+6062,zip,Invalid ZIP code,75071-553
+6279,zip,Invalid ZIP code,75071-610
+6325,zip,Invalid ZIP code,75424-109
+6441,zip,Invalid ZIP code,75071-686
+6573,zip,Invalid ZIP code,75452-228
+6597,zip,Invalid ZIP code,75424-137
+6652,zip,Invalid ZIP code,75071-808
+6665,zip,Invalid ZIP code,75424-140
+6837,zip,Invalid ZIP code,75452-200
+6841,zip,Invalid ZIP code,75424-179
+6947,zip,Invalid ZIP code,75424-50
+7048,zip,Invalid ZIP code,75424-200
+7275,zip,Invalid ZIP code,75418-167
+7290,zip,Invalid ZIP code,75071-400
+7340,zip,Invalid ZIP code,75418-148
+7376,zip,Invalid ZIP code,75424-209
+7523,zip,Invalid ZIP code,75071-536
+7559,zip,Invalid ZIP code,75424-209
+7917,zip,Invalid ZIP code,75442-34
+7948,zip,Invalid ZIP code,75071-548
+8012,zip,Invalid ZIP code,75452-229
+8129,zip,Invalid ZIP code,75071-548
+8225,zip,Invalid ZIP code,5452
+8251,zip,Invalid ZIP code,75071-617
+8277,zip,Invalid ZIP code,75071-542
+8373,zip,Invalid ZIP code,75424-138
+8637,zip,Invalid ZIP code,75424-77
+8708,zip,Invalid ZIP code,75424-110
+8808,zip,Invalid ZIP code,75071-465
+8940,zip,Invalid ZIP code,75424-110
+8960,zip,Invalid ZIP code,75071-831
+8974,zip,Invalid ZIP code,75071-548
+9082,zip,Invalid ZIP code,75069-996
+9200,zip,Invalid ZIP code,75071-548
+9235,zip,Invalid ZIP code,75424-139
+9491,zip,Invalid ZIP code,75424-168
+9527,zip,Invalid ZIP code,75454-210
+9784,zip,Invalid ZIP code,75424-170
+9915,zip,Invalid ZIP code,75452-259
+9942,zip,Invalid ZIP code,75424-78
+10224,zip,Invalid ZIP code,74701-737
+10285,zip,Invalid ZIP code,74701-239
+10307,zip,Invalid ZIP code,74701-336
+10338,zip,Invalid ZIP code,74701-428
+10348,zip,Invalid ZIP code,773439
+10370,zip,Invalid ZIP code,74701-842
+10400,zip,Invalid ZIP code,74701-839
+10423,zip,Invalid ZIP code,74701-138
+10439,zip,Invalid ZIP code,74701-307
+10458,zip,Invalid ZIP code,74701-166
+10499,zip,Invalid ZIP code,74701-405
+10506,zip,Invalid ZIP code,74701-833
+10536,zip,Invalid ZIP code,74701-174
+10547,zip,Invalid ZIP code,74701-351
+10584,zip,Invalid ZIP code,74701-105
+10684,zip,Invalid ZIP code,74701-427
+10746,zip,Invalid ZIP code,74701-422
+10819,zip,Invalid ZIP code,74701-139
+10841,zip,Invalid ZIP code,74701-229
+10860,zip,Invalid ZIP code,74701-602
+10884,zip,Invalid ZIP code,74701-255
+10902,zip,Invalid ZIP code,74820-962
+10907,zip,Invalid ZIP code,747820
+10913,zip,Invalid ZIP code,74820-728
+10916,zip,Invalid ZIP code,74820-950
+10917,zip,Invalid ZIP code,74820-762
+10923,zip,Invalid ZIP code,74820-740
+10952,zip,Invalid ZIP code,74820-320
+10959,zip,Invalid ZIP code,74820-499
+10999,zip,Invalid ZIP code,74820-840
+11009,zip,Invalid ZIP code,74701-145
+11012,zip,Invalid ZIP code,74820-206
+11058,zip,Invalid ZIP code,74701-162
+11062,zip,Invalid ZIP code,74820-954
+11078,zip,Invalid ZIP code,74701-409
+11094,zip,Invalid ZIP code,74701-132
+11145,zip,Invalid ZIP code,74701-738
+11172,zip,Invalid ZIP code,74701-331
+11182,zip,Invalid ZIP code,74820-689
+11208,zip,Invalid ZIP code,74820-770
+11223,zip,Invalid ZIP code,74701-180
+11236,zip,Invalid ZIP code,74820-955
+11241,zip,Invalid ZIP code,74820-369
+11276,zip,Invalid ZIP code,74820-285
+11294,zip,Invalid ZIP code,74701-822
+11348,zip,Invalid ZIP code,74820-752
+11358,zip,Invalid ZIP code,74701-417
+11366,zip,Invalid ZIP code,74820-197
+11418,zip,Invalid ZIP code,74820-258
+11447,zip,Invalid ZIP code,74820-762
+11473,zip,Invalid ZIP code,74701-506
+11499,zip,Invalid ZIP code,74820-467
+11548,zip,Invalid ZIP code,74701-810
+11577,zip,Invalid ZIP code,74820-978
+11595,zip,Invalid ZIP code,74701-800
+11631,zip,Invalid ZIP code,74820-752
+11647,zip,Invalid ZIP code,74701-601
+11654,zip,Invalid ZIP code,74820-212
+11658,zip,Invalid ZIP code,74701-805
+11677,zip,Invalid ZIP code,74701-133
+11713,zip,Invalid ZIP code,74701-456
+11873,zip,Invalid ZIP code,74701-720
+11991,zip,Invalid ZIP code,74820-728
+12000,zip,Invalid ZIP code,74820-254
+12018,zip,Invalid ZIP code,74701-860
+12043,zip,Invalid ZIP code,74820-228
+12046,zip,Invalid ZIP code,74701-332
+12090,zip,Invalid ZIP code,74955-19
+12115,zip,Invalid ZIP code,74701-810
+12117,zip,Invalid ZIP code,74701-255
+12151,zip,Invalid ZIP code,74701-842
+12159,zip,Invalid ZIP code,74701-147
+12166,zip,Invalid ZIP code,74820-755
+12221,zip,Invalid ZIP code,74701-850
+12249,zip,Invalid ZIP code,74820-750
+12254,zip,Invalid ZIP code,74701-855
+12359,zip,Invalid ZIP code,74820-769
+12381,zip,Invalid ZIP code,74820-740
+12403,zip,Invalid ZIP code,74701-829
+12419,zip,Invalid ZIP code,74701-223
+12445,zip,Invalid ZIP code,74820-273
+12462,zip,Invalid ZIP code,74820-224
+12522,zip,Invalid ZIP code,74701-141
+12575,zip,Invalid ZIP code,74701-421
+12615,zip,Invalid ZIP code,74820-753
+12626,zip,Invalid ZIP code,74701-251
+12646,zip,Invalid ZIP code,74701-336
+12676,zip,Invalid ZIP code,74701-124
+12843,zip,Invalid ZIP code,74701-338
+12912,zip,Invalid ZIP code,74820-753
+13012,zip,Invalid ZIP code,74701-146
+13087,zip,Invalid ZIP code,74701-448
+13172,zip,Invalid ZIP code,74701-448
+13202,zip,Invalid ZIP code,7.449
+13261,zip,Invalid ZIP code,74701-447
+13271,zip,Invalid ZIP code,74820-761
+13276,zip,Invalid ZIP code,74701-433
+13335,zip,Invalid ZIP code,74820-715
+13351,zip,Invalid ZIP code,74820-713
+13369,zip,Invalid ZIP code,74701-179
+13389,zip,Invalid ZIP code,74820-620
+13430,zip,Invalid ZIP code,74701-158
+13454,zip,Invalid ZIP code,74701-413
+13583,zip,Invalid ZIP code,74701-324
+13615,zip,Invalid ZIP code,74820-753
+13675,zip,Invalid ZIP code,74820-727
+13708,zip,Invalid ZIP code,74701-842
+13721,zip,Invalid ZIP code,74701-421
+13744,zip,Invalid ZIP code,74820-225
+13758,zip,Invalid ZIP code,74820-743
+13762,zip,Invalid ZIP code,73439-18
+13786,zip,Invalid ZIP code,7451
+13788,zip,Invalid ZIP code,74701-147
+13805,zip,Invalid ZIP code,Ok
+13849,zip,Invalid ZIP code,74820-254
+13880,zip,Invalid ZIP code,74701-100
+13885,zip,Invalid ZIP code,74820-228
+13895,zip,Invalid ZIP code,74820-759
+13915,zip,Invalid ZIP code,73055-35
+13918,zip,Invalid ZIP code,74701-802
+13979,zip,Invalid ZIP code,74820-753
+13987,zip,Invalid ZIP code,74820-714
+14093,zip,Invalid ZIP code,74701-333
+14243,zip,Invalid ZIP code,74701-336
+14327,zip,Invalid ZIP code,74820-220
+14376,zip,Invalid ZIP code,75071-744
+14458,zip,Invalid ZIP code,74701-848
+14473,zip,Invalid ZIP code,75452-229
+14478,zip,Invalid ZIP code,75452-199
+14555,zip,Invalid ZIP code,74701-420
+14575,zip,Invalid ZIP code,74701-420
+14671,zip,Invalid ZIP code,74701-402
+14681,zip,Invalid ZIP code,75452-259
+14783,zip,Invalid ZIP code,74701-453
+15214,zip,Invalid ZIP code,75452-199

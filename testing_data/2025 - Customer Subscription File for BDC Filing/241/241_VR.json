@@ -1,0 +1,2486 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1120,
+        "Rows with Corrections": 160,
+        "Rows with Errors": 66,
+        "PO Box Rows Removed": 54,
+        "Invalid Address Rows Removed": 2,
+        "Removed Duplicate Rows": 15,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 168,
+        "Total Errors": 85,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.09,
+        "Validation Date": "2025-08-20 08:37:41",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1049,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1049,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "101 N JOHNSTON APT B",
+            "Corrected Value": "101 N JOHNSTON",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "999 STATE RT 10 W APT 34",
+            "Corrected Value": "999 STATE RT 10 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "306 N EAST STREET",
+            "Corrected Value": "306 N E STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "209 W SOUTH STREET",
+            "Corrected Value": "209 W S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "9779 SOUTH ROAD",
+            "Corrected Value": "9779 S ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "601 EAST JOHNSON STREET",
+            "Corrected Value": "601 E JOHNSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "201 N HOWARD APT 9",
+            "Corrected Value": "201 N HOWARD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "13249 NORTH GLASGOW ROAD",
+            "Corrected Value": "13249 N GLASGOW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "704 NORTH SIDE SQUARE",
+            "Corrected Value": "704 N SIDE SQUARE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "1541 WEST AVE",
+            "Corrected Value": "1541 W AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "16478 NORTH FORK ROAD",
+            "Corrected Value": "16478 N FORK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 249,
+            "Column": "address",
+            "Original Value": "3644 NORTH 2450 EAST ROAD",
+            "Corrected Value": "3644 N 2450 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "301 S WEST STREET",
+            "Corrected Value": "301 S W STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "6881 N 1550 EAST ROAD",
+            "Corrected Value": "6881 N 1550 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "404 SOUTH FIFTH STREET",
+            "Corrected Value": "404 S FIFTH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "25177 EAST 400 NORTH ROAD",
+            "Corrected Value": "25177 E 400 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "34125 E 500 NORTH ROAD",
+            "Corrected Value": "34125 E 500 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "8765 NORTH 2600 EAST ROAD",
+            "Corrected Value": "8765 N 2600 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "18312 EAST 200 N ROAD",
+            "Corrected Value": "18312 E 200 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "403 NORTH VINE STREET",
+            "Corrected Value": "403 N VINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "7533 NORTH 1300 EAST ROAD",
+            "Corrected Value": "7533 N 1300 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Original Value": "7356 NORTH 1675 EAST ROAD",
+            "Corrected Value": "7356 N 1675 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "20292 EAST 200 NORTH ROAD",
+            "Corrected Value": "20292 E 200 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "20498 EAST 100 NORTH",
+            "Corrected Value": "20498 E 100 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "24828 EAST 875 NORTH",
+            "Corrected Value": "24828 E 875 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "3464 NORTH 2200 EAST",
+            "Corrected Value": "3464 N 2200 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "1200 N N BRANCH STREET 2ND FLOOR",
+            "Corrected Value": "1200 N N BRANCH STREET 2ND",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "308 E SOUTH STREET",
+            "Corrected Value": "308 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "400 NORTHWEST MAPLE STREET",
+            "Corrected Value": "400 NW MAPLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "3609 EAST ROAD",
+            "Corrected Value": "3609 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "8140 N 2400 EAST ROAD",
+            "Corrected Value": "8140 N 2400 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "13295 EAST 700 NORTH ROAD",
+            "Corrected Value": "13295 E 700 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "2154 NORTH STREET",
+            "Corrected Value": "2154 N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Original Value": "22995 EAST 400 NORTH ROAD",
+            "Corrected Value": "22995 E 400 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Original Value": "957 N 1075 EAST ROAD",
+            "Corrected Value": "957 N 1075 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Original Value": "3530 N 3300 EAST ROAD",
+            "Corrected Value": "3530 N 3300 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "1854 NORTH 2500 EAST ROAD",
+            "Corrected Value": "1854 N 2500 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 670,
+            "Column": "address",
+            "Original Value": "1040 UNIVERSITY AVE #200",
+            "Corrected Value": "1040 UNIVERSITY AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "5929 BAKER RD SUITE 470 ATT 19861",
+            "Corrected Value": "5929 BAKER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Original Value": "PO BOX 664  202 EAST SIDE SQUARE",
+            "Corrected Value": "PO BOX 664  202 E SIDE SQUARE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Original Value": "5126 670 EAST",
+            "Corrected Value": "5126 670 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Original Value": "505 W NORTH",
+            "Corrected Value": "505 W N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 740,
+            "Column": "address",
+            "Original Value": "26432 EST 125 NORTH ROAD",
+            "Corrected Value": "26432 EST 125 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 741,
+            "Column": "address",
+            "Original Value": "26432 EST 125 NORTH ROAD",
+            "Corrected Value": "26432 EST 125 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "23741 E 200 NORTH ROAD",
+            "Corrected Value": "23741 E 200 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "23741 E 200 NORTH ROAD",
+            "Corrected Value": "23741 E 200 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 750,
+            "Column": "address",
+            "Original Value": "2871 EAST LAKE FORK ROAD",
+            "Corrected Value": "2871 E LAKE FORK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 759,
+            "Column": "address",
+            "Original Value": "1252 WEST ROAD",
+            "Corrected Value": "1252 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "11900 SOUTH ROAD",
+            "Corrected Value": "11900 S ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 782,
+            "Column": "address",
+            "Original Value": "309 S WEST STREET",
+            "Corrected Value": "309 S W STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "address",
+            "Original Value": "13522 NORTH ROAD",
+            "Corrected Value": "13522 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "address",
+            "Original Value": "111 NORTH MAIN STREET",
+            "Corrected Value": "111 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 800,
+            "Column": "address",
+            "Original Value": "120 NORTH CENTER STREET",
+            "Corrected Value": "120 N CENTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 804,
+            "Column": "address",
+            "Original Value": "8874 NORTH 2600 EAST ROAD",
+            "Corrected Value": "8874 N 2600 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Original Value": "30279 EAST CR 900N",
+            "Corrected Value": "30279 E CR 900N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 810,
+            "Column": "address",
+            "Original Value": "13059 EAST 700 NORTH ROAD",
+            "Corrected Value": "13059 E 700 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 811,
+            "Column": "address",
+            "Original Value": "306 NORTH EWING STREET",
+            "Corrected Value": "306 N EWING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Original Value": "1561 EAST STREET",
+            "Corrected Value": "1561 E STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 821,
+            "Column": "address",
+            "Original Value": "108 NORTH MULBERRY STREET",
+            "Corrected Value": "108 N MULBERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Original Value": "237 NORTH 2700 EAST ROAD",
+            "Corrected Value": "237 N 2700 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 826,
+            "Column": "address",
+            "Original Value": "6584 WEST DUROC ROAD",
+            "Corrected Value": "6584 W DUROC ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 827,
+            "Column": "address",
+            "Original Value": "47 SOMERSET DRIVE UNIT C",
+            "Corrected Value": "47 SOMERSET DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "address",
+            "Original Value": "6272 NORTH 1475 EAST ROAD",
+            "Corrected Value": "6272 N 1475 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Original Value": "302 WEST HAMPSHIRE ROAD",
+            "Corrected Value": "302 W HAMPSHIRE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Original Value": "3630 EAST SCHOOL ROAD",
+            "Corrected Value": "3630 E SCHOOL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 832,
+            "Column": "address",
+            "Original Value": "207 SOUTH POLAND STREET",
+            "Corrected Value": "207 S POLAND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "address",
+            "Original Value": "2317 WEST DUROC ROAD",
+            "Corrected Value": "2317 W DUROC ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 837,
+            "Column": "address",
+            "Original Value": "27205 EAST 500 NORTH ROAD",
+            "Corrected Value": "27205 E 500 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Original Value": "19476 E 300 NORTH ROAD",
+            "Corrected Value": "19476 E 300 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 839,
+            "Column": "address",
+            "Original Value": "103 EAST SIDE SQUARE",
+            "Corrected Value": "103 E SIDE SQUARE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 840,
+            "Column": "address",
+            "Original Value": "2748 EAST ILLINIWICK ROAD",
+            "Corrected Value": "2748 E ILLINIWICK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "address",
+            "Original Value": "2494 NORTH 2450 EAST ROAD",
+            "Corrected Value": "2494 N 2450 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 844,
+            "Column": "address",
+            "Original Value": "5142 N 1300 EAST ROAD",
+            "Corrected Value": "5142 N 1300 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "7632 N 2700 EAST RD",
+            "Corrected Value": "7632 N 2700 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "30028 EAST 400 NORTH ROAD",
+            "Corrected Value": "30028 E 400 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 848,
+            "Column": "address",
+            "Original Value": "705 WEST JEFFERSON STREET",
+            "Corrected Value": "705 W JEFFERSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 853,
+            "Column": "address",
+            "Original Value": "213 EAST CHESTER STREET",
+            "Corrected Value": "213 E CHESTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 855,
+            "Column": "address",
+            "Original Value": "101 EAST SIDE SQUARE",
+            "Corrected Value": "101 E SIDE SQUARE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 857,
+            "Column": "address",
+            "Original Value": "308 SOUTH SPRUCE STREET",
+            "Corrected Value": "308 S SPRUCE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 865,
+            "Column": "address",
+            "Original Value": "3144 NORTH 2450 EAST ROAD",
+            "Corrected Value": "3144 N 2450 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 867,
+            "Column": "address",
+            "Original Value": "316 SOUTH WALNUT STREET",
+            "Corrected Value": "316 S WALNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 869,
+            "Column": "address",
+            "Original Value": "29033 EAST 500 NORTH ROAD",
+            "Corrected Value": "29033 E 500 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "417 WEST NORTH STREET",
+            "Corrected Value": "417 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Original Value": "1189 NORTH 1900 EAST ROAD",
+            "Corrected Value": "1189 N 1900 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Original Value": "412 SOUTH MONROE STREET",
+            "Corrected Value": "412 S MONROE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Original Value": "402 SOUTH CENTER STREET",
+            "Corrected Value": "402 S CENTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 889,
+            "Column": "address",
+            "Original Value": "779 EAST 100 NORTH ROAD",
+            "Corrected Value": "779 E 100 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Original Value": "4640 NORTH 1625 EAST ROAD",
+            "Corrected Value": "4640 N 1625 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Original Value": "2237 COUNTY ROAD 1950 N",
+            "Corrected Value": "2237 CR 1950 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 895,
+            "Column": "address",
+            "Original Value": "300 NORTH DAUPHIN STREET",
+            "Corrected Value": "300 N DAUPHIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 896,
+            "Column": "address",
+            "Original Value": "7279 EAST 1000 NORTH ROAD",
+            "Corrected Value": "7279 E 1000 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 906,
+            "Column": "address",
+            "Original Value": "17734 EAST 700 NORTH ROAD",
+            "Corrected Value": "17734 E 700 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Original Value": "109 NORTH MAPLE STREET",
+            "Corrected Value": "109 N MAPLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Original Value": "22636 EAST 400 NORTH ROAD",
+            "Corrected Value": "22636 E 400 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Original Value": "331 SOUTHEAST VINE STREET",
+            "Corrected Value": "331 SE VINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 916,
+            "Column": "address",
+            "Original Value": "7880 NORTH 1550 EAST ROAD",
+            "Corrected Value": "7880 N 1550 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Original Value": "100 EAST RACE STREET",
+            "Corrected Value": "100 E RACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 918,
+            "Column": "address",
+            "Original Value": "14418 EAST 700 NORTH ROAD",
+            "Corrected Value": "14418 E 700 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Original Value": "3845 NORTH 2825 EAST ROAD",
+            "Corrected Value": "3845 N 2825 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 923,
+            "Column": "address",
+            "Original Value": "1535 EAST HAMPSHIRE ROAD",
+            "Corrected Value": "1535 E HAMPSHIRE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 926,
+            "Column": "address",
+            "Original Value": "703 NORTH SIDE SQUARE",
+            "Corrected Value": "703 N SIDE SQUARE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Original Value": "103 WEST LINCOLN STREET",
+            "Corrected Value": "103 W LINCOLN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Original Value": "6483 NORTH 2600 EAST ROAD",
+            "Corrected Value": "6483 N 2600 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 937,
+            "Column": "address",
+            "Original Value": "104 SOUTH LOCUST STREET",
+            "Corrected Value": "104 S LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 939,
+            "Column": "address",
+            "Original Value": "503 NORTH CHESTNUT STREET",
+            "Corrected Value": "503 N CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 944,
+            "Column": "address",
+            "Original Value": "107 SOUTH HICKORY STREET",
+            "Corrected Value": "107 S HICKORY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 948,
+            "Column": "address",
+            "Original Value": "115 NORTH CHESTNUT STREET",
+            "Corrected Value": "115 N CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 952,
+            "Column": "address",
+            "Original Value": "217 WEST WALNUT STREET",
+            "Corrected Value": "217 W WALNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 954,
+            "Column": "address",
+            "Original Value": "315 NORTH LOCUST STREET",
+            "Corrected Value": "315 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 956,
+            "Column": "address",
+            "Original Value": "1545 EAST STREET",
+            "Corrected Value": "1545 E STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 958,
+            "Column": "address",
+            "Original Value": "407 SOUTH LOCUST STREET",
+            "Corrected Value": "407 S LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Original Value": "400 NORTH OAK STREET",
+            "Corrected Value": "400 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 967,
+            "Column": "address",
+            "Original Value": "212 NORTH OAK STREET",
+            "Corrected Value": "212 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 968,
+            "Column": "address",
+            "Original Value": "518 NORTH OAK STREET",
+            "Corrected Value": "518 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 970,
+            "Column": "address",
+            "Original Value": "500 SOUTH THIRD STREET",
+            "Corrected Value": "500 S THIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 971,
+            "Column": "address",
+            "Original Value": "403 NORTH LOCUST STREET",
+            "Corrected Value": "403 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 972,
+            "Column": "address",
+            "Original Value": "515 NORTH CHESTNUT STREET",
+            "Corrected Value": "515 N CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 973,
+            "Column": "address",
+            "Original Value": "615 NORTH CHESTNUT STREET",
+            "Corrected Value": "615 N CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 976,
+            "Column": "address",
+            "Original Value": "512 NORTH LOCUST STREET",
+            "Corrected Value": "512 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "address",
+            "Original Value": "312 NORTH LOCUST STREET",
+            "Corrected Value": "312 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 981,
+            "Column": "address",
+            "Original Value": "201 NORTH LOCUST STREET",
+            "Corrected Value": "201 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 982,
+            "Column": "address",
+            "Original Value": "200 SOUTH LOCUST STREET",
+            "Corrected Value": "200 S LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 984,
+            "Column": "address",
+            "Original Value": "204 WEST LINDEN STREET",
+            "Corrected Value": "204 W LINDEN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 987,
+            "Column": "address",
+            "Original Value": "6197 NORTH 1475 EAST ROAD",
+            "Corrected Value": "6197 N 1475 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 988,
+            "Column": "address",
+            "Original Value": "201 NORTH BUCHANAN STREET",
+            "Corrected Value": "201 N BUCHANAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 989,
+            "Column": "address",
+            "Original Value": "207 SOUTH LOCUST STREET",
+            "Corrected Value": "207 S LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Original Value": "8215 NORTH 1900 EAST ROAD",
+            "Corrected Value": "8215 N 1900 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 997,
+            "Column": "address",
+            "Original Value": "401 SOUTH LOCUST STREET",
+            "Corrected Value": "401 S LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 998,
+            "Column": "address",
+            "Original Value": "116 NORTH LOCUST STREET",
+            "Corrected Value": "116 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Original Value": "100 SOUTH CENTER STREET",
+            "Corrected Value": "100 S CENTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1003,
+            "Column": "address",
+            "Original Value": "604 NORTH OAK STREET",
+            "Corrected Value": "604 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Original Value": "209 WEST WHITE STREET",
+            "Corrected Value": "209 W WHITE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Original Value": "209 WEST OLIVE STREET",
+            "Corrected Value": "209 W OLIVE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1010,
+            "Column": "address",
+            "Original Value": "1546 EAST AVE",
+            "Corrected Value": "1546 E AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1013,
+            "Column": "address",
+            "Original Value": "200 NORTH MULBERRY STREET",
+            "Corrected Value": "200 N MULBERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1014,
+            "Column": "address",
+            "Original Value": "221 EAST RACE STREET",
+            "Corrected Value": "221 E RACE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1023,
+            "Column": "address",
+            "Original Value": "217 NORTH MAPLE STREET",
+            "Corrected Value": "217 N MAPLE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1024,
+            "Column": "address",
+            "Original Value": "109 NORTH MULBERRY STREET",
+            "Corrected Value": "109 N MULBERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1025,
+            "Column": "address",
+            "Original Value": "120 NORTH LOCUST STREET",
+            "Corrected Value": "120 N LOCUST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1028,
+            "Column": "address",
+            "Original Value": "107 NORTH ALBERT STREET",
+            "Corrected Value": "107 N ALBERT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1030,
+            "Column": "address",
+            "Original Value": "421 WEST NORTH STREET",
+            "Corrected Value": "421 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1031,
+            "Column": "address",
+            "Original Value": "305 NORTH DAUPHIN STREET",
+            "Corrected Value": "305 N DAUPHIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1032,
+            "Column": "address",
+            "Original Value": "410 SOUTH THIRD STREET",
+            "Corrected Value": "410 S THIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1034,
+            "Column": "address",
+            "Original Value": "108 1500 NORTH",
+            "Corrected Value": "108 1500 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1035,
+            "Column": "address",
+            "Original Value": "405 SOUTH CHESTNUT STREET",
+            "Corrected Value": "405 S CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Original Value": "221 NORTH ALBERT STREET",
+            "Corrected Value": "221 N ALBERT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1038,
+            "Column": "address",
+            "Original Value": "101 NORTH MULBERRY STREET",
+            "Corrected Value": "101 N MULBERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1039,
+            "Column": "address",
+            "Original Value": "425 NORTH CHESTNUT STREET",
+            "Corrected Value": "425 N CHESTNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Original Value": "402 SOUTH 4TH STREET",
+            "Corrected Value": "402 S 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1045,
+            "Column": "address",
+            "Original Value": "413 WEST NORTH STREET",
+            "Corrected Value": "413 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1049,
+            "Column": "address",
+            "Original Value": "200 WEST WINANS STREET",
+            "Corrected Value": "200 W WINANS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1050,
+            "Column": "address",
+            "Original Value": "120 EAST VAN BUREN STREET",
+            "Corrected Value": "120 E VAN BUREN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "lat",
+            "Original Value": -12.2162596,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "lon",
+            "Original Value": -76.9411958,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 942,
+            "Column": "lat",
+            "Original Value": -8.3917112,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 942,
+            "Column": "lon",
+            "Original Value": -74.54542,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "lon",
+            "Original Value": -85.4148663,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "lat",
+            "Original Value": 41.7976939,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 961,
+            "Column": "lat",
+            "Original Value": 49.2820673,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 961,
+            "Column": "lon",
+            "Original Value": -123.0992001,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1009,
+            "Column": "lat",
+            "Original Value": 26.6724277,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1009,
+            "Column": "lon",
+            "Original Value": -80.6402187,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1040,
+            "Column": "lat",
+            "Original Value": 31.0875584,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1040,
+            "Column": "lon",
+            "Original Value": -88.8231211,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1048,
+            "Column": "lon",
+            "Original Value": -87.4733607,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1048,
+            "Column": "lat",
+            "Original Value": 41.1763155,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2046739",
+            "Corrected Value": "2046739_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "2046638",
+            "Corrected Value": "2046638_003",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 563"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 236"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "10573 FLATLAND RD"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "10715 FLATLAND ROAD"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3222 FLATLAND ROAD"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 45"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1598 TOWERLINE DRIVE"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 443"
+        },
+        {
+            "Row": 273,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "19960E 300N RD HEYWORTH IL"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5189 TOWERLINE ROAD"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 294"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 188"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "2453 2000TH AVE PO BOX 366"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "9482N CR 3800 E"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 494"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 352"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8078 TOWERLINE DRIVE"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 114"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 407"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "11501 FLATLAND ROAD"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 572"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 26"
+        },
+        {
+            "Row": 667,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "N CR 400 E N FIRST STREET"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183028"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 311"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 664  202 E SIDE SQUARE"
+        },
+        {
+            "Row": 712,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "NICK HOFFMAN"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 166"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "JOHN LAPPIN"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TOM PRUSER"
+        },
+        {
+            "Row": 726,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SHARON COX"
+        },
+        {
+            "Row": 727,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "VANHORN"
+        },
+        {
+            "Row": 728,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "WHOW"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "N"
+        },
+        {
+            "Row": 760,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "7516 FLATLAND ROAD"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 583"
+        },
+        {
+            "Row": 802,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 21"
+        },
+        {
+            "Row": 815,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 23 404 W LINCOLN"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TABOR ROAD"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 163"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 25"
+        },
+        {
+            "Row": 1007,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 116"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 292"
+        },
+        {
+            "Row": 903,
+            "Column": "lat",
+            "Error": "Latitude for IL must be positive",
+            "Value": "-12.2162596"
+        },
+        {
+            "Row": 903,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-76.9411958"
+        },
+        {
+            "Row": 903,
+            "Column": "lon",
+            "Error": "Longitude for IL must be between -91.513079 and -87.494756",
+            "Value": "-76.9411958"
+        },
+        {
+            "Row": 942,
+            "Column": "lat",
+            "Error": "Latitude for IL must be positive",
+            "Value": "-8.3917112"
+        },
+        {
+            "Row": 942,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-74.54542"
+        },
+        {
+            "Row": 942,
+            "Column": "lon",
+            "Error": "Longitude for IL must be between -91.513079 and -87.494756",
+            "Value": "-74.54542"
+        },
+        {
+            "Row": 949,
+            "Column": "lon",
+            "Error": "Longitude for IL must be between -91.513079 and -87.494756",
+            "Value": "-85.4148663"
+        },
+        {
+            "Row": 949,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "41.7976939"
+        },
+        {
+            "Row": 961,
+            "Column": "lat",
+            "Error": "Latitude for IL must be between 36.970298 and 42.508481",
+            "Value": "49.2820673"
+        },
+        {
+            "Row": 961,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-123.0992001"
+        },
+        {
+            "Row": 961,
+            "Column": "lon",
+            "Error": "Longitude for IL must be between -91.513079 and -87.494756",
+            "Value": "-123.0992001"
+        },
+        {
+            "Row": 1009,
+            "Column": "lat",
+            "Error": "Latitude for IL must be between 36.970298 and 42.508481",
+            "Value": "26.6724277"
+        },
+        {
+            "Row": 1009,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-80.6402187"
+        },
+        {
+            "Row": 1009,
+            "Column": "lon",
+            "Error": "Longitude for IL must be between -91.513079 and -87.494756",
+            "Value": "-80.6402187"
+        },
+        {
+            "Row": 1040,
+            "Column": "lat",
+            "Error": "Latitude for IL must be between 36.970298 and 42.508481",
+            "Value": "31.0875584"
+        },
+        {
+            "Row": 1040,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-88.8231211"
+        },
+        {
+            "Row": 1048,
+            "Column": "lon",
+            "Error": "Longitude for IL must be negative",
+            "Value": "-87.4733607"
+        },
+        {
+            "Row": 1048,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "41.1763155"
+        },
+        {
+            "Row": 337,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046001_001",
+            "Value": "2046001"
+        },
+        {
+            "Row": 493,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046304_002",
+            "Value": "2046304"
+        },
+        {
+            "Row": 580,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046493"
+        },
+        {
+            "Row": 652,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046636"
+        },
+        {
+            "Row": 655,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046638"
+        },
+        {
+            "Row": 656,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046638_003",
+            "Value": "2046638"
+        },
+        {
+            "Row": 675,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046662_004",
+            "Value": "2046662"
+        },
+        {
+            "Row": 682,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046674_005",
+            "Value": "2046674"
+        },
+        {
+            "Row": 695,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046693"
+        },
+        {
+            "Row": 699,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046697"
+        },
+        {
+            "Row": 741,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2046739_006",
+            "Value": "2046739"
+        },
+        {
+            "Row": 744,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2046741"
+        },
+        {
+            "Row": 652,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046636)",
+            "Value": "2046636"
+        },
+        {
+            "Row": 754,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046751)",
+            "Value": "2046752"
+        },
+        {
+            "Row": 38,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2045558)",
+            "Value": "2045565"
+        },
+        {
+            "Row": 680,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046658)",
+            "Value": "2046671"
+        },
+        {
+            "Row": 695,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046693)",
+            "Value": "2046693"
+        },
+        {
+            "Row": 744,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046741)",
+            "Value": "2046741"
+        },
+        {
+            "Row": 699,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046697)",
+            "Value": "2046697"
+        },
+        {
+            "Row": 580,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046493)",
+            "Value": "2046493"
+        },
+        {
+            "Row": 655,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046638)",
+            "Value": "2046638"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 563"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 236"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 45"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 443"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 294"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 188"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "2453 2000TH AVE PO BOX 366"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 494"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 352"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 114"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 407"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 572"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 26"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183028"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 311"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 664  202 E SIDE SQUARE"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 166"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 583"
+        },
+        {
+            "Row": 802,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 21"
+        },
+        {
+            "Row": 815,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 23 404 W LINCOLN"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 163"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 25"
+        },
+        {
+            "Row": 1007,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 116"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 292"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 563"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 236"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 45"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 443"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 294"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 188"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "2453 2000TH AVE PO BOX 366"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 494"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 352"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 114"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 407"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 572"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 26"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183028"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 311"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 664 202 E SIDE SQUARE"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 166"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 583"
+        },
+        {
+            "Row": 802,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "P O BOX 21"
+        },
+        {
+            "Row": 815,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 23 404 W LINCOLN"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 163"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 25"
+        },
+        {
+            "Row": 1007,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 116"
+        },
+        {
+            "Row": 1040,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 292"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 728,
+            "address": "WHOW",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 730,
+            "address": "N",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 580,
+            "customer": "2046493",
+            "lat": 40.350511,
+            "lon": -88.968033,
+            "address": "4634 N 1550 E ROAD",
+            "city": "HEYWORTH",
+            "state": "IL",
+            "zip": "61745",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 652,
+            "customer": "2046636",
+            "lat": 40.0321468,
+            "lon": -88.9559368,
+            "address": "408 S WOOD STREET",
+            "city": "MAROA",
+            "state": "IL",
+            "zip": "61756",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 655,
+            "customer": "2046638",
+            "lat": 41.1011662,
+            "lon": -91.0439638,
+            "address": "1847 SUNSET ROAD",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 695,
+            "customer": "2046693",
+            "lat": 40.1501726,
+            "lon": -88.9773228,
+            "address": "8878 STATE HWY 10",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 699,
+            "customer": "2046697",
+            "lat": 40.3494946,
+            "lon": -88.7721836,
+            "address": "210 N BUCK ST",
+            "city": "LEROY",
+            "state": "IL",
+            "zip": "61752",
+            "download": 4.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 744,
+            "customer": "2046741",
+            "lat": 40.307858,
+            "lon": -88.806843,
+            "address": "23741 E 200 N ROAD",
+            "city": "LEROY",
+            "state": "IL",
+            "zip": "61752",
+            "download": 4.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 652,
+            "customer": "2046636",
+            "lat": 40.0321468,
+            "lon": -88.9559368,
+            "address": "408 S WOOD STREET",
+            "city": "MAROA",
+            "state": "IL",
+            "zip": "61756",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046636)"
+        },
+        {
+            "OrigRowNum": 754,
+            "customer": "2046752",
+            "lat": 40.0823718,
+            "lon": -88.8946368,
+            "address": "13182 JEFFERSON RD",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046751)"
+        },
+        {
+            "OrigRowNum": 38,
+            "customer": "2045565",
+            "lat": 40.1027142,
+            "lon": -88.9664817,
+            "address": "3485 NANCY LANE",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2045558)"
+        },
+        {
+            "OrigRowNum": 680,
+            "customer": "2046671",
+            "lat": 40.1293174,
+            "lon": -88.9706689,
+            "address": "9219 BLUE SAGE ROAD",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046658)"
+        },
+        {
+            "OrigRowNum": 695,
+            "customer": "2046693",
+            "lat": 40.1501726,
+            "lon": -88.9773228,
+            "address": "8878 STATE HWY 10",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046693)"
+        },
+        {
+            "OrigRowNum": 744,
+            "customer": "2046741",
+            "lat": 40.307858,
+            "lon": -88.806843,
+            "address": "23741 E 200 N ROAD",
+            "city": "LEROY",
+            "state": "IL",
+            "zip": "61752",
+            "download": 4.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046741)"
+        },
+        {
+            "OrigRowNum": 699,
+            "customer": "2046697",
+            "lat": 40.3494946,
+            "lon": -88.7721836,
+            "address": "210 N BUCK ST",
+            "city": "LEROY",
+            "state": "IL",
+            "zip": "61752",
+            "download": 4.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046697)"
+        },
+        {
+            "OrigRowNum": 580,
+            "customer": "2046493",
+            "lat": 40.350511,
+            "lon": -88.968033,
+            "address": "4634 N 1550 E ROAD",
+            "city": "HEYWORTH",
+            "state": "IL",
+            "zip": "61745",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046493)"
+        },
+        {
+            "OrigRowNum": 655,
+            "customer": "2046638",
+            "lat": 41.1011662,
+            "lon": -91.0439638,
+            "address": "1847 SUNSET ROAD",
+            "city": "CLINTON",
+            "state": "IL",
+            "zip": "61727",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2046638)"
+        }
+    ],
+    "Smarty Corrections": []
+}

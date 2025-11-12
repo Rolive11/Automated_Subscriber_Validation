@@ -1,0 +1,177 @@
+{
+    "Summary": {
+        "Total Rows Processed": 211,
+        "Rows with Corrections": 0,
+        "Rows with Errors": 7,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 5,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 0,
+        "Total Errors": 7,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.17,
+        "Validation Date": "2025-08-30 13:48:23",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 206,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 206,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [],
+    "Errors": [
+        {
+            "Row": 93,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "43 STERLING DR"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "55 STERLING DR"
+        },
+        {
+            "Row": 118,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer (was) Brittany Menize)",
+            "Value": "Gustavo Requena Santos"
+        },
+        {
+            "Row": 122,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer John Madigan)",
+            "Value": "Julian Levine"
+        },
+        {
+            "Row": 61,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Casa Mia B - Alton Daniels)",
+            "Value": "Casa Mia C - Riva Reynolds"
+        },
+        {
+            "Row": 24,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Felicia Lodato)",
+            "Value": "John Hill"
+        },
+        {
+            "Row": 176,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Margot Mellett)",
+            "Value": "Margot Mellett rental"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 118,
+            "customer": "Gustavo Requena Santos",
+            "lat": "",
+            "lon": "",
+            "address": "13 DUSTAN RD",
+            "city": "CRAFTSBURY",
+            "state": "VT",
+            "zip": "05826",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer (was) Brittany Menize)"
+        },
+        {
+            "OrigRowNum": 122,
+            "customer": "Julian Levine",
+            "lat": "",
+            "lon": "",
+            "address": "13 DUSTAN RD",
+            "city": "CRAFTSBURY",
+            "state": "VT",
+            "zip": "05826",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer John Madigan)"
+        },
+        {
+            "OrigRowNum": 61,
+            "customer": "Casa Mia C - Riva Reynolds",
+            "lat": "",
+            "lon": "",
+            "address": "26 S ALBANY RD",
+            "city": "CRAFTSBURY",
+            "state": "VT",
+            "zip": "05826",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer Casa Mia B - Alton Daniels)"
+        },
+        {
+            "OrigRowNum": 24,
+            "customer": "John Hill",
+            "lat": "",
+            "lon": "",
+            "address": "4443 VERMONT ROUTE 14",
+            "city": "CRAFTSBURY",
+            "state": "VT",
+            "zip": "05826",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer Felicia Lodato)"
+        },
+        {
+            "OrigRowNum": 176,
+            "customer": "Margot Mellett rental",
+            "lat": "",
+            "lon": "",
+            "address": "99 LAKE RD",
+            "city": "CRAFTSBURY",
+            "state": "VT",
+            "zip": "05826",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer Margot Mellett)"
+        }
+    ],
+    "Smarty Corrections": []
+}

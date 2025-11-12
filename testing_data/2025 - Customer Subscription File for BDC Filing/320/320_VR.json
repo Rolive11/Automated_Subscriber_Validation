@@ -1,0 +1,1817 @@
+{
+    "Summary": {
+        "Total Rows Processed": 515,
+        "Rows with Corrections": 81,
+        "Rows with Errors": 46,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 125,
+        "Total Errors": 2,
+        "Street Ending Errors": 44,
+        "Validation Time (seconds)": 0.65,
+        "Validation Date": "2025-07-23 08:47:22",
+        "Addresses Sent to Smarty": 44,
+        "Successful Corrections": 44,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.25,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 515,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 515,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "8291 LEBANON ROAD NASHVILLE IL",
+            "Corrected Value": "8291 LEBANON ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "212 EAST 4TH STREET",
+            "Corrected Value": "212 E 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "204 EAST THIRD STREET",
+            "Corrected Value": "204 E THIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "2052 STATE ROUTE 161 EAST",
+            "Corrected Value": "2052 STATE ROUTE 161 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "6516 EAST CAMPBELL ROAD",
+            "Corrected Value": "6516 E CAMPBELL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "113 SOUTH OAK STREET",
+            "Corrected Value": "113 S OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Original Value": "2330 EAST CALUMET STREET",
+            "Corrected Value": "2330 E CALUMET STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "200 EAST 4TH STREET",
+            "Corrected Value": "200 E 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "112 S BROADWAY",
+            "Corrected Value": "112 S BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "875 WEST BROADWAY STREET",
+            "Corrected Value": "875 W BROADWAY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "14337 SOUTH GRAND ROAD",
+            "Corrected Value": "14337 S GRAND ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "316 EAST G AVE",
+            "Corrected Value": "316 E G AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "553 EAST D AVE",
+            "Corrected Value": "553 E D AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "14723 SOUTH 7TH STREET RD",
+            "Corrected Value": "14723 S 7TH STREET RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "295 SOUTH RAILROAD STREET",
+            "Corrected Value": "295 S RAILROAD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "2124 STATE ROUTE 161 EAST",
+            "Corrected Value": "2124 STATE ROUTE 161 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "215 EAST D AVE",
+            "Corrected Value": "215 E D AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "418 EAST ST LOUIS STREET",
+            "Corrected Value": "418 E ST LOUIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "605 E HOWE",
+            "Corrected Value": "605 E HOWE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 259,
+            "Column": "address",
+            "Original Value": "266 EAST D AVE",
+            "Corrected Value": "266 E D AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "377 EAST B AVE",
+            "Corrected Value": "377 E B AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Original Value": "408 EAST E AVE",
+            "Corrected Value": "408 E E AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "108 NORTH OAK STREET",
+            "Corrected Value": "108 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Original Value": "435 EAST B AVE",
+            "Corrected Value": "435 E B AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Original Value": "74 WEST SAINT LOUIS STREET",
+            "Corrected Value": "74 W SAINT LOUIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Original Value": "19527 STATE ROUTE 177 HOYLETON",
+            "Corrected Value": "19527 STATE ROUTE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "457 EAST D AVE",
+            "Corrected Value": "457 E D AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "26 NORTH 4TH STREET",
+            "Corrected Value": "26 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "201 NORTH CHERRY STREET",
+            "Corrected Value": "201 N CHERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "385 EAST STONECIPHER ROAD",
+            "Corrected Value": "385 E STONECIPHER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "233 EAST D AVENUE",
+            "Corrected Value": "233 E D AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "23757 NORTH CARPENTER LN",
+            "Corrected Value": "23757 N CARPENTER LN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Original Value": "118 LYLE DR HOFFMAN",
+            "Corrected Value": "118 LYLE DR",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "156 EAST ST LOUIS STREET",
+            "Corrected Value": "156 E ST LOUIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "23608 N KRUPP LN WALNUT HILL",
+            "Corrected Value": "23608 N KRUPP LN",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "249 E B AVE RADOM",
+            "Corrected Value": "249 E B AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "20371 NORTH BOYD LANE",
+            "Corrected Value": "20371 N BOYD LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "111 E ST LOUIS STREET APT B",
+            "Corrected Value": "111 E ST LOUIS STREET",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 375,
+            "Column": "state",
+            "Original Value": "",
+            "Corrected Value": "IL",
+            "Correction Type": "State from ZIP Code",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "14684 COUNTY HIGHWAY 1",
+            "Corrected Value": "14684 COUNTY HIGHWAY 1",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "1439 COUNTY HIGHWAY 27",
+            "Corrected Value": "1439 COUNTY HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "7212 COUNTY HIGHWAY 17",
+            "Corrected Value": "7212 COUNTY HIGHWAY 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "zip",
+            "Original Value": "62214",
+            "Corrected Value": "62214",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "10086 COUNTY HIGHWAY 13",
+            "Corrected Value": "10086 COUNTY HIGHWAY 13",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Original Value": "12307 COUNTY HIGHWAY 27",
+            "Corrected Value": "12307 COUNTY HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "572 E MAIN",
+            "Corrected Value": "572 E MAIN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "zip",
+            "Original Value": "62801",
+            "Corrected Value": "62801",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Original Value": "218 W KERR",
+            "Corrected Value": "218 W KERR ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "449 E MAIN",
+            "Corrected Value": "449 E MAIN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "26995 COUNTY HIGHWAY 23",
+            "Corrected Value": "26995 COUNTY HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "7724 COUNTY HIGHWAY 17",
+            "Corrected Value": "7724 COUNTY HIGHWAY 17",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "zip",
+            "Original Value": "62848",
+            "Corrected Value": "62848",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "zip",
+            "Original Value": "62877",
+            "Corrected Value": "62877",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "12384 COUNTY HIGHWAY 11",
+            "Corrected Value": "12384 COUNTY HIGHWAY 11",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "9978 COUNTY HIGHWAY 27",
+            "Corrected Value": "9978 COUNTY HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "127 S MAPLE",
+            "Corrected Value": "127 S MAPLE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "211 E 3RD",
+            "Corrected Value": "211 E 3RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Original Value": "215 E 2ND",
+            "Corrected Value": "215 E 2ND ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "16531 COUNTY HIGHWAY 24",
+            "Corrected Value": "16531 COUNTY HIGHWAY 24",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "18398 WHITE TAIL RUN",
+            "Corrected Value": "18398 WHITE TAIL RUN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Original Value": "463 N SUMMIT",
+            "Corrected Value": "463 N SUMMIT ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Original Value": "12930 COUNTY HIGHWAY 27",
+            "Corrected Value": "12930 COUNTY HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "441 N SUMMIT",
+            "Corrected Value": "441 N SUMMIT ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 333,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 333,
+            "Column": "address",
+            "Original Value": "57 S 2ND",
+            "Corrected Value": "57 S 2ND",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "120 S BROADWAY",
+            "Corrected Value": "120 S BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "zip",
+            "Original Value": "62801",
+            "Corrected Value": "62801",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "1218 RACE TRACK",
+            "Corrected Value": "1218 RACE TRACK RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "9736 COUNTY HIGHWAY 27",
+            "Corrected Value": "9736 COUNTY HIGHWAY 27",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "zip",
+            "Original Value": "62801",
+            "Corrected Value": "62801",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "2508 S PINE",
+            "Corrected Value": "2508 S PINE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "zip",
+            "Original Value": "62877",
+            "Corrected Value": "62877",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "275 S SHANNON",
+            "Corrected Value": "275 S SHANNON AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "zip",
+            "Original Value": "62801",
+            "Corrected Value": "62801",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "2057 STATE RT 161",
+            "Corrected Value": "2057 STATE ROUTE 161",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 378,
+            "Column": "zip",
+            "Original Value": "62808",
+            "Corrected Value": "62808",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 378,
+            "Column": "address",
+            "Original Value": "9844 US 51",
+            "Corrected Value": "9844 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 387,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 387,
+            "Column": "address",
+            "Original Value": "217 N SUMMIT",
+            "Corrected Value": "217 N SUMMIT ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "zip",
+            "Original Value": "62808",
+            "Corrected Value": "62808",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "5078 U S HIGHWAY 51",
+            "Corrected Value": "5078 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "16136 S GRAND",
+            "Corrected Value": "16136 S GRAND RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "14968 IL-15",
+            "Corrected Value": "14968 IL-15",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "20515 SR 177",
+            "Corrected Value": "20515 SR 177",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "zip",
+            "Original Value": "62877",
+            "Corrected Value": "62877",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Original Value": "160 S OAK",
+            "Corrected Value": "160 S OAK ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "zip",
+            "Original Value": "62877",
+            "Corrected Value": "62877",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Original Value": "27857 SR 177",
+            "Corrected Value": "27857 SR 177",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "242 E MAIN",
+            "Corrected Value": "242 E MAIN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "zip",
+            "Original Value": "62876",
+            "Corrected Value": "62876",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "26751 COUNTY HIGHWAY 23",
+            "Corrected Value": "26751 COUNTY HIGHWAY 23",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "zip",
+            "Original Value": "62263",
+            "Corrected Value": "62263",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Original Value": "18481 WHITETAIL RUN",
+            "Corrected Value": "18481 WHITE TAIL RUN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "219 E 2ND",
+            "Corrected Value": "219 E 2ND ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "zip",
+            "Original Value": "62803",
+            "Corrected Value": "62803",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Original Value": "22363 COUNTY HIGHWAY 22 HOYLETON",
+            "Corrected Value": "22363 COUNTY HIGHWAY 22",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "207 N CHERRY",
+            "Corrected Value": "207 N CHERRY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "zip",
+            "Original Value": "62250",
+            "Corrected Value": "62250",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Original Value": "103 N BROADWAY",
+            "Corrected Value": "103 N BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 376,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "AIRGO"
+        },
+        {
+            "Row": 179,
+            "Column": "city",
+            "Error": "City contains forbidden character",
+            "Value": "DIX, IL"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 28,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "112 S BROADWAY"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14684 COUNTY HIGHWAY 1"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1439 COUNTY HIGHWAY 27"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7212 COUNTY HIGHWAY 17"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10086 COUNTY HIGHWAY 13"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12307 COUNTY HIGHWAY 27"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "572 E MAIN"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "218 W KERR"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "449 E MAIN"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26995 COUNTY HIGHWAY 23"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7724 COUNTY HIGHWAY 17"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "605 E HOWE"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12384 COUNTY HIGHWAY 11"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9978 COUNTY HIGHWAY 27"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "127 S MAPLE"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "211 E 3RD"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "215 E 2ND"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16531 COUNTY HIGHWAY 24"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18398 WHITE TAIL RUN"
+        },
+        {
+            "Row": 298,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "463 N SUMMIT"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12930 COUNTY HIGHWAY 27"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "441 N SUMMIT"
+        },
+        {
+            "Row": 333,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "57 S 2ND"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "120 S BROADWAY"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1218 RACE TRACK"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9736 COUNTY HIGHWAY 27"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2508 S PINE"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "275 S SHANNON"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2057 STATE RT 161"
+        },
+        {
+            "Row": 378,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9844 US 51"
+        },
+        {
+            "Row": 387,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "217 N SUMMIT"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5078 U S HIGHWAY 51"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16136 S GRAND"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14968 IL15"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20515 SR 177"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "160 S OAK"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27857 SR 177"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "242 E MAIN"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26751 COUNTY HIGHWAY 23"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18481 WHITETAIL RUN"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "219 E 2ND"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22363 COUNTY HIGHWAY 22 HOYLETON"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "207 N CHERRY"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "103 N BROADWAY"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 28,
+            "Original Address": "112 S BROADWAY",
+            "Corrected Address": "112 S BROADWAY",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.178587"
+        },
+        {
+            "OrigRowNum": 79,
+            "Original Address": "14684 COUNTY HIGHWAY 1",
+            "Corrected Address": "14684 COUNTY HIGHWAY 1",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.179516"
+        },
+        {
+            "OrigRowNum": 96,
+            "Original Address": "1439 COUNTY HIGHWAY 27",
+            "Corrected Address": "1439 COUNTY HIGHWAY 27",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.180039"
+        },
+        {
+            "OrigRowNum": 107,
+            "Original Address": "7212 COUNTY HIGHWAY 17",
+            "Corrected Address": "7212 COUNTY HIGHWAY 17",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.180527"
+        },
+        {
+            "OrigRowNum": 108,
+            "Original Address": "10086 COUNTY HIGHWAY 13",
+            "Corrected Address": "10086 COUNTY HIGHWAY 13",
+            "Original ZIP": "62214",
+            "Corrected ZIP": "62214",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.180995"
+        },
+        {
+            "OrigRowNum": 155,
+            "Original Address": "12307 COUNTY HIGHWAY 27",
+            "Corrected Address": "12307 COUNTY HIGHWAY 27",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.181346"
+        },
+        {
+            "OrigRowNum": 156,
+            "Original Address": "572 E MAIN",
+            "Corrected Address": "572 E MAIN",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.181688"
+        },
+        {
+            "OrigRowNum": 166,
+            "Original Address": "218 W KERR",
+            "Corrected Address": "218 W KERR ST",
+            "Original ZIP": "62801",
+            "Corrected ZIP": "62801",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.182038"
+        },
+        {
+            "OrigRowNum": 167,
+            "Original Address": "449 E MAIN",
+            "Corrected Address": "449 E MAIN",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.182382"
+        },
+        {
+            "OrigRowNum": 213,
+            "Original Address": "26995 COUNTY HIGHWAY 23",
+            "Corrected Address": "26995 COUNTY HIGHWAY 23",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.182720"
+        },
+        {
+            "OrigRowNum": 226,
+            "Original Address": "7724 COUNTY HIGHWAY 17",
+            "Corrected Address": "7724 COUNTY HIGHWAY 17",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.183057"
+        },
+        {
+            "OrigRowNum": 236,
+            "Original Address": "605 E HOWE",
+            "Corrected Address": "605 E HOWE AVE",
+            "Original ZIP": "62848",
+            "Corrected ZIP": "62848",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.183404"
+        },
+        {
+            "OrigRowNum": 244,
+            "Original Address": "12384 COUNTY HIGHWAY 11",
+            "Corrected Address": "12384 COUNTY HIGHWAY 11",
+            "Original ZIP": "62877",
+            "Corrected ZIP": "62877",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.183734"
+        },
+        {
+            "OrigRowNum": 251,
+            "Original Address": "9978 COUNTY HIGHWAY 27",
+            "Corrected Address": "9978 COUNTY HIGHWAY 27",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.184064"
+        },
+        {
+            "OrigRowNum": 254,
+            "Original Address": "127 S MAPLE",
+            "Corrected Address": "127 S MAPLE ST",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.184398"
+        },
+        {
+            "OrigRowNum": 266,
+            "Original Address": "211 E 3RD",
+            "Corrected Address": "211 E 3RD ST",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.184730"
+        },
+        {
+            "OrigRowNum": 283,
+            "Original Address": "215 E 2ND",
+            "Corrected Address": "215 E 2ND ST",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.185058"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "16531 COUNTY HIGHWAY 24",
+            "Corrected Address": "16531 COUNTY HIGHWAY 24",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.185340"
+        },
+        {
+            "OrigRowNum": 296,
+            "Original Address": "18398 WHITE TAIL RUN",
+            "Corrected Address": "18398 WHITE TAIL RUN RD",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.185613"
+        },
+        {
+            "OrigRowNum": 298,
+            "Original Address": "463 N SUMMIT",
+            "Corrected Address": "463 N SUMMIT ST",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.185888"
+        },
+        {
+            "OrigRowNum": 301,
+            "Original Address": "12930 COUNTY HIGHWAY 27",
+            "Corrected Address": "12930 COUNTY HIGHWAY 27",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.186163"
+        },
+        {
+            "OrigRowNum": 314,
+            "Original Address": "441 N SUMMIT",
+            "Corrected Address": "441 N SUMMIT ST",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.186438"
+        },
+        {
+            "OrigRowNum": 333,
+            "Original Address": "57 S 2ND",
+            "Corrected Address": "57 S 2ND",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.186708"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "120 S BROADWAY",
+            "Corrected Address": "120 S BROADWAY",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.186980"
+        },
+        {
+            "OrigRowNum": 347,
+            "Original Address": "1218 RACE TRACK",
+            "Corrected Address": "1218 RACE TRACK RD",
+            "Original ZIP": "62801",
+            "Corrected ZIP": "62801",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.187238"
+        },
+        {
+            "OrigRowNum": 349,
+            "Original Address": "9736 COUNTY HIGHWAY 27",
+            "Corrected Address": "9736 COUNTY HIGHWAY 27",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.187516"
+        },
+        {
+            "OrigRowNum": 356,
+            "Original Address": "2508 S PINE",
+            "Corrected Address": "2508 S PINE ST",
+            "Original ZIP": "62801",
+            "Corrected ZIP": "62801",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.187780"
+        },
+        {
+            "OrigRowNum": 364,
+            "Original Address": "275 S SHANNON",
+            "Corrected Address": "275 S SHANNON AVE",
+            "Original ZIP": "62877",
+            "Corrected ZIP": "62877",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.188031"
+        },
+        {
+            "OrigRowNum": 371,
+            "Original Address": "2057 STATE RT 161",
+            "Corrected Address": "2057 STATE ROUTE 161",
+            "Original ZIP": "62801",
+            "Corrected ZIP": "62801",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.188303"
+        },
+        {
+            "OrigRowNum": 378,
+            "Original Address": "9844 US 51",
+            "Corrected Address": "9844 US HIGHWAY 51",
+            "Original ZIP": "62808",
+            "Corrected ZIP": "62808",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.188573"
+        },
+        {
+            "OrigRowNum": 387,
+            "Original Address": "217 N SUMMIT",
+            "Corrected Address": "217 N SUMMIT ST",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.188847"
+        },
+        {
+            "OrigRowNum": 424,
+            "Original Address": "5078 U S HIGHWAY 51",
+            "Corrected Address": "5078 US HIGHWAY 51",
+            "Original ZIP": "62808",
+            "Corrected ZIP": "62808",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189166"
+        },
+        {
+            "OrigRowNum": 431,
+            "Original Address": "16136 S GRAND",
+            "Corrected Address": "16136 S GRAND RD",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189340"
+        },
+        {
+            "OrigRowNum": 440,
+            "Original Address": "14968 IL-15",
+            "Corrected Address": "14968 IL-15",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189497"
+        },
+        {
+            "OrigRowNum": 446,
+            "Original Address": "20515 SR 177",
+            "Corrected Address": "20515 SR 177",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189650"
+        },
+        {
+            "OrigRowNum": 451,
+            "Original Address": "160 S OAK",
+            "Corrected Address": "160 S OAK ST",
+            "Original ZIP": "62877",
+            "Corrected ZIP": "62877",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189808"
+        },
+        {
+            "OrigRowNum": 456,
+            "Original Address": "27857 SR 177",
+            "Corrected Address": "27857 SR 177",
+            "Original ZIP": "62877",
+            "Corrected ZIP": "62877",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.189957"
+        },
+        {
+            "OrigRowNum": 473,
+            "Original Address": "242 E MAIN",
+            "Corrected Address": "242 E MAIN",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190102"
+        },
+        {
+            "OrigRowNum": 481,
+            "Original Address": "26751 COUNTY HIGHWAY 23",
+            "Corrected Address": "26751 COUNTY HIGHWAY 23",
+            "Original ZIP": "62876",
+            "Corrected ZIP": "62876",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190246"
+        },
+        {
+            "OrigRowNum": 483,
+            "Original Address": "18481 WHITETAIL RUN",
+            "Corrected Address": "18481 WHITE TAIL RUN RD",
+            "Original ZIP": "62263",
+            "Corrected ZIP": "62263",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190397"
+        },
+        {
+            "OrigRowNum": 494,
+            "Original Address": "219 E 2ND",
+            "Corrected Address": "219 E 2ND ST",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190541"
+        },
+        {
+            "OrigRowNum": 502,
+            "Original Address": "22363 COUNTY HIGHWAY 22 HOYLETON",
+            "Corrected Address": "22363 COUNTY HIGHWAY 22",
+            "Original ZIP": "62803",
+            "Corrected ZIP": "62803",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190685"
+        },
+        {
+            "OrigRowNum": 508,
+            "Original Address": "207 N CHERRY",
+            "Corrected Address": "207 N CHERRY ST",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190833"
+        },
+        {
+            "OrigRowNum": 514,
+            "Original Address": "103 N BROADWAY",
+            "Corrected Address": "103 N BROADWAY",
+            "Original ZIP": "62250",
+            "Corrected ZIP": "62250",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-23T08:47:22.190968"
+        }
+    ]
+}

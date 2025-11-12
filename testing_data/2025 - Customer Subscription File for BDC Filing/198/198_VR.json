@@ -1,0 +1,929 @@
+{
+    "Summary": {
+        "Total Rows Processed": 173,
+        "Rows with Corrections": 8,
+        "Rows with Errors": 55,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 25,
+        "Removed Duplicate Rows": 11,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 8,
+        "Total Errors": 61,
+        "Street Ending Errors": 19,
+        "Validation Time (seconds)": 0.17,
+        "Validation Date": "2025-08-12 06:50:18",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Invalid",
+        "Validation Reason": "File contains 25 rows (18.25%) with address issues, exceeding the 0.0% threshold for 137 subscribers. Manual address review required.",
+        "Total Subscribers in Final File": 137,
+        "Address Errors Found": 25,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 18.25,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": true
+    },
+    "File Validation Details": {
+        "file_status": "Invalid",
+        "validation_reason": "File contains 25 rows (18.25%) with address issues, exceeding the 0.0% threshold for 137 subscribers. Manual address review required.",
+        "total_subscribers": 137,
+        "address_error_count": 25,
+        "non_address_error_count": 0,
+        "address_error_percentage": 18.25,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [
+            2,
+            3,
+            4,
+            5,
+            132,
+            7,
+            10,
+            20,
+            25,
+            36,
+            38,
+            44,
+            47,
+            48,
+            58,
+            63,
+            69,
+            79,
+            80,
+            82,
+            90,
+            113,
+            114,
+            116,
+            118
+        ],
+        "requires_manual_review": true
+    },
+    "Corrections": [
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "7112 HIGHWAY 90 EAST",
+            "Corrected Value": "7112 HIGHWAY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "6805 HIGHWAY 90 EAST",
+            "Corrected Value": "6805 HIGHWAY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "5703 FRONTAGE RD E HIGHWAY 90",
+            "Corrected Value": "5703 FRONTAGE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "5718 HIGHWAY 90 EAST",
+            "Corrected Value": "5718 HIGHWAY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "6204 HIGH 90 EAST",
+            "Corrected Value": "6204 HIGH 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Original Value": "6711 HIGHWAY 90 EAST",
+            "Corrected Value": "6711 HIGHWAY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "5113 HWY 90 EAST",
+            "Corrected Value": "5113 HWY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "5109 HWY 90 EAST",
+            "Corrected Value": "5109 HWY 90 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 60)",
+            "Value": "84"
+        },
+        {
+            "Row": 91,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 60)",
+            "Value": "91"
+        },
+        {
+            "Row": 72,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 70)",
+            "Value": "72"
+        },
+        {
+            "Row": 81,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 70)",
+            "Value": "81"
+        },
+        {
+            "Row": 85,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 70)",
+            "Value": "85"
+        },
+        {
+            "Row": 89,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 67)",
+            "Value": "89"
+        },
+        {
+            "Row": 93,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 67)",
+            "Value": "93"
+        },
+        {
+            "Row": 61,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 59)",
+            "Value": "61"
+        },
+        {
+            "Row": 78,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 59)",
+            "Value": "78"
+        },
+        {
+            "Row": 115,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 59)",
+            "Value": "115"
+        },
+        {
+            "Row": 88,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 73)",
+            "Value": "88"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8419 LAURIE STRETT"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3511 SILVER CANE"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7112 HIGHWAY 90 E"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6518 E ADMIRAL DOYLE DRIIVE"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6109 E HWY 90"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5203 E ADMIRAL DOYLE"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6805 HIGHWAY 90 E"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5607 E ADMIRAL DOYLE"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5718 HIGHWAY 90 E"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6204 HIGH 90 E"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6000 E HWY 90"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6711 HIGHWAY 90 E"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6105 E HWY 90"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6105 E HIGH 90"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5113 HWY 90 E"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5109 HWY 90 E"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8218 E ADMIRAL DOYLE"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6616 E ADMIRAL DOYLE"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5614 E ADMIRAL DOYLE"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 2,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 3,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 4,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 5,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 7,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 10,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 20,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 25,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 36,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 38,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 44,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 47,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 48,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 58,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 63,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 69,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 79,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 80,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 82,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 90,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 113,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 114,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 116,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 118,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 132,
+            "address": "",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 84,
+            "customer": "84",
+            "lat": "29.9474441",
+            "lon": "-91.7701533",
+            "address": "2304 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 60)"
+        },
+        {
+            "OrigRowNum": 91,
+            "customer": "91",
+            "lat": "29.9474441",
+            "lon": "-91.7701533",
+            "address": "2304 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 60)"
+        },
+        {
+            "OrigRowNum": 72,
+            "customer": "72",
+            "lat": "29.9474441",
+            "lon": "-91.7701533",
+            "address": "2304 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 6.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 70)"
+        },
+        {
+            "OrigRowNum": 81,
+            "customer": "81",
+            "lat": "29.9474441",
+            "lon": "-91.7701533",
+            "address": "2304 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 6.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 70)"
+        },
+        {
+            "OrigRowNum": 85,
+            "customer": "85",
+            "lat": "29.9474441",
+            "lon": "-91.7701533",
+            "address": "2304 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 6.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 70)"
+        },
+        {
+            "OrigRowNum": 89,
+            "customer": "89",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 67)"
+        },
+        {
+            "OrigRowNum": 93,
+            "customer": "93",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 67)"
+        },
+        {
+            "OrigRowNum": 61,
+            "customer": "61",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 59)"
+        },
+        {
+            "OrigRowNum": 78,
+            "customer": "78",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 59)"
+        },
+        {
+            "OrigRowNum": 115,
+            "customer": "115",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 15.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 59)"
+        },
+        {
+            "OrigRowNum": 88,
+            "customer": "88",
+            "lat": "29.9481008",
+            "lon": "-91.7706388",
+            "address": "2300 DARNALL ROAD ",
+            "city": "NEW IBERIA",
+            "state": "LA",
+            "zip": "70560",
+            "download": 6.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 73)"
+        }
+    ],
+    "Smarty Corrections": []
+}

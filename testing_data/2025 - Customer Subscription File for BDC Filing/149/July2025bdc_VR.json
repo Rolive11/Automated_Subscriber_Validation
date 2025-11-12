@@ -1,0 +1,728 @@
+{
+    "Summary": {
+        "Total Rows Processed": 162,
+        "Rows with Corrections": 10,
+        "Rows with Errors": 35,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 19,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 14,
+        "Total Errors": 31,
+        "Street Ending Errors": 4,
+        "Validation Time (seconds)": 0.52,
+        "Validation Date": "2025-07-27 15:55:47",
+        "Addresses Sent to Smarty": 4,
+        "Successful Corrections": 4,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.37,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 143,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 143,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "200 WEST FORSYTH STREET",
+            "Corrected Value": "200 W FORSYTH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "218 EAST ASHLEY STREET",
+            "Corrected Value": "218 E ASHLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "610 EAST BAY ST",
+            "Corrected Value": "610 E BAY ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2286",
+            "Corrected Value": "2286_012",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "2257",
+            "Corrected Value": "2257_010",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "2257",
+            "Corrected Value": "2257_011",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "zip",
+            "Original Value": "32204",
+            "Corrected Value": "32204",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "701 RIVERSIDE PARK PLK",
+            "Corrected Value": "701 RIVERSIDE PARK PL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "zip",
+            "Original Value": "32216",
+            "Corrected Value": "32216",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "5911 PHILIPS HWY",
+            "Corrected Value": "5911 PHILIPS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "zip",
+            "Original Value": "32216",
+            "Corrected Value": "32216",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "6123 PHILIPS HWY",
+            "Corrected Value": "6123 PHILIPS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "zip",
+            "Original Value": "32216",
+            "Corrected Value": "32216",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "5911 PHILIPS HWY",
+            "Corrected Value": "5911 PHILIPS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 30,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2007_001",
+            "Value": "2007"
+        },
+        {
+            "Row": 33,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2007_002",
+            "Value": "2007"
+        },
+        {
+            "Row": 38,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2050_003",
+            "Value": "2050"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2050_004",
+            "Value": "2050"
+        },
+        {
+            "Row": 40,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2050_005",
+            "Value": "2050"
+        },
+        {
+            "Row": 63,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2162_006",
+            "Value": "2162"
+        },
+        {
+            "Row": 80,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2248_007",
+            "Value": "2248"
+        },
+        {
+            "Row": 81,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2248_008",
+            "Value": "2248"
+        },
+        {
+            "Row": 85,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2257_009",
+            "Value": "2257"
+        },
+        {
+            "Row": 86,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2257_010",
+            "Value": "2257"
+        },
+        {
+            "Row": 87,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2257_011",
+            "Value": "2257"
+        },
+        {
+            "Row": 99,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2286_012",
+            "Value": "2286"
+        },
+        {
+            "Row": 142,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2219)",
+            "Value": "2395"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1939)",
+            "Value": "1971"
+        },
+        {
+            "Row": 66,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1939)",
+            "Value": "2205"
+        },
+        {
+            "Row": 107,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2178)",
+            "Value": "2321"
+        },
+        {
+            "Row": 72,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1045)",
+            "Value": "2221"
+        },
+        {
+            "Row": 78,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1045)",
+            "Value": "2238"
+        },
+        {
+            "Row": 114,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2066)",
+            "Value": "2336"
+        },
+        {
+            "Row": 137,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2066)",
+            "Value": "2383"
+        },
+        {
+            "Row": 75,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2202)",
+            "Value": "2237"
+        },
+        {
+            "Row": 62,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2163)",
+            "Value": "2192"
+        },
+        {
+            "Row": 92,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2163)",
+            "Value": "2269"
+        },
+        {
+            "Row": 95,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046)",
+            "Value": "2275"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2046)",
+            "Value": "2308"
+        },
+        {
+            "Row": 101,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2284)",
+            "Value": "2293"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2354)",
+            "Value": "2397"
+        },
+        {
+            "Row": 139,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2352)",
+            "Value": "2386"
+        },
+        {
+            "Row": 141,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2375)",
+            "Value": "2393"
+        },
+        {
+            "Row": 79,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2247)",
+            "Value": "2248"
+        },
+        {
+            "Row": 111,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2286)",
+            "Value": "2327"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "701 RIVERSIDE PARK PLK"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5911 PHILIPS HWY"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6123 PHILIPS HWY"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5911 PHILIPS HWY"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 142,
+            "customer": "2395",
+            "lat": "",
+            "lon": "",
+            "address": "1 INDEPENDANT DRIVE",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2219)"
+        },
+        {
+            "OrigRowNum": 19,
+            "customer": "1971",
+            "lat": "",
+            "lon": "",
+            "address": "1 INDEPENDENT DR",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1939)"
+        },
+        {
+            "OrigRowNum": 66,
+            "customer": "2205",
+            "lat": "",
+            "lon": "",
+            "address": "1 INDEPENDENT DR",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1939)"
+        },
+        {
+            "OrigRowNum": 107,
+            "customer": "2321",
+            "lat": "",
+            "lon": "",
+            "address": "100 N LAURA ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2178)"
+        },
+        {
+            "OrigRowNum": 72,
+            "customer": "2221",
+            "lat": "",
+            "lon": "",
+            "address": "1000 RIVERSIDE AVE",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32204",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1045)"
+        },
+        {
+            "OrigRowNum": 78,
+            "customer": "2238",
+            "lat": "",
+            "lon": "",
+            "address": "1000 RIVERSIDE AVE",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32204",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 1045)"
+        },
+        {
+            "OrigRowNum": 114,
+            "customer": "2336",
+            "lat": "",
+            "lon": "",
+            "address": "1022 PARK ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32204",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2066)"
+        },
+        {
+            "OrigRowNum": 137,
+            "customer": "2383",
+            "lat": "",
+            "lon": "",
+            "address": "1022 PARK ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32204",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2066)"
+        },
+        {
+            "OrigRowNum": 75,
+            "customer": "2237",
+            "lat": "",
+            "lon": "",
+            "address": "1300 RIVERPLACE BLVD",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32207",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2202)"
+        },
+        {
+            "OrigRowNum": 62,
+            "customer": "2192",
+            "lat": "",
+            "lon": "",
+            "address": "1301 RIVERPLACE BLVD",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32207",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2163)"
+        },
+        {
+            "OrigRowNum": 92,
+            "customer": "2269",
+            "lat": "",
+            "lon": "",
+            "address": "1301 RIVERPLACE BLVD",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32207",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2163)"
+        },
+        {
+            "OrigRowNum": 95,
+            "customer": "2275",
+            "lat": "",
+            "lon": "",
+            "address": "200 W FORSYTH ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2046)"
+        },
+        {
+            "OrigRowNum": 104,
+            "customer": "2308",
+            "lat": "",
+            "lon": "",
+            "address": "200 W FORSYTH ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2046)"
+        },
+        {
+            "OrigRowNum": 101,
+            "customer": "2293",
+            "lat": "",
+            "lon": "",
+            "address": "218 W CHURCH ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2284)"
+        },
+        {
+            "OrigRowNum": 143,
+            "customer": "2397",
+            "lat": "",
+            "lon": "",
+            "address": "218 W CHURCH ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "ethernet",
+            "Error": "Data-based duplicate (same as customer 2354)"
+        },
+        {
+            "OrigRowNum": 139,
+            "customer": "2386",
+            "lat": "",
+            "lon": "",
+            "address": "28 W FORSYTH ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2352)"
+        },
+        {
+            "OrigRowNum": 141,
+            "customer": "2393",
+            "lat": "",
+            "lon": "",
+            "address": "45 W BAY ST",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32202",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2375)"
+        },
+        {
+            "OrigRowNum": 79,
+            "customer": "2248",
+            "lat": "",
+            "lon": "",
+            "address": "7051 SOUTHPOINT PKWY",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32256",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2247)"
+        },
+        {
+            "OrigRowNum": 111,
+            "customer": "2327",
+            "lat": "",
+            "lon": "",
+            "address": "7775 BAYMEADOWS WAY",
+            "city": "JACKSONVILLE",
+            "state": "FL",
+            "zip": "32256",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 2286)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 8,
+            "Original Address": "701 RIVERSIDE PARK PLK",
+            "Corrected Address": "701 RIVERSIDE PARK PL",
+            "Original ZIP": "32204",
+            "Corrected ZIP": "32204",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-27T15:55:47.081678"
+        },
+        {
+            "OrigRowNum": 74,
+            "Original Address": "5911 PHILIPS HWY",
+            "Corrected Address": "5911 PHILIPS HWY",
+            "Original ZIP": "32216",
+            "Corrected ZIP": "32216",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-27T15:55:47.083160"
+        },
+        {
+            "OrigRowNum": 100,
+            "Original Address": "6123 PHILIPS HWY",
+            "Corrected Address": "6123 PHILIPS HWY",
+            "Original ZIP": "32216",
+            "Corrected ZIP": "32216",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-27T15:55:47.083837"
+        },
+        {
+            "OrigRowNum": 102,
+            "Original Address": "5911 PHILIPS HWY",
+            "Corrected Address": "5911 PHILIPS HWY",
+            "Original ZIP": "32216",
+            "Corrected ZIP": "32216",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-27T15:55:47.084356"
+        }
+    ]
+}

@@ -1,0 +1,4969 @@
+{
+    "Summary": {
+        "Total Rows Processed": 652,
+        "Rows with Corrections": 248,
+        "Rows with Errors": 111,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 16,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 350,
+        "Total Errors": 18,
+        "Street Ending Errors": 102,
+        "Validation Time (seconds)": 1.36,
+        "Validation Date": "2025-08-05 09:34:14",
+        "Addresses Sent to Smarty": 102,
+        "Successful Corrections": 102,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.84,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 634,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 634,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "1007 W AMITY",
+            "Corrected Value": "1007 W AMITY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "7 S BERKLEY",
+            "Corrected Value": "7 S BERKLEY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "6120 WEST 335TH STREET",
+            "Corrected Value": "6120 W 335TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "3995 WEST 239TH STREET",
+            "Corrected Value": "3995 W 239TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "21905 W 319TH",
+            "Corrected Value": "21905 W 319TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "5936 WEST 327TH STREET",
+            "Corrected Value": "5936 W 327TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "14010 WEST 319TH STREET",
+            "Corrected Value": "14010 W 319TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "14010 WEST 319TH STREET",
+            "Corrected Value": "14010 W 319TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "5607 WEST 223RD STREET",
+            "Corrected Value": "5607 W 223RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "120 EAST MAIN STREET",
+            "Corrected Value": "120 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "1500 WEST AMITY STREET",
+            "Corrected Value": "1500 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "13820 WEST 319TH STREET",
+            "Corrected Value": "13820 W 319TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "1 SOUTH BROADWAY STREET",
+            "Corrected Value": "1 S BROADWAY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "608 SOUTH METCALF ROAD",
+            "Corrected Value": "608 S METCALF ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "10820 WEST 290TH TERRACE",
+            "Corrected Value": "10820 W 290TH TERRACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "1118 AUTUMN CIRCLE #2",
+            "Corrected Value": "1118 AUTUMN CIRCLE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "5610 WEST 319TH STREET",
+            "Corrected Value": "5610 W 319TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "1007 WEST AMITY STREET",
+            "Corrected Value": "1007 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "209 WEST MAIN ST",
+            "Corrected Value": "209 W MAIN ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "5 SOUTH ROGERS RD",
+            "Corrected Value": "5 S ROGERS RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "10811 WEST 215TH STREET",
+            "Corrected Value": "10811 W 215TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "11243 WEST 295TH STREET",
+            "Corrected Value": "11243 W 295TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "18070 WEST 343RD ST",
+            "Corrected Value": "18070 W 343RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "11469 W 335TH",
+            "Corrected Value": "11469 W 335TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "address",
+            "Original Value": "16030 WEST 311TH ST",
+            "Corrected Value": "16030 W 311TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "30456 WEST 272ND ST",
+            "Corrected Value": "30456 W 272ND ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "8276 W 335TH",
+            "Corrected Value": "8276 W 335TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "14100 W 223RD",
+            "Corrected Value": "14100 W 223RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "16046 WEST 343RD STREET",
+            "Corrected Value": "16046 W 343RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "2 SOUTH GOLD STREET",
+            "Corrected Value": "2 S GOLD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "701 NORTH LINCOLN STREET",
+            "Corrected Value": "701 N LINCOLN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "8070 WEST 295TH ST",
+            "Corrected Value": "8070 W 295TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "6746 W 231ST",
+            "Corrected Value": "6746 W 231ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "19393 W 271ST",
+            "Corrected Value": "19393 W 271ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "12880 WEST 343RD STREET",
+            "Corrected Value": "12880 W 343RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "108 N BROADWAY",
+            "Corrected Value": "108 N BROADWAY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "13340 W 287TH",
+            "Corrected Value": "13340 W 287TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Original Value": "12040 WEST 271ST ST",
+            "Corrected Value": "12040 W 271ST ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "213 N 6TH TERR",
+            "Corrected Value": "213 N 6TH TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "9888 W 231ST",
+            "Corrected Value": "9888 W 231ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "9863 WEST 359TH STREET",
+            "Corrected Value": "9863 W 359TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "17645 WEST 319TH STREET",
+            "Corrected Value": "17645 W 319TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "address",
+            "Original Value": "19739 WEST 343 STREET",
+            "Corrected Value": "19739 W 343 STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "1105 NORTH 1ST STREET EAST",
+            "Corrected Value": "1105 N 1ST STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "1512 SOUTH 4TH ST EAST",
+            "Corrected Value": "1512 S 4TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "15176 W 267TH",
+            "Corrected Value": "15176 W 267TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "202 SOUTH 10TH STREET",
+            "Corrected Value": "202 S 10TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "1202 N 1ST ST EAST",
+            "Corrected Value": "1202 N 1ST ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "18310 WEST 287TH STREET",
+            "Corrected Value": "18310 W 287TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 195,
+            "Column": "address",
+            "Original Value": "2210 WEST 247TH ST",
+            "Corrected Value": "2210 W 247TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "305 SOUTH ELM STREET",
+            "Corrected Value": "305 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "19799 WEST 271ST STREET",
+            "Corrected Value": "19799 W 271ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "13847 WEST 323RD STREET",
+            "Corrected Value": "13847 W 323RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "33960 SOUTH HOSPITAL DRIVE",
+            "Corrected Value": "33960 S HOSPITAL DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Original Value": "3715 WEST 327TH STREET",
+            "Corrected Value": "3715 W 327TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "1006 S METCALF",
+            "Corrected Value": "1006 S METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "101 S 7TH",
+            "Corrected Value": "101 S 7TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "230 NORTH 5TH TERRACE",
+            "Corrected Value": "230 N 5TH TERRACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "9030 WEST 223RD STREET",
+            "Corrected Value": "9030 W 223RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "9030 WEST 223RD STREET",
+            "Corrected Value": "9030 W 223RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "401 S METCALF",
+            "Corrected Value": "401 S METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Original Value": "1219 NORTH FIRST STREET EAST",
+            "Corrected Value": "1219 N FIRST STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "7 SOUTH 4TH ST",
+            "Corrected Value": "7 S 4TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "302 S BROADWAY",
+            "Corrected Value": "302 S BROADWAY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Original Value": "504 S METCALF",
+            "Corrected Value": "504 S METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "1517 SOUTH 6TH ST EAST",
+            "Corrected Value": "1517 S 6TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Original Value": "106 W AMITY SUITE B",
+            "Corrected Value": "106 W AMITY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "1501 N 10TH ST EAST",
+            "Corrected Value": "1501 N 10TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 249,
+            "Column": "address",
+            "Original Value": "3448 WEST 295TH ST",
+            "Corrected Value": "3448 W 295TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "1007 WEST AMITY STREET",
+            "Corrected Value": "1007 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 259,
+            "Column": "address",
+            "Original Value": "11740 WEST 255TH ST",
+            "Corrected Value": "11740 W 255TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "15355 WEST 263RD ST",
+            "Corrected Value": "15355 W 263RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "2496 W 263RD",
+            "Corrected Value": "2496 W 263RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "705 S DOYLE",
+            "Corrected Value": "705 S DOYLE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "207 S 2ND E",
+            "Corrected Value": "207 S 2ND ST E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "1008 NORTH 2ND ST E",
+            "Corrected Value": "1008 N 2ND ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "708 SOUTH 7TH ST",
+            "Corrected Value": "708 S 7TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "14035 WEST 299TH ST",
+            "Corrected Value": "14035 W 299TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "12310 W 311TH",
+            "Corrected Value": "12310 W 311TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "26664 WEST 295TH ST",
+            "Corrected Value": "26664 W 295TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 273,
+            "Column": "address",
+            "Original Value": "19720 WEST 271ST ST",
+            "Corrected Value": "19720 W 271ST ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "1516 S 5TH ST EAST",
+            "Corrected Value": "1516 S 5TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Original Value": "105 SOUTH ROGERS ROAD",
+            "Corrected Value": "105 S ROGERS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "1207 NORTH 4TH STREET EAST",
+            "Corrected Value": "1207 N 4TH STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "5850 WEST 335TH STREET",
+            "Corrected Value": "5850 W 335TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "16755 WEST 299TH STREET",
+            "Corrected Value": "16755 W 299TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "205 SOUTH 2ND STREET EAST",
+            "Corrected Value": "205 S 2ND STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "3591 WEST 223 STREET",
+            "Corrected Value": "3591 W 223 STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "1210 NORTH 3RD ST EAST",
+            "Corrected Value": "1210 N 3RD ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "12900 WEST 311TH STREET",
+            "Corrected Value": "12900 W 311TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "6035 WEST 255TH STREET",
+            "Corrected Value": "6035 W 255TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "702 SOUTH 1ST STREET",
+            "Corrected Value": "702 S 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "20450 W 335TH",
+            "Corrected Value": "20450 W 335TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "19480 WEST 335TH ST",
+            "Corrected Value": "19480 W 335TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Original Value": "15341 W 359TH",
+            "Corrected Value": "15341 W 359TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "19310 W 343RD",
+            "Corrected Value": "19310 W 343RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "24688 W 343RD",
+            "Corrected Value": "24688 W 343RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "21370 WEST 335TH STREET",
+            "Corrected Value": "21370 W 335TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "14906 WEST 303RD ST",
+            "Corrected Value": "14906 W 303RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Original Value": "2349 WEST 263RD STREET",
+            "Corrected Value": "2349 W 263RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Original Value": "4175 W 375TH",
+            "Corrected Value": "4175 W 375TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "18155 W 319TH",
+            "Corrected Value": "18155 W 319TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "6905 WEST 263RD ST",
+            "Corrected Value": "6905 W 263RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "500 SOUTH 5TH STREET",
+            "Corrected Value": "500 S 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "23909 TRAIL RIDGE PASS",
+            "Corrected Value": "23909 TRAIL",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Original Value": "17524 WEST 351ST STREET",
+            "Corrected Value": "17524 W 351ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "5797 WEST 375TH STREET",
+            "Corrected Value": "5797 W 375TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Original Value": "16315 W 359TH",
+            "Corrected Value": "16315 W 359TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "16495 WEST 263RD ST",
+            "Corrected Value": "16495 W 263RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Original Value": "5865 WEST 223RD ST",
+            "Corrected Value": "5865 W 223RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Original Value": "13909 W 343RD",
+            "Corrected Value": "13909 W 343RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "11997 WEST 295TH STREET",
+            "Corrected Value": "11997 W 295TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "106 EAST 259TH STREET",
+            "Corrected Value": "106 E 259TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "305 NORTH 14TH ST",
+            "Corrected Value": "305 N 14TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Original Value": "1410 S 5TH ST EAST",
+            "Corrected Value": "1410 S 5TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "24608 TRAIL RIDGE PASS",
+            "Corrected Value": "24608 TRAIL",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "506 NORTH 5TH STREET",
+            "Corrected Value": "506 N 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "1441 S 5TH ST EAST",
+            "Corrected Value": "1441 S 5TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "32856 WEST 271ST STREET",
+            "Corrected Value": "32856 W 271ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "7963 W 295TH",
+            "Corrected Value": "7963 W 295TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "1522 SOUTH 4TH ST EAST",
+            "Corrected Value": "1522 S 4TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "1401 S 6TH ST EAST",
+            "Corrected Value": "1401 S 6TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "602 SOUTH 3RD STREET",
+            "Corrected Value": "602 S 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "704 SOUTH METCALF ROAD",
+            "Corrected Value": "704 S METCALF ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "10811 WEST 215TH STREET",
+            "Corrected Value": "10811 W 215TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "15574 WEST 247TH STREET",
+            "Corrected Value": "15574 W 247TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "700 NORTH BROADWAY ST",
+            "Corrected Value": "700 N BROADWAY ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "10725 WEST 231ST STREET",
+            "Corrected Value": "10725 W 231ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "1207 NORTH 3RD STREET EAST",
+            "Corrected Value": "1207 N 3RD STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "35770 WEST 263RD STREET",
+            "Corrected Value": "35770 W 263RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "700 NORTH HOLMES ROAD",
+            "Corrected Value": "700 N HOLMES ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "10409 WEST 359TH STREET",
+            "Corrected Value": "10409 W 359TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "4463 WEST 239TH STREET",
+            "Corrected Value": "4463 W 239TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Original Value": "2561 WEST 239TH STREET",
+            "Corrected Value": "2561 W 239TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Original Value": "11293 WEST 295TH STREET",
+            "Corrected Value": "11293 W 295TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "324 NORTH 5TH TERRACE",
+            "Corrected Value": "324 N 5TH TERRACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "105 SOUTH ELM STREET",
+            "Corrected Value": "105 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "12595 WEST 323RD STREET",
+            "Corrected Value": "12595 W 323RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Original Value": "204 SOUTH BROADMOOR STREET",
+            "Corrected Value": "204 S BROADMOOR STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "address",
+            "Original Value": "15945 WEST 288TH STREET",
+            "Corrected Value": "15945 W 288TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "24312 TRAIL RIDGE PASS",
+            "Corrected Value": "24312 TRAIL",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "208 SOUTH 6TH STREET",
+            "Corrected Value": "208 S 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Original Value": "200 NORTH 9TH STREET",
+            "Corrected Value": "200 N 9TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "1420 SOUTH 5TH STREET EAST",
+            "Corrected Value": "1420 S 5TH STREET E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "17820 WEST 287TH STREET",
+            "Corrected Value": "17820 W 287TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "3341 WEST 271ST STREET",
+            "Corrected Value": "3341 W 271ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 546,
+            "Column": "address",
+            "Original Value": "501 NORTH 1ST STREET",
+            "Corrected Value": "501 N 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Original Value": "1200 WEST AMITY STREET",
+            "Corrected Value": "1200 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 549,
+            "Column": "address",
+            "Original Value": "29686 WEST 274TH STREET",
+            "Corrected Value": "29686 W 274TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Original Value": "18375 WEST 287TH STREET",
+            "Corrected Value": "18375 W 287TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "702 WEST AMITY STREET",
+            "Corrected Value": "702 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "12960 WEST 239TH STREET",
+            "Corrected Value": "12960 W 239TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "2 WEST AMITY STREET",
+            "Corrected Value": "2 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 555,
+            "Column": "address",
+            "Original Value": "6 WEST PEORIA STREET",
+            "Corrected Value": "6 W PEORIA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Original Value": "25839 WEST 343RD STREET",
+            "Corrected Value": "25839 W 343RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "9030 WEST 223RD STREET",
+            "Corrected Value": "9030 W 223RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "219 N BROADWAY",
+            "Corrected Value": "219 N BROADWAY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "707 WEST AMITY STREET",
+            "Corrected Value": "707 W AMITY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "707 SOUTH 4TH STREET",
+            "Corrected Value": "707 S 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "WEST 239TH STREET",
+            "Corrected Value": "W 239TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "408 SOUTH ELM STREET",
+            "Corrected Value": "408 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "16705 WEST 327TH STREET",
+            "Corrected Value": "16705 W 327TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Original Value": "605 EAST PEORIA STREET",
+            "Corrected Value": "605 E PEORIA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "address",
+            "Original Value": "302 SOUTH ROGERS RD",
+            "Corrected Value": "302 S ROGERS RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Original Value": "16270 W 289TH TERR",
+            "Corrected Value": "16270 W 289TH TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "13080 WEST 311TH ST",
+            "Corrected Value": "13080 W 311TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Original Value": "19704 WEST 278TH TERRACE",
+            "Corrected Value": "19704 W 278TH TERRACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 602,
+            "Column": "address",
+            "Original Value": "18667 WEST 248TH ST",
+            "Corrected Value": "18667 W 248TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Original Value": "21185 WEST 335TH STREET",
+            "Corrected Value": "21185 W 335TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 607,
+            "Column": "address",
+            "Original Value": "24588 WEST 247TH STREET",
+            "Corrected Value": "24588 W 247TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "31620 WEST 263RD ST",
+            "Corrected Value": "31620 W 263RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "18504 WEST 335TH STREET",
+            "Corrected Value": "18504 W 335TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Original Value": "4255 W 335TH",
+            "Corrected Value": "4255 W 335TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "1421 SOUTH 5TH ST EAST",
+            "Corrected Value": "1421 S 5TH ST E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "1201 W AMITY",
+            "Corrected Value": "1201 W AMITY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 623,
+            "Column": "address",
+            "Original Value": "8067 WEST 263RD STREET",
+            "Corrected Value": "8067 W 263RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "3990 WEST 255TH STREET",
+            "Corrected Value": "3990 W 255TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "5878 WEST 223RD STREET",
+            "Corrected Value": "5878 W 223RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 631,
+            "Column": "address",
+            "Original Value": "401 NORTH 14TH STREET",
+            "Corrected Value": "401 N 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "700 NORTH BROADWAY ST",
+            "Corrected Value": "700 N BROADWAY ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "306 NORTH 14TH STREET",
+            "Corrected Value": "306 N 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Original Value": "15617 NW COUNTY RD. 14781",
+            "Corrected Value": "15617 NW CR. 14781",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "26659 MISSION BELLEVIEW",
+            "Corrected Value": "26659 MISSION BELLEVIEW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "19125 KANSAS HWY 68",
+            "Corrected Value": "19125 KANSAS DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "15940 K-68 HIGHWAY",
+            "Corrected Value": "27846 TOMASHAW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "205 S METCALF",
+            "Corrected Value": "205 S METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "215 S. BROADWAY",
+            "Corrected Value": "215 S BROADWAY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "209 S METCALF",
+            "Corrected Value": "209 S METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "14730 K-68",
+            "Corrected Value": "14730 K68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "13125 K68 HWY",
+            "Corrected Value": "13125 K68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "29416 ROGERS",
+            "Corrected Value": "29416 S ROGERS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "zip",
+            "Original Value": "64012",
+            "Corrected Value": "64012",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "20909 STATE HWY Y",
+            "Corrected Value": "20909 S STATE ROUTE Y",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "26619 K-68 HIGHWAY - SHOP",
+            "Corrected Value": "26619 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "26619 K-68 HIGHWAY - SHOP",
+            "Corrected Value": "26619 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "zip",
+            "Original Value": "66013",
+            "Corrected Value": "66013",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "29380 W 274TH TERR",
+            "Corrected Value": "29380 W 274TH TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "zip",
+            "Original Value": "66013",
+            "Corrected Value": "66013",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "64734",
+            "Corrected Value": "64734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "24504 HORSE SHOE BEND",
+            "Corrected Value": "24504 HORSE SHOE BND",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "12370 K68 HWY",
+            "Corrected Value": "12370 W 278TH TER",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "zip",
+            "Original Value": "66013",
+            "Corrected Value": "66013",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "25918 WAVERLY",
+            "Corrected Value": "25918 WAVERLY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "11980 W 271ST",
+            "Corrected Value": "11980 W 271ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "24060 K 68 HWY",
+            "Corrected Value": "24060 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "zip",
+            "Original Value": "64746",
+            "Corrected Value": "64746",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "29217 S STATE RTE O",
+            "Corrected Value": "29217 S STATE ROUTE O",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "25145 METCALF",
+            "Corrected Value": "25145 METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "17045 W 367TH",
+            "Corrected Value": "17045 W 367TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "16317 K 68 HWY",
+            "Corrected Value": "16317 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Original Value": "15058 W 351ST",
+            "Corrected Value": "15058 W 351ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "31904 K-68 HIGHWAY",
+            "Corrected Value": "31904 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "10115 W 311TH",
+            "Corrected Value": "10115 W 311TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "26873 METCALF",
+            "Corrected Value": "26873 METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "27489 NORMANDY",
+            "Corrected Value": "27489 NO",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "19125 KANSAS HWY 68",
+            "Corrected Value": "19125 KANSAS DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "6204 K68 HWY",
+            "Corrected Value": "6204 K68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "34445 MISSION BELLEVIEW",
+            "Corrected Value": "34445 MISSION BELLEVIEW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "29630 METCALF",
+            "Corrected Value": "29630 METCALF RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "28131 WOODLAND",
+            "Corrected Value": "28131 WOODLAND RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Original Value": "30071 NEW LANCASTER",
+            "Corrected Value": "30071 NEW LANCA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "zip",
+            "Original Value": "66013",
+            "Corrected Value": "66013",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "22235 ROSEWOOD",
+            "Corrected Value": "22235 ROSEWOOD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Original Value": "620 MCKENNA",
+            "Corrected Value": "620 MCKENNA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "601 S. MULBERRY",
+            "Corrected Value": "601 S MULBERRY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "32590 MISSION BELLEVIEW",
+            "Corrected Value": "32590 MISSION BELLEVIEW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "14425 K-68 HIGHWAY",
+            "Corrected Value": "14425 K68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "24090 MISSION BELLEVIEW",
+            "Corrected Value": "24090 MISSION BELLEVIEW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "8715 W 263RD",
+            "Corrected Value": "8715 W 263RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Original Value": "517 JACKSON",
+            "Corrected Value": "517 JACKSON ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "19555 K68 HWY",
+            "Corrected Value": "19555 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "510 MCKENNA",
+            "Corrected Value": "510 MCKENNA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "29967 K-68 HIGHWAY",
+            "Corrected Value": "29967 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "4778 W 351ST",
+            "Corrected Value": "4778 W 351ST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "4222 MCKENNA",
+            "Corrected Value": "4222 MCKENNA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "16365 W 263RD",
+            "Corrected Value": "16365 W 263RD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "1717 CHADWICK COVE",
+            "Corrected Value": "1717 CHADWICK CV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 449,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 449,
+            "Column": "address",
+            "Original Value": "514 MCKENNA",
+            "Corrected Value": "514 MCKENNA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "608 MCKENNA",
+            "Corrected Value": "608 MCKENNA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Original Value": "33754 K 68",
+            "Corrected Value": "33754 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Original Value": "33754 K 68",
+            "Corrected Value": "33754 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Original Value": "31255 SWITZER",
+            "Corrected Value": "31255 SWITZER RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "34542 W 287TH",
+            "Corrected Value": "34542 W 287TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "zip",
+            "Original Value": "64746",
+            "Corrected Value": "64746",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "300 VAN BUREN",
+            "Corrected Value": "300 VAN BUREN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "zip",
+            "Original Value": "64746",
+            "Corrected Value": "64746",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "6811 E STATE RTE W",
+            "Corrected Value": "6811 E STATE ROUTE W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "22015 W 327TH",
+            "Corrected Value": "22015 W 327TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "7422 K-68 HIGHWAY",
+            "Corrected Value": "7422 K68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "1250 W AMITY",
+            "Corrected Value": "1250 W AMITY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Original Value": "4183 W 239TH",
+            "Corrected Value": "4183 W 239TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "18145 K68 HWY",
+            "Corrected Value": "18145 K 68 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "zip",
+            "Original Value": "64746",
+            "Corrected Value": "64746",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Original Value": "303 N WASHINGTON",
+            "Corrected Value": "303 N WASHINGTON ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "14325 W 299TH",
+            "Corrected Value": "14325 W 299TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 608,
+            "Column": "zip",
+            "Original Value": "64746",
+            "Corrected Value": "64746",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 608,
+            "Column": "address",
+            "Original Value": "402 N HARRISON",
+            "Corrected Value": "402 N HARRISON ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "zip",
+            "Original Value": "66053",
+            "Corrected Value": "66053",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "zip",
+            "Original Value": "64734",
+            "Corrected Value": "64734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "24317 TRAILRIDGE PASS",
+            "Corrected Value": "24317 TRAIL RIDGE PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "zip",
+            "Original Value": "66071",
+            "Corrected Value": "66071",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "11512 W 359TH",
+            "Corrected Value": "11512 W 359TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 54,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DOWNTOWN"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        },
+        {
+            "Row": 127,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1151082"
+        },
+        {
+            "Row": 342,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1298352"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1423927"
+        },
+        {
+            "Row": 474,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1956090"
+        },
+        {
+            "Row": 29,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2260259"
+        },
+        {
+            "Row": 233,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "778175"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "859531"
+        },
+        {
+            "Row": 518,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2145886)",
+            "Value": "2192450"
+        },
+        {
+            "Row": 29,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2260259)",
+            "Value": "2260259"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1423927)",
+            "Value": "1423927"
+        },
+        {
+            "Row": 342,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1298352)",
+            "Value": "1298352"
+        },
+        {
+            "Row": 127,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1151082)",
+            "Value": "1151082"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 859531)",
+            "Value": "859531"
+        },
+        {
+            "Row": 165,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1474133)",
+            "Value": "1475640"
+        },
+        {
+            "Row": 233,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 778175)",
+            "Value": "778175"
+        },
+        {
+            "Row": 474,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1956090)",
+            "Value": "1956090"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1007 W AMITY"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 S BERKLEY"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26659 MISSION BELLEVIEW"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19125 KANSAS HWY 68"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21905 W 319TH"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15940 K68 HIGHWAY"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 S METCALF"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "215 S BROADWAY"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "209 S METCALF"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14730 K68"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13125 K68 HWY"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29416 ROGERS"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20909 STATE HWY Y"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11469 W 335TH"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8276 W 335TH"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26619 K68 HIGHWAY  SHOP"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26619 K68 HIGHWAY  SHOP"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14100 W 223RD"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29380 W 274TH TERR"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6746 W 231ST"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19393 W 271ST"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24504 HORSE SHOE BEND"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "108 N BROADWAY"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13340 W 287TH"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "213 N 6TH TERR"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12370 K68 HWY"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9888 W 231ST"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25918 WAVERLY"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11980 W 271ST"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15176 W 267TH"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24060 K 68 HWY"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29217 S STATE RTE O"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25145 METCALF"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17045 W 367TH"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16317 K 68 HWY"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15058 W 351ST"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31904 K68 HIGHWAY"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1006 S METCALF"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "101 S 7TH"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10115 W 311TH"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "401 S METCALF"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26873 METCALF"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "302 S BROADWAY"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "504 S METCALF"
+        },
+        {
+            "Row": 246,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "106 W AMITY SUITE B"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27489 NORMANDY"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19125 KANSAS HWY 68"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2496 W 263RD"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "705 S DOYLE"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "207 S 2ND E"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12310 W 311TH"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6204 K68 HWY"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34445 MISSION BELLEVIEW"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29630 METCALF"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28131 WOODLAND"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20450 W 335TH"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15341 W 359TH"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19310 W 343RD"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24688 W 343RD"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4175 W 375TH"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18155 W 319TH"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30071 NEW LANCASTER"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22235 ROSEWOOD"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "620 MCKENNA"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "601 S MULBERRY"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16315 W 359TH"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13909 W 343RD"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "32590 MISSION BELLEVIEW"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14425 K68 HIGHWAY"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24090 MISSION BELLEVIEW"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8715 W 263RD"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "517 JACKSON"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19555 K68 HWY"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "510 MCKENNA"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29967 K68 HIGHWAY"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4778 W 351ST"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4222 MCKENNA"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16365 W 263RD"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7963 W 295TH"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1717 CHADWICK COVE"
+        },
+        {
+            "Row": 449,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "514 MCKENNA"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "608 MCKENNA"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "33754 K 68"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "33754 K 68"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31255 SWITZER"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "34542 W 287TH"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "300 VAN BUREN"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6811 E STATE RTE W"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22015 W 327TH"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7422 K68 HIGHWAY"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "219 N BROADWAY"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1250 W AMITY"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16270 W 289TH TERR"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4183 W 239TH"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18145 K68 HWY"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "303 N WASHINGTON"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14325 W 299TH"
+        },
+        {
+            "Row": 608,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402 N HARRISON"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4255 W 335TH"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1201 W AMITY"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24317 TRAILRIDGE PASS"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11512 W 359TH"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 186"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 127,
+            "customer": "1151082",
+            "lat": 38.6417039,
+            "lon": -94.9442599,
+            "address": "26779 WAVERLY ROAD",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 40.0,
+            "upload": 40.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 342,
+            "customer": "1298352",
+            "lat": 38.6227134,
+            "lon": -94.8065615,
+            "address": "27773 BLOCK ROAD",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1423927",
+            "lat": 38.620099,
+            "lon": -94.89474,
+            "address": "26619 K-68 HIGHWAY - SHOP",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 55.0,
+            "upload": 55.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 474,
+            "customer": "1956090",
+            "lat": 38.7346456,
+            "lon": -94.7140645,
+            "address": "33754 K 68",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 29,
+            "customer": "2260259",
+            "lat": 38.5490188,
+            "lon": -94.7228617,
+            "address": "14010 W 319TH STREET",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 233,
+            "customer": "778175",
+            "lat": 38.7240142,
+            "lon": -94.6898317,
+            "address": "9030 W 223RD STREET",
+            "city": "BUCYRUS",
+            "state": "KS",
+            "zip": "66013",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "859531",
+            "lat": 38.6698418,
+            "lon": -94.6596239,
+            "address": "25174 ROCKVILLE RD",
+            "city": "LOUISBURG",
+            "state": "KS",
+            "zip": "66053",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 518,
+            "customer": "2192450",
+            "lat": 38.5174821,
+            "lon": -94.6761001,
+            "address": "33565 METCALF ROAD",
+            "city": "LOUISBURG",
+            "state": "KS",
+            "zip": "66053",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2145886)"
+        },
+        {
+            "OrigRowNum": 29,
+            "customer": "2260259",
+            "lat": 38.5490188,
+            "lon": -94.7228617,
+            "address": "14010 W 319TH STREET",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2260259)"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1423927",
+            "lat": 38.620099,
+            "lon": -94.89474,
+            "address": "26619 K-68 HIGHWAY - SHOP",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 55.0,
+            "upload": 55.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1423927)"
+        },
+        {
+            "OrigRowNum": 342,
+            "customer": "1298352",
+            "lat": 38.6227134,
+            "lon": -94.8065615,
+            "address": "27773 BLOCK ROAD",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1298352)"
+        },
+        {
+            "OrigRowNum": 127,
+            "customer": "1151082",
+            "lat": 38.6417039,
+            "lon": -94.9442599,
+            "address": "26779 WAVERLY ROAD",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 40.0,
+            "upload": 40.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1151082)"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "859531",
+            "lat": 38.6698418,
+            "lon": -94.6596239,
+            "address": "25174 ROCKVILLE RD",
+            "city": "LOUISBURG",
+            "state": "KS",
+            "zip": "66053",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 859531)"
+        },
+        {
+            "OrigRowNum": 165,
+            "customer": "1475640",
+            "lat": 38.7193712,
+            "lon": -94.636895,
+            "address": "4571 W 223RD ST",
+            "city": "BUCYRUS",
+            "state": "KS",
+            "zip": "66013",
+            "download": 40.0,
+            "upload": 40.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1474133)"
+        },
+        {
+            "OrigRowNum": 233,
+            "customer": "778175",
+            "lat": 38.7240142,
+            "lon": -94.6898317,
+            "address": "9030 W 223RD STREET",
+            "city": "BUCYRUS",
+            "state": "KS",
+            "zip": "66013",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 778175)"
+        },
+        {
+            "OrigRowNum": 474,
+            "customer": "1956090",
+            "lat": 38.7346456,
+            "lon": -94.7140645,
+            "address": "33754 K 68",
+            "city": "PAOLA",
+            "state": "KS",
+            "zip": "66071",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1956090)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 2,
+            "Original Address": "1007 W AMITY",
+            "Corrected Address": "1007 W AMITY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.311461"
+        },
+        {
+            "OrigRowNum": 4,
+            "Original Address": "7 S BERKLEY",
+            "Corrected Address": "7 S BERKLEY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.312595"
+        },
+        {
+            "OrigRowNum": 5,
+            "Original Address": "26659 MISSION BELLEVIEW",
+            "Corrected Address": "26659 MISSION BELLEVIEW RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.312904"
+        },
+        {
+            "OrigRowNum": 10,
+            "Original Address": "19125 KANSAS HWY 68",
+            "Corrected Address": "19125 KANSAS DR",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.313208"
+        },
+        {
+            "OrigRowNum": 12,
+            "Original Address": "21905 W 319TH",
+            "Corrected Address": "21905 W 319TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.313874"
+        },
+        {
+            "OrigRowNum": 31,
+            "Original Address": "15940 K-68 HIGHWAY",
+            "Corrected Address": "27846 TOMASHAW RD",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.314261"
+        },
+        {
+            "OrigRowNum": 51,
+            "Original Address": "205 S METCALF",
+            "Corrected Address": "205 S METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.314603"
+        },
+        {
+            "OrigRowNum": 52,
+            "Original Address": "215 S. BROADWAY",
+            "Corrected Address": "215 S BROADWAY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.314931"
+        },
+        {
+            "OrigRowNum": 53,
+            "Original Address": "209 S METCALF",
+            "Corrected Address": "209 S METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.315262"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "14730 K-68",
+            "Corrected Address": "14730 K68 HWY",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.315576"
+        },
+        {
+            "OrigRowNum": 61,
+            "Original Address": "13125 K68 HWY",
+            "Corrected Address": "13125 K68 HWY",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.315883"
+        },
+        {
+            "OrigRowNum": 67,
+            "Original Address": "29416 ROGERS",
+            "Corrected Address": "29416 S ROGERS RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.316207"
+        },
+        {
+            "OrigRowNum": 68,
+            "Original Address": "20909 STATE HWY Y",
+            "Corrected Address": "20909 S STATE ROUTE Y",
+            "Original ZIP": "64012",
+            "Corrected ZIP": "64012",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.316525"
+        },
+        {
+            "OrigRowNum": 84,
+            "Original Address": "11469 W 335TH",
+            "Corrected Address": "11469 W 335TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.316830"
+        },
+        {
+            "OrigRowNum": 88,
+            "Original Address": "8276 W 335TH",
+            "Corrected Address": "8276 W 335TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.317155"
+        },
+        {
+            "OrigRowNum": 89,
+            "Original Address": "26619 K-68 HIGHWAY - SHOP",
+            "Corrected Address": "26619 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.317464"
+        },
+        {
+            "OrigRowNum": 90,
+            "Original Address": "26619 K-68 HIGHWAY - SHOP",
+            "Corrected Address": "26619 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.317776"
+        },
+        {
+            "OrigRowNum": 98,
+            "Original Address": "14100 W 223RD",
+            "Corrected Address": "14100 W 223RD ST",
+            "Original ZIP": "66013",
+            "Corrected ZIP": "66013",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.318082"
+        },
+        {
+            "OrigRowNum": 112,
+            "Original Address": "29380 W 274TH TERR",
+            "Corrected Address": "29380 W 274TH TER",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.318402"
+        },
+        {
+            "OrigRowNum": 113,
+            "Original Address": "6746 W 231ST",
+            "Corrected Address": "6746 W 231ST ST",
+            "Original ZIP": "66013",
+            "Corrected ZIP": "66013",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.318707"
+        },
+        {
+            "OrigRowNum": 117,
+            "Original Address": "19393 W 271ST",
+            "Corrected Address": "19393 W 271ST ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.319008"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "24504 HORSE SHOE BEND",
+            "Corrected Address": "24504 HORSE SHOE BND",
+            "Original ZIP": "64734",
+            "Corrected ZIP": "64734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.319309"
+        },
+        {
+            "OrigRowNum": 129,
+            "Original Address": "108 N BROADWAY",
+            "Corrected Address": "108 N BROADWAY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.319567"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "13340 W 287TH",
+            "Corrected Address": "13340 W 287TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.319833"
+        },
+        {
+            "OrigRowNum": 135,
+            "Original Address": "213 N 6TH TERR",
+            "Corrected Address": "213 N 6TH TER",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.320091"
+        },
+        {
+            "OrigRowNum": 136,
+            "Original Address": "12370 K68 HWY",
+            "Corrected Address": "12370 W 278TH TER",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.320360"
+        },
+        {
+            "OrigRowNum": 139,
+            "Original Address": "9888 W 231ST",
+            "Corrected Address": "9888 W 231ST ST",
+            "Original ZIP": "66013",
+            "Corrected ZIP": "66013",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.320616"
+        },
+        {
+            "OrigRowNum": 142,
+            "Original Address": "25918 WAVERLY",
+            "Corrected Address": "25918 WAVERLY RD",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.320880"
+        },
+        {
+            "OrigRowNum": 154,
+            "Original Address": "11980 W 271ST",
+            "Corrected Address": "11980 W 271ST ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.321134"
+        },
+        {
+            "OrigRowNum": 170,
+            "Original Address": "15176 W 267TH",
+            "Corrected Address": "15176 W 267TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.321398"
+        },
+        {
+            "OrigRowNum": 171,
+            "Original Address": "24060 K 68 HWY",
+            "Corrected Address": "24060 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.321657"
+        },
+        {
+            "OrigRowNum": 180,
+            "Original Address": "29217 S STATE RTE O",
+            "Corrected Address": "29217 S STATE ROUTE O",
+            "Original ZIP": "64746",
+            "Corrected ZIP": "64746",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.321918"
+        },
+        {
+            "OrigRowNum": 183,
+            "Original Address": "25145 METCALF",
+            "Corrected Address": "25145 METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.322173"
+        },
+        {
+            "OrigRowNum": 193,
+            "Original Address": "17045 W 367TH",
+            "Corrected Address": "17045 W 367TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.322437"
+        },
+        {
+            "OrigRowNum": 198,
+            "Original Address": "16317 K 68 HWY",
+            "Corrected Address": "16317 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.322693"
+        },
+        {
+            "OrigRowNum": 199,
+            "Original Address": "15058 W 351ST",
+            "Corrected Address": "15058 W 351ST ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.322949"
+        },
+        {
+            "OrigRowNum": 213,
+            "Original Address": "31904 K-68 HIGHWAY",
+            "Corrected Address": "31904 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.323201"
+        },
+        {
+            "OrigRowNum": 224,
+            "Original Address": "1006 S METCALF",
+            "Corrected Address": "1006 S METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.323441"
+        },
+        {
+            "OrigRowNum": 227,
+            "Original Address": "101 S 7TH",
+            "Corrected Address": "101 S 7TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.323657"
+        },
+        {
+            "OrigRowNum": 230,
+            "Original Address": "10115 W 311TH",
+            "Corrected Address": "10115 W 311TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.323880"
+        },
+        {
+            "OrigRowNum": 234,
+            "Original Address": "401 S METCALF",
+            "Corrected Address": "401 S METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.324094"
+        },
+        {
+            "OrigRowNum": 236,
+            "Original Address": "26873 METCALF",
+            "Corrected Address": "26873 METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.324306"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "302 S BROADWAY",
+            "Corrected Address": "302 S BROADWAY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.324528"
+        },
+        {
+            "OrigRowNum": 242,
+            "Original Address": "504 S METCALF",
+            "Corrected Address": "504 S METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.324743"
+        },
+        {
+            "OrigRowNum": 246,
+            "Original Address": "106 W AMITY SUITE B",
+            "Corrected Address": "106 W AMITY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.324964"
+        },
+        {
+            "OrigRowNum": 250,
+            "Original Address": "27489 NORMANDY",
+            "Corrected Address": "27489 NO",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.325184"
+        },
+        {
+            "OrigRowNum": 251,
+            "Original Address": "19125 KANSAS HWY 68",
+            "Corrected Address": "19125 KANSAS DR",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.325404"
+        },
+        {
+            "OrigRowNum": 262,
+            "Original Address": "2496 W 263RD",
+            "Corrected Address": "2496 W 263RD ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.325619"
+        },
+        {
+            "OrigRowNum": 263,
+            "Original Address": "705 S DOYLE",
+            "Corrected Address": "705 S DOYLE ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.325854"
+        },
+        {
+            "OrigRowNum": 265,
+            "Original Address": "207 S 2ND E",
+            "Corrected Address": "207 S 2ND ST E",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.326077"
+        },
+        {
+            "OrigRowNum": 270,
+            "Original Address": "12310 W 311TH",
+            "Corrected Address": "12310 W 311TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.326296"
+        },
+        {
+            "OrigRowNum": 274,
+            "Original Address": "6204 K68 HWY",
+            "Corrected Address": "6204 K68 HWY",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.326525"
+        },
+        {
+            "OrigRowNum": 278,
+            "Original Address": "34445 MISSION BELLEVIEW",
+            "Corrected Address": "34445 MISSION BELLEVIEW RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.326744"
+        },
+        {
+            "OrigRowNum": 294,
+            "Original Address": "29630 METCALF",
+            "Corrected Address": "29630 METCALF RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.326973"
+        },
+        {
+            "OrigRowNum": 296,
+            "Original Address": "28131 WOODLAND",
+            "Corrected Address": "28131 WOODLAND RD",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.327190"
+        },
+        {
+            "OrigRowNum": 297,
+            "Original Address": "20450 W 335TH",
+            "Corrected Address": "20450 W 335TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.327415"
+        },
+        {
+            "OrigRowNum": 303,
+            "Original Address": "15341 W 359TH",
+            "Corrected Address": "15341 W 359TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.327634"
+        },
+        {
+            "OrigRowNum": 305,
+            "Original Address": "19310 W 343RD",
+            "Corrected Address": "19310 W 343RD ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.327847"
+        },
+        {
+            "OrigRowNum": 306,
+            "Original Address": "24688 W 343RD",
+            "Corrected Address": "24688 W 343RD ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.328075"
+        },
+        {
+            "OrigRowNum": 311,
+            "Original Address": "4175 W 375TH",
+            "Corrected Address": "4175 W 375TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.328289"
+        },
+        {
+            "OrigRowNum": 313,
+            "Original Address": "18155 W 319TH",
+            "Corrected Address": "18155 W 319TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.328510"
+        },
+        {
+            "OrigRowNum": 318,
+            "Original Address": "30071 NEW LANCASTER",
+            "Corrected Address": "30071 NEW LANCA",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.328726"
+        },
+        {
+            "OrigRowNum": 323,
+            "Original Address": "22235 ROSEWOOD",
+            "Corrected Address": "22235 ROSEWOOD ST",
+            "Original ZIP": "66013",
+            "Corrected ZIP": "66013",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.328949"
+        },
+        {
+            "OrigRowNum": 334,
+            "Original Address": "620 MCKENNA",
+            "Corrected Address": "620 MCKENNA",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.329166"
+        },
+        {
+            "OrigRowNum": 335,
+            "Original Address": "601 S. MULBERRY",
+            "Corrected Address": "601 S MULBERRY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.329391"
+        },
+        {
+            "OrigRowNum": 337,
+            "Original Address": "16315 W 359TH",
+            "Corrected Address": "16315 W 359TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.329606"
+        },
+        {
+            "OrigRowNum": 343,
+            "Original Address": "13909 W 343RD",
+            "Corrected Address": "13909 W 343RD ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.329831"
+        },
+        {
+            "OrigRowNum": 352,
+            "Original Address": "32590 MISSION BELLEVIEW",
+            "Corrected Address": "32590 MISSION BELLEVIEW RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.330048"
+        },
+        {
+            "OrigRowNum": 356,
+            "Original Address": "14425 K-68 HIGHWAY",
+            "Corrected Address": "14425 K68 HWY",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.330271"
+        },
+        {
+            "OrigRowNum": 357,
+            "Original Address": "24090 MISSION BELLEVIEW",
+            "Corrected Address": "24090 MISSION BELLEVIEW RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.330485"
+        },
+        {
+            "OrigRowNum": 365,
+            "Original Address": "8715 W 263RD",
+            "Corrected Address": "8715 W 263RD ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.330702"
+        },
+        {
+            "OrigRowNum": 374,
+            "Original Address": "517 JACKSON",
+            "Corrected Address": "517 JACKSON ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.330918"
+        },
+        {
+            "OrigRowNum": 377,
+            "Original Address": "19555 K68 HWY",
+            "Corrected Address": "19555 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.331140"
+        },
+        {
+            "OrigRowNum": 389,
+            "Original Address": "510 MCKENNA",
+            "Corrected Address": "510 MCKENNA",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.331326"
+        },
+        {
+            "OrigRowNum": 395,
+            "Original Address": "29967 K-68 HIGHWAY",
+            "Corrected Address": "29967 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.331510"
+        },
+        {
+            "OrigRowNum": 408,
+            "Original Address": "4778 W 351ST",
+            "Corrected Address": "4778 W 351ST ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.331702"
+        },
+        {
+            "OrigRowNum": 418,
+            "Original Address": "4222 MCKENNA",
+            "Corrected Address": "4222 MCKENNA",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.331888"
+        },
+        {
+            "OrigRowNum": 431,
+            "Original Address": "16365 W 263RD",
+            "Corrected Address": "16365 W 263RD ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.332088"
+        },
+        {
+            "OrigRowNum": 435,
+            "Original Address": "7963 W 295TH",
+            "Corrected Address": "7963 W 295TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.332277"
+        },
+        {
+            "OrigRowNum": 446,
+            "Original Address": "1717 CHADWICK COVE",
+            "Corrected Address": "1717 CHADWICK CV",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.332462"
+        },
+        {
+            "OrigRowNum": 449,
+            "Original Address": "514 MCKENNA",
+            "Corrected Address": "514 MCKENNA",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.332658"
+        },
+        {
+            "OrigRowNum": 468,
+            "Original Address": "608 MCKENNA",
+            "Corrected Address": "608 MCKENNA",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.332846"
+        },
+        {
+            "OrigRowNum": 473,
+            "Original Address": "33754 K 68",
+            "Corrected Address": "33754 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333035"
+        },
+        {
+            "OrigRowNum": 474,
+            "Original Address": "33754 K 68",
+            "Corrected Address": "33754 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333225"
+        },
+        {
+            "OrigRowNum": 478,
+            "Original Address": "31255 SWITZER",
+            "Corrected Address": "31255 SWITZER RD",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333417"
+        },
+        {
+            "OrigRowNum": 488,
+            "Original Address": "34542 W 287TH",
+            "Corrected Address": "34542 W 287TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333604"
+        },
+        {
+            "OrigRowNum": 490,
+            "Original Address": "300 VAN BUREN",
+            "Corrected Address": "300 VAN BUREN ST",
+            "Original ZIP": "64746",
+            "Corrected ZIP": "64746",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333800"
+        },
+        {
+            "OrigRowNum": 495,
+            "Original Address": "6811 E STATE RTE W",
+            "Corrected Address": "6811 E STATE ROUTE W",
+            "Original ZIP": "64746",
+            "Corrected ZIP": "64746",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.333988"
+        },
+        {
+            "OrigRowNum": 505,
+            "Original Address": "22015 W 327TH",
+            "Corrected Address": "22015 W 327TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.334173"
+        },
+        {
+            "OrigRowNum": 543,
+            "Original Address": "7422 K-68 HIGHWAY",
+            "Corrected Address": "7422 K68 HWY",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.334365"
+        },
+        {
+            "OrigRowNum": 558,
+            "Original Address": "219 N BROADWAY",
+            "Corrected Address": "219 N BROADWAY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.334555"
+        },
+        {
+            "OrigRowNum": 573,
+            "Original Address": "1250 W AMITY",
+            "Corrected Address": "1250 W AMITY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.334748"
+        },
+        {
+            "OrigRowNum": 576,
+            "Original Address": "16270 W 289TH TERR",
+            "Corrected Address": "16270 W 289TH TER",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.334935"
+        },
+        {
+            "OrigRowNum": 582,
+            "Original Address": "4183 W 239TH",
+            "Corrected Address": "4183 W 239TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.335127"
+        },
+        {
+            "OrigRowNum": 583,
+            "Original Address": "18145 K68 HWY",
+            "Corrected Address": "18145 K 68 HWY",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.335317"
+        },
+        {
+            "OrigRowNum": 593,
+            "Original Address": "303 N WASHINGTON",
+            "Corrected Address": "303 N WASHINGTON ST",
+            "Original ZIP": "64746",
+            "Corrected ZIP": "64746",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.335510"
+        },
+        {
+            "OrigRowNum": 598,
+            "Original Address": "14325 W 299TH",
+            "Corrected Address": "14325 W 299TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.335698"
+        },
+        {
+            "OrigRowNum": 608,
+            "Original Address": "402 N HARRISON",
+            "Corrected Address": "402 N HARRISON ST",
+            "Original ZIP": "64746",
+            "Corrected ZIP": "64746",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.335887"
+        },
+        {
+            "OrigRowNum": 617,
+            "Original Address": "4255 W 335TH",
+            "Corrected Address": "4255 W 335TH ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.336082"
+        },
+        {
+            "OrigRowNum": 622,
+            "Original Address": "1201 W AMITY",
+            "Corrected Address": "1201 W AMITY ST",
+            "Original ZIP": "66053",
+            "Corrected ZIP": "66053",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.336268"
+        },
+        {
+            "OrigRowNum": 626,
+            "Original Address": "24317 TRAILRIDGE PASS",
+            "Corrected Address": "24317 TRAIL RIDGE PASS",
+            "Original ZIP": "64734",
+            "Corrected ZIP": "64734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.601093"
+        },
+        {
+            "OrigRowNum": 630,
+            "Original Address": "11512 W 359TH",
+            "Corrected Address": "11512 W 359TH ST",
+            "Original ZIP": "66071",
+            "Corrected ZIP": "66071",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T09:34:14.602737"
+        }
+    ]
+}

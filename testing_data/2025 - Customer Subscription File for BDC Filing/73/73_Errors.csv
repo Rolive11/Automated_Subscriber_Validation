@@ -1,0 +1,31 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+100,address,Invalid street name format before street ending,15E CHAPMAN ST
+2,city,Required field: City cannot be empty,
+458,lat,Latitude for MN must be between 43.499361 and 49.384358,40.7390219
+458,lon,Paired coordinate reset due to invalid lat,-74.0278934
+458,lon,Longitude for MN must be between -97.239209 and -89.483385,-74.0278934
+478,lat,Latitude for MN must be between 43.499361 and 49.384358,40.9377394
+478,lon,Paired coordinate reset due to invalid lat,-73.9341323
+478,lon,Longitude for MN must be between -97.239209 and -89.483385,-73.9341323
+21,customer,"Duplicate customer ID, renamed to 1516401_001",1516401
+98,customer,"Duplicate customer ID, renamed to 1741066_002",1741066
+143,customer,"Duplicate customer ID, identical row deleted",1835524
+181,customer,"Duplicate customer ID, identical row deleted",1916444
+182,customer,"Duplicate customer ID, identical row deleted",1916444
+425,customer,"Duplicate customer ID, identical row deleted",2353606
+464,customer,"Duplicate customer ID, identical row deleted",2438576
+399,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324449
+400,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324452
+401,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324455
+402,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324458
+403,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324461
+404,customer,"Data-based duplicate, removed (identical to customer 2324446)",2324466
+464,customer,"Data-based duplicate, removed (identical to customer 2438576)",2438576
+181,customer,"Data-based duplicate, removed (identical to customer 1916444)",1916444
+182,customer,"Data-based duplicate, removed (identical to customer 1916444)",1916444
+425,customer,"Data-based duplicate, removed (identical to customer 2353606)",2353606
+419,customer,"Data-based duplicate, removed (identical to customer 2192074)",2352007
+420,customer,"Data-based duplicate, removed (identical to customer 2192074)",2352008
+216,customer,"Data-based duplicate, removed (identical to customer 1969925)",1975305
+143,customer,"Data-based duplicate, removed (identical to customer 1835524)",1835524

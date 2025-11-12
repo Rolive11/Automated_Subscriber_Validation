@@ -1,0 +1,220 @@
+================================================================================
+        FCC BDC SUBSCRIBER FILE VALIDATION SYSTEM - QUICK OVERVIEW
+================================================================================
+
+Program: validate_subscription_isp_mod_3.py
+Purpose: Automated validation and processing of ISP subscriber files for FCC
+         Broadband Data Collection (BDC) reporting
+Author:  Regulatory Solutions, Inc.
+Date:    November 2025
+
+================================================================================
+WHAT IT DOES
+================================================================================
+
+This program processes subscriber CSV files uploaded by ISPs, validates the
+data quality, geocodes addresses, and prepares files for FCC BDC submission.
+
+The system runs in TWO PHASES:
+  • Phase 1 (Code A): Data validation and correction
+  • Phase 2 (Code B): Geocoding and database population
+
+Results are emailed to users and stored in the PostgreSQL database.
+
+================================================================================
+HOW TO RUN
+================================================================================
+
+Command Syntax:
+  python3 validate_subscription_isp_mod_3.py {org_id} {yyyy-mm-dd} {email}
+
+Example:
+  python3 validate_subscription_isp_mod_3.py 123 2025-06-30 user@example.com
+
+Parameters:
+  {org_id}     - Organization/ISP ID number
+  {yyyy-mm-dd} - Filing period date
+  {email}      - User's email address for notifications
+
+Input File Location:
+  /var/www/broadband/uploads/{org_id}/{period}/subscribers/*.csv
+
+================================================================================
+PROCESSING PHASES
+================================================================================
+
+PHASE 1: DATA VALIDATION (Code A)
+----------------------------------
+Location: /Users/robertolive/Documents/RSI_Projects/Automated_Subscriber_Validation/src/
+
+Validates:
+  • Column headers (must match required 12 columns exactly)
+  • Data quality (addresses, coordinates, technology codes)
+  • Required fields are populated
+
+Outputs:
+  • {org_id}_Corrected_Subscribers.csv (cleaned data)
+  • {org_id}_modified_subscription_file.xlsx (color-coded corrections)
+  • {org_id}_VR.xlsx (validation report)
+
+Color Coding:
+  GREEN  - Auto-corrected by system
+  RED    - Critical errors requiring manual fix
+  PINK   - Data errors needing attention
+  YELLOW - Review recommended
+
+PHASE 2: GEOCODING & DATABASE (Code B)
+---------------------------------------
+Only runs if Phase 1 passes validation.
+
+Processes:
+  • Geocodes addresses using Google Maps API
+  • Assigns census tracts
+  • Populates database table: subscribers.subs_{org_id}
+  • Handles VoIP line counts
+  • Maps technology codes for FCC submission
+
+================================================================================
+DATABASE INTEGRATION
+================================================================================
+
+Tables Modified:
+  1. broadband.filer_processing_status
+     - Tracks processing status for each org_id/period
+     - Status values: processing, complete, data_validation_failed,
+       header_validation_failed, geocoding_errors, system_error
+
+  2. broadband.messages
+     - Sends notifications to user's app dashboard
+     - Message format: (message_type, message, datetime, org_id)
+
+  3. subscribers.subs_{org_id}
+     - Stores validated subscriber data per organization
+     - Created/recreated during Phase 2
+
+Message Types Sent to User App:
+  • "Subscriber file processing error. Check your email for details."
+    (Sent for: data errors, header errors, system errors, geocoding errors)
+
+  • "Subscriber file processing complete"
+    (Sent when: all processing completes successfully)
+
+Note: The "Validation passed" message from mod_2 was removed in mod_3.
+
+================================================================================
+PROCESS OUTCOMES
+================================================================================
+
+Outcome                      Status                      Email Sent To
+---------------------------------------------------------------------------
+Header errors               header_validation_failed     User (with details)
+Data validation errors      data_validation_failed       User (with Excel)
+Code A system error         system_error                 User + Admin
+Geocoding errors            geocoding_errors             User + Admin
+Success                     complete                     User (with VR.xlsx)
+
+All scenarios send results to admin: rolive@regulatorysolutions.us
+
+================================================================================
+OUTPUT FILES
+================================================================================
+
+Success Case:
+  • Corrected CSV file (used for Phase 2)
+  • Color-coded Excel file (sent to user)
+  • Validation report (VR.xlsx) (sent to user after completion)
+  • Processing summary files in /subscription_processed/
+
+Error Cases:
+  • Modified Excel file with color-coded errors
+  • Error report text file
+  • Log file: validate_subs.log
+
+================================================================================
+KEY ENVIRONMENT VARIABLES
+================================================================================
+
+Required in .env file:
+  DB_HOST          - PostgreSQL server (default: localhost)
+  DB_PORT          - PostgreSQL port (default: 5432)
+  DB_NAME          - Database name (default: broadband)
+  DB_USER          - Database user (default: broadband)
+  DB_PASSWORD      - Database password (REQUIRED - no default)
+
+Email Configuration:
+  File: /var/www/broadband/src/config/email_config.json
+  Contains: SMTP settings, from address, admin email, BCC list
+
+================================================================================
+MONITORING & LOGS
+================================================================================
+
+Log File: validate_subs.log (in script directory)
+
+Log entries include:
+  • Start/end timestamps
+  • Phase transitions
+  • Database status updates
+  • Message insertions
+  • Email delivery confirmations
+  • Error details
+
+Status Monitoring:
+  Query: SELECT org_id, filing_period, subscription_status,
+                subscription_processed
+         FROM broadband.filer_processing_status
+         WHERE org_id = {org_id}
+
+================================================================================
+TROUBLESHOOTING QUICK REFERENCE
+================================================================================
+
+Problem: No database cursor available
+Fix: Ensure global conn, cursor, ps_cursor are initialized (line 1585-1596)
+
+Problem: Email not sending
+Fix: Check /var/www/broadband/src/config/email_config.json exists and valid
+
+Problem: File not found
+Fix: Verify file exists in /var/www/broadband/uploads/{org_id}/{period}/subscribers/
+
+Problem: Database connection failed
+Fix: Verify DB_PASSWORD is set in environment
+
+Problem: Geocoding errors
+Fix: Check Google Maps API key is valid and has quota remaining
+
+================================================================================
+VERSION HISTORY
+================================================================================
+
+mod_3 (Current - November 2025):
+  • Added global declarations for database connections
+  • Standardized error messages to "Subscriber file processing error..."
+  • Added success completion message to user app
+  • Added geocoding error message insertion
+  • Removed "Validation passed - Processing locations now" message
+  • Improved logging with SQL statement output before execution
+
+mod_2 (October 2025):
+  • Two-phase processing architecture
+  • Email notifications to users
+  • Try-except blocks for message insertions
+  • Specific error messages per scenario
+
+================================================================================
+FOR MORE INFORMATION
+================================================================================
+
+Related Documentation:
+  • Code A Validation: /src/main.py and utils modules
+  • Database Schema: broadband.filer_processing_status, broadband.messages
+  • Email Templates: See sendEmail() function in mod_3
+  • Subscriber Template: subscriber_template_instructionsV2.pdf
+
+Support Contact:
+  Regulatory Solutions, Inc.
+  Phone: 972-836-7107
+  Email: rolive@regulatorysolutions.us
+
+================================================================================

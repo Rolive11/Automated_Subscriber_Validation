@@ -1,0 +1,1627 @@
+{
+    "Summary": {
+        "Total Rows Processed": 267,
+        "Rows with Corrections": 103,
+        "Rows with Errors": 26,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "Total Corrections": 143,
+        "Total Errors": 6,
+        "Street Ending Errors": 22,
+        "Validation Time (seconds)": 6.46,
+        "Validation Date": "2025-07-20 13:01:52",
+        "Addresses Sent to Smarty": 22,
+        "Successful Corrections": 22,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 6.21,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 266,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 266,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 172,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 225,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 235,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 246,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 249,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "technology",
+            "Original Value": " wireless_gaa",
+            "Corrected Value": "wireless_gaa",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "1433 COVINGTON AVE 4E",
+            "Corrected Value": "1433 COVINGTON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Original Value": "512 1/2 W NORTH ST",
+            "Corrected Value": "512 1/2 W N ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "6126 W ST RT 185",
+            "Corrected Value": "6126 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "1433 COVINGTON AVE #2A",
+            "Corrected Value": "1433 COVINGTON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "125 CLARK AVE DOOR 9",
+            "Corrected Value": "125 CLARK AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "1433 COVINGTON AVE APT 1",
+            "Corrected Value": "1433 COVINGTON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "4910 W ST RT 185",
+            "Corrected Value": "4910 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "824 W NORTH ST",
+            "Corrected Value": "824 W N ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "6110 W ST RT 185",
+            "Corrected Value": "6110 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "1433 COVINGTON AVE 3C",
+            "Corrected Value": "1433 COVINGTON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "9618 N CO RD 25A",
+            "Corrected Value": "9618 N CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "4482 W ST RT 185",
+            "Corrected Value": "4482 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "6100 W ST RT 185",
+            "Corrected Value": "6100 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "9988 N CO RD 25A",
+            "Corrected Value": "9988 N CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "1300 SOUTH ST",
+            "Corrected Value": "1300 S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "6336 W ST RT 185",
+            "Corrected Value": "6336 W ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "8485 N CO RD 25A",
+            "Corrected Value": "8485 N CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "406 NORTH MAIN STREET",
+            "Corrected Value": "406 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "1819 WEST PARKWAY DRIVE",
+            "Corrected Value": "1819 W PARKWAY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "215 EAST HIGH STREET",
+            "Corrected Value": "215 E HIGH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "1433 COVINGTON AVE 2B",
+            "Corrected Value": "1433 COVINGTON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "7449 NORTH RIVER ROAD",
+            "Corrected Value": "7449 N RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "119 EAST MEMORIAL DRIVE",
+            "Corrected Value": "119 E MEMORIAL DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "130 WEST 2ND STREET",
+            "Corrected Value": "130 W 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "130 W 2ND STREET SUITE 1214",
+            "Corrected Value": "130 W 2ND STREET",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "130 W SECOND ST SUITE 1800",
+            "Corrected Value": "130 W SECOND ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "1211 WEST SHARON ROAD",
+            "Corrected Value": "1211 W SHARON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "130 W SECOND ST SUITE 1700",
+            "Corrected Value": "130 W SECOND ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "130 WEST 2ND STREET",
+            "Corrected Value": "130 W 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "4700 WEST JACKSON ROAD",
+            "Corrected Value": "4700 W JACKSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "1848 OLD 35 E",
+            "Corrected Value": "1848 OLD 35",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "1544 SOUTH RIVER ROAD",
+            "Corrected Value": "1544 S RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "2971 SOUTH RIVER ROAD",
+            "Corrected Value": "2971 S RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "5238 WEST JACKSON ROAD",
+            "Corrected Value": "5238 W JACKSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "7545 NORTH RIVER ROAD",
+            "Corrected Value": "7545 N RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "711 EAST MONUMENT AVENUE",
+            "Corrected Value": "711 E MONUMENT AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "130 W 2ND STREET SUITE 1825",
+            "Corrected Value": "130 W 2ND STREET",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "60 EAST 13TH STREET",
+            "Corrected Value": "60 E 13TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "lon",
+            "Original Value": -73.9914101,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "lat",
+            "Original Value": 40.7340377,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "lon",
+            "Original Value": -73.9914101,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "lat",
+            "Original Value": 40.7340377,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "911 BRIARCLIFF",
+            "Corrected Value": "911 BRIARCLIFF AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "1800 CAMBRIDGE",
+            "Corrected Value": "1800 CAMBRIDGE ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "950 E US RT 36",
+            "Corrected Value": "950 E US ROUTE 36",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "707 BLAINE",
+            "Corrected Value": "707 BLAINE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "3029 CHINOOK PASS",
+            "Corrected Value": "3029 CHINOOK PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "710 BROADWAY",
+            "Corrected Value": "710 BROADWAY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "404 GLENWOOD",
+            "Corrected Value": "404 GLENWOOD AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "3205 CHEROKEE",
+            "Corrected Value": "3205 CHEROKEE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "3028 CHINOOK PASS",
+            "Corrected Value": "3028 CHINOOK PASS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "639 S ROOSEVELT",
+            "Corrected Value": "639 S ROOSEVELT AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Original Value": "827 BRICE",
+            "Corrected Value": "827 BRICE AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Original Value": "45356",
+            "Corrected Value": "45356",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "1225 U.S. 36",
+            "Corrected Value": "1225 E US ROUTE 36",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "zip",
+            "Original Value": "45387",
+            "Corrected Value": "45387",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "2792 U.S. 68",
+            "Corrected Value": "2792 US HIGHWAY 68 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "zip",
+            "Original Value": "45387",
+            "Corrected Value": "45387",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "3790 SR 370",
+            "Corrected Value": "3790 SR 370",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "zip",
+            "Original Value": "45631",
+            "Corrected Value": "45631",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "102 OHIO 850",
+            "Corrected Value": "102 OHIO AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "zip",
+            "Original Value": "45308",
+            "Corrected Value": "45308",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "8905 OHIO 121",
+            "Corrected Value": "8905 SR 121",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "zip",
+            "Original Value": "45308",
+            "Corrected Value": "45308",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "3755 OHIO 721",
+            "Corrected Value": "3755 N SR 721",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "zip",
+            "Original Value": "45385",
+            "Corrected Value": "45385",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "zip",
+            "Original Value": "45387",
+            "Corrected Value": "45387",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "2625 US ROUTE 68",
+            "Corrected Value": "2625 US ROUTE 68 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "45385",
+            "Corrected Value": "45385",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "1950 OLD 35",
+            "Corrected Value": "1950 OLD 35",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "zip",
+            "Original Value": "45385",
+            "Corrected Value": "45385",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "1139 BRADFUTERD",
+            "Corrected Value": "1139 BRADFUTE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "zip",
+            "Original Value": "45387",
+            "Corrected Value": "45387",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Original Value": "2198 SR-343",
+            "Corrected Value": "2198 SR 343",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PLUM ST"
+        },
+        {
+            "Row": 177,
+            "Column": "lon",
+            "Error": "Longitude for OH must be between -84.820159 and -80.518693",
+            "Value": "-73.9914101"
+        },
+        {
+            "Row": 177,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "40.7340377"
+        },
+        {
+            "Row": 266,
+            "Column": "lon",
+            "Error": "Longitude for OH must be between -84.820159 and -80.518693",
+            "Value": "-73.9914101"
+        },
+        {
+            "Row": 266,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "40.7340377"
+        },
+        {
+            "Row": 262,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 184)",
+            "Value": "270"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "911 BRIARCLIFF"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1800 CAMBRIDGE"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "950 E US RT 36"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "707 BLAINE"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3029 CHINOOK PASS"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "710 BROADWAY"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "404 GLENWOOD"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3205 CHEROKEE"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3028 CHINOOK PASS"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "639 S ROOSEVELT"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "827 BRICE"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1225 US 36"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2792 US 68"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3790 SR 370"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "102 OHIO 850"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8905 OHIO 121"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3755 OHIO 721"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1848 OLD 35 E"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2625 US ROUTE 68"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1950 OLD 35"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1139 BRADFUTERD"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2198 SR343"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 262,
+            "customer": "270",
+            "lat": 39.7602614,
+            "lon": -84.1949935,
+            "address": "130 W 2ND STREET",
+            "city": "DAYTON",
+            "state": "OH",
+            "zip": "45402",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 184)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 8,
+            "Original Address": "911 BRIARCLIFF",
+            "Corrected Address": "911 BRIARCLIFF AVE",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:46.597837"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "1800 CAMBRIDGE",
+            "Corrected Address": "1800 CAMBRIDGE ST",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:46.930632"
+        },
+        {
+            "OrigRowNum": 37,
+            "Original Address": "950 E US RT 36",
+            "Corrected Address": "950 E US ROUTE 36",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:47.291448"
+        },
+        {
+            "OrigRowNum": 49,
+            "Original Address": "707 BLAINE",
+            "Corrected Address": "707 BLAINE AVE",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:47.539628"
+        },
+        {
+            "OrigRowNum": 50,
+            "Original Address": "3029 CHINOOK PASS",
+            "Corrected Address": "3029 CHINOOK PASS",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:47.780682"
+        },
+        {
+            "OrigRowNum": 59,
+            "Original Address": "710 BROADWAY",
+            "Corrected Address": "710 BROADWAY",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:48.041251"
+        },
+        {
+            "OrigRowNum": 61,
+            "Original Address": "404 GLENWOOD",
+            "Corrected Address": "404 GLENWOOD AVE",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:48.298432"
+        },
+        {
+            "OrigRowNum": 83,
+            "Original Address": "3205 CHEROKEE",
+            "Corrected Address": "3205 CHEROKEE DR",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:48.570256"
+        },
+        {
+            "OrigRowNum": 98,
+            "Original Address": "3028 CHINOOK PASS",
+            "Corrected Address": "3028 CHINOOK PASS",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:48.849213"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "639 S ROOSEVELT",
+            "Corrected Address": "639 S ROOSEVELT AVE",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:49.126564"
+        },
+        {
+            "OrigRowNum": 106,
+            "Original Address": "827 BRICE",
+            "Corrected Address": "827 BRICE AVE",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:49.406089"
+        },
+        {
+            "OrigRowNum": 126,
+            "Original Address": "1225 U.S. 36",
+            "Corrected Address": "1225 E US ROUTE 36",
+            "Original ZIP": "45356",
+            "Corrected ZIP": "45356",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:49.752132"
+        },
+        {
+            "OrigRowNum": 137,
+            "Original Address": "2792 U.S. 68",
+            "Corrected Address": "2792 US HIGHWAY 68 N",
+            "Original ZIP": "45387",
+            "Corrected ZIP": "45387",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:50.110529"
+        },
+        {
+            "OrigRowNum": 163,
+            "Original Address": "3790 SR 370",
+            "Corrected Address": "3790 SR 370",
+            "Original ZIP": "45387",
+            "Corrected ZIP": "45387",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:50.453188"
+        },
+        {
+            "OrigRowNum": 175,
+            "Original Address": "102 OHIO 850",
+            "Corrected Address": "102 OHIO AVE",
+            "Original ZIP": "45631",
+            "Corrected ZIP": "45631",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:50.671949"
+        },
+        {
+            "OrigRowNum": 183,
+            "Original Address": "8905 OHIO 121",
+            "Corrected Address": "8905 SR 121",
+            "Original ZIP": "45308",
+            "Corrected ZIP": "45308",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:50.891860"
+        },
+        {
+            "OrigRowNum": 191,
+            "Original Address": "3755 OHIO 721",
+            "Corrected Address": "3755 N SR 721",
+            "Original ZIP": "45308",
+            "Corrected ZIP": "45308",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:51.116124"
+        },
+        {
+            "OrigRowNum": 205,
+            "Original Address": "1848 OLD 35 E",
+            "Corrected Address": "1848 OLD 35",
+            "Original ZIP": "45385",
+            "Corrected ZIP": "45385",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:51.328348"
+        },
+        {
+            "OrigRowNum": 228,
+            "Original Address": "2625 US ROUTE 68",
+            "Corrected Address": "2625 US ROUTE 68 N",
+            "Original ZIP": "45387",
+            "Corrected ZIP": "45387",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:51.570699"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "1950 OLD 35",
+            "Corrected Address": "1950 OLD 35",
+            "Original ZIP": "45385",
+            "Corrected ZIP": "45385",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:51.869319"
+        },
+        {
+            "OrigRowNum": 240,
+            "Original Address": "1139 BRADFUTERD",
+            "Corrected Address": "1139 BRADFUTE RD",
+            "Original ZIP": "45385",
+            "Corrected ZIP": "45385",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:52.150029"
+        },
+        {
+            "OrigRowNum": 255,
+            "Original Address": "2198 SR-343",
+            "Corrected Address": "2198 SR 343",
+            "Original ZIP": "45387",
+            "Corrected ZIP": "45387",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T13:01:52.425886"
+        }
+    ]
+}

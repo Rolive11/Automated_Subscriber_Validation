@@ -1,0 +1,513 @@
+{
+    "Summary": {
+        "Total Rows Processed": 11666,
+        "Rows with Corrections": 0,
+        "Rows with Errors": 48,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 9,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 0,
+        "Total Errors": 49,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 12.66,
+        "Validation Date": "2025-08-24 21:25:51",
+        "Addresses Sent to Smarty": 1,
+        "Successful Corrections": 0,
+        "Failed Corrections": 1,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 1 rows (0.01%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 11656,
+        "Address Errors Found": 1,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.01,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 1 rows (0.01%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 11656,
+        "address_error_count": 1,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.01,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [
+            4272
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [],
+    "Errors": [
+        {
+            "Row": 2669,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2385 STETSON CIR"
+        },
+        {
+            "Row": 2671,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2386 STETSON CIR"
+        },
+        {
+            "Row": 2931,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2669 STEAMSHIP DR"
+        },
+        {
+            "Row": 2934,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2677 STEAMSHIP DRIVE"
+        },
+        {
+            "Row": 2937,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2681 STEAMSHIP DR"
+        },
+        {
+            "Row": 2939,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2685 STEAMSHIP DRIVE"
+        },
+        {
+            "Row": 3006,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2793 STEAMBOAT DRIVE"
+        },
+        {
+            "Row": 3011,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2800 STEAMBOAT DR"
+        },
+        {
+            "Row": 3023,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2841 STEAMBOAT DRIVE"
+        },
+        {
+            "Row": 3038,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2864 STEAMBOAT DRIVE"
+        },
+        {
+            "Row": 3042,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2868 STEAMBOAT DR"
+        },
+        {
+            "Row": 3080,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2933 STEAMBOAT DRIVE"
+        },
+        {
+            "Row": 3239,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3443 FLORENCE AVE"
+        },
+        {
+            "Row": 3240,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3445 FLORENCE AVE"
+        },
+        {
+            "Row": 3256,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3471 FLORENCE AVE"
+        },
+        {
+            "Row": 3259,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3484 FLORENCE AVENUE"
+        },
+        {
+            "Row": 3507,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "470 STEIGER DR"
+        },
+        {
+            "Row": 3510,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "474 STEIGER DRIVE"
+        },
+        {
+            "Row": 3512,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "475 STEIGER DRIVE"
+        },
+        {
+            "Row": 3519,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "476 STEIGER DRIVE"
+        },
+        {
+            "Row": 3903,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "883 FLORENCE AVENUE"
+        },
+        {
+            "Row": 3905,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "885 FLORENCE AVENUE"
+        },
+        {
+            "Row": 4127,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1850 FLICKER DR"
+        },
+        {
+            "Row": 4272,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "1524 E DRINDA WAY # 101/102"
+        },
+        {
+            "Row": 4336,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1810 STERLING ROAD"
+        },
+        {
+            "Row": 4946,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5637A BISON AVE"
+        },
+        {
+            "Row": 4947,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5637B BISON AVENUE"
+        },
+        {
+            "Row": 4975,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5696 FLINT STREET"
+        },
+        {
+            "Row": 5489,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2PIFI  DUAL WAN PUBLIC STATIC"
+        },
+        {
+            "Row": 7282,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1909 FLORA VISTA"
+        },
+        {
+            "Row": 7283,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1910 FLORA VISTA"
+        },
+        {
+            "Row": 7284,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1911 FLORA VISTA"
+        },
+        {
+            "Row": 7291,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1925 FLORA VISTA"
+        },
+        {
+            "Row": 7311,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2020 FLORA VISTA"
+        },
+        {
+            "Row": 7322,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2032 FLORA VISTA"
+        },
+        {
+            "Row": 7486,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "409/605 BELL LN"
+        },
+        {
+            "Row": 9519,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "S 360TH DRIVE"
+        },
+        {
+            "Row": 10016,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2905 BOX A WAY"
+        },
+        {
+            "Row": 10047,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5309 BOX R ST"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2626)",
+            "Value": "2671"
+        },
+        {
+            "Row": 7797,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2639)",
+            "Value": "2628"
+        },
+        {
+            "Row": 7799,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2639)",
+            "Value": "2622"
+        },
+        {
+            "Row": 7793,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 324)",
+            "Value": "319"
+        },
+        {
+            "Row": 7798,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2620)",
+            "Value": "2613"
+        },
+        {
+            "Row": 601,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 340)",
+            "Value": "442"
+        },
+        {
+            "Row": 602,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 340)",
+            "Value": "392"
+        },
+        {
+            "Row": 606,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3042)",
+            "Value": "2916"
+        },
+        {
+            "Row": 7390,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1146)",
+            "Value": "1794"
+        },
+        {
+            "Row": 4272,
+            "Column": "address",
+            "Error": "Smarty Validation Failed - Returned for Review",
+            "Value": "1524 E DRINDA WAY # 101/102"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 4272,
+            "address": "1524 E DRINDA WAY # 101/102",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 4,
+            "customer": "2671",
+            "lat": "",
+            "lon": "",
+            "address": "1000 S IDAHO RD",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85119",
+            "download": 30.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2626)"
+        },
+        {
+            "OrigRowNum": 7797,
+            "customer": "2628",
+            "lat": "",
+            "lon": "",
+            "address": "2650 W UNION HILLS DR",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85027",
+            "download": 25.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2639)"
+        },
+        {
+            "OrigRowNum": 7799,
+            "customer": "2622",
+            "lat": "",
+            "lon": "",
+            "address": "2650 W UNION HILLS DR",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85027",
+            "download": 25.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2639)"
+        },
+        {
+            "OrigRowNum": 7793,
+            "customer": "319",
+            "lat": "",
+            "lon": "",
+            "address": "2650 W UNION HILLS DR",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85027",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 324)"
+        },
+        {
+            "OrigRowNum": 7798,
+            "customer": "2613",
+            "lat": "",
+            "lon": "",
+            "address": "2650 W UNION HILLS DR",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85027",
+            "download": 7.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2620)"
+        },
+        {
+            "OrigRowNum": 601,
+            "customer": "442",
+            "lat": "",
+            "lon": "",
+            "address": "400 N PLAZA DR",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85120",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 340)"
+        },
+        {
+            "OrigRowNum": 602,
+            "customer": "392",
+            "lat": "",
+            "lon": "",
+            "address": "400 N PLAZA DR",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85120",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 340)"
+        },
+        {
+            "OrigRowNum": 606,
+            "customer": "2916",
+            "lat": "",
+            "lon": "",
+            "address": "400 N PLAZA DR",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85120",
+            "download": 30.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3042)"
+        },
+        {
+            "OrigRowNum": 7390,
+            "customer": "1794",
+            "lat": "",
+            "lon": "",
+            "address": "4170 NEEDLES HWY",
+            "city": "NEEDLES",
+            "state": "AZ",
+            "zip": "92363",
+            "download": 20.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1146)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4272,
+            "Original Address": "1524 E DRINDA WAY # 101/102",
+            "Corrected Address": "Invalid",
+            "Original ZIP": "86426",
+            "Corrected ZIP": null,
+            "Status": "Invalid",
+            "Error Message": "API credentials not configured",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-24T21:25:43.131498"
+        }
+    ]
+}

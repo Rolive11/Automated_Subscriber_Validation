@@ -1,0 +1,99 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+3,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RESTORE AND REDEEMED APT 4
+27,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MANOR APT 12
+29,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RESTORE AND REDEEMED APT 7
+36,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SPORTS COMPLEX
+80,address,Address lacks leading number (optionally prefixed by direction) followed by street name,ROWAN DRIVE
+160,address,Corrected address lacks valid street name after non-standard ending removal,200 STEELE LANE
+182,address,Invalid street name format before street ending,54A OAK HILL DR
+211,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SHAMROCK LANE
+212,address,Invalid street name format before street ending,134WARNALL CIRCLE
+282,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CURTIN AVENUE
+339,address,Address lacks leading number (optionally prefixed by direction) followed by street name,PARK PLACE LOT 14
+342,address,Invalid street name format before street ending,119TH ROAD
+343,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TP LOT 63
+345,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RESTORED AND REDEEMED APT 6
+387,address,Address lacks leading number (optionally prefixed by direction) followed by street name,LOST CREEK MANOR STREET APT 16
+388,address,Address lacks leading number (optionally prefixed by direction) followed by street name,LOST CREEK MANOR STREET APT 13
+460,address,Address lacks leading number (optionally prefixed by direction) followed by street name,CROW ROAD
+519,address,Address lacks leading number (optionally prefixed by direction) followed by street name,PARK PLACE LOT 51
+521,address,Address too short,8753
+538,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TP TRAILER PARK LOT 44
+30,lat,Latitude for MO must be positive,32.7836707
+30,lon,Paired coordinate reset due to invalid lat,-96.7483125
+30,lon,Longitude for MO must be negative,-96.7483125
+31,lat,Latitude for MO must be positive,32.798242
+31,lon,Paired coordinate reset due to invalid lat,-96.7868005
+31,lon,Longitude for MO must be negative,-96.7868005
+32,lat,Latitude for MO must be positive,32.8665474
+32,lon,Paired coordinate reset due to invalid lat,-97.3017177
+32,lon,Longitude for MO must be negative,-97.3017177
+33,lat,Latitude for MO must be positive,32.9188804
+33,lon,Paired coordinate reset due to invalid lat,-96.9230313
+33,lon,Longitude for MO must be between -95.774704 and -89.098843,-96.9230313
+34,lat,Latitude for MO must be positive,33.4433341
+34,lon,Paired coordinate reset due to invalid lat,-82.0293013
+34,lon,Longitude for MO must be negative,-82.0293013
+35,lat,Latitude for MO must be positive,33.4433341
+35,lon,Paired coordinate reset due to invalid lat,-82.0293013
+35,lon,Longitude for MO must be between -95.774704 and -89.098843,-82.0293013
+36,lat,Latitude for MO must be between 35.995683 and 40.613639,33.7034883
+36,lon,Paired coordinate reset due to invalid lat,73.0932554
+36,lon,Longitude for MO must be negative,73.0932554
+37,lat,Latitude for MO must be positive,35.7802789
+37,lon,Paired coordinate reset due to invalid lat,-119.2437782
+37,lon,Longitude for MO must be between -95.774704 and -89.098843,-119.2437782
+436,lon,Longitude for MO must be between -95.774704 and -89.098843,-82.7606706
+436,lat,Paired coordinate reset due to invalid lon,36.8770521
+529,lon,Longitude for MO must be between -95.774704 and -89.098843,-76.6000214
+529,lat,Paired coordinate reset due to invalid lon,39.3134603
+532,lat,Latitude for MO must be positive,41.4274421
+532,lon,Paired coordinate reset due to invalid lat,-87.3366093
+532,lon,Longitude for MO must be negative,-87.3366093
+533,lat,Latitude for MO must be positive,41.526384
+533,lon,Paired coordinate reset due to invalid lat,-88.0933016
+533,lon,Longitude for MO must be negative,-88.0933016
+534,lat,Latitude for MO must be positive,41.8839246
+534,lon,Paired coordinate reset due to invalid lat,-87.6385295
+534,lon,Longitude for MO must be negative,-87.6385295
+535,lat,Latitude for MO must be positive,41.8912837
+535,lon,Paired coordinate reset due to invalid lat,-87.6353812
+535,lon,Longitude for MO must be negative,-87.6353812
+536,lat,Latitude for MO must be positive,42.1039409
+536,lon,Paired coordinate reset due to invalid lat,-87.9592038
+536,lon,Longitude for MO must be negative,-87.9592038
+537,lat,Latitude for MO must be positive,42.1540252
+537,lon,Paired coordinate reset due to invalid lat,-88.1354523
+537,lon,Longitude for MO must be between -95.774704 and -89.098843,-88.1354523
+538,lat,Latitude for MO must be positive,42.1774539
+538,lon,Paired coordinate reset due to invalid lat,-73.5722481
+538,lon,Longitude for MO must be between -95.774704 and -89.098843,-73.5722481
+539,lat,Latitude for MO must be positive,42.3177069
+539,lon,Paired coordinate reset due to invalid lat,-83.0271003
+539,lon,Longitude for MO must be between -95.774704 and -89.098843,-83.0271003
+334,customer,"Duplicate customer ID, renamed to 1760818_001",1760818
+312,customer,"Duplicate customer ID, identical row deleted",1875695
+499,customer,"Duplicate customer ID, identical row deleted",1895879
+84,customer,"Duplicate customer ID, identical row deleted",1932248
+46,customer,"Duplicate customer ID, identical row deleted",2165566
+65,customer,"Duplicate customer ID, identical row deleted",2172807
+120,customer,"Duplicate customer ID, identical row deleted",2292340
+459,customer,"Duplicate customer ID, identical row deleted",2472322
+46,customer,"Data-based duplicate, removed (identical to customer 2165566)",2165566
+47,customer,"Data-based duplicate, removed (identical to customer 2165566)",2364891
+48,customer,"Data-based duplicate, removed (identical to customer 2165566)",2364892
+65,customer,"Data-based duplicate, removed (identical to customer 2172807)",2172807
+84,customer,"Data-based duplicate, removed (identical to customer 1932248)",1932248
+103,customer,"Data-based duplicate, removed (identical to customer 2430231)",2434221
+120,customer,"Data-based duplicate, removed (identical to customer 2292340)",2292340
+191,customer,"Data-based duplicate, removed (identical to customer 2401841)",2402823
+312,customer,"Data-based duplicate, removed (identical to customer 1875695)",1875695
+410,customer,"Data-based duplicate, removed (identical to customer 1981880)",1982003
+459,customer,"Data-based duplicate, removed (identical to customer 2472322)",2472322
+499,customer,"Data-based duplicate, removed (identical to customer 1895879)",1895879
+501,customer,"Data-based duplicate, removed (identical to customer 2023445)",2106046
+503,customer,"Data-based duplicate, removed (identical to customer 2145283)",2217382
+505,customer,"Data-based duplicate, removed (identical to customer 2145283)",2453589
+506,customer,"Data-based duplicate, removed (identical to customer 2223952)",2466025
+509,customer,"Data-based duplicate, removed (identical to customer 1705102)",1756261

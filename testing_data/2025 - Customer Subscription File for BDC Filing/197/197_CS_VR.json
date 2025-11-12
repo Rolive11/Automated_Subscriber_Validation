@@ -1,0 +1,1680 @@
+{
+    "Summary": {
+        "Total Rows Processed": 316,
+        "Rows with Corrections": 50,
+        "Rows with Errors": 49,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "Total Corrections": 99,
+        "Total Errors": 0,
+        "Street Ending Errors": 49,
+        "Validation Time (seconds)": 13.43,
+        "Validation Date": "2025-07-20 16:01:02",
+        "Addresses Sent to Smarty": 49,
+        "Successful Corrections": 49,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 13.17,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 316,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 316,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "950 CR 271",
+            "Corrected Value": "950 CR",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "123 MAGNOLIA",
+            "Corrected Value": "123 MAGNOLIA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "6712 FM 2919",
+            "Corrected Value": "6712 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "4710 FM 2919",
+            "Corrected Value": "4710 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "16628 FM 1164",
+            "Corrected Value": "16628 FM 1164 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "4702 FM 2919",
+            "Corrected Value": "4702 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "4850 FM 2919",
+            "Corrected Value": "4850 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "6004 HIGHWAY 60",
+            "Corrected Value": "6004 HIGHWAY 60 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "17502 HIGHWAY 90A W",
+            "Corrected Value": "17502 HIGHWAY 90A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "6620 FM 2919",
+            "Corrected Value": "6620 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "25330 JAMES",
+            "Corrected Value": "25330 JAMES ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "7416 US 60 HWY",
+            "Corrected Value": "7416 US 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "4438 N SH 60 HWY",
+            "Corrected Value": "4438 N SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "17029 HWY 90A W",
+            "Corrected Value": "17029 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "16720 FM 1164",
+            "Corrected Value": "16720 FM 1164 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "18399 FM 1164",
+            "Corrected Value": "18399 FM 1164 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "18515 FM 1164",
+            "Corrected Value": "18515 FM 1164 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "2400 SH 60",
+            "Corrected Value": "2400 N SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "8149 SH 60 HWY",
+            "Corrected Value": "8149 SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "zip",
+            "Original Value": "77434",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "2522 FM 2764",
+            "Corrected Value": "2522 FM 2764 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "17023 US 90A HWY",
+            "Corrected Value": "17023 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "165 JUSTIN",
+            "Corrected Value": "165 JUSTIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "5217 FM 2919",
+            "Corrected Value": "5217 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "6603 FM 2919",
+            "Corrected Value": "6603 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "6234 SH HWY60",
+            "Corrected Value": "6234 HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "2002 E CYPRESS",
+            "Corrected Value": "2002 E CYPRESS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "121 KANSAS",
+            "Corrected Value": "121 KANSAS AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "707 JOHN ALBERT",
+            "Corrected Value": "707 JOHN ALBERT DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "6121 FM 2919",
+            "Corrected Value": "6121 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Original Value": "5151 N STATE HIGHWAY 60",
+            "Corrected Value": "5151 N STATE HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "5306 SH 60",
+            "Corrected Value": "5306 SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "25626 FRANKLIN",
+            "Corrected Value": "25626 FRANKLIN ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "1828 W CYPRESS",
+            "Corrected Value": "1828 W CYPRESS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "5365 CR209",
+            "Corrected Value": "5365 COUNTY ROAD 209",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "zip",
+            "Original Value": "77454",
+            "Corrected Value": "77454",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "25214 FRANKLIN",
+            "Corrected Value": "25214 FRANKLIN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "4465 N STATE HIGHWAY 60",
+            "Corrected Value": "4465 HIGHWAY 60 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "2302 SH 60",
+            "Corrected Value": "2302 SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "1810 W. CYPRESS",
+            "Corrected Value": "1810 W CYPRESS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "1816 E CYPRESS",
+            "Corrected Value": "1816 E CYPRESS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "4451 N SH 60",
+            "Corrected Value": "4451 N SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 259,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 259,
+            "Column": "address",
+            "Original Value": "4703 N STATE HIGHWAY 60",
+            "Corrected Value": "4703 HIGHWAY 60 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "4524 N SH 60 HWY",
+            "Corrected Value": "4524 N SH 60 HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "17143 HIGHWAY 90 ALTERNATE",
+            "Corrected Value": "17143 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "6621 FM 2919",
+            "Corrected Value": "6621 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "17155 HIGHWAY 90 ALTERNATE",
+            "Corrected Value": "17155 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "18419 HIGHWAY 90 ALTERNATE",
+            "Corrected Value": "18419 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "18415 US 90A HIGHWAY",
+            "Corrected Value": "18415 US 90A HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "6523 FM 2919",
+            "Corrected Value": "6523 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "878 TEXAS 60",
+            "Corrected Value": "878 HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "zip",
+            "Original Value": "77435",
+            "Corrected Value": "77435",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "5228 FM 2919",
+            "Corrected Value": "5228 FM 2919 RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [],
+    "Street Ending Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "123 MAGNOLIA"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6712 FM 2919"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4710 FM 2919"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16628 FM 1164"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4702 FM 2919"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4850 FM 2919"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6004 HIGHWAY 60"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17502 HIGHWAY 90A W"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6620 FM 2919"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25330 JAMES"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7416 US 60 HWY"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4438 N SH 60 HWY"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17029 HWY 90A W"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16720 FM 1164"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18399 FM 1164"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18515 FM 1164"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2400 SH 60"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8149 SH 60 HWY"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2522 FM 2764"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17023 US 90A HWY"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "165 JUSTIN"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5217 FM 2919"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6603 FM 2919"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6234 SH HWY60"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2002 E CYPRESS"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "121 KANSAS"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "707 JOHN ALBERT"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6121 FM 2919"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5151 N STATE HIGHWAY 60"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5306 SH 60"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25626 FRANKLIN"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1828 W CYPRESS"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5365 CR209"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25214 FRANKLIN"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4465 N STATE HIGHWAY 60"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2302 SH 60"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1810 W CYPRESS"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1816 E CYPRESS"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4451 N SH 60"
+        },
+        {
+            "Row": 259,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4703 N STATE HIGHWAY 60"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4524 N SH 60 HWY"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17143 HIGHWAY 90 ALTERNATE"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6621 FM 2919"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17155 HIGHWAY 90 ALTERNATE"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18419 HIGHWAY 90 ALTERNATE"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18415 US 90A HIGHWAY"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6523 FM 2919"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "878 TEXAS 60"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5228 FM 2919"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 2,
+            "Original Address": "123 MAGNOLIA",
+            "Corrected Address": "123 MAGNOLIA ST",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:49.523316"
+        },
+        {
+            "OrigRowNum": 9,
+            "Original Address": "6712 FM 2919",
+            "Corrected Address": "6712 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:49.795811"
+        },
+        {
+            "OrigRowNum": 17,
+            "Original Address": "4710 FM 2919",
+            "Corrected Address": "4710 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:50.040352"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "16628 FM 1164",
+            "Corrected Address": "16628 FM 1164 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:50.322084"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "4702 FM 2919",
+            "Corrected Address": "4702 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:50.615135"
+        },
+        {
+            "OrigRowNum": 22,
+            "Original Address": "4850 FM 2919",
+            "Corrected Address": "4850 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:50.887942"
+        },
+        {
+            "OrigRowNum": 29,
+            "Original Address": "6004 HIGHWAY 60",
+            "Corrected Address": "6004 HIGHWAY 60 N",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:51.171005"
+        },
+        {
+            "OrigRowNum": 30,
+            "Original Address": "17502 HIGHWAY 90A W",
+            "Corrected Address": "17502 HIGHWAY 90A",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:51.450457"
+        },
+        {
+            "OrigRowNum": 59,
+            "Original Address": "6620 FM 2919",
+            "Corrected Address": "6620 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:51.669881"
+        },
+        {
+            "OrigRowNum": 75,
+            "Original Address": "25330 JAMES",
+            "Corrected Address": "25330 JAMES ST",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:51.893400"
+        },
+        {
+            "OrigRowNum": 76,
+            "Original Address": "7416 US 60 HWY",
+            "Corrected Address": "7416 US 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:52.110269"
+        },
+        {
+            "OrigRowNum": 82,
+            "Original Address": "4438 N SH 60 HWY",
+            "Corrected Address": "4438 N SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:52.353390"
+        },
+        {
+            "OrigRowNum": 86,
+            "Original Address": "17029 HWY 90A W",
+            "Corrected Address": "17029 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:52.584837"
+        },
+        {
+            "OrigRowNum": 93,
+            "Original Address": "16720 FM 1164",
+            "Corrected Address": "16720 FM 1164 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:52.841245"
+        },
+        {
+            "OrigRowNum": 95,
+            "Original Address": "18399 FM 1164",
+            "Corrected Address": "18399 FM 1164 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:53.100899"
+        },
+        {
+            "OrigRowNum": 97,
+            "Original Address": "18515 FM 1164",
+            "Corrected Address": "18515 FM 1164 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:53.360381"
+        },
+        {
+            "OrigRowNum": 119,
+            "Original Address": "2400 SH 60",
+            "Corrected Address": "2400 N SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:53.630576"
+        },
+        {
+            "OrigRowNum": 128,
+            "Original Address": "8149 SH 60 HWY",
+            "Corrected Address": "8149 SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:53.908067"
+        },
+        {
+            "OrigRowNum": 146,
+            "Original Address": "2522 FM 2764",
+            "Corrected Address": "2522 FM 2764 RD",
+            "Original ZIP": "77434",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:54.185020"
+        },
+        {
+            "OrigRowNum": 153,
+            "Original Address": "17023 US 90A HWY",
+            "Corrected Address": "17023 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:54.473286"
+        },
+        {
+            "OrigRowNum": 156,
+            "Original Address": "165 JUSTIN",
+            "Corrected Address": "165 JUSTIN ST",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:54.746523"
+        },
+        {
+            "OrigRowNum": 175,
+            "Original Address": "5217 FM 2919",
+            "Corrected Address": "5217 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:55.094095"
+        },
+        {
+            "OrigRowNum": 179,
+            "Original Address": "6603 FM 2919",
+            "Corrected Address": "6603 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:55.309879"
+        },
+        {
+            "OrigRowNum": 185,
+            "Original Address": "6234 SH HWY60",
+            "Corrected Address": "6234 HIGHWAY 60",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:55.536451"
+        },
+        {
+            "OrigRowNum": 186,
+            "Original Address": "2002 E CYPRESS",
+            "Corrected Address": "2002 E CYPRESS RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:55.771010"
+        },
+        {
+            "OrigRowNum": 191,
+            "Original Address": "121 KANSAS",
+            "Corrected Address": "121 KANSAS AVE",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:56.116124"
+        },
+        {
+            "OrigRowNum": 206,
+            "Original Address": "707 JOHN ALBERT",
+            "Corrected Address": "707 JOHN ALBERT DR",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:56.478014"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "6121 FM 2919",
+            "Corrected Address": "6121 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:56.809837"
+        },
+        {
+            "OrigRowNum": 217,
+            "Original Address": "5151 N STATE HIGHWAY 60",
+            "Corrected Address": "5151 N STATE HIGHWAY 60",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:57.068182"
+        },
+        {
+            "OrigRowNum": 218,
+            "Original Address": "5306 SH 60",
+            "Corrected Address": "5306 SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:57.340763"
+        },
+        {
+            "OrigRowNum": 221,
+            "Original Address": "25626 FRANKLIN",
+            "Corrected Address": "25626 FRANKLIN ST",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:57.603815"
+        },
+        {
+            "OrigRowNum": 222,
+            "Original Address": "1828 W CYPRESS",
+            "Corrected Address": "1828 W CYPRESS RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:57.882813"
+        },
+        {
+            "OrigRowNum": 227,
+            "Original Address": "5365 CR209",
+            "Corrected Address": "5365 COUNTY ROAD 209",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:58.146620"
+        },
+        {
+            "OrigRowNum": 231,
+            "Original Address": "25214 FRANKLIN",
+            "Corrected Address": "25214 FRANKLIN",
+            "Original ZIP": "77454",
+            "Corrected ZIP": "77454",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:58.410305"
+        },
+        {
+            "OrigRowNum": 237,
+            "Original Address": "4465 N STATE HIGHWAY 60",
+            "Corrected Address": "4465 HIGHWAY 60 N",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:58.665341"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "2302 SH 60",
+            "Corrected Address": "2302 SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:58.920235"
+        },
+        {
+            "OrigRowNum": 240,
+            "Original Address": "1810 W. CYPRESS",
+            "Corrected Address": "1810 W CYPRESS RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:59.200440"
+        },
+        {
+            "OrigRowNum": 241,
+            "Original Address": "1816 E CYPRESS",
+            "Corrected Address": "1816 E CYPRESS RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:59.440346"
+        },
+        {
+            "OrigRowNum": 256,
+            "Original Address": "4451 N SH 60",
+            "Corrected Address": "4451 N SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:59.704958"
+        },
+        {
+            "OrigRowNum": 259,
+            "Original Address": "4703 N STATE HIGHWAY 60",
+            "Corrected Address": "4703 HIGHWAY 60 N",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:00:59.967296"
+        },
+        {
+            "OrigRowNum": 268,
+            "Original Address": "4524 N SH 60 HWY",
+            "Corrected Address": "4524 N SH 60 HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:00.225986"
+        },
+        {
+            "OrigRowNum": 277,
+            "Original Address": "17143 HIGHWAY 90 ALTERNATE",
+            "Corrected Address": "17143 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:00.562341"
+        },
+        {
+            "OrigRowNum": 279,
+            "Original Address": "6621 FM 2919",
+            "Corrected Address": "6621 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:00.801123"
+        },
+        {
+            "OrigRowNum": 280,
+            "Original Address": "17155 HIGHWAY 90 ALTERNATE",
+            "Corrected Address": "17155 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:01.061510"
+        },
+        {
+            "OrigRowNum": 282,
+            "Original Address": "18419 HIGHWAY 90 ALTERNATE",
+            "Corrected Address": "18419 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:01.345419"
+        },
+        {
+            "OrigRowNum": 287,
+            "Original Address": "18415 US 90A HIGHWAY",
+            "Corrected Address": "18415 US 90A HWY",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:01.601613"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "6523 FM 2919",
+            "Corrected Address": "6523 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:01.860983"
+        },
+        {
+            "OrigRowNum": 300,
+            "Original Address": "878 TEXAS 60",
+            "Corrected Address": "878 HIGHWAY 60",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:02.104102"
+        },
+        {
+            "OrigRowNum": 305,
+            "Original Address": "5228 FM 2919",
+            "Corrected Address": "5228 FM 2919 RD",
+            "Original ZIP": "77435",
+            "Corrected ZIP": "77435",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T16:01:02.385344"
+        }
+    ]
+}

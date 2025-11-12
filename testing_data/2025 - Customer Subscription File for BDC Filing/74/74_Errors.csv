@@ -1,0 +1,16 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+94,address,PO Boxes not allowed,PO BOX 232
+95,address,PO Boxes not allowed,PO BOX 232
+112,address,PO Boxes not allowed,PO BOX 61
+115,address,PO Boxes not allowed,PO BOX 410
+128,address,Invalid street name format before street ending,W 285TH STREET
+129,address,Invalid street name format before street ending,W 285TH STREET
+48,customer,"Duplicate customer ID, renamed to 1955556_001",1955556
+60,customer,"Duplicate customer ID, identical row deleted",1955569
+95,customer,"Duplicate customer ID, identical row deleted",1955612
+129,customer,"Duplicate customer ID, renamed to 1966412_002",1966412
+137,customer,"Duplicate customer ID, identical row deleted",2030596
+95,customer,"Data-based duplicate, removed (identical to customer 1955612)",1955612
+137,customer,"Data-based duplicate, removed (identical to customer 2030596)",2030596
+60,customer,"Data-based duplicate, removed (identical to customer 1955569)",1955569

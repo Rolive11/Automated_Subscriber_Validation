@@ -1,0 +1,379 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+188,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MAPLE DRIVE
+219,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SWISS DRIVE
+304,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MEADOWS LANE
+527,address,Address lacks leading number (optionally prefixed by direction) followed by street name,WHITEFISH STAGE
+616,address,Address lacks leading number (optionally prefixed by direction) followed by street name,HERITAGE WAY
+624,address,PO Boxes not allowed,PO BOX 399
+627,address,PO Boxes not allowed,PO BOX 1016
+779,address,Address lacks leading number (optionally prefixed by direction) followed by street name,RICK HUNTSMAN
+784,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SHELDON MOUNTAIN
+806,address,Address lacks leading number (optionally prefixed by direction) followed by street name,KM BUILDING
+895,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TOWER
+900,address,Non-address content detected,RAIL PARK TBD
+1194,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MARTIN CAMP
+1217,address,Address lacks leading number (optionally prefixed by direction) followed by street name,NO ADDRESS  BEAVER LAKE RD
+1513,address,Invalid street name format before street ending,7075HI 93 S
+1658,address,Address too short,990
+1672,address,Address lacks leading number (optionally prefixed by direction) followed by street name,UNIT 11
+1984,address,PO Boxes not allowed,P O BOX 5514
+2450,address,Address too short,79
+2723,address,Invalid street name format before street ending,4291/2 1ST AVE S
+2906,address,Address too short,324
+3150,address,PO Boxes not allowed,400 KICKBUSCH LANE PO BOX 130343
+3491,address,Address lacks leading number (optionally prefixed by direction) followed by street name,BRIAN HARTNETT
+3676,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SCOTT GALLOWAY
+4069,address,Address too short,
+1931,state,Invalid State Abbreviation,mt
+711,city,City contains forbidden character,KALISPELL (EVERGREEN)
+918,zip,Invalid ZIP code format,599
+1463,zip,Invalid ZIP code format,59
+1877,zip,Invalid ZIP code format,599
+1921,zip,Invalid ZIP code format,5911
+3068,zip,Invalid ZIP code format,9922
+3369,zip,Invalid ZIP code format,5991
+1166,lat,Latitude for MT must be between 44.358209 and 49.00139,41.6032207
+1166,lon,Paired coordinate reset due to invalid lat,-73.087749
+1166,lon,Longitude for MT must be between -116.050002 and -104.039138,-73.087749
+2082,lat,Latitude for MT must be between 44.358209 and 49.00139,37.736882
+2082,lon,Paired coordinate reset due to invalid lat,-122.5024207
+2082,lon,Longitude for MT must be between -116.050002 and -104.039138,-122.5024207
+2210,lat,Latitude for MT must be between 44.358209 and 49.00139,36.1688235
+2210,lon,Paired coordinate reset due to invalid lat,-115.2185573
+2244,lat,Latitude for MT must be between 44.358209 and 49.00139,39.4643079
+2244,lon,Paired coordinate reset due to invalid lat,-104.5989203
+2893,lat,Latitude for OR must be positive,48.3875791
+2893,lon,Paired coordinate reset due to invalid lat,-114.0657115
+2893,lon,Longitude for OR must be negative,-114.0657115
+3249,lat,Latitude for CA must be positive,47.9897241
+3249,lon,Paired coordinate reset due to invalid lat,-114.1792205
+3559,lat,Latitude for CO must be positive,48.3285306
+3559,lon,Paired coordinate reset due to invalid lat,-114.3291737
+3559,lon,Longitude for CO must be negative,-114.3291737
+20,customer,"Duplicate customer ID, renamed to 13046969781005621_001 (identical data)",13046969781005621
+34,customer,"Duplicate customer ID, renamed to 132078636040332531_002",132078636040332531
+88,customer,"Duplicate customer ID, renamed to 1416410760205128941_003",1416410760205128941
+147,customer,"Duplicate customer ID, renamed to 148484838037849091_004",148484838037849091
+169,customer,"Duplicate customer ID, renamed to 1507055760870611_005",1507055760870611
+197,customer,"Duplicate customer ID, renamed to 152330874023430261_006",152330874023430261
+205,customer,"Duplicate customer ID, renamed to 15263296204264481_007",15263296204264481
+214,customer,"Duplicate customer ID, renamed to 15500800207067391_008",15500800207067391
+255,customer,"Duplicate customer ID, renamed to 155960190013285281_009",155960190013285281
+257,customer,"Duplicate customer ID, renamed to 155983242025227921_010",155983242025227921
+277,customer,"Duplicate customer ID, renamed to 156296988011424221_011 (identical data)",156296988011424221
+282,customer,"Duplicate customer ID, renamed to 15638167201262661_012 (identical data)",15638167201262661
+332,customer,"Duplicate customer ID, renamed to 15704694001725031_013",15704694001725031
+415,customer,"Duplicate customer ID, renamed to 20011204155617_014",20011204155617
+418,customer,"Duplicate customer ID, renamed to 20011218121625_015",20011218121625
+426,customer,"Duplicate customer ID, renamed to 20020215161605_016",20020215161605
+429,customer,"Duplicate customer ID, renamed to 20020319105446_017",20020319105446
+431,customer,"Duplicate customer ID, renamed to 20020322140030_018",20020322140030
+435,customer,"Duplicate customer ID, renamed to 20020411170135_019",20020411170135
+471,customer,"Duplicate customer ID, renamed to 20030523125823_020 (identical data)",20030523125823
+472,customer,"Duplicate customer ID, renamed to 20030523125823_021",20030523125823
+473,customer,"Duplicate customer ID, renamed to 20030523125823_022 (identical data)",20030523125823
+479,customer,"Duplicate customer ID, renamed to 20030816133053_023",20030816133053
+484,customer,"Duplicate customer ID, renamed to 20030904173744_024",20030904173744
+496,customer,"Duplicate customer ID, renamed to 20031023135806_025",20031023135806
+497,customer,"Duplicate customer ID, renamed to 20031023135806_026",20031023135806
+498,customer,"Duplicate customer ID, renamed to 20031023135806_027",20031023135806
+510,customer,"Duplicate customer ID, renamed to 20040203123441_028",20040203123441
+526,customer,"Duplicate customer ID, renamed to 20040504152503_029",20040504152503
+527,customer,"Duplicate customer ID, renamed to 20040504152503_030",20040504152503
+552,customer,"Duplicate customer ID, renamed to 20050914154941_031",20050914154941
+563,customer,"Duplicate customer ID, renamed to 20070918091710_032",20070918091710
+567,customer,"Duplicate customer ID, renamed to 20080318170534_033",20080318170534
+578,customer,"Duplicate customer ID, renamed to 20121128164956_034 (identical data)",20121128164956
+582,customer,"Duplicate customer ID, renamed to 20130802135937_035",20130802135937
+584,customer,"Duplicate customer ID, renamed to 20130806153128_036 (identical data)",20130806153128
+586,customer,"Duplicate customer ID, renamed to 20130822162823_037",20130822162823
+587,customer,"Duplicate customer ID, renamed to 20130822162823_038",20130822162823
+589,customer,"Duplicate customer ID, renamed to 20130917083633_039",20130917083633
+592,customer,"Duplicate customer ID, renamed to 20131105155115_040",20131105155115
+593,customer,"Duplicate customer ID, renamed to 20131105155115_041",20131105155115
+594,customer,"Duplicate customer ID, renamed to 20131105155115_042",20131105155115
+595,customer,"Duplicate customer ID, renamed to 20131105155115_043",20131105155115
+596,customer,"Duplicate customer ID, renamed to 20131105155115_044",20131105155115
+597,customer,"Duplicate customer ID, renamed to 20131105155115_045",20131105155115
+598,customer,"Duplicate customer ID, renamed to 20131105155115_046",20131105155115
+599,customer,"Duplicate customer ID, renamed to 20131105155115_047",20131105155115
+600,customer,"Duplicate customer ID, renamed to 20131105155115_048",20131105155115
+601,customer,"Duplicate customer ID, renamed to 20131105155115_049",20131105155115
+602,customer,"Duplicate customer ID, renamed to 20131105155115_050",20131105155115
+603,customer,"Duplicate customer ID, renamed to 20131105155115_051",20131105155115
+604,customer,"Duplicate customer ID, renamed to 20131105155115_052",20131105155115
+605,customer,"Duplicate customer ID, renamed to 20131105155115_053",20131105155115
+606,customer,"Duplicate customer ID, renamed to 20131105155115_054",20131105155115
+607,customer,"Duplicate customer ID, renamed to 20131105155115_055",20131105155115
+608,customer,"Duplicate customer ID, renamed to 20131105155115_056",20131105155115
+609,customer,"Duplicate customer ID, renamed to 20131105155115_057",20131105155115
+611,customer,"Duplicate customer ID, renamed to 20140213083543_058",20140213083543
+616,customer,"Duplicate customer ID, renamed to 20140721113513_059",20140721113513
+617,customer,"Duplicate customer ID, renamed to 20140721113513_060",20140721113513
+618,customer,"Duplicate customer ID, renamed to 20140721113513_061",20140721113513
+623,customer,"Duplicate customer ID, renamed to 20141106145732_062",20141106145732
+632,customer,"Duplicate customer ID, renamed to 20151020125716_063",20151020125716
+648,customer,"Duplicate customer ID, renamed to 20161101134726_064 (identical data)",20161101134726
+649,customer,"Duplicate customer ID, renamed to 20161101134726_065 (identical data)",20161101134726
+651,customer,"Duplicate customer ID, renamed to 20161115161300_066",20161115161300
+654,customer,"Duplicate customer ID, renamed to 20161116144613_067",20161116144613
+657,customer,"Duplicate customer ID, renamed to 20161206140342_068 (identical data)",20161206140342
+677,customer,"Duplicate customer ID, renamed to 20170510152026_069",20170510152026
+678,customer,"Duplicate customer ID, renamed to 20170510152026_070",20170510152026
+687,customer,"Duplicate customer ID, renamed to 20170717142237_071",20170717142237
+697,customer,"Duplicate customer ID, renamed to 20170830084229_072",20170830084229
+698,customer,"Duplicate customer ID, renamed to 20170830084229_073",20170830084229
+707,customer,"Duplicate customer ID, renamed to 20171012143527_074",20171012143527
+709,customer,"Duplicate customer ID, renamed to 20171113124054_075",20171113124054
+710,customer,"Duplicate customer ID, renamed to 20171113124054_076",20171113124054
+711,customer,"Duplicate customer ID, renamed to 20171113124054_077",20171113124054
+712,customer,"Duplicate customer ID, renamed to 20171113124054_078",20171113124054
+713,customer,"Duplicate customer ID, renamed to 20171113124054_079",20171113124054
+716,customer,"Duplicate customer ID, renamed to 20171204151824_080",20171204151824
+720,customer,"Duplicate customer ID, renamed to 20171228091522_081",20171228091522
+721,customer,"Duplicate customer ID, renamed to 20171228091522_082",20171228091522
+722,customer,"Duplicate customer ID, renamed to 20171228091522_083",20171228091522
+723,customer,"Duplicate customer ID, renamed to 20171228091522_084 (identical data)",20171228091522
+724,customer,"Duplicate customer ID, renamed to 20171228091522_085 (identical data)",20171228091522
+725,customer,"Duplicate customer ID, renamed to 20171228091522_086",20171228091522
+726,customer,"Duplicate customer ID, renamed to 20171228091522_087",20171228091522
+727,customer,"Duplicate customer ID, renamed to 20171228091522_088 (identical data)",20171228091522
+728,customer,"Duplicate customer ID, renamed to 20171228091522_089 (identical data)",20171228091522
+729,customer,"Duplicate customer ID, renamed to 20171228091522_090",20171228091522
+730,customer,"Duplicate customer ID, renamed to 20171228091522_091",20171228091522
+731,customer,"Duplicate customer ID, renamed to 20171228091522_092",20171228091522
+732,customer,"Duplicate customer ID, renamed to 20171228091522_093 (identical data)",20171228091522
+733,customer,"Duplicate customer ID, renamed to 20171228091522_094 (identical data)",20171228091522
+734,customer,"Duplicate customer ID, renamed to 20171228091522_095 (identical data)",20171228091522
+735,customer,"Duplicate customer ID, renamed to 20171228091522_096 (identical data)",20171228091522
+736,customer,"Duplicate customer ID, renamed to 20171228091522_097 (identical data)",20171228091522
+737,customer,"Duplicate customer ID, renamed to 20171228091522_098 (identical data)",20171228091522
+738,customer,"Duplicate customer ID, renamed to 20171228091522_099",20171228091522
+739,customer,"Duplicate customer ID, renamed to 20171228091522_100",20171228091522
+740,customer,"Duplicate customer ID, renamed to 20171228091522_101",20171228091522
+741,customer,"Duplicate customer ID, renamed to 20171228091522_102 (identical data)",20171228091522
+742,customer,"Duplicate customer ID, renamed to 20171228091522_103",20171228091522
+743,customer,"Duplicate customer ID, renamed to 20171228091522_104",20171228091522
+750,customer,"Duplicate customer ID, renamed to 20180212122541_105",20180212122541
+759,customer,"Duplicate customer ID, renamed to 20180427105539_106",20180427105539
+761,customer,"Duplicate customer ID, renamed to 20180503133148_107",20180503133148
+765,customer,"Duplicate customer ID, renamed to 20180507083039_108 (identical data)",20180507083039
+766,customer,"Duplicate customer ID, renamed to 20180507083039_109 (identical data)",20180507083039
+776,customer,"Duplicate customer ID, renamed to 20180612115424_110",20180612115424
+796,customer,"Duplicate customer ID, renamed to 20180801131124_111",20180801131124
+804,customer,"Duplicate customer ID, renamed to 20180808171000_112 (identical data)",20180808171000
+806,customer,"Duplicate customer ID, renamed to 20180808171848_113",20180808171848
+839,customer,"Duplicate customer ID, renamed to 20181030114528_114",20181030114528
+859,customer,"Duplicate customer ID, renamed to 20181213132847_115",20181213132847
+875,customer,"Duplicate customer ID, renamed to 20190204135944_116",20190204135944
+878,customer,"Duplicate customer ID, renamed to 20190211082650_117",20190211082650
+880,customer,"Duplicate customer ID, renamed to 20190214082104_118",20190214082104
+881,customer,"Duplicate customer ID, renamed to 20190214082104_119",20190214082104
+882,customer,"Duplicate customer ID, renamed to 20190214082104_120",20190214082104
+887,customer,"Duplicate customer ID, renamed to 20190426163451_121 (identical data)",20190426163451
+888,customer,"Duplicate customer ID, renamed to 20190426163451_122 (identical data)",20190426163451
+908,customer,"Duplicate customer ID, renamed to 20191126085741_123 (identical data)",20191126085741
+915,customer,"Duplicate customer ID, renamed to 20200228141153_124",20200228141153
+936,customer,"Duplicate customer ID, renamed to 20200326093813_125",20200326093813
+940,customer,"Duplicate customer ID, renamed to 20200326121612_126",20200326121612
+956,customer,"Duplicate customer ID, renamed to 20200406170202214_127",20200406170202214
+957,customer,"Duplicate customer ID, renamed to 20200406170202214_128 (identical data)",20200406170202214
+958,customer,"Duplicate customer ID, renamed to 20200406170202214_129",20200406170202214
+969,customer,"Duplicate customer ID, renamed to 20200415090003_130",20200415090003
+970,customer,"Duplicate customer ID, renamed to 20200415090003_131 (identical data)",20200415090003
+971,customer,"Duplicate customer ID, renamed to 20200415090003_132",20200415090003
+972,customer,"Duplicate customer ID, renamed to 20200415090003_133",20200415090003
+973,customer,"Duplicate customer ID, renamed to 20200415090003_134",20200415090003
+974,customer,"Duplicate customer ID, renamed to 20200415090003_135",20200415090003
+975,customer,"Duplicate customer ID, renamed to 20200415090003_136",20200415090003
+976,customer,"Duplicate customer ID, renamed to 20200415090003_137",20200415090003
+977,customer,"Duplicate customer ID, renamed to 20200415090003_138",20200415090003
+978,customer,"Duplicate customer ID, renamed to 20200415090003_139",20200415090003
+979,customer,"Duplicate customer ID, renamed to 20200415090003_140",20200415090003
+980,customer,"Duplicate customer ID, renamed to 20200415090003_141 (identical data)",20200415090003
+981,customer,"Duplicate customer ID, renamed to 20200415090003_142",20200415090003
+982,customer,"Duplicate customer ID, renamed to 20200415090003_143",20200415090003
+983,customer,"Duplicate customer ID, renamed to 20200415090003_144",20200415090003
+984,customer,"Duplicate customer ID, renamed to 20200415090003_145",20200415090003
+985,customer,"Duplicate customer ID, renamed to 20200415090003_146",20200415090003
+986,customer,"Duplicate customer ID, renamed to 20200415090003_147",20200415090003
+987,customer,"Duplicate customer ID, renamed to 20200415090003_148",20200415090003
+988,customer,"Duplicate customer ID, renamed to 20200415090003_149",20200415090003
+989,customer,"Duplicate customer ID, renamed to 20200415090003_150",20200415090003
+990,customer,"Duplicate customer ID, renamed to 20200415090003_151",20200415090003
+991,customer,"Duplicate customer ID, renamed to 20200415090003_152 (identical data)",20200415090003
+992,customer,"Duplicate customer ID, renamed to 20200415090003_153 (identical data)",20200415090003
+993,customer,"Duplicate customer ID, renamed to 20200415090003_154",20200415090003
+994,customer,"Duplicate customer ID, renamed to 20200415090003_155",20200415090003
+995,customer,"Duplicate customer ID, renamed to 20200415090003_156",20200415090003
+996,customer,"Duplicate customer ID, renamed to 20200415090003_157",20200415090003
+997,customer,"Duplicate customer ID, renamed to 20200415090003_158",20200415090003
+998,customer,"Duplicate customer ID, renamed to 20200415090003_159 (identical data)",20200415090003
+999,customer,"Duplicate customer ID, renamed to 20200415090003_160",20200415090003
+1000,customer,"Duplicate customer ID, renamed to 20200415090003_161",20200415090003
+1001,customer,"Duplicate customer ID, renamed to 20200415090003_162",20200415090003
+1002,customer,"Duplicate customer ID, renamed to 20200415090003_163",20200415090003
+1003,customer,"Duplicate customer ID, renamed to 20200415090003_164",20200415090003
+1004,customer,"Duplicate customer ID, renamed to 20200415090003_165 (identical data)",20200415090003
+1005,customer,"Duplicate customer ID, renamed to 20200415090003_166",20200415090003
+1006,customer,"Duplicate customer ID, renamed to 20200415090003_167",20200415090003
+1007,customer,"Duplicate customer ID, renamed to 20200415090003_168",20200415090003
+1008,customer,"Duplicate customer ID, renamed to 20200415090003_169",20200415090003
+1009,customer,"Duplicate customer ID, renamed to 20200415090003_170",20200415090003
+1010,customer,"Duplicate customer ID, renamed to 20200415090003_171",20200415090003
+1011,customer,"Duplicate customer ID, renamed to 20200415090003_172",20200415090003
+1012,customer,"Duplicate customer ID, renamed to 20200415090003_173",20200415090003
+1013,customer,"Duplicate customer ID, renamed to 20200415090003_174",20200415090003
+1014,customer,"Duplicate customer ID, renamed to 20200415090003_175",20200415090003
+1015,customer,"Duplicate customer ID, renamed to 20200415090003_176",20200415090003
+1016,customer,"Duplicate customer ID, renamed to 20200415090003_177",20200415090003
+1017,customer,"Duplicate customer ID, renamed to 20200415090003_178",20200415090003
+1021,customer,"Duplicate customer ID, renamed to 20200416141434738_179",20200416141434738
+1029,customer,"Duplicate customer ID, renamed to 20200420160632544_180",20200420160632544
+1037,customer,"Duplicate customer ID, renamed to 2020042908195920_181",2020042908195920
+1045,customer,"Duplicate customer ID, renamed to 20200508113634355_182",20200508113634355
+1057,customer,"Duplicate customer ID, renamed to 20200518145019742_183",20200518145019742
+1058,customer,"Duplicate customer ID, renamed to 20200518145019742_184",20200518145019742
+1065,customer,"Duplicate customer ID, renamed to 20200519164857828_185",20200519164857828
+1070,customer,"Duplicate customer ID, renamed to 20200522164516902_186",20200522164516902
+1071,customer,"Duplicate customer ID, renamed to 20200522164516902_187",20200522164516902
+1078,customer,"Duplicate customer ID, renamed to 20200601153517124_188",20200601153517124
+1104,customer,"Duplicate customer ID, renamed to 20200616123757153_189",20200616123757153
+1119,customer,"Duplicate customer ID, renamed to 20200623161646312_190 (identical data)",20200623161646312
+1120,customer,"Duplicate customer ID, renamed to 20200623161646312_191",20200623161646312
+1138,customer,"Duplicate customer ID, renamed to 20200707100802544_192 (identical data)",20200707100802544
+1139,customer,"Duplicate customer ID, renamed to 20200707100802544_193 (identical data)",20200707100802544
+1161,customer,"Duplicate customer ID, renamed to 2020071708312046_194 (identical data)",2020071708312046
+1165,customer,"Duplicate customer ID, renamed to 20200720155856569_195 (identical data)",20200720155856569
+1212,customer,"Duplicate customer ID, renamed to 20200806152826671_196",20200806152826671
+1229,customer,"Duplicate customer ID, renamed to 20200820164511626_197",20200820164511626
+1231,customer,"Duplicate customer ID, renamed to 20200821101506299_198",20200821101506299
+1232,customer,"Duplicate customer ID, renamed to 20200821101506299_199",20200821101506299
+1295,customer,"Duplicate customer ID, renamed to 20201001162856838_200",20201001162856838
+1296,customer,"Duplicate customer ID, renamed to 20201001162856838_201",20201001162856838
+1299,customer,"Duplicate customer ID, renamed to 2020100609033569_202",2020100609033569
+1334,customer,"Duplicate customer ID, renamed to 2020102914042775_203",2020102914042775
+1335,customer,"Duplicate customer ID, renamed to 2020102914042775_204",2020102914042775
+1339,customer,"Duplicate customer ID, renamed to 20201102143716928_205 (identical data)",20201102143716928
+1359,customer,"Duplicate customer ID, renamed to 20201116112152526_206",20201116112152526
+1375,customer,"Duplicate customer ID, renamed to 20201127172224260_207",20201127172224260
+1404,customer,"Duplicate customer ID, renamed to 20201229134030957_208",20201229134030957
+1448,customer,"Duplicate customer ID, renamed to 20210202150726812_209",20210202150726812
+1457,customer,"Duplicate customer ID, renamed to 2021020493550853_210",2021020493550853
+1489,customer,"Duplicate customer ID, renamed to 20210315103116594_211",20210315103116594
+1516,customer,"Duplicate customer ID, renamed to 2021041284228520_212",2021041284228520
+1524,customer,"Duplicate customer ID, renamed to 20210419120457329_213",20210419120457329
+1534,customer,"Duplicate customer ID, renamed to 2021042292746638_214",2021042292746638
+1548,customer,"Duplicate customer ID, renamed to 2021043095811417_215",2021043095811417
+1549,customer,"Duplicate customer ID, renamed to 2021043095811417_216",2021043095811417
+1626,customer,"Duplicate customer ID, renamed to 20210625124127970_217",20210625124127970
+1638,customer,"Duplicate customer ID, renamed to 20210630165340498_218",20210630165340498
+1649,customer,"Duplicate customer ID, renamed to 20210708104208600_219",20210708104208600
+1667,customer,"Duplicate customer ID, renamed to 20210716150359860_220",20210716150359860
+1678,customer,"Duplicate customer ID, renamed to 2021072294801315_221",2021072294801315
+1737,customer,"Duplicate customer ID, renamed to 20210914112014710_222",20210914112014710
+1744,customer,"Duplicate customer ID, renamed to 20210920140102758_223",20210920140102758
+1754,customer,"Duplicate customer ID, renamed to 20210929133647252_224",20210929133647252
+1759,customer,"Duplicate customer ID, renamed to 2021093013430197_225",2021093013430197
+1774,customer,"Duplicate customer ID, renamed to 2021101115360990_226",2021101115360990
+1847,customer,"Duplicate customer ID, renamed to 2021121013443692_227 (identical data)",2021121013443692
+1854,customer,"Duplicate customer ID, renamed to 202112141040086_228",202112141040086
+1856,customer,"Duplicate customer ID, renamed to 2021121510241614_229 (identical data)",2021121510241614
+1868,customer,"Duplicate customer ID, renamed to 2021122817185578_230",2021122817185578
+1875,customer,"Duplicate customer ID, renamed to 2022010410333525_231",2022010410333525
+1876,customer,"Duplicate customer ID, renamed to 2022010410333525_232",2022010410333525
+1929,customer,"Duplicate customer ID, renamed to 2022021514103650_233 (identical data)",2022021514103650
+1940,customer,"Duplicate customer ID, renamed to 2022022312031625_234",2022022312031625
+1945,customer,"Duplicate customer ID, renamed to 2022030110300985_235",2022030110300985
+1988,customer,"Duplicate customer ID, renamed to 2022040590915723_236",2022040590915723
+2035,customer,"Duplicate customer ID, renamed to 2022050311472317_237 (identical data)",2022050311472317
+2036,customer,"Duplicate customer ID, renamed to 2022050311472317_238 (identical data)",2022050311472317
+2037,customer,"Duplicate customer ID, renamed to 2022050311472317_239 (identical data)",2022050311472317
+2060,customer,"Duplicate customer ID, renamed to 2022051313553473_240",2022051313553473
+2061,customer,"Duplicate customer ID, renamed to 2022051313553473_241",2022051313553473
+2062,customer,"Duplicate customer ID, renamed to 2022051313553473_242",2022051313553473
+2074,customer,"Duplicate customer ID, renamed to 2022051984840904_243",2022051984840904
+2097,customer,"Duplicate customer ID, renamed to 2022060118193095_244",2022060118193095
+2106,customer,"Duplicate customer ID, renamed to 2022060609221424_245",2022060609221424
+2117,customer,"Duplicate customer ID, renamed to 2022061011134591_246",2022061011134591
+2118,customer,"Duplicate customer ID, renamed to 2022061011134591_247",2022061011134591
+2143,customer,"Duplicate customer ID, renamed to 2022062195817474_248 (identical data)",2022062195817474
+2205,customer,"Duplicate customer ID, renamed to 2022072013550139_249",2022072013550139
+2207,customer,"Duplicate customer ID, renamed to 2022072084427269_250",2022072084427269
+2231,customer,"Duplicate customer ID, renamed to 2022080285703649_251 (identical data)",2022080285703649
+2238,customer,"Duplicate customer ID, renamed to 2022080811123561_252 (identical data)",2022080811123561
+2239,customer,"Duplicate customer ID, renamed to 2022080811123561_253",2022080811123561
+2305,customer,"Duplicate customer ID, renamed to 2022092110232550_254",2022092110232550
+2424,customer,"Duplicate customer ID, renamed to 2022122116094123_255",2022122116094123
+2485,customer,"Duplicate customer ID, renamed to 2023022282641942_256 (identical data)",2023022282641942
+2505,customer,"Duplicate customer ID, renamed to 2023031610594578_257",2023031610594578
+2522,customer,"Duplicate customer ID, renamed to 2023033013312069_258 (identical data)",2023033013312069
+2523,customer,"Duplicate customer ID, renamed to 2023033013312069_259 (identical data)",2023033013312069
+2543,customer,"Duplicate customer ID, renamed to 2023041316224555_260",2023041316224555
+2619,customer,"Duplicate customer ID, renamed to 2023060790716107_261",2023060790716107
+2620,customer,"Duplicate customer ID, renamed to 2023060790716107_262",2023060790716107
+2623,customer,"Duplicate customer ID, renamed to 2023060815531570_263",2023060815531570
+2648,customer,"Duplicate customer ID, renamed to 2023062185716444_264",2023062185716444
+2653,customer,"Duplicate customer ID, renamed to 2023062616231649_265 (identical data)",2023062616231649
+2654,customer,"Duplicate customer ID, renamed to 2023062616231649_266 (identical data)",2023062616231649
+2658,customer,"Duplicate customer ID, renamed to 2023062713092369_267 (identical data)",2023062713092369
+2751,customer,"Duplicate customer ID, renamed to 2023091108105675_268",2023091108105675
+2752,customer,"Duplicate customer ID, renamed to 2023091108105675_269",2023091108105675
+2771,customer,"Duplicate customer ID, renamed to 2023091515080659_270",2023091515080659
+2802,customer,"Duplicate customer ID, renamed to 2023100616454770_271",2023100616454770
+2803,customer,"Duplicate customer ID, renamed to 2023100616454770_272 (identical data)",2023100616454770
+2826,customer,"Duplicate customer ID, renamed to 2023101714443388_273",2023101714443388
+2832,customer,"Duplicate customer ID, renamed to 2023102011552215_274",2023102011552215
+2842,customer,"Duplicate customer ID, renamed to 2023102511355269_275 (identical data)",2023102511355269
+2843,customer,"Duplicate customer ID, renamed to 2023102511355269_276 (identical data)",2023102511355269
+2844,customer,"Duplicate customer ID, renamed to 2023102511355269_277 (identical data)",2023102511355269
+2845,customer,"Duplicate customer ID, renamed to 2023102511355269_278 (identical data)",2023102511355269
+2846,customer,"Duplicate customer ID, renamed to 2023102511355269_279 (identical data)",2023102511355269
+2847,customer,"Duplicate customer ID, renamed to 2023102511355269_280 (identical data)",2023102511355269
+2848,customer,"Duplicate customer ID, renamed to 2023102511355269_281 (identical data)",2023102511355269
+2849,customer,"Duplicate customer ID, renamed to 2023102511355269_282 (identical data)",2023102511355269
+2850,customer,"Duplicate customer ID, renamed to 2023102511355269_283 (identical data)",2023102511355269
+2851,customer,"Duplicate customer ID, renamed to 2023102511355269_284 (identical data)",2023102511355269
+2852,customer,"Duplicate customer ID, renamed to 2023102511355269_285 (identical data)",2023102511355269
+2853,customer,"Duplicate customer ID, renamed to 2023102511355269_286 (identical data)",2023102511355269
+2854,customer,"Duplicate customer ID, renamed to 2023102511355269_287 (identical data)",2023102511355269
+2855,customer,"Duplicate customer ID, renamed to 2023102511355269_288 (identical data)",2023102511355269
+2857,customer,"Duplicate customer ID, renamed to 2023102512351562_289",2023102512351562
+2887,customer,"Duplicate customer ID, renamed to 2023112774859520_290",2023112774859520
+2973,customer,"Duplicate customer ID, renamed to 2024020909075217_291",2024020909075217
+2978,customer,"Duplicate customer ID, renamed to 2024021408264243_292",2024021408264243
+3012,customer,"Duplicate customer ID, renamed to 2024031394115281_293",2024031394115281
+3063,customer,"Duplicate customer ID, renamed to 2024041114585244_294",2024041114585244
+3286,customer,"Duplicate customer ID, renamed to 2024081511534561_295",2024081511534561
+3367,customer,"Duplicate customer ID, renamed to 2024092314313568_296",2024092314313568
+3407,customer,"Duplicate customer ID, renamed to 2024101614373246_297",2024101614373246
+3408,customer,"Duplicate customer ID, renamed to 2024101614373246_298",2024101614373246
+3422,customer,"Duplicate customer ID, renamed to 2024102213475525_299",2024102213475525
+3614,customer,"Duplicate customer ID, renamed to 2025021112383993_300",2025021112383993
+3616,customer,"Duplicate customer ID, renamed to 2025021114005867_301",2025021114005867
+3617,customer,"Duplicate customer ID, renamed to 2025021114005867_302",2025021114005867
+3643,customer,"Duplicate customer ID, renamed to 2025030509581438_303 (identical data)",2025030509581438
+3720,customer,"Duplicate customer ID, renamed to 2025042415092791_304",2025042415092791
+3725,customer,"Duplicate customer ID, renamed to 2025042816425930_305 (identical data)",2025042816425930
+3770,customer,"Duplicate customer ID, renamed to 2025052710163215_306",2025052710163215
+3790,customer,"Duplicate customer ID, renamed to 2025060615031867_307",2025060615031867
+3837,customer,"Duplicate customer ID, renamed to 2025063012313454_308",2025063012313454
+3947,customer,"Duplicate customer ID, renamed to 338578620412518_309",338578620412518
+3959,customer,"Duplicate customer ID, renamed to 3395580701116444_310 (identical data)",3395580701116444
+3980,customer,"Duplicate customer ID, renamed to 3425797582409656_311",3425797582409656
+3990,customer,"Duplicate customer ID, renamed to 3442925329831597_312",3442925329831597
+3997,customer,"Duplicate customer ID, renamed to 34475757881226077_313",34475757881226077
+4005,customer,"Duplicate customer ID, renamed to 34560528031143492_314",34560528031143492
+4062,customer,"Duplicate customer ID, renamed to CT344810276019988515_315 (identical data)",CT344810276019988515
+4070,customer,"Duplicate customer ID, renamed to TNCP12583904_316",TNCP12583904
+4081,customer,"Duplicate customer ID, renamed to TNCP12584846_317",TNCP12584846
+4089,customer,"Duplicate customer ID, renamed to TNCP19492_318",TNCP19492
+4111,customer,"Duplicate customer ID, renamed to TNCP44182_319",TNCP44182
+4123,customer,"Duplicate customer ID, renamed to TNCP46095_320",TNCP46095
+918,zip,Invalid ZIP code,599
+1463,zip,Invalid ZIP code,59
+1877,zip,Invalid ZIP code,599
+1921,zip,Invalid ZIP code,5911
+3068,zip,Invalid ZIP code,9922
+3369,zip,Invalid ZIP code,5991

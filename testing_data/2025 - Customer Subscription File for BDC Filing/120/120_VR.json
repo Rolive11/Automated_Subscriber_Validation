@@ -1,0 +1,5340 @@
+{
+    "Summary": {
+        "Total Rows Processed": 658,
+        "Rows with Corrections": 311,
+        "Rows with Errors": 113,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 24,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 400,
+        "Total Errors": 45,
+        "Street Ending Errors": 84,
+        "Validation Time (seconds)": 0.8,
+        "Validation Date": "2025-08-01 08:45:13",
+        "Addresses Sent to Smarty": 84,
+        "Successful Corrections": 84,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.23,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 634,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 634,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "7480 FM 2410",
+            "Corrected Value": "7480 FM 2410",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "7480 FM 2410",
+            "Corrected Value": "7480 FM 2410",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "7480 FM 2410",
+            "Corrected Value": "7480 FM 2410",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "7480 FM 2410",
+            "Corrected Value": "7480 FM 2410",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "7220 NORTH LAKEVIEW DRIVE",
+            "Corrected Value": "7220 N LAKEVIEW DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "9914 SOUTH WHITEHALL ROAD",
+            "Corrected Value": "9914 S WHITEHALL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "10647 EAST TRIMMIER ROAD",
+            "Corrected Value": "10647 E TRIMMIER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "10645 EAST TRIMMIER ROAD",
+            "Corrected Value": "10645 E TRIMMIER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "745 PR 3642",
+            "Corrected Value": "745 PVT RD 3642",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "1074 FM 580",
+            "Corrected Value": "1074 FM 580",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "2549 N FM 116",
+            "Corrected Value": "2549 N FM 116",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "8800 SOUTH WHITEHALL ROAD",
+            "Corrected Value": "8800 S WHITEHALL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "3779 FM 436 W",
+            "Corrected Value": "3779 W FM 436",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "4282 FM 1113",
+            "Corrected Value": "4282 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Original Value": "4275 FM 1113",
+            "Corrected Value": "4275 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "4315 FM 1113",
+            "Corrected Value": "4315 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "4428 FM 436",
+            "Corrected Value": "4428 W FM 436",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "354 FM 2808",
+            "Corrected Value": "354 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "8750 W FM 93",
+            "Corrected Value": "8750 W FM 93",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "760 FM 3170",
+            "Corrected Value": "760 FM 3170",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "6951 FM 580",
+            "Corrected Value": "6951 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "2673 FM 2808",
+            "Corrected Value": "2673 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "14180 FM 580 E",
+            "Corrected Value": "14180 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "4452 FM 436",
+            "Corrected Value": "4452 W FM 436",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "191 PR 4721",
+            "Corrected Value": "191 PVT RD 4721",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "1980 WEST MAIN STREET",
+            "Corrected Value": "1980 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "7480 FM 2410",
+            "Corrected Value": "7480 FM 2410",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "1222 FM 580",
+            "Corrected Value": "1222 FM 580",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "3420 FM 1113",
+            "Corrected Value": "3420 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "4464 FM 436",
+            "Corrected Value": "4464 W FM 436",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "1216 E FM 580",
+            "Corrected Value": "1216 FM 580",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Original Value": "1781 FM 580",
+            "Corrected Value": "1781 FM 580",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "14168 FM580 E",
+            "Corrected Value": "14168 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "4418 FM 1113",
+            "Corrected Value": "4418 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "10649 EAST TRIMMIER ROAD",
+            "Corrected Value": "10649 E TRIMMIER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "3505 FM 1123",
+            "Corrected Value": "3505 FM 1123",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "5433 FM 116",
+            "Corrected Value": "5433 FM 116",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "8720 W FM 93",
+            "Corrected Value": "8720 W FM 93",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "6919 FM 580",
+            "Corrected Value": "6919 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "4322 FM 1113",
+            "Corrected Value": "4322 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "8685 FM 1783",
+            "Corrected Value": "8685 FM 1783",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "980 FM 2808",
+            "Corrected Value": "980 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "13100 E FM 580",
+            "Corrected Value": "13100 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "5073 FM 580 E",
+            "Corrected Value": "5073 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "9691 FM 1670",
+            "Corrected Value": "9691 FM 1670",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "10980 FM 1783",
+            "Corrected Value": "10980 FM 1783",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "4406 FM 1113",
+            "Corrected Value": "4406 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Original Value": "166 PRIVATE ROAD 3442 N",
+            "Corrected Value": "166 PVT RD 3442 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "386 EAST AMITY ROAD",
+            "Corrected Value": "386 E AMITY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Original Value": "5229 FM 2313",
+            "Corrected Value": "5229 FM 2313",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Original Value": "11012 FM 116",
+            "Corrected Value": "11012 FM 116",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Original Value": "6050 FM 1237",
+            "Corrected Value": "6050 FM 1237",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "10780 FM 116",
+            "Corrected Value": "10780 FM 116",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 444,
+            "Column": "address",
+            "Original Value": "1150 FM 2808",
+            "Corrected Value": "1150 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Original Value": "9109 HUNT HILL WEST ROAD",
+            "Corrected Value": "9109 HUNT HILL W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "61 NORTH KEGLEY ROAD",
+            "Corrected Value": "61 N KEGLEY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Original Value": "2625 FM 2808",
+            "Corrected Value": "2625 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "679 FM 2808",
+            "Corrected Value": "679 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "11934 E FM 580",
+            "Corrected Value": "11934 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Original Value": "13888 E FM 580",
+            "Corrected Value": "13888 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 520,
+            "Column": "address",
+            "Original Value": "4275 FM 1113",
+            "Corrected Value": "4275 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "164 PRIVATE ROAD",
+            "Corrected Value": "164 PVT RD",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "3995 FM 1113",
+            "Corrected Value": "3995 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 571,
+            "Column": "address",
+            "Original Value": "149 PRIVATE ROAD",
+            "Corrected Value": "149 PVT RD",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "710 PR 4717",
+            "Corrected Value": "710 PVT RD 4717",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "4275 FM 1113",
+            "Corrected Value": "4275 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Original Value": "190 PRIVATE ROAD",
+            "Corrected Value": "190 PVT RD",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "914 FM 2808",
+            "Corrected Value": "914 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Original Value": "14002 E FM 580",
+            "Corrected Value": "14002 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Original Value": "679 FM 2808",
+            "Corrected Value": "679 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "4011 FM 1113",
+            "Corrected Value": "4011 FM 1113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "5520 FM 1783",
+            "Corrected Value": "5520 FM 1783",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "state",
+            "Original Value": "Texas",
+            "Corrected Value": "TX",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "state",
+            "Original Value": "Texas",
+            "Corrected Value": "TX",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "state",
+            "Original Value": "TEXAS",
+            "Corrected Value": "TX",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "state",
+            "Original Value": "Texas",
+            "Corrected Value": "TX",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "state",
+            "Original Value": "Tx",
+            "Corrected Value": "TX",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "state",
+            "Original Value": "Tx",
+            "Corrected Value": "TX",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 587,
+            "Column": "state",
+            "Original Value": "Texas",
+            "Corrected Value": "TX",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 588,
+            "Column": "state",
+            "Original Value": "Tx",
+            "Corrected Value": "TX",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "lon",
+            "Original Value": -86.0309343,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "lat",
+            "Original Value": 33.7667096,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "lat",
+            "Original Value": 40.603251,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "lon",
+            "Original Value": -111.8330873,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2519533",
+            "Corrected Value": "2519533_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "customer",
+            "Original Value": "1971846",
+            "Corrected Value": "1971846_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "945 COUNTY ROAD 118",
+            "Corrected Value": "945 CR 118",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "945 COUNTY ROAD 118",
+            "Corrected Value": "945 CR 118",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "5446 COUNTY ROAD 3300",
+            "Corrected Value": "5446 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "613 COUNTY ROAD 3371",
+            "Corrected Value": "613 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "5117 COUNTY ROAD 3300",
+            "Corrected Value": "5117 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "708 COUNTY ROAD 3365",
+            "Corrected Value": "708 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "3638 COUNTY ROAD 4390",
+            "Corrected Value": "3638 CR 4390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "271 PRIVATE ROAD 3449",
+            "Corrected Value": "271 PVT RD 3449",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "599 COUNTY ROAD 3367",
+            "Corrected Value": "599 CR 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "661 COUNTY ROAD 3371",
+            "Corrected Value": "661 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "392 COUNTY ROAD 4717",
+            "Corrected Value": "392 CR 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "1072 COUNTY ROAD 3365",
+            "Corrected Value": "1072 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "676 PRIVATE ROAD 4717",
+            "Corrected Value": "676 PVT RD 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "1424 COUNTY ROAD 3300",
+            "Corrected Value": "1424 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "993 COUNTY ROAD 3384",
+            "Corrected Value": "993 CR 3384",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "5039 COUNTY ROAD 3300",
+            "Corrected Value": "5039 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "564 COUNTY ROAD 3372",
+            "Corrected Value": "564 CR 3372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "275 COUNTY ROAD 3368",
+            "Corrected Value": "275 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "490 COUNTY ROAD 3367",
+            "Corrected Value": "490 CR 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Original Value": "PRIVATE ROAD 4717",
+            "Corrected Value": "PVT RD 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "853 COUNTY ROAD 4390",
+            "Corrected Value": "853 CR 4390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "298 COUNTY ROAD 3371",
+            "Corrected Value": "298 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "969 COUNTY ROAD 3364",
+            "Corrected Value": "969 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "740 COUNTY ROAD 3365",
+            "Corrected Value": "740 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "address",
+            "Original Value": "883 COUNTY ROAD 3390",
+            "Corrected Value": "883 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Original Value": "4285 COUNTY ROAD 3270",
+            "Corrected Value": "4285 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Original Value": "1065 COUNTY ROAD 3365",
+            "Corrected Value": "1065 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "540 COUNTY ROAD 3367",
+            "Corrected Value": "540 CR 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "628 COUNTY ROAD 3365",
+            "Corrected Value": "628 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "318 COUNTY ROAD 4808",
+            "Corrected Value": "318 CR 4808",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "522 COUNTY ROAD 3371",
+            "Corrected Value": "522 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "5471 COUNTY ROAD 3300",
+            "Corrected Value": "5471 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "613 COUNTY ROAD 3364",
+            "Corrected Value": "613 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "2021 COUNTY ROAD 3270",
+            "Corrected Value": "2021 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "494 COUNTY ROAD 4813",
+            "Corrected Value": "494 CR 4813",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Original Value": "384 COUNTY ROAD 3368",
+            "Corrected Value": "384 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "730 PRIVATE ROAD 3642",
+            "Corrected Value": "730 PVT RD 3642",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "578 COUNTY ROAD 3371",
+            "Corrected Value": "578 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "239 COUNTY ROAD 3377",
+            "Corrected Value": "239 CR 3377",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "address",
+            "Original Value": "520 COUNTY ROAD 4804",
+            "Corrected Value": "520 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "366 COUNTY ROAD 3364",
+            "Corrected Value": "366 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "374 COUNTY ROAD 3371",
+            "Corrected Value": "374 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "3911 COUNTY ROAD 3270",
+            "Corrected Value": "3911 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "15281 PRIVATE ROAD 3644",
+            "Corrected Value": "15281 PVT RD 3644",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "619 COUNTY ROAD 3670",
+            "Corrected Value": "619 CR 3670",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "642 COUNTY ROAD 3371",
+            "Corrected Value": "642 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "371 COUNTY ROAD 3368",
+            "Corrected Value": "371 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "689 COUNTY ROAD 3640",
+            "Corrected Value": "689 CR 3640",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Original Value": "1081 COUNTY ROAD 3371",
+            "Corrected Value": "1081 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "5855 COUNTY ROAD 3300",
+            "Corrected Value": "5855 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "1967 COUNTY ROAD 3270",
+            "Corrected Value": "1967 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "375 COUNTY ROAD 139",
+            "Corrected Value": "375 CR 139",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "382 COUNTY ROAD 3365",
+            "Corrected Value": "382 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "12725 PRIVATE ROAD 3641",
+            "Corrected Value": "12725 PVT RD 3641",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "15517 PRIVATE ROAD 3644",
+            "Corrected Value": "15517 PVT RD 3644",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "1032 COUNTY ROAD 3365",
+            "Corrected Value": "1032 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "548 COUNTY ROAD 3364",
+            "Corrected Value": "548 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "1905 COUNTY ROAD 3270",
+            "Corrected Value": "1905 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Original Value": "2771 COUNTY ROAD 3270",
+            "Corrected Value": "2771 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "2151 COUNTY ROAD 3270",
+            "Corrected Value": "2151 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "3902 COUNTY ROAD 3640",
+            "Corrected Value": "3902 CR 3640",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "5861 COUNTY ROAD 3300",
+            "Corrected Value": "5861 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 253,
+            "Column": "address",
+            "Original Value": "214 COUNTY ROAD 3374",
+            "Corrected Value": "214 CR 3374",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "201 COUNTY ROAD 3371",
+            "Corrected Value": "201 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "416 COUNTY ROAD 56",
+            "Corrected Value": "416 CR 56",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "1765 COUNTY ROAD 3270",
+            "Corrected Value": "1765 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "576 PRIVATE ROAD 4717",
+            "Corrected Value": "576 PVT RD 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Original Value": "12500 PRIVATE ROAD 3641",
+            "Corrected Value": "12500 PVT RD 3641",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "535 COUNTY ROAD 3071",
+            "Corrected Value": "535 CR 3071",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "15087 PRIVATE ROAD 3644",
+            "Corrected Value": "15087 PVT RD 3644",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "228 COUNTY ROAD 3365",
+            "Corrected Value": "228 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "495 COUNTY ROAD 4813",
+            "Corrected Value": "495 CR 4813",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "541 PRIVATE ROAD 4717",
+            "Corrected Value": "541 PVT RD 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "13757 PRIVATE ROAD 3642",
+            "Corrected Value": "13757 PVT RD 3642",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "416 COUNTY ROAD 3081",
+            "Corrected Value": "416 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "256 COUNTY ROAD 3368",
+            "Corrected Value": "256 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 292,
+            "Column": "address",
+            "Original Value": "453 COUNTY ROAD 3350",
+            "Corrected Value": "453 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "769 COUNTY ROAD 4804",
+            "Corrected Value": "769 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "393 COUNTY ROAD 3368",
+            "Corrected Value": "393 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "174 PRIVATE ROAD 3449",
+            "Corrected Value": "174 PVT RD 3449",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "625 COUNTY ROAD 148",
+            "Corrected Value": "625 CR 148",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "1007 COUNTY ROAD 3300",
+            "Corrected Value": "1007 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 324,
+            "Column": "address",
+            "Original Value": "741 COUNTY ROAD 3365",
+            "Corrected Value": "741 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Original Value": "713 COUNTY ROAD 3371",
+            "Corrected Value": "713 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "5871 COUNTY ROAD 3300",
+            "Corrected Value": "5871 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "255 COUNTY ROAD 3350",
+            "Corrected Value": "255 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Original Value": "622 COUNTY ROAD 3365",
+            "Corrected Value": "622 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "3925 COUNTY ROAD 3270",
+            "Corrected Value": "3925 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "292 COUNTY ROAD 3368",
+            "Corrected Value": "292 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Original Value": "323 COUNTY ROAD 3270",
+            "Corrected Value": "323 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 355,
+            "Column": "address",
+            "Original Value": "399 COUNTY ROAD 3368",
+            "Corrected Value": "399 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "2776 COUNTY ROAD 3220",
+            "Corrected Value": "2776 CR 3220",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "183 COUNTY ROAD 3374",
+            "Corrected Value": "183 CR 3374",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 358,
+            "Column": "address",
+            "Original Value": "714 COUNTY ROAD 3372",
+            "Corrected Value": "714 CR 3372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Original Value": "797 COUNTY ROAD 3372",
+            "Corrected Value": "797 CR 3372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "790 COUNTY ROAD 3365",
+            "Corrected Value": "790 CR 3365",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "947 COUNTY ROAD 3372",
+            "Corrected Value": "947 CR 3372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "388 COUNTY ROAD 3355",
+            "Corrected Value": "388 CR 3355",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "2321 COUNTY ROAD 3270",
+            "Corrected Value": "2321 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Original Value": "1914 COUNTY ROAD 4820",
+            "Corrected Value": "1914 CR 4820",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "1047 COUNTY ROAD 4804",
+            "Corrected Value": "1047 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 372,
+            "Column": "address",
+            "Original Value": "714 COUNTY ROAD 3371",
+            "Corrected Value": "714 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "1768 COUNTY ROAD 3300",
+            "Corrected Value": "1768 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 375,
+            "Column": "address",
+            "Original Value": "512 COUNTY ROAD 3350",
+            "Corrected Value": "512 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "515 COUNTY ROAD 3350",
+            "Corrected Value": "515 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "1369 COUNTY ROAD 3340",
+            "Corrected Value": "1369 CR 3340",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "420 COUNTY ROAD 3371",
+            "Corrected Value": "420 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "212 COUNTY ROAD 4390",
+            "Corrected Value": "212 CR 4390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 391,
+            "Column": "address",
+            "Original Value": "554 COUNTY ROAD 3351",
+            "Corrected Value": "554 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 392,
+            "Column": "address",
+            "Original Value": "439 COUNTY ROAD 3351",
+            "Corrected Value": "439 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Original Value": "1047 COUNTY ROAD 3350",
+            "Corrected Value": "1047 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "492 COUNTY ROAD 3350",
+            "Corrected Value": "492 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "314 COUNTY ROAD 3081",
+            "Corrected Value": "314 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "326 COUNTY ROAD 3350",
+            "Corrected Value": "326 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "237 COUNTY ROAD 3368",
+            "Corrected Value": "237 CR 3368",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Original Value": "752 COUNTY ROAD 3350",
+            "Corrected Value": "752 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "1106 COUNTY ROAD 3640",
+            "Corrected Value": "1106 CR 3640",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Original Value": "616 COUNTY ROAD 4620",
+            "Corrected Value": "616 CR 4620",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "990 COUNTY ROAD 3150",
+            "Corrected Value": "990 CR 3150",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Original Value": "460 COUNTY ROAD 56",
+            "Corrected Value": "460 CR 56",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "770 COUNTY ROAD 3371",
+            "Corrected Value": "770 CR 3371",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 413,
+            "Column": "address",
+            "Original Value": "111 COUNTY ROAD 3384",
+            "Corrected Value": "111 CR 3384",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "155 COUNTY ROAD 4807",
+            "Corrected Value": "155 CR 4807",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "5479 COUNTY ROAD 3300",
+            "Corrected Value": "5479 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "116 COUNTY ROAD 3343",
+            "Corrected Value": "116 CR 3343",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "587 PRIVATE ROAD 3180",
+            "Corrected Value": "587 PVT RD 3180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "908 COUNTY ROAD 3351",
+            "Corrected Value": "908 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "289 COUNTY ROAD 3344",
+            "Corrected Value": "289 CR 3344",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "720 COUNTY ROAD 3340",
+            "Corrected Value": "720 CR 3340",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "397 COUNTY ROAD 3357",
+            "Corrected Value": "397 CR 3357",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "1223 COUNTY ROAD 4820",
+            "Corrected Value": "1223 CR 4820",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "864 COUNTY ROAD 3350",
+            "Corrected Value": "864 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "497 COUNTY ROAD 3340",
+            "Corrected Value": "497 CR 3340",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "710 PRIVATE ROAD 4717",
+            "Corrected Value": "710 PVT RD 4717",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "501 COUNTY ROAD 4630",
+            "Corrected Value": "501 CR 4630",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "635 COUNTY ROAD 101",
+            "Corrected Value": "635 CR 101",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "888 COUNTY ROAD 4804",
+            "Corrected Value": "888 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "1051 COUNTY ROAD 3340",
+            "Corrected Value": "1051 CR 3340",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "1096 COUNTY ROAD 3351",
+            "Corrected Value": "1096 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Original Value": "4179 COUNTY ROAD 3220",
+            "Corrected Value": "4179 CR 3220",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "856 COUNTY ROAD 3350",
+            "Corrected Value": "856 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Original Value": "3196 COUNTY ROAD 3430",
+            "Corrected Value": "3196 CR 3430",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "313 COUNTY ROAD 3350",
+            "Corrected Value": "313 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "510 COUNTY ROAD 3364",
+            "Corrected Value": "510 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Original Value": "534 COUNTY ROAD 3081",
+            "Corrected Value": "534 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "672 PRIVATE ROAD 3359",
+            "Corrected Value": "672 PVT RD 3359",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "3196 COUNTY ROAD 3430",
+            "Corrected Value": "3196 CR 3430",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Original Value": "932 COUNTY ROAD 3350",
+            "Corrected Value": "932 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "485 COUNTY ROAD 3364",
+            "Corrected Value": "485 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "5191 COUNTY RD 3300",
+            "Corrected Value": "5191 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "1294 COUNTY ROAD 3670",
+            "Corrected Value": "1294 CR 3670",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "1185 COUNTY ROAD 4804",
+            "Corrected Value": "1185 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "139 COUNTY ROAD 3364",
+            "Corrected Value": "139 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "565 COUNTY ROAD 3340",
+            "Corrected Value": "565 CR 3340",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Original Value": "3421 COUNTY ROAD 3300",
+            "Corrected Value": "3421 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Original Value": "815 COUNTY ROAD 3364",
+            "Corrected Value": "815 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Original Value": "737 COUNTY ROAD 4804",
+            "Corrected Value": "737 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "address",
+            "Original Value": "747 PRIVATE ROAD 3180",
+            "Corrected Value": "747 PVT RD 3180",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "532 COUNTY ROAD 4810",
+            "Corrected Value": "532 CR 4810",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "828 COUNTY ROAD 3364",
+            "Corrected Value": "828 CR 3364",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Original Value": "1950 COUNTY ROAD 145",
+            "Corrected Value": "1950 CR 145",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "479 COUNTY ROAD 4804",
+            "Corrected Value": "479 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Original Value": "574 COUNTY ROAD 3081",
+            "Corrected Value": "574 CR 3081",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "689 COUNTY ROAD 4804",
+            "Corrected Value": "689 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "6475 COUNTY ROAD 3300",
+            "Corrected Value": "6475 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 542,
+            "Column": "address",
+            "Original Value": "574 COUNTY ROAD 4810",
+            "Corrected Value": "574 CR 4810",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "112 COUNTY ROAD 3350",
+            "Corrected Value": "112 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 546,
+            "Column": "address",
+            "Original Value": "883 COUNTY ROAD 3270",
+            "Corrected Value": "883 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "5508 COUNTY ROAD 3300",
+            "Corrected Value": "5508 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "925 COUNTY ROAD 3463",
+            "Corrected Value": "925 CR 3463",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "5447 COUNTY ROAD 3300",
+            "Corrected Value": "5447 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "5320 COUNTY ROAD 3300",
+            "Corrected Value": "5320 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "770 COUNTY RD 3390",
+            "Corrected Value": "770 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 565,
+            "Column": "address",
+            "Original Value": "384 COUNTY ROAD 3372",
+            "Corrected Value": "384 CR 3372",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Original Value": "101 COUNTY ROAD 3351",
+            "Corrected Value": "101 CR 3351",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Original Value": "769 COUNTY ROAD 4804",
+            "Corrected Value": "769 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "6086 COUNTY ROAD 3300",
+            "Corrected Value": "6086 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Original Value": "970 COUNTY ROAD 3350",
+            "Corrected Value": "970 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Original Value": "3245 COUNTY RD 3270",
+            "Corrected Value": "3245 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Original Value": "1000 COUNTY ROAD 4810",
+            "Corrected Value": "1000 CR 4810",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "1216 COUNTY ROAD 4820",
+            "Corrected Value": "1216 CR 4820",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Original Value": "301 COUNTY ROAD 3103",
+            "Corrected Value": "301 CR 3103",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 590,
+            "Column": "address",
+            "Original Value": "950 COUNTY ROAD 3376",
+            "Corrected Value": "950 CR 3376",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 595,
+            "Column": "address",
+            "Original Value": "420 COUNTY ROAD 3390",
+            "Corrected Value": "420 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "950 COUNTY ROAD 3376",
+            "Corrected Value": "950 CR 3376",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 600,
+            "Column": "address",
+            "Original Value": "111 COUNTY ROAD 3350",
+            "Corrected Value": "111 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 603,
+            "Column": "address",
+            "Original Value": "598 COUNTY ROAD 3367",
+            "Corrected Value": "598 CR 3367",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "1978 COUNTY ROAD 4820",
+            "Corrected Value": "1978 CR 4820",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 608,
+            "Column": "address",
+            "Original Value": "894 COUNTY ROAD 3350",
+            "Corrected Value": "894 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "789 COUNTY ROAD 3390",
+            "Corrected Value": "789 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "710 COUNTY ROAD 3390",
+            "Corrected Value": "710 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Original Value": "223 PRIVATE ROAD 3449",
+            "Corrected Value": "223 PVT RD 3449",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "193 COUNTY ROAD 3341",
+            "Corrected Value": "193 CR 3341",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 621,
+            "Column": "address",
+            "Original Value": "462 PRIVATE ROAD 3435",
+            "Corrected Value": "462 PVT RD 3435",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "478 COUNTY ROAD 3350",
+            "Corrected Value": "478 CR 3350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "1060 COUNTY ROAD 4804",
+            "Corrected Value": "1060 CR 4804",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Original Value": "5945 COUNTY ROAD 3300",
+            "Corrected Value": "5945 CR 3300",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "3225 COUNTY ROAD 3270",
+            "Corrected Value": "3225 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "301 COUNTY ROAD 3390",
+            "Corrected Value": "301 CR 3390",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "290 COUNTY ROAD 4814",
+            "Corrected Value": "290 CR 4814",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "3193 COUNTY ROAD 3270",
+            "Corrected Value": "3193 CR 3270",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "9301 TROLL HOLLOW",
+            "Corrected Value": "9301 TROLL HOLW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "1021 NIAGARA HEIGHTS",
+            "Corrected Value": "1021 NIAGARA HTS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "1038 NIAGARA HEIGHTS",
+            "Corrected Value": "1038 NIAGARA HTS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "9203 TROLL HOLLOW",
+            "Corrected Value": "9203 TROLL HOLW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "zip",
+            "Original Value": "76504",
+            "Corrected Value": "76504",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "13899 TEXAS 317",
+            "Corrected Value": "13899 STATE HIGHWAY 317",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "9100 TROLL HOLLOW",
+            "Corrected Value": "9100 TROLL HOLW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "200 LOST MESA",
+            "Corrected Value": "200 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "218 LOST MESA",
+            "Corrected Value": "218 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "206 LOST MESA",
+            "Corrected Value": "206 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "107 LOST MESA",
+            "Corrected Value": "107 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "106 LOST MESA",
+            "Corrected Value": "106 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "101 LOST MESA",
+            "Corrected Value": "101 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "213 LOST MESA",
+            "Corrected Value": "213 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Original Value": "124 LOST MESA",
+            "Corrected Value": "124 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "101 CRESCENT MESA",
+            "Corrected Value": "101 CRESCENT MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Original Value": "1564 NIAGARA HEIGHTS",
+            "Corrected Value": "1564 NIAGARA HTS",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "130 LOST MESA",
+            "Corrected Value": "130 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "zip",
+            "Original Value": "76504",
+            "Corrected Value": "76504",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "13899 TEXAS 317",
+            "Corrected Value": "13899 STATE HIGHWAY 317",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "zip",
+            "Original Value": "76557",
+            "Corrected Value": "76557",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "15310 TEXAS 317",
+            "Corrected Value": "15310 STATE HIGHWAY 317",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "76502",
+            "Corrected Value": "76502",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "zip",
+            "Original Value": "76571",
+            "Corrected Value": "76571",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "zip",
+            "Original Value": "76557",
+            "Corrected Value": "76557",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "zip",
+            "Original Value": "76569",
+            "Corrected Value": "76579",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "9036 1237 SPUR",
+            "Corrected Value": "9036 SPUR 1237",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 444,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Original Value": "934 CR3340",
+            "Corrected Value": "934 COUNTY ROAD 3340",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "5416 FM580 E",
+            "Corrected Value": "5416 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "zip",
+            "Original Value": "76513",
+            "Corrected Value": "76513",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "205 LOST MESA",
+            "Corrected Value": "205 LOST MESA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 518,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Original Value": "1817 COTTONWOOD BLUFF",
+            "Corrected Value": "1817 COTTONWOOD BLF",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 520,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 521,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 521,
+            "Column": "address",
+            "Original Value": "1022 HICKORY",
+            "Corrected Value": "1022 HICKORY ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "zip",
+            "Original Value": "76550",
+            "Corrected Value": "76550",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "3405 FM 580 E",
+            "Corrected Value": "3405 FM 580 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "1965 N FM116",
+            "Corrected Value": "1965 N FM 116",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "1050 FM2808",
+            "Corrected Value": "1050 FM 2808",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "13668 U.S. 190",
+            "Corrected Value": "13668 SOUTH DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 610,
+            "Column": "zip",
+            "Original Value": "76539",
+            "Corrected Value": "76539",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "zip",
+            "Original Value": "76522",
+            "Corrected Value": "76522",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "zip",
+            "Original Value": "76528",
+            "Corrected Value": "76528",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 161,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PRIVATE ROAD 4717"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "EAGLE HEIGHTS DRIVE"
+        },
+        {
+            "Row": 548,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Texas"
+        },
+        {
+            "Row": 557,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Texas"
+        },
+        {
+            "Row": 568,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "TEXAS"
+        },
+        {
+            "Row": 570,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Texas"
+        },
+        {
+            "Row": 572,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Tx"
+        },
+        {
+            "Row": 573,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Tx"
+        },
+        {
+            "Row": 587,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Texas"
+        },
+        {
+            "Row": 588,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Tx"
+        },
+        {
+            "Row": 64,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-86.0309343"
+        },
+        {
+            "Row": 64,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "33.7667096"
+        },
+        {
+            "Row": 147,
+            "Column": "lat",
+            "Error": "Latitude for TX must be between 25.837377 and 36.500704",
+            "Value": "40.603251"
+        },
+        {
+            "Row": 147,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-111.8330873"
+        },
+        {
+            "Row": 147,
+            "Column": "lon",
+            "Error": "Longitude for TX must be between -106.645646 and -93.508292",
+            "Value": "-111.8330873"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1859318_001",
+            "Value": "1859318"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1859318"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1859318"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1959525_002",
+            "Value": "1959525"
+        },
+        {
+            "Row": 44,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1971846_003",
+            "Value": "1971846"
+        },
+        {
+            "Row": 45,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1971846"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1971846"
+        },
+        {
+            "Row": 47,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1971846"
+        },
+        {
+            "Row": 48,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1971846"
+        },
+        {
+            "Row": 49,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1971846_004",
+            "Value": "1971846"
+        },
+        {
+            "Row": 50,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1971846"
+        },
+        {
+            "Row": 82,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2037495"
+        },
+        {
+            "Row": 271,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2287305"
+        },
+        {
+            "Row": 379,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2399603"
+        },
+        {
+            "Row": 501,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2493901_005",
+            "Value": "2493901"
+        },
+        {
+            "Row": 579,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2519533_006",
+            "Value": "2519533"
+        },
+        {
+            "Row": 271,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287305)",
+            "Value": "2287305"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1859318)",
+            "Value": "1859318"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1859318)",
+            "Value": "1859318"
+        },
+        {
+            "Row": 50,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1971846_004)",
+            "Value": "1971846"
+        },
+        {
+            "Row": 45,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1971846_003)",
+            "Value": "1971846"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1971846_003)",
+            "Value": "1971846"
+        },
+        {
+            "Row": 47,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1971846_003)",
+            "Value": "1971846"
+        },
+        {
+            "Row": 48,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1971846_003)",
+            "Value": "1971846"
+        },
+        {
+            "Row": 386,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2400688)",
+            "Value": "2401733"
+        },
+        {
+            "Row": 379,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2399603)",
+            "Value": "2399603"
+        },
+        {
+            "Row": 366,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2391011)",
+            "Value": "2396435"
+        },
+        {
+            "Row": 490,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2488665)",
+            "Value": "2492491"
+        },
+        {
+            "Row": 82,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2037495)",
+            "Value": "2037495"
+        },
+        {
+            "Row": 634,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2559540)",
+            "Value": "2559583"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7480 FM 2410"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7480 FM 2410"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7480 FM 2410"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7480 FM 2410"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9301 TROLL HOLLOW"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1021 NIAGARA HEIGHTS"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1038 NIAGARA HEIGHTS"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9203 TROLL HOLLOW"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13899 TEXAS 317"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9100 TROLL HOLLOW"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "200 LOST MESA"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "218 LOST MESA"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "206 LOST MESA"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "107 LOST MESA"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "106 LOST MESA"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "101 LOST MESA"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "213 LOST MESA"
+        },
+        {
+            "Row": 74,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "124 LOST MESA"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "101 CRESCENT MESA"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1564 NIAGARA HEIGHTS"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1074 FM 580"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2549 N FM 116"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3779 FM 436 W"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4282 FM 1113"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4275 FM 1113"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "130 LOST MESA"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4315 FM 1113"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4428 FM 436"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "354 FM 2808"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8750 W FM 93"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "760 FM 3170"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6951 FM 580"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2673 FM 2808"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14180 FM 580 E"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4452 FM 436"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13899 TEXAS 317"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7480 FM 2410"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1222 FM 580"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3420 FM 1113"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4464 FM 436"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1216 E FM 580"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1781 FM 580"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14168 FM580 E"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4418 FM 1113"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15310 TEXAS 317"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3505 FM 1123"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5433 FM 116"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8720 W FM 93"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6919 FM 580"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4322 FM 1113"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8685 FM 1783"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "980 FM 2808"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13100 E FM 580"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5073 FM 580 E"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9691 FM 1670"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10980 FM 1783"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4406 FM 1113"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5229 FM 2313"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11012 FM 116"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6050 FM 1237"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10780 FM 116"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9036 1237 SPUR"
+        },
+        {
+            "Row": 444,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1150 FM 2808"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2625 FM 2808"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "679 FM 2808"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11934 E FM 580"
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "934 CR3340"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5416 FM580 E"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 LOST MESA"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13888 E FM 580"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1817 COTTONWOOD BLUFF"
+        },
+        {
+            "Row": 520,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4275 FM 1113"
+        },
+        {
+            "Row": 521,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1022 HICKORY"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3405 FM 580 E"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1965 N FM116"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1050 FM2808"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3995 FM 1113"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4275 FM 1113"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13668 US 190"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "914 FM 2808"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14002 E FM 580"
+        },
+        {
+            "Row": 610,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "679 FM 2808"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4011 FM 1113"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5520 FM 1783"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 4,
+            "customer": "1859318",
+            "lat": 31.05383,
+            "lon": -97.553202,
+            "address": "7480 FM 2410",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 5,
+            "customer": "1859318",
+            "lat": 31.05383,
+            "lon": -97.553202,
+            "address": "7480 FM 2410",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 45,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 46,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 47,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 48,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 50,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 110.0,
+            "upload": 22.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 82,
+            "customer": "2037495",
+            "lat": 31.2305261,
+            "lon": -97.9915814,
+            "address": "945 COUNTY ROAD 118",
+            "city": "COPPERAS COVE",
+            "state": "TX",
+            "zip": "76522",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 271,
+            "customer": "2287305",
+            "lat": 30.9899773,
+            "lon": -97.4096839,
+            "address": "6366 3 FORKS ROAD",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 22.0,
+            "upload": 11.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 379,
+            "customer": "2399603",
+            "lat": 31.078783,
+            "lon": -97.9998012,
+            "address": "12288 U.S. HIGHWAY 190",
+            "city": "KEMPNER",
+            "state": "TX",
+            "zip": "76539",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 271,
+            "customer": "2287305",
+            "lat": 30.9899773,
+            "lon": -97.4096839,
+            "address": "6366 3 FORKS ROAD",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 22.0,
+            "upload": 11.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287305)"
+        },
+        {
+            "OrigRowNum": 4,
+            "customer": "1859318",
+            "lat": 31.05383,
+            "lon": -97.553202,
+            "address": "7480 FM 2410",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1859318)"
+        },
+        {
+            "OrigRowNum": 5,
+            "customer": "1859318",
+            "lat": 31.05383,
+            "lon": -97.553202,
+            "address": "7480 FM 2410",
+            "city": "BELTON",
+            "state": "TX",
+            "zip": "76513",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1859318)"
+        },
+        {
+            "OrigRowNum": 50,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 110.0,
+            "upload": 22.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1971846_004)"
+        },
+        {
+            "OrigRowNum": 45,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1971846_003)"
+        },
+        {
+            "OrigRowNum": 46,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1971846_003)"
+        },
+        {
+            "OrigRowNum": 47,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1971846_003)"
+        },
+        {
+            "OrigRowNum": 48,
+            "customer": "1971846",
+            "lat": 31.0657989,
+            "lon": -97.6697535,
+            "address": "2113 SHAWNEE TRAIL",
+            "city": "HARKER HEIGHTS",
+            "state": "TX",
+            "zip": "76548",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1971846_003)"
+        },
+        {
+            "OrigRowNum": 386,
+            "customer": "2401733",
+            "lat": 31.0773593,
+            "lon": -98.0025918,
+            "address": "315 PECAN STREET",
+            "city": "KEMPNER",
+            "state": "TX",
+            "zip": "76539",
+            "download": 550.0,
+            "upload": 550.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 2400688)"
+        },
+        {
+            "OrigRowNum": 379,
+            "customer": "2399603",
+            "lat": 31.078783,
+            "lon": -97.9998012,
+            "address": "12288 U.S. HIGHWAY 190",
+            "city": "KEMPNER",
+            "state": "TX",
+            "zip": "76539",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2399603)"
+        },
+        {
+            "OrigRowNum": 366,
+            "customer": "2396435",
+            "lat": 31.0794236,
+            "lon": -97.9700206,
+            "address": "127 SIDEWINDER STREET",
+            "city": "COPPERAS COVE",
+            "state": "TX",
+            "zip": "76522",
+            "download": 22.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2391011)"
+        },
+        {
+            "OrigRowNum": 490,
+            "customer": "2492491",
+            "lat": 31.123293,
+            "lon": -98.1269429,
+            "address": "3196 COUNTY ROAD 3430",
+            "city": "LAMPASAS",
+            "state": "TX",
+            "zip": "76550",
+            "download": 110.0,
+            "upload": 110.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2488665)"
+        },
+        {
+            "OrigRowNum": 82,
+            "customer": "2037495",
+            "lat": 31.2305261,
+            "lon": -97.9915814,
+            "address": "945 COUNTY ROAD 118",
+            "city": "COPPERAS COVE",
+            "state": "TX",
+            "zip": "76522",
+            "download": 55.0,
+            "upload": 16.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2037495)"
+        },
+        {
+            "OrigRowNum": 634,
+            "customer": "2559583",
+            "lat": 37.2754255,
+            "lon": -107.8804692,
+            "address": "1099 MAIN AVENUE",
+            "city": "DURANGO",
+            "state": "CO",
+            "zip": "81301",
+            "download": 110.0,
+            "upload": 110.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2559540)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 2,
+            "Original Address": "7480 FM 2410",
+            "Corrected Address": "7480 FM 2410",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.262272"
+        },
+        {
+            "OrigRowNum": 3,
+            "Original Address": "7480 FM 2410",
+            "Corrected Address": "7480 FM 2410",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.263496"
+        },
+        {
+            "OrigRowNum": 4,
+            "Original Address": "7480 FM 2410",
+            "Corrected Address": "7480 FM 2410",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.263904"
+        },
+        {
+            "OrigRowNum": 5,
+            "Original Address": "7480 FM 2410",
+            "Corrected Address": "7480 FM 2410",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.264218"
+        },
+        {
+            "OrigRowNum": 6,
+            "Original Address": "9301 TROLL HOLLOW",
+            "Corrected Address": "9301 TROLL HOLW",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.264516"
+        },
+        {
+            "OrigRowNum": 7,
+            "Original Address": "1021 NIAGARA HEIGHTS",
+            "Corrected Address": "1021 NIAGARA HTS",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.264797"
+        },
+        {
+            "OrigRowNum": 11,
+            "Original Address": "1038 NIAGARA HEIGHTS",
+            "Corrected Address": "1038 NIAGARA HTS",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.265078"
+        },
+        {
+            "OrigRowNum": 22,
+            "Original Address": "9203 TROLL HOLLOW",
+            "Corrected Address": "9203 TROLL HOLW",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.265356"
+        },
+        {
+            "OrigRowNum": 42,
+            "Original Address": "13899 TEXAS 317",
+            "Corrected Address": "13899 STATE HIGHWAY 317",
+            "Original ZIP": "76504",
+            "Corrected ZIP": "76504",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.265633"
+        },
+        {
+            "OrigRowNum": 55,
+            "Original Address": "9100 TROLL HOLLOW",
+            "Corrected Address": "9100 TROLL HOLW",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.266317"
+        },
+        {
+            "OrigRowNum": 57,
+            "Original Address": "200 LOST MESA",
+            "Corrected Address": "200 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.266696"
+        },
+        {
+            "OrigRowNum": 68,
+            "Original Address": "218 LOST MESA",
+            "Corrected Address": "218 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.267032"
+        },
+        {
+            "OrigRowNum": 69,
+            "Original Address": "206 LOST MESA",
+            "Corrected Address": "206 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.267353"
+        },
+        {
+            "OrigRowNum": 70,
+            "Original Address": "107 LOST MESA",
+            "Corrected Address": "107 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.267679"
+        },
+        {
+            "OrigRowNum": 71,
+            "Original Address": "106 LOST MESA",
+            "Corrected Address": "106 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.267993"
+        },
+        {
+            "OrigRowNum": 72,
+            "Original Address": "101 LOST MESA",
+            "Corrected Address": "101 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.268311"
+        },
+        {
+            "OrigRowNum": 73,
+            "Original Address": "213 LOST MESA",
+            "Corrected Address": "213 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.268617"
+        },
+        {
+            "OrigRowNum": 74,
+            "Original Address": "124 LOST MESA",
+            "Corrected Address": "124 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.268923"
+        },
+        {
+            "OrigRowNum": 77,
+            "Original Address": "101 CRESCENT MESA",
+            "Corrected Address": "101 CRESCENT MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.269236"
+        },
+        {
+            "OrigRowNum": 80,
+            "Original Address": "1564 NIAGARA HEIGHTS",
+            "Corrected Address": "1564 NIAGARA HTS",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.269546"
+        },
+        {
+            "OrigRowNum": 88,
+            "Original Address": "1074 FM 580",
+            "Corrected Address": "1074 FM 580",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.269862"
+        },
+        {
+            "OrigRowNum": 91,
+            "Original Address": "2549 N FM 116",
+            "Corrected Address": "2549 N FM 116",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.270167"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "3779 FM 436 W",
+            "Corrected Address": "3779 W FM 436",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.270489"
+        },
+        {
+            "OrigRowNum": 103,
+            "Original Address": "4282 FM 1113",
+            "Corrected Address": "4282 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.270797"
+        },
+        {
+            "OrigRowNum": 106,
+            "Original Address": "4275 FM 1113",
+            "Corrected Address": "4275 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.271103"
+        },
+        {
+            "OrigRowNum": 110,
+            "Original Address": "130 LOST MESA",
+            "Corrected Address": "130 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.271417"
+        },
+        {
+            "OrigRowNum": 111,
+            "Original Address": "4315 FM 1113",
+            "Corrected Address": "4315 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.271713"
+        },
+        {
+            "OrigRowNum": 113,
+            "Original Address": "4428 FM 436",
+            "Corrected Address": "4428 W FM 436",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.271976"
+        },
+        {
+            "OrigRowNum": 121,
+            "Original Address": "354 FM 2808",
+            "Corrected Address": "354 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.272239"
+        },
+        {
+            "OrigRowNum": 129,
+            "Original Address": "8750 W FM 93",
+            "Corrected Address": "8750 W FM 93",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.272493"
+        },
+        {
+            "OrigRowNum": 130,
+            "Original Address": "760 FM 3170",
+            "Corrected Address": "760 FM 3170",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.272762"
+        },
+        {
+            "OrigRowNum": 131,
+            "Original Address": "6951 FM 580",
+            "Corrected Address": "6951 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.273023"
+        },
+        {
+            "OrigRowNum": 139,
+            "Original Address": "2673 FM 2808",
+            "Corrected Address": "2673 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.273279"
+        },
+        {
+            "OrigRowNum": 141,
+            "Original Address": "14180 FM 580 E",
+            "Corrected Address": "14180 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.273542"
+        },
+        {
+            "OrigRowNum": 143,
+            "Original Address": "4452 FM 436",
+            "Corrected Address": "4452 W FM 436",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.273812"
+        },
+        {
+            "OrigRowNum": 170,
+            "Original Address": "13899 TEXAS 317",
+            "Corrected Address": "13899 STATE HIGHWAY 317",
+            "Original ZIP": "76504",
+            "Corrected ZIP": "76504",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.274065"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "7480 FM 2410",
+            "Corrected Address": "7480 FM 2410",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.274327"
+        },
+        {
+            "OrigRowNum": 179,
+            "Original Address": "1222 FM 580",
+            "Corrected Address": "1222 FM 580",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.274585"
+        },
+        {
+            "OrigRowNum": 186,
+            "Original Address": "3420 FM 1113",
+            "Corrected Address": "3420 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.274834"
+        },
+        {
+            "OrigRowNum": 197,
+            "Original Address": "4464 FM 436",
+            "Corrected Address": "4464 W FM 436",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.275091"
+        },
+        {
+            "OrigRowNum": 214,
+            "Original Address": "1216 E FM 580",
+            "Corrected Address": "1216 FM 580",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.275341"
+        },
+        {
+            "OrigRowNum": 216,
+            "Original Address": "1781 FM 580",
+            "Corrected Address": "1781 FM 580",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.275607"
+        },
+        {
+            "OrigRowNum": 224,
+            "Original Address": "14168 FM580 E",
+            "Corrected Address": "14168 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.275861"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "4418 FM 1113",
+            "Corrected Address": "4418 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.276112"
+        },
+        {
+            "OrigRowNum": 267,
+            "Original Address": "15310 TEXAS 317",
+            "Corrected Address": "15310 STATE HIGHWAY 317",
+            "Original ZIP": "76557",
+            "Corrected ZIP": "76557",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.276368"
+        },
+        {
+            "OrigRowNum": 275,
+            "Original Address": "3505 FM 1123",
+            "Corrected Address": "3505 FM 1123",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.276632"
+        },
+        {
+            "OrigRowNum": 276,
+            "Original Address": "5433 FM 116",
+            "Corrected Address": "5433 FM 116",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.276900"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "8720 W FM 93",
+            "Corrected Address": "8720 W FM 93",
+            "Original ZIP": "76502",
+            "Corrected ZIP": "76502",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.277161"
+        },
+        {
+            "OrigRowNum": 297,
+            "Original Address": "6919 FM 580",
+            "Corrected Address": "6919 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.277427"
+        },
+        {
+            "OrigRowNum": 306,
+            "Original Address": "4322 FM 1113",
+            "Corrected Address": "4322 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.277683"
+        },
+        {
+            "OrigRowNum": 309,
+            "Original Address": "8685 FM 1783",
+            "Corrected Address": "8685 FM 1783",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.277914"
+        },
+        {
+            "OrigRowNum": 315,
+            "Original Address": "980 FM 2808",
+            "Corrected Address": "980 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.278139"
+        },
+        {
+            "OrigRowNum": 319,
+            "Original Address": "13100 E FM 580",
+            "Corrected Address": "13100 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.278355"
+        },
+        {
+            "OrigRowNum": 320,
+            "Original Address": "5073 FM 580 E",
+            "Corrected Address": "5073 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.278580"
+        },
+        {
+            "OrigRowNum": 328,
+            "Original Address": "9691 FM 1670",
+            "Corrected Address": "9691 FM 1670",
+            "Original ZIP": "76571",
+            "Corrected ZIP": "76571",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.278798"
+        },
+        {
+            "OrigRowNum": 335,
+            "Original Address": "10980 FM 1783",
+            "Corrected Address": "10980 FM 1783",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.279011"
+        },
+        {
+            "OrigRowNum": 352,
+            "Original Address": "4406 FM 1113",
+            "Corrected Address": "4406 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.279230"
+        },
+        {
+            "OrigRowNum": 362,
+            "Original Address": "5229 FM 2313",
+            "Corrected Address": "5229 FM 2313",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.279444"
+        },
+        {
+            "OrigRowNum": 394,
+            "Original Address": "11012 FM 116",
+            "Corrected Address": "11012 FM 116",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.279667"
+        },
+        {
+            "OrigRowNum": 432,
+            "Original Address": "6050 FM 1237",
+            "Corrected Address": "6050 FM 1237",
+            "Original ZIP": "76557",
+            "Corrected ZIP": "76557",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.279880"
+        },
+        {
+            "OrigRowNum": 437,
+            "Original Address": "10780 FM 116",
+            "Corrected Address": "10780 FM 116",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.280091"
+        },
+        {
+            "OrigRowNum": 440,
+            "Original Address": "9036 1237 SPUR",
+            "Corrected Address": "9036 SPUR 1237",
+            "Original ZIP": "76569",
+            "Corrected ZIP": "76579",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.280302"
+        },
+        {
+            "OrigRowNum": 444,
+            "Original Address": "1150 FM 2808",
+            "Corrected Address": "1150 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.280522"
+        },
+        {
+            "OrigRowNum": 466,
+            "Original Address": "2625 FM 2808",
+            "Corrected Address": "2625 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.280735"
+        },
+        {
+            "OrigRowNum": 472,
+            "Original Address": "679 FM 2808",
+            "Corrected Address": "679 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.280955"
+        },
+        {
+            "OrigRowNum": 499,
+            "Original Address": "11934 E FM 580",
+            "Corrected Address": "11934 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.281167"
+        },
+        {
+            "OrigRowNum": 502,
+            "Original Address": "934 CR3340",
+            "Corrected Address": "934 COUNTY ROAD 3340",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.281387"
+        },
+        {
+            "OrigRowNum": 510,
+            "Original Address": "5416 FM580 E",
+            "Corrected Address": "5416 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.281601"
+        },
+        {
+            "OrigRowNum": 512,
+            "Original Address": "205 LOST MESA",
+            "Corrected Address": "205 LOST MESA",
+            "Original ZIP": "76513",
+            "Corrected ZIP": "76513",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.281818"
+        },
+        {
+            "OrigRowNum": 514,
+            "Original Address": "13888 E FM 580",
+            "Corrected Address": "13888 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.282038"
+        },
+        {
+            "OrigRowNum": 518,
+            "Original Address": "1817 COTTONWOOD BLUFF",
+            "Corrected Address": "1817 COTTONWOOD BLF",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.282252"
+        },
+        {
+            "OrigRowNum": 520,
+            "Original Address": "4275 FM 1113",
+            "Corrected Address": "4275 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.282461"
+        },
+        {
+            "OrigRowNum": 521,
+            "Original Address": "1022 HICKORY",
+            "Corrected Address": "1022 HICKORY ST",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.282682"
+        },
+        {
+            "OrigRowNum": 529,
+            "Original Address": "3405 FM 580 E",
+            "Corrected Address": "3405 FM 580 E",
+            "Original ZIP": "76550",
+            "Corrected ZIP": "76550",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.282895"
+        },
+        {
+            "OrigRowNum": 551,
+            "Original Address": "1965 N FM116",
+            "Corrected Address": "1965 N FM 116",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.283119"
+        },
+        {
+            "OrigRowNum": 560,
+            "Original Address": "1050 FM2808",
+            "Corrected Address": "1050 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.283333"
+        },
+        {
+            "OrigRowNum": 566,
+            "Original Address": "3995 FM 1113",
+            "Corrected Address": "3995 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.283544"
+        },
+        {
+            "OrigRowNum": 583,
+            "Original Address": "4275 FM 1113",
+            "Corrected Address": "4275 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.283738"
+        },
+        {
+            "OrigRowNum": 597,
+            "Original Address": "13668 U.S. 190",
+            "Corrected Address": "13668 SOUTH DR",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.283924"
+        },
+        {
+            "OrigRowNum": 598,
+            "Original Address": "914 FM 2808",
+            "Corrected Address": "914 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.284115"
+        },
+        {
+            "OrigRowNum": 606,
+            "Original Address": "14002 E FM 580",
+            "Corrected Address": "14002 FM 580 E",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.284299"
+        },
+        {
+            "OrigRowNum": 610,
+            "Original Address": "679 FM 2808",
+            "Corrected Address": "679 FM 2808",
+            "Original ZIP": "76539",
+            "Corrected ZIP": "76539",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.284489"
+        },
+        {
+            "OrigRowNum": 620,
+            "Original Address": "4011 FM 1113",
+            "Corrected Address": "4011 FM 1113",
+            "Original ZIP": "76522",
+            "Corrected ZIP": "76522",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.284675"
+        },
+        {
+            "OrigRowNum": 629,
+            "Original Address": "5520 FM 1783",
+            "Corrected Address": "5520 FM 1783",
+            "Original ZIP": "76528",
+            "Corrected ZIP": "76528",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T08:45:13.284865"
+        }
+    ]
+}

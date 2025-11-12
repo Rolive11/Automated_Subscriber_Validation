@@ -1,0 +1,5797 @@
+{
+    "Summary": {
+        "Total Rows Processed": 570,
+        "Rows with Corrections": 172,
+        "Rows with Errors": 172,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 343,
+        "Total Errors": 8,
+        "Street Ending Errors": 171,
+        "Validation Time (seconds)": 1.16,
+        "Validation Date": "2025-08-05 10:16:52",
+        "Addresses Sent to Smarty": 174,
+        "Successful Corrections": 174,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.71,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 1 rows (0.18%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 569,
+        "Address Errors Found": 1,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.18,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 1 rows (0.18%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 569,
+        "address_error_count": 1,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.18,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            331
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 155,
+            "Column": "lat",
+            "Original Value": "40.078516",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "lon",
+            "Original Value": "-108.7849504",
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "68 CARUCO SPRINGS",
+            "Corrected Value": "68 CARUCO SPG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "65 JUNIPER HILL",
+            "Corrected Value": "65 JUNIPER HILL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "68 CARUCO SPRINGS",
+            "Corrected Value": "68 CARUCO SPG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "11 BIA 354",
+            "Corrected Value": "11 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "21 BIA ROUTE 122",
+            "Corrected Value": "21 BIA ROUTE 122",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "30 BIA ROUTE 208",
+            "Corrected Value": "30 BIA ROUTE 208",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "32 BIA 135",
+            "Corrected Value": "32 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "383 BIA ROUTE 125",
+            "Corrected Value": "383 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "66A GREEN EYE LADY",
+            "Corrected Value": "66 GREEN EYED LADY LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "10 BIA RT 317",
+            "Corrected Value": "10 BIA ROUTE 317",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "17 BIA ROUTE 297",
+            "Corrected Value": "17 BIA ROUTE 297",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "105 COMMANCHE",
+            "Corrected Value": "105 COMMANCHE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "60 N BLOOMFIELD",
+            "Corrected Value": "60 N BLOOMFIELD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "96 PINETREE",
+            "Corrected Value": "96 PINE TREE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "48 BIA RT 134",
+            "Corrected Value": "48 BIA ROUTE 134",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "7 COPPERWEED",
+            "Corrected Value": "7 COPPERWEED",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "78 BIA RT 113",
+            "Corrected Value": "78 BIA ROUTE 113",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "139 BIA RT 163",
+            "Corrected Value": "139 BIA ROUTE 163",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "100 LAKEVIEW",
+            "Corrected Value": "100 LAKEVIEW DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "2B CLAWSON",
+            "Corrected Value": "2 CLAWSON AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "5 1/2 MILES SW OF LEWIS TRADING POST ON ROUTE BIA 130",
+            "Corrected Value": "5 LEWIS ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "56 SUNSET VILLAGE",
+            "Corrected Value": "56 SUNSET VILLAGE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "9 ASPEN LP",
+            "Corrected Value": "9 ASPEN LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "2B N BLOOMFIELD",
+            "Corrected Value": "2B N BLOOMFIELD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "11 CANYON COVE",
+            "Corrected Value": "11 CANYON CV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "zip",
+            "Original Value": "93311",
+            "Corrected Value": "93311",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "3 BEEFLOWER",
+            "Corrected Value": "3 BEE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "18 BIA RT 343",
+            "Corrected Value": "18 BIA ROUTE 343",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "234 BIA 130",
+            "Corrected Value": "234 BIA ROUTE 130",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "38 FLAT TOP BIA RT 138",
+            "Corrected Value": "38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "20 BIA ROUTE 275",
+            "Corrected Value": "20 BIA ROUTE 275",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "60 COTTONWOOD LP",
+            "Corrected Value": "60 COTTONWOOD LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "25 SE OF RAMAH HWY 53 MILE MARKER 36",
+            "Corrected Value": "25 SE OF RAMAH HWY 53 MILE MARKER 36",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "79 BIA RT 217",
+            "Corrected Value": "79 BIA ROUTE 217",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "23 BIA RT 274",
+            "Corrected Value": "23 BIA ROUTE 274",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "106 BIA 140",
+            "Corrected Value": "106 BIA ROUTE 140",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "235 BIA 131",
+            "Corrected Value": "235 BIA ROUTE 131",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "132 BIA RT 140",
+            "Corrected Value": "132 BIA ROUTE 140",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "1 MILE E OF PH CAMPUS ON BIA 140",
+            "Corrected Value": "1 MILE E OF PH CAMPUS ON BIA 140",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "14 BIA ROUTE 183",
+            "Corrected Value": "14 BIA ROUTE 183",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "11 BIA RT 125",
+            "Corrected Value": "11 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "12 BIA 246",
+            "Corrected Value": "12 BIA ROUTE 246",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Original Value": "7 BIA ROUTE 284",
+            "Corrected Value": "7 BIA ROUTE 284",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "17 BIA RT 284",
+            "Corrected Value": "17 BIA ROUTE 284",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "28 BIA RT 181",
+            "Corrected Value": "28 BIA ROUTE 181",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "608 BIA 125 PINE HILL",
+            "Corrected Value": "608 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "369 BIA 125",
+            "Corrected Value": "369 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "12 M BIA RT 125 BIA186",
+            "Corrected Value": "12 BIA ROUTE 186",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Original Value": "122 BIA ROUTE182",
+            "Corrected Value": "122 BIA ROUTE 182",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Original Value": "462 BIA RT 122",
+            "Corrected Value": "462 BIA ROUTE 122",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "24 BIA RT 219",
+            "Corrected Value": "24 BIA ROUTE 219",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "14 BIA RT. 186 PINE HILL",
+            "Corrected Value": "14 BIA ROUTE 186",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "164 BIA RT. 133",
+            "Corrected Value": "164 BIA ROUTE 133",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "14 HILLSIDE",
+            "Corrected Value": "14 HILLSIDE CV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "19 BIA ROUTE 167",
+            "Corrected Value": "19 BIA ROUTE 167",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "250 BIA ROUTE 131",
+            "Corrected Value": "250 BIA ROUTE 131",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Original Value": "54 BIA ROUTE 141",
+            "Corrected Value": "54 BIA ROUTE 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "21 BIA ROUTE 107",
+            "Corrected Value": "21 BIA ROUTE 107",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "19 BIA 167 PINE HILL 87357",
+            "Corrected Value": "19 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "1290 BIA RT 122 PINETOP PLAZA APT 6",
+            "Corrected Value": "1290 BIA ROUTE 122",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "14 OAK",
+            "Corrected Value": "14 OAK CIR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "119 PINETREE",
+            "Corrected Value": "119 PINE TREE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "22B JUNIPER GROVE APT 6B",
+            "Corrected Value": "22B JUNIPER GROVE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Original Value": "1215 BIA RTE 125",
+            "Corrected Value": "1215 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "9 BIA 242",
+            "Corrected Value": "9 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "16 BIA ROUTE 159",
+            "Corrected Value": "16 BIA ROUTE 159",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Original Value": "21 BIA RT 226",
+            "Corrected Value": "21 BIA ROUTE 226",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "209 BIA RT 143",
+            "Corrected Value": "209 BIA ROUTE 143",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "23 BIA RT 226",
+            "Corrected Value": "23 BIA ROUTE 226",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "19 BIA ROUTE 346",
+            "Corrected Value": "19 BIA ROUTE 346",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "15 BIA RT 243",
+            "Corrected Value": "15 BIA ROUTE 243",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Original Value": "31 BIA RT 182",
+            "Corrected Value": "31 BIA ROUTE 182B",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "13 BIA ROUTE 180",
+            "Corrected Value": "13 BIA ROUTE 180",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "6 RT 176 BIA 122",
+            "Corrected Value": "6 BIA ROUTE 176",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "61A BIA RT 141",
+            "Corrected Value": "61 BIA ROUTE 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "17 BIA RT 224",
+            "Corrected Value": "17 BIA ROUTE 224",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "18 BIA RT 224",
+            "Corrected Value": "18 BIA ROUTE 224",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "52 BIA RT 180",
+            "Corrected Value": "52 BIA ROUTE 180",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "105 BIA RT 179",
+            "Corrected Value": "105 BIA ROUTE 179",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "43 YUCCA VILLAGE",
+            "Corrected Value": "43 YUCCA VILLAGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "138 BIA RT 3016",
+            "Corrected Value": "138 BIA ROUTE 3016",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "02 BLACKBEAR",
+            "Corrected Value": "2 BLACK BEAR RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Original Value": "91 COYOTE CANYON",
+            "Corrected Value": "91 COYOTE CANYON RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Original Value": "27 BIA RTE 157",
+            "Corrected Value": "27 BIA RTE 157",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "49 BIA RT 130",
+            "Corrected Value": "49 BIA ROUTE 130",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "52 BIA 176",
+            "Corrected Value": "52 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Original Value": "63 BIA RT. 227",
+            "Corrected Value": "63 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "19 BIA RT 300",
+            "Corrected Value": "19 BIA ROUTE 300",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Original Value": "36 GREEN EYED LADY",
+            "Corrected Value": "36 GREEN EYED LADY LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "209 BIA 227",
+            "Corrected Value": "209 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "3287 HWY 53",
+            "Corrected Value": "3287 STATE HIGHWAY 53",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "67 BIA RT 179",
+            "Corrected Value": "67 BIA ROUTE 179",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "57 BIA RT 136",
+            "Corrected Value": "57 BIA ROUTE 136",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "144 BIA RT 806",
+            "Corrected Value": "144 BIA RT 806",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "1087 BIA RT125",
+            "Corrected Value": "1087 BIA RT125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Original Value": "262 JUBILEE TR.",
+            "Corrected Value": "262 JUBILEE TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Original Value": "394 CANDY KITCHEN",
+            "Corrected Value": "394 CANDY KITCHEN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "55 ASPEN LP",
+            "Corrected Value": "55 ASPEN LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Original Value": "3B JUNIPER GROVE",
+            "Corrected Value": "3B JUNIPER GROVE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "89 WOODLAND",
+            "Corrected Value": "89 WOODLAND DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "129 BIA RT 133",
+            "Corrected Value": "129 BIA ROUTE 133",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "49 SHORE CLIFF",
+            "Corrected Value": "49 SHORE CLF",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Original Value": "10 MT TAYLOR VIEW  - YUCCA VILLAGE 58",
+            "Corrected Value": "10 MT TAYLOR VIEW DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "41 BIA ROUTE 167",
+            "Corrected Value": "41 BIA ROUTE 167",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Original Value": "51 BIA 343",
+            "Corrected Value": "51 BIA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "81 BIA ROUTE 145",
+            "Corrected Value": "81 BIA ROUTE 145",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "26 BIA ROUTE 186",
+            "Corrected Value": "26 BIA ROUTE 186",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "zip",
+            "Original Value": "87020",
+            "Corrected Value": "87020",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Original Value": "334 OSO RIDGE ROUTE",
+            "Corrected Value": "334 OSO RIDGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "19 NEBULA CLOUD",
+            "Corrected Value": "19 NEBULA CLOUD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Original Value": "35 BIA ROUTE 208",
+            "Corrected Value": "35 BIA ROUTE 208",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "70 BIA ROUTE 179",
+            "Corrected Value": "70 BIA ROUTE 179",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "3 BIA RT 274",
+            "Corrected Value": "3 BIA ROUTE 274",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "zip",
+            "Original Value": "87020",
+            "Corrected Value": "87020",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "583 OSO RIDGE",
+            "Corrected Value": "583 OSO RIDGE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 409,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 409,
+            "Column": "address",
+            "Original Value": "31 PINION",
+            "Corrected Value": "31 PINON CIR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "41 WILD ONION",
+            "Corrected Value": "41 WILD ONION DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "145 BIA RT 3017",
+            "Corrected Value": "145 BIA ROUTE 3017",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "570 BIA ROUTE 125",
+            "Corrected Value": "570 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "262 JUBILEE TR",
+            "Corrected Value": "262 JUBILEE TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "230 BIA RTE 135",
+            "Corrected Value": "230 BIA ROUTE 135",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "9 BIA RTE 167",
+            "Corrected Value": "9 BIA ROUTE 167",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Original Value": "87114",
+            "Corrected Value": "87114",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "10463 CALLE MIRLO NW",
+            "Corrected Value": "10463 CALLE MIRLO NW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "2 N TIETJEN RAMAH NM",
+            "Corrected Value": "2 N TIETJEN RAMAH NM",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "823 BIA RTE 125",
+            "Corrected Value": "823 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 452,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 452,
+            "Column": "address",
+            "Original Value": "143 CHEYENNE",
+            "Corrected Value": "143 CHEYENNE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Original Value": "5-BIA ROUTE 340",
+            "Corrected Value": "5 BIA ROUTE 340",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "20 BIA ROUTE 257",
+            "Corrected Value": "20 BIA ROUTE 257",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "86 BIA ROUTE 106",
+            "Corrected Value": "86 BIA ROUTE 106",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "538 BIA ROUTE 144",
+            "Corrected Value": "538 BIA ROUTE 144",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "192 BIA ROUTE 329 HOUSE 10",
+            "Corrected Value": "192 BIA ROUTE 329",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "49 BIA ROUTE 192",
+            "Corrected Value": "49 BIA ROUTE 192",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "7 BIA ROUTE 332",
+            "Corrected Value": "7 BIA ROUTE 332",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Original Value": "18 BIA ROUTE 331",
+            "Corrected Value": "18 BIA ROUTE 331",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "24 BIA ROUTE 330",
+            "Corrected Value": "24 BIA ROUTE 330",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "37 BIA ROUTE 193 UNIT B",
+            "Corrected Value": "37 BIA ROUTE 193",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "57 BIA ROUTE 193",
+            "Corrected Value": "57 BIA ROUTE 193",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "89 BIA RT 188",
+            "Corrected Value": "89 BIA ROUTE 188",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "77 BIA RT 188",
+            "Corrected Value": "77 BIA ROUTE 188",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "2 BIA ROUTE 253",
+            "Corrected Value": "2 BIA ROUTE 253",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "25 BIA RT 337",
+            "Corrected Value": "25 BIA ROUTE 337",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 475,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Original Value": "35 BIA RT 206",
+            "Corrected Value": "35 BIA ROUTE 206",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Original Value": "39 BIA RT 206",
+            "Corrected Value": "39 BIA ROUTE 206",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "205 BIA RT. 144",
+            "Corrected Value": "205 BIA ROUTE 144",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Original Value": "11 BIA ROUTE 279",
+            "Corrected Value": "11 BIA ROUTE 279",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 479,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Original Value": "4 BIA ROUTE 5003",
+            "Corrected Value": "4 BIA ROUTE 5003",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "47 BIA RT 253",
+            "Corrected Value": "47 BIA ROUTE 253",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "25 BIA RT 129",
+            "Corrected Value": "25 BIA ROUTE 129",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Original Value": "51 BIA RT 186",
+            "Corrected Value": "51 BIA ROUTE 186",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "12 BIA RT. 125",
+            "Corrected Value": "12 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Original Value": "29 BIA RT. 183",
+            "Corrected Value": "29 BIA ROUTE 183",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "1275 BIA RT 125",
+            "Corrected Value": "1275 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Original Value": "378 CANDY KITCHEN",
+            "Corrected Value": "378 CANDY KITCHEN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "129 BIA RTE 103",
+            "Corrected Value": "129 BIA ROUTE 103",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "80 BIA RT 130 HS9",
+            "Corrected Value": "80 BIA ROUTE 130",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "1290 E BIA RT 122",
+            "Corrected Value": "1290 BIA ROUTE 122",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "44 B BIA RTE 122",
+            "Corrected Value": "44 BIA ROUTE 122",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "4 BIA ROUTE 141",
+            "Corrected Value": "4 BIA ROUTE 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "1245 BIA RT 125",
+            "Corrected Value": "1245 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "19 BIA RT 224",
+            "Corrected Value": "19 BIA ROUTE 224",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "10B JUNIPER GROVE",
+            "Corrected Value": "10B JUNIPER GROVE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87321",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Original Value": "608 BIA 125 PINE HILL",
+            "Corrected Value": "608 BIA 125 PINE HL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "7 HILLSIDE COVE",
+            "Corrected Value": "7 HILLSIDE CV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "140 INDIAN SERVICE ROUTE",
+            "Corrected Value": "140 INDIAN SERVICE RT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "21 SUNSET HOUSING",
+            "Corrected Value": "21 SUNSET LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "54 SUNSET HOUSING",
+            "Corrected Value": "54 SUNSET LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 547,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 547,
+            "Column": "address",
+            "Original Value": "205 BIA RT 144",
+            "Corrected Value": "205 BIA ROUTE 144",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "300 EDGEWOOD",
+            "Corrected Value": "300 EDGEWOOD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "68 BIA RT 134",
+            "Corrected Value": "68 BIA ROUTE 134",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "74 BIA RT 133",
+            "Corrected Value": "74 BIA ROUTE 133",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 565,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 565,
+            "Column": "address",
+            "Original Value": "18 BIA RT 343",
+            "Corrected Value": "18 BIA ROUTE 343",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "214 BIA ROUTE 125",
+            "Corrected Value": "214 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "zip",
+            "Original Value": "87357",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Original Value": "214 BIA ROUTE 125",
+            "Corrected Value": "214 BIA ROUTE 125",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "zip",
+            "Original Value": "87321",
+            "Corrected Value": "87357",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Original Value": "8 RADIO HILL",
+            "Corrected Value": "8 RADIO HILL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 211,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ramah"
+        },
+        {
+            "Row": 221,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ramah"
+        },
+        {
+            "Row": 331,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Pine Hill"
+        },
+        {
+            "Row": 211,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 221,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 331,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 155,
+            "Column": "lat",
+            "Error": "Latitude for NM must be between 31.332301 and 37.000293",
+            "Value": "40.078516"
+        },
+        {
+            "Row": 155,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-108.7849504"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "68 CARUCO SPRINGS"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "65 JUNIPER HILL"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "68 CARUCO SPRINGS"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11 BIA 354"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 BIA ROUTE 122"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "30 BIA ROUTE 208"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "32 BIA 135"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "383 BIA ROUTE 125"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "66A GREEN EYE LADY"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10 BIA RT 317"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17 BIA ROUTE 297"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "105 COMMANCHE"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "60 N BLOOMFIELD"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "96 PINETREE"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48 BIA RT 134"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 COPPERWEED"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "78 BIA RT 113"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "139 BIA RT 163"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "100 LAKEVIEW"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2B CLAWSON"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5 1/2 MILES SW OF LEWIS TRADING POST ON ROUTE BIA 130"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "56 SUNSET VILLAGE"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9 ASPEN LP"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2B N BLOOMFIELD"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11 CANYON COVE"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3 BEEFLOWER"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18 BIA RT 343"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "234 BIA 130"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "38 FLAT TOP BIA RT 138"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20 BIA ROUTE 275"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "60 COTTONWOOD LP"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25 SE OF RAMAH HWY 53 MILE MARKER 36"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "79 BIA RT 217"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23 BIA RT 274"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "106 BIA 140"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "235 BIA 131"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "132 BIA RT 140"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1 MILE E OF PH CAMPUS ON BIA 140"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14 BIA ROUTE 183"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11 BIA RT 125"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12 BIA 246"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 BIA ROUTE 284"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17 BIA RT 284"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28 BIA RT 181"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "608 BIA 125 PINE HILL"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "369 BIA 125"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12 M BIA RT 125 BIA186"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "122 BIA ROUTE182"
+        },
+        {
+            "Row": 216,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "462 BIA RT 122"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24 BIA RT 219"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14 BIA RT 186 PINE HILL"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "164 BIA RT 133"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14 HILLSIDE"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 BIA ROUTE 167"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "250 BIA ROUTE 131"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "54 BIA ROUTE 141"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 BIA ROUTE 107"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 BIA 167 PINE HILL 87357"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1290 BIA RT 122 PINETOP PLAZA APT 6"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14 OAK"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "119 PINETREE"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22B JUNIPER GROVE APT 6B"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1215 BIA RTE 125"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9 BIA 242"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16 BIA ROUTE 159"
+        },
+        {
+            "Row": 252,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 BIA RT 226"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "209 BIA RT 143"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23 BIA RT 226"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 BIA ROUTE 346"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15 BIA RT 243"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31 BIA RT 182"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13 BIA ROUTE 180"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6 RT 176 BIA 122"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "61A BIA RT 141"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17 BIA RT 224"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18 BIA RT 224"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "52 BIA RT 180"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "105 BIA RT 179"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "43 YUCCA VILLAGE"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "138 BIA RT 3016"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "02 BLACKBEAR"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "91 COYOTE CANYON"
+        },
+        {
+            "Row": 303,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "27 BIA RTE 157"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "49 BIA RT 130"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "52 BIA 176"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "63 BIA RT 227"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 BIA RT 300"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "36 GREEN EYED LADY"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "209 BIA 227"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3287 HWY 53"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "67 BIA RT 179"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "57 BIA RT 136"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "144 BIA RT 806"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1087 BIA RT125"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "262 JUBILEE TR"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "394 CANDY KITCHEN"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "55 ASPEN LP"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3B JUNIPER GROVE"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89 WOODLAND"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "129 BIA RT 133"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "49 SHORE CLIFF"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10 MT TAYLOR VIEW  YUCCA VILLAGE 58"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41 BIA ROUTE 167"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51 BIA 343"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "81 BIA ROUTE 145"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "26 BIA ROUTE 186"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "334 OSO RIDGE ROUTE"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 NEBULA CLOUD"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35 BIA ROUTE 208"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "70 BIA ROUTE 179"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3 BIA RT 274"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "583 OSO RIDGE"
+        },
+        {
+            "Row": 409,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "31 PINION"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "41 WILD ONION"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "145 BIA RT 3017"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "570 BIA ROUTE 125"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "262 JUBILEE TR"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "230 BIA RTE 135"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9 BIA RTE 167"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10463 CALLE MIRLO NW"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2 N TIETJEN RAMAH NM"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "823 BIA RTE 125"
+        },
+        {
+            "Row": 452,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "143 CHEYENNE"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5BIA ROUTE 340"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20 BIA ROUTE 257"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "86 BIA ROUTE 106"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "538 BIA ROUTE 144"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "192 BIA ROUTE 329 HOUSE 10"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "49 BIA ROUTE 192"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 BIA ROUTE 332"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18 BIA ROUTE 331"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "24 BIA ROUTE 330"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "37 BIA ROUTE 193 UNIT B"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "57 BIA ROUTE 193"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "89 BIA RT 188"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "77 BIA RT 188"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2 BIA ROUTE 253"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25 BIA RT 337"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "35 BIA RT 206"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "39 BIA RT 206"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 BIA RT 144"
+        },
+        {
+            "Row": 478,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11 BIA ROUTE 279"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4 BIA ROUTE 5003"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "47 BIA RT 253"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "25 BIA RT 129"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "51 BIA RT 186"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12 BIA RT 125"
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "29 BIA RT 183"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1275 BIA RT 125"
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "378 CANDY KITCHEN"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "129 BIA RTE 103"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "80 BIA RT 130 HS9"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1290 E BIA RT 122"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "44 B BIA RTE 122"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4 BIA ROUTE 141"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1245 BIA RT 125"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 BIA RT 224"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10B JUNIPER GROVE"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "608 BIA 125 PINE HILL"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 HILLSIDE COVE"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "140 INDIAN SERVICE ROUTE"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 SUNSET HOUSING"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "54 SUNSET HOUSING"
+        },
+        {
+            "Row": 547,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 BIA RT 144"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "300 EDGEWOOD"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "68 BIA RT 134"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "74 BIA RT 133"
+        },
+        {
+            "Row": 565,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18 BIA RT 343"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "214 BIA ROUTE 125"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "214 BIA ROUTE 125"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8 RADIO HILL"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 331,
+            "address": "1087 BIA RT125",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 21,
+            "Original Address": "68 CARUCO SPRINGS",
+            "Corrected Address": "68 CARUCO SPG",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.127542"
+        },
+        {
+            "OrigRowNum": 22,
+            "Original Address": "65 JUNIPER HILL",
+            "Corrected Address": "65 JUNIPER HILL RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.128832"
+        },
+        {
+            "OrigRowNum": 24,
+            "Original Address": "68 CARUCO SPRINGS",
+            "Corrected Address": "68 CARUCO SPG",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.129291"
+        },
+        {
+            "OrigRowNum": 25,
+            "Original Address": "11 BIA 354",
+            "Corrected Address": "11 BIA",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.129688"
+        },
+        {
+            "OrigRowNum": 31,
+            "Original Address": "21 BIA ROUTE 122",
+            "Corrected Address": "21 BIA ROUTE 122",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.130049"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "30 BIA ROUTE 208",
+            "Corrected Address": "30 BIA ROUTE 208",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.130383"
+        },
+        {
+            "OrigRowNum": 39,
+            "Original Address": "32 BIA 135",
+            "Corrected Address": "32 BIA",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.130709"
+        },
+        {
+            "OrigRowNum": 40,
+            "Original Address": "383 BIA ROUTE 125",
+            "Corrected Address": "383 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.131025"
+        },
+        {
+            "OrigRowNum": 49,
+            "Original Address": "66A GREEN EYE LADY",
+            "Corrected Address": "66 GREEN EYED LADY LN",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.131343"
+        },
+        {
+            "OrigRowNum": 58,
+            "Original Address": "10 BIA RT 317",
+            "Corrected Address": "10 BIA ROUTE 317",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.131660"
+        },
+        {
+            "OrigRowNum": 60,
+            "Original Address": "17 BIA ROUTE 297",
+            "Corrected Address": "17 BIA ROUTE 297",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.131956"
+        },
+        {
+            "OrigRowNum": 63,
+            "Original Address": "105 COMMANCHE",
+            "Corrected Address": "105 COMMANCHE",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.132264"
+        },
+        {
+            "OrigRowNum": 111,
+            "Original Address": "60 N BLOOMFIELD",
+            "Corrected Address": "60 N BLOOMFIELD ST",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.132553"
+        },
+        {
+            "OrigRowNum": 114,
+            "Original Address": "96 PINETREE",
+            "Corrected Address": "96 PINE TREE RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.132843"
+        },
+        {
+            "OrigRowNum": 116,
+            "Original Address": "48 BIA RT 134",
+            "Corrected Address": "48 BIA ROUTE 134",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.133136"
+        },
+        {
+            "OrigRowNum": 122,
+            "Original Address": "7 COPPERWEED",
+            "Corrected Address": "7 COPPERWEED",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.133428"
+        },
+        {
+            "OrigRowNum": 124,
+            "Original Address": "78 BIA RT 113",
+            "Corrected Address": "78 BIA ROUTE 113",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.134131"
+        },
+        {
+            "OrigRowNum": 126,
+            "Original Address": "139 BIA RT 163",
+            "Corrected Address": "139 BIA ROUTE 163",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.134529"
+        },
+        {
+            "OrigRowNum": 135,
+            "Original Address": "100 LAKEVIEW",
+            "Corrected Address": "100 LAKEVIEW DR",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.134899"
+        },
+        {
+            "OrigRowNum": 137,
+            "Original Address": "2B CLAWSON",
+            "Corrected Address": "2 CLAWSON AVE",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.135281"
+        },
+        {
+            "OrigRowNum": 138,
+            "Original Address": "5 1/2 MILES SW OF LEWIS TRADING POST ON ROUTE BIA 130",
+            "Corrected Address": "5 LEWIS ST",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.135638"
+        },
+        {
+            "OrigRowNum": 139,
+            "Original Address": "56 SUNSET VILLAGE",
+            "Corrected Address": "56 SUNSET VILLAGE DR",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.136004"
+        },
+        {
+            "OrigRowNum": 140,
+            "Original Address": "9 ASPEN LP",
+            "Corrected Address": "9 ASPEN LOOP",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.136352"
+        },
+        {
+            "OrigRowNum": 142,
+            "Original Address": "2B N BLOOMFIELD",
+            "Corrected Address": "2B N BLOOMFIELD ST",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.136712"
+        },
+        {
+            "OrigRowNum": 148,
+            "Original Address": "11 CANYON COVE",
+            "Corrected Address": "11 CANYON CV",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.137055"
+        },
+        {
+            "OrigRowNum": 149,
+            "Original Address": "3 BEEFLOWER",
+            "Corrected Address": "3 BEE",
+            "Original ZIP": "93311",
+            "Corrected ZIP": "93311",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.137405"
+        },
+        {
+            "OrigRowNum": 154,
+            "Original Address": "18 BIA RT 343",
+            "Corrected Address": "18 BIA ROUTE 343",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.137743"
+        },
+        {
+            "OrigRowNum": 164,
+            "Original Address": "234 BIA 130",
+            "Corrected Address": "234 BIA ROUTE 130",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.138095"
+        },
+        {
+            "OrigRowNum": 170,
+            "Original Address": "38 FLAT TOP BIA RT 138",
+            "Corrected Address": "38",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.138432"
+        },
+        {
+            "OrigRowNum": 173,
+            "Original Address": "20 BIA ROUTE 275",
+            "Corrected Address": "20 BIA ROUTE 275",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.138775"
+        },
+        {
+            "OrigRowNum": 174,
+            "Original Address": "60 COTTONWOOD LP",
+            "Corrected Address": "60 COTTONWOOD LOOP",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.139105"
+        },
+        {
+            "OrigRowNum": 175,
+            "Original Address": "25 SE OF RAMAH HWY 53 MILE MARKER 36",
+            "Corrected Address": "25 SE OF RAMAH HWY 53 MILE MARKER 36",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.139446"
+        },
+        {
+            "OrigRowNum": 179,
+            "Original Address": "79 BIA RT 217",
+            "Corrected Address": "79 BIA ROUTE 217",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.139729"
+        },
+        {
+            "OrigRowNum": 181,
+            "Original Address": "23 BIA RT 274",
+            "Corrected Address": "23 BIA ROUTE 274",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.140023"
+        },
+        {
+            "OrigRowNum": 185,
+            "Original Address": "106 BIA 140",
+            "Corrected Address": "106 BIA ROUTE 140",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.140307"
+        },
+        {
+            "OrigRowNum": 191,
+            "Original Address": "235 BIA 131",
+            "Corrected Address": "235 BIA ROUTE 131",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.140602"
+        },
+        {
+            "OrigRowNum": 194,
+            "Original Address": "132 BIA RT 140",
+            "Corrected Address": "132 BIA ROUTE 140",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.140894"
+        },
+        {
+            "OrigRowNum": 198,
+            "Original Address": "1 MILE E OF PH CAMPUS ON BIA 140",
+            "Corrected Address": "1 MILE E OF PH CAMPUS ON BIA 140",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.141182"
+        },
+        {
+            "OrigRowNum": 200,
+            "Original Address": "14 BIA ROUTE 183",
+            "Corrected Address": "14 BIA ROUTE 183",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.141465"
+        },
+        {
+            "OrigRowNum": 201,
+            "Original Address": "11 BIA RT 125",
+            "Corrected Address": "11 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.141757"
+        },
+        {
+            "OrigRowNum": 203,
+            "Original Address": "12 BIA 246",
+            "Corrected Address": "12 BIA ROUTE 246",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.142035"
+        },
+        {
+            "OrigRowNum": 208,
+            "Original Address": "7 BIA ROUTE 284",
+            "Corrected Address": "7 BIA ROUTE 284",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.142318"
+        },
+        {
+            "OrigRowNum": 209,
+            "Original Address": "17 BIA RT 284",
+            "Corrected Address": "17 BIA ROUTE 284",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.142601"
+        },
+        {
+            "OrigRowNum": 210,
+            "Original Address": "28 BIA RT 181",
+            "Corrected Address": "28 BIA ROUTE 181",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.142888"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "608 BIA 125 PINE HILL",
+            "Corrected Address": "608 BIA ROUTE 125",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.143168"
+        },
+        {
+            "OrigRowNum": 212,
+            "Original Address": "369 BIA 125",
+            "Corrected Address": "369 BIA",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.143465"
+        },
+        {
+            "OrigRowNum": 214,
+            "Original Address": "12 M BIA RT 125 BIA186",
+            "Corrected Address": "12 BIA ROUTE 186",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.143751"
+        },
+        {
+            "OrigRowNum": 215,
+            "Original Address": "122 BIA ROUTE182",
+            "Corrected Address": "122 BIA ROUTE 182",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.144034"
+        },
+        {
+            "OrigRowNum": 216,
+            "Original Address": "462 BIA RT 122",
+            "Corrected Address": "462 BIA ROUTE 122",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.144308"
+        },
+        {
+            "OrigRowNum": 220,
+            "Original Address": "24 BIA RT 219",
+            "Corrected Address": "24 BIA ROUTE 219",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.144598"
+        },
+        {
+            "OrigRowNum": 221,
+            "Original Address": "14 BIA RT. 186 PINE HILL",
+            "Corrected Address": "14 BIA ROUTE 186",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.144875"
+        },
+        {
+            "OrigRowNum": 223,
+            "Original Address": "164 BIA RT. 133",
+            "Corrected Address": "164 BIA ROUTE 133",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.145158"
+        },
+        {
+            "OrigRowNum": 226,
+            "Original Address": "14 HILLSIDE",
+            "Corrected Address": "14 HILLSIDE CV",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.145423"
+        },
+        {
+            "OrigRowNum": 228,
+            "Original Address": "19 BIA ROUTE 167",
+            "Corrected Address": "19 BIA ROUTE 167",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.145665"
+        },
+        {
+            "OrigRowNum": 229,
+            "Original Address": "250 BIA ROUTE 131",
+            "Corrected Address": "250 BIA ROUTE 131",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.145898"
+        },
+        {
+            "OrigRowNum": 230,
+            "Original Address": "54 BIA ROUTE 141",
+            "Corrected Address": "54 BIA ROUTE 141",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.146137"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "21 BIA ROUTE 107",
+            "Corrected Address": "21 BIA ROUTE 107",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.146375"
+        },
+        {
+            "OrigRowNum": 233,
+            "Original Address": "19 BIA 167 PINE HILL 87357",
+            "Corrected Address": "19 BIA",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.146610"
+        },
+        {
+            "OrigRowNum": 234,
+            "Original Address": "1290 BIA RT 122 PINETOP PLAZA APT 6",
+            "Corrected Address": "1290 BIA ROUTE 122",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.146856"
+        },
+        {
+            "OrigRowNum": 236,
+            "Original Address": "14 OAK",
+            "Corrected Address": "14 OAK CIR",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.147093"
+        },
+        {
+            "OrigRowNum": 238,
+            "Original Address": "119 PINETREE",
+            "Corrected Address": "119 PINE TREE RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.147335"
+        },
+        {
+            "OrigRowNum": 243,
+            "Original Address": "22B JUNIPER GROVE APT 6B",
+            "Corrected Address": "22B JUNIPER GROVE RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.147566"
+        },
+        {
+            "OrigRowNum": 245,
+            "Original Address": "1215 BIA RTE 125",
+            "Corrected Address": "1215 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.147808"
+        },
+        {
+            "OrigRowNum": 247,
+            "Original Address": "9 BIA 242",
+            "Corrected Address": "9 BIA",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.148045"
+        },
+        {
+            "OrigRowNum": 248,
+            "Original Address": "16 BIA ROUTE 159",
+            "Corrected Address": "16 BIA ROUTE 159",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.148282"
+        },
+        {
+            "OrigRowNum": 252,
+            "Original Address": "21 BIA RT 226",
+            "Corrected Address": "21 BIA ROUTE 226",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.148516"
+        },
+        {
+            "OrigRowNum": 260,
+            "Original Address": "209 BIA RT 143",
+            "Corrected Address": "209 BIA ROUTE 143",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.148759"
+        },
+        {
+            "OrigRowNum": 261,
+            "Original Address": "23 BIA RT 226",
+            "Corrected Address": "23 BIA ROUTE 226",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.149007"
+        },
+        {
+            "OrigRowNum": 262,
+            "Original Address": "19 BIA ROUTE 346",
+            "Corrected Address": "19 BIA ROUTE 346",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.149255"
+        },
+        {
+            "OrigRowNum": 263,
+            "Original Address": "15 BIA RT 243",
+            "Corrected Address": "15 BIA ROUTE 243",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.149566"
+        },
+        {
+            "OrigRowNum": 264,
+            "Original Address": "31 BIA RT 182",
+            "Corrected Address": "31 BIA ROUTE 182B",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.149816"
+        },
+        {
+            "OrigRowNum": 268,
+            "Original Address": "13 BIA ROUTE 180",
+            "Corrected Address": "13 BIA ROUTE 180",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.150058"
+        },
+        {
+            "OrigRowNum": 272,
+            "Original Address": "6 RT 176 BIA 122",
+            "Corrected Address": "6 BIA ROUTE 176",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.150301"
+        },
+        {
+            "OrigRowNum": 274,
+            "Original Address": "61A BIA RT 141",
+            "Corrected Address": "61 BIA ROUTE 141",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.150534"
+        },
+        {
+            "OrigRowNum": 276,
+            "Original Address": "17 BIA RT 224",
+            "Corrected Address": "17 BIA ROUTE 224",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.150766"
+        },
+        {
+            "OrigRowNum": 278,
+            "Original Address": "18 BIA RT 224",
+            "Corrected Address": "18 BIA ROUTE 224",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.151007"
+        },
+        {
+            "OrigRowNum": 282,
+            "Original Address": "52 BIA RT 180",
+            "Corrected Address": "52 BIA ROUTE 180",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.151240"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "105 BIA RT 179",
+            "Corrected Address": "105 BIA ROUTE 179",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.151458"
+        },
+        {
+            "OrigRowNum": 290,
+            "Original Address": "43 YUCCA VILLAGE",
+            "Corrected Address": "43 YUCCA VILLAGE RD",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.151663"
+        },
+        {
+            "OrigRowNum": 296,
+            "Original Address": "138 BIA RT 3016",
+            "Corrected Address": "138 BIA ROUTE 3016",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.151871"
+        },
+        {
+            "OrigRowNum": 299,
+            "Original Address": "02 BLACKBEAR",
+            "Corrected Address": "2 BLACK BEAR RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.152077"
+        },
+        {
+            "OrigRowNum": 301,
+            "Original Address": "91 COYOTE CANYON",
+            "Corrected Address": "91 COYOTE CANYON RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.152280"
+        },
+        {
+            "OrigRowNum": 303,
+            "Original Address": "27 BIA RTE 157",
+            "Corrected Address": "27 BIA RTE 157",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.152485"
+        },
+        {
+            "OrigRowNum": 305,
+            "Original Address": "49 BIA RT 130",
+            "Corrected Address": "49 BIA ROUTE 130",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.152689"
+        },
+        {
+            "OrigRowNum": 307,
+            "Original Address": "52 BIA 176",
+            "Corrected Address": "52 BIA",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.152899"
+        },
+        {
+            "OrigRowNum": 308,
+            "Original Address": "63 BIA RT. 227",
+            "Corrected Address": "63 BIA",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.153111"
+        },
+        {
+            "OrigRowNum": 309,
+            "Original Address": "19 BIA RT 300",
+            "Corrected Address": "19 BIA ROUTE 300",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.153326"
+        },
+        {
+            "OrigRowNum": 310,
+            "Original Address": "36 GREEN EYED LADY",
+            "Corrected Address": "36 GREEN EYED LADY LN",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.153534"
+        },
+        {
+            "OrigRowNum": 312,
+            "Original Address": "209 BIA 227",
+            "Corrected Address": "209 BIA",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.153744"
+        },
+        {
+            "OrigRowNum": 316,
+            "Original Address": "3287 HWY 53",
+            "Corrected Address": "3287 STATE HIGHWAY 53",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.153950"
+        },
+        {
+            "OrigRowNum": 317,
+            "Original Address": "67 BIA RT 179",
+            "Corrected Address": "67 BIA ROUTE 179",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.154152"
+        },
+        {
+            "OrigRowNum": 320,
+            "Original Address": "57 BIA RT 136",
+            "Corrected Address": "57 BIA ROUTE 136",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.154356"
+        },
+        {
+            "OrigRowNum": 327,
+            "Original Address": "144 BIA RT 806",
+            "Corrected Address": "144 BIA RT 806",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.154561"
+        },
+        {
+            "OrigRowNum": 331,
+            "Original Address": "1087 BIA RT125",
+            "Corrected Address": "1087 BIA RT125",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": null,
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.154767"
+        },
+        {
+            "OrigRowNum": 332,
+            "Original Address": "262 JUBILEE TR.",
+            "Corrected Address": "262 JUBILEE TRL",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.154855"
+        },
+        {
+            "OrigRowNum": 336,
+            "Original Address": "394 CANDY KITCHEN",
+            "Corrected Address": "394 CANDY KITCHEN RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.155062"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "55 ASPEN LP",
+            "Corrected Address": "55 ASPEN LOOP",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.155283"
+        },
+        {
+            "OrigRowNum": 344,
+            "Original Address": "3B JUNIPER GROVE",
+            "Corrected Address": "3B JUNIPER GROVE RD",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.155487"
+        },
+        {
+            "OrigRowNum": 345,
+            "Original Address": "89 WOODLAND",
+            "Corrected Address": "89 WOODLAND DR",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.155700"
+        },
+        {
+            "OrigRowNum": 346,
+            "Original Address": "129 BIA RT 133",
+            "Corrected Address": "129 BIA ROUTE 133",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.155904"
+        },
+        {
+            "OrigRowNum": 348,
+            "Original Address": "49 SHORE CLIFF",
+            "Corrected Address": "49 SHORE CLF",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.403733"
+        },
+        {
+            "OrigRowNum": 360,
+            "Original Address": "10 MT TAYLOR VIEW  - YUCCA VILLAGE 58",
+            "Corrected Address": "10 MT TAYLOR VIEW DR",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.404999"
+        },
+        {
+            "OrigRowNum": 365,
+            "Original Address": "41 BIA ROUTE 167",
+            "Corrected Address": "41 BIA ROUTE 167",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.405510"
+        },
+        {
+            "OrigRowNum": 374,
+            "Original Address": "51 BIA 343",
+            "Corrected Address": "51 BIA",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.405921"
+        },
+        {
+            "OrigRowNum": 376,
+            "Original Address": "81 BIA ROUTE 145",
+            "Corrected Address": "81 BIA ROUTE 145",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.406305"
+        },
+        {
+            "OrigRowNum": 377,
+            "Original Address": "26 BIA ROUTE 186",
+            "Corrected Address": "26 BIA ROUTE 186",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.406682"
+        },
+        {
+            "OrigRowNum": 379,
+            "Original Address": "334 OSO RIDGE ROUTE",
+            "Corrected Address": "334 OSO RIDGE RD",
+            "Original ZIP": "87020",
+            "Corrected ZIP": "87020",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.407055"
+        },
+        {
+            "OrigRowNum": 381,
+            "Original Address": "19 NEBULA CLOUD",
+            "Corrected Address": "19 NEBULA CLOUD",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.407424"
+        },
+        {
+            "OrigRowNum": 393,
+            "Original Address": "35 BIA ROUTE 208",
+            "Corrected Address": "35 BIA ROUTE 208",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.407791"
+        },
+        {
+            "OrigRowNum": 395,
+            "Original Address": "70 BIA ROUTE 179",
+            "Corrected Address": "70 BIA ROUTE 179",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.408166"
+        },
+        {
+            "OrigRowNum": 397,
+            "Original Address": "3 BIA RT 274",
+            "Corrected Address": "3 BIA ROUTE 274",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.408531"
+        },
+        {
+            "OrigRowNum": 399,
+            "Original Address": "583 OSO RIDGE",
+            "Corrected Address": "583 OSO RIDGE RD",
+            "Original ZIP": "87020",
+            "Corrected ZIP": "87020",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.408895"
+        },
+        {
+            "OrigRowNum": 409,
+            "Original Address": "31 PINION",
+            "Corrected Address": "31 PINON CIR",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.409229"
+        },
+        {
+            "OrigRowNum": 414,
+            "Original Address": "41 WILD ONION",
+            "Corrected Address": "41 WILD ONION DR",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.409548"
+        },
+        {
+            "OrigRowNum": 424,
+            "Original Address": "145 BIA RT 3017",
+            "Corrected Address": "145 BIA ROUTE 3017",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.409861"
+        },
+        {
+            "OrigRowNum": 436,
+            "Original Address": "570 BIA ROUTE 125",
+            "Corrected Address": "570 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.410180"
+        },
+        {
+            "OrigRowNum": 437,
+            "Original Address": "262 JUBILEE TR",
+            "Corrected Address": "262 JUBILEE TRL",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.410503"
+        },
+        {
+            "OrigRowNum": 440,
+            "Original Address": "230 BIA RTE 135",
+            "Corrected Address": "230 BIA ROUTE 135",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.410818"
+        },
+        {
+            "OrigRowNum": 443,
+            "Original Address": "9 BIA RTE 167",
+            "Corrected Address": "9 BIA ROUTE 167",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.411118"
+        },
+        {
+            "OrigRowNum": 446,
+            "Original Address": "10463 CALLE MIRLO NW",
+            "Corrected Address": "10463 CALLE MIRLO NW",
+            "Original ZIP": "87114",
+            "Corrected ZIP": "87114",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.411422"
+        },
+        {
+            "OrigRowNum": 447,
+            "Original Address": "2 N TIETJEN RAMAH NM",
+            "Corrected Address": "2 N TIETJEN RAMAH NM",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.411711"
+        },
+        {
+            "OrigRowNum": 448,
+            "Original Address": "823 BIA RTE 125",
+            "Corrected Address": "823 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.412001"
+        },
+        {
+            "OrigRowNum": 452,
+            "Original Address": "143 CHEYENNE",
+            "Corrected Address": "143 CHEYENNE",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.412291"
+        },
+        {
+            "OrigRowNum": 453,
+            "Original Address": "5-BIA ROUTE 340",
+            "Corrected Address": "5 BIA ROUTE 340",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.412585"
+        },
+        {
+            "OrigRowNum": 454,
+            "Original Address": "20 BIA ROUTE 257",
+            "Corrected Address": "20 BIA ROUTE 257",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.412871"
+        },
+        {
+            "OrigRowNum": 455,
+            "Original Address": "86 BIA ROUTE 106",
+            "Corrected Address": "86 BIA ROUTE 106",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.413522"
+        },
+        {
+            "OrigRowNum": 457,
+            "Original Address": "538 BIA ROUTE 144",
+            "Corrected Address": "538 BIA ROUTE 144",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.413925"
+        },
+        {
+            "OrigRowNum": 459,
+            "Original Address": "192 BIA ROUTE 329 HOUSE 10",
+            "Corrected Address": "192 BIA ROUTE 329",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.414287"
+        },
+        {
+            "OrigRowNum": 460,
+            "Original Address": "49 BIA ROUTE 192",
+            "Corrected Address": "49 BIA ROUTE 192",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.414655"
+        },
+        {
+            "OrigRowNum": 461,
+            "Original Address": "7 BIA ROUTE 332",
+            "Corrected Address": "7 BIA ROUTE 332",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.415008"
+        },
+        {
+            "OrigRowNum": 462,
+            "Original Address": "18 BIA ROUTE 331",
+            "Corrected Address": "18 BIA ROUTE 331",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.415360"
+        },
+        {
+            "OrigRowNum": 463,
+            "Original Address": "24 BIA ROUTE 330",
+            "Corrected Address": "24 BIA ROUTE 330",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.415706"
+        },
+        {
+            "OrigRowNum": 464,
+            "Original Address": "37 BIA ROUTE 193 UNIT B",
+            "Corrected Address": "37 BIA ROUTE 193",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.416055"
+        },
+        {
+            "OrigRowNum": 465,
+            "Original Address": "57 BIA ROUTE 193",
+            "Corrected Address": "57 BIA ROUTE 193",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.416394"
+        },
+        {
+            "OrigRowNum": 468,
+            "Original Address": "89 BIA RT 188",
+            "Corrected Address": "89 BIA ROUTE 188",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.416729"
+        },
+        {
+            "OrigRowNum": 469,
+            "Original Address": "77 BIA RT 188",
+            "Corrected Address": "77 BIA ROUTE 188",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.417079"
+        },
+        {
+            "OrigRowNum": 470,
+            "Original Address": "2 BIA ROUTE 253",
+            "Corrected Address": "2 BIA ROUTE 253",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.417412"
+        },
+        {
+            "OrigRowNum": 472,
+            "Original Address": "25 BIA RT 337",
+            "Corrected Address": "25 BIA ROUTE 337",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.417755"
+        },
+        {
+            "OrigRowNum": 475,
+            "Original Address": "35 BIA RT 206",
+            "Corrected Address": "35 BIA ROUTE 206",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.418086"
+        },
+        {
+            "OrigRowNum": 476,
+            "Original Address": "39 BIA RT 206",
+            "Corrected Address": "39 BIA ROUTE 206",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.418421"
+        },
+        {
+            "OrigRowNum": 477,
+            "Original Address": "205 BIA RT. 144",
+            "Corrected Address": "205 BIA ROUTE 144",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.418751"
+        },
+        {
+            "OrigRowNum": 478,
+            "Original Address": "11 BIA ROUTE 279",
+            "Corrected Address": "11 BIA ROUTE 279",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.419059"
+        },
+        {
+            "OrigRowNum": 479,
+            "Original Address": "4 BIA ROUTE 5003",
+            "Corrected Address": "4 BIA ROUTE 5003",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.419348"
+        },
+        {
+            "OrigRowNum": 481,
+            "Original Address": "47 BIA RT 253",
+            "Corrected Address": "47 BIA ROUTE 253",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.419636"
+        },
+        {
+            "OrigRowNum": 482,
+            "Original Address": "25 BIA RT 129",
+            "Corrected Address": "25 BIA ROUTE 129",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.419925"
+        },
+        {
+            "OrigRowNum": 483,
+            "Original Address": "51 BIA RT 186",
+            "Corrected Address": "51 BIA ROUTE 186",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.420204"
+        },
+        {
+            "OrigRowNum": 484,
+            "Original Address": "12 BIA RT. 125",
+            "Corrected Address": "12 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.420491"
+        },
+        {
+            "OrigRowNum": 485,
+            "Original Address": "29 BIA RT. 183",
+            "Corrected Address": "29 BIA ROUTE 183",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.420773"
+        },
+        {
+            "OrigRowNum": 486,
+            "Original Address": "1275 BIA RT 125",
+            "Corrected Address": "1275 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.421063"
+        },
+        {
+            "OrigRowNum": 487,
+            "Original Address": "378 CANDY KITCHEN",
+            "Corrected Address": "378 CANDY KITCHEN RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.421340"
+        },
+        {
+            "OrigRowNum": 492,
+            "Original Address": "129 BIA RTE 103",
+            "Corrected Address": "129 BIA ROUTE 103",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.421629"
+        },
+        {
+            "OrigRowNum": 494,
+            "Original Address": "80 BIA RT 130 HS9",
+            "Corrected Address": "80 BIA ROUTE 130",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.421911"
+        },
+        {
+            "OrigRowNum": 495,
+            "Original Address": "1290 E BIA RT 122",
+            "Corrected Address": "1290 BIA ROUTE 122",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.422197"
+        },
+        {
+            "OrigRowNum": 497,
+            "Original Address": "44 B BIA RTE 122",
+            "Corrected Address": "44 BIA ROUTE 122",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.422476"
+        },
+        {
+            "OrigRowNum": 498,
+            "Original Address": "4 BIA ROUTE 141",
+            "Corrected Address": "4 BIA ROUTE 141",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.422759"
+        },
+        {
+            "OrigRowNum": 506,
+            "Original Address": "1245 BIA RT 125",
+            "Corrected Address": "1245 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.423017"
+        },
+        {
+            "OrigRowNum": 510,
+            "Original Address": "19 BIA RT 224",
+            "Corrected Address": "19 BIA ROUTE 224",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.423255"
+        },
+        {
+            "OrigRowNum": 513,
+            "Original Address": "10B JUNIPER GROVE",
+            "Corrected Address": "10B JUNIPER GROVE RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.423488"
+        },
+        {
+            "OrigRowNum": 517,
+            "Original Address": "608 BIA 125 PINE HILL",
+            "Corrected Address": "608 BIA 125 PINE HL",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87321",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.423728"
+        },
+        {
+            "OrigRowNum": 529,
+            "Original Address": "7 HILLSIDE COVE",
+            "Corrected Address": "7 HILLSIDE CV",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.423961"
+        },
+        {
+            "OrigRowNum": 530,
+            "Original Address": "140 INDIAN SERVICE ROUTE",
+            "Corrected Address": "140 INDIAN SERVICE RT",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.424202"
+        },
+        {
+            "OrigRowNum": 538,
+            "Original Address": "21 SUNSET HOUSING",
+            "Corrected Address": "21 SUNSET LOOP",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.424444"
+        },
+        {
+            "OrigRowNum": 541,
+            "Original Address": "54 SUNSET HOUSING",
+            "Corrected Address": "54 SUNSET LOOP",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.424676"
+        },
+        {
+            "OrigRowNum": 547,
+            "Original Address": "205 BIA RT 144",
+            "Corrected Address": "205 BIA ROUTE 144",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.424922"
+        },
+        {
+            "OrigRowNum": 551,
+            "Original Address": "300 EDGEWOOD",
+            "Corrected Address": "300 EDGEWOOD",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.425160"
+        },
+        {
+            "OrigRowNum": 552,
+            "Original Address": "68 BIA RT 134",
+            "Corrected Address": "68 BIA ROUTE 134",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.425396"
+        },
+        {
+            "OrigRowNum": 557,
+            "Original Address": "74 BIA RT 133",
+            "Corrected Address": "74 BIA ROUTE 133",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.425637"
+        },
+        {
+            "OrigRowNum": 565,
+            "Original Address": "18 BIA RT 343",
+            "Corrected Address": "18 BIA ROUTE 343",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.425870"
+        },
+        {
+            "OrigRowNum": 566,
+            "Original Address": "214 BIA ROUTE 125",
+            "Corrected Address": "214 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.426108"
+        },
+        {
+            "OrigRowNum": 567,
+            "Original Address": "214 BIA ROUTE 125",
+            "Corrected Address": "214 BIA ROUTE 125",
+            "Original ZIP": "87357",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.426339"
+        },
+        {
+            "OrigRowNum": 570,
+            "Original Address": "8 RADIO HILL",
+            "Corrected Address": "8 RADIO HILL RD",
+            "Original ZIP": "87321",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.426578"
+        },
+        {
+            "OrigRowNum": 211,
+            "Original Address": "608 BIA 125 PINE HILL",
+            "Corrected Address": "608 BIA ROUTE 125",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.426821"
+        },
+        {
+            "OrigRowNum": 221,
+            "Original Address": "14 BIA RT. 186 PINE HILL",
+            "Corrected Address": "14 BIA ROUTE 186",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "87357",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.427082"
+        },
+        {
+            "OrigRowNum": 331,
+            "Original Address": "1087 BIA RT125",
+            "Corrected Address": "1087 BIA RT125",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": null,
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-05T10:16:52.427328"
+        }
+    ]
+}

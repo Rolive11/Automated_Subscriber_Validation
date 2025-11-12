@@ -1,0 +1,1250 @@
+{
+    "Summary": {
+        "Total Rows Processed": 141,
+        "Rows with Corrections": 107,
+        "Rows with Errors": 16,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 13,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 109,
+        "Total Errors": 17,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.58,
+        "Validation Date": "2025-08-28 16:08:37",
+        "Addresses Sent to Smarty": 1,
+        "Successful Corrections": 1,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.43,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 128,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 128,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "7373 US 60 #216",
+            "Corrected Value": "7373 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "address",
+            "Original Value": "7151 US 60 #685",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "7151 US 60 #382",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "1403 W BROADWAY AVENUE #486",
+            "Corrected Value": "1403 W BROADWAY AVENUE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "1403 W BROADWAY AVENUE #390",
+            "Corrected Value": "1403 W BROADWAY AVENUE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "7151 US 60 #323",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "address",
+            "Original Value": "7151 US 60 #253",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "7151 US 60 #176",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "1403 W BROADWAY AVENUE #496",
+            "Corrected Value": "1403 W BROADWAY AVENUE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "7151 US 60 #384",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "7151 US 60 #577",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "7410 E SUTTON DRIVE #308",
+            "Corrected Value": "7410 E SUTTON DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Original Value": "7151 US 60 #563",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "7410 E SUTTON DRIVE #112B",
+            "Corrected Value": "7410 E SUTTON DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "291 E OCOTILLO ROAD #35",
+            "Corrected Value": "291 E OCOTILLO ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "7410 E SUTTON DRIVE #312",
+            "Corrected Value": "7410 E SUTTON DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "7410 E SUTTON DRIVE #210",
+            "Corrected Value": "7410 E SUTTON DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE TSMC SITE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE TSMC SITE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "2614 S WINTERSBURG ROAD #40",
+            "Corrected Value": "2614 S WINTERSBURG ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "36711 WEST HARRISON STREET",
+            "Corrected Value": "36711 W HARRISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "34041 WEST PIONEER STREET",
+            "Corrected Value": "34041 W PIONEER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "33323 NORTH 14TH STREET",
+            "Corrected Value": "33323 N 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "address",
+            "Original Value": "36723 WEST HARRISON STREET",
+            "Corrected Value": "36723 W HARRISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Original Value": "34212 WEST HADLEY STREET",
+            "Corrected Value": "34212 W HADLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "38633 WEST SAN JUAN AVENUE",
+            "Corrected Value": "38633 W SAN JUAN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "7151 US 60 #369",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "14 EAST VENADO DRIVE",
+            "Corrected Value": "14 E VENADO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "3805 NORTH BLACK CANYON HIGHWAY",
+            "Corrected Value": "3805 N BLACK CANYON HIGHWAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "9243 EAST VISTA DRIVE",
+            "Corrected Value": "9243 E VISTA DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "1704 EAST DESERT RANCH ROAD",
+            "Corrected Value": "1704 E DESERT RANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "2724 WEST BLUE EAGLE LANE",
+            "Corrected Value": "2724 W BLUE EAGLE LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "35344 WEST HUNTINGTON DRIVE",
+            "Corrected Value": "35344 W HUNTINGTON DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "910 NORTH 343RD AVENUE",
+            "Corrected Value": "910 N 343RD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "6045 EAST DUANE LANE",
+            "Corrected Value": "6045 E DUANE LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "38605 WEST MOUNTAIN AVENUE",
+            "Corrected Value": "38605 W MOUNTAIN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "2125 SOUTH 41ST AVENUE",
+            "Corrected Value": "2125 S 41ST AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "7025 EAST PANORAMA DRIVE",
+            "Corrected Value": "7025 E PANORAMA DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "35221 WEST MCNEIL STREET",
+            "Corrected Value": "35221 W MCNEIL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "39030 NORTH 15TH AVENUE",
+            "Corrected Value": "39030 N 15TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "35021 NORTH 14TH STREET",
+            "Corrected Value": "35021 N 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "2860 WEST SABER ROAD",
+            "Corrected Value": "2860 W SABER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "35507 HAMMOND DRIVE #B",
+            "Corrected Value": "35507 HAMMOND DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "6061 EAST CAVE CREEK ROAD",
+            "Corrected Value": "6061 E CAVE CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "address",
+            "Original Value": "44907 NORTH 8TH STREET",
+            "Corrected Value": "44907 N 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "425 SOUTH 371ST AVENUE",
+            "Corrected Value": "425 S 371ST AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "11 EAST ZENITH LANE",
+            "Corrected Value": "11 E ZENITH LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "44603 NORTH 22ND STREET",
+            "Corrected Value": "44603 N 22ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "5661 SOUTH IRONWOOD DRIVE",
+            "Corrected Value": "5661 S IRONWOOD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "3825 NORTH 335TH AVENUE",
+            "Corrected Value": "3825 N 335TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "5530 SOUTH 360TH AVENUE",
+            "Corrected Value": "5530 S 360TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "36643 WEST HADLEY STREET",
+            "Corrected Value": "36643 W HADLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "335 EAST PECOS ROAD",
+            "Corrected Value": "335 E PECOS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "5491 EAST EL SENDERO DRIVE",
+            "Corrected Value": "5491 E EL SENDERO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "5483 EAST EL SENDERO DRIVE",
+            "Corrected Value": "5483 E EL SENDERO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "1202 NORTH 383RD DRIVE",
+            "Corrected Value": "1202 N 383RD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "35521 WEST HARRISON STREET",
+            "Corrected Value": "35521 W HARRISON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "33416 WEST SIESTA WAY",
+            "Corrected Value": "33416 W SIESTA WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "38618 WEST SHERMAN STREET",
+            "Corrected Value": "38618 W SHERMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "6448 SOUTH 350TH AVENUE",
+            "Corrected Value": "6448 S 350TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "address",
+            "Original Value": "3506 NORTH 438TH AVENUE",
+            "Corrected Value": "3506 N 438TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "3626 NORTH 438TH AVENUE",
+            "Corrected Value": "3626 N 438TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "6636 EAST DALE LANE",
+            "Corrected Value": "6636 E DALE LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "37696 WEST VERMONT AVENUE",
+            "Corrected Value": "37696 W VERMONT AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "2909 NORTH 439TH AVENUE",
+            "Corrected Value": "2909 N 439TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "address",
+            "Original Value": "36904 WEST AMELIA AVENUE B",
+            "Corrected Value": "36904 W AMELIA AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "3826 NORTH 424TH AVENUE",
+            "Corrected Value": "3826 N 424TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "38075 WEST RANCHO DRIVE",
+            "Corrected Value": "38075 W RANCHO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "6526 EAST PEAK VIEW ROAD",
+            "Corrected Value": "6526 E PEAK VIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "2620 NORTH 425TH AVENUE",
+            "Corrected Value": "2620 N 425TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "address",
+            "Original Value": "1706 SOUTH 373RD AVENUE",
+            "Corrected Value": "1706 S 373RD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "3518 NORTH 438TH AVENUE",
+            "Corrected Value": "3518 N 438TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "711 SOUTH 351ST AVENUE",
+            "Corrected Value": "711 S 351ST AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "4303 NORTH 433RD AVENUE",
+            "Corrected Value": "4303 N 433RD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "2586 WEST SHACKLETON DRIVE",
+            "Corrected Value": "2586 W SHACKLETON DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "5310 SOUTH 356TH AVENUE",
+            "Corrected Value": "5310 S 356TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "118 NORTH 350TH AVENUE",
+            "Corrected Value": "118 N 350TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "37611 WEST SAN JUAN AVENUE",
+            "Corrected Value": "37611 W SAN JUAN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "1307 NORTH 381ST DRIVE",
+            "Corrected Value": "1307 N 381ST DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "2622 NORTH 431ST AVENUE",
+            "Corrected Value": "2622 N 431ST AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "36632 WEST HADLEY STREET",
+            "Corrected Value": "36632 W HADLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "35037 WEST VAN BUREN STREET",
+            "Corrected Value": "35037 W VAN BUREN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "3318 NORTH 427TH AVENUE",
+            "Corrected Value": "3318 N 427TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "23 EAST CLOUD ROAD",
+            "Corrected Value": "23 E CLOUD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "37301 WEST MCDOWELL ROAD",
+            "Corrected Value": "37301 W MCDOWELL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "1619 EAST MAIN STREET",
+            "Corrected Value": "1619 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "30000 NORTH 70TH STREET",
+            "Corrected Value": "30000 N 70TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "address",
+            "Original Value": "3705 SADDLE VISTA ROAD #2",
+            "Corrected Value": "3705 SADDLE VISTA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "6528 EAST CAVE CREEK ROAD",
+            "Corrected Value": "6528 E CAVE CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "38445 WEST BUCKEYE ROAD",
+            "Corrected Value": "38445 W BUCKEYE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "37429 WEST LA CANADA BOULEVARD",
+            "Corrected Value": "37429 W LA CANADA BOULEVARD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "222 SOUTH 363RD AVENUE",
+            "Corrected Value": "222 S 363RD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "105 NORTH 339TH AVENUE",
+            "Corrected Value": "105 N 339TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "37015 NORTH 27TH PLACE",
+            "Corrected Value": "37015 N 27TH PLACE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "8249 EAST SERENE STREET",
+            "Corrected Value": "8249 E SERENE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "35017 NORTH 14TH STREET",
+            "Corrected Value": "35017 N 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "36599 NORTH 38TH STREET",
+            "Corrected Value": "36599 N 38TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "620 WEST ADAMANDA DRIVE",
+            "Corrected Value": "620 W ADAMANDA DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "7151 US 60 UNIT #183",
+            "Corrected Value": "7151 US 60",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "6136 NORTH 415TH AVENUE",
+            "Corrected Value": "6136 N 415TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "5088 WEST INNOVATION CIRCLE",
+            "Corrected Value": "5088 W INNOVATION CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "6132 EAST MORNING VISTA LANE",
+            "Corrected Value": "6132 E MORNING VISTA LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "zip",
+            "Original Value": "85120",
+            "Corrected Value": "85120",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "address",
+            "Original Value": "1403 W BROADWAY AVE#439",
+            "Corrected Value": "1403 W BROADWAY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "zip",
+            "Original Value": "0",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PALO VERDE POINT ROAD"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PALO VERDE POINT ROAD"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "0"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3295)",
+            "Value": "3340"
+        },
+        {
+            "Row": 22,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3308)",
+            "Value": "3311"
+        },
+        {
+            "Row": 28,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3308)",
+            "Value": "3321"
+        },
+        {
+            "Row": 34,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3297)",
+            "Value": "3329"
+        },
+        {
+            "Row": 37,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3297)",
+            "Value": "3334"
+        },
+        {
+            "Row": 81,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3350)",
+            "Value": "3389"
+        },
+        {
+            "Row": 26,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3283)",
+            "Value": "3317"
+        },
+        {
+            "Row": 109,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3381)",
+            "Value": "3428"
+        },
+        {
+            "Row": 72,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3343)",
+            "Value": "3379"
+        },
+        {
+            "Row": 103,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3343)",
+            "Value": "3416"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3343)",
+            "Value": "3417"
+        },
+        {
+            "Row": 107,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3418)",
+            "Value": "3423"
+        },
+        {
+            "Row": 123,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3447)",
+            "Value": "3450"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "0"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 41,
+            "customer": "3340",
+            "lat": 33.355599,
+            "lon": -111.471492,
+            "address": "7151 US 60",
+            "city": "GOLD CANYON",
+            "state": "AZ",
+            "zip": "85118",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3295)"
+        },
+        {
+            "OrigRowNum": 22,
+            "customer": "3311",
+            "lat": 33.355599,
+            "lon": -111.471492,
+            "address": "7151 US 60",
+            "city": "GOLD CANYON",
+            "state": "AZ",
+            "zip": "85118",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3308)"
+        },
+        {
+            "OrigRowNum": 28,
+            "customer": "3321",
+            "lat": 33.355599,
+            "lon": -111.471492,
+            "address": "7151 US 60",
+            "city": "GOLD CANYON",
+            "state": "AZ",
+            "zip": "85118",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3308)"
+        },
+        {
+            "OrigRowNum": 34,
+            "customer": "3329",
+            "lat": 33.3575,
+            "lon": -111.467711,
+            "address": "7151 US 60",
+            "city": "GOLD CANYON",
+            "state": "AZ",
+            "zip": "85118",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3297)"
+        },
+        {
+            "OrigRowNum": 37,
+            "customer": "3334",
+            "lat": 33.3575,
+            "lon": -111.467711,
+            "address": "7151 US 60",
+            "city": "GOLD CANYON",
+            "state": "AZ",
+            "zip": "85118",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3297)"
+        },
+        {
+            "OrigRowNum": 81,
+            "customer": "3389",
+            "lat": 33.4077204,
+            "lon": -111.5605054,
+            "address": "1403 W BROADWAY AVE",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85120",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3350)"
+        },
+        {
+            "OrigRowNum": 26,
+            "customer": "3317",
+            "lat": 33.4077204,
+            "lon": -111.5605054,
+            "address": "1403 W BROADWAY AVE",
+            "city": "APACHE JUNCTION",
+            "state": "AZ",
+            "zip": "85120",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3283)"
+        },
+        {
+            "OrigRowNum": 109,
+            "customer": "3428",
+            "lat": 33.489434,
+            "lon": -112.982999,
+            "address": "3705 SADDLE VISTA ROAD",
+            "city": "TONOPAH",
+            "state": "AZ",
+            "zip": "85354",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3381)"
+        },
+        {
+            "OrigRowNum": 72,
+            "customer": "3379",
+            "lat": 33.608405,
+            "lon": -111.920891,
+            "address": "7410 E SUTTON DRIVE",
+            "city": "SCOTTSDALE",
+            "state": "AZ",
+            "zip": "85260",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3343)"
+        },
+        {
+            "OrigRowNum": 103,
+            "customer": "3416",
+            "lat": 33.608405,
+            "lon": -111.920891,
+            "address": "7410 E SUTTON DRIVE",
+            "city": "SCOTTSDALE",
+            "state": "AZ",
+            "zip": "85260",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3343)"
+        },
+        {
+            "OrigRowNum": 104,
+            "customer": "3417",
+            "lat": 33.608405,
+            "lon": -111.920891,
+            "address": "7410 E SUTTON DRIVE",
+            "city": "SCOTTSDALE",
+            "state": "AZ",
+            "zip": "85260",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3343)"
+        },
+        {
+            "OrigRowNum": 107,
+            "customer": "3423",
+            "lat": 33.775093,
+            "lon": -112.160578,
+            "address": "5088 W INNOVATION CIRCLE",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85083",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3418)"
+        },
+        {
+            "OrigRowNum": 123,
+            "customer": "3450",
+            "lat": 33.775093,
+            "lon": -112.160578,
+            "address": "5088 W INNOVATION CIRCLE",
+            "city": "PHOENIX",
+            "state": "AZ",
+            "zip": "85083",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3447)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 14,
+            "Original Address": "1403 W BROADWAY AVE#439",
+            "Corrected Address": "1403 W BROADWAY AVE",
+            "Original ZIP": "85120",
+            "Corrected ZIP": "85120",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-28T16:08:37.083223"
+        }
+    ]
+}

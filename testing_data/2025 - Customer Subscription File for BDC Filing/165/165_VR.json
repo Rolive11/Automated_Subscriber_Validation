@@ -1,0 +1,392 @@
+{
+    "Summary": {
+        "Total Rows Processed": 459,
+        "Rows with Corrections": 20,
+        "Rows with Errors": 16,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 5,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 20,
+        "Total Errors": 16,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.39,
+        "Validation Date": "2025-08-28 20:48:53",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 454,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 454,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "1187 EAST MARINETTE AVENUE",
+            "Corrected Value": "1187 E MARINETTE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "address",
+            "Original Value": "113 N CHURCH SUITE 204",
+            "Corrected Value": "113 N CHURCH",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "address",
+            "Original Value": "310 S ANDERSON ROAD APT A",
+            "Corrected Value": "310 S ANDERSON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "8000 W DOE SUITE F",
+            "Corrected Value": "8000 W DOE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "567 WEST GLAZE AVENUE",
+            "Corrected Value": "567 W GLAZE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "113 N CHURCH STREET #412",
+            "Corrected Value": "113 N CHURCH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "799 WEST MARINETTE AVE",
+            "Corrected Value": "799 W MARINETTE AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "2259 WEST VISALIA ROAD",
+            "Corrected Value": "2259 W VISALIA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "799 WEST MARINETTE AVE",
+            "Corrected Value": "799 W MARINETTE AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "1371 A WEST MARINETTE AVE",
+            "Corrected Value": "1371 A W MARINETTE AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "113 N CHURCH SUITE 416",
+            "Corrected Value": "113 N CHURCH",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "6040 SOUTH HILL",
+            "Corrected Value": "6040 S HILL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "14346 AVE 384 #16",
+            "Corrected Value": "14346 AVE 384",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "26433 E FLORAL AVENUE",
+            "Corrected Value": "26433 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "113 N CHURCH STREET SUITE 522",
+            "Corrected Value": "113 N CHURCH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 375,
+            "Column": "address",
+            "Original Value": "1832 E MAIN SUITE C",
+            "Corrected Value": "1832 E MAIN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "121 1/2 SOUTH E STREET",
+            "Corrected Value": "121 1/2 S E STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "1577 WEST VISALIA ROAD",
+            "Corrected Value": "1577 W VISALIA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "113 N CHURCH STREET #410",
+            "Corrected Value": "113 N CHURCH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "113 N CHURCH STREET #408",
+            "Corrected Value": "113 N CHURCH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31160 TOWER RD"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31161 TOWER ROAD"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31121 TOWER RD"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31173 TOWER ROAD"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31103 TOWER ROAD"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "19361A AVE 300"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31045 TOWER ROAD"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31126 TOWER ROAD"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31141 TOWER ROAD"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1478B N BELMONT"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "30399A ROAD 192"
+        },
+        {
+            "Row": 347,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 865)",
+            "Value": "1253"
+        },
+        {
+            "Row": 443,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 865)",
+            "Value": "1379"
+        },
+        {
+            "Row": 447,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 865)",
+            "Value": "1384"
+        },
+        {
+            "Row": 266,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 743)",
+            "Value": "1135"
+        },
+        {
+            "Row": 338,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1208)",
+            "Value": "1238"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 347,
+            "customer": "1253",
+            "lat": "",
+            "lon": "",
+            "address": "113 N CHURCH STREET",
+            "city": "VISALIA",
+            "state": "CA",
+            "zip": "93291",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 865)"
+        },
+        {
+            "OrigRowNum": 443,
+            "customer": "1379",
+            "lat": "",
+            "lon": "",
+            "address": "113 N CHURCH STREET",
+            "city": "VISALIA",
+            "state": "CA",
+            "zip": "93291",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 865)"
+        },
+        {
+            "OrigRowNum": 447,
+            "customer": "1384",
+            "lat": "",
+            "lon": "",
+            "address": "113 N CHURCH STREET",
+            "city": "VISALIA",
+            "state": "CA",
+            "zip": "93291",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 865)"
+        },
+        {
+            "OrigRowNum": 266,
+            "customer": "1135",
+            "lat": "",
+            "lon": "",
+            "address": "113 N CHURCH",
+            "city": "VISALIA",
+            "state": "CA",
+            "zip": "93291",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 743)"
+        },
+        {
+            "OrigRowNum": 338,
+            "customer": "1238",
+            "lat": "",
+            "lon": "",
+            "address": "34775 RD. 132",
+            "city": "VISALIA",
+            "state": "CA",
+            "zip": "93292",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1208)"
+        }
+    ],
+    "Smarty Corrections": []
+}

@@ -1,0 +1,1707 @@
+{
+    "Summary": {
+        "Total Rows Processed": 511,
+        "Rows with Corrections": 42,
+        "Rows with Errors": 67,
+        "PO Box Rows Removed": 8,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 6,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 82,
+        "Total Errors": 28,
+        "Street Ending Errors": 40,
+        "Validation Time (seconds)": 0.76,
+        "Validation Date": "2025-07-31 15:11:53",
+        "Addresses Sent to Smarty": 40,
+        "Successful Corrections": 40,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.33,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 497,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 497,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "EAST SANDWICH RD",
+            "Corrected Value": "E SANDWICH RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Steve Schaefer",
+            "Corrected Value": "Steve Schaefer_009",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "zip",
+            "Original Value": "60119",
+            "Corrected Value": "60119",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "42W075 IL ROUTE 38",
+            "Corrected Value": "42W075 IL ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "zip",
+            "Original Value": "60119",
+            "Corrected Value": "60119",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "0S923 THORNDON RIDGE",
+            "Corrected Value": "0S923 THORNDON RIDGE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "zip",
+            "Original Value": "60119",
+            "Corrected Value": "60119",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "2S687 RT 47",
+            "Corrected Value": "2S687 STATE ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "zip",
+            "Original Value": "60119",
+            "Corrected Value": "60119",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Original Value": "45W410 BATEMAN",
+            "Corrected Value": "45W410 BATEMAN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "zip",
+            "Original Value": "60119",
+            "Corrected Value": "60119",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "0N536 SCHNEIDER",
+            "Corrected Value": "0N536 SCHNEIDER RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "60140",
+            "Corrected Value": "60124",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "12N860 US 20",
+            "Corrected Value": "12N860 US HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "zip",
+            "Original Value": "60140",
+            "Corrected Value": "60140",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "10N400 MCGOUGH",
+            "Corrected Value": "10N400 MCGOUGH RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "48W805 IL-64",
+            "Corrected Value": "48W805 IL ROUTE 64",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "49W073 ILLINOIS 38",
+            "Corrected Value": "49W073 IL ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "8N240 IL ROUTE 47",
+            "Corrected Value": "8N240 IL ROUTE 47",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "48W805 IL ROUTE 64",
+            "Corrected Value": "48W805 IL ROUTE 64",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "48W805 IL ROUTE 64",
+            "Corrected Value": "48W805 IL ROUTE 64",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "48W801 IL-64",
+            "Corrected Value": "48W801 HIGHWAY 64",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Original Value": "50W379 ILLINOIS 38",
+            "Corrected Value": "50W379 IL ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "46W098 HICKORY",
+            "Corrected Value": "46W098 HICKORY LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "47W885 RTE 38",
+            "Corrected Value": "47W885 STATE ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Original Value": "46W571 RT 38",
+            "Corrected Value": "46W571 STATE ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "46W818 COUNTRY LAN",
+            "Corrected Value": "46W818 COUNTRY LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "50W066 ROUTE 38",
+            "Corrected Value": "50W066 STATE ROUTE 38",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "zip",
+            "Original Value": "60151",
+            "Corrected Value": "60151",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "48W801 IL-64",
+            "Corrected Value": "48W801 HIGHWAY 64",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "zip",
+            "Original Value": "60504",
+            "Corrected Value": "60504",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "4405 FOX VALLEY CENTER",
+            "Corrected Value": "4405 FOX VALLEY CENTER DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "zip",
+            "Original Value": "60511",
+            "Corrected Value": "60511",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "48W490 US RT 30",
+            "Corrected Value": "48W490 US HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "zip",
+            "Original Value": "60520",
+            "Corrected Value": "60520",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Original Value": "150 US RT 30",
+            "Corrected Value": "150 US RT 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "zip",
+            "Original Value": "60520",
+            "Corrected Value": "60520",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "17170 US 30",
+            "Corrected Value": "17170 US HIGHWAY 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "zip",
+            "Original Value": "60523",
+            "Corrected Value": "60523",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "1 OAKBROOK CENTER",
+            "Corrected Value": "1 OAKBROOK CTR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "zip",
+            "Original Value": "60538",
+            "Corrected Value": "60538",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "325 RT 31",
+            "Corrected Value": "325 S ROUTE 31",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "60540",
+            "Corrected Value": "60540",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "1805 HIGHGROVE",
+            "Corrected Value": "1805 HIGH GROVE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "zip",
+            "Original Value": "60540",
+            "Corrected Value": "60540",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "1805 HIGHGROVE",
+            "Corrected Value": "1805 HIGH GROVE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "zip",
+            "Original Value": "60544",
+            "Corrected Value": "60544",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "13717 S US-30",
+            "Corrected Value": "13717 S US ROUTE 30",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "zip",
+            "Original Value": "60548",
+            "Corrected Value": "60548",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "213 W KNIGHT",
+            "Corrected Value": "213 W KNIGHTS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "zip",
+            "Original Value": "60551",
+            "Corrected Value": "60551",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "2970 RT 52",
+            "Corrected Value": "2970 RT 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "zip",
+            "Original Value": "60551",
+            "Corrected Value": "60551",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "3930 ILLINOIS RTE. 71",
+            "Corrected Value": "3930 N IL ROUTE 71",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "zip",
+            "Original Value": "60551",
+            "Corrected Value": "60551",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "2606 E RT 52",
+            "Corrected Value": "2606 E RT 52",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "zip",
+            "Original Value": "60552",
+            "Corrected Value": "60548",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "4063 GOVERNOR BEVERAGE HWY",
+            "Corrected Value": "4063 GOVERNOR BEVERIDGE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "zip",
+            "Original Value": "60563",
+            "Corrected Value": "60563",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "387 SHUMAN",
+            "Corrected Value": "387 SHUMAN BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "zip",
+            "Original Value": "60563",
+            "Corrected Value": "60563",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Original Value": "535 E DIEHL",
+            "Corrected Value": "535 E DIEHL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "zip",
+            "Original Value": "60563",
+            "Corrected Value": "60563",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "184 SHUMAN",
+            "Corrected Value": "184 SHUMAN BLVD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "zip",
+            "Original Value": "60564",
+            "Corrected Value": "60564",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "3380 LACROSS",
+            "Corrected Value": "3380 LACROSSE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "zip",
+            "Original Value": "60585",
+            "Corrected Value": "60585",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "12501 S ROUTE 59",
+            "Corrected Value": "12501 S ROUTE 59",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "zip",
+            "Original Value": "60551",
+            "Corrected Value": "60551",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "3870 N IL ROUTE 71",
+            "Corrected Value": "3870 N IL ROUTE 71",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 9,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MAIN STREET RD"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8028"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 398"
+        },
+        {
+            "Row": 66,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MAIN STREET RD"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 2060"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 167"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PIN OAK LN"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BILTER RD"
+        },
+        {
+            "Row": 230,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CAMP DEAN RD"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "CAMP DEAN RD"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "GRANART RD"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "E SANDWICH RD"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "NORTHSTAR FARMS"
+        },
+        {
+            "Row": 118,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 3DB Communications_001",
+            "Value": "3DB Communications"
+        },
+        {
+            "Row": 341,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Black Sheep Golf Club_002",
+            "Value": "Black Sheep Golf Club"
+        },
+        {
+            "Row": 339,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Douglas Flooring_003",
+            "Value": "Douglas Flooring"
+        },
+        {
+            "Row": 422,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Groundhog Trenchless_004",
+            "Value": "Groundhog Trenchless"
+        },
+        {
+            "Row": 12,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to J&R Herra_005",
+            "Value": "J&R Herra"
+        },
+        {
+            "Row": 158,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jim OConnell_006",
+            "Value": "Jim OConnell"
+        },
+        {
+            "Row": 124,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Midwest Trading_007",
+            "Value": "Midwest Trading"
+        },
+        {
+            "Row": 308,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Spiral Services LLC - Plano_008",
+            "Value": "Spiral Services LLC - Plano"
+        },
+        {
+            "Row": 126,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Steve Schaefer_009",
+            "Value": "Steve Schaefer"
+        },
+        {
+            "Row": 432,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer UNWAVERING COUNSELING)",
+            "Value": "Nexus Steel Detailing Inc."
+        },
+        {
+            "Row": 433,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer UNWAVERING COUNSELING)",
+            "Value": "Smitha Bhat"
+        },
+        {
+            "Row": 434,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer UNWAVERING COUNSELING)",
+            "Value": "Hillwood Investment"
+        },
+        {
+            "Row": 435,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer UNWAVERING COUNSELING)",
+            "Value": "Raven Clinical Services"
+        },
+        {
+            "Row": 415,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Julie A Nelson KunaPHDLLC)",
+            "Value": "Naperville Accountants"
+        },
+        {
+            "Row": 93,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer sapenrose.net)",
+            "Value": "Ernie Mahaffey /was discussingdifferences"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "42W075 IL ROUTE 38"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "0S923 THORNDON RIDGE"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2S687 RT 47"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "45W410 BATEMAN"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "0N536 SCHNEIDER"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12N860 US 20"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10N400 MCGOUGH"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W805 IL64"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "49W073 ILLINOIS 38"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8N240 IL ROUTE 47"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W805 IL ROUTE 64"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W805 IL ROUTE 64"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W801 IL64"
+        },
+        {
+            "Row": 142,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "50W379 ILLINOIS 38"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46W098 HICKORY"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "47W885 RTE 38"
+        },
+        {
+            "Row": 152,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46W571 RT 38"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "46W818 COUNTRY LAN"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "50W066 ROUTE 38"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W801 IL64"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4405 FOX VALLEY CENTER"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "48W490 US RT 30"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "150 US RT 30"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17170 US 30"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1 OAKBROOK CENTER"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "325 RT 31"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1805 HIGHGROVE"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1805 HIGHGROVE"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13717 S US30"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "213 W KNIGHT"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2970 RT 52"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3930 ILLINOIS RTE 71"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2606 E RT 52"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4063 GOVERNOR BEVERAGE HWY"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "387 SHUMAN"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "535 E DIEHL"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "184 SHUMAN"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3380 LACROSS"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12501 S ROUTE 59"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3870 N IL ROUTE 71"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8028"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 398"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 2060"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 167"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8028"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 398"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 2060"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 167"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 432,
+            "customer": "Nexus Steel Detailing Inc.",
+            "lat": 41.70406,
+            "lon": -88.20423,
+            "address": "3380 LACROSSE LN",
+            "city": "NAPERVILLE",
+            "state": "IL",
+            "zip": "60564",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer UNWAVERING COUNSELING)"
+        },
+        {
+            "OrigRowNum": 433,
+            "customer": "Smitha Bhat",
+            "lat": 41.70406,
+            "lon": -88.20423,
+            "address": "3380 LACROSSE LN",
+            "city": "NAPERVILLE",
+            "state": "IL",
+            "zip": "60564",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer UNWAVERING COUNSELING)"
+        },
+        {
+            "OrigRowNum": 434,
+            "customer": "Hillwood Investment",
+            "lat": 41.70406,
+            "lon": -88.20423,
+            "address": "3380 LACROSSE LN",
+            "city": "NAPERVILLE",
+            "state": "IL",
+            "zip": "60564",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer UNWAVERING COUNSELING)"
+        },
+        {
+            "OrigRowNum": 435,
+            "customer": "Raven Clinical Services",
+            "lat": 41.70406,
+            "lon": -88.20423,
+            "address": "3380 LACROSSE LN",
+            "city": "NAPERVILLE",
+            "state": "IL",
+            "zip": "60564",
+            "download": 26.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer UNWAVERING COUNSELING)"
+        },
+        {
+            "OrigRowNum": 415,
+            "customer": "Naperville Accountants",
+            "lat": 41.78075,
+            "lon": -88.16414,
+            "address": "800 W 5TH AVE",
+            "city": "NAPERVILLE",
+            "state": "IL",
+            "zip": "60563",
+            "download": 40.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Julie A Nelson KunaPHDLLC)"
+        },
+        {
+            "OrigRowNum": 93,
+            "customer": "Ernie Mahaffey /was discussingdifferences",
+            "lat": 41.88222,
+            "lon": -88.30655,
+            "address": "503 S 1ST ST",
+            "city": "GENEVA",
+            "state": "IL",
+            "zip": "60134",
+            "download": 0.0,
+            "upload": 0.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer sapenrose.net)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 8,
+            "Original Address": "42W075 IL ROUTE 38",
+            "Corrected Address": "42W075 IL ROUTE 38",
+            "Original ZIP": "60119",
+            "Corrected ZIP": "60119",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.729642"
+        },
+        {
+            "OrigRowNum": 44,
+            "Original Address": "0S923 THORNDON RIDGE",
+            "Corrected Address": "0S923 THORNDON RIDGE DR",
+            "Original ZIP": "60119",
+            "Corrected ZIP": "60119",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.730654"
+        },
+        {
+            "OrigRowNum": 47,
+            "Original Address": "2S687 RT 47",
+            "Corrected Address": "2S687 STATE ROUTE 47",
+            "Original ZIP": "60119",
+            "Corrected ZIP": "60119",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.731186"
+        },
+        {
+            "OrigRowNum": 64,
+            "Original Address": "45W410 BATEMAN",
+            "Corrected Address": "45W410 BATEMAN RD",
+            "Original ZIP": "60119",
+            "Corrected ZIP": "60119",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.731654"
+        },
+        {
+            "OrigRowNum": 78,
+            "Original Address": "0N536 SCHNEIDER",
+            "Corrected Address": "0N536 SCHNEIDER RD",
+            "Original ZIP": "60119",
+            "Corrected ZIP": "60119",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.732102"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "12N860 US 20",
+            "Corrected Address": "12N860 US HIGHWAY 20",
+            "Original ZIP": "60140",
+            "Corrected ZIP": "60124",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.732539"
+        },
+        {
+            "OrigRowNum": 103,
+            "Original Address": "10N400 MCGOUGH",
+            "Corrected Address": "10N400 MCGOUGH RD",
+            "Original ZIP": "60140",
+            "Corrected ZIP": "60140",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.732927"
+        },
+        {
+            "OrigRowNum": 116,
+            "Original Address": "48W805 IL-64",
+            "Corrected Address": "48W805 IL ROUTE 64",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.733257"
+        },
+        {
+            "OrigRowNum": 117,
+            "Original Address": "49W073 ILLINOIS 38",
+            "Corrected Address": "49W073 IL ROUTE 38",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.733582"
+        },
+        {
+            "OrigRowNum": 119,
+            "Original Address": "8N240 IL ROUTE 47",
+            "Corrected Address": "8N240 IL ROUTE 47",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.733909"
+        },
+        {
+            "OrigRowNum": 123,
+            "Original Address": "48W805 IL ROUTE 64",
+            "Corrected Address": "48W805 IL ROUTE 64",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.734241"
+        },
+        {
+            "OrigRowNum": 124,
+            "Original Address": "48W805 IL ROUTE 64",
+            "Corrected Address": "48W805 IL ROUTE 64",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.734566"
+        },
+        {
+            "OrigRowNum": 132,
+            "Original Address": "48W801 IL-64",
+            "Corrected Address": "48W801 HIGHWAY 64",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.734887"
+        },
+        {
+            "OrigRowNum": 142,
+            "Original Address": "50W379 ILLINOIS 38",
+            "Corrected Address": "50W379 IL ROUTE 38",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.735198"
+        },
+        {
+            "OrigRowNum": 144,
+            "Original Address": "46W098 HICKORY",
+            "Corrected Address": "46W098 HICKORY LN",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.735524"
+        },
+        {
+            "OrigRowNum": 147,
+            "Original Address": "47W885 RTE 38",
+            "Corrected Address": "47W885 STATE ROUTE 38",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.735836"
+        },
+        {
+            "OrigRowNum": 152,
+            "Original Address": "46W571 RT 38",
+            "Corrected Address": "46W571 STATE ROUTE 38",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.736149"
+        },
+        {
+            "OrigRowNum": 154,
+            "Original Address": "46W818 COUNTRY LAN",
+            "Corrected Address": "46W818 COUNTRY LN",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.736480"
+        },
+        {
+            "OrigRowNum": 156,
+            "Original Address": "50W066 ROUTE 38",
+            "Corrected Address": "50W066 STATE ROUTE 38",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.736785"
+        },
+        {
+            "OrigRowNum": 184,
+            "Original Address": "48W801 IL-64",
+            "Corrected Address": "48W801 HIGHWAY 64",
+            "Original ZIP": "60151",
+            "Corrected ZIP": "60151",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.737044"
+        },
+        {
+            "OrigRowNum": 207,
+            "Original Address": "4405 FOX VALLEY CENTER",
+            "Corrected Address": "4405 FOX VALLEY CENTER DR",
+            "Original ZIP": "60504",
+            "Corrected ZIP": "60504",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.737298"
+        },
+        {
+            "OrigRowNum": 238,
+            "Original Address": "48W490 US RT 30",
+            "Corrected Address": "48W490 US HIGHWAY 30",
+            "Original ZIP": "60511",
+            "Corrected ZIP": "60511",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.737563"
+        },
+        {
+            "OrigRowNum": 255,
+            "Original Address": "150 US RT 30",
+            "Corrected Address": "150 US RT 30",
+            "Original ZIP": "60520",
+            "Corrected ZIP": "60520",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.737817"
+        },
+        {
+            "OrigRowNum": 256,
+            "Original Address": "17170 US 30",
+            "Corrected Address": "17170 US HIGHWAY 30",
+            "Original ZIP": "60520",
+            "Corrected ZIP": "60520",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.738071"
+        },
+        {
+            "OrigRowNum": 275,
+            "Original Address": "1 OAKBROOK CENTER",
+            "Corrected Address": "1 OAKBROOK CTR",
+            "Original ZIP": "60523",
+            "Corrected ZIP": "60523",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.738326"
+        },
+        {
+            "OrigRowNum": 281,
+            "Original Address": "325 RT 31",
+            "Corrected Address": "325 S ROUTE 31",
+            "Original ZIP": "60538",
+            "Corrected ZIP": "60538",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.738592"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "1805 HIGHGROVE",
+            "Corrected Address": "1805 HIGH GROVE LN",
+            "Original ZIP": "60540",
+            "Corrected ZIP": "60540",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.738839"
+        },
+        {
+            "OrigRowNum": 289,
+            "Original Address": "1805 HIGHGROVE",
+            "Corrected Address": "1805 HIGH GROVE LN",
+            "Original ZIP": "60540",
+            "Corrected ZIP": "60540",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.739091"
+        },
+        {
+            "OrigRowNum": 305,
+            "Original Address": "13717 S US-30",
+            "Corrected Address": "13717 S US ROUTE 30",
+            "Original ZIP": "60544",
+            "Corrected ZIP": "60544",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.739336"
+        },
+        {
+            "OrigRowNum": 319,
+            "Original Address": "213 W KNIGHT",
+            "Corrected Address": "213 W KNIGHTS RD",
+            "Original ZIP": "60548",
+            "Corrected ZIP": "60548",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.739566"
+        },
+        {
+            "OrigRowNum": 322,
+            "Original Address": "2970 RT 52",
+            "Corrected Address": "2970 RT 52",
+            "Original ZIP": "60551",
+            "Corrected ZIP": "60551",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.739802"
+        },
+        {
+            "OrigRowNum": 323,
+            "Original Address": "3930 ILLINOIS RTE. 71",
+            "Corrected Address": "3930 N IL ROUTE 71",
+            "Original ZIP": "60551",
+            "Corrected ZIP": "60551",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.740028"
+        },
+        {
+            "OrigRowNum": 327,
+            "Original Address": "2606 E RT 52",
+            "Corrected Address": "2606 E RT 52",
+            "Original ZIP": "60551",
+            "Corrected ZIP": "60551",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.740255"
+        },
+        {
+            "OrigRowNum": 329,
+            "Original Address": "4063 GOVERNOR BEVERAGE HWY",
+            "Corrected Address": "4063 GOVERNOR BEVERIDGE HWY",
+            "Original ZIP": "60552",
+            "Corrected ZIP": "60548",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.740481"
+        },
+        {
+            "OrigRowNum": 411,
+            "Original Address": "387 SHUMAN",
+            "Corrected Address": "387 SHUMAN BLVD",
+            "Original ZIP": "60563",
+            "Corrected ZIP": "60563",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.740970"
+        },
+        {
+            "OrigRowNum": 416,
+            "Original Address": "535 E DIEHL",
+            "Corrected Address": "535 E DIEHL RD",
+            "Original ZIP": "60563",
+            "Corrected ZIP": "60563",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.741662"
+        },
+        {
+            "OrigRowNum": 418,
+            "Original Address": "184 SHUMAN",
+            "Corrected Address": "184 SHUMAN BLVD",
+            "Original ZIP": "60563",
+            "Corrected ZIP": "60563",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.741975"
+        },
+        {
+            "OrigRowNum": 436,
+            "Original Address": "3380 LACROSS",
+            "Corrected Address": "3380 LACROSSE LN",
+            "Original ZIP": "60564",
+            "Corrected ZIP": "60564",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.742214"
+        },
+        {
+            "OrigRowNum": 440,
+            "Original Address": "12501 S ROUTE 59",
+            "Corrected Address": "12501 S ROUTE 59",
+            "Original ZIP": "60585",
+            "Corrected ZIP": "60585",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.742445"
+        },
+        {
+            "OrigRowNum": 481,
+            "Original Address": "3870 N IL ROUTE 71",
+            "Corrected Address": "3870 N IL ROUTE 71",
+            "Original ZIP": "60551",
+            "Corrected ZIP": "60551",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-31T15:11:53.742695"
+        }
+    ]
+}

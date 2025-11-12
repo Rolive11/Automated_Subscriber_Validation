@@ -1,0 +1,1193 @@
+{
+    "Summary": {
+        "Total Rows Processed": 147,
+        "Rows with Corrections": 138,
+        "Rows with Errors": 3,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 140,
+        "Total Errors": 3,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.13,
+        "Validation Date": "2025-08-29 14:15:56",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 147,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 147,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "customer",
+            "Original Value": "Hanson, Gayle",
+            "Corrected Value": "Hanson Gayle",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Parker, Elaine",
+            "Corrected Value": "Parker Elaine",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "Hansen, Randall",
+            "Corrected Value": "Hansen Randall",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "Steward, Janet",
+            "Corrected Value": "Steward Janet",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Original Value": "Bicknell, Liz",
+            "Corrected Value": "Bicknell Liz",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "customer",
+            "Original Value": "Sanford, Gregory",
+            "Corrected Value": "Sanford Gregory",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "customer",
+            "Original Value": "Bair, Joann",
+            "Corrected Value": "Bair Joann",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "customer",
+            "Original Value": "Barstow, Betsy",
+            "Corrected Value": "Barstow Betsy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "customer",
+            "Original Value": "Muhr, Jill",
+            "Corrected Value": "Muhr Jill",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "customer",
+            "Original Value": "Hinkley, Sarai",
+            "Corrected Value": "Hinkley Sarai",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "customer",
+            "Original Value": "Hannan, Robert",
+            "Corrected Value": "Hannan Robert",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "customer",
+            "Original Value": "Conn, Caitlin",
+            "Corrected Value": "Conn Caitlin",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "customer",
+            "Original Value": "Coppersmith, Ruth",
+            "Corrected Value": "Coppersmith Ruth",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "customer",
+            "Original Value": "Weedon, Barbara",
+            "Corrected Value": "Weedon Barbara",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "customer",
+            "Original Value": "Selkowitz, Ellen",
+            "Corrected Value": "Selkowitz Ellen",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "customer",
+            "Original Value": "Douglas, Diana",
+            "Corrected Value": "Douglas Diana",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "customer",
+            "Original Value": "Forbes, Alex",
+            "Corrected Value": "Forbes Alex",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "customer",
+            "Original Value": "Youngbaer, Jane",
+            "Corrected Value": "Youngbaer Jane",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "customer",
+            "Original Value": "Cyprian, Judy ",
+            "Corrected Value": "Cyprian Judy ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "customer",
+            "Original Value": "Birnbaum, Michael",
+            "Corrected Value": "Birnbaum Michael",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "customer",
+            "Original Value": "Petterssen, Christine",
+            "Corrected Value": "Petterssen Christine",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Original Value": "Davis, Tim",
+            "Corrected Value": "Davis Tim",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "customer",
+            "Original Value": "Lester, Ann ",
+            "Corrected Value": "Lester Ann ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "customer",
+            "Original Value": "Barasch, Charlie",
+            "Corrected Value": "Barasch Charlie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "customer",
+            "Original Value": "Holubec, Natalia",
+            "Corrected Value": "Holubec Natalia",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "customer",
+            "Original Value": "Bissex, Karl ",
+            "Corrected Value": "Bissex Karl ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "customer",
+            "Original Value": "Brooks, George",
+            "Corrected Value": "Brooks George",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "customer",
+            "Original Value": "Lindemann, Brenda ",
+            "Corrected Value": "Lindemann Brenda ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "customer",
+            "Original Value": "Farnham, Steven",
+            "Corrected Value": "Farnham Steven",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "customer",
+            "Original Value": "Bailey, Jessica",
+            "Corrected Value": "Bailey Jessica",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "customer",
+            "Original Value": "Ibey, Barry",
+            "Corrected Value": "Ibey Barry",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "customer",
+            "Original Value": "Beatty, Georgia",
+            "Corrected Value": "Beatty Georgia",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "customer",
+            "Original Value": "Roethlein, Mia",
+            "Corrected Value": "Roethlein Mia",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "customer",
+            "Original Value": "Halberg, Gabe",
+            "Corrected Value": "Halberg Gabe",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "customer",
+            "Original Value": "Arisman, James",
+            "Corrected Value": "Arisman James",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "customer",
+            "Original Value": "Howe, Jordan",
+            "Corrected Value": "Howe Jordan",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "customer",
+            "Original Value": "Howe, Leslie",
+            "Corrected Value": "Howe Leslie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Original Value": "Howe, Leslie rental",
+            "Corrected Value": "Howe Leslie rental",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "customer",
+            "Original Value": "Griffin, Bill",
+            "Corrected Value": "Griffin Bill",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "customer",
+            "Original Value": "Rabin, Jules ",
+            "Corrected Value": "Rabin Jules ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "customer",
+            "Original Value": "Hutteman, Lucy",
+            "Corrected Value": "Hutteman Lucy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "customer",
+            "Original Value": "Hazel, Ross ",
+            "Corrected Value": "Hazel Ross ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "customer",
+            "Original Value": "Hewins, Victor",
+            "Corrected Value": "Hewins Victor",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "customer",
+            "Original Value": "Petterssen, Nick",
+            "Corrected Value": "Petterssen Nick",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Original Value": "Smith, Gary",
+            "Corrected Value": "Smith Gary",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "customer",
+            "Original Value": "Allen, Terry ",
+            "Corrected Value": "Allen Terry ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "customer",
+            "Original Value": "Galbraith, Sarah",
+            "Corrected Value": "Galbraith Sarah",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "customer",
+            "Original Value": "Farrington, Hilari",
+            "Corrected Value": "Farrington Hilari",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "customer",
+            "Original Value": "Porter, Louis",
+            "Corrected Value": "Porter Louis",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "customer",
+            "Original Value": "Stoleroff, Debra",
+            "Corrected Value": "Stoleroff Debra",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "customer",
+            "Original Value": "Hall, Bonnie",
+            "Corrected Value": "Hall Bonnie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "customer",
+            "Original Value": "Lasher, Margot",
+            "Corrected Value": "Lasher Margot",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "customer",
+            "Original Value": "Angell, Paul ",
+            "Corrected Value": "Angell Paul ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "customer",
+            "Original Value": "Pacheco, Willy",
+            "Corrected Value": "Pacheco Willy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "customer",
+            "Original Value": "Smith, Earl",
+            "Corrected Value": "Smith Earl",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "customer",
+            "Original Value": "Anderson, Dawn",
+            "Corrected Value": "Anderson Dawn",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "customer",
+            "Original Value": "Morris, Nicola ",
+            "Corrected Value": "Morris Nicola ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "customer",
+            "Original Value": "Clayton, Sue",
+            "Corrected Value": "Clayton Sue",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "customer",
+            "Original Value": "Boyd, Larissa",
+            "Corrected Value": "Boyd Larissa",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "customer",
+            "Original Value": "Hall, Ricky",
+            "Corrected Value": "Hall Ricky",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "customer",
+            "Original Value": "Scheckman, David",
+            "Corrected Value": "Scheckman David",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Original Value": "Fisher, Melissa",
+            "Corrected Value": "Fisher Melissa",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "customer",
+            "Original Value": "Edgil, Kerry",
+            "Corrected Value": "Edgil Kerry",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "customer",
+            "Original Value": "Falk, Gail",
+            "Corrected Value": "Falk Gail",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "customer",
+            "Original Value": "Floersch, Larry",
+            "Corrected Value": "Floersch Larry",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "customer",
+            "Original Value": "Yorra, Mark ",
+            "Corrected Value": "Yorra Mark ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "customer",
+            "Original Value": "Benko, Mel",
+            "Corrected Value": "Benko Mel",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "customer",
+            "Original Value": "Yorra, Mark rental",
+            "Corrected Value": "Yorra Mark rental",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "customer",
+            "Original Value": "Hancock, Stuart",
+            "Corrected Value": "Hancock Stuart",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "customer",
+            "Original Value": "Seideman, Sam ",
+            "Corrected Value": "Seideman Sam ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "customer",
+            "Original Value": "Castro, Zarina",
+            "Corrected Value": "Castro Zarina",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "customer",
+            "Original Value": "Keller, Rip",
+            "Corrected Value": "Keller Rip",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "customer",
+            "Original Value": "Scott, Trulie",
+            "Corrected Value": "Scott Trulie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "customer",
+            "Original Value": "Parker, Michael",
+            "Corrected Value": "Parker Michael",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "customer",
+            "Original Value": "Skorstad, Liv",
+            "Corrected Value": "Skorstad Liv",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "customer",
+            "Original Value": "Goddard, Deborah",
+            "Corrected Value": "Goddard Deborah",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "customer",
+            "Original Value": "Demers, Lori",
+            "Corrected Value": "Demers Lori",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "customer",
+            "Original Value": "Connolly, Abigail",
+            "Corrected Value": "Connolly Abigail",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "customer",
+            "Original Value": "Renaud, Dan rental",
+            "Corrected Value": "Renaud Dan rental",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "customer",
+            "Original Value": "Renaud, Dan",
+            "Corrected Value": "Renaud Dan",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "customer",
+            "Original Value": "Kuckens, Josh",
+            "Corrected Value": "Kuckens Josh",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "customer",
+            "Original Value": "Keller, Paul",
+            "Corrected Value": "Keller Paul",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "customer",
+            "Original Value": "Canty, Jess",
+            "Corrected Value": "Canty Jess",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "customer",
+            "Original Value": "Wiesen, Ron",
+            "Corrected Value": "Wiesen Ron",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "customer",
+            "Original Value": "Markin, Linda",
+            "Corrected Value": "Markin Linda",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Original Value": "Foster, Colette",
+            "Corrected Value": "Foster Colette",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "customer",
+            "Original Value": "Putvain, Annmarie",
+            "Corrected Value": "Putvain Annmarie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "customer",
+            "Original Value": "Rawson, Shirley",
+            "Corrected Value": "Rawson Shirley",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "customer",
+            "Original Value": "Eldred, Joan",
+            "Corrected Value": "Eldred Joan",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "customer",
+            "Original Value": "Putvain, Mark",
+            "Corrected Value": "Putvain Mark",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "customer",
+            "Original Value": "Sullivan, Julie",
+            "Corrected Value": "Sullivan Julie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "customer",
+            "Original Value": "Kreindler, David",
+            "Corrected Value": "Kreindler David",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "customer",
+            "Original Value": "Steenkamp, Dawie",
+            "Corrected Value": "Steenkamp Dawie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "customer",
+            "Original Value": "Newton, Denise ",
+            "Corrected Value": "Newton Denise ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "customer",
+            "Original Value": "Fitch, Larry",
+            "Corrected Value": "Fitch Larry",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "customer",
+            "Original Value": "Macleod, Janet",
+            "Corrected Value": "Macleod Janet",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "customer",
+            "Original Value": "Hale, Marcy",
+            "Corrected Value": "Hale Marcy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Original Value": "Mitchell, Frank",
+            "Corrected Value": "Mitchell Frank",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "customer",
+            "Original Value": "Vermilya, Shelley",
+            "Corrected Value": "Vermilya Shelley",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "customer",
+            "Original Value": "Boynton, Lynn",
+            "Corrected Value": "Boynton Lynn",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "customer",
+            "Original Value": "Gordon, Sue",
+            "Corrected Value": "Gordon Sue",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "customer",
+            "Original Value": "O’Brien, Sarah",
+            "Corrected Value": "O’Brien Sarah",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "customer",
+            "Original Value": "Olson, Emilia",
+            "Corrected Value": "Olson Emilia",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "customer",
+            "Original Value": "Clark, Michele ",
+            "Corrected Value": "Clark Michele ",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "customer",
+            "Original Value": "Perry, Kathy",
+            "Corrected Value": "Perry Kathy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "customer",
+            "Original Value": "Armell, Bob",
+            "Corrected Value": "Armell Bob",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "customer",
+            "Original Value": "Quintin, Loucius",
+            "Corrected Value": "Quintin Loucius",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "customer",
+            "Original Value": "Norton, Sara",
+            "Corrected Value": "Norton Sara",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "customer",
+            "Original Value": "Bensinger, Jim",
+            "Corrected Value": "Bensinger Jim",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "customer",
+            "Original Value": "Hunt, Janet",
+            "Corrected Value": "Hunt Janet",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "customer",
+            "Original Value": "Farnum, Greg",
+            "Corrected Value": "Farnum Greg",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "customer",
+            "Original Value": "Fitzpatrick, Howard",
+            "Corrected Value": "Fitzpatrick Howard",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "customer",
+            "Original Value": "Goldensohn, Lorrie",
+            "Corrected Value": "Goldensohn Lorrie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "customer",
+            "Original Value": "Zunder, Phil",
+            "Corrected Value": "Zunder Phil",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "customer",
+            "Original Value": "Rodwin, Victor",
+            "Corrected Value": "Rodwin Victor",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "customer",
+            "Original Value": "Andrus, Kathy",
+            "Corrected Value": "Andrus Kathy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "customer",
+            "Original Value": "Gatos, Cobey",
+            "Corrected Value": "Gatos Cobey",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "customer",
+            "Original Value": "Winger, Mark",
+            "Corrected Value": "Winger Mark",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "customer",
+            "Original Value": "Brenes, Patricia",
+            "Corrected Value": "Brenes Patricia",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "customer",
+            "Original Value": "Fairbanks, Rich",
+            "Corrected Value": "Fairbanks Rich",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "customer",
+            "Original Value": "Roberts, Valarie",
+            "Corrected Value": "Roberts Valarie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "customer",
+            "Original Value": "McCracken, Leslie",
+            "Corrected Value": "McCracken Leslie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "customer",
+            "Original Value": "Lappen, Wayne",
+            "Corrected Value": "Lappen Wayne",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "customer",
+            "Original Value": "Scheckel, Paul",
+            "Corrected Value": "Scheckel Paul",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "customer",
+            "Original Value": "Rossi, Elaine",
+            "Corrected Value": "Rossi Elaine",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "customer",
+            "Original Value": "Bisson, Mark",
+            "Corrected Value": "Bisson Mark",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "customer",
+            "Original Value": "Cole, Katherine",
+            "Corrected Value": "Cole Katherine",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "customer",
+            "Original Value": "Ihley, Joann",
+            "Corrected Value": "Ihley Joann",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "customer",
+            "Original Value": "Bourdon, Betsy",
+            "Corrected Value": "Bourdon Betsy",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "customer",
+            "Original Value": "Kittell, Shannon",
+            "Corrected Value": "Kittell Shannon",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "customer",
+            "Original Value": "Dubuque, Ken",
+            "Corrected Value": "Dubuque Ken",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Original Value": "Lloyd, Dan",
+            "Corrected Value": "Lloyd Dan",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "customer",
+            "Original Value": "Hester Ingram, Joe",
+            "Corrected Value": "Hester Ingram Joe",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "customer",
+            "Original Value": "Tuthill, John",
+            "Corrected Value": "Tuthill John",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "customer",
+            "Original Value": "Coolbeth, Laurie",
+            "Corrected Value": "Coolbeth Laurie",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "customer",
+            "Original Value": "Carpenter, George",
+            "Corrected Value": "Carpenter George",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "customer",
+            "Original Value": "Parks, Joseph",
+            "Corrected Value": "Parks Joseph",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "44.580229, -72.453465",
+            "Corrected Value": "44.580229 -72.453465",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "address",
+            "Original Value": "650 VINCENT FLATS RD",
+            "Corrected Value": "650 VINCENT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "address",
+            "Original Value": "3713 COUNTY ROAD",
+            "Corrected Value": "3713 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 122,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "33 LOTTA ROCK RD"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "23 LOTTA ROCK RD"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1511 FLETCHER QUARRY RD"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

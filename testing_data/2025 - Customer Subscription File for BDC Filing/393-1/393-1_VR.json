@@ -1,0 +1,4833 @@
+{
+    "Summary": {
+        "Total Rows Processed": 2673,
+        "Rows with Corrections": 300,
+        "Rows with Errors": 116,
+        "PO Box Rows Removed": 4,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 103,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 301,
+        "Total Errors": 116,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 2.05,
+        "Validation Date": "2025-08-29 06:01:21",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 2566,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 2566,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "1040 ROE HILL RD LOT A",
+            "Corrected Value": "1040 ROE HILL RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "205 ROSS ST APT 12",
+            "Corrected Value": "205 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "1150 LAKE SHORE DR, 1151",
+            "Corrected Value": "1150 LAKE SHORE DR 1151",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "430 STATE HIGHWAY 1669, COMMUNITY CENTER RD",
+            "Corrected Value": "430 STATE HIGHWAY 1669 COMMUNITY CENTER RD",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 126 65 WILDWOOD DR",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "310 BRAMBLETT LANE #1 OFFICE",
+            "Corrected Value": "310 BRAMBLETT LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 289 LEEWARD",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 125 SUNSET DR LOT 204205206207",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "875 ELLIS RD, HWY 3095",
+            "Corrected Value": "875 ELLIS RD HWY 3095",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "265 ELLIS RD, HWY 3095",
+            "Corrected Value": "265 ELLIS RD HWY 3095",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "38 MAIN ST, FIRE STATION",
+            "Corrected Value": "38 MAIN ST FIRE STATION",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Original Value": "142 DRIFTWOOD CT, OWENTON, KY 40359",
+            "Corrected Value": "142 DRIFTWOOD CT OWENTON KY 40359",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 666,
+            "Column": "address",
+            "Original Value": "165 STATE HIGHWAY 1669, COMMUNITY CENTER RD",
+            "Corrected Value": "165 STATE HIGHWAY 1669 COMMUNITY CENTER RD",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "20 CEDAR RD, 21",
+            "Corrected Value": "20 CEDAR RD 21",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 763,
+            "Column": "address",
+            "Original Value": "144 DRIFTWOOD DR, OWENTON, KY 40359",
+            "Corrected Value": "144 DRIFTWOOD DR OWENTON KY 40359",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "133 E SEMINARY ST, $49.95 INSTALL  15 MEG BUSINESS INT",
+            "Corrected Value": "133 E SEMINARY ST $49.95 INSTALL  15 MEG BUSINESS INT",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 952,
+            "Column": "address",
+            "Original Value": "45 FAIRWAY CT APT 6",
+            "Corrected Value": "45 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1013,
+            "Column": "address",
+            "Original Value": "111 HIDE-A-WAY DR, OWENTON, KY 40359",
+            "Corrected Value": "111 HIDE-A-WAY DR OWENTON KY 40359",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1028,
+            "Column": "address",
+            "Original Value": "2915 HIGHWAY 127 S, LOOP 3",
+            "Corrected Value": "2915 HIGHWAY 127 S LOOP 3",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1085,
+            "Column": "address",
+            "Original Value": "1025 RED HAWK LN, 1008",
+            "Corrected Value": "1025 RED HAWK LN 1008",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1136,
+            "Column": "address",
+            "Original Value": "5115 HIGHWAY 127 S, LOOP 4",
+            "Corrected Value": "5115 HIGHWAY 127 S LOOP 4",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1143,
+            "Column": "address",
+            "Original Value": "9 CEDAR RD, 10",
+            "Corrected Value": "9 CEDAR RD 10",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1179,
+            "Column": "address",
+            "Original Value": "305 RED BUD DR, 306 307",
+            "Corrected Value": "305 RED BUD DR 306 307",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1185,
+            "Column": "address",
+            "Original Value": "762 LAKEVIEW DR,  760 761 763",
+            "Corrected Value": "762 LAKEVIEW DR  760 761 763",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1241,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 418",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1274,
+            "Column": "address",
+            "Original Value": "5888 KNOB CREEK RD UNIT A2/HOUSE HOUSE",
+            "Corrected Value": "5888 KNOB CREEK RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1293,
+            "Column": "address",
+            "Original Value": "156 DRIFTWOOD DR, OWENTON, KY 40359",
+            "Corrected Value": "156 DRIFTWOOD DR OWENTON KY 40359",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1321,
+            "Column": "address",
+            "Original Value": "364 PAULEYS GAP RD UNIT C",
+            "Corrected Value": "364 PAULEYS GAP RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1323,
+            "Column": "address",
+            "Original Value": "107 ROLAND AVE APT B",
+            "Corrected Value": "107 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1333,
+            "Column": "address",
+            "Original Value": "102 N MAIN ST UNIT 2",
+            "Corrected Value": "102 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1385,
+            "Column": "address",
+            "Original Value": "426 ROLAND AVE UNIT A",
+            "Corrected Value": "426 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Original Value": "PO BOX 446, APT B AND J",
+            "Corrected Value": "PO BOX 446 APT B AND J",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1457,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1017",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1471,
+            "Column": "address",
+            "Original Value": "7335 STATE ROUTE 81, HOUSE B",
+            "Corrected Value": "7335 STATE ROUTE 81 HOUSE B",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1507,
+            "Column": "address",
+            "Original Value": "1240 S HWY 127 APT A",
+            "Corrected Value": "1240 S HWY 127",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1572,
+            "Column": "address",
+            "Original Value": "905 HIGHWAY 127 N UNIT 2",
+            "Corrected Value": "905 HIGHWAY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1593,
+            "Column": "address",
+            "Original Value": "420 JODIE TRAVIS LN, C",
+            "Corrected Value": "420 JODIE TRAVIS LN C",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1628,
+            "Column": "address",
+            "Original Value": "133 N MADISON ST APT 1",
+            "Corrected Value": "133 N MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1643,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1582",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1681,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1347",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1688,
+            "Column": "address",
+            "Original Value": "8530 HIGHWAY 127 S, LOOP 7",
+            "Corrected Value": "8530 HIGHWAY 127 S LOOP 7",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1704,
+            "Column": "address",
+            "Original Value": "3535 MOUNT ELMIRA RD UNIT 2",
+            "Corrected Value": "3535 MOUNT ELMIRA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1705,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 195 HIDEAWAY DR",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1751,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 1 APT 1",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1754,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 25",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1760,
+            "Column": "address",
+            "Original Value": "1614 SKYVIEW RD, TRAILER",
+            "Corrected Value": "1614 SKYVIEW RD TRAILER",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1800,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 12",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1806,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1158",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1809,
+            "Column": "address",
+            "Original Value": "3325 HIGHWAY 227 N, P.O. BOX 61 NEW LIBERTY",
+            "Corrected Value": "3325 HIGHWAY 227 N P.O. BOX 61 NEW LIBERTY",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1853,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 346 1455 HIDEAWAY DR",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1874,
+            "Column": "address",
+            "Original Value": "127 N MADISON ST APT B",
+            "Corrected Value": "127 N MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1910,
+            "Column": "address",
+            "Original Value": "4090 HIGHWAY 127 N APT 1",
+            "Corrected Value": "4090 HIGHWAY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1941,
+            "Column": "address",
+            "Original Value": "383 PENDELTON RD UNIT C",
+            "Corrected Value": "383 PENDELTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1942,
+            "Column": "address",
+            "Original Value": "970 HWY 127 N UNIT A",
+            "Corrected Value": "970 HWY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1947,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 622",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1977,
+            "Column": "address",
+            "Original Value": "1105 HIGHWAY 127 N UNIT A",
+            "Corrected Value": "1105 HIGHWAY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1986,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT #23",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1992,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 244 BREEZY POINT",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2006,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 247",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2016,
+            "Column": "address",
+            "Original Value": "327 ROLAND AVE APT 2",
+            "Corrected Value": "327 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2039,
+            "Column": "address",
+            "Original Value": "1850 HWY 127 S UNIT 2",
+            "Corrected Value": "1850 HWY 127 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2048,
+            "Column": "address",
+            "Original Value": "2830 HIGHWAY 127 S, LOOP 3",
+            "Corrected Value": "2830 HIGHWAY 127 S LOOP 3",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2058,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1265",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2079,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1012",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2128,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 273",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2143,
+            "Column": "address",
+            "Original Value": "10048 MAIN ST APT E APT 7",
+            "Corrected Value": "10048 MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2165,
+            "Column": "address",
+            "Original Value": "511 RALPH RD UNIT B",
+            "Corrected Value": "511 RALPH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2179,
+            "Column": "address",
+            "Original Value": "155 KINKADE LOOP LOT 13",
+            "Corrected Value": "155 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2193,
+            "Column": "address",
+            "Original Value": "225 GAYLE AVE UNIT 2",
+            "Corrected Value": "225 GAYLE AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2199,
+            "Column": "address",
+            "Original Value": "612 LAKE SHORE DR UNIT 2",
+            "Corrected Value": "612 LAKE SHORE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2201,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD, 788 LAKEVIEW DR",
+            "Corrected Value": "445 ELK LAKE RESORT RD 788 LAKEVIEW DR",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2216,
+            "Column": "address",
+            "Original Value": "970 HWY 127 N UNIT B",
+            "Corrected Value": "970 HWY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2273,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 12",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2274,
+            "Column": "address",
+            "Original Value": "101 KELLY CT APT 3 HAS NO ARIAL DROP",
+            "Corrected Value": "101 KELLY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2285,
+            "Column": "address",
+            "Original Value": "9945 OAK ST APT A",
+            "Corrected Value": "9945 OAK ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2307,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 1360",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2317,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 959",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2368,
+            "Column": "address",
+            "Original Value": "125 BREEZY POINT DR UNIT 2 UNIT 2",
+            "Corrected Value": "125 BREEZY POINT DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2372,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 316 1630 HIDEAWAY DR",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2387,
+            "Column": "address",
+            "Original Value": "445 ELK LAKE RESORT RD LOT 511 WALNUT ST",
+            "Corrected Value": "445 ELK LAKE RESORT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2394,
+            "Column": "address",
+            "Original Value": "103 KELLY CT APT 4 HAS NO ARIAL DROP",
+            "Corrected Value": "103 KELLY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2413,
+            "Column": "address",
+            "Original Value": "84 KENNEY ST, SANDERS, KY 41083",
+            "Corrected Value": "84 KENNEY ST SANDERS KY 41083",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2434,
+            "Column": "address",
+            "Original Value": "701 E ADAIR ST APT A2",
+            "Corrected Value": "701 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2435,
+            "Column": "address",
+            "Original Value": "701 E ADAIR ST APT A4",
+            "Corrected Value": "701 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2436,
+            "Column": "address",
+            "Original Value": "365 LAKE ELMO UNIT 2",
+            "Corrected Value": "365 LAKE ELMO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2458,
+            "Column": "address",
+            "Original Value": "363 CHURCHVIEW RD, HAS MULTIPLE BAD DEBTS",
+            "Corrected Value": "363 CHURCHVIEW RD HAS MULTIPLE BAD DEBTS",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2482,
+            "Column": "address",
+            "Original Value": "702 E ADAIR ST APT B4",
+            "Corrected Value": "702 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2494,
+            "Column": "address",
+            "Original Value": "16781 HIGHWAY 69 APT1",
+            "Corrected Value": "16781 HIGHWAY 69",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2495,
+            "Column": "address",
+            "Original Value": "16781 ST RT 69 APT 8H",
+            "Corrected Value": "16781 ST RT 69",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2516,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 349 1435 HIDEAWAY DRIVE",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2541,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 130 LEEWARD CT",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2553,
+            "Column": "address",
+            "Original Value": "8205 US HIGHWAY 127 N, FIBER ACCOUNT",
+            "Corrected Value": "8205 US HIGHWAY 127 N FIBER ACCOUNT",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2564,
+            "Column": "address",
+            "Original Value": "101 KLAPPER RD B, HEADEND RACK 4",
+            "Corrected Value": "101 KLAPPER RD B HEADEND RACK 4",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "445 MAIN ST APT 1",
+            "Corrected Value": "445 MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Original Value": "109 E PERRY ST APT B8",
+            "Corrected Value": "109 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 330,
+            "Column": "address",
+            "Original Value": "4821 BROOKS HILL RD BLDG A",
+            "Corrected Value": "4821 BROOKS HILL RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 215",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "45 FAIRWAY CT APT 2",
+            "Corrected Value": "45 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Original Value": "201 W BLANTON ST APT 6",
+            "Corrected Value": "201 W BLANTON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "315 N MAIN ST APT B8",
+            "Corrected Value": "315 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "318 MAIN ST SUITE 2",
+            "Corrected Value": "318 MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 325",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 22",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 8",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "137 W SEMINARY ST STE 1",
+            "Corrected Value": "137 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 536,
+            "Column": "address",
+            "Original Value": "315 N MAIN ST APT B2",
+            "Corrected Value": "315 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 546,
+            "Column": "address",
+            "Original Value": "205 KLAPPER RD UNIT A",
+            "Corrected Value": "205 KLAPPER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 2",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Original Value": "95 BOTTS ST APT B",
+            "Corrected Value": "95 BOTTS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 594,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 345",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 609,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 6",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "2910 N HWY 227 APT BACK",
+            "Corrected Value": "2910 N HWY 227",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "201 ROSS ST APT 1",
+            "Corrected Value": "201 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Original Value": "405 ROLAND AVE UNIT B",
+            "Corrected Value": "405 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 714,
+            "Column": "address",
+            "Original Value": "2545 HIGHWAY 127 N UNIT B",
+            "Corrected Value": "2545 HIGHWAY 127 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 715,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 16",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 722,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 5",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "383 PENDLETON RD UNIT A",
+            "Corrected Value": "383 PENDLETON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 768,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 10",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 319",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 197",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 898,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 9",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 907,
+            "Column": "address",
+            "Original Value": "321 N MAIN ST APT D3",
+            "Corrected Value": "321 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 10",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 149",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 933,
+            "Column": "address",
+            "Original Value": "167 W SEMINARY ST APT 4",
+            "Corrected Value": "167 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 935,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 329",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Original Value": "107 E PERRY ST APT A1",
+            "Corrected Value": "107 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 948,
+            "Column": "address",
+            "Original Value": "219 W PERRY ST APT 2",
+            "Corrected Value": "219 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Original Value": "119 KINKADE LOOP LOT 24",
+            "Corrected Value": "119 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1018,
+            "Column": "address",
+            "Original Value": "167 W SEMINARY ST APT 1",
+            "Corrected Value": "167 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1030,
+            "Column": "address",
+            "Original Value": "315 N MAIN ST APT B5",
+            "Corrected Value": "315 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1038,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 1",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1071,
+            "Column": "address",
+            "Original Value": "120 S MAIN ST APT 1",
+            "Corrected Value": "120 S MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1081,
+            "Column": "address",
+            "Original Value": "110 E ADAIR ST APT 101",
+            "Corrected Value": "110 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1113,
+            "Column": "address",
+            "Original Value": "110 E ADAIR ST APT 102",
+            "Corrected Value": "110 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1121,
+            "Column": "address",
+            "Original Value": "107 E ADAIR ST APT 4",
+            "Corrected Value": "107 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1122,
+            "Column": "address",
+            "Original Value": "317 N MAIN ST APT A4",
+            "Corrected Value": "317 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1129,
+            "Column": "address",
+            "Original Value": "222 W SEMINARY ST APT 1",
+            "Corrected Value": "222 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1150,
+            "Column": "address",
+            "Original Value": "775 INVERNESS RD APT 4",
+            "Corrected Value": "775 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1161,
+            "Column": "address",
+            "Original Value": "321 N MAIN ST APT D1",
+            "Corrected Value": "321 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1171,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 23",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1202,
+            "Column": "address",
+            "Original Value": "165 HOLBROOK ST UNIT 2",
+            "Corrected Value": "165 HOLBROOK ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1214,
+            "Column": "address",
+            "Original Value": "3695 HIGHWAY 127 S UNIT B",
+            "Corrected Value": "3695 HIGHWAY 127 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 12",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1224,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 01",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1227,
+            "Column": "address",
+            "Original Value": "201 W SEMINARY ST APT 2",
+            "Corrected Value": "201 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1234,
+            "Column": "address",
+            "Original Value": "109 E PERRY ST APT B2",
+            "Corrected Value": "109 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1264,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 10",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1268,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 11",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1279,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 267",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1282,
+            "Column": "address",
+            "Original Value": "101 W ADAIR ST APT 4",
+            "Corrected Value": "101 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1284,
+            "Column": "address",
+            "Original Value": "101 E ADAIR ST APT 1",
+            "Corrected Value": "101 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1292,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 74",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1304,
+            "Column": "address",
+            "Original Value": "100 ROLAND AVE APT 3",
+            "Corrected Value": "100 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1319,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 11",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1368,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 9",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1414,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 7",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1428,
+            "Column": "address",
+            "Original Value": "201 W SEMINARY ST APT 5",
+            "Corrected Value": "201 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1467,
+            "Column": "address",
+            "Original Value": "815 INVERNESS RD APT 1",
+            "Corrected Value": "815 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1476,
+            "Column": "address",
+            "Original Value": "40 FAIRWAY CT APT 12",
+            "Corrected Value": "40 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1480,
+            "Column": "address",
+            "Original Value": "209 W PERRY ST APT 8",
+            "Corrected Value": "209 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1496,
+            "Column": "address",
+            "Original Value": "325 N HWY 227 APT 1",
+            "Corrected Value": "325 N HWY 227",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1512,
+            "Column": "address",
+            "Original Value": "201 W SEMINARY ST APT 9",
+            "Corrected Value": "201 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1518,
+            "Column": "address",
+            "Original Value": "415 ROLAND AVE APT 3",
+            "Corrected Value": "415 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1526,
+            "Column": "address",
+            "Original Value": "102 ROLAND AVE APT 2",
+            "Corrected Value": "102 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1528,
+            "Column": "address",
+            "Original Value": "201 ROSS ST APT 4",
+            "Corrected Value": "201 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1531,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 77",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1534,
+            "Column": "address",
+            "Original Value": "5888 KNOB CREEK RD UNIT B",
+            "Corrected Value": "5888 KNOB CREEK RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1538,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 30",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1542,
+            "Column": "address",
+            "Original Value": "905 INVERNESS RD UNIT 5",
+            "Corrected Value": "905 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1546,
+            "Column": "address",
+            "Original Value": "201 W BLANTON ST APT 7",
+            "Corrected Value": "201 W BLANTON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1549,
+            "Column": "address",
+            "Original Value": "50 KINKADE LOOP LOT 12",
+            "Corrected Value": "50 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1553,
+            "Column": "address",
+            "Original Value": "775 INVERNESS RD APT 3",
+            "Corrected Value": "775 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1626,
+            "Column": "address",
+            "Original Value": "201 W SEMINARY ST APT 1",
+            "Corrected Value": "201 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1638,
+            "Column": "address",
+            "Original Value": "45 FAIRWAY CT APT 1",
+            "Corrected Value": "45 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1660,
+            "Column": "address",
+            "Original Value": "100 ROLAND AVE APT 2",
+            "Corrected Value": "100 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1697,
+            "Column": "address",
+            "Original Value": "383 PENDLETON RD UNIT B",
+            "Corrected Value": "383 PENDLETON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1700,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 69",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1701,
+            "Column": "address",
+            "Original Value": "100 ROLAND AVE APT 1",
+            "Corrected Value": "100 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1709,
+            "Column": "address",
+            "Original Value": "100 W MANGRUM CT LOT 11",
+            "Corrected Value": "100 W MANGRUM CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1717,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 13",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1720,
+            "Column": "address",
+            "Original Value": "208 E ADAIR ST APT 5",
+            "Corrected Value": "208 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1731,
+            "Column": "address",
+            "Original Value": "766 NOFFSINGER LN LOT 2",
+            "Corrected Value": "766 NOFFSINGER LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1736,
+            "Column": "address",
+            "Original Value": "415 ROLAND AVE APT 4",
+            "Corrected Value": "415 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1738,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 18",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1745,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 5",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1746,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 175",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1748,
+            "Column": "address",
+            "Original Value": "905 INVERNESS RD UNIT 1",
+            "Corrected Value": "905 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1756,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 12",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1757,
+            "Column": "address",
+            "Original Value": "109 E PERRY ST APT B1",
+            "Corrected Value": "109 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1763,
+            "Column": "address",
+            "Original Value": "167 W SEMINARY ST APT 3",
+            "Corrected Value": "167 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1766,
+            "Column": "address",
+            "Original Value": "122 E PERRY ST APT 2",
+            "Corrected Value": "122 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1768,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 5",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1787,
+            "Column": "address",
+            "Original Value": "735 INVERNESS RD UNIT 5",
+            "Corrected Value": "735 INVERNESS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1790,
+            "Column": "address",
+            "Original Value": "317 N MAIN ST APT A5",
+            "Corrected Value": "317 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1793,
+            "Column": "address",
+            "Original Value": "100 W MANGRUM CT #16",
+            "Corrected Value": "100 W MANGRUM CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1796,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 1",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1807,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 185",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1811,
+            "Column": "address",
+            "Original Value": "100 ROLAND AVE APT 4",
+            "Corrected Value": "100 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1818,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 17",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1824,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 146",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1828,
+            "Column": "address",
+            "Original Value": "201 ROSS ST APT 11",
+            "Corrected Value": "201 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1861,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 133",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1879,
+            "Column": "address",
+            "Original Value": "102 W ADAIR ST APT 102",
+            "Corrected Value": "102 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1882,
+            "Column": "address",
+            "Original Value": "784 FISHER RD UNITA",
+            "Corrected Value": "784 FISHER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1895,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 179",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1917,
+            "Column": "address",
+            "Original Value": "318 N MAIN ST UNIT 3",
+            "Corrected Value": "318 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1920,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 14",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1922,
+            "Column": "address",
+            "Original Value": "201 W BLANTON ST APT 3",
+            "Corrected Value": "201 W BLANTON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1956,
+            "Column": "address",
+            "Original Value": "209 W PERRY ST APT 7",
+            "Corrected Value": "209 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1965,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 7",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1976,
+            "Column": "address",
+            "Original Value": "208 E ADAIR ST APT 2",
+            "Corrected Value": "208 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1982,
+            "Column": "address",
+            "Original Value": "4330 SQUIRESVILLE RD UNIT 1",
+            "Corrected Value": "4330 SQUIRESVILLE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1990,
+            "Column": "address",
+            "Original Value": "208 E ADAIR ST APT 4",
+            "Corrected Value": "208 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1991,
+            "Column": "address",
+            "Original Value": "103 KELLY CT APT 3",
+            "Corrected Value": "103 KELLY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1993,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 06",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1998,
+            "Column": "address",
+            "Original Value": "107 E PERRY ST APT A8",
+            "Corrected Value": "107 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2004,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 13",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2005,
+            "Column": "address",
+            "Original Value": "321 N MAIN ST APT D4",
+            "Corrected Value": "321 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2012,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 12",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2018,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 18",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2024,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 15",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2027,
+            "Column": "address",
+            "Original Value": "122 E PERRY ST APT 1",
+            "Corrected Value": "122 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2049,
+            "Column": "address",
+            "Original Value": "209 W PERRY ST APT 2",
+            "Corrected Value": "209 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2050,
+            "Column": "address",
+            "Original Value": "119 E ADAIR ST APT 9",
+            "Corrected Value": "119 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2061,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 6",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2072,
+            "Column": "address",
+            "Original Value": "159 DEANFIELD CHURCH RD BLDG 2",
+            "Corrected Value": "159 DEANFIELD CHURCH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2084,
+            "Column": "address",
+            "Original Value": "40 FAIRWAY CT APT 16",
+            "Corrected Value": "40 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2092,
+            "Column": "address",
+            "Original Value": "201 ROSS ST APT 2",
+            "Corrected Value": "201 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2098,
+            "Column": "address",
+            "Original Value": "102 E MAIN ST BLDG 2",
+            "Corrected Value": "102 E MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2172,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 6",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2182,
+            "Column": "address",
+            "Original Value": "4800 HWY 22 E UNIT B",
+            "Corrected Value": "4800 HWY 22 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2184,
+            "Column": "address",
+            "Original Value": "201 W SEMINARY ST APT 8",
+            "Corrected Value": "201 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2187,
+            "Column": "address",
+            "Original Value": "1520 S HWY 127 APT 3",
+            "Corrected Value": "1520 S HWY 127",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2190,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 4",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2192,
+            "Column": "address",
+            "Original Value": "201 ROSS ST APT 9",
+            "Corrected Value": "201 ROSS ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2194,
+            "Column": "address",
+            "Original Value": "110 N MADISON ST APT BACK",
+            "Corrected Value": "110 N MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2196,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT 7",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2200,
+            "Column": "address",
+            "Original Value": "40 FAIRWAY CT APT 13",
+            "Corrected Value": "40 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2202,
+            "Column": "address",
+            "Original Value": "40 FAIRWAY CT APT 11",
+            "Corrected Value": "40 FAIRWAY CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2204,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 17",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2213,
+            "Column": "address",
+            "Original Value": "155 KINKADE LOOP LOT 21",
+            "Corrected Value": "155 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2218,
+            "Column": "address",
+            "Original Value": "201 W BLANTON ST APT 4",
+            "Corrected Value": "201 W BLANTON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2242,
+            "Column": "address",
+            "Original Value": "117 E PERRY ST APT 2",
+            "Corrected Value": "117 E PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2243,
+            "Column": "address",
+            "Original Value": "107 ROLAND AVE APT A",
+            "Corrected Value": "107 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2244,
+            "Column": "address",
+            "Original Value": "702 E ADAIR ST APT A1",
+            "Corrected Value": "702 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2256,
+            "Column": "address",
+            "Original Value": "325 N HWY 227 APT 2",
+            "Corrected Value": "325 N HWY 227",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2261,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 296",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2271,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 10",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2289,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 272",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2303,
+            "Column": "address",
+            "Original Value": "222 W SEMINARY ST APT 4",
+            "Corrected Value": "222 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2310,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 3",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2325,
+            "Column": "address",
+            "Original Value": "445 W THIRD ST APT B",
+            "Corrected Value": "445 W THIRD ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2341,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 08",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2351,
+            "Column": "address",
+            "Original Value": "1240 S HWY 127 APT B",
+            "Corrected Value": "1240 S HWY 127",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2369,
+            "Column": "address",
+            "Original Value": "845 HIGHWAY 330 APT 1",
+            "Corrected Value": "845 HIGHWAY 330",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2370,
+            "Column": "address",
+            "Original Value": "322 S MAIN ST APT A",
+            "Corrected Value": "322 S MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2376,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 14",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2384,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 16",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2386,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 4",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2388,
+            "Column": "address",
+            "Original Value": "403 SKY VIEW CT APT 1",
+            "Corrected Value": "403 SKY VIEW CT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2402,
+            "Column": "address",
+            "Original Value": "202 W PERRY ST APT A",
+            "Corrected Value": "202 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2404,
+            "Column": "address",
+            "Original Value": "319 N MAIN ST APT C3",
+            "Corrected Value": "319 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2407,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 116",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2408,
+            "Column": "address",
+            "Original Value": "310 N MAIN ST SUITE B",
+            "Corrected Value": "310 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2409,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 1",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2420,
+            "Column": "address",
+            "Original Value": "201 W BLANTON ST APT 5",
+            "Corrected Value": "201 W BLANTON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2423,
+            "Column": "address",
+            "Original Value": "72 KINKADE LOOP LOT 9",
+            "Corrected Value": "72 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2426,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 10",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2433,
+            "Column": "address",
+            "Original Value": "702 E ADAIR ST APT B2",
+            "Corrected Value": "702 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2437,
+            "Column": "address",
+            "Original Value": "702 E ADAIR ST APT B1",
+            "Corrected Value": "702 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2443,
+            "Column": "address",
+            "Original Value": "701 E ADAIR APT A3",
+            "Corrected Value": "701 E ADAIR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2444,
+            "Column": "address",
+            "Original Value": "702 E ADAIR ST APT B3",
+            "Corrected Value": "702 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2445,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 8",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2448,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 04",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2449,
+            "Column": "address",
+            "Original Value": "3105 GRATZ RD LOT 92",
+            "Corrected Value": "3105 GRATZ RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2451,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 24",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2453,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 3",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2456,
+            "Column": "address",
+            "Original Value": "219 W PERRY ST APT 1",
+            "Corrected Value": "219 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2461,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 8",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2468,
+            "Column": "address",
+            "Original Value": "118 N MADISON ST APT 4",
+            "Corrected Value": "118 N MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2470,
+            "Column": "address",
+            "Original Value": "115 W ADAIR ST APT 2",
+            "Corrected Value": "115 W ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2471,
+            "Column": "address",
+            "Original Value": "209 W PERRY ST APT 6",
+            "Corrected Value": "209 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2475,
+            "Column": "address",
+            "Original Value": "445 W THIRD ST APT D",
+            "Corrected Value": "445 W THIRD ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2476,
+            "Column": "address",
+            "Original Value": "400 S MAIN ST UNIT 2",
+            "Corrected Value": "400 S MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2481,
+            "Column": "address",
+            "Original Value": "2540 JONESVILLE RD UNIT 2",
+            "Corrected Value": "2540 JONESVILLE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2485,
+            "Column": "address",
+            "Original Value": "71 KINKADE LOOP LOT 8",
+            "Corrected Value": "71 KINKADE LOOP",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2490,
+            "Column": "address",
+            "Original Value": "167 W SEMINARY ST APT 5",
+            "Corrected Value": "167 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2491,
+            "Column": "address",
+            "Original Value": "102 E ADAIR ST APT1",
+            "Corrected Value": "102 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2493,
+            "Column": "address",
+            "Original Value": "222 W SEMINARY ST APT 3",
+            "Corrected Value": "222 W SEMINARY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2497,
+            "Column": "address",
+            "Original Value": "318 N MAIN ST SUITE 5",
+            "Corrected Value": "318 N MAIN ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2500,
+            "Column": "address",
+            "Original Value": "118 N MADISON ST APT 5",
+            "Corrected Value": "118 N MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2504,
+            "Column": "address",
+            "Original Value": "4230 KNOB CREEK RD UNIT 2",
+            "Corrected Value": "4230 KNOB CREEK RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2507,
+            "Column": "address",
+            "Original Value": "434 ROLAND AVE APT 11",
+            "Corrected Value": "434 ROLAND AVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2508,
+            "Column": "address",
+            "Original Value": "900 GAINES VILLAGE DR LOT 4",
+            "Corrected Value": "900 GAINES VILLAGE DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2517,
+            "Column": "address",
+            "Original Value": "208 E ADAIR ST APT 8",
+            "Corrected Value": "208 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2545,
+            "Column": "address",
+            "Original Value": "209 W PERRY ST APT 5",
+            "Corrected Value": "209 W PERRY ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2549,
+            "Column": "address",
+            "Original Value": "117 E ADAIR ST APT 27",
+            "Corrected Value": "117 E ADAIR ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2559,
+            "Column": "address",
+            "Original Value": "120 PROGRESS WAY UNIT A",
+            "Corrected Value": "120 PROGRESS WAY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1553,
+            "Column": "state",
+            "Original Value": "",
+            "Corrected Value": "KY",
+            "Correction Type": "State from ZIP Code",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 383,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2110 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 1000,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "110 FLAMINGO LN"
+        },
+        {
+            "Row": 1133,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "80 FLAMINGO LN"
+        },
+        {
+            "Row": 1220,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "40 FLAMINGO LN"
+        },
+        {
+            "Row": 1358,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2315 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 446 APT B AND J"
+        },
+        {
+            "Row": 1613,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2225 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 1809,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "3325 HIGHWAY 227 N PO BOX 61 NEW LIBERTY"
+        },
+        {
+            "Row": 1894,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2051/2 ROLAND AVE APT 2"
+        },
+        {
+            "Row": 1972,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2105 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 2107,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1015 FLAMINGO LN"
+        },
+        {
+            "Row": 2113,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "101A MARSH LN"
+        },
+        {
+            "Row": 2330,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1560 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 1828,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5073)",
+            "Value": "27643"
+        },
+        {
+            "Row": 2192,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5073)",
+            "Value": "30404"
+        },
+        {
+            "Row": 2165,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 30318)",
+            "Value": "30319"
+        },
+        {
+            "Row": 325,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1050)",
+            "Value": "3438"
+        },
+        {
+            "Row": 1321,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6351)",
+            "Value": "24627"
+        },
+        {
+            "Row": 1534,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23138)",
+            "Value": "25414"
+        },
+        {
+            "Row": 2387,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 29171)",
+            "Value": "31094"
+        },
+        {
+            "Row": 2317,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 30845)",
+            "Value": "30879"
+        },
+        {
+            "Row": 1986,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 27435)",
+            "Value": "29676"
+        },
+        {
+            "Row": 2079,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 27435)",
+            "Value": "30193"
+        },
+        {
+            "Row": 1457,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23049)",
+            "Value": "24673"
+        },
+        {
+            "Row": 1681,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23049)",
+            "Value": "26102"
+        },
+        {
+            "Row": 2058,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23049)",
+            "Value": "29987"
+        },
+        {
+            "Row": 460,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3495)",
+            "Value": "4181"
+        },
+        {
+            "Row": 1807,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3495)",
+            "Value": "27438"
+        },
+        {
+            "Row": 715,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4757)",
+            "Value": "5255"
+        },
+        {
+            "Row": 1700,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4757)",
+            "Value": "26533"
+        },
+        {
+            "Row": 2006,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4757)",
+            "Value": "29783"
+        },
+        {
+            "Row": 2516,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4757)",
+            "Value": "31548"
+        },
+        {
+            "Row": 488,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "4289"
+        },
+        {
+            "Row": 935,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "6120"
+        },
+        {
+            "Row": 1292,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "24920"
+        },
+        {
+            "Row": 1319,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "24607"
+        },
+        {
+            "Row": 1746,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "27136"
+        },
+        {
+            "Row": 1824,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "27616"
+        },
+        {
+            "Row": 1992,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "29709"
+        },
+        {
+            "Row": 2261,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "30686"
+        },
+        {
+            "Row": 2289,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "31049"
+        },
+        {
+            "Row": 2407,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "31149"
+        },
+        {
+            "Row": 2449,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4029)",
+            "Value": "31290"
+        },
+        {
+            "Row": 779,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "5509"
+        },
+        {
+            "Row": 1531,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "25355"
+        },
+        {
+            "Row": 1705,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "26848"
+        },
+        {
+            "Row": 1853,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "27855"
+        },
+        {
+            "Row": 1861,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "28370"
+        },
+        {
+            "Row": 1895,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5484)",
+            "Value": "29308"
+        },
+        {
+            "Row": 1738,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26483)",
+            "Value": "26870"
+        },
+        {
+            "Row": 2005,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6006)",
+            "Value": "29782"
+        },
+        {
+            "Row": 1790,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 21510)",
+            "Value": "27084"
+        },
+        {
+            "Row": 536,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4108)",
+            "Value": "4536"
+        },
+        {
+            "Row": 1030,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4108)",
+            "Value": "20126"
+        },
+        {
+            "Row": 2050,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26934)",
+            "Value": "29968"
+        },
+        {
+            "Row": 912,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4838)",
+            "Value": "6024"
+        },
+        {
+            "Row": 1216,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4838)",
+            "Value": "22928"
+        },
+        {
+            "Row": 768,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "5474"
+        },
+        {
+            "Row": 1268,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "23198"
+        },
+        {
+            "Row": 1754,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "27313"
+        },
+        {
+            "Row": 1818,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "27601"
+        },
+        {
+            "Row": 1965,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "29367"
+        },
+        {
+            "Row": 2004,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "29777"
+        },
+        {
+            "Row": 2018,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "29856"
+        },
+        {
+            "Row": 2061,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "30005"
+        },
+        {
+            "Row": 2384,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "31082"
+        },
+        {
+            "Row": 2451,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "31309"
+        },
+        {
+            "Row": 2549,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4370)",
+            "Value": "31557"
+        },
+        {
+            "Row": 1751,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24004)",
+            "Value": "27304"
+        },
+        {
+            "Row": 2386,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24004)",
+            "Value": "31087"
+        },
+        {
+            "Row": 2445,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24004)",
+            "Value": "31264"
+        },
+        {
+            "Row": 2453,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24004)",
+            "Value": "31318"
+        },
+        {
+            "Row": 2470,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24004)",
+            "Value": "31358"
+        },
+        {
+            "Row": 1976,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26665)",
+            "Value": "29575"
+        },
+        {
+            "Row": 1990,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26665)",
+            "Value": "29698"
+        },
+        {
+            "Row": 2517,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26665)",
+            "Value": "31549"
+        },
+        {
+            "Row": 2172,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 27128)",
+            "Value": "30341"
+        },
+        {
+            "Row": 2190,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 27128)",
+            "Value": "30395"
+        },
+        {
+            "Row": 1264,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4438)",
+            "Value": "23111"
+        },
+        {
+            "Row": 2196,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4438)",
+            "Value": "30417"
+        },
+        {
+            "Row": 2273,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4438)",
+            "Value": "30734"
+        },
+        {
+            "Row": 2491,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4438)",
+            "Value": "31426"
+        },
+        {
+            "Row": 1763,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6106)",
+            "Value": "26906"
+        },
+        {
+            "Row": 2490,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6106)",
+            "Value": "31423"
+        },
+        {
+            "Row": 1428,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22997)",
+            "Value": "24195"
+        },
+        {
+            "Row": 1512,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22997)",
+            "Value": "25119"
+        },
+        {
+            "Row": 1626,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22997)",
+            "Value": "26277"
+        },
+        {
+            "Row": 2184,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22997)",
+            "Value": "30381"
+        },
+        {
+            "Row": 2303,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 21780)",
+            "Value": "30817"
+        },
+        {
+            "Row": 2351,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 25053)",
+            "Value": "30965"
+        },
+        {
+            "Row": 1811,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24589)",
+            "Value": "27511"
+        },
+        {
+            "Row": 2243,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24632)",
+            "Value": "30666"
+        },
+        {
+            "Row": 2500,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 31351)",
+            "Value": "31446"
+        },
+        {
+            "Row": 1998,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6160)",
+            "Value": "29744"
+        },
+        {
+            "Row": 2027,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 26922)",
+            "Value": "29428"
+        },
+        {
+            "Row": 2049,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 29031)",
+            "Value": "29965"
+        },
+        {
+            "Row": 2471,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24752)",
+            "Value": "31360"
+        },
+        {
+            "Row": 2545,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24752)",
+            "Value": "31538"
+        },
+        {
+            "Row": 2456,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 6166)",
+            "Value": "31327"
+        },
+        {
+            "Row": 2202,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24738)",
+            "Value": "30441"
+        },
+        {
+            "Row": 1922,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4064)",
+            "Value": "28554"
+        },
+        {
+            "Row": 2218,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4064)",
+            "Value": "30504"
+        },
+        {
+            "Row": 2420,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 25452)",
+            "Value": "31194"
+        },
+        {
+            "Row": 2435,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 31234)",
+            "Value": "31235"
+        },
+        {
+            "Row": 2437,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 30667)",
+            "Value": "31242"
+        },
+        {
+            "Row": 2444,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 30667)",
+            "Value": "31259"
+        },
+        {
+            "Row": 2482,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 30667)",
+            "Value": "31401"
+        },
+        {
+            "Row": 1736,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 25164)",
+            "Value": "26750"
+        },
+        {
+            "Row": 1993,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "29731"
+        },
+        {
+            "Row": 2012,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "29829"
+        },
+        {
+            "Row": 2024,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "29885"
+        },
+        {
+            "Row": 2341,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "30932"
+        },
+        {
+            "Row": 2376,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "31038"
+        },
+        {
+            "Row": 2426,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "31217"
+        },
+        {
+            "Row": 2448,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "31284"
+        },
+        {
+            "Row": 2507,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 22982)",
+            "Value": "31462"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 446 APT B AND J"
+        },
+        {
+            "Row": 1809,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "3325 HIGHWAY 227 N PO BOX 61 NEW LIBERTY"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 446 APT B AND J"
+        },
+        {
+            "Row": 1809,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "3325 HIGHWAY 227 N PO BOX 61 NEW LIBERTY"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 1828,
+            "customer": "27643",
+            "lat": 37.41644912,
+            "lon": -87.27064514,
+            "address": "201 ROSS ST",
+            "city": "SACRAMENTO",
+            "state": "KY",
+            "zip": "42372",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5073)"
+        },
+        {
+            "OrigRowNum": 2192,
+            "customer": "30404",
+            "lat": 37.41644912,
+            "lon": -87.27064514,
+            "address": "201 ROSS ST",
+            "city": "SACRAMENTO",
+            "state": "KY",
+            "zip": "42372",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5073)"
+        },
+        {
+            "OrigRowNum": 2165,
+            "customer": "30319",
+            "lat": 37.65832766,
+            "lon": -86.82334607,
+            "address": "511 RALPH RD",
+            "city": "WHITESVILLE",
+            "state": "KY",
+            "zip": "42378",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 30318)"
+        },
+        {
+            "OrigRowNum": 325,
+            "customer": "3438",
+            "lat": 38.01765321,
+            "lon": -85.90590936,
+            "address": "11984 HIGHWAY 44 W",
+            "city": "WEST POINT",
+            "state": "KY",
+            "zip": "40177",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 1050)"
+        },
+        {
+            "OrigRowNum": 1321,
+            "customer": "24627",
+            "lat": 38.04075849,
+            "lon": -85.87569473,
+            "address": "364 PAULEYS GAP RD",
+            "city": "WEST POINT",
+            "state": "KY",
+            "zip": "40177",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6351)"
+        },
+        {
+            "OrigRowNum": 1534,
+            "customer": "25414",
+            "lat": 38.05362805,
+            "lon": -85.7828311,
+            "address": "5888 KNOB CREEK RD",
+            "city": "BROOKS",
+            "state": "KY",
+            "zip": "40109",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 23138)"
+        },
+        {
+            "OrigRowNum": 2387,
+            "customer": "31094",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON ",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 29171)"
+        },
+        {
+            "OrigRowNum": 2317,
+            "customer": "30879",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 30845)"
+        },
+        {
+            "OrigRowNum": 1986,
+            "customer": "29676",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 27435)"
+        },
+        {
+            "OrigRowNum": 2079,
+            "customer": "30193",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 27435)"
+        },
+        {
+            "OrigRowNum": 1457,
+            "customer": "24673",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 23049)"
+        },
+        {
+            "OrigRowNum": 1681,
+            "customer": "26102",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 23049)"
+        },
+        {
+            "OrigRowNum": 2058,
+            "customer": "29987",
+            "lat": 38.49995935,
+            "lon": -84.75997933,
+            "address": "445 ELK LAKE RESORT RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 23049)"
+        },
+        {
+            "OrigRowNum": 460,
+            "customer": "4181",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 3495)"
+        },
+        {
+            "OrigRowNum": 1807,
+            "customer": "27438",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 3495)"
+        },
+        {
+            "OrigRowNum": 715,
+            "customer": "5255",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4757)"
+        },
+        {
+            "OrigRowNum": 1700,
+            "customer": "26533",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4757)"
+        },
+        {
+            "OrigRowNum": 2006,
+            "customer": "29783",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4757)"
+        },
+        {
+            "OrigRowNum": 2516,
+            "customer": "31548",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4757)"
+        },
+        {
+            "OrigRowNum": 488,
+            "customer": "4289",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 935,
+            "customer": "6120",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 1292,
+            "customer": "24920",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 1319,
+            "customer": "24607",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 1746,
+            "customer": "27136",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 1824,
+            "customer": "27616",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 1992,
+            "customer": "29709",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 2261,
+            "customer": "30686",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 2289,
+            "customer": "31049",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 2407,
+            "customer": "31149",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 2449,
+            "customer": "31290",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4029)"
+        },
+        {
+            "OrigRowNum": 779,
+            "customer": "5509",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1531,
+            "customer": "25355",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1705,
+            "customer": "26848",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1853,
+            "customer": "27855",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1861,
+            "customer": "28370",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1895,
+            "customer": "29308",
+            "lat": 38.5188869,
+            "lon": -84.8799568,
+            "address": "3105 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 5484)"
+        },
+        {
+            "OrigRowNum": 1738,
+            "customer": "26870",
+            "lat": 38.529738,
+            "lon": -84.8396566,
+            "address": "900 GAINES VILLAGE DR",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26483)"
+        },
+        {
+            "OrigRowNum": 2005,
+            "customer": "29782",
+            "lat": 38.53288464,
+            "lon": -84.83474812,
+            "address": "321 N MAIN ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6006)"
+        },
+        {
+            "OrigRowNum": 1790,
+            "customer": "27084",
+            "lat": 38.53296918,
+            "lon": -84.83482377,
+            "address": "317 N MAIN ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 21510)"
+        },
+        {
+            "OrigRowNum": 536,
+            "customer": "4536",
+            "lat": 38.53300998,
+            "lon": -84.83486144,
+            "address": "315 N MAIN ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4108)"
+        },
+        {
+            "OrigRowNum": 1030,
+            "customer": "20126",
+            "lat": 38.53300998,
+            "lon": -84.83486144,
+            "address": "315 N MAIN ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4108)"
+        },
+        {
+            "OrigRowNum": 2050,
+            "customer": "29968",
+            "lat": 38.53465932,
+            "lon": -84.83497117,
+            "address": "119 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26934)"
+        },
+        {
+            "OrigRowNum": 912,
+            "customer": "6024",
+            "lat": 38.53465932,
+            "lon": -84.83497117,
+            "address": "119 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4838)"
+        },
+        {
+            "OrigRowNum": 1216,
+            "customer": "22928",
+            "lat": 38.53465932,
+            "lon": -84.83497117,
+            "address": "119 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4838)"
+        },
+        {
+            "OrigRowNum": 768,
+            "customer": "5474",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 1268,
+            "customer": "23198",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 1754,
+            "customer": "27313",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 1818,
+            "customer": "27601",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 1965,
+            "customer": "29367",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2004,
+            "customer": "29777",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2018,
+            "customer": "29856",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2061,
+            "customer": "30005",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2384,
+            "customer": "31082",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2451,
+            "customer": "31309",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 2549,
+            "customer": "31557",
+            "lat": 38.53465932,
+            "lon": -84.83501135,
+            "address": "117 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4370)"
+        },
+        {
+            "OrigRowNum": 1751,
+            "customer": "27304",
+            "lat": 38.53481076,
+            "lon": -84.83730473,
+            "address": "115 W ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24004)"
+        },
+        {
+            "OrigRowNum": 2386,
+            "customer": "31087",
+            "lat": 38.53481076,
+            "lon": -84.83730473,
+            "address": "115 W ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24004)"
+        },
+        {
+            "OrigRowNum": 2445,
+            "customer": "31264",
+            "lat": 38.53481076,
+            "lon": -84.83730473,
+            "address": "115 W ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24004)"
+        },
+        {
+            "OrigRowNum": 2453,
+            "customer": "31318",
+            "lat": 38.53481076,
+            "lon": -84.83730473,
+            "address": "115 W ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24004)"
+        },
+        {
+            "OrigRowNum": 2470,
+            "customer": "31358",
+            "lat": 38.53481076,
+            "lon": -84.83730473,
+            "address": "115 W ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24004)"
+        },
+        {
+            "OrigRowNum": 1976,
+            "customer": "29575",
+            "lat": 38.53484389,
+            "lon": -84.83595217,
+            "address": "208 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26665)"
+        },
+        {
+            "OrigRowNum": 1990,
+            "customer": "29698",
+            "lat": 38.53484389,
+            "lon": -84.83595217,
+            "address": "208 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26665)"
+        },
+        {
+            "OrigRowNum": 2517,
+            "customer": "31549",
+            "lat": 38.53484389,
+            "lon": -84.83595217,
+            "address": "208 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26665)"
+        },
+        {
+            "OrigRowNum": 2172,
+            "customer": "30341",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 27128)"
+        },
+        {
+            "OrigRowNum": 2190,
+            "customer": "30395",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 27128)"
+        },
+        {
+            "OrigRowNum": 1264,
+            "customer": "23111",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4438)"
+        },
+        {
+            "OrigRowNum": 2196,
+            "customer": "30417",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4438)"
+        },
+        {
+            "OrigRowNum": 2273,
+            "customer": "30734",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4438)"
+        },
+        {
+            "OrigRowNum": 2491,
+            "customer": "31426",
+            "lat": 38.53486194,
+            "lon": -84.83622344,
+            "address": "102 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4438)"
+        },
+        {
+            "OrigRowNum": 1763,
+            "customer": "26906",
+            "lat": 38.53590968,
+            "lon": -84.8374112,
+            "address": "167 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6106)"
+        },
+        {
+            "OrigRowNum": 2490,
+            "customer": "31423",
+            "lat": 38.53590968,
+            "lon": -84.8374112,
+            "address": "167 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6106)"
+        },
+        {
+            "OrigRowNum": 1428,
+            "customer": "24195",
+            "lat": 38.53594099,
+            "lon": -84.83785863,
+            "address": "201 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22997)"
+        },
+        {
+            "OrigRowNum": 1512,
+            "customer": "25119",
+            "lat": 38.53594099,
+            "lon": -84.83785863,
+            "address": "201 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22997)"
+        },
+        {
+            "OrigRowNum": 1626,
+            "customer": "26277",
+            "lat": 38.53594099,
+            "lon": -84.83785863,
+            "address": "201 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22997)"
+        },
+        {
+            "OrigRowNum": 2184,
+            "customer": "30381",
+            "lat": 38.53594099,
+            "lon": -84.83785863,
+            "address": "201 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22997)"
+        },
+        {
+            "OrigRowNum": 2303,
+            "customer": "30817",
+            "lat": 38.53623454,
+            "lon": -84.83947658,
+            "address": "222 W SEMINARY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 21780)"
+        },
+        {
+            "OrigRowNum": 2351,
+            "customer": "30965",
+            "lat": 38.536456,
+            "lon": -84.8418926,
+            "address": "1240 S HWY 127",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 25053)"
+        },
+        {
+            "OrigRowNum": 1811,
+            "customer": "27511",
+            "lat": 38.53652426,
+            "lon": -84.84189897,
+            "address": "100 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24589)"
+        },
+        {
+            "OrigRowNum": 2243,
+            "customer": "30666",
+            "lat": 38.536572,
+            "lon": -84.84175043,
+            "address": "107 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24632)"
+        },
+        {
+            "OrigRowNum": 2500,
+            "customer": "31446",
+            "lat": 38.53661625,
+            "lon": -84.8377482,
+            "address": "118 N MADISON ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 31351)"
+        },
+        {
+            "OrigRowNum": 1998,
+            "customer": "29744",
+            "lat": 38.53674732,
+            "lon": -84.83504096,
+            "address": "107 E PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6160)"
+        },
+        {
+            "OrigRowNum": 2027,
+            "customer": "29428",
+            "lat": 38.53686191,
+            "lon": -84.83496396,
+            "address": "122 E PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 26922)"
+        },
+        {
+            "OrigRowNum": 2049,
+            "customer": "29965",
+            "lat": 38.53712437,
+            "lon": -84.83931572,
+            "address": "209 W PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 100.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 29031)"
+        },
+        {
+            "OrigRowNum": 2471,
+            "customer": "31360",
+            "lat": 38.53712437,
+            "lon": -84.83931572,
+            "address": "209 W PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24752)"
+        },
+        {
+            "OrigRowNum": 2545,
+            "customer": "31538",
+            "lat": 38.53712437,
+            "lon": -84.83931572,
+            "address": "209 W PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24752)"
+        },
+        {
+            "OrigRowNum": 2456,
+            "customer": "31327",
+            "lat": 38.53729633,
+            "lon": -84.84087028,
+            "address": "219 W PERRY ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 6166)"
+        },
+        {
+            "OrigRowNum": 2202,
+            "customer": "30441",
+            "lat": 38.537596,
+            "lon": -85.01107297,
+            "address": "40 FAIRWAY CT",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40363",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 24738)"
+        },
+        {
+            "OrigRowNum": 1922,
+            "customer": "28554",
+            "lat": 38.53789932,
+            "lon": -84.83738261,
+            "address": "201 W BLANTON ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4064)"
+        },
+        {
+            "OrigRowNum": 2218,
+            "customer": "30504",
+            "lat": 38.53789932,
+            "lon": -84.83738261,
+            "address": "201 W BLANTON ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 4064)"
+        },
+        {
+            "OrigRowNum": 2420,
+            "customer": "31194",
+            "lat": 38.53789932,
+            "lon": -84.83738261,
+            "address": "201 W BLANTON ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 25452)"
+        },
+        {
+            "OrigRowNum": 2435,
+            "customer": "31235",
+            "lat": 38.54100567,
+            "lon": -84.82764047,
+            "address": "701 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 31234)"
+        },
+        {
+            "OrigRowNum": 2437,
+            "customer": "31242",
+            "lat": 38.5422837,
+            "lon": -84.8282346,
+            "address": "702 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 30667)"
+        },
+        {
+            "OrigRowNum": 2444,
+            "customer": "31259",
+            "lat": 38.5422837,
+            "lon": -84.8282346,
+            "address": "702 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 30667)"
+        },
+        {
+            "OrigRowNum": 2482,
+            "customer": "31401",
+            "lat": 38.5422837,
+            "lon": -84.8282346,
+            "address": "702 E ADAIR ST",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 30667)"
+        },
+        {
+            "OrigRowNum": 1736,
+            "customer": "26750",
+            "lat": 38.5427572,
+            "lon": -84.8407014,
+            "address": "415 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 25164)"
+        },
+        {
+            "OrigRowNum": 1993,
+            "customer": "29731",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2012,
+            "customer": "29829",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2024,
+            "customer": "29885",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2341,
+            "customer": "30932",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2376,
+            "customer": "31038",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2426,
+            "customer": "31217",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2448,
+            "customer": "31284",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        },
+        {
+            "OrigRowNum": 2507,
+            "customer": "31462",
+            "lat": 38.5458835,
+            "lon": -84.84102439,
+            "address": "434 ROLAND AVE",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 25.0,
+            "upload": 2.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "cable",
+            "Error": "Data-based duplicate (same as customer 22982)"
+        }
+    ],
+    "Smarty Corrections": []
+}

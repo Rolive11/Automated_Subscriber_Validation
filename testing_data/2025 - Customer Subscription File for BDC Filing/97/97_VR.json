@@ -1,0 +1,3883 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1332,
+        "Rows with Corrections": 111,
+        "Rows with Errors": 138,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 36,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 191,
+        "Total Errors": 62,
+        "Street Ending Errors": 79,
+        "Validation Time (seconds)": 1.45,
+        "Validation Date": "2025-08-06 09:14:19",
+        "Addresses Sent to Smarty": 79,
+        "Successful Corrections": 79,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.43,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1295,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1295,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 29,
+            "Column": "address",
+            "Original Value": "N7958 COUNTY RD",
+            "Corrected Value": "N7958 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "1933 US2 W",
+            "Corrected Value": "1933 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 361,
+            "Column": "address",
+            "Original Value": "130 NORTH CLIFF DR",
+            "Corrected Value": "130 N CLIFF DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "177 NORTH CLIFF DR",
+            "Corrected Value": "177 N CLIFF DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 720,
+            "Column": "address",
+            "Original Value": "233 NORTH HILL RD",
+            "Corrected Value": "233 N HILL RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 953,
+            "Column": "address",
+            "Original Value": "243 NORTH HILL RD",
+            "Corrected Value": "243 N HILL RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1181,
+            "Column": "address",
+            "Original Value": "619 W ADAMS ST  LOWER",
+            "Corrected Value": "619 W ADAMS ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1290,
+            "Column": "address",
+            "Original Value": "9811 HWY 70 E",
+            "Corrected Value": "9811 STATE HIGHWAY 70 E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "William Hill",
+            "Corrected Value": "William Hill_015",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "500 COUNTY ROAD 424",
+            "Corrected Value": "500 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "501 COUNTY ROAD 424",
+            "Corrected Value": "501 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 228,
+            "Column": "address",
+            "Original Value": "2547 COUNTY ROAD 424",
+            "Corrected Value": "2547 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "1470 COUNTY ROAD 424",
+            "Corrected Value": "1470 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "1461 COUNTY ROAD 424",
+            "Corrected Value": "1461 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "1524 COUNTY ROAD 424",
+            "Corrected Value": "1524 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 302,
+            "Column": "address",
+            "Original Value": "1482 COUNTY ROAD 424",
+            "Corrected Value": "1482 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 351,
+            "Column": "address",
+            "Original Value": "1562 COUNTY ROAD 424",
+            "Corrected Value": "1562 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Original Value": "1526 COUNTY ROAD 424",
+            "Corrected Value": "1526 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "1518 COUNTY ROAD 424",
+            "Corrected Value": "1518 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "1504 COUNTY ROAD 424",
+            "Corrected Value": "1504 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "1488 COUNTY ROAD 424",
+            "Corrected Value": "1488 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "1480 COUNTY ROAD 424",
+            "Corrected Value": "1480 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "1474 COUNTY ROAD 424",
+            "Corrected Value": "1474 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "1462 COUNTY ROAD 424",
+            "Corrected Value": "1462 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "1458 COUNTY ROAD 424",
+            "Corrected Value": "1458 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Original Value": "8 W COUNTY ROAD 424",
+            "Corrected Value": "8 W CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "2334 COUNTY ROAD 424",
+            "Corrected Value": "2334 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Original Value": "1764 COUNTY ROAD 424",
+            "Corrected Value": "1764 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 546,
+            "Column": "address",
+            "Original Value": "1764 COUNTY ROAD 424",
+            "Corrected Value": "1764 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "2354 COUNTY ROAD 424",
+            "Corrected Value": "2354 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 565,
+            "Column": "address",
+            "Original Value": "2349 COUNTY ROAD 424",
+            "Corrected Value": "2349 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "2355 COUNTY ROAD 424",
+            "Corrected Value": "2355 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "2497 COUNTY ROAD 424",
+            "Corrected Value": "2497 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 989,
+            "Column": "address",
+            "Original Value": "1764 COUNTY ROAD 424",
+            "Corrected Value": "1764 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1076,
+            "Column": "address",
+            "Original Value": "1442 COUNTY ROAD 424",
+            "Corrected Value": "1442 CR 424",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "16942 STATE HIGHWAY 55",
+            "Corrected Value": "16942 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "16962 STATE HIGHWAY 55",
+            "Corrected Value": "16962 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "17035 STATE HIGHWAY 55",
+            "Corrected Value": "17035 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "16670 STATE HIGHWAY 55",
+            "Corrected Value": "16670 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "16988 STATE HIGHWAY 55",
+            "Corrected Value": "16988 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "16940 STATE HIGHWAY 55",
+            "Corrected Value": "16940 STATE HIGHWAY 55",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "zip",
+            "Original Value": "49903",
+            "Corrected Value": "49903",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "300 OLD 141 N",
+            "Corrected Value": "300 OLD 141 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "2092 W US 2",
+            "Corrected Value": "2092 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "5271/2 US 141",
+            "Corrected Value": "5271 US 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "2158 W US 2",
+            "Corrected Value": "2158 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "901 US 141",
+            "Corrected Value": "901 US HIGHWAY 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "143 OLD 141 N",
+            "Corrected Value": "143 OLD 141 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "2138 W US-2",
+            "Corrected Value": "2138 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "1551 US 141",
+            "Corrected Value": "1551 US HIGHWAY 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "2030 HWY 141",
+            "Corrected Value": "2030 US HIGHWAY 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "2070 W HWY US2",
+            "Corrected Value": "2070 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "1785 US 141",
+            "Corrected Value": "1785 US HIGHWAY 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "782 US 141",
+            "Corrected Value": "782 US HIGHWAY 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "2062 W US 2",
+            "Corrected Value": "2062 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "2103 W US 2",
+            "Corrected Value": "2103 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Original Value": "1497 W US 2",
+            "Corrected Value": "1497 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "zip",
+            "Original Value": "49920",
+            "Corrected Value": "49920",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "205 OLD US 141 N",
+            "Corrected Value": "205 OLD 141",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "zip",
+            "Original Value": "49927",
+            "Corrected Value": "49927",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "19 ELMWOOD",
+            "Corrected Value": "19 ELMWOOD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "zip",
+            "Original Value": "49927",
+            "Corrected Value": "49927",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Original Value": "47 OAKWOOD",
+            "Corrected Value": "47 OAKWOOD AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Original Value": "1272 HWY M-73",
+            "Corrected Value": "1272 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "1255 M-73",
+            "Corrected Value": "1255 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "3070 E US 2",
+            "Corrected Value": "3070 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 643,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 643,
+            "Column": "address",
+            "Original Value": "283 FEDERAL FOREST HWY 16",
+            "Corrected Value": "283 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Original Value": "664 AMVETS HWY",
+            "Corrected Value": "664 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "669 AMVETS HWY",
+            "Corrected Value": "669 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Original Value": "2731 M-189",
+            "Corrected Value": "2731 STATE HIGHWAY M189",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "259 AMVETS HWY",
+            "Corrected Value": "259 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 769,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Original Value": "5188 W US-2",
+            "Corrected Value": "5188 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 771,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 771,
+            "Column": "address",
+            "Original Value": "1133 HWY M-73",
+            "Corrected Value": "1133 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 781,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 781,
+            "Column": "address",
+            "Original Value": "3471 US-2",
+            "Corrected Value": "3471 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 789,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Original Value": "639 AMVETS HWY",
+            "Corrected Value": "639 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "address",
+            "Original Value": "311 FEDERAL FOREST HWY 16",
+            "Corrected Value": "311 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 806,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 806,
+            "Column": "address",
+            "Original Value": "470 AMVETS HWY",
+            "Corrected Value": "470 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Original Value": "577  M-73",
+            "Corrected Value": "577 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "address",
+            "Original Value": "611 M-73",
+            "Corrected Value": "611 M-73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 845,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 845,
+            "Column": "address",
+            "Original Value": "2762 M-189",
+            "Corrected Value": "2762 STATE HIGHWAY M189",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "4094 W US - 2",
+            "Corrected Value": "4094 W US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Original Value": "3999 W US 2",
+            "Corrected Value": "3999 W US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 875,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Original Value": "1131 HWY M-73",
+            "Corrected Value": "1131 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 883,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 883,
+            "Column": "address",
+            "Original Value": "532 M-73",
+            "Corrected Value": "532 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Original Value": "1129 M-73",
+            "Corrected Value": "1129 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 932,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 932,
+            "Column": "address",
+            "Original Value": "132 SUGAR BUSH",
+            "Corrected Value": "132 SUGAR BUSH DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "address",
+            "Original Value": "316 AMVETS HWY",
+            "Corrected Value": "316 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 958,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 958,
+            "Column": "address",
+            "Original Value": "508 W CAYUGA",
+            "Corrected Value": "508 W CAYUGA ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Original Value": "402 AMVETS HWY",
+            "Corrected Value": "402 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 962,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 962,
+            "Column": "address",
+            "Original Value": "2795 M-189",
+            "Corrected Value": "2795 STATE HIGHWAY M189",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Original Value": "2807 M-189",
+            "Corrected Value": "2807 STATE HIGHWAY M189",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 977,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 977,
+            "Column": "address",
+            "Original Value": "4963 HWY US 2 W",
+            "Corrected Value": "4963 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 988,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 988,
+            "Column": "address",
+            "Original Value": "690 HWY M-73",
+            "Corrected Value": "690 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 990,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 990,
+            "Column": "address",
+            "Original Value": "2987 E US 2",
+            "Corrected Value": "2987 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 994,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 994,
+            "Column": "address",
+            "Original Value": "299 FEDERAL FOREST HWY 16",
+            "Corrected Value": "299 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1012,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1012,
+            "Column": "address",
+            "Original Value": "441 AMVETS HWY",
+            "Corrected Value": "441 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1019,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1019,
+            "Column": "address",
+            "Original Value": "289 FEDERAL FOREST HWY 16",
+            "Corrected Value": "289 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Original Value": "2751 M-189",
+            "Corrected Value": "2751 STATE HIGHWAY M189",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1053,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1053,
+            "Column": "address",
+            "Original Value": "4138 US-2",
+            "Corrected Value": "4138 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1062,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1062,
+            "Column": "address",
+            "Original Value": "3144 E US 2",
+            "Corrected Value": "3144 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1064,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Original Value": "1196 STATE HWY M-73",
+            "Corrected Value": "1196 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1074,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1074,
+            "Column": "address",
+            "Original Value": "754 M-73",
+            "Corrected Value": "754 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1084,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1084,
+            "Column": "address",
+            "Original Value": "100 SPRING VALLEY",
+            "Corrected Value": "100 SPRING VALLEY AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1100,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1100,
+            "Column": "address",
+            "Original Value": "275 FEDERAL FOREST HWY 16",
+            "Corrected Value": "275 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1191,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1191,
+            "Column": "address",
+            "Original Value": "586 AMVETS HWY",
+            "Corrected Value": "586 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1196,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1196,
+            "Column": "address",
+            "Original Value": "4947 HWY US 2",
+            "Corrected Value": "4947 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1205,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1205,
+            "Column": "address",
+            "Original Value": "5113 W US 2",
+            "Corrected Value": "5113 W US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1206,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1206,
+            "Column": "address",
+            "Original Value": "1158 HWY M-73",
+            "Corrected Value": "1158 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1209,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1209,
+            "Column": "address",
+            "Original Value": "4885 US2 W",
+            "Corrected Value": "4885 US HIGHWAY 2",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1213,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1213,
+            "Column": "address",
+            "Original Value": "584 AMVETS HWY",
+            "Corrected Value": "584 AMVETS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1225,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1225,
+            "Column": "address",
+            "Original Value": "1246  M-73",
+            "Corrected Value": "1246 STATE HIGHWAY M73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1252,
+            "Column": "zip",
+            "Original Value": "49935",
+            "Corrected Value": "49935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1252,
+            "Column": "address",
+            "Original Value": "351 FEDERAL FOREST HWY 16",
+            "Corrected Value": "351 FEDERAL FOREST HWY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1266,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1266,
+            "Column": "address",
+            "Original Value": "4331 HWY 139",
+            "Corrected Value": "4331 S 139",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1278,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1278,
+            "Column": "address",
+            "Original Value": "8411 COUNTY A",
+            "Corrected Value": "8411 COUNTY ROAD A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1282,
+            "Column": "zip",
+            "Original Value": "54511",
+            "Corrected Value": "54511",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1282,
+            "Column": "address",
+            "Original Value": "10774 HWY 139",
+            "Corrected Value": "10774 STATE HIGHWAY 139",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1285,
+            "Column": "zip",
+            "Original Value": "54511",
+            "Corrected Value": "54511",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1285,
+            "Column": "address",
+            "Original Value": "9412 HWY 139",
+            "Corrected Value": "9412 HIGHWAY 139",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1290,
+            "Column": "zip",
+            "Original Value": "54542",
+            "Corrected Value": "54542",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SAVANNAH GIDDINGS"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TAMMI MARINELLO"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TRACEY MCCRUMB"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "WILLOW ST"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ATTN SUSAN SUNDQUIST"
+        },
+        {
+            "Row": 636,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "JAN MELSTROM"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Error": "Non-address content detected",
+            "Value": "TBD E SIDING RD"
+        },
+        {
+            "Row": 919,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RYAN MCGESHICK"
+        },
+        {
+            "Row": 1185,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MIKE SHEEHY"
+        },
+        {
+            "Row": 1245,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ATTN DAWN PISONI"
+        },
+        {
+            "Row": 1296,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "W PORCUPINE LAKE RD"
+        },
+        {
+            "Row": 646,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Andra Bernhardt-Ladd_001",
+            "Value": "Andra Bernhardt-Ladd"
+        },
+        {
+            "Row": 654,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Bryan Blas_002",
+            "Value": "Bryan Blas"
+        },
+        {
+            "Row": 1091,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Christine Rosell_003",
+            "Value": "Christine Rosell"
+        },
+        {
+            "Row": 707,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Covenant Point Bible Camp"
+        },
+        {
+            "Row": 1197,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Debbie Tusa_004",
+            "Value": "Debbie Tusa"
+        },
+        {
+            "Row": 419,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Ed Scarff_005",
+            "Value": "Ed Scarff"
+        },
+        {
+            "Row": 312,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "Fortune Lake Lutheran Camp"
+        },
+        {
+            "Row": 638,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Fred Behling_006",
+            "Value": "Fred Behling"
+        },
+        {
+            "Row": 1217,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Jill Walsh_007",
+            "Value": "Jill Walsh"
+        },
+        {
+            "Row": 575,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Kevin Smedlund_008",
+            "Value": "Kevin Smedlund"
+        },
+        {
+            "Row": 1099,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Michael Rummelhoff_009",
+            "Value": "Michael Rummelhoff"
+        },
+        {
+            "Row": 1076,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Shane Remondini_010",
+            "Value": "Shane Remondini"
+        },
+        {
+            "Row": 1150,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Sheryl Sorby_011",
+            "Value": "Sheryl Sorby"
+        },
+        {
+            "Row": 1157,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Stanley Shores Condo Association_012",
+            "Value": "Stanley Shores Condo Association"
+        },
+        {
+            "Row": 716,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Steve Davis_013",
+            "Value": "Steve Davis"
+        },
+        {
+            "Row": 925,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Susan Gilligan_014",
+            "Value": "Susan Gilligan"
+        },
+        {
+            "Row": 338,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to William Hill_015",
+            "Value": "William Hill"
+        },
+        {
+            "Row": 623,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Robin Ballard"
+        },
+        {
+            "Row": 635,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Shawn Beck"
+        },
+        {
+            "Row": 718,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "John Dean"
+        },
+        {
+            "Row": 759,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Lisa Franklin"
+        },
+        {
+            "Row": 849,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Marie Hooten"
+        },
+        {
+            "Row": 886,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Nancy Joyal"
+        },
+        {
+            "Row": 1014,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Barbara Norman"
+        },
+        {
+            "Row": 1037,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Gloria Pemble"
+        },
+        {
+            "Row": 1066,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Barbara Quarfoot"
+        },
+        {
+            "Row": 1069,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Mary Rae"
+        },
+        {
+            "Row": 1081,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Mary Richardson"
+        },
+        {
+            "Row": 1088,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "David Romanowski"
+        },
+        {
+            "Row": 1128,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Mary Shelby"
+        },
+        {
+            "Row": 1151,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Amanda Souza"
+        },
+        {
+            "Row": 1189,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Richard Apland)",
+            "Value": "Suzanne Timbrook"
+        },
+        {
+            "Row": 310,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Fortune Lake Bible Camp)",
+            "Value": "Fortune Lake Lutheran Camp"
+        },
+        {
+            "Row": 312,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Fortune Lake Bible Camp)",
+            "Value": "Fortune Lake Lutheran Camp"
+        },
+        {
+            "Row": 546,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Eugene Mottes)",
+            "Value": "Mark Mottes"
+        },
+        {
+            "Row": 626,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Lisa Bartlett"
+        },
+        {
+            "Row": 640,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Gordy Bennett"
+        },
+        {
+            "Row": 708,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Curtis Coy"
+        },
+        {
+            "Row": 757,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Roxanne Fragel"
+        },
+        {
+            "Row": 791,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Ricqua Gianopoulos"
+        },
+        {
+            "Row": 864,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Shontelle Jaramillo"
+        },
+        {
+            "Row": 922,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Melody LaPointe"
+        },
+        {
+            "Row": 926,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Cathi Serbinski Laturi"
+        },
+        {
+            "Row": 937,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Don Leonoff"
+        },
+        {
+            "Row": 972,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Trisha McCarthy"
+        },
+        {
+            "Row": 1093,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Robert Ross"
+        },
+        {
+            "Row": 1126,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Bruce Sheffer"
+        },
+        {
+            "Row": 1139,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Tammy Skelton"
+        },
+        {
+            "Row": 1194,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Christine McPherson)",
+            "Value": "Nathanael Turbessi"
+        },
+        {
+            "Row": 195,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Tara Kugler)",
+            "Value": "Rebecca Schmidt"
+        },
+        {
+            "Row": 707,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Covenant Point Bible Camp)",
+            "Value": "Covenant Point Bible Camp"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16942 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16962 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17035 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16670 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16988 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16940 STATE HIGHWAY 55"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "300 OLD 141 N"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2092 W US 2"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5271/2 US 141"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2158 W US 2"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "901 US 141"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "143 OLD 141 N"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1933 US2 W"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2138 W US2"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1551 US 141"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2030 HWY 141"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2070 W HWY US2"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1785 US 141"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "782 US 141"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2062 W US 2"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2103 W US 2"
+        },
+        {
+            "Row": 450,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1497 W US 2"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "205 OLD US 141 N"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 ELMWOOD"
+        },
+        {
+            "Row": 509,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "47 OAKWOOD"
+        },
+        {
+            "Row": 604,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1272 HWY M73"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1255 M73"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3070 E US 2"
+        },
+        {
+            "Row": 643,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "283 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 713,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "664 AMVETS HWY"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "669 AMVETS HWY"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2731 M189"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "259 AMVETS HWY"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5188 W US2"
+        },
+        {
+            "Row": 771,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1133 HWY M73"
+        },
+        {
+            "Row": 781,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3471 US2"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "639 AMVETS HWY"
+        },
+        {
+            "Row": 797,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "311 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 806,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "470 AMVETS HWY"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "577 M73"
+        },
+        {
+            "Row": 842,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "611 M73"
+        },
+        {
+            "Row": 845,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2762 M189"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4094 W US  2"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3999 W US 2"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1131 HWY M73"
+        },
+        {
+            "Row": 883,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "532 M73"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1129 M73"
+        },
+        {
+            "Row": 932,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "132 SUGAR BUSH"
+        },
+        {
+            "Row": 949,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "316 AMVETS HWY"
+        },
+        {
+            "Row": 958,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "508 W CAYUGA"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "402 AMVETS HWY"
+        },
+        {
+            "Row": 962,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2795 M189"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2807 M189"
+        },
+        {
+            "Row": 977,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4963 HWY US 2 W"
+        },
+        {
+            "Row": 988,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "690 HWY M73"
+        },
+        {
+            "Row": 990,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2987 E US 2"
+        },
+        {
+            "Row": 994,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "299 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 1012,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "441 AMVETS HWY"
+        },
+        {
+            "Row": 1019,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "289 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2751 M189"
+        },
+        {
+            "Row": 1053,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4138 US2"
+        },
+        {
+            "Row": 1062,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3144 E US 2"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1196 STATE HWY M73"
+        },
+        {
+            "Row": 1074,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "754 M73"
+        },
+        {
+            "Row": 1084,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "100 SPRING VALLEY"
+        },
+        {
+            "Row": 1100,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "275 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 1191,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "586 AMVETS HWY"
+        },
+        {
+            "Row": 1196,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4947 HWY US 2"
+        },
+        {
+            "Row": 1205,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5113 W US 2"
+        },
+        {
+            "Row": 1206,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1158 HWY M73"
+        },
+        {
+            "Row": 1209,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4885 US2 W"
+        },
+        {
+            "Row": 1213,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "584 AMVETS HWY"
+        },
+        {
+            "Row": 1225,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1246 M73"
+        },
+        {
+            "Row": 1252,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "351 FEDERAL FOREST HWY 16"
+        },
+        {
+            "Row": 1266,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4331 HWY 139"
+        },
+        {
+            "Row": 1278,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8411 COUNTY A"
+        },
+        {
+            "Row": 1282,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10774 HWY 139"
+        },
+        {
+            "Row": 1285,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9412 HWY 139"
+        },
+        {
+            "Row": 1290,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9811 HWY 70 E"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 709,
+            "address": "TBD E SIDING RD",
+            "Error": "Non-address content detected"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 707,
+            "customer": "Covenant Point Bible Camp",
+            "lat": "",
+            "lon": "",
+            "address": "358 W HAGERMAN LK RD",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 8.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 312,
+            "customer": "Fortune Lake Lutheran Camp",
+            "lat": "",
+            "lon": "",
+            "address": "138 FORTUNE LAKE CAMP RD",
+            "city": "CRYSTAL FALLS",
+            "state": "MI",
+            "zip": "49920",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 623,
+            "customer": "Robin Ballard",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 635,
+            "customer": "Shawn Beck",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 718,
+            "customer": "John Dean",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 759,
+            "customer": "Lisa Franklin",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 849,
+            "customer": "Marie Hooten",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 886,
+            "customer": "Nancy Joyal",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1014,
+            "customer": "Barbara Norman",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1037,
+            "customer": "Gloria Pemble",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1066,
+            "customer": "Barbara Quarfoot",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1069,
+            "customer": "Mary Rae",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1081,
+            "customer": "Mary Richardson",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1088,
+            "customer": "David Romanowski",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1128,
+            "customer": "Mary Shelby",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1151,
+            "customer": "Amanda Souza",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 1189,
+            "customer": "Suzanne Timbrook",
+            "lat": "",
+            "lon": "",
+            "address": "100 SPRING VALLEY AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Richard Apland)"
+        },
+        {
+            "OrigRowNum": 310,
+            "customer": "Fortune Lake Lutheran Camp",
+            "lat": "",
+            "lon": "",
+            "address": "138 FORTUNE LAKE CAMP RD",
+            "city": "CRYSTAL FALLS",
+            "state": "MI",
+            "zip": "49920",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Fortune Lake Bible Camp)"
+        },
+        {
+            "OrigRowNum": 312,
+            "customer": "Fortune Lake Lutheran Camp",
+            "lat": "",
+            "lon": "",
+            "address": "138 FORTUNE LAKE CAMP RD",
+            "city": "CRYSTAL FALLS",
+            "state": "MI",
+            "zip": "49920",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Fortune Lake Bible Camp)"
+        },
+        {
+            "OrigRowNum": 546,
+            "customer": "Mark Mottes",
+            "lat": "",
+            "lon": "",
+            "address": "1764 COUNTY ROAD 424",
+            "city": "GAASTRA",
+            "state": "MI",
+            "zip": "49927",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Eugene Mottes)"
+        },
+        {
+            "OrigRowNum": 626,
+            "customer": "Lisa Bartlett",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 640,
+            "customer": "Gordy Bennett",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 708,
+            "customer": "Curtis Coy",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 757,
+            "customer": "Roxanne Fragel",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 791,
+            "customer": "Ricqua Gianopoulos",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 864,
+            "customer": "Shontelle Jaramillo",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 922,
+            "customer": "Melody LaPointe",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 926,
+            "customer": "Cathi Serbinski Laturi",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 937,
+            "customer": "Don Leonoff",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 972,
+            "customer": "Trisha McCarthy",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 1093,
+            "customer": "Robert Ross",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 1126,
+            "customer": "Bruce Sheffer",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 1139,
+            "customer": "Tammy Skelton",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 1194,
+            "customer": "Nathanael Turbessi",
+            "lat": "",
+            "lon": "",
+            "address": "208 JEFFERSON AVE",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 3.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Christine McPherson)"
+        },
+        {
+            "OrigRowNum": 195,
+            "customer": "Rebecca Schmidt",
+            "lat": "",
+            "lon": "",
+            "address": "221 BALTIC AVE",
+            "city": "CASPIAN",
+            "state": "MI",
+            "zip": "49915",
+            "download": 12.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Tara Kugler)"
+        },
+        {
+            "OrigRowNum": 707,
+            "customer": "Covenant Point Bible Camp",
+            "lat": "",
+            "lon": "",
+            "address": "358 W HAGERMAN LK RD",
+            "city": "IRON RIVER",
+            "state": "MI",
+            "zip": "49935",
+            "download": 8.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Covenant Point Bible Camp)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 2,
+            "Original Address": "16942 STATE HIGHWAY 55",
+            "Corrected Address": "16942 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.534053"
+        },
+        {
+            "OrigRowNum": 15,
+            "Original Address": "16962 STATE HIGHWAY 55",
+            "Corrected Address": "16962 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.535414"
+        },
+        {
+            "OrigRowNum": 19,
+            "Original Address": "17035 STATE HIGHWAY 55",
+            "Corrected Address": "17035 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.535889"
+        },
+        {
+            "OrigRowNum": 37,
+            "Original Address": "16670 STATE HIGHWAY 55",
+            "Corrected Address": "16670 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.536272"
+        },
+        {
+            "OrigRowNum": 38,
+            "Original Address": "16988 STATE HIGHWAY 55",
+            "Corrected Address": "16988 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.536640"
+        },
+        {
+            "OrigRowNum": 39,
+            "Original Address": "16940 STATE HIGHWAY 55",
+            "Corrected Address": "16940 STATE HIGHWAY 55",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.536995"
+        },
+        {
+            "OrigRowNum": 51,
+            "Original Address": "300 OLD 141 N",
+            "Corrected Address": "300 OLD 141 N",
+            "Original ZIP": "49903",
+            "Corrected ZIP": "49903",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.537345"
+        },
+        {
+            "OrigRowNum": 256,
+            "Original Address": "2092 W US 2",
+            "Corrected Address": "2092 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.537694"
+        },
+        {
+            "OrigRowNum": 265,
+            "Original Address": "5271/2 US 141",
+            "Corrected Address": "5271 US 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.538003"
+        },
+        {
+            "OrigRowNum": 270,
+            "Original Address": "2158 W US 2",
+            "Corrected Address": "2158 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.538316"
+        },
+        {
+            "OrigRowNum": 272,
+            "Original Address": "901 US 141",
+            "Corrected Address": "901 US HIGHWAY 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.538624"
+        },
+        {
+            "OrigRowNum": 275,
+            "Original Address": "143 OLD 141 N",
+            "Corrected Address": "143 OLD 141 N",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.538931"
+        },
+        {
+            "OrigRowNum": 278,
+            "Original Address": "1933 US2 W",
+            "Corrected Address": "1933 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.539246"
+        },
+        {
+            "OrigRowNum": 289,
+            "Original Address": "2138 W US-2",
+            "Corrected Address": "2138 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.539553"
+        },
+        {
+            "OrigRowNum": 291,
+            "Original Address": "1551 US 141",
+            "Corrected Address": "1551 US HIGHWAY 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.539847"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "2030 HWY 141",
+            "Corrected Address": "2030 US HIGHWAY 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.540129"
+        },
+        {
+            "OrigRowNum": 328,
+            "Original Address": "2070 W HWY US2",
+            "Corrected Address": "2070 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.540413"
+        },
+        {
+            "OrigRowNum": 338,
+            "Original Address": "1785 US 141",
+            "Corrected Address": "1785 US HIGHWAY 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.540695"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "782 US 141",
+            "Corrected Address": "782 US HIGHWAY 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.540975"
+        },
+        {
+            "OrigRowNum": 408,
+            "Original Address": "2062 W US 2",
+            "Corrected Address": "2062 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.541258"
+        },
+        {
+            "OrigRowNum": 411,
+            "Original Address": "2103 W US 2",
+            "Corrected Address": "2103 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.541537"
+        },
+        {
+            "OrigRowNum": 450,
+            "Original Address": "1497 W US 2",
+            "Corrected Address": "1497 US HIGHWAY 2",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.542276"
+        },
+        {
+            "OrigRowNum": 455,
+            "Original Address": "205 OLD US 141 N",
+            "Corrected Address": "205 OLD 141",
+            "Original ZIP": "49920",
+            "Corrected ZIP": "49920",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.542682"
+        },
+        {
+            "OrigRowNum": 492,
+            "Original Address": "19 ELMWOOD",
+            "Corrected Address": "19 ELMWOOD",
+            "Original ZIP": "49927",
+            "Corrected ZIP": "49927",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.543047"
+        },
+        {
+            "OrigRowNum": 509,
+            "Original Address": "47 OAKWOOD",
+            "Corrected Address": "47 OAKWOOD AVE",
+            "Original ZIP": "49927",
+            "Corrected ZIP": "49927",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.543392"
+        },
+        {
+            "OrigRowNum": 604,
+            "Original Address": "1272 HWY M-73",
+            "Corrected Address": "1272 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.543742"
+        },
+        {
+            "OrigRowNum": 615,
+            "Original Address": "1255 M-73",
+            "Corrected Address": "1255 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.544102"
+        },
+        {
+            "OrigRowNum": 630,
+            "Original Address": "3070 E US 2",
+            "Corrected Address": "3070 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.544442"
+        },
+        {
+            "OrigRowNum": 643,
+            "Original Address": "283 FEDERAL FOREST HWY 16",
+            "Corrected Address": "283 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.544787"
+        },
+        {
+            "OrigRowNum": 713,
+            "Original Address": "664 AMVETS HWY",
+            "Corrected Address": "664 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.545119"
+        },
+        {
+            "OrigRowNum": 730,
+            "Original Address": "669 AMVETS HWY",
+            "Corrected Address": "669 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.545450"
+        },
+        {
+            "OrigRowNum": 739,
+            "Original Address": "2731 M-189",
+            "Corrected Address": "2731 STATE HIGHWAY M189",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.545796"
+        },
+        {
+            "OrigRowNum": 756,
+            "Original Address": "259 AMVETS HWY",
+            "Corrected Address": "259 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.546130"
+        },
+        {
+            "OrigRowNum": 769,
+            "Original Address": "5188 W US-2",
+            "Corrected Address": "5188 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.546456"
+        },
+        {
+            "OrigRowNum": 771,
+            "Original Address": "1133 HWY M-73",
+            "Corrected Address": "1133 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.546797"
+        },
+        {
+            "OrigRowNum": 781,
+            "Original Address": "3471 US-2",
+            "Corrected Address": "3471 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.547130"
+        },
+        {
+            "OrigRowNum": 789,
+            "Original Address": "639 AMVETS HWY",
+            "Corrected Address": "639 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.547451"
+        },
+        {
+            "OrigRowNum": 797,
+            "Original Address": "311 FEDERAL FOREST HWY 16",
+            "Corrected Address": "311 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.547753"
+        },
+        {
+            "OrigRowNum": 806,
+            "Original Address": "470 AMVETS HWY",
+            "Corrected Address": "470 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.548027"
+        },
+        {
+            "OrigRowNum": 816,
+            "Original Address": "577  M-73",
+            "Corrected Address": "577 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.548319"
+        },
+        {
+            "OrigRowNum": 842,
+            "Original Address": "611 M-73",
+            "Corrected Address": "611 M-73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.548593"
+        },
+        {
+            "OrigRowNum": 845,
+            "Original Address": "2762 M-189",
+            "Corrected Address": "2762 STATE HIGHWAY M189",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.548867"
+        },
+        {
+            "OrigRowNum": 847,
+            "Original Address": "4094 W US - 2",
+            "Corrected Address": "4094 W US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.549151"
+        },
+        {
+            "OrigRowNum": 856,
+            "Original Address": "3999 W US 2",
+            "Corrected Address": "3999 W US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.549425"
+        },
+        {
+            "OrigRowNum": 875,
+            "Original Address": "1131 HWY M-73",
+            "Corrected Address": "1131 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.549695"
+        },
+        {
+            "OrigRowNum": 883,
+            "Original Address": "532 M-73",
+            "Corrected Address": "532 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.549968"
+        },
+        {
+            "OrigRowNum": 908,
+            "Original Address": "1129 M-73",
+            "Corrected Address": "1129 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.550362"
+        },
+        {
+            "OrigRowNum": 932,
+            "Original Address": "132 SUGAR BUSH",
+            "Corrected Address": "132 SUGAR BUSH DR",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.550639"
+        },
+        {
+            "OrigRowNum": 949,
+            "Original Address": "316 AMVETS HWY",
+            "Corrected Address": "316 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.550921"
+        },
+        {
+            "OrigRowNum": 958,
+            "Original Address": "508 W CAYUGA",
+            "Corrected Address": "508 W CAYUGA ST",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.551202"
+        },
+        {
+            "OrigRowNum": 960,
+            "Original Address": "402 AMVETS HWY",
+            "Corrected Address": "402 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.551474"
+        },
+        {
+            "OrigRowNum": 962,
+            "Original Address": "2795 M-189",
+            "Corrected Address": "2795 STATE HIGHWAY M189",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.551764"
+        },
+        {
+            "OrigRowNum": 975,
+            "Original Address": "2807 M-189",
+            "Corrected Address": "2807 STATE HIGHWAY M189",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.552039"
+        },
+        {
+            "OrigRowNum": 977,
+            "Original Address": "4963 HWY US 2 W",
+            "Corrected Address": "4963 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.552325"
+        },
+        {
+            "OrigRowNum": 988,
+            "Original Address": "690 HWY M-73",
+            "Corrected Address": "690 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.552599"
+        },
+        {
+            "OrigRowNum": 990,
+            "Original Address": "2987 E US 2",
+            "Corrected Address": "2987 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.552884"
+        },
+        {
+            "OrigRowNum": 994,
+            "Original Address": "299 FEDERAL FOREST HWY 16",
+            "Corrected Address": "299 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.553159"
+        },
+        {
+            "OrigRowNum": 1012,
+            "Original Address": "441 AMVETS HWY",
+            "Corrected Address": "441 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.553437"
+        },
+        {
+            "OrigRowNum": 1019,
+            "Original Address": "289 FEDERAL FOREST HWY 16",
+            "Corrected Address": "289 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.553683"
+        },
+        {
+            "OrigRowNum": 1044,
+            "Original Address": "2751 M-189",
+            "Corrected Address": "2751 STATE HIGHWAY M189",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.553919"
+        },
+        {
+            "OrigRowNum": 1053,
+            "Original Address": "4138 US-2",
+            "Corrected Address": "4138 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.554154"
+        },
+        {
+            "OrigRowNum": 1062,
+            "Original Address": "3144 E US 2",
+            "Corrected Address": "3144 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.554386"
+        },
+        {
+            "OrigRowNum": 1064,
+            "Original Address": "1196 STATE HWY M-73",
+            "Corrected Address": "1196 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.554625"
+        },
+        {
+            "OrigRowNum": 1074,
+            "Original Address": "754 M-73",
+            "Corrected Address": "754 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.554856"
+        },
+        {
+            "OrigRowNum": 1084,
+            "Original Address": "100 SPRING VALLEY",
+            "Corrected Address": "100 SPRING VALLEY AVE",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.555088"
+        },
+        {
+            "OrigRowNum": 1100,
+            "Original Address": "275 FEDERAL FOREST HWY 16",
+            "Corrected Address": "275 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.555337"
+        },
+        {
+            "OrigRowNum": 1191,
+            "Original Address": "586 AMVETS HWY",
+            "Corrected Address": "586 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.555567"
+        },
+        {
+            "OrigRowNum": 1196,
+            "Original Address": "4947 HWY US 2",
+            "Corrected Address": "4947 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.555797"
+        },
+        {
+            "OrigRowNum": 1205,
+            "Original Address": "5113 W US 2",
+            "Corrected Address": "5113 W US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.556033"
+        },
+        {
+            "OrigRowNum": 1206,
+            "Original Address": "1158 HWY M-73",
+            "Corrected Address": "1158 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.556265"
+        },
+        {
+            "OrigRowNum": 1209,
+            "Original Address": "4885 US2 W",
+            "Corrected Address": "4885 US HIGHWAY 2",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.556496"
+        },
+        {
+            "OrigRowNum": 1213,
+            "Original Address": "584 AMVETS HWY",
+            "Corrected Address": "584 AMVETS HWY",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.556723"
+        },
+        {
+            "OrigRowNum": 1225,
+            "Original Address": "1246  M-73",
+            "Corrected Address": "1246 STATE HIGHWAY M73",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.556956"
+        },
+        {
+            "OrigRowNum": 1252,
+            "Original Address": "351 FEDERAL FOREST HWY 16",
+            "Corrected Address": "351 FEDERAL FOREST HWY 16",
+            "Original ZIP": "49935",
+            "Corrected ZIP": "49935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.557183"
+        },
+        {
+            "OrigRowNum": 1266,
+            "Original Address": "4331 HWY 139",
+            "Corrected Address": "4331 S 139",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.557415"
+        },
+        {
+            "OrigRowNum": 1278,
+            "Original Address": "8411 COUNTY A",
+            "Corrected Address": "8411 COUNTY ROAD A",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.557649"
+        },
+        {
+            "OrigRowNum": 1282,
+            "Original Address": "10774 HWY 139",
+            "Corrected Address": "10774 STATE HIGHWAY 139",
+            "Original ZIP": "54511",
+            "Corrected ZIP": "54511",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.557892"
+        },
+        {
+            "OrigRowNum": 1285,
+            "Original Address": "9412 HWY 139",
+            "Corrected Address": "9412 HIGHWAY 139",
+            "Original ZIP": "54511",
+            "Corrected ZIP": "54511",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.558125"
+        },
+        {
+            "OrigRowNum": 1290,
+            "Original Address": "9811 HWY 70 E",
+            "Corrected Address": "9811 STATE HIGHWAY 70 E",
+            "Original ZIP": "54542",
+            "Corrected ZIP": "54542",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-06T09:14:18.558363"
+        }
+    ]
+}

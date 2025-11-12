@@ -1,0 +1,2484 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1788,
+        "Rows with Corrections": 125,
+        "Rows with Errors": 59,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 10,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 173,
+        "Total Errors": 12,
+        "Street Ending Errors": 47,
+        "Validation Time (seconds)": 1.62,
+        "Validation Date": "2025-07-24 08:40:01",
+        "Addresses Sent to Smarty": 48,
+        "Successful Corrections": 48,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.4,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1778,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1778,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "53 ARCHER AVE APT A",
+            "Corrected Value": "53 ARCHER AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "53 ARCHER AVE APT B",
+            "Corrected Value": "53 ARCHER AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Original Value": "412 PLUM ST APT B",
+            "Corrected Value": "412 PLUM ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "215 FRONTAGE RD LOT 8",
+            "Corrected Value": "215 FRONTAGE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "815 N 6TH ST APT 4",
+            "Corrected Value": "815 N 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 514,
+            "Column": "address",
+            "Original Value": "607 PLUM ST APT 4",
+            "Corrected Value": "607 PLUM ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "522 ARCHER AVE B",
+            "Corrected Value": "522 ARCHER AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "522 ARCHER AVE C",
+            "Corrected Value": "522 ARCHER AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "1203 N MICHIGAN AVE APT 2",
+            "Corrected Value": "1203 N MICHIGAN AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 607,
+            "Column": "address",
+            "Original Value": "615 PLUM ST APT A",
+            "Corrected Value": "615 PLUM ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Original Value": "1301 ASH ST UNIT A",
+            "Corrected Value": "1301 ASH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 753,
+            "Column": "address",
+            "Original Value": "815 N 6TH ST APT 1",
+            "Corrected Value": "815 N 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 819,
+            "Column": "address",
+            "Original Value": "1203 N MICHIGAN AVE APT 5",
+            "Corrected Value": "1203 N MICHIGAN AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 965,
+            "Column": "address",
+            "Original Value": "121 S 6TH ST APT B",
+            "Corrected Value": "121 S 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Original Value": "112 E OHIO ST APT 3A",
+            "Corrected Value": "112 E OHIO ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1027,
+            "Column": "address",
+            "Original Value": "704 S 6TH ST APT D",
+            "Corrected Value": "704 S 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1057,
+            "Column": "address",
+            "Original Value": "304 E JEFFERSON AVE APT C",
+            "Corrected Value": "304 E JEFFERSON AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1063,
+            "Column": "address",
+            "Original Value": "1607 S 6TH ST APT B",
+            "Corrected Value": "1607 S 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1226,
+            "Column": "address",
+            "Original Value": "412 NE 13TH ST APT 3",
+            "Corrected Value": "412 NE 13TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1227,
+            "Column": "address",
+            "Original Value": "809 N 6TH ST APT 3",
+            "Corrected Value": "809 N 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1273,
+            "Column": "address",
+            "Original Value": "208 MAPLE ST APT 3C",
+            "Corrected Value": "208 MAPLE ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1289,
+            "Column": "address",
+            "Original Value": "809 N 6TH ST APT 6",
+            "Corrected Value": "809 N 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1346,
+            "Column": "address",
+            "Original Value": "6 W BUCKEYE AVE APT 9",
+            "Corrected Value": "6 W BUCKEYE AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1392,
+            "Column": "address",
+            "Original Value": "17200 N 1800TH ST APT 16",
+            "Corrected Value": "17200 N 1800TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1395,
+            "Column": "address",
+            "Original Value": "680 E 7TH ST LOT 5",
+            "Corrected Value": "680 E 7TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1414,
+            "Column": "address",
+            "Original Value": "17200 N 1800TH ST APT 3",
+            "Corrected Value": "17200 N 1800TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1450,
+            "Column": "address",
+            "Original Value": "17200 N 1800TH ST APT 2",
+            "Corrected Value": "17200 N 1800TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1458,
+            "Column": "address",
+            "Original Value": "17200 N 1800TH ST APT 6",
+            "Corrected Value": "17200 N 1800TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1468,
+            "Column": "address",
+            "Original Value": "417 S 9TH ST APT 3",
+            "Corrected Value": "417 S 9TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1487,
+            "Column": "address",
+            "Original Value": "412 NE 13TH ST APT 6",
+            "Corrected Value": "412 NE 13TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Original Value": "17200 N 1800TH ST APT 14",
+            "Corrected Value": "17200 N 1800TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1503,
+            "Column": "address",
+            "Original Value": "680 E 7TH ST LOT 10",
+            "Corrected Value": "680 E 7TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1505,
+            "Column": "address",
+            "Original Value": "680 E 7TH ST LOT 8",
+            "Corrected Value": "680 E 7TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1510,
+            "Column": "address",
+            "Original Value": "101 E MAIN ST STE C",
+            "Corrected Value": "101 E MAIN ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1515,
+            "Column": "address",
+            "Original Value": "402 LOCUST ST APT E",
+            "Corrected Value": "402 LOCUST ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1523,
+            "Column": "address",
+            "Original Value": "402 LOCUST ST APT F",
+            "Corrected Value": "402 LOCUST ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1546,
+            "Column": "address",
+            "Original Value": "414 S 11TH ST APT B2",
+            "Corrected Value": "414 S 11TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1569,
+            "Column": "address",
+            "Original Value": "1305 S 4TH ST APT 3",
+            "Corrected Value": "1305 S 4TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1604,
+            "Column": "address",
+            "Original Value": "903 E ALABAMA LOT C",
+            "Corrected Value": "903 E ALABAMA AVE LOT C",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1609,
+            "Column": "address",
+            "Original Value": "607 PLUM ST APT 1",
+            "Corrected Value": "607 PLUM ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1638,
+            "Column": "address",
+            "Original Value": "611 ARCHER AVE 1ST FLOOR",
+            "Corrected Value": "611 ARCHER AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1708,
+            "Column": "address",
+            "Original Value": "1002 S 6TH ST APT 3",
+            "Corrected Value": "1002 S 6TH ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1724,
+            "Column": "address",
+            "Original Value": "1203 N MICHIGAN AVE APT 8",
+            "Corrected Value": "1203 N MICHIGAN AVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1773,
+            "Column": "address",
+            "Original Value": "311 NW 2ND ST APT 02",
+            "Corrected Value": "311 NW 2ND ST",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "15158 N BASS LAKE W",
+            "Corrected Value": "15158 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "15166 N BASS LAKE W",
+            "Corrected Value": "15166 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "14985 N BASS LAKE E",
+            "Corrected Value": "14985 N BASS LK E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "14962 N BASS LAKE E",
+            "Corrected Value": "14962 N BASS LK E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Original Value": "15043 N BASS LAKE E",
+            "Corrected Value": "15043 N BASS LK E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "14998 N BASS LAKE W",
+            "Corrected Value": "14998 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "15232 N BASS LAKE W",
+            "Corrected Value": "15232 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Original Value": "15205 N BASS LAKE E",
+            "Corrected Value": "15205 N BASS LK E",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 896,
+            "Column": "address",
+            "Original Value": "869 N 3600 EAST RD",
+            "Corrected Value": "869 N 3600 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Original Value": "3592 E 888 NORTH RD",
+            "Corrected Value": "3592 E 888 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Original Value": "3572 E 894 NORTH RD",
+            "Corrected Value": "3572 E 894 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Original Value": "897 N 3585 E R",
+            "Corrected Value": "897 N 3585 EAST RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 933,
+            "Column": "address",
+            "Original Value": "869 N 3585 EAST RD",
+            "Corrected Value": "869 N 3585 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 962,
+            "Column": "address",
+            "Original Value": "3592 E 894 NORTH RD",
+            "Corrected Value": "3592 E 894 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1028,
+            "Column": "address",
+            "Original Value": "3592 E 900 NORTH RD",
+            "Corrected Value": "3592 E 900 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1035,
+            "Column": "address",
+            "Original Value": "899 N 3585 EAST RD",
+            "Corrected Value": "899 N 3585 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1037,
+            "Column": "address",
+            "Original Value": "1170B CO RD 00E",
+            "Corrected Value": "1170B CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1039,
+            "Column": "address",
+            "Original Value": "3393 E 900TH NORTH RD",
+            "Corrected Value": "3393 E 900TH N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1060,
+            "Column": "address",
+            "Original Value": "3409 E 900TH NORTH RD",
+            "Corrected Value": "3409 E 900TH N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1078,
+            "Column": "address",
+            "Original Value": "3336 E 900 NORTH RD",
+            "Corrected Value": "3336 E 900 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1080,
+            "Column": "address",
+            "Original Value": "3203 E 900 NORTH RD",
+            "Corrected Value": "3203 E 900 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1083,
+            "Column": "address",
+            "Original Value": "3593 E 888 NORTH RD",
+            "Corrected Value": "3593 E 888 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1088,
+            "Column": "address",
+            "Original Value": "879 N 3175 EAST RD",
+            "Corrected Value": "879 N 3175 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1091,
+            "Column": "address",
+            "Original Value": "868 N 3585 EAST RD",
+            "Corrected Value": "868 N 3585 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1096,
+            "Column": "address",
+            "Original Value": "3448 E 850TH NORTH RD",
+            "Corrected Value": "3448 E 850TH N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1169,
+            "Column": "address",
+            "Original Value": "14993 N BASS LAKE W",
+            "Corrected Value": "14993 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1205,
+            "Column": "address",
+            "Original Value": "3193 E 825 NORTH RD",
+            "Corrected Value": "3193 E 825 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1234,
+            "Column": "address",
+            "Original Value": "1146 000 E COUNTY RD",
+            "Corrected Value": "1146 000 E CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1235,
+            "Column": "address",
+            "Original Value": "944 N 3150 EAST RD",
+            "Corrected Value": "944 N 3150 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1239,
+            "Column": "address",
+            "Original Value": "877 N 3100 EAST RD",
+            "Corrected Value": "877 N 3100 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1430,
+            "Column": "address",
+            "Original Value": "3574 E 894 NORTH RD",
+            "Corrected Value": "3574 E 894 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1448,
+            "Column": "address",
+            "Original Value": "4199 N COUNTY RD",
+            "Corrected Value": "4199 N CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1460,
+            "Column": "address",
+            "Original Value": "3780 N CO RD 330E",
+            "Corrected Value": "3780 N CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1479,
+            "Column": "address",
+            "Original Value": "974 N 3150 EAST RD",
+            "Corrected Value": "974 N 3150 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1490,
+            "Column": "address",
+            "Original Value": "3104 N CO RD 330E",
+            "Corrected Value": "3104 N CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1506,
+            "Column": "address",
+            "Original Value": "905 N 2900TH EAST RD",
+            "Corrected Value": "905 N 2900TH E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1699,
+            "Column": "address",
+            "Original Value": "886 N 3585 EAST RD",
+            "Corrected Value": "886 N 3585 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1711,
+            "Column": "address",
+            "Original Value": "867 N 3600 EAST RD",
+            "Corrected Value": "867 N 3600 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "C00167",
+            "Corrected Value": "C00167_001",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1130,
+            "Column": "address",
+            "Original Value": "1283 COUNTY RD 100 E",
+            "Corrected Value": "1283 CR 100 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1476,
+            "Column": "address",
+            "Original Value": "3814 E COUNTY RD 450 N",
+            "Corrected Value": "3814 E CR 450 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1477,
+            "Column": "address",
+            "Original Value": "3842 E COUNTY RD 450 N",
+            "Corrected Value": "3842 E CR 450 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1478,
+            "Column": "address",
+            "Original Value": "3950 E COUNTY RD 450 N",
+            "Corrected Value": "3950 E CR 450 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1483,
+            "Column": "address",
+            "Original Value": "3880 E COUNTY RD 450 N",
+            "Corrected Value": "3880 E CR 450 N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "209 ENGLISH ACRE",
+            "Corrected Value": "209 ENGLISH ACRES RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 402,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "14824 N BASS LAKE",
+            "Corrected Value": "14824 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "1608 IL HIGHWAY 1",
+            "Corrected Value": "1608 ILLINOIS HIGHWAY 1",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "508 N RTE 49",
+            "Corrected Value": "508 N ROUTE 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Original Value": "807 SE 4TH",
+            "Corrected Value": "807 SE 4TH ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Original Value": "1000 US 40",
+            "Corrected Value": "1000 E US 40",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Original Value": "1604 N IL-1",
+            "Corrected Value": "1604 ILLINOIS HIGHWAY 1",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 752,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "address",
+            "Original Value": "18 & 20 S CENTRAL AVE",
+            "Corrected Value": "20 S CENTRAL AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 868,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Original Value": "19 1200N",
+            "Corrected Value": "19 NORTH RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Original Value": "20 OAK POINT",
+            "Corrected Value": "20 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 882,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 882,
+            "Column": "address",
+            "Original Value": "23 OAK POINT",
+            "Corrected Value": "23 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 922,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "zip",
+            "Original Value": "62442",
+            "Corrected Value": "62442",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Original Value": "206 E DEAHL",
+            "Corrected Value": "206 E DEAHL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1048,
+            "Column": "zip",
+            "Original Value": "62442",
+            "Corrected Value": "62442",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Original Value": "210 E DEAHL",
+            "Corrected Value": "210 E DEAHL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1122,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1122,
+            "Column": "address",
+            "Original Value": "7 OAK POINTE",
+            "Corrected Value": "7 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1140,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1140,
+            "Column": "address",
+            "Original Value": "28 OAK POINT",
+            "Corrected Value": "28 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1144,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1144,
+            "Column": "address",
+            "Original Value": "703 N RT 49",
+            "Corrected Value": "703 N ROUTE 49",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1169,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1216,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Original Value": "19 OAK POINT",
+            "Corrected Value": "19 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1217,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1217,
+            "Column": "address",
+            "Original Value": "17 OAK POINT",
+            "Corrected Value": "17 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1218,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1218,
+            "Column": "address",
+            "Original Value": "21 OAK POINT",
+            "Corrected Value": "21 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1262,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1262,
+            "Column": "address",
+            "Original Value": "201 W MADISON",
+            "Corrected Value": "201 W MADISON AVE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1361,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1361,
+            "Column": "address",
+            "Original Value": "19 CARROLLTON ESTATES",
+            "Corrected Value": "19 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1362,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1362,
+            "Column": "address",
+            "Original Value": "13 CARROLLTON ESTATES",
+            "Corrected Value": "13 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1372,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1372,
+            "Column": "address",
+            "Original Value": "12 CARROLLTON ESTATES",
+            "Corrected Value": "12 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1398,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1398,
+            "Column": "address",
+            "Original Value": "6 CARROLLTON ESTATES",
+            "Corrected Value": "6 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1408,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1408,
+            "Column": "address",
+            "Original Value": "10 CARROLLTON ESTATES",
+            "Corrected Value": "10 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1418,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Original Value": "17 CARROLLTON ESTATES",
+            "Corrected Value": "17 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1419,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1419,
+            "Column": "address",
+            "Original Value": "5 CARROLLTON ESTATES",
+            "Corrected Value": "5 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1435,
+            "Column": "zip",
+            "Original Value": "62447",
+            "Corrected Value": "62447",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1435,
+            "Column": "address",
+            "Original Value": "14 OAK POINTE",
+            "Corrected Value": "14 OAK PT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1465,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1465,
+            "Column": "address",
+            "Original Value": "23 CARROLLTON ESTATES",
+            "Corrected Value": "23 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1534,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1534,
+            "Column": "address",
+            "Original Value": "4 CARROLLTON ESTATES",
+            "Corrected Value": "4 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1597,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1597,
+            "Column": "address",
+            "Original Value": "104 HARDING",
+            "Corrected Value": "104 HARDING ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1604,
+            "Column": "zip",
+            "Original Value": "62420",
+            "Corrected Value": "62420",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1624,
+            "Column": "zip",
+            "Original Value": "62442",
+            "Corrected Value": "62442",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1624,
+            "Column": "address",
+            "Original Value": "611 E SCHOFIELD",
+            "Corrected Value": "611 E SCHOFIELD ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1659,
+            "Column": "zip",
+            "Original Value": "62442",
+            "Corrected Value": "62442",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1659,
+            "Column": "address",
+            "Original Value": "14192 N RIDGELAWN",
+            "Corrected Value": "14192 N RIDGELAWN RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1685,
+            "Column": "zip",
+            "Original Value": "61938",
+            "Corrected Value": "61938",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1685,
+            "Column": "address",
+            "Original Value": "20 CARROLLTON ESTATES",
+            "Corrected Value": "20 CARROLLTON EST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1742,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1742,
+            "Column": "address",
+            "Original Value": "15044 N BASS LAKE",
+            "Corrected Value": "15044 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1757,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1757,
+            "Column": "address",
+            "Original Value": "1617 N IL HWY 1",
+            "Corrected Value": "1617 N ILLINOIS HIGHWAY 1",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1766,
+            "Column": "zip",
+            "Original Value": "62441",
+            "Corrected Value": "62441",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1766,
+            "Column": "address",
+            "Original Value": "15130 N BASS LAKE W",
+            "Corrected Value": "15130 N BASS LK W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 801,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "18 & 20 S CENTRAL AVE"
+        },
+        {
+            "Row": 1627,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to C00167_001",
+            "Value": "C00167"
+        },
+        {
+            "Row": 1724,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00037)",
+            "Value": "M01039"
+        },
+        {
+            "Row": 870,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00241)",
+            "Value": "M00996"
+        },
+        {
+            "Row": 1414,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00941)",
+            "Value": "M00950"
+        },
+        {
+            "Row": 1450,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00941)",
+            "Value": "M00951"
+        },
+        {
+            "Row": 1489,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00963)",
+            "Value": "M00967"
+        },
+        {
+            "Row": 1193,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer N00057)",
+            "Value": "N00067"
+        },
+        {
+            "Row": 527,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00652a)",
+            "Value": "M00652b"
+        },
+        {
+            "Row": 185,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00237)",
+            "Value": "M00151"
+        },
+        {
+            "Row": 1505,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer N00080)",
+            "Value": "N00342"
+        },
+        {
+            "Row": 753,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer M00645)",
+            "Value": "M00553"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 151,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "209 ENGLISH ACRE"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15158 N BASS LAKE W"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15166 N BASS LAKE W"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14985 N BASS LAKE E"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14962 N BASS LAKE E"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15043 N BASS LAKE E"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14824 N BASS LAKE"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14998 N BASS LAKE W"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15232 N BASS LAKE W"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1608 IL HIGHWAY 1"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "508 N RTE 49"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "807 SE 4TH"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1000 US 40"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1604 N IL1"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15205 N BASS LAKE E"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 1200N"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20 OAK POINT"
+        },
+        {
+            "Row": 882,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23 OAK POINT"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "897 N 3585 E R"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "206 E DEAHL"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "210 E DEAHL"
+        },
+        {
+            "Row": 1122,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7 OAK POINTE"
+        },
+        {
+            "Row": 1140,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28 OAK POINT"
+        },
+        {
+            "Row": 1144,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "703 N RT 49"
+        },
+        {
+            "Row": 1169,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14993 N BASS LAKE W"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 OAK POINT"
+        },
+        {
+            "Row": 1217,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17 OAK POINT"
+        },
+        {
+            "Row": 1218,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "21 OAK POINT"
+        },
+        {
+            "Row": 1262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "201 W MADISON"
+        },
+        {
+            "Row": 1361,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1362,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1372,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1398,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1418,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1419,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1435,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14 OAK POINTE"
+        },
+        {
+            "Row": 1465,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1534,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1597,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "104 HARDING"
+        },
+        {
+            "Row": 1604,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "903 E ALABAMA LOT C"
+        },
+        {
+            "Row": 1624,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "611 E SCHOFIELD"
+        },
+        {
+            "Row": 1659,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14192 N RIDGELAWN"
+        },
+        {
+            "Row": 1685,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20 CARROLLTON ESTATES"
+        },
+        {
+            "Row": 1742,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15044 N BASS LAKE"
+        },
+        {
+            "Row": 1757,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1617 N IL HWY 1"
+        },
+        {
+            "Row": 1766,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15130 N BASS LAKE W"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 1724,
+            "customer": "M01039",
+            "lat": "",
+            "lon": "",
+            "address": "1203 N MICHIGAN AVE",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00037)"
+        },
+        {
+            "OrigRowNum": 870,
+            "customer": "M00996",
+            "lat": "",
+            "lon": "",
+            "address": "15589 E NATIONAL RD",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00241)"
+        },
+        {
+            "OrigRowNum": 1414,
+            "customer": "M00950",
+            "lat": "",
+            "lon": "",
+            "address": "17200 N 1800TH ST",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00941)"
+        },
+        {
+            "OrigRowNum": 1450,
+            "customer": "M00951",
+            "lat": "",
+            "lon": "",
+            "address": "17200 N 1800TH ST",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00941)"
+        },
+        {
+            "OrigRowNum": 1489,
+            "customer": "M00967",
+            "lat": "",
+            "lon": "",
+            "address": "17200 N 1800TH ST",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00963)"
+        },
+        {
+            "OrigRowNum": 1193,
+            "customer": "N00067",
+            "lat": "",
+            "lon": "",
+            "address": "5 ARMSTRONG DR",
+            "city": "NEOGA",
+            "state": "IL",
+            "zip": "62447",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer N00057)"
+        },
+        {
+            "OrigRowNum": 527,
+            "customer": "M00652b",
+            "lat": "",
+            "lon": "",
+            "address": "522 ARCHER AVE",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00652a)"
+        },
+        {
+            "OrigRowNum": 185,
+            "customer": "M00151",
+            "lat": "",
+            "lon": "",
+            "address": "53 ARCHER AVE",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00237)"
+        },
+        {
+            "OrigRowNum": 1505,
+            "customer": "N00342",
+            "lat": "",
+            "lon": "",
+            "address": "680 E 7TH ST",
+            "city": "NEOGA",
+            "state": "IL",
+            "zip": "62447",
+            "download": 500.0,
+            "upload": 500.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer N00080)"
+        },
+        {
+            "OrigRowNum": 753,
+            "customer": "M00553",
+            "lat": "",
+            "lon": "",
+            "address": "815 N 6TH ST",
+            "city": "MARSHALL",
+            "state": "IL",
+            "zip": "62441",
+            "download": 250.0,
+            "upload": 250.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer M00645)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 151,
+            "Original Address": "209 ENGLISH ACRE",
+            "Corrected Address": "209 ENGLISH ACRES RD",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.794827"
+        },
+        {
+            "OrigRowNum": 395,
+            "Original Address": "15158 N BASS LAKE W",
+            "Corrected Address": "15158 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.795989"
+        },
+        {
+            "OrigRowNum": 396,
+            "Original Address": "15166 N BASS LAKE W",
+            "Corrected Address": "15166 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.796497"
+        },
+        {
+            "OrigRowNum": 397,
+            "Original Address": "14985 N BASS LAKE E",
+            "Corrected Address": "14985 N BASS LK E",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.796906"
+        },
+        {
+            "OrigRowNum": 401,
+            "Original Address": "14962 N BASS LAKE E",
+            "Corrected Address": "14962 N BASS LK E",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.797266"
+        },
+        {
+            "OrigRowNum": 402,
+            "Original Address": "15043 N BASS LAKE E",
+            "Corrected Address": "15043 N BASS LK E",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.797608"
+        },
+        {
+            "OrigRowNum": 408,
+            "Original Address": "14824 N BASS LAKE",
+            "Corrected Address": "14824 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.797947"
+        },
+        {
+            "OrigRowNum": 411,
+            "Original Address": "14998 N BASS LAKE W",
+            "Corrected Address": "14998 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.798282"
+        },
+        {
+            "OrigRowNum": 412,
+            "Original Address": "15232 N BASS LAKE W",
+            "Corrected Address": "15232 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.798617"
+        },
+        {
+            "OrigRowNum": 465,
+            "Original Address": "1608 IL HIGHWAY 1",
+            "Corrected Address": "1608 ILLINOIS HIGHWAY 1",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.798966"
+        },
+        {
+            "OrigRowNum": 628,
+            "Original Address": "508 N RTE 49",
+            "Corrected Address": "508 N ROUTE 49",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.799278"
+        },
+        {
+            "OrigRowNum": 645,
+            "Original Address": "807 SE 4TH",
+            "Corrected Address": "807 SE 4TH ST",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.799563"
+        },
+        {
+            "OrigRowNum": 651,
+            "Original Address": "1000 US 40",
+            "Corrected Address": "1000 E US 40",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.799848"
+        },
+        {
+            "OrigRowNum": 689,
+            "Original Address": "1604 N IL-1",
+            "Corrected Address": "1604 ILLINOIS HIGHWAY 1",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.800135"
+        },
+        {
+            "OrigRowNum": 752,
+            "Original Address": "15205 N BASS LAKE E",
+            "Corrected Address": "15205 N BASS LK E",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.800418"
+        },
+        {
+            "OrigRowNum": 801,
+            "Original Address": "18 & 20 S CENTRAL AVE",
+            "Corrected Address": "20 S CENTRAL AVE",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.800707"
+        },
+        {
+            "OrigRowNum": 868,
+            "Original Address": "19 1200N",
+            "Corrected Address": "19 NORTH RD",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.801155"
+        },
+        {
+            "OrigRowNum": 873,
+            "Original Address": "20 OAK POINT",
+            "Corrected Address": "20 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.801813"
+        },
+        {
+            "OrigRowNum": 882,
+            "Original Address": "23 OAK POINT",
+            "Corrected Address": "23 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.802233"
+        },
+        {
+            "OrigRowNum": 922,
+            "Original Address": "897 N 3585 E R",
+            "Corrected Address": "897 N 3585 EAST RD",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.802617"
+        },
+        {
+            "OrigRowNum": 1006,
+            "Original Address": "206 E DEAHL",
+            "Corrected Address": "206 E DEAHL",
+            "Original ZIP": "62442",
+            "Corrected ZIP": "62442",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.803000"
+        },
+        {
+            "OrigRowNum": 1048,
+            "Original Address": "210 E DEAHL",
+            "Corrected Address": "210 E DEAHL",
+            "Original ZIP": "62442",
+            "Corrected ZIP": "62442",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.803381"
+        },
+        {
+            "OrigRowNum": 1122,
+            "Original Address": "7 OAK POINTE",
+            "Corrected Address": "7 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.803748"
+        },
+        {
+            "OrigRowNum": 1140,
+            "Original Address": "28 OAK POINT",
+            "Corrected Address": "28 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.804107"
+        },
+        {
+            "OrigRowNum": 1144,
+            "Original Address": "703 N RT 49",
+            "Corrected Address": "703 N ROUTE 49",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.804479"
+        },
+        {
+            "OrigRowNum": 1169,
+            "Original Address": "14993 N BASS LAKE W",
+            "Corrected Address": "14993 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.804837"
+        },
+        {
+            "OrigRowNum": 1216,
+            "Original Address": "19 OAK POINT",
+            "Corrected Address": "19 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.805153"
+        },
+        {
+            "OrigRowNum": 1217,
+            "Original Address": "17 OAK POINT",
+            "Corrected Address": "17 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.805468"
+        },
+        {
+            "OrigRowNum": 1218,
+            "Original Address": "21 OAK POINT",
+            "Corrected Address": "21 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.805770"
+        },
+        {
+            "OrigRowNum": 1262,
+            "Original Address": "201 W MADISON",
+            "Corrected Address": "201 W MADISON AVE",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.806069"
+        },
+        {
+            "OrigRowNum": 1361,
+            "Original Address": "19 CARROLLTON ESTATES",
+            "Corrected Address": "19 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.806376"
+        },
+        {
+            "OrigRowNum": 1362,
+            "Original Address": "13 CARROLLTON ESTATES",
+            "Corrected Address": "13 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.806673"
+        },
+        {
+            "OrigRowNum": 1372,
+            "Original Address": "12 CARROLLTON ESTATES",
+            "Corrected Address": "12 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.806976"
+        },
+        {
+            "OrigRowNum": 1398,
+            "Original Address": "6 CARROLLTON ESTATES",
+            "Corrected Address": "6 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.807282"
+        },
+        {
+            "OrigRowNum": 1408,
+            "Original Address": "10 CARROLLTON ESTATES",
+            "Corrected Address": "10 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.807577"
+        },
+        {
+            "OrigRowNum": 1418,
+            "Original Address": "17 CARROLLTON ESTATES",
+            "Corrected Address": "17 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.807872"
+        },
+        {
+            "OrigRowNum": 1419,
+            "Original Address": "5 CARROLLTON ESTATES",
+            "Corrected Address": "5 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.808178"
+        },
+        {
+            "OrigRowNum": 1435,
+            "Original Address": "14 OAK POINTE",
+            "Corrected Address": "14 OAK PT",
+            "Original ZIP": "62447",
+            "Corrected ZIP": "62447",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.808478"
+        },
+        {
+            "OrigRowNum": 1465,
+            "Original Address": "23 CARROLLTON ESTATES",
+            "Corrected Address": "23 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.808784"
+        },
+        {
+            "OrigRowNum": 1534,
+            "Original Address": "4 CARROLLTON ESTATES",
+            "Corrected Address": "4 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.809083"
+        },
+        {
+            "OrigRowNum": 1597,
+            "Original Address": "104 HARDING",
+            "Corrected Address": "104 HARDING ST",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.809387"
+        },
+        {
+            "OrigRowNum": 1604,
+            "Original Address": "903 E ALABAMA LOT C",
+            "Corrected Address": "903 E ALABAMA AVE LOT C",
+            "Original ZIP": "62420",
+            "Corrected ZIP": "62420",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.809685"
+        },
+        {
+            "OrigRowNum": 1624,
+            "Original Address": "611 E SCHOFIELD",
+            "Corrected Address": "611 E SCHOFIELD ST",
+            "Original ZIP": "62442",
+            "Corrected ZIP": "62442",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.809990"
+        },
+        {
+            "OrigRowNum": 1659,
+            "Original Address": "14192 N RIDGELAWN",
+            "Corrected Address": "14192 N RIDGELAWN RD",
+            "Original ZIP": "62442",
+            "Corrected ZIP": "62442",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.810286"
+        },
+        {
+            "OrigRowNum": 1685,
+            "Original Address": "20 CARROLLTON ESTATES",
+            "Corrected Address": "20 CARROLLTON EST",
+            "Original ZIP": "61938",
+            "Corrected ZIP": "61938",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.810584"
+        },
+        {
+            "OrigRowNum": 1742,
+            "Original Address": "15044 N BASS LAKE",
+            "Corrected Address": "15044 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.810883"
+        },
+        {
+            "OrigRowNum": 1757,
+            "Original Address": "1617 N IL HWY 1",
+            "Corrected Address": "1617 N ILLINOIS HIGHWAY 1",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.811155"
+        },
+        {
+            "OrigRowNum": 1766,
+            "Original Address": "15130 N BASS LAKE W",
+            "Corrected Address": "15130 N BASS LK W",
+            "Original ZIP": "62441",
+            "Corrected ZIP": "62441",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-24T08:40:00.811411"
+        }
+    ]
+}

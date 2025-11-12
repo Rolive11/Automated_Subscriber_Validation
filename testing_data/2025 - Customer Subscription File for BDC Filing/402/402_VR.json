@@ -1,0 +1,323 @@
+{
+    "Summary": {
+        "Total Rows Processed": 608,
+        "Rows with Corrections": 2,
+        "Rows with Errors": 42,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 2,
+        "Total Errors": 42,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.68,
+        "Validation Date": "2025-08-14 11:34:50",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 608,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 608,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 603,
+            "Column": "customer",
+            "Original Value": "Gletty, Graham",
+            "Corrected Value": "Gletty Graham",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Thompson Jake",
+            "Corrected Value": "Thompson Jake_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 11,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W555 OWENS RD"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W458 LASHER RD"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W214 MAIN ST"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S181 COUNTY LINE RD"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "48W801 HARTER RD"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "3S805 EHLERS RD"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18318 TOWER RD"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "3S504 SWAN RD"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18413 TOWER RD"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W240 MAIN ST"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15338 TOWER RD"
+        },
+        {
+            "Row": 235,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "48W633 HARTER RD"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S269 COUNTY LINE RD"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S405 COUNTY LINE RD"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S287 COUNTY LINE RD"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S365 COUNTY LINE RD"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W190 MAIN STREET RD"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S067 COUNTY LINE RD"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W254 KESLINGER RD"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2N914 HOWARD RD"
+        },
+        {
+            "Row": 361,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W83 MAIN ST"
+        },
+        {
+            "Row": 370,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W29 OWENS RD"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2S225 COUNTY LINE RD"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W387 OWENS RD"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1N450 SCHRADER RD"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13628 TOWER RD"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "47W481 LASHER RD"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "0S894 DAUBERMAN RD"
+        },
+        {
+            "Row": 473,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "16792 TOWER RD"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "50W450 KESLINGER RD"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W150 KESLINGER RD"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W165 HARTER RD"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14275 TOWER RD"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W46 OWENS RD"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W483 OWENS RD"
+        },
+        {
+            "Row": 571,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "0N537 SCHRADER RD"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W046 OWENS RD"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "49W227 ILLINOIS ROUTE 38"
+        },
+        {
+            "Row": 234,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Clark Jordan_001",
+            "Value": "Clark Jordan"
+        },
+        {
+            "Row": 505,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Frieders Gregory_002",
+            "Value": "Frieders Gregory"
+        },
+        {
+            "Row": 342,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Mendez Yolanda_003",
+            "Value": "Mendez Yolanda"
+        },
+        {
+            "Row": 444,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Thompson Jake_004",
+            "Value": "Thompson Jake"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

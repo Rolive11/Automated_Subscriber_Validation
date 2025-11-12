@@ -1,0 +1,424 @@
+{
+    "Summary": {
+        "Total Rows Processed": 182,
+        "Rows with Corrections": 23,
+        "Rows with Errors": 23,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 2,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 24,
+        "Total Errors": 24,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.19,
+        "Validation Date": "2025-08-18 14:02:59",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 180,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 180,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "100 CLEAR LAKE RD #10",
+            "Corrected Value": "100 CLEAR LAKE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "100 CLEAR LAKE RD #6",
+            "Corrected Value": "100 CLEAR LAKE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Original Value": "Mi",
+            "Corrected Value": "MI",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "state",
+            "Original Value": "Mi",
+            "Corrected Value": "MI",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "state",
+            "Original Value": "Mi",
+            "Corrected Value": "MI",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "state",
+            "Original Value": "FFF",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "state",
+            "Original Value": "Mi.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "state",
+            "Original Value": "MI.",
+            "Corrected Value": "MI",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "lon",
+            "Original Value": 84.48264,
+            "Corrected Value": -84.48264,
+            "Correction Type": "Sign Flip",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "lat",
+            "Original Value": 4248778.0,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "lon",
+            "Original Value": -84.39172,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 127,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "KINCH RD"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 51,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi"
+        },
+        {
+            "Row": 55,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 57,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 59,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 66,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 84,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 106,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 107,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi"
+        },
+        {
+            "Row": 118,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 129,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "FFF"
+        },
+        {
+            "Row": 130,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Mi."
+        },
+        {
+            "Row": 137,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 138,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 141,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "MI."
+        },
+        {
+            "Row": 43,
+            "Column": "lat",
+            "Error": "Latitude for MI must be between 41.696118 and 48.305884",
+            "Value": "4248778.0"
+        },
+        {
+            "Row": 43,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-84.39172"
+        },
+        {
+            "Row": 103,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Kasie  Cousino)",
+            "Value": "Martha  Salyer"
+        },
+        {
+            "Row": 105,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer Leann  Timble)",
+            "Value": "Megan  Bice"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 103,
+            "customer": "Martha  Salyer",
+            "lat": 42.33643,
+            "lon": -84.1516,
+            "address": "100 CLEAR LAKE RD",
+            "city": "GRASS LAKE",
+            "state": "MI",
+            "zip": "49240",
+            "download": 12.0,
+            "upload": 3.5,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Kasie  Cousino)"
+        },
+        {
+            "OrigRowNum": 105,
+            "customer": "Megan  Bice",
+            "lat": 42.34591,
+            "lon": -84.17284,
+            "address": "16494 SEYMOUR RD.",
+            "city": "GRASS LAKE",
+            "state": "MI",
+            "zip": "49240",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer Leann  Timble)"
+        }
+    ],
+    "Smarty Corrections": []
+}

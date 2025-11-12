@@ -1,0 +1,5402 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1149,
+        "Rows with Corrections": 322,
+        "Rows with Errors": 111,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 2,
+        "Total Corrections": 431,
+        "Total Errors": 2,
+        "Street Ending Errors": 109,
+        "Validation Time (seconds)": 26.77,
+        "Validation Date": "2025-07-20 12:38:58",
+        "Addresses Sent to Smarty": 109,
+        "Successful Corrections": 109,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 25.92,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1147,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1147,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "1781 COUNTY RD",
+            "Corrected Value": "1781 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "N455 CTY RD C",
+            "Corrected Value": "N455 CTY RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "2601 COUNTY ROAD",
+            "Corrected Value": "2601 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "2515 COUNTY RD",
+            "Corrected Value": "2515 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "2450 COUNTY ROAD",
+            "Corrected Value": "2450 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "2019 COUNTY ROAD",
+            "Corrected Value": "2019 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "7580 CTY RD VV",
+            "Corrected Value": "7580 CTY RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "1744 NORTH RED OAK DR",
+            "Corrected Value": "1744 N RED OAK DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "2881 DEER CREEK RUN",
+            "Corrected Value": "2881 DEER CREEK",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "5815 SOUTH BIRD STREET",
+            "Corrected Value": "5815 S BIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "5843 SOUTH BIRD STREET",
+            "Corrected Value": "5843 S BIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "2140 COUNTY ROAD",
+            "Corrected Value": "2140 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "2180 COUNTY ROAD",
+            "Corrected Value": "2180 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "5703 SOUTH BIRD STREET",
+            "Corrected Value": "5703 S BIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "1938 CO ROAD V",
+            "Corrected Value": "1938 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "2361 CO ROAD V",
+            "Corrected Value": "2361 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "2456 CO ROAD V",
+            "Corrected Value": "2456 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "1900 CO ROAD V",
+            "Corrected Value": "1900 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "1791 COUNTY ROAD",
+            "Corrected Value": "1791 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "1595 CO ROAD V",
+            "Corrected Value": "1595 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "7592 COUNTY ROAD",
+            "Corrected Value": "7592 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "1789 CO ROAD V",
+            "Corrected Value": "1789 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "1455 CO ROAD V",
+            "Corrected Value": "1455 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "5817 SOUTH BIRD STREET",
+            "Corrected Value": "5817 S BIRD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Original Value": "1785 CO ROAD V",
+            "Corrected Value": "1785 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 390,
+            "Column": "address",
+            "Original Value": "3201 CO ROAD V",
+            "Corrected Value": "3201 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "2341 CO ROAD V",
+            "Corrected Value": "2341 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Original Value": "1780 LUNDE CIRCLE 2232",
+            "Corrected Value": "1780 LUNDE CIRCLE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "2165 COUNTY ROAD",
+            "Corrected Value": "2165 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 413,
+            "Column": "address",
+            "Original Value": "2169 COUNTY ROAD",
+            "Corrected Value": "2169 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 419,
+            "Column": "address",
+            "Original Value": "N447 COUNTY ROAD",
+            "Corrected Value": "N447 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 421,
+            "Column": "address",
+            "Original Value": "N483 COUNTY ROAD",
+            "Corrected Value": "N483 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "W5137 COUNTY ROAD",
+            "Corrected Value": "W5137 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "2928 COUNTY ROAD",
+            "Corrected Value": "2928 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "1776 NORTH JARGO ROAD",
+            "Corrected Value": "1776 N JARGO ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "712 COUNTY RD",
+            "Corrected Value": "712 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "3208 COUNTY RD",
+            "Corrected Value": "3208 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "1475 COUNTY RD",
+            "Corrected Value": "1475 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Original Value": "3685 COUNTY RD",
+            "Corrected Value": "3685 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "1028 US HIGHWAY 12 AND 18",
+            "Corrected Value": "1028 US HIGHWAY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "1361 WEST MEDINA ROAD",
+            "Corrected Value": "1361 W MEDINA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "617 COUNTY ROAD",
+            "Corrected Value": "617 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "3144 STATE ROAD 134",
+            "Corrected Value": "3144 STATE ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "2937 COUNTY ROAD",
+            "Corrected Value": "2937 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "3314 COUNTY RD",
+            "Corrected Value": "3314 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "3148 STATE ROAD 134",
+            "Corrected Value": "3148 STATE ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "W2563 COUNTY RD",
+            "Corrected Value": "W2563 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Original Value": "869 COUNTY ROAD",
+            "Corrected Value": "869 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "address",
+            "Original Value": "840 COUNTY ROAD",
+            "Corrected Value": "840 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "W2440 COUNTY ROAD",
+            "Corrected Value": "W2440 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 539,
+            "Column": "address",
+            "Original Value": "W3111 COUNTY ROAD",
+            "Corrected Value": "W3111 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Original Value": "W3059 COUNTY RD",
+            "Corrected Value": "W3059 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "2982 COUNTY ROAD",
+            "Corrected Value": "2982 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "5381 CTY RD TT",
+            "Corrected Value": "5381 CTY RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "N4091 COUNTY ROAD",
+            "Corrected Value": "N4091 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "W2503 COUNTY ROAD",
+            "Corrected Value": "W2503 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "N882 COUNTY RD",
+            "Corrected Value": "N882 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "W6911 US HIGHWAY 12",
+            "Corrected Value": "W6911 US HIGHWAY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 569,
+            "Column": "address",
+            "Original Value": "1266 NORTH GREENWAY ROAD",
+            "Corrected Value": "1266 N GREENWAY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Original Value": "W6952 COUNTY RD",
+            "Corrected Value": "W6952 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "W2328 COUNTY RD",
+            "Corrected Value": "W2328 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "W5367 COUNTY ROAD",
+            "Corrected Value": "W5367 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Original Value": "3031 COUNTY RD",
+            "Corrected Value": "3031 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 598,
+            "Column": "address",
+            "Original Value": "1428 COUNTY RD",
+            "Corrected Value": "1428 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 602,
+            "Column": "address",
+            "Original Value": "W2496 COUNTY ROAD",
+            "Corrected Value": "W2496 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 611,
+            "Column": "address",
+            "Original Value": "N4714 N COUNTY RD",
+            "Corrected Value": "N4714 N CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "N2610 CTY RD A",
+            "Corrected Value": "N2610 CTY RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "N1024 COUNTY ROAD",
+            "Corrected Value": "N1024 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "N1045 COUNTY RD",
+            "Corrected Value": "N1045 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "N4313 COUNTY RD",
+            "Corrected Value": "N4313 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 621,
+            "Column": "address",
+            "Original Value": "N1856 COUNTY RD",
+            "Corrected Value": "N1856 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Original Value": "W5984 COUNTY ROAD",
+            "Corrected Value": "W5984 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "N3237 EAST ROCKDALE RD",
+            "Corrected Value": "N3237 E ROCKDALE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Original Value": "4250 COUNTY ROAD",
+            "Corrected Value": "4250 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Original Value": "N8597 WEST RD",
+            "Corrected Value": "N8597 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "507 EAST CHURCH RD",
+            "Corrected Value": "507 E CHURCH RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "W5164 COUNTY ROAD",
+            "Corrected Value": "W5164 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Original Value": "N1766 COUNTY ROAD",
+            "Corrected Value": "N1766 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 638,
+            "Column": "address",
+            "Original Value": "W3646 COUNTY ROAD",
+            "Corrected Value": "W3646 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 639,
+            "Column": "address",
+            "Original Value": "W9402 COUNTY RD",
+            "Corrected Value": "W9402 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "W7258 COUNTY RD",
+            "Corrected Value": "W7258 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 642,
+            "Column": "address",
+            "Original Value": "3764 COUNTY RD",
+            "Corrected Value": "3764 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 643,
+            "Column": "address",
+            "Original Value": "N152 COUNTY RD",
+            "Corrected Value": "N152 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 648,
+            "Column": "address",
+            "Original Value": "W7398 COUNTY RD",
+            "Corrected Value": "W7398 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 671,
+            "Column": "address",
+            "Original Value": "W8115 CO RD K",
+            "Corrected Value": "W8115 CO RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "N8703 COUNTY RD",
+            "Corrected Value": "N8703 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 679,
+            "Column": "address",
+            "Original Value": "2412 COUNTY RD",
+            "Corrected Value": "2412 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 682,
+            "Column": "address",
+            "Original Value": "N1063 COUNTY RD",
+            "Corrected Value": "N1063 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 701,
+            "Column": "address",
+            "Original Value": "6471 COUNTY RD",
+            "Corrected Value": "6471 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 702,
+            "Column": "address",
+            "Original Value": "4606 STATE RD 73",
+            "Corrected Value": "4606 STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Original Value": "N9457 COUNTY RD",
+            "Corrected Value": "N9457 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Original Value": "N5001 STATE RD 89",
+            "Corrected Value": "N5001 STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 712,
+            "Column": "address",
+            "Original Value": "3262 COUNTY RD",
+            "Corrected Value": "3262 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 715,
+            "Column": "address",
+            "Original Value": "N869 US HWY 51",
+            "Corrected Value": "N869 US HWY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Original Value": "3398 COUNTY RD",
+            "Corrected Value": "3398 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 723,
+            "Column": "address",
+            "Original Value": "N133 COUNTY RD",
+            "Corrected Value": "N133 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 725,
+            "Column": "address",
+            "Original Value": "N1529 COUNTY RD",
+            "Corrected Value": "N1529 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 726,
+            "Column": "address",
+            "Original Value": "W5942 COUNTY RD",
+            "Corrected Value": "W5942 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 729,
+            "Column": "address",
+            "Original Value": "N4950 COUNTY RD",
+            "Corrected Value": "N4950 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "1523 COUNTY RD",
+            "Corrected Value": "1523 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 764,
+            "Column": "address",
+            "Original Value": "W6947 COUNTY RD",
+            "Corrected Value": "W6947 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 772,
+            "Column": "address",
+            "Original Value": "W5033 COUNTY ROAD",
+            "Corrected Value": "W5033 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 777,
+            "Column": "address",
+            "Original Value": "5510 COUNTY RD",
+            "Corrected Value": "5510 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 782,
+            "Column": "address",
+            "Original Value": "N5879 COUNTY ROAD",
+            "Corrected Value": "N5879 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 785,
+            "Column": "address",
+            "Original Value": "1960 EAST BRANCH ROAD",
+            "Corrected Value": "1960 E BRANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Original Value": "7266 COUNTY ROAD",
+            "Corrected Value": "7266 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 809,
+            "Column": "address",
+            "Original Value": "N1782 COUNTY ROAD",
+            "Corrected Value": "N1782 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 810,
+            "Column": "address",
+            "Original Value": "N4237 CTY RD G",
+            "Corrected Value": "N4237 CTY RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 811,
+            "Column": "address",
+            "Original Value": "W2604 COUNTY ROAD",
+            "Corrected Value": "W2604 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "5248 COUNTY ROAD",
+            "Corrected Value": "5248 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "address",
+            "Original Value": "N713 COUNTY ROAD",
+            "Corrected Value": "N713 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 825,
+            "Column": "address",
+            "Original Value": "N2579 COUNTY RD",
+            "Corrected Value": "N2579 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 836,
+            "Column": "address",
+            "Original Value": "W8529 COUNTY RD",
+            "Corrected Value": "W8529 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "address",
+            "Original Value": "W9344 SOUTH CEDAR RD",
+            "Corrected Value": "W9344 S CEDAR RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "address",
+            "Original Value": "1965 WEST RIDGE RD",
+            "Corrected Value": "1965 W RIDGE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 845,
+            "Column": "address",
+            "Original Value": "W6062 COUNTY RD",
+            "Corrected Value": "W6062 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "N2872 COUNTY RD",
+            "Corrected Value": "N2872 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "N673 COUNTY RD",
+            "Corrected Value": "N673 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 849,
+            "Column": "address",
+            "Original Value": "5136 COUNTY ROAD",
+            "Corrected Value": "5136 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 860,
+            "Column": "address",
+            "Original Value": "W3569 COUNTY ROAD",
+            "Corrected Value": "W3569 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "N8957 WEST ROAD",
+            "Corrected Value": "N8957 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 866,
+            "Column": "address",
+            "Original Value": "1801 COUNTY ROAD",
+            "Corrected Value": "1801 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Original Value": "4212 COUNTY RD",
+            "Corrected Value": "4212 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Original Value": "6732 COUNTY RD",
+            "Corrected Value": "6732 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 878,
+            "Column": "address",
+            "Original Value": "N224 COUNTY ROAD",
+            "Corrected Value": "N224 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 880,
+            "Column": "address",
+            "Original Value": "4835 NORTH FOX ROAD",
+            "Corrected Value": "4835 N FOX ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Original Value": "3008 COUNTY RD",
+            "Corrected Value": "3008 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 888,
+            "Column": "address",
+            "Original Value": "4100 COUNTY ROAD",
+            "Corrected Value": "4100 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Original Value": "4084 COUNTY RD",
+            "Corrected Value": "4084 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Original Value": "3115 COUNTY RD",
+            "Corrected Value": "3115 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 899,
+            "Column": "address",
+            "Original Value": "N3180 COUNTY RD",
+            "Corrected Value": "N3180 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 900,
+            "Column": "address",
+            "Original Value": "3600 COUNTY RD",
+            "Corrected Value": "3600 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 904,
+            "Column": "address",
+            "Original Value": "N4017 COUNTY RD",
+            "Corrected Value": "N4017 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Original Value": "W2870 COUNTY RD",
+            "Corrected Value": "W2870 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Original Value": "N8485 COUNTY RD",
+            "Corrected Value": "N8485 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 913,
+            "Column": "address",
+            "Original Value": "8109 W US HWY 14",
+            "Corrected Value": "8109 W US HWY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Original Value": "3838 CO ROAD V",
+            "Corrected Value": "3838 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 923,
+            "Column": "address",
+            "Original Value": "705 US HWY 51",
+            "Corrected Value": "705 US HWY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Original Value": "N1681 COUNTY RD",
+            "Corrected Value": "N1681 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 938,
+            "Column": "address",
+            "Original Value": "3083 COUNTY ROAD",
+            "Corrected Value": "3083 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 940,
+            "Column": "address",
+            "Original Value": "W6946 COUNTY RD",
+            "Corrected Value": "W6946 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Original Value": "2007 COUNTY RD",
+            "Corrected Value": "2007 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 948,
+            "Column": "address",
+            "Original Value": "3673 COUNTY ROAD",
+            "Corrected Value": "3673 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 956,
+            "Column": "address",
+            "Original Value": "W6292 COUNTY ROAD",
+            "Corrected Value": "W6292 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 960,
+            "Column": "address",
+            "Original Value": "N1677 COUNTY RD",
+            "Corrected Value": "N1677 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 961,
+            "Column": "address",
+            "Original Value": "3673 COUNTY RD",
+            "Corrected Value": "3673 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 962,
+            "Column": "address",
+            "Original Value": "N1887 COUNTY ROAD",
+            "Corrected Value": "N1887 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 965,
+            "Column": "address",
+            "Original Value": "7713 COUNTY ROAD",
+            "Corrected Value": "7713 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 967,
+            "Column": "address",
+            "Original Value": "4389 COUNTY ROAD",
+            "Corrected Value": "4389 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 971,
+            "Column": "address",
+            "Original Value": "4789 COUNTY ROAD",
+            "Corrected Value": "4789 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 973,
+            "Column": "address",
+            "Original Value": "N629 COUNTY ROAD",
+            "Corrected Value": "N629 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 974,
+            "Column": "address",
+            "Original Value": "N2835 COUNTY ROAD",
+            "Corrected Value": "N2835 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "address",
+            "Original Value": "5082 COUNTY ROAD",
+            "Corrected Value": "5082 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 979,
+            "Column": "address",
+            "Original Value": "5338 COUNTY ROAD",
+            "Corrected Value": "5338 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 986,
+            "Column": "address",
+            "Original Value": "1011 COUNTY RD",
+            "Corrected Value": "1011 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 991,
+            "Column": "address",
+            "Original Value": "1200 EAST VERONA AVENUE",
+            "Corrected Value": "1200 E VERONA AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 998,
+            "Column": "address",
+            "Original Value": "W6012 COUNTY ROAD",
+            "Corrected Value": "W6012 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 999,
+            "Column": "address",
+            "Original Value": "5137 CO ROAD V",
+            "Corrected Value": "5137 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1011,
+            "Column": "address",
+            "Original Value": "5590 COUNTY ROAD",
+            "Corrected Value": "5590 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1015,
+            "Column": "address",
+            "Original Value": "2822 NORTH HILL STREET",
+            "Corrected Value": "2822 N HILL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1025,
+            "Column": "address",
+            "Original Value": "2174 US HIGHWAY 12 & 18",
+            "Corrected Value": "2174 US HIGHWAY",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1026,
+            "Column": "address",
+            "Original Value": "W2631 COUNTY ROAD",
+            "Corrected Value": "W2631 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1038,
+            "Column": "address",
+            "Original Value": "N2275 COUNTY ROAD",
+            "Corrected Value": "N2275 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1041,
+            "Column": "address",
+            "Original Value": "W6850 COUNTY ROAD",
+            "Corrected Value": "W6850 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1049,
+            "Column": "address",
+            "Original Value": "1431 COUNTY ROAD",
+            "Corrected Value": "1431 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1050,
+            "Column": "address",
+            "Original Value": "W3621 COUNTY ROAD",
+            "Corrected Value": "W3621 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1051,
+            "Column": "address",
+            "Original Value": "N4794 COUNTY ROAD",
+            "Corrected Value": "N4794 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1056,
+            "Column": "address",
+            "Original Value": "8141 WEST MINERAL POINT ROAD",
+            "Corrected Value": "8141 W MINERAL POINT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1058,
+            "Column": "address",
+            "Original Value": "W6400 COUNTY ROAD",
+            "Corrected Value": "W6400 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1060,
+            "Column": "address",
+            "Original Value": "N3103 COUNTY ROAD",
+            "Corrected Value": "N3103 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1061,
+            "Column": "address",
+            "Original Value": "2180 COUNTY ROAD",
+            "Corrected Value": "2180 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1064,
+            "Column": "address",
+            "Original Value": "2056 COUNTY ROAD",
+            "Corrected Value": "2056 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1068,
+            "Column": "address",
+            "Original Value": "N1673 COUNTY ROAD",
+            "Corrected Value": "N1673 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1070,
+            "Column": "address",
+            "Original Value": "7402 SOUTH MEIXNER ROAD",
+            "Corrected Value": "7402 S MEIXNER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1074,
+            "Column": "address",
+            "Original Value": "W2403 STATE RD 60",
+            "Corrected Value": "W2403 STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1076,
+            "Column": "address",
+            "Original Value": "W2403 STATE RD 60",
+            "Corrected Value": "W2403 STATE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1078,
+            "Column": "address",
+            "Original Value": "3788 CO ROAD V",
+            "Corrected Value": "3788 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1079,
+            "Column": "address",
+            "Original Value": "N180 COUNTY ROAD",
+            "Corrected Value": "N180 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1081,
+            "Column": "address",
+            "Original Value": "N201 COUNTY ROAD",
+            "Corrected Value": "N201 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1083,
+            "Column": "address",
+            "Original Value": "6338 COUNTY ROAD",
+            "Corrected Value": "6338 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1091,
+            "Column": "address",
+            "Original Value": "W6435 COUNTY ROAD",
+            "Corrected Value": "W6435 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1092,
+            "Column": "address",
+            "Original Value": "6052 COUNTY ROAD",
+            "Corrected Value": "6052 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Original Value": "151 COUNTY ROAD",
+            "Corrected Value": "151 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1094,
+            "Column": "address",
+            "Original Value": "W6035 COUNTY ROAD",
+            "Corrected Value": "W6035 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1105,
+            "Column": "address",
+            "Original Value": "N5247 COUNTY ROAD",
+            "Corrected Value": "N5247 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1106,
+            "Column": "address",
+            "Original Value": "333 COUNTY ROAD",
+            "Corrected Value": "333 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1109,
+            "Column": "address",
+            "Original Value": "W5291 COUNTY ROAD",
+            "Corrected Value": "W5291 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1110,
+            "Column": "address",
+            "Original Value": "3996 CO ROAD V",
+            "Corrected Value": "3996 CO ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1111,
+            "Column": "address",
+            "Original Value": "N491 COUNTY RD",
+            "Corrected Value": "N491 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1115,
+            "Column": "address",
+            "Original Value": "N6396 COUNTY ROAD",
+            "Corrected Value": "N6396 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1120,
+            "Column": "address",
+            "Original Value": "974 COUNTY RD",
+            "Corrected Value": "974 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1124,
+            "Column": "address",
+            "Original Value": "879 COUNTY ROAD",
+            "Corrected Value": "879 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1125,
+            "Column": "address",
+            "Original Value": "N776 COUNTY ROAD",
+            "Corrected Value": "N776 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1126,
+            "Column": "address",
+            "Original Value": "7579 SOUTH MEIXNER ROAD",
+            "Corrected Value": "7579 S MEIXNER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1128,
+            "Column": "address",
+            "Original Value": "2293 WEST RIDGE ROAD",
+            "Corrected Value": "2293 W RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1131,
+            "Column": "address",
+            "Original Value": "N2321 COUNTY ROAD",
+            "Corrected Value": "N2321 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1137,
+            "Column": "address",
+            "Original Value": "6790 TWIN LANE RD 1165",
+            "Corrected Value": "6790 TWIN LANE RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1146,
+            "Column": "address",
+            "Original Value": "2670F EAST MAIN STREET",
+            "Corrected Value": "2670F E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "7606 COUNTY ROAD N",
+            "Corrected Value": "7606 CR N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "7645 COUNTY RD. N",
+            "Corrected Value": "7645 CR. N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "2311 COUNTY RD. N",
+            "Corrected Value": "2311 CR. N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "2229 COUNTY ROAD W",
+            "Corrected Value": "2229 CR W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "1535 COUNTY ROAD W",
+            "Corrected Value": "1535 CR W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "2048 COUNTY RD. W",
+            "Corrected Value": "2048 CR. W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "2096 COUNTY ROAD W",
+            "Corrected Value": "2096 CR W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 652,
+            "Column": "address",
+            "Original Value": "N611 COUNTY RD. N",
+            "Corrected Value": "N611 CR. N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "2086 COUNTY RD. W",
+            "Corrected Value": "2086 CR. W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Original Value": "2670 COUNTY RD. W",
+            "Corrected Value": "2670 CR. W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 841,
+            "Column": "address",
+            "Original Value": "N5183 COUNTY RD. N",
+            "Corrected Value": "N5183 CR. N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Original Value": "1996 COUNTY RD W",
+            "Corrected Value": "1996 CR W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 887,
+            "Column": "address",
+            "Original Value": "197 COUNTY RD. N",
+            "Corrected Value": "197 CR. N",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Original Value": "2488 COUNTY RD. W",
+            "Corrected Value": "2488 CR. W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1082,
+            "Column": "address",
+            "Original Value": "2031 COUNTY ROAD W",
+            "Corrected Value": "2031 CR W",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "7639 COUNTY TRUNK N",
+            "Corrected Value": "7639 COUNTY TRUNK N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "2037 RIVER  ESTATE",
+            "Corrected Value": "2037 RIVER ESTATE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "2280 COUNTY HWY N",
+            "Corrected Value": "2280 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "53523",
+            "Corrected Value": "53523",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "2167 CTY HWY W",
+            "Corrected Value": "2167 CTY HWY W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "1935 CTH V",
+            "Corrected Value": "1935 CTH N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "2705 COUNTY HWY N",
+            "Corrected Value": "2705 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "2466 CTY HWY N",
+            "Corrected Value": "2466 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Original Value": "7663 SUFFOLK DOWN",
+            "Corrected Value": "7663 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Original Value": "1693 ESKER TR",
+            "Corrected Value": "1693 ESKER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "7543 HWY VV",
+            "Corrected Value": "7543 COUNTY HIGHWAY VV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "7643 SUFFOLK DOWN",
+            "Corrected Value": "7643 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "7628 SUFFOLK DOWN",
+            "Corrected Value": "7628 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "7625 COUNTY HWY N",
+            "Corrected Value": "7625 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "2055 COUNTY HIGHWAY N",
+            "Corrected Value": "2055 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "1763 TAM O SHANTER TR",
+            "Corrected Value": "1763 TAM O SHANTER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "2073 COUNTY HWY N",
+            "Corrected Value": "2073 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "1728 TAM O SHANTER",
+            "Corrected Value": "1728 TAM O SHANTER TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "7635 SUFFOLK DOWN",
+            "Corrected Value": "7635 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "7644 SUFFOLK DOWN",
+            "Corrected Value": "7644 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "2142 COUNTY HWY N",
+            "Corrected Value": "2142 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "7550 SUFFOLK DOWN",
+            "Corrected Value": "7550 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "2060 RIVER ESTATE",
+            "Corrected Value": "2060 RIVER ESTATE LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "1720 FISSURE TR",
+            "Corrected Value": "1720 FISSURE TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "7575 SUFFOLK DOWN",
+            "Corrected Value": "7575 SUFFOLK DOWN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Original Value": "2150 COUNTY HIGHWAY N",
+            "Corrected Value": "2150 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "2027 COUNTY HIGHWAY N",
+            "Corrected Value": "2027 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "2150 COUNTY HIGHWAY BN",
+            "Corrected Value": "2150 COUNTY ROAD BN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "2508 COUNTY HIGHWAY N",
+            "Corrected Value": "2508 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "2217 COUNTY HIGHWAY N",
+            "Corrected Value": "2217 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Original Value": "2475 COUNTY HIGHWAY N",
+            "Corrected Value": "2475 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 326,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Original Value": "1625 FISSURE TRAI",
+            "Corrected Value": "1625 FISSURE TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "7677 COUNTY HIGHWAY VV",
+            "Corrected Value": "7677 COUNTY ROAD VV",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "2308 COUNTY TRUNK HIGHWAY V",
+            "Corrected Value": "2308 COUNTY ROAD V",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "7613 COUNTY HIGHWAY N",
+            "Corrected Value": "7613 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 388,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Original Value": "2554 COUNTY HIGHWAY N",
+            "Corrected Value": "2554 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "7747 COUNTY HIGHWAY N",
+            "Corrected Value": "7747 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "7618 COUNTY HIGHWAY N",
+            "Corrected Value": "7618 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Original Value": "7629 COUNTY HIGHWAY N",
+            "Corrected Value": "7629 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Original Value": "2354 COUNTY HIGHWAY N",
+            "Corrected Value": "2354 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "2192 COUNTY HIGHWAY N",
+            "Corrected Value": "2192 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "zip",
+            "Original Value": "53531",
+            "Corrected Value": "53531",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "3316 COUNTY HIGHWAY BN",
+            "Corrected Value": "3316 BN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "zip",
+            "Original Value": "53531",
+            "Corrected Value": "53531",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "1326 U.S.12",
+            "Corrected Value": "1326 US HIGHWAY 12",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "1867 COUNTY HWY. W",
+            "Corrected Value": "1867 COUNTY RD W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "zip",
+            "Original Value": "53531",
+            "Corrected Value": "53531",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "3002 STATE HIGHWAY 73",
+            "Corrected Value": "3002 STATE ROAD 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "zip",
+            "Original Value": "53559",
+            "Corrected Value": "53559",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "903 HIGHWAY V",
+            "Corrected Value": "903 HIGHWAY V",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "zip",
+            "Original Value": "53558",
+            "Corrected Value": "53558",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Original Value": "3882 COUNTY HIGHWAY B",
+            "Corrected Value": "3882 COUNTY ROAD B",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "1926 COUNTY HIGHWAY W",
+            "Corrected Value": "1926 COUNTY RD W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "zip",
+            "Original Value": "53549",
+            "Corrected Value": "53549",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Original Value": "N5008 HWY 89",
+            "Corrected Value": "N5008 HWY 89",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "zip",
+            "Original Value": "53911",
+            "Corrected Value": "53911",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Original Value": "W6008 COUNTY HWY K",
+            "Corrected Value": "W6008 HIGHWAY K",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 579,
+            "Column": "zip",
+            "Original Value": "53523",
+            "Corrected Value": "53523",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 579,
+            "Column": "address",
+            "Original Value": "W8292 HWY 18",
+            "Corrected Value": "W8292 US HIGHWAY 18",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "zip",
+            "Original Value": "53534",
+            "Corrected Value": "53534",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "687 COUNTY HWY A",
+            "Corrected Value": "687 A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Original Value": "2336 CTY HWY BN",
+            "Corrected Value": "2336 CTY HWY BN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "1648 COUNTY HWY N",
+            "Corrected Value": "1648 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "N1159 HIGHWAY A",
+            "Corrected Value": "1159 A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "zip",
+            "Original Value": "53523",
+            "Corrected Value": "53523",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "600 HIGHWAY PQ",
+            "Corrected Value": "600 HIGHWAY PQ",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 654,
+            "Column": "zip",
+            "Original Value": "53534",
+            "Corrected Value": "53534",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Original Value": "302 CO HWY X",
+            "Corrected Value": "302 ALBION ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "zip",
+            "Original Value": "53960",
+            "Corrected Value": "53960",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Original Value": "N1748 HWY C",
+            "Corrected Value": "N1748 HIGHWAY C",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "zip",
+            "Original Value": "53529",
+            "Corrected Value": "53529",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Original Value": "6073 COUNTY HWY DM",
+            "Corrected Value": "6073 HIGHWAY DM",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "zip",
+            "Original Value": "53094",
+            "Corrected Value": "53094",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "N9045 HWY Q",
+            "Corrected Value": "N9045 COUNTY HIGHWAY Q",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "zip",
+            "Original Value": "53590",
+            "Corrected Value": "53590",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "5516 COUNTY HIGHWAY N",
+            "Corrected Value": "5516 COUNTY RD N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 775,
+            "Column": "zip",
+            "Original Value": "53098",
+            "Corrected Value": "53098",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 775,
+            "Column": "address",
+            "Original Value": "N2112 HWY M",
+            "Corrected Value": "N2112 HIGHWAY M",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 783,
+            "Column": "zip",
+            "Original Value": "53527",
+            "Corrected Value": "53527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 783,
+            "Column": "address",
+            "Original Value": "4931 HWY TT",
+            "Corrected Value": "4931 HWY TT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 788,
+            "Column": "zip",
+            "Original Value": "53960",
+            "Corrected Value": "53960",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 788,
+            "Column": "address",
+            "Original Value": "N1007 COUNTY HIGHWAY C",
+            "Corrected Value": "N1007 HIGHWAY C",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "address",
+            "Original Value": "534 HWY 51",
+            "Corrected Value": "534 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "zip",
+            "Original Value": "53911",
+            "Corrected Value": "53911",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Original Value": "W6008 COUNTY HWY K",
+            "Corrected Value": "W6008 HIGHWAY K",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "address",
+            "Original Value": "7862 HWY 51",
+            "Corrected Value": "7862 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Original Value": "7862 HWY 51",
+            "Corrected Value": "7862 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 828,
+            "Column": "zip",
+            "Original Value": "53911",
+            "Corrected Value": "53911",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 828,
+            "Column": "address",
+            "Original Value": "N1407 HIGHWAY 51",
+            "Corrected Value": "N1407 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "zip",
+            "Original Value": "53527",
+            "Corrected Value": "53527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Original Value": "3440 COUNTY HWY N",
+            "Corrected Value": "3440 COUNTY HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 832,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 832,
+            "Column": "address",
+            "Original Value": "6964 HWY I",
+            "Corrected Value": "6964 COUNTY HIGHWAY I",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 855,
+            "Column": "zip",
+            "Original Value": "53911",
+            "Corrected Value": "53911",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 855,
+            "Column": "address",
+            "Original Value": "N845 U.S. 51",
+            "Corrected Value": "N845 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "3838 COUNTY HWY V",
+            "Corrected Value": "3838 COUNTY HIGHWAY V",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "N2983 COUNTY HWY A",
+            "Corrected Value": "N2983 COUNTY ROAD A",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 898,
+            "Column": "zip",
+            "Original Value": "53559",
+            "Corrected Value": "53559",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 898,
+            "Column": "address",
+            "Original Value": "5676 STATE HIGHWAY 73",
+            "Corrected Value": "5676 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 922,
+            "Column": "zip",
+            "Original Value": "53039",
+            "Corrected Value": "53039",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Original Value": "W7115 WI-16",
+            "Corrected Value": "WEST ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "zip",
+            "Original Value": "53558",
+            "Corrected Value": "53558",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Original Value": "3274 COUNTY HWY AB",
+            "Corrected Value": "3274 COUNTY ROAD AB",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 932,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 932,
+            "Column": "address",
+            "Original Value": "W3603 HIGHWAY 60",
+            "Corrected Value": "W3603 HIGHWAY 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 941,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 941,
+            "Column": "address",
+            "Original Value": "N3792 COUNTY HIGHWAY T",
+            "Corrected Value": "N3792 COUNTY ROAD T",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 952,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 952,
+            "Column": "address",
+            "Original Value": "4025 HWY V",
+            "Corrected Value": "4025 COUNTY HIGHWAY V",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 954,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 954,
+            "Column": "address",
+            "Original Value": "1921 COUNTY HIGHWAY B",
+            "Corrected Value": "1921 HIGHWAY B",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 969,
+            "Column": "zip",
+            "Original Value": "53538",
+            "Corrected Value": "53538",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 969,
+            "Column": "address",
+            "Original Value": "W7834 U.S. 18",
+            "Corrected Value": "W7834 US HIGHWAY 18",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 981,
+            "Column": "zip",
+            "Original Value": "53572",
+            "Corrected Value": "53572",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 981,
+            "Column": "address",
+            "Original Value": "4773 COUNTY HIGHWAY J",
+            "Corrected Value": "4773 COUNTY ROAD J",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 983,
+            "Column": "zip",
+            "Original Value": "53572",
+            "Corrected Value": "53572",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 983,
+            "Column": "address",
+            "Original Value": "4769 COUNTY HIGHWAY J",
+            "Corrected Value": "4769 COUNTY ROAD J",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 989,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 989,
+            "Column": "address",
+            "Original Value": "424 U.S. 51",
+            "Corrected Value": "424 US HIGHWAY 51",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 990,
+            "Column": "zip",
+            "Original Value": "53523",
+            "Corrected Value": "53523",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 990,
+            "Column": "address",
+            "Original Value": "2291 COUNTY W",
+            "Corrected Value": "2291 COUNTY ROAD W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 992,
+            "Column": "zip",
+            "Original Value": "53932",
+            "Corrected Value": "53932",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 992,
+            "Column": "address",
+            "Original Value": "W1605 WISCONSIN 16",
+            "Corrected Value": "W1605 HWY16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 993,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Original Value": "6996 COUNTY HIGHWAY I",
+            "Corrected Value": "6996 COUNTY HIGHWAY I",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Original Value": "N5679 WISCONSIN 73",
+            "Corrected Value": "N5679 WISCONSIN 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1003,
+            "Column": "zip",
+            "Original Value": "53098",
+            "Corrected Value": "53098",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1003,
+            "Column": "address",
+            "Original Value": "W9160 WISCONSIN 19",
+            "Corrected Value": "W9160 HIGHWAY 19",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "zip",
+            "Original Value": "53532",
+            "Corrected Value": "53532",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Original Value": "3576 COUNTY HIGHWAY V",
+            "Corrected Value": "3576 COUNTY HIGHWAY V",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1013,
+            "Column": "zip",
+            "Original Value": "53932",
+            "Corrected Value": "53932",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1013,
+            "Column": "address",
+            "Original Value": "W2220 WISCONSIN 16",
+            "Corrected Value": "W2220 HWY16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1014,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1014,
+            "Column": "address",
+            "Original Value": "N1224 COUNTY HIGHWAY N",
+            "Corrected Value": "1224 COUNTY HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1023,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1023,
+            "Column": "address",
+            "Original Value": "N5450 WISCONSIN 73",
+            "Corrected Value": "N5450 STATE HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1035,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1035,
+            "Column": "address",
+            "Original Value": "1952 COUNTY W",
+            "Corrected Value": "1952 COUNTY ROAD W",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1037,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1037,
+            "Column": "address",
+            "Original Value": "2279 COUNTY HIGHWAY BN",
+            "Corrected Value": "2279 COUNTY ROAD BN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1039,
+            "Column": "zip",
+            "Original Value": "53558",
+            "Corrected Value": "53558",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1039,
+            "Column": "address",
+            "Original Value": "3094 COUNTY HIGHWAY MN",
+            "Corrected Value": "3094 COUNTY ROAD MN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "zip",
+            "Original Value": "53960",
+            "Corrected Value": "53960",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Original Value": "W3640 WISCONSIN 60 TRUNK",
+            "Corrected Value": "W3640 WISCONSIN 60 TRUNK",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1053,
+            "Column": "zip",
+            "Original Value": "53559",
+            "Corrected Value": "53559",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1053,
+            "Column": "address",
+            "Original Value": "7530 WISCONSIN 73",
+            "Corrected Value": "7530 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1054,
+            "Column": "zip",
+            "Original Value": "53558",
+            "Corrected Value": "53558",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1054,
+            "Column": "address",
+            "Original Value": "3268 COUNTY HIGHWAY MN",
+            "Corrected Value": "3268 MN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1059,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1059,
+            "Column": "address",
+            "Original Value": "W2794 WISCONSIN 16",
+            "Corrected Value": "W2794 HIGHWAY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1062,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1062,
+            "Column": "address",
+            "Original Value": "N142 WISCONSIN 73",
+            "Corrected Value": "N142 HIGHWAY 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1067,
+            "Column": "zip",
+            "Original Value": "53531",
+            "Corrected Value": "53531",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1067,
+            "Column": "address",
+            "Original Value": "1843 U.S. 12",
+            "Corrected Value": "1843 US HIGHWAY 12",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1077,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1077,
+            "Column": "address",
+            "Original Value": "W2732 WISCONSIN 16",
+            "Corrected Value": "W2732 HIGHWAY 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1088,
+            "Column": "zip",
+            "Original Value": "53925",
+            "Corrected Value": "53925",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1088,
+            "Column": "address",
+            "Original Value": "N5663 WISCONSIN 73",
+            "Corrected Value": "N5663 WISCONSIN 73",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1101,
+            "Column": "zip",
+            "Original Value": "53589",
+            "Corrected Value": "53589",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1101,
+            "Column": "address",
+            "Original Value": "2354 COUNTY HIGHWAY N",
+            "Corrected Value": "2354 COUNTY HIGHWAY N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1104,
+            "Column": "zip",
+            "Original Value": "53572",
+            "Corrected Value": "53572",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1104,
+            "Column": "address",
+            "Original Value": "4966 COUNTY HIGHWAY J",
+            "Corrected Value": "4966 COUNTY ROAD J",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1107,
+            "Column": "zip",
+            "Original Value": "53960",
+            "Corrected Value": "53960",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1107,
+            "Column": "address",
+            "Original Value": "W3199 WISCONSIN 16",
+            "Corrected Value": "W3199 WISCONSIN 16",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1127,
+            "Column": "zip",
+            "Original Value": "53911",
+            "Corrected Value": "53911",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1127,
+            "Column": "address",
+            "Original Value": "1423 COUNTY HIGHWAY I",
+            "Corrected Value": "1423 COUNTY HIGHWAY I",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1134,
+            "Column": "zip",
+            "Original Value": "53527",
+            "Corrected Value": "53527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1134,
+            "Column": "address",
+            "Original Value": "2506 COUNTY HIGHWAY MN",
+            "Corrected Value": "2506 COUNTY ROAD MN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 475,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23)",
+            "Value": "185"
+        },
+        {
+            "Row": 1048,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3785)",
+            "Value": "3787"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 7,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7639 COUNTY TRUNK N"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2037 RIVER ESTATE"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2280 COUNTY HWY N"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2167 CTY HWY W"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1935 CTH V"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2705 COUNTY HWY N"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2466 CTY HWY N"
+        },
+        {
+            "Row": 75,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7663 SUFFOLK DOWN"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1693 ESKER TR"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7543 HWY VV"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7643 SUFFOLK DOWN"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7628 SUFFOLK DOWN"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7625 COUNTY HWY N"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2055 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1763 TAM O SHANTER TR"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2073 COUNTY HWY N"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1728 TAM O SHANTER"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7635 SUFFOLK DOWN"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7644 SUFFOLK DOWN"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2142 COUNTY HWY N"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7550 SUFFOLK DOWN"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2060 RIVER ESTATE"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1720 FISSURE TR"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7575 SUFFOLK DOWN"
+        },
+        {
+            "Row": 247,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2150 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2027 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2150 COUNTY HIGHWAY BN"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2508 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2217 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2475 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1625 FISSURE TRAI"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7677 COUNTY HIGHWAY VV"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2308 COUNTY TRUNK HIGHWAY V"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7613 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2554 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7747 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7618 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 406,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7629 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2354 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2192 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3316 COUNTY HIGHWAY BN"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1326 US12"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1867 COUNTY HWY W"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3002 STATE HIGHWAY 73"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "903 HIGHWAY V"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3882 COUNTY HIGHWAY B"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1926 COUNTY HIGHWAY W"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N5008 HWY 89"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W6008 COUNTY HWY K"
+        },
+        {
+            "Row": 579,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W8292 HWY 18"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "687 COUNTY HWY A"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2336 CTY HWY BN"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1648 COUNTY HWY N"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N1159 HIGHWAY A"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "600 HIGHWAY PQ"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "302 CO HWY X"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N1748 HWY C"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6073 COUNTY HWY DM"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N9045 HWY Q"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5516 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 775,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N2112 HWY M"
+        },
+        {
+            "Row": 783,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4931 HWY TT"
+        },
+        {
+            "Row": 788,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N1007 COUNTY HIGHWAY C"
+        },
+        {
+            "Row": 791,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "534 HWY 51"
+        },
+        {
+            "Row": 808,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W6008 COUNTY HWY K"
+        },
+        {
+            "Row": 813,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7862 HWY 51"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7862 HWY 51"
+        },
+        {
+            "Row": 828,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N1407 HIGHWAY 51"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3440 COUNTY HWY N"
+        },
+        {
+            "Row": 832,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6964 HWY I"
+        },
+        {
+            "Row": 855,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N845 US 51"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3838 COUNTY HWY V"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N2983 COUNTY HWY A"
+        },
+        {
+            "Row": 898,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5676 STATE HIGHWAY 73"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W7115 WI16"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3274 COUNTY HWY AB"
+        },
+        {
+            "Row": 932,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W3603 HIGHWAY 60"
+        },
+        {
+            "Row": 941,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N3792 COUNTY HIGHWAY T"
+        },
+        {
+            "Row": 952,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4025 HWY V"
+        },
+        {
+            "Row": 954,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1921 COUNTY HIGHWAY B"
+        },
+        {
+            "Row": 969,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W7834 US 18"
+        },
+        {
+            "Row": 981,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4773 COUNTY HIGHWAY J"
+        },
+        {
+            "Row": 983,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4769 COUNTY HIGHWAY J"
+        },
+        {
+            "Row": 989,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "424 US 51"
+        },
+        {
+            "Row": 990,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2291 COUNTY W"
+        },
+        {
+            "Row": 992,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W1605 WISCONSIN 16"
+        },
+        {
+            "Row": 993,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6996 COUNTY HIGHWAY I"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N5679 WISCONSIN 73"
+        },
+        {
+            "Row": 1003,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W9160 WISCONSIN 19"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3576 COUNTY HIGHWAY V"
+        },
+        {
+            "Row": 1013,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W2220 WISCONSIN 16"
+        },
+        {
+            "Row": 1014,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N1224 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 1023,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N5450 WISCONSIN 73"
+        },
+        {
+            "Row": 1035,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1952 COUNTY W"
+        },
+        {
+            "Row": 1037,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2279 COUNTY HIGHWAY BN"
+        },
+        {
+            "Row": 1039,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3094 COUNTY HIGHWAY MN"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W3640 WISCONSIN 60 TRUNK"
+        },
+        {
+            "Row": 1053,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7530 WISCONSIN 73"
+        },
+        {
+            "Row": 1054,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3268 COUNTY HIGHWAY MN"
+        },
+        {
+            "Row": 1059,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W2794 WISCONSIN 16"
+        },
+        {
+            "Row": 1062,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N142 WISCONSIN 73"
+        },
+        {
+            "Row": 1067,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1843 US 12"
+        },
+        {
+            "Row": 1077,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W2732 WISCONSIN 16"
+        },
+        {
+            "Row": 1088,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "N5663 WISCONSIN 73"
+        },
+        {
+            "Row": 1101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2354 COUNTY HIGHWAY N"
+        },
+        {
+            "Row": 1104,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4966 COUNTY HIGHWAY J"
+        },
+        {
+            "Row": 1107,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "W3199 WISCONSIN 16"
+        },
+        {
+            "Row": 1127,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1423 COUNTY HIGHWAY I"
+        },
+        {
+            "Row": 1134,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2506 COUNTY HIGHWAY MN"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 475,
+            "customer": "185",
+            "lat": 43.04398,
+            "lon": -89.24571,
+            "address": "3164 LUDS LANE",
+            "city": "MCFARLAND",
+            "state": "WI",
+            "zip": "53558",
+            "download": 42.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 23)"
+        },
+        {
+            "OrigRowNum": 1048,
+            "customer": "3787",
+            "lat": 43.301362,
+            "lon": -89.288046,
+            "address": "N695 KRONCKE ROAD",
+            "city": "DEFOREST",
+            "state": "WI",
+            "zip": "53532",
+            "download": 22.0,
+            "upload": 12.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3785)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 7,
+            "Original Address": "7639 COUNTY TRUNK N",
+            "Corrected Address": "7639 COUNTY TRUNK N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:32.461257"
+        },
+        {
+            "OrigRowNum": 13,
+            "Original Address": "2037 RIVER  ESTATE",
+            "Corrected Address": "2037 RIVER ESTATE LN",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:32.813364"
+        },
+        {
+            "OrigRowNum": 17,
+            "Original Address": "2280 COUNTY HWY N",
+            "Corrected Address": "2280 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:33.168721"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "2167 CTY HWY W",
+            "Corrected Address": "2167 CTY HWY W",
+            "Original ZIP": "53523",
+            "Corrected ZIP": "53523",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:33.447064"
+        },
+        {
+            "OrigRowNum": 52,
+            "Original Address": "1935 CTH V",
+            "Corrected Address": "1935 CTH N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:33.735887"
+        },
+        {
+            "OrigRowNum": 56,
+            "Original Address": "2705 COUNTY HWY N",
+            "Corrected Address": "2705 COUNTY RD N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:34.005178"
+        },
+        {
+            "OrigRowNum": 61,
+            "Original Address": "2466 CTY HWY N",
+            "Corrected Address": "2466 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:34.304474"
+        },
+        {
+            "OrigRowNum": 75,
+            "Original Address": "7663 SUFFOLK DOWN",
+            "Corrected Address": "7663 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:34.603608"
+        },
+        {
+            "OrigRowNum": 98,
+            "Original Address": "1693 ESKER TR",
+            "Corrected Address": "1693 ESKER TRL",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:34.893669"
+        },
+        {
+            "OrigRowNum": 101,
+            "Original Address": "7543 HWY VV",
+            "Corrected Address": "7543 COUNTY HIGHWAY VV",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:35.169693"
+        },
+        {
+            "OrigRowNum": 103,
+            "Original Address": "7643 SUFFOLK DOWN",
+            "Corrected Address": "7643 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:35.453789"
+        },
+        {
+            "OrigRowNum": 110,
+            "Original Address": "7628 SUFFOLK DOWN",
+            "Corrected Address": "7628 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:35.666896"
+        },
+        {
+            "OrigRowNum": 125,
+            "Original Address": "7625 COUNTY HWY N",
+            "Corrected Address": "7625 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:35.893306"
+        },
+        {
+            "OrigRowNum": 128,
+            "Original Address": "2055 COUNTY HIGHWAY N",
+            "Corrected Address": "2055 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:36.113266"
+        },
+        {
+            "OrigRowNum": 151,
+            "Original Address": "1763 TAM O SHANTER TR",
+            "Corrected Address": "1763 TAM O SHANTER TRL",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:36.329714"
+        },
+        {
+            "OrigRowNum": 159,
+            "Original Address": "2073 COUNTY HWY N",
+            "Corrected Address": "2073 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:36.549186"
+        },
+        {
+            "OrigRowNum": 177,
+            "Original Address": "1728 TAM O SHANTER",
+            "Corrected Address": "1728 TAM O SHANTER TRL",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:36.771478"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "7635 SUFFOLK DOWN",
+            "Corrected Address": "7635 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:36.988736"
+        },
+        {
+            "OrigRowNum": 184,
+            "Original Address": "7644 SUFFOLK DOWN",
+            "Corrected Address": "7644 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:37.209002"
+        },
+        {
+            "OrigRowNum": 193,
+            "Original Address": "2142 COUNTY HWY N",
+            "Corrected Address": "2142 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:37.429132"
+        },
+        {
+            "OrigRowNum": 218,
+            "Original Address": "7550 SUFFOLK DOWN",
+            "Corrected Address": "7550 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:37.641201"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "2060 RIVER ESTATE",
+            "Corrected Address": "2060 RIVER ESTATE LN",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:37.903936"
+        },
+        {
+            "OrigRowNum": 234,
+            "Original Address": "1720 FISSURE TR",
+            "Corrected Address": "1720 FISSURE TRL",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:38.170322"
+        },
+        {
+            "OrigRowNum": 239,
+            "Original Address": "7575 SUFFOLK DOWN",
+            "Corrected Address": "7575 SUFFOLK DOWN",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:38.418917"
+        },
+        {
+            "OrigRowNum": 247,
+            "Original Address": "2150 COUNTY HIGHWAY N",
+            "Corrected Address": "2150 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:38.660991"
+        },
+        {
+            "OrigRowNum": 258,
+            "Original Address": "2027 COUNTY HIGHWAY N",
+            "Corrected Address": "2027 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:38.939112"
+        },
+        {
+            "OrigRowNum": 262,
+            "Original Address": "2150 COUNTY HIGHWAY BN",
+            "Corrected Address": "2150 COUNTY ROAD BN",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:39.183296"
+        },
+        {
+            "OrigRowNum": 267,
+            "Original Address": "2508 COUNTY HIGHWAY N",
+            "Corrected Address": "2508 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:39.448065"
+        },
+        {
+            "OrigRowNum": 282,
+            "Original Address": "2217 COUNTY HIGHWAY N",
+            "Corrected Address": "2217 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:39.698724"
+        },
+        {
+            "OrigRowNum": 321,
+            "Original Address": "2475 COUNTY HIGHWAY N",
+            "Corrected Address": "2475 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:39.961649"
+        },
+        {
+            "OrigRowNum": 326,
+            "Original Address": "1625 FISSURE TRAI",
+            "Corrected Address": "1625 FISSURE TRL",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:40.221992"
+        },
+        {
+            "OrigRowNum": 347,
+            "Original Address": "7677 COUNTY HIGHWAY VV",
+            "Corrected Address": "7677 COUNTY ROAD VV",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:40.479409"
+        },
+        {
+            "OrigRowNum": 376,
+            "Original Address": "2308 COUNTY TRUNK HIGHWAY V",
+            "Corrected Address": "2308 COUNTY ROAD V",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:40.737853"
+        },
+        {
+            "OrigRowNum": 377,
+            "Original Address": "7613 COUNTY HIGHWAY N",
+            "Corrected Address": "7613 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:40.958520"
+        },
+        {
+            "OrigRowNum": 388,
+            "Original Address": "2554 COUNTY HIGHWAY N",
+            "Corrected Address": "2554 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:41.166658"
+        },
+        {
+            "OrigRowNum": 396,
+            "Original Address": "7747 COUNTY HIGHWAY N",
+            "Corrected Address": "7747 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:41.399091"
+        },
+        {
+            "OrigRowNum": 397,
+            "Original Address": "7618 COUNTY HIGHWAY N",
+            "Corrected Address": "7618 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:41.638482"
+        },
+        {
+            "OrigRowNum": 406,
+            "Original Address": "7629 COUNTY HIGHWAY N",
+            "Corrected Address": "7629 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:41.866731"
+        },
+        {
+            "OrigRowNum": 418,
+            "Original Address": "2354 COUNTY HIGHWAY N",
+            "Corrected Address": "2354 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:42.097863"
+        },
+        {
+            "OrigRowNum": 423,
+            "Original Address": "2192 COUNTY HIGHWAY N",
+            "Corrected Address": "2192 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:42.309841"
+        },
+        {
+            "OrigRowNum": 426,
+            "Original Address": "3316 COUNTY HIGHWAY BN",
+            "Corrected Address": "3316 BN",
+            "Original ZIP": "53531",
+            "Corrected ZIP": "53531",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:42.533389"
+        },
+        {
+            "OrigRowNum": 464,
+            "Original Address": "1326 U.S.12",
+            "Corrected Address": "1326 US HIGHWAY 12",
+            "Original ZIP": "53531",
+            "Corrected ZIP": "53531",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:42.762414"
+        },
+        {
+            "OrigRowNum": 480,
+            "Original Address": "1867 COUNTY HWY. W",
+            "Corrected Address": "1867 COUNTY RD W",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:42.997008"
+        },
+        {
+            "OrigRowNum": 497,
+            "Original Address": "3002 STATE HIGHWAY 73",
+            "Corrected Address": "3002 STATE ROAD 73",
+            "Original ZIP": "53531",
+            "Corrected ZIP": "53531",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:43.207404"
+        },
+        {
+            "OrigRowNum": 508,
+            "Original Address": "903 HIGHWAY V",
+            "Corrected Address": "903 HIGHWAY V",
+            "Original ZIP": "53559",
+            "Corrected ZIP": "53559",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:43.432302"
+        },
+        {
+            "OrigRowNum": 516,
+            "Original Address": "3882 COUNTY HIGHWAY B",
+            "Corrected Address": "3882 COUNTY ROAD B",
+            "Original ZIP": "53558",
+            "Corrected ZIP": "53558",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:43.651051"
+        },
+        {
+            "OrigRowNum": 530,
+            "Original Address": "1926 COUNTY HIGHWAY W",
+            "Corrected Address": "1926 COUNTY RD W",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:43.881757"
+        },
+        {
+            "OrigRowNum": 556,
+            "Original Address": "N5008 HWY 89",
+            "Corrected Address": "N5008 HWY 89",
+            "Original ZIP": "53549",
+            "Corrected ZIP": "53549",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:44.111813"
+        },
+        {
+            "OrigRowNum": 577,
+            "Original Address": "W6008 COUNTY HWY K",
+            "Corrected Address": "W6008 HIGHWAY K",
+            "Original ZIP": "53911",
+            "Corrected ZIP": "53911",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:44.326732"
+        },
+        {
+            "OrigRowNum": 579,
+            "Original Address": "W8292 HWY 18",
+            "Corrected Address": "W8292 US HIGHWAY 18",
+            "Original ZIP": "53523",
+            "Corrected ZIP": "53523",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:44.549089"
+        },
+        {
+            "OrigRowNum": 581,
+            "Original Address": "687 COUNTY HWY A",
+            "Corrected Address": "687 A",
+            "Original ZIP": "53534",
+            "Corrected ZIP": "53534",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:44.783154"
+        },
+        {
+            "OrigRowNum": 585,
+            "Original Address": "2336 CTY HWY BN",
+            "Corrected Address": "2336 CTY HWY BN",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:45.011384"
+        },
+        {
+            "OrigRowNum": 605,
+            "Original Address": "1648 COUNTY HWY N",
+            "Corrected Address": "1648 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:45.229397"
+        },
+        {
+            "OrigRowNum": 615,
+            "Original Address": "N1159 HIGHWAY A",
+            "Corrected Address": "1159 A",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:45.484387"
+        },
+        {
+            "OrigRowNum": 620,
+            "Original Address": "600 HIGHWAY PQ",
+            "Corrected Address": "600 HIGHWAY PQ",
+            "Original ZIP": "53523",
+            "Corrected ZIP": "53523",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:45.726697"
+        },
+        {
+            "OrigRowNum": 654,
+            "Original Address": "302 CO HWY X",
+            "Corrected Address": "302 ALBION ST",
+            "Original ZIP": "53534",
+            "Corrected ZIP": "53534",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:45.949919"
+        },
+        {
+            "OrigRowNum": 664,
+            "Original Address": "N1748 HWY C",
+            "Corrected Address": "N1748 HIGHWAY C",
+            "Original ZIP": "53960",
+            "Corrected ZIP": "53960",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:46.169382"
+        },
+        {
+            "OrigRowNum": 672,
+            "Original Address": "6073 COUNTY HWY DM",
+            "Corrected Address": "6073 HIGHWAY DM",
+            "Original ZIP": "53529",
+            "Corrected ZIP": "53529",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:46.387411"
+        },
+        {
+            "OrigRowNum": 730,
+            "Original Address": "N9045 HWY Q",
+            "Corrected Address": "N9045 COUNTY HIGHWAY Q",
+            "Original ZIP": "53094",
+            "Corrected ZIP": "53094",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:46.609180"
+        },
+        {
+            "OrigRowNum": 767,
+            "Original Address": "5516 COUNTY HIGHWAY N",
+            "Corrected Address": "5516 COUNTY RD N",
+            "Original ZIP": "53590",
+            "Corrected ZIP": "53590",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:46.856749"
+        },
+        {
+            "OrigRowNum": 775,
+            "Original Address": "N2112 HWY M",
+            "Corrected Address": "N2112 HIGHWAY M",
+            "Original ZIP": "53098",
+            "Corrected ZIP": "53098",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:47.075166"
+        },
+        {
+            "OrigRowNum": 783,
+            "Original Address": "4931 HWY TT",
+            "Corrected Address": "4931 HWY TT",
+            "Original ZIP": "53527",
+            "Corrected ZIP": "53527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:47.292204"
+        },
+        {
+            "OrigRowNum": 788,
+            "Original Address": "N1007 COUNTY HIGHWAY C",
+            "Corrected Address": "N1007 HIGHWAY C",
+            "Original ZIP": "53960",
+            "Corrected ZIP": "53960",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:47.511489"
+        },
+        {
+            "OrigRowNum": 791,
+            "Original Address": "534 HWY 51",
+            "Corrected Address": "534 US HIGHWAY 51",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:47.728298"
+        },
+        {
+            "OrigRowNum": 808,
+            "Original Address": "W6008 COUNTY HWY K",
+            "Corrected Address": "W6008 HIGHWAY K",
+            "Original ZIP": "53911",
+            "Corrected ZIP": "53911",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:47.952086"
+        },
+        {
+            "OrigRowNum": 813,
+            "Original Address": "7862 HWY 51",
+            "Corrected Address": "7862 US HIGHWAY 51",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:48.172700"
+        },
+        {
+            "OrigRowNum": 824,
+            "Original Address": "7862 HWY 51",
+            "Corrected Address": "7862 US HIGHWAY 51",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:48.394376"
+        },
+        {
+            "OrigRowNum": 828,
+            "Original Address": "N1407 HIGHWAY 51",
+            "Corrected Address": "N1407 US HIGHWAY 51",
+            "Original ZIP": "53911",
+            "Corrected ZIP": "53911",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:48.631602"
+        },
+        {
+            "OrigRowNum": 831,
+            "Original Address": "3440 COUNTY HWY N",
+            "Corrected Address": "3440 COUNTY HWY",
+            "Original ZIP": "53527",
+            "Corrected ZIP": "53527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:48.856808"
+        },
+        {
+            "OrigRowNum": 832,
+            "Original Address": "6964 HWY I",
+            "Corrected Address": "6964 COUNTY HIGHWAY I",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:49.077100"
+        },
+        {
+            "OrigRowNum": 855,
+            "Original Address": "N845 U.S. 51",
+            "Corrected Address": "N845 US HIGHWAY 51",
+            "Original ZIP": "53911",
+            "Corrected ZIP": "53911",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:49.297930"
+        },
+        {
+            "OrigRowNum": 861,
+            "Original Address": "3838 COUNTY HWY V",
+            "Corrected Address": "3838 COUNTY HIGHWAY V",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:49.513903"
+        },
+        {
+            "OrigRowNum": 872,
+            "Original Address": "N2983 COUNTY HWY A",
+            "Corrected Address": "N2983 COUNTY ROAD A",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:49.729109"
+        },
+        {
+            "OrigRowNum": 898,
+            "Original Address": "5676 STATE HIGHWAY 73",
+            "Corrected Address": "5676 HIGHWAY 73",
+            "Original ZIP": "53559",
+            "Corrected ZIP": "53559",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:49.983279"
+        },
+        {
+            "OrigRowNum": 922,
+            "Original Address": "W7115 WI-16",
+            "Corrected Address": "WEST ST",
+            "Original ZIP": "53039",
+            "Corrected ZIP": "53039",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:50.221895"
+        },
+        {
+            "OrigRowNum": 928,
+            "Original Address": "3274 COUNTY HWY AB",
+            "Corrected Address": "3274 COUNTY ROAD AB",
+            "Original ZIP": "53558",
+            "Corrected ZIP": "53558",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:50.453324"
+        },
+        {
+            "OrigRowNum": 932,
+            "Original Address": "W3603 HIGHWAY 60",
+            "Corrected Address": "W3603 HIGHWAY 60",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:50.668937"
+        },
+        {
+            "OrigRowNum": 941,
+            "Original Address": "N3792 COUNTY HIGHWAY T",
+            "Corrected Address": "N3792 COUNTY ROAD T",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:50.909177"
+        },
+        {
+            "OrigRowNum": 952,
+            "Original Address": "4025 HWY V",
+            "Corrected Address": "4025 COUNTY HIGHWAY V",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:51.131702"
+        },
+        {
+            "OrigRowNum": 954,
+            "Original Address": "1921 COUNTY HIGHWAY B",
+            "Corrected Address": "1921 HIGHWAY B",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:51.346806"
+        },
+        {
+            "OrigRowNum": 969,
+            "Original Address": "W7834 U.S. 18",
+            "Corrected Address": "W7834 US HIGHWAY 18",
+            "Original ZIP": "53538",
+            "Corrected ZIP": "53538",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:51.568606"
+        },
+        {
+            "OrigRowNum": 981,
+            "Original Address": "4773 COUNTY HIGHWAY J",
+            "Corrected Address": "4773 COUNTY ROAD J",
+            "Original ZIP": "53572",
+            "Corrected ZIP": "53572",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:51.790178"
+        },
+        {
+            "OrigRowNum": 983,
+            "Original Address": "4769 COUNTY HIGHWAY J",
+            "Corrected Address": "4769 COUNTY ROAD J",
+            "Original ZIP": "53572",
+            "Corrected ZIP": "53572",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:52.006998"
+        },
+        {
+            "OrigRowNum": 989,
+            "Original Address": "424 U.S. 51",
+            "Corrected Address": "424 US HIGHWAY 51",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:52.232498"
+        },
+        {
+            "OrigRowNum": 990,
+            "Original Address": "2291 COUNTY W",
+            "Corrected Address": "2291 COUNTY ROAD W",
+            "Original ZIP": "53523",
+            "Corrected ZIP": "53523",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:52.451914"
+        },
+        {
+            "OrigRowNum": 992,
+            "Original Address": "W1605 WISCONSIN 16",
+            "Corrected Address": "W1605 HWY16",
+            "Original ZIP": "53932",
+            "Corrected ZIP": "53932",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:52.678582"
+        },
+        {
+            "OrigRowNum": 993,
+            "Original Address": "6996 COUNTY HIGHWAY I",
+            "Corrected Address": "6996 COUNTY HIGHWAY I",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:52.909342"
+        },
+        {
+            "OrigRowNum": 1001,
+            "Original Address": "N5679 WISCONSIN 73",
+            "Corrected Address": "N5679 WISCONSIN 73",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:53.131703"
+        },
+        {
+            "OrigRowNum": 1003,
+            "Original Address": "W9160 WISCONSIN 19",
+            "Corrected Address": "W9160 HIGHWAY 19",
+            "Original ZIP": "53098",
+            "Corrected ZIP": "53098",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:53.351925"
+        },
+        {
+            "OrigRowNum": 1006,
+            "Original Address": "3576 COUNTY HIGHWAY V",
+            "Corrected Address": "3576 COUNTY HIGHWAY V",
+            "Original ZIP": "53532",
+            "Corrected ZIP": "53532",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:53.568804"
+        },
+        {
+            "OrigRowNum": 1013,
+            "Original Address": "W2220 WISCONSIN 16",
+            "Corrected Address": "W2220 HWY16",
+            "Original ZIP": "53932",
+            "Corrected ZIP": "53932",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:53.810029"
+        },
+        {
+            "OrigRowNum": 1014,
+            "Original Address": "N1224 COUNTY HIGHWAY N",
+            "Corrected Address": "1224 COUNTY HWY",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:54.062859"
+        },
+        {
+            "OrigRowNum": 1023,
+            "Original Address": "N5450 WISCONSIN 73",
+            "Corrected Address": "N5450 STATE HIGHWAY 73",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:54.286363"
+        },
+        {
+            "OrigRowNum": 1035,
+            "Original Address": "1952 COUNTY W",
+            "Corrected Address": "1952 COUNTY ROAD W",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:54.514604"
+        },
+        {
+            "OrigRowNum": 1037,
+            "Original Address": "2279 COUNTY HIGHWAY BN",
+            "Corrected Address": "2279 COUNTY ROAD BN",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:54.726818"
+        },
+        {
+            "OrigRowNum": 1039,
+            "Original Address": "3094 COUNTY HIGHWAY MN",
+            "Corrected Address": "3094 COUNTY ROAD MN",
+            "Original ZIP": "53558",
+            "Corrected ZIP": "53558",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:54.955818"
+        },
+        {
+            "OrigRowNum": 1043,
+            "Original Address": "W3640 WISCONSIN 60 TRUNK",
+            "Corrected Address": "W3640 WISCONSIN 60 TRUNK",
+            "Original ZIP": "53960",
+            "Corrected ZIP": "53960",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:55.178057"
+        },
+        {
+            "OrigRowNum": 1053,
+            "Original Address": "7530 WISCONSIN 73",
+            "Corrected Address": "7530 HIGHWAY 73",
+            "Original ZIP": "53559",
+            "Corrected ZIP": "53559",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:55.387866"
+        },
+        {
+            "OrigRowNum": 1054,
+            "Original Address": "3268 COUNTY HIGHWAY MN",
+            "Corrected Address": "3268 MN",
+            "Original ZIP": "53558",
+            "Corrected ZIP": "53558",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:55.631512"
+        },
+        {
+            "OrigRowNum": 1059,
+            "Original Address": "W2794 WISCONSIN 16",
+            "Corrected Address": "W2794 HIGHWAY 16",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:55.848251"
+        },
+        {
+            "OrigRowNum": 1062,
+            "Original Address": "N142 WISCONSIN 73",
+            "Corrected Address": "N142 HIGHWAY 73",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:56.089915"
+        },
+        {
+            "OrigRowNum": 1067,
+            "Original Address": "1843 U.S. 12",
+            "Corrected Address": "1843 US HIGHWAY 12",
+            "Original ZIP": "53531",
+            "Corrected ZIP": "53531",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:56.321785"
+        },
+        {
+            "OrigRowNum": 1077,
+            "Original Address": "W2732 WISCONSIN 16",
+            "Corrected Address": "W2732 HIGHWAY 16",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:56.548237"
+        },
+        {
+            "OrigRowNum": 1088,
+            "Original Address": "N5663 WISCONSIN 73",
+            "Corrected Address": "N5663 WISCONSIN 73",
+            "Original ZIP": "53925",
+            "Corrected ZIP": "53925",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:56.769186"
+        },
+        {
+            "OrigRowNum": 1101,
+            "Original Address": "2354 COUNTY HIGHWAY N",
+            "Corrected Address": "2354 COUNTY HIGHWAY N",
+            "Original ZIP": "53589",
+            "Corrected ZIP": "53589",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:57.011716"
+        },
+        {
+            "OrigRowNum": 1104,
+            "Original Address": "4966 COUNTY HIGHWAY J",
+            "Corrected Address": "4966 COUNTY ROAD J",
+            "Original ZIP": "53572",
+            "Corrected ZIP": "53572",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:57.227051"
+        },
+        {
+            "OrigRowNum": 1107,
+            "Original Address": "W3199 WISCONSIN 16",
+            "Corrected Address": "W3199 WISCONSIN 16",
+            "Original ZIP": "53960",
+            "Corrected ZIP": "53960",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:57.492344"
+        },
+        {
+            "OrigRowNum": 1127,
+            "Original Address": "1423 COUNTY HIGHWAY I",
+            "Corrected Address": "1423 COUNTY HIGHWAY I",
+            "Original ZIP": "53911",
+            "Corrected ZIP": "53911",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:57.748202"
+        },
+        {
+            "OrigRowNum": 1134,
+            "Original Address": "2506 COUNTY HIGHWAY MN",
+            "Corrected Address": "2506 COUNTY ROAD MN",
+            "Original ZIP": "53527",
+            "Corrected ZIP": "53527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T12:38:57.971798"
+        }
+    ]
+}

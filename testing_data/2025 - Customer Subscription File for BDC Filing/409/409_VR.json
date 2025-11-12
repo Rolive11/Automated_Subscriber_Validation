@@ -1,0 +1,1114 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1193,
+        "Rows with Corrections": 109,
+        "Rows with Errors": 13,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 5,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 111,
+        "Total Errors": 15,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.97,
+        "Validation Date": "2025-08-26 08:44:13",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1188,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1188,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 1160,
+            "Column": "address",
+            "Original Value": "113 Avenue 1 Atkins AR USA",
+            "Corrected Value": "113 AVENUE 1 ATKINS AR USA",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "516 SOUTH VAN BUREN",
+            "Corrected Value": "516 S VAN BUREN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "409 SOUTH WEST STREET",
+            "Corrected Value": "409 S W STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "2 MOORE FLAT ROAD",
+            "Corrected Value": "2 MOORE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "846 WEST MAIN STREET",
+            "Corrected Value": "846 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "503 EAST MAIN STREET",
+            "Corrected Value": "503 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "93 EAST ALEXANDER",
+            "Corrected Value": "93 E ALEXANDER",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "102 SOUTH CEDAR STREET",
+            "Corrected Value": "102 S CEDAR STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "403 NORTH SPRINGFIELD DRIVE",
+            "Corrected Value": "403 N SPRINGFIELD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "111 EAST ALEXANDER",
+            "Corrected Value": "111 E ALEXANDER",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "828 WEST MAIN STREET",
+            "Corrected Value": "828 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "303 WEST CHURCH STREET",
+            "Corrected Value": "303 W CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "731 NORTH PARK STREET",
+            "Corrected Value": "731 N PARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "43 SOUTH PARK",
+            "Corrected Value": "43 S PARK",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "204 SOUTH PARK",
+            "Corrected Value": "204 S PARK",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "335 EAST PARKER STREET",
+            "Corrected Value": "335 E PARKER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "308 EAST MAIN STREET",
+            "Corrected Value": "308 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "1020 SOUTH BRIDGE STREET",
+            "Corrected Value": "1020 S BRIDGE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 363,
+            "Column": "address",
+            "Original Value": "1000 WEST CHURCH STREET",
+            "Corrected Value": "1000 W CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 380,
+            "Column": "address",
+            "Original Value": "814 HIGHWAY 225 EAST",
+            "Corrected Value": "814 HIGHWAY 225 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 393,
+            "Column": "address",
+            "Original Value": "507 SOUTH VAN BUREN STREET",
+            "Corrected Value": "507 S VAN BUREN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "905 NORTH OAK STREET",
+            "Corrected Value": "905 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 419,
+            "Column": "address",
+            "Original Value": "807 NORTH DIVISION STREET",
+            "Corrected Value": "807 N DIVISION STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "808 NORTH CEDAR STREET",
+            "Corrected Value": "808 N CEDAR STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "1280 NORTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "1280 N HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "810 EAST BURROW STREET",
+            "Corrected Value": "810 E BURROW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 467,
+            "Column": "address",
+            "Original Value": "108 EAST RAILROAD AVENUE",
+            "Corrected Value": "108 E RAILROAD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Original Value": "335 EAST PARKER STREET",
+            "Corrected Value": "335 E PARKER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "848 WEST MAIN STREET",
+            "Corrected Value": "848 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 555,
+            "Column": "address",
+            "Original Value": "1 NORTH POLE ROAD",
+            "Corrected Value": "1 N POLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "505 STATE ROUTE 164 NORTH",
+            "Corrected Value": "505 STATE ROUTE 164 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "235 BILLY GRAY ROAD WEST",
+            "Corrected Value": "235 BILLY GRAY ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Original Value": "405 NORTH SPRINGFIELD DRIVE",
+            "Corrected Value": "405 N SPRINGFIELD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 635,
+            "Column": "address",
+            "Original Value": "3737 GRIFFIN FLAT ROAD",
+            "Corrected Value": "3737 GRIFFIN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "address",
+            "Original Value": "200 NORTH SPRINGFIELD DRIVE",
+            "Corrected Value": "200 N SPRINGFIELD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 712,
+            "Column": "address",
+            "Original Value": "5 WEST BRANCH DRIVE",
+            "Corrected Value": "5 W BRANCH DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "779 EAST HINES",
+            "Corrected Value": "779 E HINES",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 777,
+            "Column": "address",
+            "Original Value": "836 WEST MAIN STREET",
+            "Corrected Value": "836 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Original Value": "505 SOUTH VAN BUREN STREET",
+            "Corrected Value": "505 S VAN BUREN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "address",
+            "Original Value": "406 SOUTH MASSEY STREET",
+            "Corrected Value": "406 S MASSEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 859,
+            "Column": "address",
+            "Original Value": "403 WEST MAIN STREET",
+            "Corrected Value": "403 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "304 NORTHEAST 2ND STREET",
+            "Corrected Value": "304 NE 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 870,
+            "Column": "address",
+            "Original Value": "77 SPRUCE STREET ",
+            "Corrected Value": "77 SPRUCE STREET",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "address",
+            "Original Value": "1300 CANNADAY FLAT ROAD",
+            "Corrected Value": "1300 CANNADAY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Original Value": "1406 WEST MAIN STREET",
+            "Corrected Value": "1406 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 921,
+            "Column": "address",
+            "Original Value": "2302 NORTH CHURCH STREET",
+            "Corrected Value": "2302 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Original Value": "2401 NORTH CHURCH STREET",
+            "Corrected Value": "2401 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 927,
+            "Column": "address",
+            "Original Value": "1510 NORTH SHORE ROAD",
+            "Corrected Value": "1510 N SHORE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Original Value": "202 SOUTHEAST 4TH STREET",
+            "Corrected Value": "202 SE 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 930,
+            "Column": "address",
+            "Original Value": "804 AVENUE 1 NORTHEAST",
+            "Corrected Value": "804 AVENUE 1 NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 933,
+            "Column": "address",
+            "Original Value": "804 AVENUE 1 NORTHEAST",
+            "Corrected Value": "804 AVENUE 1 NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 938,
+            "Column": "address",
+            "Original Value": "707 AVENUE 1 NORTHWEST",
+            "Corrected Value": "707 AVENUE 1 NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 940,
+            "Column": "address",
+            "Original Value": "203 NORTHEAST 1ST STREET",
+            "Corrected Value": "203 NE 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 942,
+            "Column": "address",
+            "Original Value": "806 AVENUE 4 NORTHEAST",
+            "Corrected Value": "806 AVENUE 4 NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 943,
+            "Column": "address",
+            "Original Value": "801 AVENUE 4 NORTHEAST",
+            "Corrected Value": "801 AVENUE 4 NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 944,
+            "Column": "address",
+            "Original Value": "1102 AVENUE 4 PLACE NORTHEAST",
+            "Corrected Value": "1102 AVENUE 4 PLACE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 945,
+            "Column": "address",
+            "Original Value": "1611 AVENUE 3 SOUTHEAST",
+            "Corrected Value": "1611 AVENUE 3 SE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 947,
+            "Column": "address",
+            "Original Value": "212 NORTHEAST 3RD STREET",
+            "Corrected Value": "212 NE 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 948,
+            "Column": "address",
+            "Original Value": "303 SOUTHWEST 3RD STREET",
+            "Corrected Value": "303 SW 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "address",
+            "Original Value": "1145 NORTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "1145 N HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 956,
+            "Column": "address",
+            "Original Value": "1105 AVENUE 4 SOUTHEAST",
+            "Corrected Value": "1105 AVENUE 4 SE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 958,
+            "Column": "address",
+            "Original Value": "300 SOUTHEAST 12TH STREET",
+            "Corrected Value": "300 SE 12TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 959,
+            "Column": "address",
+            "Original Value": "861 NORTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "861 N HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 963,
+            "Column": "address",
+            "Original Value": "204 SOUTHWEST 5TH STREET",
+            "Corrected Value": "204 SW 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 964,
+            "Column": "address",
+            "Original Value": "243 UNION GROVE ROAD WEST",
+            "Corrected Value": "243 UNION GROVE ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 966,
+            "Column": "address",
+            "Original Value": "103 SOUTHWEST 3RD STREET",
+            "Corrected Value": "103 SW 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 969,
+            "Column": "address",
+            "Original Value": "1101 AVENUE 4 PLACE NORTHEAST",
+            "Corrected Value": "1101 AVENUE 4 PLACE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 970,
+            "Column": "address",
+            "Original Value": "1411 AVENUE 5 SOUTHWEST",
+            "Corrected Value": "1411 AVENUE 5 SW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 971,
+            "Column": "address",
+            "Original Value": "1380 BELLS CHAPEL ROAD WEST",
+            "Corrected Value": "1380 BELLS CHAPEL ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 973,
+            "Column": "address",
+            "Original Value": "204 SOUTHEAST 1ST STREET",
+            "Corrected Value": "204 SE 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Original Value": "816 BELLS CHAPEL ROAD WEST",
+            "Corrected Value": "816 BELLS CHAPEL ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 976,
+            "Column": "address",
+            "Original Value": "1401 SOUTHWEST 4TH STREET",
+            "Corrected Value": "1401 SW 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 978,
+            "Column": "address",
+            "Original Value": "102 SOUTHEAST 3RD STREET",
+            "Corrected Value": "102 SE 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 979,
+            "Column": "address",
+            "Original Value": "505 AVENUE 13 SOUTHWEST",
+            "Corrected Value": "505 AVENUE 13 SW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 985,
+            "Column": "address",
+            "Original Value": "1706 AVENUE 4 NORTHWEST",
+            "Corrected Value": "1706 AVENUE 4 NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 988,
+            "Column": "address",
+            "Original Value": "402 WEST MAIN STREET",
+            "Corrected Value": "402 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 996,
+            "Column": "address",
+            "Original Value": "406 NORTHWEST 14TH STREET",
+            "Corrected Value": "406 NW 14TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1003,
+            "Column": "address",
+            "Original Value": "1810 SOUTHEAST 4TH STREET",
+            "Corrected Value": "1810 SE 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1006,
+            "Column": "address",
+            "Original Value": "703 AVENUE 1 NORTHWEST",
+            "Corrected Value": "703 AVENUE 1 NW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1007,
+            "Column": "address",
+            "Original Value": "808 NORTHWEST 1ST STREET",
+            "Corrected Value": "808 NW 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1009,
+            "Column": "address",
+            "Original Value": "207 NORTHEAST 16TH STREET",
+            "Corrected Value": "207 NE 16TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1010,
+            "Column": "address",
+            "Original Value": "1201 AVENUE 4 PLACE NORTHEAST",
+            "Corrected Value": "1201 AVENUE 4 PLACE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1012,
+            "Column": "address",
+            "Original Value": "301 NORTHEAST 2ND STREET",
+            "Corrected Value": "301 NE 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1017,
+            "Column": "address",
+            "Original Value": "1205 AVENUE 4 PLACE NORTHEAST",
+            "Corrected Value": "1205 AVENUE 4 PLACE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1022,
+            "Column": "address",
+            "Original Value": "223 EAST BAY ROAD",
+            "Corrected Value": "223 E BAY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1025,
+            "Column": "address",
+            "Original Value": "806 AVENUE 6TH SOUTHEAST",
+            "Corrected Value": "806 AVENUE 6TH SE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1028,
+            "Column": "address",
+            "Original Value": "402 NORTHEAST 6TH STREET",
+            "Corrected Value": "402 NE 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1031,
+            "Column": "address",
+            "Original Value": "1705 NORTH CHURCH STREET",
+            "Corrected Value": "1705 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1033,
+            "Column": "address",
+            "Original Value": "402 NORTHEAST 3RD STREET",
+            "Corrected Value": "402 NE 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1037,
+            "Column": "address",
+            "Original Value": "402 NORTHEAST 5TH STREET",
+            "Corrected Value": "402 NE 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Original Value": "462 GRIFFIN FLAT ROAD",
+            "Corrected Value": "462 GRIFFIN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1052,
+            "Column": "address",
+            "Original Value": "205 SOUTHEAST 12TH STREET",
+            "Corrected Value": "205 SE 12TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1055,
+            "Column": "address",
+            "Original Value": "1706 SOUTHEAST 4TH STREET",
+            "Corrected Value": "1706 SE 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1081,
+            "Column": "address",
+            "Original Value": "396 BAKERS LOOP NORTH",
+            "Corrected Value": "396 BAKERS LOOP N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1087,
+            "Column": "address",
+            "Original Value": "641 SOUTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "641 S HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1095,
+            "Column": "address",
+            "Original Value": "405 EAST MAIN STREET",
+            "Corrected Value": "405 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1106,
+            "Column": "address",
+            "Original Value": "1209 NORTH CHURCH STREET",
+            "Corrected Value": "1209 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1109,
+            "Column": "address",
+            "Original Value": "376 NORTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "376 N HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1130,
+            "Column": "address",
+            "Original Value": "405 WEST ELM STREET",
+            "Corrected Value": "405 W ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1133,
+            "Column": "address",
+            "Original Value": "303 SOUTH OLA STREET",
+            "Corrected Value": "303 S OLA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1138,
+            "Column": "address",
+            "Original Value": "408 NORTHEAST 7TH STREET",
+            "Corrected Value": "408 NE 7TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1149,
+            "Column": "address",
+            "Original Value": "305 EAST MAIN STREET",
+            "Corrected Value": "305 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1163,
+            "Column": "address",
+            "Original Value": "611 EAST DRILLING STREET",
+            "Corrected Value": "611 E DRILLING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1175,
+            "Column": "address",
+            "Original Value": "1645 NORTH HOPEWELL LOOP ROAD",
+            "Corrected Value": "1645 N HOPEWELL LOOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1179,
+            "Column": "address",
+            "Original Value": "1701 SOUTHWEST 3RD STREET",
+            "Corrected Value": "1701 SW 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1182,
+            "Column": "address",
+            "Original Value": "202 WEST CLAY STREET",
+            "Corrected Value": "202 W CLAY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "lon",
+            "Original Value": -83.997991,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "lat",
+            "Original Value": 34.53838,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "lat",
+            "Original Value": 36.736951,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "lon",
+            "Original Value": -93.423731,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "address",
+            "Original Value": "1064 COUNTY ROAD 874",
+            "Corrected Value": "1064 CR 874",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 214,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "25 TOWER ROAD"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TURKEY POND LOOP"
+        },
+        {
+            "Row": 475,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HOUSELEY LANE"
+        },
+        {
+            "Row": 570,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "49 STEVENS ROAD"
+        },
+        {
+            "Row": 594,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "60 TOWER ROAD"
+        },
+        {
+            "Row": 599,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "51 STEVENS ROAD"
+        },
+        {
+            "Row": 415,
+            "Column": "lon",
+            "Error": "Longitude for AR must be between -94.617919 and -89.644395",
+            "Value": "-83.997991"
+        },
+        {
+            "Row": 415,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "34.53838"
+        },
+        {
+            "Row": 496,
+            "Column": "lat",
+            "Error": "Latitude for AR must be positive",
+            "Value": "36.736951"
+        },
+        {
+            "Row": 496,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-93.423731"
+        },
+        {
+            "Row": 957,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1861000)",
+            "Value": "1861002"
+        },
+        {
+            "Row": 669,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1850644)",
+            "Value": "1850822"
+        },
+        {
+            "Row": 1134,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1850820)",
+            "Value": "1861428"
+        },
+        {
+            "Row": 621,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1850433)",
+            "Value": "1850721"
+        },
+        {
+            "Row": 781,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1850637)",
+            "Value": "1851024"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 957,
+            "customer": "1861002",
+            "lat": 35.207907,
+            "lon": -92.953832,
+            "address": "325 LUCKY LANDING ROAD",
+            "city": "ATKINS",
+            "state": "AR",
+            "zip": "72823",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1861000)"
+        },
+        {
+            "OrigRowNum": 669,
+            "customer": "1850822",
+            "lat": 35.222746,
+            "lon": -92.742559,
+            "address": "11 FEATHER LANE",
+            "city": "MORRILTON",
+            "state": "AR",
+            "zip": "72110",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1850644)"
+        },
+        {
+            "OrigRowNum": 1134,
+            "customer": "1861428",
+            "lat": 35.24082,
+            "lon": -92.733273,
+            "address": "20 SAMANTHA DRIVE",
+            "city": "MORRILTON",
+            "state": "AR",
+            "zip": "72110",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1850820)"
+        },
+        {
+            "OrigRowNum": 621,
+            "customer": "1850721",
+            "lat": 35.244263,
+            "lon": -92.614613,
+            "address": "851 RAGSDALE MOUNTAIN DRIVE",
+            "city": "SPRINGFIELD",
+            "state": "AR",
+            "zip": "72157",
+            "download": 50.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1850433)"
+        },
+        {
+            "OrigRowNum": 781,
+            "customer": "1851024",
+            "lat": 35.302278,
+            "lon": -92.619257,
+            "address": "205 TAYLOR ROAD",
+            "city": "SPRINGFIELD",
+            "state": "AR",
+            "zip": "72157",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 1850637)"
+        }
+    ],
+    "Smarty Corrections": []
+}

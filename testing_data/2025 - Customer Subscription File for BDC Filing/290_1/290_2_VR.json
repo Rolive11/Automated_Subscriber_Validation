@@ -1,0 +1,1676 @@
+{
+    "Summary": {
+        "Total Rows Processed": 620,
+        "Rows with Corrections": 164,
+        "Rows with Errors": 39,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 168,
+        "Total Errors": 44,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.73,
+        "Validation Date": "2025-08-29 12:27:58",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Invalid",
+        "Validation Reason": "File contains 30 rows with critical errors in required fields (customer, speeds, technology, etc.) that must be manually corrected.",
+        "Total Subscribers in Final File": 618,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 30,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": true
+    },
+    "File Validation Details": {
+        "file_status": "Invalid",
+        "validation_reason": "File contains 30 rows with critical errors in required fields (customer, speeds, technology, etc.) that must be manually corrected.",
+        "total_subscribers": 618,
+        "address_error_count": 0,
+        "non_address_error_count": 30,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": true
+    },
+    "Corrections": [
+        {
+            "Row": 43,
+            "Column": "customer",
+            "Original Value": "Applied Urethane Technology, Inc.",
+            "Corrected Value": "Applied Urethane Technology Inc.",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "customer",
+            "Original Value": "Dojan, Inc",
+            "Corrected Value": "Dojan Inc",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "customer",
+            "Original Value": "Phoenix QSR, LLC",
+            "Corrected Value": "Phoenix QSR LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "customer",
+            "Original Value": "Taylor-Bird DewEze, LLC",
+            "Corrected Value": "Taylor-Bird DewEze LLC",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "903 W SOUTH ST",
+            "Corrected Value": "903 W S ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Original Value": "2135 W Vista St",
+            "Corrected Value": "2135 W VISTA ST",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "6678 E. County Line Rd.",
+            "Corrected Value": "6678 E. COUNTY LINE RD.",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "1403 SOUTH 3RD STREET",
+            "Corrected Value": "1403 S 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "1600 EAST BAIN STREET",
+            "Corrected Value": "1600 E BAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "1651 SOUTH 22ND AVE",
+            "Corrected Value": "1651 S 22ND AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "727 NORTH 9TH STREET",
+            "Corrected Value": "727 N 9TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "102 EAST SOUTH STREET",
+            "Corrected Value": "102 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "500 W MADISON ST SUITE 2800",
+            "Corrected Value": "500 W MADISON ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "2850 HIGHWAY 14 EAST",
+            "Corrected Value": "2850 HIGHWAY 14 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "address",
+            "Original Value": "1000 WEST JACKSON STREET",
+            "Corrected Value": "1000 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "321 SOUTH PAW ROAD",
+            "Corrected Value": "321 S PAW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "1398 NORTH 18TH STREET",
+            "Corrected Value": "1398 N 18TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "4396 STATE HIGHWAY 14 EAST",
+            "Corrected Value": "4396 STATE HIGHWAY 14 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Original Value": "2106 WEST EVANGEL STREET",
+            "Corrected Value": "2106 W EVANGEL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "4308 NORTH FREMONT ROAD",
+            "Corrected Value": "4308 N FREMONT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "2850 NORTH BIAGIO",
+            "Corrected Value": "2850 N BIAGIO",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "131 NORTH AVENUE",
+            "Corrected Value": "131 N AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "2161 INDUSTRIAL COURT SOUTH",
+            "Corrected Value": "2161 INDUSTRIAL COURT S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "address",
+            "Original Value": "263 NORTH OAK AVENUE",
+            "Corrected Value": "263 N OAK AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "2127 NORTH WILLIAMSBURG LANE",
+            "Corrected Value": "2127 N WILLIAMSBURG LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "5950 EAST VISTA LANE",
+            "Corrected Value": "5950 E VISTA LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "1660 WEST SKYLINE",
+            "Corrected Value": "1660 W SKYLINE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "3425 NORTH 21ST STREET",
+            "Corrected Value": "3425 N 21ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "5326 N STATE HIGHWAY NN SUITE 1",
+            "Corrected Value": "5326 N STATE HIGHWAY NN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "3884 EAST COUNTY LINE ROAD",
+            "Corrected Value": "3884 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "5122 EAST FARM ROAD 192",
+            "Corrected Value": "5122 E FARM ROAD 192",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "6002 SOUTH FARM ROAD 209",
+            "Corrected Value": "6002 S FARM ROAD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Original Value": "1508 SOUTH 3RD STREET",
+            "Corrected Value": "1508 S 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Original Value": "606 NORTH 12TH AVENUE",
+            "Corrected Value": "606 N 12TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "1402 SOUTH 15TH STREET",
+            "Corrected Value": "1402 S 15TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "5928 SOUTH FARM ROAD 219",
+            "Corrected Value": "5928 S FARM ROAD 219",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "6046 SOUTH FARM RD 219",
+            "Corrected Value": "6046 S FARM RD 219",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "4618 NORTH VENICE",
+            "Corrected Value": "4618 N VENICE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "6042 EAST FARM ROAD 186",
+            "Corrected Value": "6042 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "1880 NORTH 18TH STREET",
+            "Corrected Value": "1880 N 18TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "1407 SOUTH 17TH AVENUE",
+            "Corrected Value": "1407 S 17TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "1300 EAST HARTLEY STREET",
+            "Corrected Value": "1300 E HARTLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "1256 EAST INDIAN VALLEY DRIVE",
+            "Corrected Value": "1256 E INDIAN VALLEY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "1933 SOUTH TRINIDAD DRIVE",
+            "Corrected Value": "1933 S TRINIDAD DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "5881 SOUTH FARM RD 209",
+            "Corrected Value": "5881 S FARM RD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Original Value": "5973 SOUTH FARM ROAD 209",
+            "Corrected Value": "5973 S FARM ROAD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "6265 SOUTH FARM RD 209",
+            "Corrected Value": "6265 S FARM RD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "640 EAST SOUTH STREET",
+            "Corrected Value": "640 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "6224 SOUTH FARM ROAD 209",
+            "Corrected Value": "6224 S FARM ROAD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "947 BLUE STEM ROAD",
+            "Corrected Value": "947 BLUE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "1266 EAST SOUTHERNVIEW ROAD",
+            "Corrected Value": "1266 E SOUTHERNVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "348 EAST INDIAN VALLEY DRIVE",
+            "Corrected Value": "348 E INDIAN VALLEY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "1982 EAST SOUTHERNVIEW ROAD",
+            "Corrected Value": "1982 E SOUTHERNVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "206 EAST ELM STREET",
+            "Corrected Value": "206 E ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "1102 EAST STONEBROOK ROAD",
+            "Corrected Value": "1102 E STONEBROOK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Original Value": "677 EAST INDIAN VALLEY DRIVE",
+            "Corrected Value": "677 E INDIAN VALLEY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 237,
+            "Column": "address",
+            "Original Value": "3550 WEST JACKSON STREET",
+            "Corrected Value": "3550 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "2588 EAST WARREN AVENUE",
+            "Corrected Value": "2588 E WARREN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 257,
+            "Column": "address",
+            "Original Value": "7478 EAST FARM ROAD 186",
+            "Corrected Value": "7478 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "9107 EAST FARM ROAD 194",
+            "Corrected Value": "9107 E FARM ROAD 194",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "775 NORTH 20TH STREET",
+            "Corrected Value": "775 N 20TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "3444 EAST COUNTY LINE ROAD",
+            "Corrected Value": "3444 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "1207 EAST LARK STREET",
+            "Corrected Value": "1207 E LARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "5709 NORTH 13TH AVENUE",
+            "Corrected Value": "5709 N 13TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "3239 EAST SOUTHERNVIEW ROAD",
+            "Corrected Value": "3239 E SOUTHERNVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Original Value": "984 SOUTH 7TH AVENUE",
+            "Corrected Value": "984 S 7TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "5695 NORTH 21ST STREET",
+            "Corrected Value": "5695 N 21ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "6081 EAST FARM ROAD 186",
+            "Corrected Value": "6081 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "2803 EAST COVEY LANE",
+            "Corrected Value": "2803 E COVEY LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "3235 EAST SOUTHERNVIEW ROAD",
+            "Corrected Value": "3235 E SOUTHERNVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Original Value": "303 EAST ROBERTSON STREET",
+            "Corrected Value": "303 E ROBERTSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "500 WEST MATTHEW STREET",
+            "Corrected Value": "500 W MATTHEW STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "358 WEST BLUFF DRIVE",
+            "Corrected Value": "358 W BLUFF DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "808 EAST SUGAR MILL ROAD",
+            "Corrected Value": "808 E SUGAR MILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Original Value": "755 NORTH 20TH STREET",
+            "Corrected Value": "755 N 20TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "103 EAST SAMUEL J STREET",
+            "Corrected Value": "103 E SAMUEL J STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "7927 EAST FARM ROAD 164",
+            "Corrected Value": "7927 E FARM ROAD 164",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "1215 SOUTH 16TH STREET",
+            "Corrected Value": "1215 S 16TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "1125 EAST STONEBROOK ROAD",
+            "Corrected Value": "1125 E STONEBROOK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Original Value": "6125 SOUTH FARM ROAD 209",
+            "Corrected Value": "6125 S FARM ROAD 209",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Original Value": "1808 EAST MARICOPA AVENUE",
+            "Corrected Value": "1808 E MARICOPA AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "5557 N 21ST ST SUITE B",
+            "Corrected Value": "5557 N 21ST ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Original Value": "106 EAST JAY STREET",
+            "Corrected Value": "106 E JAY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Original Value": "5540 NORTH FARMER BRANCH",
+            "Corrected Value": "5540 N FARMER BRANCH",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Original Value": "7977 EAST FARM ROAD 164",
+            "Corrected Value": "7977 E FARM ROAD 164",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "2676 EAST WARREN AVENUE",
+            "Corrected Value": "2676 E WARREN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "2101 SOUTH HAMMONS ROAD",
+            "Corrected Value": "2101 S HAMMONS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "7188 EAST FARM ROAD 186",
+            "Corrected Value": "7188 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 351,
+            "Column": "address",
+            "Original Value": "1696 NORTH ROAD",
+            "Corrected Value": "1696 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "4310 NORTH 8TH STREET",
+            "Corrected Value": "4310 N 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Original Value": "2001 SOUTH ORIOLE COURT",
+            "Corrected Value": "2001 S ORIOLE COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "1721 S 20TH STREET SUITE 101",
+            "Corrected Value": "1721 S 20TH STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "1204 SOUTH 3RD STREET",
+            "Corrected Value": "1204 S 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "8651 EAST SQUIRREL LANE",
+            "Corrected Value": "8651 E SQUIRREL LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Original Value": "1051 EAST RIVER BLUFF DRIVE",
+            "Corrected Value": "1051 E RIVER BLUFF DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "1980 EAST SOUTHERNVIEW ROAD",
+            "Corrected Value": "1980 E SOUTHERNVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 382,
+            "Column": "address",
+            "Original Value": "1952 EAST MELTON ROAD",
+            "Corrected Value": "1952 E MELTON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 387,
+            "Column": "address",
+            "Original Value": "1112 EAST ROBIN STREET",
+            "Corrected Value": "1112 E ROBIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "2606 WEST COLTON AVENUE",
+            "Corrected Value": "2606 W COLTON AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "5256 NORTH 23RD STREET",
+            "Corrected Value": "5256 N 23RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 400,
+            "Column": "address",
+            "Original Value": "5146 NORTH 23RD STREET",
+            "Corrected Value": "5146 N 23RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Original Value": "6457 SOUTH FARM ROAD 241",
+            "Corrected Value": "6457 S FARM ROAD 241",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "6144 EAST FARM ROAD 186",
+            "Corrected Value": "6144 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Original Value": "1200 EAST MCCRACKEN ROAD",
+            "Corrected Value": "1200 E MCCRACKEN ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Original Value": "101 WEST RAINEY STREET",
+            "Corrected Value": "101 W RAINEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Original Value": "4410 NORTH 8TH STREET",
+            "Corrected Value": "4410 N 8TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "1200 EAST HARTLEY STREET",
+            "Corrected Value": "1200 E HARTLEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "1207 WEST SOUTH STREET",
+            "Corrected Value": "1207 W S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "1100 SOUTH BROOKS AVENUE",
+            "Corrected Value": "1100 S BROOKS AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "3038 EAST COUNTY LINE ROAD",
+            "Corrected Value": "3038 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 428,
+            "Column": "address",
+            "Original Value": "1305 SOUTH 13TH STREET",
+            "Corrected Value": "1305 S 13TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "603 NORTH 12TH AVENUE",
+            "Corrected Value": "603 N 12TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "4154 NORTH SMALLIN ROAD",
+            "Corrected Value": "4154 N SMALLIN ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "2116 NORTH 21ST STREET",
+            "Corrected Value": "2116 N 21ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "7902 EAST COUNTY LINE ROAD",
+            "Corrected Value": "7902 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "1985 WEST HILLTOP ROAD",
+            "Corrected Value": "1985 W HILLTOP ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "2008 SOUTH HILLOCK",
+            "Corrected Value": "2008 S HILLOCK",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "359 SOUTH COUNTRYMAN ROAD",
+            "Corrected Value": "359 S COUNTRYMAN ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 452,
+            "Column": "address",
+            "Original Value": "6506 SOUTH FARM ROAD 193",
+            "Corrected Value": "6506 S FARM ROAD 193",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "1504 WEST RAGWEED COURT",
+            "Corrected Value": "1504 W RAGWEED COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 457,
+            "Column": "address",
+            "Original Value": "1304 SOUTH 3RD STREET",
+            "Corrected Value": "1304 S 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "3786 EAST COUNTY LINE ROAD",
+            "Corrected Value": "3786 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "1105 SOUTH STRAIT AVENUE",
+            "Corrected Value": "1105 S STRAIT AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Original Value": "1502 WEST PATRICIA STREET",
+            "Corrected Value": "1502 W PATRICIA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "380 EAST STATE HIGHWAY CC",
+            "Corrected Value": "380 E STATE HIGHWAY CC",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "2430 EAST MELTON ROAD",
+            "Corrected Value": "2430 E MELTON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Original Value": "6325 EAST FARM ROAD 186",
+            "Corrected Value": "6325 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "1110 SOUTH STRAIT AVE",
+            "Corrected Value": "1110 S STRAIT AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "1006 SOUTH 1ST STREET",
+            "Corrected Value": "1006 S 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "907 SOUTH RIMES AVENUE",
+            "Corrected Value": "907 S RIMES AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Original Value": "1001 WEST RIDGECREST STREET",
+            "Corrected Value": "1001 W RIDGECREST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "2004 SOUTH 22ND AVENUE",
+            "Corrected Value": "2004 S 22ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "1103 SOUTH BROOKS AVENUE",
+            "Corrected Value": "1103 S BROOKS AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Original Value": "4312 EAST COUNTY LINE ROAD",
+            "Corrected Value": "4312 E COUNTY LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Original Value": "2016 SOUTH EDGEWOOD COURT",
+            "Corrected Value": "2016 S EDGEWOOD COURT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "807 SOUTH BROOKS AVENUE",
+            "Corrected Value": "807 S BROOKS AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "1650 WEST JACKSON STREET",
+            "Corrected Value": "1650 W JACKSON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "441 STATE HWY 125 NORTH",
+            "Corrected Value": "441 STATE HWY 125 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Original Value": "429 EAST SOUTH STREET",
+            "Corrected Value": "429 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 523,
+            "Column": "address",
+            "Original Value": "4941 NORTH TOWN CENTRE DRIVE",
+            "Corrected Value": "4941 N TOWN CENTRE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "address",
+            "Original Value": "101 EAST STONEHILL RD",
+            "Corrected Value": "101 E STONEHILL RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "1303 SOUTH 13TH STREET",
+            "Corrected Value": "1303 S 13TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "address",
+            "Original Value": "212 EAST BOULDER ROAD",
+            "Corrected Value": "212 E BOULDER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 545,
+            "Column": "address",
+            "Original Value": "1285 EAST SUNSET ROAD",
+            "Corrected Value": "1285 E SUNSET ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "211 E SOUTH STREET",
+            "Corrected Value": "211 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "103 S 3RD ST SUITE B",
+            "Corrected Value": "103 S 3RD ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "1200 EAST WOODHURST DRIVE",
+            "Corrected Value": "1200 E WOODHURST DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "2751 WEST MIRAMAR ROAD",
+            "Corrected Value": "2751 W MIRAMAR ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 562,
+            "Column": "address",
+            "Original Value": "2680 WEST MIRAMAR ROAD",
+            "Corrected Value": "2680 W MIRAMAR ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "2718 WEST FISHHOOK AVENUE",
+            "Corrected Value": "2718 W FISHHOOK AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "200 EAST SOUTH STREET",
+            "Corrected Value": "200 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 568,
+            "Column": "address",
+            "Original Value": "2400 NORTH 18TH STREET",
+            "Corrected Value": "2400 N 18TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Original Value": "2788 WEST FISHHOOK AVENUE",
+            "Corrected Value": "2788 W FISHHOOK AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "204 SOUTH 2ND AVENUE",
+            "Corrected Value": "204 S 2ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 581,
+            "Column": "address",
+            "Original Value": "6102 NORTH 23RD STREET",
+            "Corrected Value": "6102 N 23RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Original Value": "812 SOUTH PIKE AVENUE",
+            "Corrected Value": "812 S PIKE AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "505 EAST SOUTH STREET",
+            "Corrected Value": "505 E S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 591,
+            "Column": "address",
+            "Original Value": "3309 NORTH BLUE HERON CT",
+            "Corrected Value": "3309 N BLUE HERON CT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Original Value": "2616 WEST PIDGEON DR",
+            "Corrected Value": "2616 W PIDGEON DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 609,
+            "Column": "address",
+            "Original Value": "2612 WEST GOLD FINCH DRIVE",
+            "Corrected Value": "2612 W GOLD FINCH DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "797 WEST SOUTH STREET",
+            "Corrected Value": "797 W S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "7502 EAST FARM ROAD 186",
+            "Corrected Value": "7502 E FARM ROAD 186",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "lat",
+            "Original Value": 37.00353,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "lon",
+            "Original Value": -93.13275,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "lon",
+            "Original Value": 37.01215099,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "lat",
+            "Original Value": 37.01215099,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Original Value": "COUNTY ROAD AK-544",
+            "Corrected Value": "CR AK-544",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "zip",
+            "Original Value": "657212",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 150,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4711 FLORENCE AVE"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 14338"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1920A S 18TH ST"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "200 FLINT ACRES"
+        },
+        {
+            "Row": 471,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4697 FLORENCE AVE"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "777MOON VALLEY RD"
+        },
+        {
+            "Row": 567,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "COUNTY ROAD AK544"
+        },
+        {
+            "Row": 146,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "657212"
+        },
+        {
+            "Row": 5,
+            "Column": "voip_lines_quantity",
+            "Error": "Required field: Voip_lines_quantity cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 6,
+            "Column": "voip_lines_quantity",
+            "Error": "Required field: Voip_lines_quantity cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 62,
+            "Column": "voip_lines_quantity",
+            "Error": "Required field: Voip_lines_quantity cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 227,
+            "Column": "voip_lines_quantity",
+            "Error": "Required field: Voip_lines_quantity cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 519,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 520,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 522,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 524,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 527,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 528,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 529,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 530,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 531,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 532,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 533,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 535,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 536,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 537,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 538,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 539,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 540,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 541,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 542,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 544,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 545,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 546,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 547,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 548,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 549,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 550,
+            "Column": "technology",
+            "Error": "Required field: Technology cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 197,
+            "Column": "lat",
+            "Error": "Latitude for GA must be positive",
+            "Value": "37.00353"
+        },
+        {
+            "Row": 197,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-93.13275"
+        },
+        {
+            "Row": 197,
+            "Column": "lon",
+            "Error": "Longitude for GA must be negative",
+            "Value": "-93.13275"
+        },
+        {
+            "Row": 469,
+            "Column": "lon",
+            "Error": "Longitude for MO must be negative",
+            "Value": "37.01215099"
+        },
+        {
+            "Row": 469,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "37.01215099"
+        },
+        {
+            "Row": 146,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "657212"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 14338"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 14338"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

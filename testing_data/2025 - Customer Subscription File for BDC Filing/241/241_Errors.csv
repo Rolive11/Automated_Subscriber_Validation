@@ -1,0 +1,87 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+91,address,PO Boxes not allowed,PO BOX 563
+134,address,PO Boxes not allowed,PO BOX 236
+165,address,PO Boxes not allowed,PO BOX 232
+191,address,PO Boxes not allowed,PO BOX 176
+204,address,Corrected address lacks valid street name after non-standard ending removal,10573 FLATLAND RD
+216,address,Corrected address lacks valid street name after non-standard ending removal,10715 FLATLAND ROAD
+236,address,Corrected address lacks valid street name after non-standard ending removal,3222 FLATLAND ROAD
+246,address,PO Boxes not allowed,P O BOX 45
+253,address,Corrected address lacks valid street name after non-standard ending removal,1598 TOWERLINE DRIVE
+256,address,PO Boxes not allowed,PO BOX 443
+273,address,Invalid street name format before street ending,19960E 300N RD HEYWORTH IL
+312,address,Corrected address lacks valid street name after non-standard ending removal,5189 TOWERLINE ROAD
+373,address,PO Boxes not allowed,PO BOX 294
+379,address,PO Boxes not allowed,PO BOX 188
+407,address,PO Boxes not allowed,2453 2000TH AVE PO BOX 366
+418,address,Invalid street name format before street ending,9482N CR 3800 E
+440,address,PO Boxes not allowed,PO BOX 494
+517,address,PO Boxes not allowed,PO BOX 352
+530,address,Corrected address lacks valid street name after non-standard ending removal,8078 TOWERLINE DRIVE
+531,address,PO Boxes not allowed,PO BOX 114
+576,address,PO Boxes not allowed,PO BOX 407
+615,address,Corrected address lacks valid street name after non-standard ending removal,11501 FLATLAND ROAD
+661,address,PO Boxes not allowed,PO BOX 572
+662,address,PO Boxes not allowed,PO BOX 26
+667,address,Address lacks leading number (optionally prefixed by direction) followed by street name,N CR 400 E N FIRST STREET
+672,address,PO Boxes not allowed,PO BOX 183028
+676,address,PO Boxes not allowed,PO BOX 311
+693,address,PO Boxes not allowed,PO BOX 664  202 E SIDE SQUARE
+712,address,Address lacks leading number (optionally prefixed by direction) followed by street name,NICK HOFFMAN
+713,address,PO Boxes not allowed,PO BOX 166
+721,address,Address lacks leading number (optionally prefixed by direction) followed by street name,JOHN LAPPIN
+724,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TOM PRUSER
+726,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SHARON COX
+727,address,Address lacks leading number (optionally prefixed by direction) followed by street name,VANHORN
+728,address,Address too short,WHOW
+730,address,Address too short,N
+760,address,Corrected address lacks valid street name after non-standard ending removal,7516 FLATLAND ROAD
+779,address,PO Boxes not allowed,PO BOX 583
+802,address,PO Boxes not allowed,P O BOX 21
+815,address,PO Boxes not allowed,PO BOX 23 404 W LINCOLN
+818,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TABOR ROAD
+897,address,PO Boxes not allowed,PO BOX 163
+902,address,PO Boxes not allowed,PO BOX 25
+1007,address,PO Boxes not allowed,PO BOX 116
+1040,address,PO Boxes not allowed,PO BOX 186
+1048,address,PO Boxes not allowed,PO BOX 292
+903,lat,Latitude for IL must be positive,-12.2162596
+903,lon,Paired coordinate reset due to invalid lat,-76.9411958
+903,lon,Longitude for IL must be between -91.513079 and -87.494756,-76.9411958
+942,lat,Latitude for IL must be positive,-8.3917112
+942,lon,Paired coordinate reset due to invalid lat,-74.54542
+942,lon,Longitude for IL must be between -91.513079 and -87.494756,-74.54542
+949,lon,Longitude for IL must be between -91.513079 and -87.494756,-85.4148663
+949,lat,Paired coordinate reset due to invalid lon,41.7976939
+961,lat,Latitude for IL must be between 36.970298 and 42.508481,49.2820673
+961,lon,Paired coordinate reset due to invalid lat,-123.0992001
+961,lon,Longitude for IL must be between -91.513079 and -87.494756,-123.0992001
+1009,lat,Latitude for IL must be between 36.970298 and 42.508481,26.6724277
+1009,lon,Paired coordinate reset due to invalid lat,-80.6402187
+1009,lon,Longitude for IL must be between -91.513079 and -87.494756,-80.6402187
+1040,lat,Latitude for IL must be between 36.970298 and 42.508481,31.0875584
+1040,lon,Paired coordinate reset due to invalid lat,-88.8231211
+1048,lon,Longitude for IL must be negative,-87.4733607
+1048,lat,Paired coordinate reset due to invalid lon,41.1763155
+337,customer,"Duplicate customer ID, renamed to 2046001_001",2046001
+493,customer,"Duplicate customer ID, renamed to 2046304_002",2046304
+580,customer,"Duplicate customer ID, identical row deleted",2046493
+652,customer,"Duplicate customer ID, identical row deleted",2046636
+655,customer,"Duplicate customer ID, identical row deleted",2046638
+656,customer,"Duplicate customer ID, renamed to 2046638_003",2046638
+675,customer,"Duplicate customer ID, renamed to 2046662_004",2046662
+682,customer,"Duplicate customer ID, renamed to 2046674_005",2046674
+695,customer,"Duplicate customer ID, identical row deleted",2046693
+699,customer,"Duplicate customer ID, identical row deleted",2046697
+741,customer,"Duplicate customer ID, renamed to 2046739_006",2046739
+744,customer,"Duplicate customer ID, identical row deleted",2046741
+652,customer,"Data-based duplicate, removed (identical to customer 2046636)",2046636
+754,customer,"Data-based duplicate, removed (identical to customer 2046751)",2046752
+38,customer,"Data-based duplicate, removed (identical to customer 2045558)",2045565
+680,customer,"Data-based duplicate, removed (identical to customer 2046658)",2046671
+695,customer,"Data-based duplicate, removed (identical to customer 2046693)",2046693
+744,customer,"Data-based duplicate, removed (identical to customer 2046741)",2046741
+699,customer,"Data-based duplicate, removed (identical to customer 2046697)",2046697
+580,customer,"Data-based duplicate, removed (identical to customer 2046493)",2046493
+655,customer,"Data-based duplicate, removed (identical to customer 2046638)",2046638

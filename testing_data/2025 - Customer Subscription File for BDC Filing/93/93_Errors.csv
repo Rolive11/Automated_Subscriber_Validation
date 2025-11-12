@@ -1,0 +1,14 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+88,address,Lacks standard street ending,1252 WEBER CHAPEL
+214,address,Invalid format,995 D&D RD
+232,address,Lacks standard street ending,100 HAPPY HALLOW
+238,address,Lacks standard street ending,90 OAK HILL SPUR
+310,address,Address lacks leading number (optionally prefixed by direction) followed by street name,BATESVILLE AR 72501
+317,zip,Invalid ZIP code format,7250-7465
+147,lon,Longitude for AR must be between -94.617919 and -89.644395,-56.008333
+147,lat,Paired coordinate reset due to invalid lon,35.817222
+183,lat,Latitude for AR must be between 33.004106 and 36.499749,353.789459
+183,lon,Paired coordinate reset due to invalid lat,-91.789672
+235,customer,"Duplicate customer ID, renamed to Mark Calaway_001",Mark Calaway
+317,zip,Invalid ZIP code,7250-7465

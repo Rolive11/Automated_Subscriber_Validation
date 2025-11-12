@@ -1,0 +1,1259 @@
+{
+    "Summary": {
+        "Total Rows Processed": 466,
+        "Rows with Corrections": 38,
+        "Rows with Errors": 37,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 3,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 71,
+        "Total Errors": 4,
+        "Street Ending Errors": 33,
+        "Validation Time (seconds)": 0.62,
+        "Validation Date": "2025-08-01 12:49:02",
+        "Addresses Sent to Smarty": 33,
+        "Successful Corrections": 33,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.26,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 463,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 463,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 216,
+            "Column": "address",
+            "Original Value": "17850 WEST BOUNDRY TRUCK TRAIL",
+            "Corrected Value": "17850 W BOUNDRY TRUCK TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "18835 WEST BOUNDARY TRUCK TRAIL",
+            "Corrected Value": "18835 W BOUNDARY TRUCK TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Original Value": "18022 NORTHWOOD DR #3",
+            "Corrected Value": "18022 NORTHWOOD DR",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 422,
+            "Column": "address",
+            "Original Value": "2182 HONEY SPRINGS ROAD UNIT B",
+            "Corrected Value": "2182 HONEY SPRINGS ROAD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "2603 HONEY SPRINGS RD #A",
+            "Corrected Value": "2603 HONEY SPRINGS RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "2375 WHITE WING",
+            "Corrected Value": "2375 WHITE WING DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Original Value": "16656 SKYLINE TRUCK TRAILL",
+            "Corrected Value": "16656 SKYLINE TRUCK TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "19680 VIA SHAWNTY",
+            "Corrected Value": "19680 VIA SHAWNTY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "2098 VIA LAURA",
+            "Corrected Value": "2098 VIA LAURA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "19314 VIA PAMELA",
+            "Corrected Value": "19314 VIA PAMELA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "3380 HAMILTON RIDGE",
+            "Corrected Value": "3380 HAMILTONS RDG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "15475 CASTLE PEAK LAN",
+            "Corrected Value": "15475 CASTLE PEAK LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Original Value": "3635 WISECARVER",
+            "Corrected Value": "3635 WISECARVER LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "zip",
+            "Original Value": "91917",
+            "Corrected Value": "91917",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Original Value": "17968 HWY 94",
+            "Corrected Value": "17968 HIGHWAY 94",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "2476 HONEY SPRINGS",
+            "Corrected Value": "2476 HONEY SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "19675 DEERHORN VLY",
+            "Corrected Value": "19675 DEERHORN VALLEY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "20560 BEE VALLEY",
+            "Corrected Value": "20560 BEE VALLEY RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Original Value": "3280 BEAVER HOLLOW",
+            "Corrected Value": "3280 BEAVER HOLLOW RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "2501 HONEY SPRINGS",
+            "Corrected Value": "2501 HONEY SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "2124 HONEY SPRINGS",
+            "Corrected Value": "2124 HONEY SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "2383 HONEY SPRINGS",
+            "Corrected Value": "2383 HONEY SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "17888 SIERRA CIELO",
+            "Corrected Value": "17888 SIERRA CIELO LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "3388 HAMILTONS RIDGE",
+            "Corrected Value": "3388 HAMILTONS RDG",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "17765 SIERRA CIELO",
+            "Corrected Value": "17765 SIERRA CIELO LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "17700 SIERRA CIELO",
+            "Corrected Value": "17700 SIERRA CIELO LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "1839 HONEY SPRINGS",
+            "Corrected Value": "1839 HONEY SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "2098 VIA LAURA",
+            "Corrected Value": "2098 VIA LAURA",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "3880 PRAIRIE DRVE",
+            "Corrected Value": "3880 PRAIRIE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Original Value": "2220 MOTHER GRUNDY TT",
+            "Corrected Value": "2220 MOTHER GRUNDY TRUCK TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "2277 MOTHER GRUNDY TT",
+            "Corrected Value": "2277 MOTHER GRUNDY TRUCK TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 304,
+            "Column": "zip",
+            "Original Value": "92019",
+            "Corrected Value": "92019",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Original Value": "1914 HARBISON CANYON",
+            "Corrected Value": "1914 HARBISON CANYON RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "91917",
+            "Corrected Value": "91917",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "17931 HIGHWAY 94",
+            "Corrected Value": "17931 HIGHWAY 94",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "16234 WOOD VALLEY",
+            "Corrected Value": "16234 WOOD VALLEY TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "zip",
+            "Original Value": "91917",
+            "Corrected Value": "91917",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Original Value": "17771 HIGHWAY 94",
+            "Corrected Value": "17771 HIGHWAY 94",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Original Value": "1234 MOTHER GRUNDY TT",
+            "Corrected Value": "1234 MOTHER GRUNDY TT",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Original Value": "2261 MOTHER GRUNDY TT",
+            "Corrected Value": "2261 MOTHER GRUNDY TRUCK TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Original Value": "2271 MOTHER GRUNDY TT",
+            "Corrected Value": "2271 MOTHER GRUNDY TRUCK TRL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "zip",
+            "Original Value": "91935",
+            "Corrected Value": "91935",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Original Value": "17986 HIGHWAY 94",
+            "Corrected Value": "17986 HIGHWAY 94",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 215,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MOTHER GRUNDY TRUCK TRAIL"
+        },
+        {
+            "Row": 167,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1303464)",
+            "Value": "1303468"
+        },
+        {
+            "Row": 338,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1883452)",
+            "Value": "1906555"
+        },
+        {
+            "Row": 357,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1886738)",
+            "Value": "1995859"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2375 WHITE WING"
+        },
+        {
+            "Row": 12,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16656 SKYLINE TRUCK TRAILL"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19680 VIA SHAWNTY"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2098 VIA LAURA"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19314 VIA PAMELA"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3380 HAMILTON RIDGE"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15475 CASTLE PEAK LAN"
+        },
+        {
+            "Row": 105,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3635 WISECARVER"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17968 HWY 94"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2476 HONEY SPRINGS"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "19675 DEERHORN VLY"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20560 BEE VALLEY"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3280 BEAVER HOLLOW"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2501 HONEY SPRINGS"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2124 HONEY SPRINGS"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2383 HONEY SPRINGS"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17888 SIERRA CIELO"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3388 HAMILTONS RIDGE"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17765 SIERRA CIELO"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17700 SIERRA CIELO"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1839 HONEY SPRINGS"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2098 VIA LAURA"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3880 PRAIRIE DRVE"
+        },
+        {
+            "Row": 293,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2220 MOTHER GRUNDY TT"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2277 MOTHER GRUNDY TT"
+        },
+        {
+            "Row": 304,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1914 HARBISON CANYON"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17931 HIGHWAY 94"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16234 WOOD VALLEY"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17771 HIGHWAY 94"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1234 MOTHER GRUNDY TT"
+        },
+        {
+            "Row": 389,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2261 MOTHER GRUNDY TT"
+        },
+        {
+            "Row": 395,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2271 MOTHER GRUNDY TT"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17986 HIGHWAY 94"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 167,
+            "customer": "1303468",
+            "lat": 32.7263639,
+            "lon": -116.77583,
+            "address": "17368 SKYLINE TRUCK TRAIL",
+            "city": "JAMUL",
+            "state": "CA",
+            "zip": "91935",
+            "download": 30.0,
+            "upload": 30.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1303464)"
+        },
+        {
+            "OrigRowNum": 338,
+            "customer": "1906555",
+            "lat": 32.7268731,
+            "lon": -116.8314198,
+            "address": "15255 LYONS VALLEY RD",
+            "city": "JAMUL",
+            "state": "CA",
+            "zip": "91935",
+            "download": 30.0,
+            "upload": 30.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1883452)"
+        },
+        {
+            "OrigRowNum": 357,
+            "customer": "1995859",
+            "lat": 32.7519565,
+            "lon": -116.7861747,
+            "address": "16762 LAWSON VALLEY RD",
+            "city": "JAMUL",
+            "state": "CA",
+            "zip": "91935",
+            "download": 110.0,
+            "upload": 110.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1886738)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 10,
+            "Original Address": "2375 WHITE WING",
+            "Corrected Address": "2375 WHITE WING DR",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.362878"
+        },
+        {
+            "OrigRowNum": 12,
+            "Original Address": "16656 SKYLINE TRUCK TRAILL",
+            "Corrected Address": "16656 SKYLINE TRUCK TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.364177"
+        },
+        {
+            "OrigRowNum": 20,
+            "Original Address": "19680 VIA SHAWNTY",
+            "Corrected Address": "19680 VIA SHAWNTY",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.364603"
+        },
+        {
+            "OrigRowNum": 32,
+            "Original Address": "2098 VIA LAURA",
+            "Corrected Address": "2098 VIA LAURA",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.364947"
+        },
+        {
+            "OrigRowNum": 35,
+            "Original Address": "19314 VIA PAMELA",
+            "Corrected Address": "19314 VIA PAMELA",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.365278"
+        },
+        {
+            "OrigRowNum": 61,
+            "Original Address": "3380 HAMILTON RIDGE",
+            "Corrected Address": "3380 HAMILTONS RDG",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.365601"
+        },
+        {
+            "OrigRowNum": 69,
+            "Original Address": "15475 CASTLE PEAK LAN",
+            "Corrected Address": "15475 CASTLE PEAK LN",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.365922"
+        },
+        {
+            "OrigRowNum": 105,
+            "Original Address": "3635 WISECARVER",
+            "Corrected Address": "3635 WISECARVER LN",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.366247"
+        },
+        {
+            "OrigRowNum": 112,
+            "Original Address": "17968 HWY 94",
+            "Corrected Address": "17968 HIGHWAY 94",
+            "Original ZIP": "91917",
+            "Corrected ZIP": "91917",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.366559"
+        },
+        {
+            "OrigRowNum": 136,
+            "Original Address": "2476 HONEY SPRINGS",
+            "Corrected Address": "2476 HONEY SPRINGS RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.366874"
+        },
+        {
+            "OrigRowNum": 151,
+            "Original Address": "19675 DEERHORN VLY",
+            "Corrected Address": "19675 DEERHORN VALLEY RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.367162"
+        },
+        {
+            "OrigRowNum": 154,
+            "Original Address": "20560 BEE VALLEY",
+            "Corrected Address": "20560 BEE VALLEY RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.367440"
+        },
+        {
+            "OrigRowNum": 155,
+            "Original Address": "3280 BEAVER HOLLOW",
+            "Corrected Address": "3280 BEAVER HOLLOW RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.367716"
+        },
+        {
+            "OrigRowNum": 156,
+            "Original Address": "2501 HONEY SPRINGS",
+            "Corrected Address": "2501 HONEY SPRINGS RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.367988"
+        },
+        {
+            "OrigRowNum": 157,
+            "Original Address": "2124 HONEY SPRINGS",
+            "Corrected Address": "2124 HONEY SPRINGS RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.368268"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "2383 HONEY SPRINGS",
+            "Corrected Address": "2383 HONEY SPRINGS RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.368557"
+        },
+        {
+            "OrigRowNum": 180,
+            "Original Address": "17888 SIERRA CIELO",
+            "Corrected Address": "17888 SIERRA CIELO LN",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.368829"
+        },
+        {
+            "OrigRowNum": 186,
+            "Original Address": "3388 HAMILTONS RIDGE",
+            "Corrected Address": "3388 HAMILTONS RDG",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.369088"
+        },
+        {
+            "OrigRowNum": 200,
+            "Original Address": "17765 SIERRA CIELO",
+            "Corrected Address": "17765 SIERRA CIELO LN",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.369337"
+        },
+        {
+            "OrigRowNum": 201,
+            "Original Address": "17700 SIERRA CIELO",
+            "Corrected Address": "17700 SIERRA CIELO LN",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.369577"
+        },
+        {
+            "OrigRowNum": 219,
+            "Original Address": "1839 HONEY SPRINGS",
+            "Corrected Address": "1839 HONEY SPRINGS RD",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.369812"
+        },
+        {
+            "OrigRowNum": 288,
+            "Original Address": "2098 VIA LAURA",
+            "Corrected Address": "2098 VIA LAURA",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.370053"
+        },
+        {
+            "OrigRowNum": 289,
+            "Original Address": "3880 PRAIRIE DRVE",
+            "Corrected Address": "3880 PRAIRIE DR",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.370298"
+        },
+        {
+            "OrigRowNum": 293,
+            "Original Address": "2220 MOTHER GRUNDY TT",
+            "Corrected Address": "2220 MOTHER GRUNDY TRUCK TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.370539"
+        },
+        {
+            "OrigRowNum": 296,
+            "Original Address": "2277 MOTHER GRUNDY TT",
+            "Corrected Address": "2277 MOTHER GRUNDY TRUCK TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.370779"
+        },
+        {
+            "OrigRowNum": 304,
+            "Original Address": "1914 HARBISON CANYON",
+            "Corrected Address": "1914 HARBISON CANYON RD",
+            "Original ZIP": "92019",
+            "Corrected ZIP": "92019",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.371427"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "17931 HIGHWAY 94",
+            "Corrected Address": "17931 HIGHWAY 94",
+            "Original ZIP": "91917",
+            "Corrected ZIP": "91917",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.371786"
+        },
+        {
+            "OrigRowNum": 356,
+            "Original Address": "16234 WOOD VALLEY",
+            "Corrected Address": "16234 WOOD VALLEY TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.372111"
+        },
+        {
+            "OrigRowNum": 362,
+            "Original Address": "17771 HIGHWAY 94",
+            "Corrected Address": "17771 HIGHWAY 94",
+            "Original ZIP": "91917",
+            "Corrected ZIP": "91917",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.372421"
+        },
+        {
+            "OrigRowNum": 383,
+            "Original Address": "1234 MOTHER GRUNDY TT",
+            "Corrected Address": "1234 MOTHER GRUNDY TT",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.372742"
+        },
+        {
+            "OrigRowNum": 389,
+            "Original Address": "2261 MOTHER GRUNDY TT",
+            "Corrected Address": "2261 MOTHER GRUNDY TRUCK TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.373043"
+        },
+        {
+            "OrigRowNum": 395,
+            "Original Address": "2271 MOTHER GRUNDY TT",
+            "Corrected Address": "2271 MOTHER GRUNDY TRUCK TRL",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.373342"
+        },
+        {
+            "OrigRowNum": 453,
+            "Original Address": "17986 HIGHWAY 94",
+            "Corrected Address": "17986 HIGHWAY 94",
+            "Original ZIP": "91935",
+            "Corrected ZIP": "91935",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T12:49:02.373636"
+        }
+    ]
+}

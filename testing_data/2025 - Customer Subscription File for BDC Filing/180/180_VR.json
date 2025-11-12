@@ -1,0 +1,1058 @@
+{
+    "Summary": {
+        "Total Rows Processed": 809,
+        "Rows with Corrections": 36,
+        "Rows with Errors": 55,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 24,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 36,
+        "Total Errors": 55,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.64,
+        "Validation Date": "2025-08-18 13:23:52",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 785,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 785,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "2821 WEST 7TH ST",
+            "Corrected Value": "2821 W 7TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "2158 W NORTHWEST HWY",
+            "Corrected Value": "2158 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "11211 E NORTHWEST HWY",
+            "Corrected Value": "11211 E NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Original Value": "1025 N STEMMONS FWY",
+            "Corrected Value": "1025 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "1424 AIRPORT FREEWAY SUITE # P",
+            "Corrected Value": "1424 AIRPORT FREEWAY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "14330 MIDWAY RD SUITE # 229",
+            "Corrected Value": "14330 MIDWAY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Original Value": "10758 N STEMMONS FWY",
+            "Corrected Value": "10758 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "2001 EAST DIVISION STREET",
+            "Corrected Value": "2001 E DIVISION STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "2629 N STEMMONS FWY",
+            "Corrected Value": "2629 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "2629 N STEMMONS FWY",
+            "Corrected Value": "2629 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "2461 N STEMMONS FWY",
+            "Corrected Value": "2461 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 517,
+            "Column": "address",
+            "Original Value": "14330 MIDWAY RD SUITE # 229",
+            "Corrected Value": "14330 MIDWAY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 542,
+            "Column": "address",
+            "Original Value": "2001 EAST DIVISION STREET",
+            "Corrected Value": "2001 E DIVISION STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 562,
+            "Column": "address",
+            "Original Value": "4843 WEST ROYAL LN",
+            "Corrected Value": "4843 W ROYAL LN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 615,
+            "Column": "address",
+            "Original Value": "2629 N STEMMONS FWY",
+            "Corrected Value": "2629 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 695,
+            "Column": "address",
+            "Original Value": "3626 NORTH HALL STREET TW",
+            "Corrected Value": "3626 N HALL STREET TW",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 698,
+            "Column": "address",
+            "Original Value": "14330 MIDWAY RD SUITE # 229",
+            "Corrected Value": "14330 MIDWAY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 737,
+            "Column": "address",
+            "Original Value": "8500 N STEMMONS FWY",
+            "Corrected Value": "8500 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "2351 W NORTHWEST HWY",
+            "Corrected Value": "2351 W NW HWY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "0015b00002Dxnx1",
+            "Corrected Value": "0015b00002Dxnx1_023",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "0011U00001flkUj",
+            "Corrected Value": "0011U00001flkUj_009",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "0011U00001flkUj",
+            "Corrected Value": "0011U00001flkUj_010",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Original Value": "0011U00001flkUj",
+            "Corrected Value": "0011U00001flkUj_011",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "customer",
+            "Original Value": "0011U00001flkUj",
+            "Corrected Value": "0011U00001flkUj_012",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 17,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3341 TOWERWOOD DR"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13350 FLOYD CIR"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13335 FLOYD CIR"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13502 FLOYD CIR"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13408 FLOYD CIR"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13663 FLOYD CIR"
+        },
+        {
+            "Row": 588,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13434 FLOYD CIR"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SIMONTON RD"
+        },
+        {
+            "Row": 729,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00000NRT1U_001",
+            "Value": "0011U00000NRT1U"
+        },
+        {
+            "Row": 777,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00000NRTNg_002",
+            "Value": "0011U00000NRTNg"
+        },
+        {
+            "Row": 731,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00000NRTsR_003",
+            "Value": "0011U00000NRTsR"
+        },
+        {
+            "Row": 778,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00000NRTsR_004",
+            "Value": "0011U00000NRTsR"
+        },
+        {
+            "Row": 474,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U000015Uyzr_005",
+            "Value": "0011U000015Uyzr"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001c9zgd_006",
+            "Value": "0011U00001c9zgd"
+        },
+        {
+            "Row": 638,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001FaPDo_007",
+            "Value": "0011U00001FaPDo"
+        },
+        {
+            "Row": 59,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001flkUj_008",
+            "Value": "0011U00001flkUj"
+        },
+        {
+            "Row": 60,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001flkUj_009",
+            "Value": "0011U00001flkUj"
+        },
+        {
+            "Row": 61,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001flkUj_010",
+            "Value": "0011U00001flkUj"
+        },
+        {
+            "Row": 62,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001flkUj_011",
+            "Value": "0011U00001flkUj"
+        },
+        {
+            "Row": 234,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001flkUj_012",
+            "Value": "0011U00001flkUj"
+        },
+        {
+            "Row": 644,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001QAFQ8_013",
+            "Value": "0011U00001QAFQ8"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0011U00001UEiIX_014",
+            "Value": "0011U00001UEiIX"
+        },
+        {
+            "Row": 663,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b00001s8npe_015",
+            "Value": "0015b00001s8npe"
+        },
+        {
+            "Row": 500,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b00001u91da_016",
+            "Value": "0015b00001u91da"
+        },
+        {
+            "Row": 296,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b00001vPU4r_017",
+            "Value": "0015b00001vPU4r"
+        },
+        {
+            "Row": 320,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b000020cIKY_018",
+            "Value": "0015b000020cIKY"
+        },
+        {
+            "Row": 753,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b000020cySw_019",
+            "Value": "0015b000020cySw"
+        },
+        {
+            "Row": 522,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b000025xCx0_020",
+            "Value": "0015b000025xCx0"
+        },
+        {
+            "Row": 530,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b0000271E6U_021",
+            "Value": "0015b0000271E6U"
+        },
+        {
+            "Row": 377,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b000029VLIE_022",
+            "Value": "0015b000029VLIE"
+        },
+        {
+            "Row": 705,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 0015b00002Dxnx1_023",
+            "Value": "0015b00002Dxnx1"
+        },
+        {
+            "Row": 584,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b000026yi3C)",
+            "Value": "0015b00002HFFUu"
+        },
+        {
+            "Row": 625,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b000026yi3C)",
+            "Value": "001Ua000002kIqQ"
+        },
+        {
+            "Row": 402,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00002BHWJr)",
+            "Value": "0015b00002Dx6cJ"
+        },
+        {
+            "Row": 239,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000cFnxQ)",
+            "Value": "0011U00001KCvNs"
+        },
+        {
+            "Row": 327,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00001rAOf7)",
+            "Value": "0015b000022EZUt"
+        },
+        {
+            "Row": 660,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00001FaPDo_007)",
+            "Value": "0015b00001rAUG6"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00001lWJ0A)",
+            "Value": "0015b00001lY2S0"
+        },
+        {
+            "Row": 236,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000NRU4D)",
+            "Value": "0011U00001hWIhA"
+        },
+        {
+            "Row": 454,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00002IxfYa)",
+            "Value": "001Ua000002cRCm"
+        },
+        {
+            "Row": 216,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000ckGhJ)",
+            "Value": "0011U000014TPm8"
+        },
+        {
+            "Row": 227,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000ckGhJ)",
+            "Value": "0011U00001c9iae"
+        },
+        {
+            "Row": 363,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000NRV5h)",
+            "Value": "0015b0000271gq0"
+        },
+        {
+            "Row": 418,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00002Ff6UR)",
+            "Value": "0015b00002FfFXf"
+        },
+        {
+            "Row": 553,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00001nM0m1)",
+            "Value": "0015b00002BHcU3"
+        },
+        {
+            "Row": 218,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000NRUQw)",
+            "Value": "0011U000016NWXQ"
+        },
+        {
+            "Row": 410,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00001c7CUk)",
+            "Value": "0015b00002DzgLk"
+        },
+        {
+            "Row": 550,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00002ASvhU)",
+            "Value": "0015b00002ASvyQ"
+        },
+        {
+            "Row": 254,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00001Fbh2w)",
+            "Value": "0015b00001lXwLN"
+        },
+        {
+            "Row": 272,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00001Fbh2w)",
+            "Value": "0015b00001rAPd4"
+        },
+        {
+            "Row": 313,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00001tKLqa)",
+            "Value": "0015b00001zcx8e"
+        },
+        {
+            "Row": 426,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000NRTh0)",
+            "Value": "0015b00002I7ImT"
+        },
+        {
+            "Row": 494,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0011U00000NRVHa)",
+            "Value": "0015b00001s7nM4"
+        },
+        {
+            "Row": 598,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b0000270X6g)",
+            "Value": "0015b00002IwuUf"
+        },
+        {
+            "Row": 157,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 0015b00002AQlFR)",
+            "Value": "0015b00002BFViE"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 584,
+            "customer": "0015b00002HFFUu",
+            "lat": "32.78262",
+            "lon": "-96.79538",
+            "address": "1910 PACIFIC AVE",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75201",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b000026yi3C)"
+        },
+        {
+            "OrigRowNum": 625,
+            "customer": "001Ua000002kIqQ",
+            "lat": "32.78262",
+            "lon": "-96.79538",
+            "address": "1910 PACIFIC AVE",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75201",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b000026yi3C)"
+        },
+        {
+            "OrigRowNum": 402,
+            "customer": "0015b00002Dx6cJ",
+            "lat": "32.80893",
+            "lon": "-96.80556",
+            "address": "3303 LEE PKWY",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75219",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00002BHWJr)"
+        },
+        {
+            "OrigRowNum": 239,
+            "customer": "0011U00001KCvNs",
+            "lat": "32.8239",
+            "lon": "-96.86415",
+            "address": "8204 ELMBROOK DR",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75247",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000cFnxQ)"
+        },
+        {
+            "OrigRowNum": 327,
+            "customer": "0015b000022EZUt",
+            "lat": "32.83007",
+            "lon": "-97.09554",
+            "address": "1001 W EULESS BLVD",
+            "city": "EULESS",
+            "state": "TX",
+            "zip": "76040",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00001rAOf7)"
+        },
+        {
+            "OrigRowNum": 660,
+            "customer": "0015b00001rAUG6",
+            "lat": "32.83569",
+            "lon": "-96.95426",
+            "address": "800 W AIRPORT FWY",
+            "city": "IRVING",
+            "state": "TX",
+            "zip": "75062",
+            "download": 400.0,
+            "upload": 400.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00001FaPDo_007)"
+        },
+        {
+            "OrigRowNum": 104,
+            "customer": "0015b00001lY2S0",
+            "lat": "32.83596",
+            "lon": "-97.14114",
+            "address": "1600 AIRPORT FWY",
+            "city": "BEDFORD",
+            "state": "TX",
+            "zip": "76022",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00001lWJ0A)"
+        },
+        {
+            "OrigRowNum": 236,
+            "customer": "0011U00001hWIhA",
+            "lat": "32.83863",
+            "lon": "-97.13442",
+            "address": "1901 CENTRAL DR",
+            "city": "BEDFORD",
+            "state": "TX",
+            "zip": "76021",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 3,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000NRU4D)"
+        },
+        {
+            "OrigRowNum": 454,
+            "customer": "001Ua000002cRCm",
+            "lat": "32.83991",
+            "lon": "-97.02054",
+            "address": "2300 VALLEY VIEW LN",
+            "city": "IRVING",
+            "state": "TX",
+            "zip": "75062",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00002IxfYa)"
+        },
+        {
+            "OrigRowNum": 216,
+            "customer": "0011U000014TPm8",
+            "lat": "32.90861",
+            "lon": "-96.7388",
+            "address": "9304 FOREST LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000ckGhJ)"
+        },
+        {
+            "OrigRowNum": 227,
+            "customer": "0011U00001c9iae",
+            "lat": "32.90861",
+            "lon": "-96.7388",
+            "address": "9304 FOREST LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000ckGhJ)"
+        },
+        {
+            "OrigRowNum": 363,
+            "customer": "0015b0000271gq0",
+            "lat": "32.90877",
+            "lon": "-96.88198",
+            "address": "2828 FOREST LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75234",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000NRV5h)"
+        },
+        {
+            "OrigRowNum": 418,
+            "customer": "0015b00002FfFXf",
+            "lat": "32.91084",
+            "lon": "-96.74243",
+            "address": "11836 JUDD CT",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 0015b00002Ff6UR)"
+        },
+        {
+            "OrigRowNum": 553,
+            "customer": "0015b00002BHcU3",
+            "lat": "32.91109",
+            "lon": "-96.72955",
+            "address": "9535 FOREST LANE",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 2,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00001nM0m1)"
+        },
+        {
+            "OrigRowNum": 218,
+            "customer": "0011U000016NWXQ",
+            "lat": "32.91183",
+            "lon": "-96.88637",
+            "address": "2695 VILLA CREEK DR",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75234",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000NRUQw)"
+        },
+        {
+            "OrigRowNum": 410,
+            "customer": "0015b00002DzgLk",
+            "lat": "32.91457",
+            "lon": "-96.74566",
+            "address": "12225 GREENVILLE AVE",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00001c7CUk)"
+        },
+        {
+            "OrigRowNum": 550,
+            "customer": "0015b00002ASvyQ",
+            "lat": "32.92235",
+            "lon": "-97.01631",
+            "address": "5005 W ROYAL LN",
+            "city": "IRVING",
+            "state": "TX",
+            "zip": "75063",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00002ASvhU)"
+        },
+        {
+            "OrigRowNum": 254,
+            "customer": "0015b00001lXwLN",
+            "lat": "32.92309",
+            "lon": "-96.75984",
+            "address": "8330 LBJ",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00001Fbh2w)"
+        },
+        {
+            "OrigRowNum": 272,
+            "customer": "0015b00001rAPd4",
+            "lat": "32.92309",
+            "lon": "-96.75984",
+            "address": "8330 LBJ",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00001Fbh2w)"
+        },
+        {
+            "OrigRowNum": 313,
+            "customer": "0015b00001zcx8e",
+            "lat": "32.92309",
+            "lon": "-96.75984",
+            "address": "8330 LBJ",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75243",
+            "download": 200.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 3,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b00001tKLqa)"
+        },
+        {
+            "OrigRowNum": 426,
+            "customer": "0015b00002I7ImT",
+            "lat": "32.93362",
+            "lon": "-96.80468",
+            "address": "13601 PRESTON RD",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75240",
+            "download": 200.0,
+            "upload": 200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0011U00000NRTh0)"
+        },
+        {
+            "OrigRowNum": 494,
+            "customer": "0015b00001s7nM4",
+            "lat": "32.96618",
+            "lon": "-96.82683",
+            "address": "4951 AIRPORT PKWY",
+            "city": "ADDISON",
+            "state": "TX",
+            "zip": "75001",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 0011U00000NRVHa)"
+        },
+        {
+            "OrigRowNum": 598,
+            "customer": "0015b00002IwuUf",
+            "lat": "32.98763",
+            "lon": "-96.80165",
+            "address": "17330 PRESTON RD",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75252",
+            "download": 300.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 0015b0000270X6g)"
+        },
+        {
+            "OrigRowNum": 157,
+            "customer": "0015b00002BFViE",
+            "lat": "",
+            "lon": "",
+            "address": "1331 W AIRPORT FREEWAY",
+            "city": "EULESS",
+            "state": "TX",
+            "zip": "76040",
+            "download": 100.0,
+            "upload": 100.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 0015b00002AQlFR)"
+        }
+    ],
+    "Smarty Corrections": []
+}

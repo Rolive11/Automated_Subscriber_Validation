@@ -1,0 +1,180 @@
+{
+    "Summary": {
+        "Total Rows Processed": 5774,
+        "Rows with Corrections": 0,
+        "Rows with Errors": 21,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 0,
+        "Total Errors": 21,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 5.19,
+        "Validation Date": "2025-08-27 20:49:54",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 5774,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 5774,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [],
+    "Errors": [
+        {
+            "Row": 534,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9738 FLYING COTTON LOOP"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9789 FLYING COTTON LOOP"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9691 FLYING COTTON LOOP"
+        },
+        {
+            "Row": 717,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "44362 BOXELDER AVE"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2828AVE G"
+        },
+        {
+            "Row": 881,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2115AVE E"
+        },
+        {
+            "Row": 885,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1322AVE K"
+        },
+        {
+            "Row": 1864,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "546S 17TH ST"
+        },
+        {
+            "Row": 2153,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "104 FLUSCHE ST"
+        },
+        {
+            "Row": 2712,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "E 8TH STREET"
+        },
+        {
+            "Row": 3614,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5AVE B"
+        },
+        {
+            "Row": 3882,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3418 UNITY LN"
+        },
+        {
+            "Row": 3961,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3442 UNITY LN"
+        },
+        {
+            "Row": 4006,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3441 UNITY LN"
+        },
+        {
+            "Row": 4043,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3445 UNITY LN"
+        },
+        {
+            "Row": 4086,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1ST STREET"
+        },
+        {
+            "Row": 4173,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "300TH STREET"
+        },
+        {
+            "Row": 4218,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3418 UNITY LN"
+        },
+        {
+            "Row": 5003,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "902 STEVENS AVE"
+        },
+        {
+            "Row": 5492,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1003 UNIT A NORMAL ST"
+        },
+        {
+            "Row": 5705,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "3RD STREET"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

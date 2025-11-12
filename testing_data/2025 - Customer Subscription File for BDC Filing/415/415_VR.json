@@ -1,0 +1,854 @@
+{
+    "Summary": {
+        "Total Rows Processed": 34,
+        "Rows with Corrections": 34,
+        "Rows with Errors": 34,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 54,
+        "Total Errors": 41,
+        "Street Ending Errors": 7,
+        "Validation Time (seconds)": 0.45,
+        "Validation Date": "2025-08-04 07:13:39",
+        "Addresses Sent to Smarty": 7,
+        "Successful Corrections": 7,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.36,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 34,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 34,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "state",
+            "Original Value": "Va",
+            "Corrected Value": "VA",
+            "Correction Type": "State Abbreviation Case Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "lat",
+            "Original Value": "37.007871,",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "lon",
+            "Original Value": -81.963788,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "lat",
+            "Original Value": "34.097253",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "lon",
+            "Original Value": -81.96585,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "lat",
+            "Original Value": "33.054071",
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "lon",
+            "Original Value": -83.939943,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "address",
+            "Original Value": "4909 REDBUD HWY",
+            "Corrected Value": "4909 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Original Value": "624 PUTNAM BYP",
+            "Corrected Value": "624 PUTNAM BYP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "6084 REDBUD HWY",
+            "Corrected Value": "6084 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Original Value": "5738 REDBUD HWY",
+            "Corrected Value": "5738 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "5696 REDBUD HWY",
+            "Corrected Value": "5696 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Original Value": "5738 REDBUD HWY",
+            "Corrected Value": "5738 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "zip",
+            "Original Value": "24260",
+            "Corrected Value": "24260",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "5751 REDBUD HWY",
+            "Corrected Value": "5751 REDBUD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 2,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 3,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 4,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 5,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 6,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 7,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 8,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 9,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 10,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 11,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 12,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 13,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 14,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 15,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 16,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 17,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 19,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 20,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 21,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 22,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 23,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 24,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 25,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 26,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 27,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 28,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 29,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 30,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 31,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 32,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 33,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 34,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 35,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Va"
+        },
+        {
+            "Row": 2,
+            "Column": "lat",
+            "Error": "Lat must be a number",
+            "Value": "37.007871,"
+        },
+        {
+            "Row": 2,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-81.963788"
+        },
+        {
+            "Row": 6,
+            "Column": "lat",
+            "Error": "Latitude for VA must be positive",
+            "Value": "34.097253"
+        },
+        {
+            "Row": 6,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-81.96585"
+        },
+        {
+            "Row": 7,
+            "Column": "lat",
+            "Error": "Latitude for VA must be between 36.540759 and 39.466012",
+            "Value": "33.054071"
+        },
+        {
+            "Row": 7,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-83.939943"
+        },
+        {
+            "Row": 7,
+            "Column": "lon",
+            "Error": "Longitude for VA must be negative",
+            "Value": "-83.939943"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 4,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4909 REDBUD HWY"
+        },
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "624 PUTNAM BYP"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6084 REDBUD HWY"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5738 REDBUD HWY"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5696 REDBUD HWY"
+        },
+        {
+            "Row": 33,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5738 REDBUD HWY"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5751 REDBUD HWY"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 4,
+            "Original Address": "4909 REDBUD HWY",
+            "Corrected Address": "4909 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.917102"
+        },
+        {
+            "OrigRowNum": 8,
+            "Original Address": "624 PUTNAM BYP",
+            "Corrected Address": "624 PUTNAM BYP",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.918374"
+        },
+        {
+            "OrigRowNum": 27,
+            "Original Address": "6084 REDBUD HWY",
+            "Corrected Address": "6084 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.919062"
+        },
+        {
+            "OrigRowNum": 31,
+            "Original Address": "5738 REDBUD HWY",
+            "Corrected Address": "5738 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.919598"
+        },
+        {
+            "OrigRowNum": 32,
+            "Original Address": "5696 REDBUD HWY",
+            "Corrected Address": "5696 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.920065"
+        },
+        {
+            "OrigRowNum": 33,
+            "Original Address": "5738 REDBUD HWY",
+            "Corrected Address": "5738 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.920433"
+        },
+        {
+            "OrigRowNum": 34,
+            "Original Address": "5751 REDBUD HWY",
+            "Corrected Address": "5751 REDBUD HWY",
+            "Original ZIP": "24260",
+            "Corrected ZIP": "24260",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T07:13:39.920781"
+        }
+    ]
+}

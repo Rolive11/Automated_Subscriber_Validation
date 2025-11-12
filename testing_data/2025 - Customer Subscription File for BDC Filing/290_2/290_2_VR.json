@@ -1,0 +1,119 @@
+{
+    "Summary": {
+        "Total Rows Processed": 616,
+        "Rows with Corrections": 1,
+        "Rows with Errors": 6,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 2,
+        "Total Errors": 6,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.79,
+        "Validation Date": "2025-08-29 12:33:02",
+        "Addresses Sent to Smarty": 1,
+        "Successful Corrections": 1,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.26,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 616,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 616,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "65721",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 446,
+            "Column": "address",
+            "Original Value": "808 HOG CREEK RD",
+            "Corrected Value": "808 HOGCREEK RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "1920A S 18TH ST"
+        },
+        {
+            "Row": 284,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4697 FLORENCE AVE"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4711 FLORENCE AVE"
+        },
+        {
+            "Row": 520,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "200 FLINT ACRES"
+        },
+        {
+            "Row": 594,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "777MOON VALLEY RD"
+        },
+        {
+            "Row": 446,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 446,
+            "Original Address": "808 HOG CREEK RD",
+            "Corrected Address": "808 HOGCREEK RD",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "65721",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-29T12:33:02.009770"
+        }
+    ]
+}

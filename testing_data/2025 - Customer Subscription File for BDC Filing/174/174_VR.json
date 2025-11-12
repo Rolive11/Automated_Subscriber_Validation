@@ -1,0 +1,2398 @@
+{
+    "Summary": {
+        "Total Rows Processed": 849,
+        "Rows with Corrections": 91,
+        "Rows with Errors": 60,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 152,
+        "Total Errors": 185,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.6,
+        "Validation Date": "2025-08-20 09:21:36",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 848,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 848,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "9601 EAST XANA WAY",
+            "Corrected Value": "9601 E XANA WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "5733 EAST RUBY RD",
+            "Corrected Value": "5733 E RUBY RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "address",
+            "Original Value": "6952 EAST KENDALL LANE",
+            "Corrected Value": "6952 E KENDALL LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "7474 EAST MADERA DR",
+            "Corrected Value": "7474 E MADERA DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "address",
+            "Original Value": "6595 EAST CALLE MONTES",
+            "Corrected Value": "6595 E CALLE MONTES",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "address",
+            "Original Value": "6655 EAST RENEGADE TRAIL",
+            "Corrected Value": "6655 E RENEGADE TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "1818 EAST APACHE POINTE RD",
+            "Corrected Value": "1818 E APACHE POINTE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "5187 WEST WILLYS RUN",
+            "Corrected Value": "5187 W WILLYS RUN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "6674 B SOUTH JAXEL RD",
+            "Corrected Value": "6674 B S JAXEL RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 251,
+            "Column": "address",
+            "Original Value": "6200 EAST DAKOTA RD",
+            "Corrected Value": "6200 E DAKOTA RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 256,
+            "Column": "address",
+            "Original Value": "1310 EAST SPIRIT ROCK RD",
+            "Corrected Value": "1310 E SPIRIT ROCK RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 424,
+            "Column": "address",
+            "Original Value": "9428 SOUTH STARWREN CIRCLE",
+            "Corrected Value": "9428 S STARWREN CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "10133 EAST VINEYARD RD",
+            "Corrected Value": "10133 E VINEYARD RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "7159 EAST SILVER CREEK ROAD",
+            "Corrected Value": "7159 E SILVER CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "7200 EAST LAZY Y 5 ROAD",
+            "Corrected Value": "7200 E LAZY Y 5 ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "10110 E ROCKING WEST RANCH RD",
+            "Corrected Value": "10110 E ROCKING W RANCH RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Original Value": "4997 SOUTH BURRO DRIVE",
+            "Corrected Value": "4997 S BURRO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 549,
+            "Column": "address",
+            "Original Value": "6636 EAST VIA QUINTA",
+            "Corrected Value": "6636 E VIA QUINTA",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 565,
+            "Column": "address",
+            "Original Value": "10854 SOUTH HUTCHINSON ROAD",
+            "Corrected Value": "10854 S HUTCHINSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Original Value": "4182 SOUTH LORAY",
+            "Corrected Value": "4182 S LORAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Original Value": "6078 SOUTH KELLY LANE",
+            "Corrected Value": "6078 S KELLY LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Original Value": "5911 SOUTH PINTEK LANE",
+            "Corrected Value": "5911 S PINTEK LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "7150 EAST LAFE TRAIL",
+            "Corrected Value": "7150 E LAFE TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Original Value": "9213 EAST COYOTE TRAIL",
+            "Corrected Value": "9213 E COYOTE TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 608,
+            "Column": "address",
+            "Original Value": "10422 SOUTH CORGI RANCH ROAD",
+            "Corrected Value": "10422 S CORGI RANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 620,
+            "Column": "address",
+            "Original Value": "1490 EAST LOMA LANE",
+            "Corrected Value": "1490 E LOMA LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 622,
+            "Column": "address",
+            "Original Value": "1447 EAST REDROCK DRIVE",
+            "Corrected Value": "1447 E REDROCK DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 652,
+            "Column": "address",
+            "Original Value": "6461 EAST COVEY RUN TRAIL",
+            "Corrected Value": "6461 E COVEY RUN TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 671,
+            "Column": "address",
+            "Original Value": "6902 EAST KOKOPELLI WAY",
+            "Corrected Value": "6902 E KOKOPELLI WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Original Value": "11442 SOUTH FIREBIRD RD",
+            "Corrected Value": "11442 S FIREBIRD RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 714,
+            "Column": "address",
+            "Original Value": "8296 SOUTH SOPHIA LANE",
+            "Corrected Value": "8296 S SOPHIA LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Original Value": "9336 SOUTH SPRINGTAIL DRIVE",
+            "Corrected Value": "9336 S SPRINGTAIL DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "address",
+            "Original Value": "3009 EAST ANIKA WAY",
+            "Corrected Value": "3009 E ANIKA WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "lat",
+            "Original Value": -110.138698,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 791,
+            "Column": "lon",
+            "Original Value": 31.400655,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 792,
+            "Column": "lat",
+            "Original Value": -110.235341,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 792,
+            "Column": "lon",
+            "Original Value": 31.46243984,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 793,
+            "Column": "lat",
+            "Original Value": -110.1284082,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 793,
+            "Column": "lon",
+            "Original Value": 31.41745938,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 794,
+            "Column": "lat",
+            "Original Value": -110.1463549,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 794,
+            "Column": "lon",
+            "Original Value": 31.40042699,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 795,
+            "Column": "lat",
+            "Original Value": -110.2836459,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 795,
+            "Column": "lon",
+            "Original Value": 31.4865406,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 796,
+            "Column": "lat",
+            "Original Value": -110.2221354,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 796,
+            "Column": "lon",
+            "Original Value": 31.40168786,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "lat",
+            "Original Value": -110.1335229,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 797,
+            "Column": "lon",
+            "Original Value": 31.41310936,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 798,
+            "Column": "lat",
+            "Original Value": -110.2390002,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 798,
+            "Column": "lon",
+            "Original Value": 31.43761038,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "lat",
+            "Original Value": -110.2433482,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "lon",
+            "Original Value": 31.50277271,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 800,
+            "Column": "lat",
+            "Original Value": -110.1075708,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 800,
+            "Column": "lon",
+            "Original Value": 31.40599358,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "lat",
+            "Original Value": -110.2676,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 801,
+            "Column": "lon",
+            "Original Value": 31.466839,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 802,
+            "Column": "lat",
+            "Original Value": -110.1764265,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 802,
+            "Column": "lon",
+            "Original Value": 31.37509879,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 803,
+            "Column": "lat",
+            "Original Value": -110.2046279,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 803,
+            "Column": "lon",
+            "Original Value": 31.53461071,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 804,
+            "Column": "lat",
+            "Original Value": -110.1652125,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 804,
+            "Column": "lon",
+            "Original Value": 31.44808345,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 805,
+            "Column": "lat",
+            "Original Value": -110.1729756,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 805,
+            "Column": "lon",
+            "Original Value": 31.45411107,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 806,
+            "Column": "lat",
+            "Original Value": -110.2260268,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 806,
+            "Column": "lon",
+            "Original Value": 31.39574739,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 807,
+            "Column": "lat",
+            "Original Value": -110.2043086,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 807,
+            "Column": "lon",
+            "Original Value": 31.48915337,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "lat",
+            "Original Value": -110.1643959,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 808,
+            "Column": "lon",
+            "Original Value": 31.45704124,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 809,
+            "Column": "lat",
+            "Original Value": -110.2436768,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 809,
+            "Column": "lon",
+            "Original Value": 31.47542899,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 810,
+            "Column": "lat",
+            "Original Value": -110.1812757,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 810,
+            "Column": "lon",
+            "Original Value": 31.47863279,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 811,
+            "Column": "lat",
+            "Original Value": -110.2119022,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 811,
+            "Column": "lon",
+            "Original Value": 31.48182772,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 812,
+            "Column": "lat",
+            "Original Value": -110.1537884,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 812,
+            "Column": "lon",
+            "Original Value": 31.382828,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "lat",
+            "Original Value": -110.1495085,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "lon",
+            "Original Value": 31.47194087,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "lat",
+            "Original Value": -110.1419234,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "lon",
+            "Original Value": 31.40086579,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 815,
+            "Column": "lat",
+            "Original Value": -110.1914514,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 815,
+            "Column": "lon",
+            "Original Value": 31.40330238,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "lat",
+            "Original Value": -110.1940774,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "lon",
+            "Original Value": 31.4038885,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 817,
+            "Column": "lat",
+            "Original Value": -110.1743667,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 817,
+            "Column": "lon",
+            "Original Value": 31.48912637,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "lat",
+            "Original Value": -110.1945161,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "lon",
+            "Original Value": 31.49823369,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 819,
+            "Column": "lat",
+            "Original Value": -110.2238801,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 819,
+            "Column": "lon",
+            "Original Value": 31.45132841,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 820,
+            "Column": "lat",
+            "Original Value": -110.18541,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 820,
+            "Column": "lon",
+            "Original Value": 31.46177901,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 821,
+            "Column": "lat",
+            "Original Value": -110.232324,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 821,
+            "Column": "lon",
+            "Original Value": 31.39634989,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 822,
+            "Column": "lat",
+            "Original Value": -110.1078664,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 822,
+            "Column": "lon",
+            "Original Value": 31.57275676,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "lat",
+            "Original Value": -110.1467576,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "lon",
+            "Original Value": 31.38498979,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "lat",
+            "Original Value": -110.1550118,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "lon",
+            "Original Value": 31.38655919,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 825,
+            "Column": "lat",
+            "Original Value": -110.1716979,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 825,
+            "Column": "lon",
+            "Original Value": 31.45515674,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 826,
+            "Column": "lat",
+            "Original Value": -110.2779721,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 826,
+            "Column": "lon",
+            "Original Value": 31.48913673,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 827,
+            "Column": "lat",
+            "Original Value": -110.1416011,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 827,
+            "Column": "lon",
+            "Original Value": 31.3833987,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 828,
+            "Column": "lat",
+            "Original Value": -110.1726204,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 828,
+            "Column": "lon",
+            "Original Value": 31.45161557,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "lat",
+            "Original Value": -110.1736564,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 829,
+            "Column": "lon",
+            "Original Value": 31.47448786,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "lat",
+            "Original Value": -110.1605377,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "lon",
+            "Original Value": 31.36283418,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "lat",
+            "Original Value": -110.2254199,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "lon",
+            "Original Value": 31.41071959,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 832,
+            "Column": "lat",
+            "Original Value": -110.1343605,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 832,
+            "Column": "lon",
+            "Original Value": 31.42051839,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "lat",
+            "Original Value": -110.1520534,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "lon",
+            "Original Value": 31.33742511,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "lat",
+            "Original Value": -110.1441551,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "lon",
+            "Original Value": 31.41996138,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 835,
+            "Column": "lat",
+            "Original Value": -110.139361,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 835,
+            "Column": "lon",
+            "Original Value": 31.42075322,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 836,
+            "Column": "lat",
+            "Original Value": -110.1250647,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 836,
+            "Column": "lon",
+            "Original Value": 31.42163476,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 837,
+            "Column": "lat",
+            "Original Value": -110.1799507,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 837,
+            "Column": "lon",
+            "Original Value": 31.3682248,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "lat",
+            "Original Value": -110.1531255,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "lon",
+            "Original Value": 31.38226349,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 839,
+            "Column": "lat",
+            "Original Value": -110.1476376,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 839,
+            "Column": "lon",
+            "Original Value": 31.45508158,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 840,
+            "Column": "lat",
+            "Original Value": -110.1981769,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 840,
+            "Column": "lon",
+            "Original Value": 31.44959254,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 841,
+            "Column": "lat",
+            "Original Value": -110.1951786,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 841,
+            "Column": "lon",
+            "Original Value": 31.39667094,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "lat",
+            "Original Value": -110.2188496,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 842,
+            "Column": "lon",
+            "Original Value": 31.55007386,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "lat",
+            "Original Value": -110.1531872,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "lon",
+            "Original Value": 31.46150633,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 844,
+            "Column": "lat",
+            "Original Value": -110.1494497,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 844,
+            "Column": "lon",
+            "Original Value": 31.38655338,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 845,
+            "Column": "lat",
+            "Original Value": -110.1698696,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 845,
+            "Column": "lon",
+            "Original Value": 31.4864605,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "lat",
+            "Original Value": -110.1466519,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "lon",
+            "Original Value": 31.40383543,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "lat",
+            "Original Value": -110.207589,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "lon",
+            "Original Value": 31.412269,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 848,
+            "Column": "lat",
+            "Original Value": -110.1453058,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 848,
+            "Column": "lon",
+            "Original Value": 31.38226038,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 849,
+            "Column": "lat",
+            "Original Value": -110.172285,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 849,
+            "Column": "lon",
+            "Original Value": 31.358563,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "6050",
+            "Corrected Value": "6050_007",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 791,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.138698"
+        },
+        {
+            "Row": 791,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.400655"
+        },
+        {
+            "Row": 791,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.400655"
+        },
+        {
+            "Row": 792,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.235341"
+        },
+        {
+            "Row": 792,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.46243984"
+        },
+        {
+            "Row": 792,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.46243984"
+        },
+        {
+            "Row": 793,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1284082"
+        },
+        {
+            "Row": 793,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.41745938"
+        },
+        {
+            "Row": 793,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.41745938"
+        },
+        {
+            "Row": 794,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1463549"
+        },
+        {
+            "Row": 794,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40042699"
+        },
+        {
+            "Row": 794,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40042699"
+        },
+        {
+            "Row": 795,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2836459"
+        },
+        {
+            "Row": 795,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.4865406"
+        },
+        {
+            "Row": 795,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.4865406"
+        },
+        {
+            "Row": 796,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2221354"
+        },
+        {
+            "Row": 796,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40168786"
+        },
+        {
+            "Row": 796,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40168786"
+        },
+        {
+            "Row": 797,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1335229"
+        },
+        {
+            "Row": 797,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.41310936"
+        },
+        {
+            "Row": 797,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.41310936"
+        },
+        {
+            "Row": 798,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2390002"
+        },
+        {
+            "Row": 798,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.43761038"
+        },
+        {
+            "Row": 798,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.43761038"
+        },
+        {
+            "Row": 799,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2433482"
+        },
+        {
+            "Row": 799,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.50277271"
+        },
+        {
+            "Row": 799,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.50277271"
+        },
+        {
+            "Row": 800,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1075708"
+        },
+        {
+            "Row": 800,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40599358"
+        },
+        {
+            "Row": 800,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40599358"
+        },
+        {
+            "Row": 801,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2676"
+        },
+        {
+            "Row": 801,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.466839"
+        },
+        {
+            "Row": 801,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.466839"
+        },
+        {
+            "Row": 802,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1764265"
+        },
+        {
+            "Row": 802,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.37509879"
+        },
+        {
+            "Row": 802,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.37509879"
+        },
+        {
+            "Row": 803,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2046279"
+        },
+        {
+            "Row": 803,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.53461071"
+        },
+        {
+            "Row": 803,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.53461071"
+        },
+        {
+            "Row": 804,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1652125"
+        },
+        {
+            "Row": 804,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.44808345"
+        },
+        {
+            "Row": 804,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.44808345"
+        },
+        {
+            "Row": 805,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1729756"
+        },
+        {
+            "Row": 805,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45411107"
+        },
+        {
+            "Row": 805,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45411107"
+        },
+        {
+            "Row": 806,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2260268"
+        },
+        {
+            "Row": 806,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.39574739"
+        },
+        {
+            "Row": 806,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.39574739"
+        },
+        {
+            "Row": 807,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2043086"
+        },
+        {
+            "Row": 807,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.48915337"
+        },
+        {
+            "Row": 807,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.48915337"
+        },
+        {
+            "Row": 808,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1643959"
+        },
+        {
+            "Row": 808,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45704124"
+        },
+        {
+            "Row": 808,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45704124"
+        },
+        {
+            "Row": 809,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2436768"
+        },
+        {
+            "Row": 809,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.47542899"
+        },
+        {
+            "Row": 809,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.47542899"
+        },
+        {
+            "Row": 810,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1812757"
+        },
+        {
+            "Row": 810,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.47863279"
+        },
+        {
+            "Row": 810,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.47863279"
+        },
+        {
+            "Row": 811,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2119022"
+        },
+        {
+            "Row": 811,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.48182772"
+        },
+        {
+            "Row": 811,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.48182772"
+        },
+        {
+            "Row": 812,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1537884"
+        },
+        {
+            "Row": 812,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.382828"
+        },
+        {
+            "Row": 812,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.382828"
+        },
+        {
+            "Row": 813,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1495085"
+        },
+        {
+            "Row": 813,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.47194087"
+        },
+        {
+            "Row": 813,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.47194087"
+        },
+        {
+            "Row": 814,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1419234"
+        },
+        {
+            "Row": 814,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40086579"
+        },
+        {
+            "Row": 814,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40086579"
+        },
+        {
+            "Row": 815,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1914514"
+        },
+        {
+            "Row": 815,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40330238"
+        },
+        {
+            "Row": 815,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40330238"
+        },
+        {
+            "Row": 816,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1940774"
+        },
+        {
+            "Row": 816,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.4038885"
+        },
+        {
+            "Row": 816,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.4038885"
+        },
+        {
+            "Row": 817,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1743667"
+        },
+        {
+            "Row": 817,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.48912637"
+        },
+        {
+            "Row": 817,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.48912637"
+        },
+        {
+            "Row": 818,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1945161"
+        },
+        {
+            "Row": 818,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.49823369"
+        },
+        {
+            "Row": 818,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.49823369"
+        },
+        {
+            "Row": 819,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2238801"
+        },
+        {
+            "Row": 819,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45132841"
+        },
+        {
+            "Row": 819,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45132841"
+        },
+        {
+            "Row": 820,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.18541"
+        },
+        {
+            "Row": 820,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.46177901"
+        },
+        {
+            "Row": 820,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.46177901"
+        },
+        {
+            "Row": 821,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.232324"
+        },
+        {
+            "Row": 821,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.39634989"
+        },
+        {
+            "Row": 821,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.39634989"
+        },
+        {
+            "Row": 822,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1078664"
+        },
+        {
+            "Row": 822,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.57275676"
+        },
+        {
+            "Row": 822,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.57275676"
+        },
+        {
+            "Row": 823,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1467576"
+        },
+        {
+            "Row": 823,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.38498979"
+        },
+        {
+            "Row": 823,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.38498979"
+        },
+        {
+            "Row": 824,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1550118"
+        },
+        {
+            "Row": 824,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.38655919"
+        },
+        {
+            "Row": 824,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.38655919"
+        },
+        {
+            "Row": 825,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1716979"
+        },
+        {
+            "Row": 825,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45515674"
+        },
+        {
+            "Row": 825,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45515674"
+        },
+        {
+            "Row": 826,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2779721"
+        },
+        {
+            "Row": 826,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.48913673"
+        },
+        {
+            "Row": 826,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.48913673"
+        },
+        {
+            "Row": 827,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1416011"
+        },
+        {
+            "Row": 827,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.3833987"
+        },
+        {
+            "Row": 827,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.3833987"
+        },
+        {
+            "Row": 828,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1726204"
+        },
+        {
+            "Row": 828,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45161557"
+        },
+        {
+            "Row": 828,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45161557"
+        },
+        {
+            "Row": 829,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1736564"
+        },
+        {
+            "Row": 829,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.47448786"
+        },
+        {
+            "Row": 829,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.47448786"
+        },
+        {
+            "Row": 830,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1605377"
+        },
+        {
+            "Row": 830,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.36283418"
+        },
+        {
+            "Row": 830,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.36283418"
+        },
+        {
+            "Row": 831,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2254199"
+        },
+        {
+            "Row": 831,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.41071959"
+        },
+        {
+            "Row": 831,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.41071959"
+        },
+        {
+            "Row": 832,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1343605"
+        },
+        {
+            "Row": 832,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.42051839"
+        },
+        {
+            "Row": 832,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.42051839"
+        },
+        {
+            "Row": 833,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1520534"
+        },
+        {
+            "Row": 833,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.33742511"
+        },
+        {
+            "Row": 833,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.33742511"
+        },
+        {
+            "Row": 834,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1441551"
+        },
+        {
+            "Row": 834,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.41996138"
+        },
+        {
+            "Row": 834,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.41996138"
+        },
+        {
+            "Row": 835,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.139361"
+        },
+        {
+            "Row": 835,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.42075322"
+        },
+        {
+            "Row": 835,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.42075322"
+        },
+        {
+            "Row": 836,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1250647"
+        },
+        {
+            "Row": 836,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.42163476"
+        },
+        {
+            "Row": 836,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.42163476"
+        },
+        {
+            "Row": 837,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1799507"
+        },
+        {
+            "Row": 837,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.3682248"
+        },
+        {
+            "Row": 837,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.3682248"
+        },
+        {
+            "Row": 838,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1531255"
+        },
+        {
+            "Row": 838,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.38226349"
+        },
+        {
+            "Row": 838,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.38226349"
+        },
+        {
+            "Row": 839,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1476376"
+        },
+        {
+            "Row": 839,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.45508158"
+        },
+        {
+            "Row": 839,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.45508158"
+        },
+        {
+            "Row": 840,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1981769"
+        },
+        {
+            "Row": 840,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.44959254"
+        },
+        {
+            "Row": 840,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.44959254"
+        },
+        {
+            "Row": 841,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1951786"
+        },
+        {
+            "Row": 841,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.39667094"
+        },
+        {
+            "Row": 841,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.39667094"
+        },
+        {
+            "Row": 842,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.2188496"
+        },
+        {
+            "Row": 842,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.55007386"
+        },
+        {
+            "Row": 842,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.55007386"
+        },
+        {
+            "Row": 843,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1531872"
+        },
+        {
+            "Row": 843,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.46150633"
+        },
+        {
+            "Row": 843,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.46150633"
+        },
+        {
+            "Row": 844,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1494497"
+        },
+        {
+            "Row": 844,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.38655338"
+        },
+        {
+            "Row": 844,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.38655338"
+        },
+        {
+            "Row": 845,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1698696"
+        },
+        {
+            "Row": 845,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.4864605"
+        },
+        {
+            "Row": 845,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.4864605"
+        },
+        {
+            "Row": 846,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1466519"
+        },
+        {
+            "Row": 846,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.40383543"
+        },
+        {
+            "Row": 846,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.40383543"
+        },
+        {
+            "Row": 847,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.207589"
+        },
+        {
+            "Row": 847,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.412269"
+        },
+        {
+            "Row": 847,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.412269"
+        },
+        {
+            "Row": 848,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be between 31.332177 and 37.00426",
+            "Value": "-110.1453058"
+        },
+        {
+            "Row": 848,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.38226038"
+        },
+        {
+            "Row": 848,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be between -114.81651 and -109.045223",
+            "Value": "31.38226038"
+        },
+        {
+            "Row": 849,
+            "Column": "lat",
+            "Error": "Latitude for AZ must be positive",
+            "Value": "-110.172285"
+        },
+        {
+            "Row": 849,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "31.358563"
+        },
+        {
+            "Row": 849,
+            "Column": "lon",
+            "Error": "Longitude for AZ must be negative",
+            "Value": "31.358563"
+        },
+        {
+            "Row": 792,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6041_001",
+            "Value": "6041"
+        },
+        {
+            "Row": 794,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6044_002",
+            "Value": "6044"
+        },
+        {
+            "Row": 795,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6045_003",
+            "Value": "6045"
+        },
+        {
+            "Row": 796,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6046_004",
+            "Value": "6046"
+        },
+        {
+            "Row": 798,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6048_005",
+            "Value": "6048"
+        },
+        {
+            "Row": 799,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6049_006",
+            "Value": "6049"
+        },
+        {
+            "Row": 800,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 6050_007",
+            "Value": "6050"
+        },
+        {
+            "Row": 354,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5640)",
+            "Value": "5793"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 354,
+            "customer": "5793",
+            "lat": 31.4652597,
+            "lon": -110.2391482,
+            "address": "5705 S WILD ROSE RD",
+            "city": "HEREFORD",
+            "state": "AZ",
+            "zip": "85615",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 5640)"
+        }
+    ],
+    "Smarty Corrections": []
+}

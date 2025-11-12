@@ -1,0 +1,1035 @@
+{
+    "Summary": {
+        "Total Rows Processed": 525,
+        "Rows with Corrections": 43,
+        "Rows with Errors": 36,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 22,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 45,
+        "Total Errors": 81,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.67,
+        "Validation Date": "2025-08-14 12:08:38",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Invalid",
+        "Validation Reason": "File contains 22 rows (4.37%) with address issues, exceeding the 2.0% threshold for 503 subscribers. Manual address review required.",
+        "Total Subscribers in Final File": 503,
+        "Address Errors Found": 22,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 4.37,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": true
+    },
+    "File Validation Details": {
+        "file_status": "Invalid",
+        "validation_reason": "File contains 22 rows (4.37%) with address issues, exceeding the 2.0% threshold for 503 subscribers. Manual address review required.",
+        "total_subscribers": 503,
+        "address_error_count": 22,
+        "non_address_error_count": 0,
+        "address_error_percentage": 4.37,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489,
+            490,
+            491,
+            492,
+            493,
+            494,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504
+        ],
+        "requires_manual_review": true
+    },
+    "Corrections": [
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "968 WOLVERTON RD, EATON",
+            "Corrected Value": "968 WOLVERTON RD EATON",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "9928 CAMPBELL RD, CAMDEN",
+            "Corrected Value": "9928 CAMPBELL RD CAMDEN",
+            "Correction Type": "Early Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "1123 US RT 40 WEST",
+            "Corrected Value": "1123 US RT 40 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "2008 W FLORENCE CAMPBELLSTOWN RD",
+            "Corrected Value": "2008 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "3061 OHIO 503 NORTH",
+            "Corrected Value": "3061 OHIO 503 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "3504 STATE ROUTE 122 WEST",
+            "Corrected Value": "3504 STATE ROUTE 122 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "3588 STATE ROUTE 503 SOUTH",
+            "Corrected Value": "3588 STATE ROUTE 503 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "4216 503 SOUTH",
+            "Corrected Value": "4216 503 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "4624 ST RT 122 SOUTH",
+            "Corrected Value": "4624 ST RT 122 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "4665 ST RT 122 WEST",
+            "Corrected Value": "4665 ST RT 122 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 307,
+            "Column": "address",
+            "Original Value": "5415 ST RT 122 SOUTH",
+            "Corrected Value": "5415 ST RT 122 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 324,
+            "Column": "address",
+            "Original Value": "5876 ST RT 227 SOUTH",
+            "Corrected Value": "5876 ST RT 227 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "7495 ST RT 122 WEST",
+            "Corrected Value": "7495 ST RT 122 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "9440 STATE ROUTE 122 WEST",
+            "Corrected Value": "9440 STATE ROUTE 122 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 240,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 483,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 485,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 487,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 490,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 493,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 502,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "state",
+            "Original Value": "Ohio",
+            "Corrected Value": "OH",
+            "Correction Type": "State Name to Abbreviation",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "lon",
+            "Original Value": -74.66940622,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "lat",
+            "Original Value": 39.72447768,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "lon",
+            "Original Value": 84.706757,
+            "Corrected Value": -84.706757,
+            "Correction Type": "Sign Flip",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 29,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1260 STEPHENS RD"
+        },
+        {
+            "Row": 31,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12657 STECK RD"
+        },
+        {
+            "Row": 160,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "2920RHOADES RD"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4633 FLORY RD"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4666 FLORY RD"
+        },
+        {
+            "Row": 402,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "759 STEVENS RD"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9809 STEPHEN YOUNG RD"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 18,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 191,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 202,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 240,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 319,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 429,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 483,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 484,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 485,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 486,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 487,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 488,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 489,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 490,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 491,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 492,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 493,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 494,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 495,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 496,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 497,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 498,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 499,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 500,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 501,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 502,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 503,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 504,
+            "Column": "state",
+            "Error": "Invalid State Abbreviation",
+            "Value": "Ohio"
+        },
+        {
+            "Row": 483,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 485,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 487,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 502,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 37,
+            "Column": "lon",
+            "Error": "Longitude for OH must be between -84.820159 and -80.518693",
+            "Value": "-74.66940622"
+        },
+        {
+            "Row": 37,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "39.72447768"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 483,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 484,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 485,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 486,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 487,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 488,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 489,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 490,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 491,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 492,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 493,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 494,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 495,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 496,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 497,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 498,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 499,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 500,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 501,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 502,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 503,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 504,
+            "address": "",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

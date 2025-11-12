@@ -1,0 +1,1115 @@
+{
+    "Summary": {
+        "Total Rows Processed": 261,
+        "Rows with Corrections": 26,
+        "Rows with Errors": 41,
+        "PO Box Rows Removed": 30,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 7,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 41,
+        "Total Errors": 33,
+        "Street Ending Errors": 14,
+        "Validation Time (seconds)": 0.48,
+        "Validation Date": "2025-08-01 13:17:12",
+        "Addresses Sent to Smarty": 14,
+        "Successful Corrections": 14,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.27,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 224,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 224,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 19,
+            "Column": "address",
+            "Original Value": "1610 SOUTH RIDGE ROAD",
+            "Corrected Value": "1610 S RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "1215 SOUTH RIDGE ROAD",
+            "Corrected Value": "1215 S RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "641 NORTH KIRBY ROAD",
+            "Corrected Value": "641 N KIRBY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "815 NORTH KIRBY RD",
+            "Corrected Value": "815 N KIRBY RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "571 SOUTH RIDGE ROAD",
+            "Corrected Value": "571 S RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "1800 SOUTH RIDGE ROAD",
+            "Corrected Value": "1800 S RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Original Value": "3038 NORTH RIDGE ROAD",
+            "Corrected Value": "3038 N RIDGE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "420 MORGAN ROAD EAST",
+            "Corrected Value": "420 MORGAN ROAD E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "address",
+            "Original Value": "1734 NORTH CHURCH ROAD",
+            "Corrected Value": "1734 N CHURCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "lat",
+            "Original Value": 42.4142608,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "lon",
+            "Original Value": -71.2292633,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2344425",
+            "Corrected Value": "2344425_005",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "2344425",
+            "Corrected Value": "2344425_006",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "zip",
+            "Original Value": "05837",
+            "Corrected Value": "05837",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "936 VT RT 114",
+            "Corrected Value": "936 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "zip",
+            "Original Value": "05837",
+            "Corrected Value": "05837",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "1428 VT RT. 114",
+            "Corrected Value": "1428 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "zip",
+            "Original Value": "05837",
+            "Corrected Value": "05837",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "1892 VERMONT 114",
+            "Corrected Value": "1892 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "zip",
+            "Original Value": "05832",
+            "Corrected Value": "05832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Original Value": "2329 VT RT 114",
+            "Corrected Value": "2329 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "zip",
+            "Original Value": "05832",
+            "Corrected Value": "05832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "2653 VERMONT 114",
+            "Corrected Value": "2653 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "zip",
+            "Original Value": "05867",
+            "Corrected Value": "05867",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Original Value": "917 SIMPSON HILL",
+            "Corrected Value": "917 SIMPSON HL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "zip",
+            "Original Value": "05832",
+            "Corrected Value": "05832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Original Value": "4331 VERMONT 114",
+            "Corrected Value": "4331 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "zip",
+            "Original Value": "05855",
+            "Corrected Value": "05855",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "531 VERMONT 14",
+            "Corrected Value": "531 VT ROUTE 14 N",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "zip",
+            "Original Value": "05837",
+            "Corrected Value": "05837",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "1579 VT ROUTE 114",
+            "Corrected Value": "1579 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "zip",
+            "Original Value": "05871",
+            "Corrected Value": "05871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "227 US RT 5",
+            "Corrected Value": "227 US ROUTE 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "zip",
+            "Original Value": "05871",
+            "Corrected Value": "05871",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "227 US RT 5",
+            "Corrected Value": "227 US ROUTE 5",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "zip",
+            "Original Value": "05832",
+            "Corrected Value": "05832",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "330 VERMONT 114",
+            "Corrected Value": "330 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "zip",
+            "Original Value": "05837",
+            "Corrected Value": "05837",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "2029 VERMONT 114",
+            "Corrected Value": "2029 VT ROUTE 114",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "zip",
+            "Original Value": "05851",
+            "Corrected Value": "05851",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "69 GUYS VIEW",
+            "Corrected Value": "69 GUYS VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "FAIRGROUNDS ROAD"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 63"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 395"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 64"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 125"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1573"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 263"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 206"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 153"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 177"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 110"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 255"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 498"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 295"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ST JOHNSBURY"
+        },
+        {
+            "Row": 122,
+            "Column": "lat",
+            "Error": "Latitude for VT must be between 42.726853 and 45.016659",
+            "Value": "42.4142608"
+        },
+        {
+            "Row": 122,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-71.2292633"
+        },
+        {
+            "Row": 122,
+            "Column": "lon",
+            "Error": "Longitude for VT must be negative",
+            "Value": "-71.2292633"
+        },
+        {
+            "Row": 15,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2343898_001",
+            "Value": "2343898"
+        },
+        {
+            "Row": 16,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2343898_002",
+            "Value": "2343898"
+        },
+        {
+            "Row": 46,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2343993_003",
+            "Value": "2343993"
+        },
+        {
+            "Row": 79,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2344104_004",
+            "Value": "2344104"
+        },
+        {
+            "Row": 172,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2344389"
+        },
+        {
+            "Row": 173,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2344389"
+        },
+        {
+            "Row": 179,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2344404"
+        },
+        {
+            "Row": 190,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2344425_005",
+            "Value": "2344425"
+        },
+        {
+            "Row": 191,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2344425_006",
+            "Value": "2344425"
+        },
+        {
+            "Row": 208,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2344400)",
+            "Value": "2363930"
+        },
+        {
+            "Row": 172,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2344389)",
+            "Value": "2344389"
+        },
+        {
+            "Row": 173,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2344389)",
+            "Value": "2344389"
+        },
+        {
+            "Row": 179,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2344404)",
+            "Value": "2344404"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "936 VT RT 114"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1428 VT RT 114"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1892 VERMONT 114"
+        },
+        {
+            "Row": 72,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2329 VT RT 114"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2653 VERMONT 114"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "917 SIMPSON HILL"
+        },
+        {
+            "Row": 111,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4331 VERMONT 114"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "531 VERMONT 14"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1579 VT ROUTE 114"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "227 US RT 5"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "227 US RT 5"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "330 VERMONT 114"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2029 VERMONT 114"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "69 GUYS VIEW"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 63"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 395"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 64"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 125"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1573"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 263"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 206"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 153"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 177"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 110"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 255"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 498"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 295"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 63"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 395"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 64"
+        },
+        {
+            "Row": 64,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 125"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 1573"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 176"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 263"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 206"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 153"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 177"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 110"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 255"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 498"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 295"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 172,
+            "customer": "2344389",
+            "lat": 44.55015883,
+            "lon": -71.94401313,
+            "address": "695 TOWN FARM DR",
+            "city": "LYNDONVILLE",
+            "state": "VT",
+            "zip": "05851",
+            "download": 1200.0,
+            "upload": 1200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 173,
+            "customer": "2344389",
+            "lat": 44.55015883,
+            "lon": -71.94401313,
+            "address": "695 TOWN FARM DR",
+            "city": "LYNDONVILLE",
+            "state": "VT",
+            "zip": "05851",
+            "download": 1200.0,
+            "upload": 1200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 179,
+            "customer": "2344404",
+            "lat": 44.5949915,
+            "lon": -71.977871,
+            "address": "227 US RT 5",
+            "city": "WEST BURKE",
+            "state": "VT",
+            "zip": "05871",
+            "download": 8.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 208,
+            "customer": "2363930",
+            "lat": 44.5332531,
+            "lon": -71.9929683,
+            "address": "260 HILL STREET",
+            "city": "LYNDON",
+            "state": "VT",
+            "zip": "05851",
+            "download": 110.0,
+            "upload": 110.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2344400)"
+        },
+        {
+            "OrigRowNum": 172,
+            "customer": "2344389",
+            "lat": 44.55015883,
+            "lon": -71.94401313,
+            "address": "695 TOWN FARM DR",
+            "city": "LYNDONVILLE",
+            "state": "VT",
+            "zip": "05851",
+            "download": 1200.0,
+            "upload": 1200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2344389)"
+        },
+        {
+            "OrigRowNum": 173,
+            "customer": "2344389",
+            "lat": 44.55015883,
+            "lon": -71.94401313,
+            "address": "695 TOWN FARM DR",
+            "city": "LYNDONVILLE",
+            "state": "VT",
+            "zip": "05851",
+            "download": 1200.0,
+            "upload": 1200.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2344389)"
+        },
+        {
+            "OrigRowNum": 179,
+            "customer": "2344404",
+            "lat": 44.5949915,
+            "lon": -71.977871,
+            "address": "227 US RT 5",
+            "city": "WEST BURKE",
+            "state": "VT",
+            "zip": "05871",
+            "download": 8.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2344404)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 10,
+            "Original Address": "936 VT RT 114",
+            "Corrected Address": "936 VT ROUTE 114",
+            "Original ZIP": "05837",
+            "Corrected ZIP": "05837",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.217807"
+        },
+        {
+            "OrigRowNum": 21,
+            "Original Address": "1428 VT RT. 114",
+            "Corrected Address": "1428 VT ROUTE 114",
+            "Original ZIP": "05837",
+            "Corrected ZIP": "05837",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.219281"
+        },
+        {
+            "OrigRowNum": 35,
+            "Original Address": "1892 VERMONT 114",
+            "Corrected Address": "1892 VT ROUTE 114",
+            "Original ZIP": "05837",
+            "Corrected ZIP": "05837",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.219869"
+        },
+        {
+            "OrigRowNum": 72,
+            "Original Address": "2329 VT RT 114",
+            "Corrected Address": "2329 VT ROUTE 114",
+            "Original ZIP": "05832",
+            "Corrected ZIP": "05832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.220380"
+        },
+        {
+            "OrigRowNum": 84,
+            "Original Address": "2653 VERMONT 114",
+            "Corrected Address": "2653 VT ROUTE 114",
+            "Original ZIP": "05832",
+            "Corrected ZIP": "05832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.220840"
+        },
+        {
+            "OrigRowNum": 86,
+            "Original Address": "917 SIMPSON HILL",
+            "Corrected Address": "917 SIMPSON HL",
+            "Original ZIP": "05867",
+            "Corrected ZIP": "05867",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.221314"
+        },
+        {
+            "OrigRowNum": 111,
+            "Original Address": "4331 VERMONT 114",
+            "Corrected Address": "4331 VT ROUTE 114",
+            "Original ZIP": "05832",
+            "Corrected ZIP": "05832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.221791"
+        },
+        {
+            "OrigRowNum": 146,
+            "Original Address": "531 VERMONT 14",
+            "Corrected Address": "531 VT ROUTE 14 N",
+            "Original ZIP": "05855",
+            "Corrected ZIP": "05855",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.222250"
+        },
+        {
+            "OrigRowNum": 165,
+            "Original Address": "1579 VT ROUTE 114",
+            "Corrected Address": "1579 VT ROUTE 114",
+            "Original ZIP": "05837",
+            "Corrected ZIP": "05837",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.222721"
+        },
+        {
+            "OrigRowNum": 178,
+            "Original Address": "227 US RT 5",
+            "Corrected Address": "227 US ROUTE 5",
+            "Original ZIP": "05871",
+            "Corrected ZIP": "05871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.223078"
+        },
+        {
+            "OrigRowNum": 179,
+            "Original Address": "227 US RT 5",
+            "Corrected Address": "227 US ROUTE 5",
+            "Original ZIP": "05871",
+            "Corrected ZIP": "05871",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.223422"
+        },
+        {
+            "OrigRowNum": 206,
+            "Original Address": "330 VERMONT 114",
+            "Corrected Address": "330 VT ROUTE 114",
+            "Original ZIP": "05832",
+            "Corrected ZIP": "05832",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.223753"
+        },
+        {
+            "OrigRowNum": 207,
+            "Original Address": "2029 VERMONT 114",
+            "Corrected Address": "2029 VT ROUTE 114",
+            "Original ZIP": "05837",
+            "Corrected ZIP": "05837",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.224309"
+        },
+        {
+            "OrigRowNum": 210,
+            "Original Address": "69 GUYS VIEW",
+            "Corrected Address": "69 GUYS VW",
+            "Original ZIP": "05851",
+            "Corrected ZIP": "05851",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-01T13:17:12.224679"
+        }
+    ]
+}

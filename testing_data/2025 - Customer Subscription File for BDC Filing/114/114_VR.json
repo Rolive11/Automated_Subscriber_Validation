@@ -1,0 +1,1079 @@
+{
+    "Summary": {
+        "Total Rows Processed": 6080,
+        "Rows with Corrections": 6,
+        "Rows with Errors": 106,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 14,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 12,
+        "Total Errors": 106,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 9.8,
+        "Validation Date": "2025-08-19 13:25:59",
+        "Addresses Sent to Smarty": 6,
+        "Successful Corrections": 6,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.22,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 6066,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 6066,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 5179,
+            "Column": "zip",
+            "Original Value": "43724",
+            "Corrected Value": "43724",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5179,
+            "Column": "address",
+            "Original Value": "47520 OR & W TUNNEL RD",
+            "Corrected Value": "47520 OR AND W TUNNEL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5183,
+            "Column": "zip",
+            "Original Value": "43724",
+            "Corrected Value": "43724",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5183,
+            "Column": "address",
+            "Original Value": "46770 OR & W TUNNEL RD",
+            "Corrected Value": "46770 OR AND W TUNNEL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6064,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "43314",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6064,
+            "Column": "address",
+            "Original Value": "7367 CR 28",
+            "Corrected Value": "7367 COUNTY ROAD 28",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6065,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "43314",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6065,
+            "Column": "address",
+            "Original Value": "6976 TOWNSHIP ROAD 60",
+            "Corrected Value": "6976 TOWNSHIP ROAD 60",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6066,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "43314",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6066,
+            "Column": "address",
+            "Original Value": "1564 CR 61",
+            "Corrected Value": "1564 COUNTY ROAD 61",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6067,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "43314",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6067,
+            "Column": "address",
+            "Original Value": "1313 CR 59",
+            "Corrected Value": "1313 COUNTY ROAD 59",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 6,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "7073A MOORES RIDGE ROAD SE"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8643 STEINEBREY RIDGE RD NW"
+        },
+        {
+            "Row": 36,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8846 STEINEBREY RIDGE RD NW"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "6094 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4308 FLAT RD SE"
+        },
+        {
+            "Row": 787,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8569 STEINEBREY RIDGE RD NW"
+        },
+        {
+            "Row": 794,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8710 STEINEBREY RIDGE RD NW"
+        },
+        {
+            "Row": 807,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8868 STEINEBREY RIDGE RD NW"
+        },
+        {
+            "Row": 1247,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9792 STEPHEN DR"
+        },
+        {
+            "Row": 1352,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5135A W RIDGE DR"
+        },
+        {
+            "Row": 2274,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3019 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 2524,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31942 TOWER RD"
+        },
+        {
+            "Row": 2532,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31860 TOWER RD"
+        },
+        {
+            "Row": 2545,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "29657 TOWER RD"
+        },
+        {
+            "Row": 2574,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "29651 TOWER RD"
+        },
+        {
+            "Row": 2576,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31693 TOWER RD"
+        },
+        {
+            "Row": 2644,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31581 TOWER RD"
+        },
+        {
+            "Row": 2658,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "30623 TOWER RD"
+        },
+        {
+            "Row": 2671,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31147 TOWER RD"
+        },
+        {
+            "Row": 2674,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "29015 TOWER RD"
+        },
+        {
+            "Row": 2686,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31101 TOWER RD"
+        },
+        {
+            "Row": 2841,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13647 UNITY RD"
+        },
+        {
+            "Row": 2926,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12511 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2927,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12346 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2952,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12330 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2955,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14606 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2960,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "10125 STEUBENVILLE PIKE"
+        },
+        {
+            "Row": 2975,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12771 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2978,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14240 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2989,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9782 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 2994,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12476 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3063,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13686 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3070,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9719 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3071,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9531 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3097,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12967 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3109,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12870 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3115,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13301 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3134,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12475 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3139,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12746 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3151,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9168 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3155,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12721 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3173,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13273 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3184,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9852 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3195,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12490 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3197,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14176 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3202,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14176 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3215,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13519 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3222,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14886 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3289,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13700 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3325,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "11639 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3326,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13370 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3334,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9142 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3338,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14344 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3356,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14372 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3357,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9168 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3382,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14033 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3395,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12379 STEUBENVILLE PIKE"
+        },
+        {
+            "Row": 3428,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12367 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3430,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12542 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3472,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "13101 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3489,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "12555 STEUBENVILLE PIKE"
+        },
+        {
+            "Row": 3495,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "9351 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 3496,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "11990 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4174,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18371 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4360,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "33759 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4375,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "4A OLD MONROEVILLE RD"
+        },
+        {
+            "Row": 4384,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "4B MONROEVILLE HEIGHTS"
+        },
+        {
+            "Row": 4385,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18234 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4389,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18331 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4392,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18456 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4404,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "16669 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4413,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "16533 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4428,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18287 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4595,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18793 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4596,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19300 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4598,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18793 STEUBENVILLE PIKE ROAD"
+        },
+        {
+            "Row": 4599,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "18793 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4604,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19301 STEUBENVILLE PIKE RD"
+        },
+        {
+            "Row": 4861,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "6212 STEUBENVILLE RD"
+        },
+        {
+            "Row": 4878,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5464 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 4880,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5696 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 4887,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5428 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 4888,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "6056 STEUBENVILLE RD SE"
+        },
+        {
+            "Row": 4896,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5699 STEUBENVILLE RD"
+        },
+        {
+            "Row": 5273,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "N 10TH"
+        },
+        {
+            "Row": 5906,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "260 STEMEN RD"
+        },
+        {
+            "Row": 5983,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "46 FLAX ST"
+        },
+        {
+            "Row": 6035,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3580 STEAMTOWN RD"
+        },
+        {
+            "Row": 6064,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 6065,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 6066,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 6067,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 5159,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24535)",
+            "Value": "9402"
+        },
+        {
+            "Row": 5162,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24504)",
+            "Value": "10433"
+        },
+        {
+            "Row": 5156,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 25721)",
+            "Value": "9367"
+        },
+        {
+            "Row": 5161,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24768)",
+            "Value": "10321"
+        },
+        {
+            "Row": 5150,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 5137)",
+            "Value": "6028"
+        },
+        {
+            "Row": 5151,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24724)",
+            "Value": "8986"
+        },
+        {
+            "Row": 4559,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 24766)",
+            "Value": "8763"
+        },
+        {
+            "Row": 5763,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 39652)",
+            "Value": "39694"
+        },
+        {
+            "Row": 5659,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 39477)",
+            "Value": "39714"
+        },
+        {
+            "Row": 5640,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 39430)",
+            "Value": "39613"
+        },
+        {
+            "Row": 5671,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 39707)",
+            "Value": "39764"
+        },
+        {
+            "Row": 250,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 39588)",
+            "Value": "39703"
+        },
+        {
+            "Row": 3953,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 21278)",
+            "Value": "20480"
+        },
+        {
+            "Row": 1867,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 23801)",
+            "Value": "20352"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 5159,
+            "customer": "9402",
+            "lat": "40.1799199",
+            "lon": "-81.5080852",
+            "address": "75959 VANDALIA LN",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 24535)"
+        },
+        {
+            "OrigRowNum": 5162,
+            "customer": "10433",
+            "lat": "40.1799199",
+            "lon": "-81.5080852",
+            "address": "75959 VANDALIA LN",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 24504)"
+        },
+        {
+            "OrigRowNum": 5156,
+            "customer": "9367",
+            "lat": "40.1799199",
+            "lon": "-81.5080852",
+            "address": "75959 VANDALIA LN",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 35.0,
+            "upload": 7.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 25721)"
+        },
+        {
+            "OrigRowNum": 5161,
+            "customer": "10321",
+            "lat": "40.1799199",
+            "lon": "-81.5080852",
+            "address": "75959 VANDALIA LN",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 24768)"
+        },
+        {
+            "OrigRowNum": 5150,
+            "customer": "6028",
+            "lat": "40.18818",
+            "lon": "-81.48549",
+            "address": "74978 BROADHEAD RD",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 5137)"
+        },
+        {
+            "OrigRowNum": 5151,
+            "customer": "8986",
+            "lat": "40.1914659",
+            "lon": "-81.4864548",
+            "address": "74978 BROADHEAD RD",
+            "city": "KIMBOLTON",
+            "state": "OH",
+            "zip": "43749",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 24724)"
+        },
+        {
+            "OrigRowNum": 4559,
+            "customer": "8763",
+            "lat": "40.2748158",
+            "lon": "-80.7768721",
+            "address": "1036 MAIN ST",
+            "city": "RAYLAND",
+            "state": "OH",
+            "zip": "43943",
+            "download": 100.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_gaa",
+            "Error": "Data-based duplicate (same as customer 24766)"
+        },
+        {
+            "OrigRowNum": 5763,
+            "customer": "39694",
+            "lat": "40.516777",
+            "lon": "-82.919677",
+            "address": "4226 CR 28",
+            "city": "CARDINGTON",
+            "state": "OH",
+            "zip": "43315",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 39652)"
+        },
+        {
+            "OrigRowNum": 5659,
+            "customer": "39714",
+            "lat": "40.553044",
+            "lon": "-82.871815",
+            "address": "5264 TOWNSHIP ROAD 128",
+            "city": "EDISON",
+            "state": "OH",
+            "zip": "43320",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 39477)"
+        },
+        {
+            "OrigRowNum": 5640,
+            "customer": "39613",
+            "lat": "40.559622",
+            "lon": "-82.870251",
+            "address": "3027 STATE ROUTE 95",
+            "city": "EDISON",
+            "state": "OH",
+            "zip": "43320",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 39430)"
+        },
+        {
+            "OrigRowNum": 5671,
+            "customer": "39764",
+            "lat": "40.601209",
+            "lon": "-82.874971",
+            "address": "2875 CR 67",
+            "city": "EDISON",
+            "state": "OH",
+            "zip": "43320",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 39707)"
+        },
+        {
+            "OrigRowNum": 250,
+            "customer": "39703",
+            "lat": "40.639694",
+            "lon": "-82.857548",
+            "address": "3336 CR 29",
+            "city": "GALION",
+            "state": "OH",
+            "zip": "44833",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 39588)"
+        },
+        {
+            "OrigRowNum": 3953,
+            "customer": "20480",
+            "lat": "40.7212354",
+            "lon": "-80.8981964",
+            "address": "12517 BETHESDA RD",
+            "city": "HANOVERTON",
+            "state": "OH",
+            "zip": "44423",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 21278)"
+        },
+        {
+            "OrigRowNum": 1867,
+            "customer": "20352",
+            "lat": "40.7855519",
+            "lon": "-81.0053868",
+            "address": "8007 LOREY RD",
+            "city": "EAST ROCHESTER",
+            "state": "OH",
+            "zip": "44625",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 23801)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 5179,
+            "Original Address": "47520 OR & W TUNNEL RD",
+            "Corrected Address": "47520 OR AND W TUNNEL RD",
+            "Original ZIP": "43724",
+            "Corrected ZIP": "43724",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.721975"
+        },
+        {
+            "OrigRowNum": 5183,
+            "Original Address": "46770 OR & W TUNNEL RD",
+            "Corrected Address": "46770 OR AND W TUNNEL RD",
+            "Original ZIP": "43724",
+            "Corrected ZIP": "43724",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.724541"
+        },
+        {
+            "OrigRowNum": 6064,
+            "Original Address": "7367 CR 28",
+            "Corrected Address": "7367 COUNTY ROAD 28",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "43314",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.726210"
+        },
+        {
+            "OrigRowNum": 6065,
+            "Original Address": "6976 TOWNSHIP ROAD 60",
+            "Corrected Address": "6976 TOWNSHIP ROAD 60",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "43314",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.727451"
+        },
+        {
+            "OrigRowNum": 6066,
+            "Original Address": "1564 CR 61",
+            "Corrected Address": "1564 COUNTY ROAD 61",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "43314",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.728580"
+        },
+        {
+            "OrigRowNum": 6067,
+            "Original Address": "1313 CR 59",
+            "Corrected Address": "1313 COUNTY ROAD 59",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "43314",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T13:25:52.729573"
+        }
+    ]
+}

@@ -1,0 +1,4075 @@
+{
+    "Summary": {
+        "Total Rows Processed": 579,
+        "Rows with Corrections": 360,
+        "Rows with Errors": 19,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 15,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 453,
+        "Total Errors": 22,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.85,
+        "Validation Date": "2025-08-27 19:48:14",
+        "Addresses Sent to Smarty": 2,
+        "Successful Corrections": 2,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.34,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 564,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 564,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 216,
+            "Column": "address",
+            "Original Value": "1010 Central Ave Stamps AR 71860",
+            "Corrected Value": "1010 CENTRAL AVE STAMPS AR 71860",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 14,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 16,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 19,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 25,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 28,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 29,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 31,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 33,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 36,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 39,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 49,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 58,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 60,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 63,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 64,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 65,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 66,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 67,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 68,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 72,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 73,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 74,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 75,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 79,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 85,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 86,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 98,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 99,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 101,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 105,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 109,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 110,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 111,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 112,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 113,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 142,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 152,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 160,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 166,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 171,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 195,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 196,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 208,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 216,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 217,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "technology",
+            "Original Value": "FIBER",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "address",
+            "Original Value": "406 EAST RUNNELS STREET",
+            "Corrected Value": "406 E RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "address",
+            "Original Value": "217 NORTH 4TH STREET",
+            "Corrected Value": "217 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "218 SOUTH PINE STREET",
+            "Corrected Value": "218 S PINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "418 SOUTH SHERMAN",
+            "Corrected Value": "418 S SHERMAN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "2105 WEST 3RD",
+            "Corrected Value": "2105 W 3RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "211 EAST LEE ST",
+            "Corrected Value": "211 E LEE ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "418 SOUTH CRAWFORD STREET",
+            "Corrected Value": "418 S CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 24,
+            "Column": "address",
+            "Original Value": "510 NORTH SHERMAN",
+            "Corrected Value": "510 N SHERMAN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Original Value": "403 NORTH CHURCH STREET",
+            "Corrected Value": "403 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "300 WEST SPRING STREET",
+            "Corrected Value": "300 W SPRING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "141 SOUTH CHURCH STREET",
+            "Corrected Value": "141 S CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "600 EAST SPRING STREET",
+            "Corrected Value": "600 E SPRING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Original Value": "318 SOUTH 6TH STREET",
+            "Corrected Value": "318 S 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "603 EAST ANTIGO STREET",
+            "Corrected Value": "603 E ANTIGO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 78,
+            "Column": "address",
+            "Original Value": "216 EAST LEE STREET",
+            "Corrected Value": "216 E LEE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Original Value": "802 EAST ANTIGO STREET",
+            "Corrected Value": "802 E ANTIGO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "722 SOUTH CRAWFORD STREET",
+            "Corrected Value": "722 S CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "116 NORTH SHERMAN STREET",
+            "Corrected Value": "116 N SHERMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 92,
+            "Column": "address",
+            "Original Value": "522 NORTH MERCER STREET",
+            "Corrected Value": "522 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "418 WEST 3RD STREET",
+            "Corrected Value": "418 W 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "215 WEST LEE STREET",
+            "Corrected Value": "215 W LEE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "106 EAST 2ND STREET",
+            "Corrected Value": "106 E 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "325 NORTH CHURCH STREET",
+            "Corrected Value": "325 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Original Value": "524 WEST SYPERT STREET",
+            "Corrected Value": "524 W SYPERT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "132 NORTH CRAWFORD STREET",
+            "Corrected Value": "132 N CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "115 WEST RUNNELS STREET",
+            "Corrected Value": "115 W RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "107 NORTH CHURCH STREET",
+            "Corrected Value": "107 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "410 NORTH MCCLENDON STREET",
+            "Corrected Value": "410 N MCCLENDON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "121 SOUTH MERCER STREET",
+            "Corrected Value": "121 S MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "573 HIGHWAY 27 SOUTH",
+            "Corrected Value": "573 HIGHWAY 27 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "211 EAST SPRING STREET",
+            "Corrected Value": "211 E SPRING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "131 NORTH MERCER STREET",
+            "Corrected Value": "131 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "320 EAST RUNNELS STREET",
+            "Corrected Value": "320 E RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "410 NORTH CHURCH STREET",
+            "Corrected Value": "410 N CHURCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "414 SOUTH SHERMAN STREET",
+            "Corrected Value": "414 S SHERMAN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "110 NORTH HOLCOMB STREET",
+            "Corrected Value": "110 N HOLCOMB STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "222 WEST LEE STREET",
+            "Corrected Value": "222 W LEE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "313 SOUTH CRAWFORD STREET",
+            "Corrected Value": "313 S CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "310 EAST RUNNELS STREET",
+            "Corrected Value": "310 E RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 134,
+            "Column": "address",
+            "Original Value": "131 NORTH HOLCOMB STREET",
+            "Corrected Value": "131 N HOLCOMB STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Original Value": "128 NORTH LEWIS STREET",
+            "Corrected Value": "128 N LEWIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "127 NORTH LEWIS STREET",
+            "Corrected Value": "127 N LEWIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 138,
+            "Column": "address",
+            "Original Value": "310 EAST RUNNELS STREET",
+            "Corrected Value": "310 E RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "310 EAST RUNNELS STREET",
+            "Corrected Value": "310 E RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "221 EAST CENTER STREET",
+            "Corrected Value": "221 E CENTER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "411 NORTH MCCLENDON STREET",
+            "Corrected Value": "411 N MCCLENDON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "625 HIGHWAY 27 SOUTH",
+            "Corrected Value": "625 HIGHWAY 27 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 150,
+            "Column": "address",
+            "Original Value": "117 NORTH MCCLENDON STREET",
+            "Corrected Value": "117 N MCCLENDON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Original Value": "105 EAST 2ND STREET",
+            "Corrected Value": "105 E 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 154,
+            "Column": "address",
+            "Original Value": "208 WEST NORTH STREET",
+            "Corrected Value": "208 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Original Value": "112 NORTH WEST STREET",
+            "Corrected Value": "112 N W STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "106 NORTH WEST STREET",
+            "Corrected Value": "106 N W STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "415 NORTH MERCER STREET",
+            "Corrected Value": "415 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "600 SOUTH 7TH STREET",
+            "Corrected Value": "600 S 7TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "216 WEST NORTH STREET",
+            "Corrected Value": "216 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "518 NORTH CRAWFORD STREET",
+            "Corrected Value": "518 N CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "200 SOUTH CRAWFORD STREET",
+            "Corrected Value": "200 S CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "1006 SOUTH MILL STREET",
+            "Corrected Value": "1006 S MILL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "421 WEST 1ST STREET",
+            "Corrected Value": "421 W 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 170,
+            "Column": "address",
+            "Original Value": "817 SOUTH FRONT STREET",
+            "Corrected Value": "817 S FRONT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "125 NORTH MCCLENDON STREET",
+            "Corrected Value": "125 N MCCLENDON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "316 WEST NORTH STREET",
+            "Corrected Value": "316 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "210 EAST MCCRARY STREET",
+            "Corrected Value": "210 E MCCRARY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "401 NORTH MCCLENDON STREET",
+            "Corrected Value": "401 N MCCLENDON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "428 NORTH PINE STREET",
+            "Corrected Value": "428 N PINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "550 WEST 1ST STREET",
+            "Corrected Value": "550 W 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "602 HIGHWAY 27 SOUTH",
+            "Corrected Value": "602 HIGHWAY 27 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "111 WEST BROWNING STREET",
+            "Corrected Value": "111 W BROWNING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "523 NORTH CRAWFORD STREET",
+            "Corrected Value": "523 N CRAWFORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "1421 EAST ANTIGO STREET",
+            "Corrected Value": "1421 E ANTIGO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "120 NORTH LEWIS STREET",
+            "Corrected Value": "120 N LEWIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "124 NORTH MERCER STREET",
+            "Corrected Value": "124 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "300 WEST RUNNELS STREET",
+            "Corrected Value": "300 W RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "401 NORTH MERCER STREET",
+            "Corrected Value": "401 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "215 WEST SPRING STREET",
+            "Corrected Value": "215 W SPRING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Original Value": "320 SOUTH LEWIS STREET",
+            "Corrected Value": "320 S LEWIS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "125 NORTH MERCER STREET",
+            "Corrected Value": "125 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "119 WEST RUNNELS STREET",
+            "Corrected Value": "119 W RUNNELS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "204 SOUTH PINE STREET",
+            "Corrected Value": "204 S PINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "321 WEST ANTIGO STREET",
+            "Corrected Value": "321 W ANTIGO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "402 EAST BROWNING STREET",
+            "Corrected Value": "402 E BROWNING STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "307 WEST ANTIGO STREET",
+            "Corrected Value": "307 W ANTIGO STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "302 NORTH PINE STREET",
+            "Corrected Value": "302 N PINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "315 NORTH LOOP",
+            "Corrected Value": "315 N LOOP",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "2105 WEST 3RD STREET",
+            "Corrected Value": "2105 W 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "217 EAST LEE STREET",
+            "Corrected Value": "217 E LEE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "407 WEST NORTH STREET",
+            "Corrected Value": "407 W N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "110 NORTH MERCER STREET",
+            "Corrected Value": "110 N MERCER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "614 SOUTH WALNUT",
+            "Corrected Value": "614 S WALNUT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "3069 HWY 29 NORTH",
+            "Corrected Value": "3069 HWY 29 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "1119 WEST 3RD STREET",
+            "Corrected Value": "1119 W 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 260,
+            "Column": "address",
+            "Original Value": "907 WEST 16TH ST",
+            "Corrected Value": "907 W 16TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "104 EAST 14TH ST",
+            "Corrected Value": "104 E 14TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "1702 SOUTH ELM",
+            "Corrected Value": "1702 S ELM",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 267,
+            "Column": "address",
+            "Original Value": "3721 HWY 29 NORTH",
+            "Corrected Value": "3721 HWY 29 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 270,
+            "Column": "address",
+            "Original Value": "1601 SOUTH ELM",
+            "Corrected Value": "1601 S ELM",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 273,
+            "Column": "address",
+            "Original Value": "2985 HWY 29 NORTH",
+            "Corrected Value": "2985 HWY 29 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 275,
+            "Column": "address",
+            "Original Value": "713 EAST OAK ST",
+            "Corrected Value": "713 E OAK ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "407 EAST 14TH ST",
+            "Corrected Value": "407 E 14TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 277,
+            "Column": "address",
+            "Original Value": "2611 N HAZEL LOT 26",
+            "Corrected Value": "2611 N HAZEL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "805 SOUTH WASHINGTON",
+            "Corrected Value": "805 S WASHINGTON",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "104 EAST 9TH ST",
+            "Corrected Value": "104 E 9TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Original Value": "1712 EAST 9TH ST",
+            "Corrected Value": "1712 E 9TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "509 EAST HAYWARD STREET",
+            "Corrected Value": "509 E HAYWARD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 282,
+            "Column": "address",
+            "Original Value": "1610 NORTH SPRUCE",
+            "Corrected Value": "1610 N SPRUCE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 285,
+            "Column": "address",
+            "Original Value": "3108 HIGHWAY 32 NORTH",
+            "Corrected Value": "3108 HIGHWAY 32 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Original Value": "400 SOUTH HAMILTON",
+            "Corrected Value": "400 S HAMILTON",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Original Value": "1302 SOUTH ELM STREET",
+            "Corrected Value": "1302 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "608 SOUTH HAZEL",
+            "Corrected Value": "608 S HAZEL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 289,
+            "Column": "address",
+            "Original Value": "1512 SOUTH PINE",
+            "Corrected Value": "1512 S PINE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "1305 E 3RD APT H2",
+            "Corrected Value": "1305 E 3RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "3795 US HWY 278 WEST",
+            "Corrected Value": "3795 US HWY 278 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 292,
+            "Column": "address",
+            "Original Value": "509 E 3RD #7",
+            "Corrected Value": "509 E 3RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "114 SOUTH MAIN",
+            "Corrected Value": "114 S MAIN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "313 AR 174 NORTH",
+            "Corrected Value": "313 AR 174 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "811 SOUTH ELM ST",
+            "Corrected Value": "811 S ELM ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "1310 NORTH BONNER",
+            "Corrected Value": "1310 N BONNER",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 300,
+            "Column": "address",
+            "Original Value": "152 ARKANSAS 73 WEST",
+            "Corrected Value": "152 ARKANSAS 73 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "1305 SOUTH MAIN 6A",
+            "Corrected Value": "1305 S MAIN 6A",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "522 WEST 6TH STREET",
+            "Corrected Value": "522 W 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 308,
+            "Column": "address",
+            "Original Value": "507 SOUTH PINE ST",
+            "Corrected Value": "507 S PINE ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 311,
+            "Column": "address",
+            "Original Value": "1023 SOUTH WALNUT ST",
+            "Corrected Value": "1023 S WALNUT ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "2003 EAST 23RD ST",
+            "Corrected Value": "2003 E 23RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 315,
+            "Column": "address",
+            "Original Value": "146 HEMPSTEAD 23 LOT 12",
+            "Corrected Value": "146 HEMPSTEAD 23",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 317,
+            "Column": "address",
+            "Original Value": "510 WEST 5TH ST",
+            "Corrected Value": "510 W 5TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "2544 HWY 26 WEST",
+            "Corrected Value": "2544 HWY 26 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 321,
+            "Column": "address",
+            "Original Value": "3057 ARKANSAS 174 SOUTH",
+            "Corrected Value": "3057 ARKANSAS 174 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "202 SOUTH WALNUT ST",
+            "Corrected Value": "202 S WALNUT ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 324,
+            "Column": "address",
+            "Original Value": "120 WEST 16TH ST",
+            "Corrected Value": "120 W 16TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 334,
+            "Column": "address",
+            "Original Value": "146 HEMPSTEAD 23 #6",
+            "Corrected Value": "146 HEMPSTEAD 23",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 336,
+            "Column": "address",
+            "Original Value": "505 EAST 5TH ST",
+            "Corrected Value": "505 E 5TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 342,
+            "Column": "address",
+            "Original Value": "4732 HIGHWAY 29 SOUTH",
+            "Corrected Value": "4732 HIGHWAY 29 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "783 AR 355 WEST",
+            "Corrected Value": "783 AR 355 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "104 EAST 16TH ST",
+            "Corrected Value": "104 E 16TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 353,
+            "Column": "address",
+            "Original Value": "404 WEST AVE H",
+            "Corrected Value": "404 W AVE H",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 361,
+            "Column": "address",
+            "Original Value": "3711 E 3RD ST LOT #7",
+            "Corrected Value": "3711 E 3RD ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "1000 WEST 3RD",
+            "Corrected Value": "1000 W 3RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Original Value": "1306 SOUTH CEDAR STREET",
+            "Corrected Value": "1306 S CEDAR STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 370,
+            "Column": "address",
+            "Original Value": "809 NORTH HERVEY",
+            "Corrected Value": "809 N HERVEY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 372,
+            "Column": "address",
+            "Original Value": "101 WEST 11TH ST",
+            "Corrected Value": "101 W 11TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "1113 POPE ST #91",
+            "Corrected Value": "1113 POPE ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "1165 S POPE ST #90",
+            "Corrected Value": "1165 S POPE ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 377,
+            "Column": "address",
+            "Original Value": "420 S JONES ST #134",
+            "Corrected Value": "420 S JONES ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 379,
+            "Column": "address",
+            "Original Value": "2508 EAST PLAINVIEW ST",
+            "Corrected Value": "2508 E PLAINVIEW ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Original Value": "4844 HWY 29 SOUTH",
+            "Corrected Value": "4844 HWY 29 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Original Value": "817 NORTH HERVEY STREET",
+            "Corrected Value": "817 N HERVEY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 396,
+            "Column": "address",
+            "Original Value": "1809 N HAZEL #802",
+            "Corrected Value": "1809 N HAZEL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 398,
+            "Column": "address",
+            "Original Value": "3000 W AVE B #48",
+            "Corrected Value": "3000 W AVE B",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "909 SOUTH WALKER",
+            "Corrected Value": "909 S WALKER",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Original Value": "401 SOUTH WASHINGTON",
+            "Corrected Value": "401 S WASHINGTON",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "2506 WEST AVE B",
+            "Corrected Value": "2506 W AVE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 415,
+            "Column": "address",
+            "Original Value": "420 EAST GREENWOOD ST",
+            "Corrected Value": "420 E GREENWOOD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 420,
+            "Column": "address",
+            "Original Value": "120 HEMPSTEAD 173 EAST",
+            "Corrected Value": "120 HEMPSTEAD 173 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 421,
+            "Column": "address",
+            "Original Value": "1307 E 3RD ST #20",
+            "Corrected Value": "1307 E 3RD ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 425,
+            "Column": "address",
+            "Original Value": "111 HEMPSTEAD 166 NORTH",
+            "Corrected Value": "111 HEMPSTEAD 166 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "2211 EAST 23RD ST",
+            "Corrected Value": "2211 E 23RD ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Original Value": "3000 W AVE B #64",
+            "Corrected Value": "3000 W AVE B",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Original Value": "1809 N HAZEL ST #502",
+            "Corrected Value": "1809 N HAZEL ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Original Value": "205 SOUTH GREENING",
+            "Corrected Value": "205 S GREENING",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 432,
+            "Column": "address",
+            "Original Value": "906 WEST 5TH ST",
+            "Corrected Value": "906 W 5TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "509 WEST 6TH ST",
+            "Corrected Value": "509 W 6TH ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 437,
+            "Column": "address",
+            "Original Value": "2609 N HAZEL STREET #27",
+            "Corrected Value": "2609 N HAZEL STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 438,
+            "Column": "address",
+            "Original Value": "320 EAST 15TH STREET",
+            "Corrected Value": "320 E 15TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 440,
+            "Column": "address",
+            "Original Value": "203 EAST AVENUE B",
+            "Corrected Value": "203 E AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "308 EAST BERRY STREET",
+            "Corrected Value": "308 E BERRY STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "518 SOUTH BONNER STREET",
+            "Corrected Value": "518 S BONNER STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 448,
+            "Column": "address",
+            "Original Value": "1301 SOUTH MAIN STREET",
+            "Corrected Value": "1301 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 449,
+            "Column": "address",
+            "Original Value": "312 WEST 5TH STREET",
+            "Corrected Value": "312 W 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 454,
+            "Column": "address",
+            "Original Value": "1702 WEST 5TH STREET",
+            "Corrected Value": "1702 W 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "707 SOUTH SPRUCE STREET",
+            "Corrected Value": "707 S SPRUCE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "1307 EAST 3RD STREET",
+            "Corrected Value": "1307 E 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "4523 HIGHWAY 29 SOUTH",
+            "Corrected Value": "4523 HIGHWAY 29 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 461,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 464,
+            "Column": "address",
+            "Original Value": "517 WEST 5TH STREET",
+            "Corrected Value": "517 W 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 465,
+            "Column": "address",
+            "Original Value": "1209 SOUTH ELM STREET",
+            "Corrected Value": "1209 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "3043 HIGHWAY 174 SOUTH",
+            "Corrected Value": "3043 HIGHWAY 174 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 470,
+            "Column": "address",
+            "Original Value": "402 WEST AVENUE H",
+            "Corrected Value": "402 W AVENUE H",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "319 NORTH CENTER POINT STREET",
+            "Corrected Value": "319 N CENTER POINT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Original Value": "1116 NORTH BETTS STREET",
+            "Corrected Value": "1116 N BETTS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 477,
+            "Column": "address",
+            "Original Value": "206 NORTH STREET",
+            "Corrected Value": "206 N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Original Value": "514 NORTH WASHINGTON STREET",
+            "Corrected Value": "514 N WASHINGTON STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "1113 SOUTH WALNUT STREET",
+            "Corrected Value": "1113 S WALNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "1511 SOUTH PINE STREET",
+            "Corrected Value": "1511 S PINE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "808 SOUTH LAUREL STREET",
+            "Corrected Value": "808 S LAUREL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Original Value": "1809 NORTH HAZEL STREET",
+            "Corrected Value": "1809 N HAZEL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "1708 WEST 5TH STREET",
+            "Corrected Value": "1708 W 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "510 NORTH MCRAE STREET",
+            "Corrected Value": "510 N MCRAE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "1806 NORTH HAZEL STREET",
+            "Corrected Value": "1806 N HAZEL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "510 WEST 6TH STREET",
+            "Corrected Value": "510 W 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 497,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "1809 NORTH HAZEL STREET",
+            "Corrected Value": "1809 N HAZEL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "1506 SOUTH ELM STREET",
+            "Corrected Value": "1506 S ELM STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "818 SOUTH WALNUT STREET",
+            "Corrected Value": "818 S WALNUT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "1711 WEST 5TH STREET",
+            "Corrected Value": "1711 W 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "121 WEST 16TH STREET",
+            "Corrected Value": "121 W 16TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 507,
+            "Column": "address",
+            "Original Value": "1301 SOUTH MAIN STREET",
+            "Corrected Value": "1301 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "4890 HIGHWAY 29 SOUTH",
+            "Corrected Value": "4890 HIGHWAY 29 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 511,
+            "Column": "address",
+            "Original Value": "1600 WEST 6TH STREET",
+            "Corrected Value": "1600 W 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 515,
+            "Column": "address",
+            "Original Value": "3000 WEST AVENUE B",
+            "Corrected Value": "3000 W AVENUE B",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 516,
+            "Column": "address",
+            "Original Value": "1809 NORTH HAZEL STREET",
+            "Corrected Value": "1809 N HAZEL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 518,
+            "Column": "address",
+            "Original Value": "813 SOUTH HAZEL",
+            "Corrected Value": "813 S HAZEL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 523,
+            "Column": "address",
+            "Original Value": "302 EAST 1ST ST",
+            "Corrected Value": "302 E 1ST ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 524,
+            "Column": "address",
+            "Original Value": "302 EAST 1ST ST",
+            "Corrected Value": "302 E 1ST ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Original Value": "606 SOUTH MAIN STREET",
+            "Corrected Value": "606 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "202 EAST 6TH STREET",
+            "Corrected Value": "202 E 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 528,
+            "Column": "address",
+            "Original Value": "365 HIGHWAY 299 EAST",
+            "Corrected Value": "365 HIGHWAY 299 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "322 EAST 1ST STREET",
+            "Corrected Value": "322 E 1ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 532,
+            "Column": "address",
+            "Original Value": "411 SOUTH MAIN STREET",
+            "Corrected Value": "411 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "EAST 9TH STREET",
+            "Corrected Value": "E 9TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "375 HIGHWAY 299 EAST",
+            "Corrected Value": "375 HIGHWAY 299 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 535,
+            "Column": "address",
+            "Original Value": "1278 SOUTH MAIN STREET",
+            "Corrected Value": "1278 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 540,
+            "Column": "address",
+            "Original Value": "809 N HERVEY #1",
+            "Corrected Value": "809 N HERVEY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Original Value": "312 WEST 2ND STREET",
+            "Corrected Value": "312 W 2ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 546,
+            "Column": "address",
+            "Original Value": "2011 SOUTH FIELDER ROAD",
+            "Corrected Value": "2011 S FIELDER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Original Value": "1604 WEST 6TH STREET",
+            "Corrected Value": "1604 W 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "2011 SOUTH FIELDER ROAD",
+            "Corrected Value": "2011 S FIELDER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "1619 WEST PIONEER PARKWAY",
+            "Corrected Value": "1619 W PIONEER PARKWAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "1114 FARM TO MARKET ROAD 1382",
+            "Corrected Value": "1114 FM 1382",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "1128 WEST DIVISION STREET",
+            "Corrected Value": "1128 W DIVISION STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "4543 SOUTHEAST TUALATIN VALLEY HIGHWAY",
+            "Corrected Value": "4543 SE TUALATIN VALLEY HIGHWAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "lat",
+            "Original Value": 37.09024,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "lon",
+            "Original Value": -95.712891,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "412 COUNTY ROAD 217",
+            "Corrected Value": "412 CR 217",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "zip",
+            "Original Value": "71852",
+            "Corrected Value": "71852",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 381,
+            "Column": "address",
+            "Original Value": "716 GAINES ST # 2",
+            "Corrected Value": "716 GAINES ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "zip",
+            "Original Value": "71801",
+            "Corrected Value": "71801",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "3000 W. AVE B # 75",
+            "Corrected Value": "3000 W AVENUE B ST",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 62,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "UNITED STATES"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "'406 MAIN STREET"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "E 9TH STREET"
+        },
+        {
+            "Row": 541,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "N HERVEY ST"
+        },
+        {
+            "Row": 62,
+            "Column": "lat",
+            "Error": "Latitude for AR must be between 33.004106 and 36.499749",
+            "Value": "37.09024"
+        },
+        {
+            "Row": 62,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 62,
+            "Column": "lon",
+            "Error": "Longitude for AR must be between -94.617919 and -89.644395",
+            "Value": "-95.712891"
+        },
+        {
+            "Row": 552,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4159)",
+            "Value": "4346"
+        },
+        {
+            "Row": 564,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4506)",
+            "Value": "4517"
+        },
+        {
+            "Row": 547,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4153)",
+            "Value": "4178"
+        },
+        {
+            "Row": 429,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3154)",
+            "Value": "3467"
+        },
+        {
+            "Row": 461,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "3987"
+        },
+        {
+            "Row": 486,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "4168"
+        },
+        {
+            "Row": 491,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "4235"
+        },
+        {
+            "Row": 493,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "4287"
+        },
+        {
+            "Row": 497,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "4325"
+        },
+        {
+            "Row": 503,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3967)",
+            "Value": "4452"
+        },
+        {
+            "Row": 515,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4526)",
+            "Value": "4550"
+        },
+        {
+            "Row": 524,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3305)",
+            "Value": "3398"
+        },
+        {
+            "Row": 539,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 3305)",
+            "Value": "2108"
+        },
+        {
+            "Row": 334,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2260)",
+            "Value": "2524"
+        },
+        {
+            "Row": 139,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 4232)",
+            "Value": "4233"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 552,
+            "customer": "4346",
+            "lat": 32.709677,
+            "lon": -97.130049,
+            "address": "2011 S FIELDER ROAD",
+            "city": "ARLINGTON",
+            "state": "TX",
+            "zip": "76013",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 4159)"
+        },
+        {
+            "OrigRowNum": 564,
+            "customer": "4517",
+            "lat": 33.077423,
+            "lon": -96.823126,
+            "address": "7250 DALLAS PARKWAY",
+            "city": "PLANO",
+            "state": "TX",
+            "zip": "75024",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 4506)"
+        },
+        {
+            "OrigRowNum": 547,
+            "customer": "4178",
+            "lat": 33.660463,
+            "lon": -95.555603,
+            "address": "30 CLARKSVILLE STREET",
+            "city": "PARIS",
+            "state": "TX",
+            "zip": "75460",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 4153)"
+        },
+        {
+            "OrigRowNum": 429,
+            "customer": "3467",
+            "lat": 33.66989,
+            "lon": -93.62467,
+            "address": "3000 W AVE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3154)"
+        },
+        {
+            "OrigRowNum": 461,
+            "customer": "3987",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 486,
+            "customer": "4168",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 491,
+            "customer": "4235",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 493,
+            "customer": "4287",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 497,
+            "customer": "4325",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 503,
+            "customer": "4452",
+            "lat": 33.670104,
+            "lon": -93.624939,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 3967)"
+        },
+        {
+            "OrigRowNum": 515,
+            "customer": "4550",
+            "lat": 33.670142,
+            "lon": -93.624944,
+            "address": "3000 W AVENUE B",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 4526)"
+        },
+        {
+            "OrigRowNum": 524,
+            "customer": "3398",
+            "lat": 33.72941,
+            "lon": -93.47179,
+            "address": "302 E 1ST ST",
+            "city": "EMMET",
+            "state": "AR",
+            "zip": "71835",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3305)"
+        },
+        {
+            "OrigRowNum": 539,
+            "customer": "2108",
+            "lat": 33.72941,
+            "lon": -93.47179,
+            "address": "302 E 1ST ST",
+            "city": "EMMET",
+            "state": "AR",
+            "zip": "71835",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 3305)"
+        },
+        {
+            "OrigRowNum": 334,
+            "customer": "2524",
+            "lat": 33.73394,
+            "lon": -93.61309,
+            "address": "146 HEMPSTEAD 23",
+            "city": "HOPE",
+            "state": "AR",
+            "zip": "71801",
+            "download": 25.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 2260)"
+        },
+        {
+            "OrigRowNum": 139,
+            "customer": "4233",
+            "lat": 33.875481,
+            "lon": -93.914369,
+            "address": "310 E RUNNELS STREET",
+            "city": "MINERAL SPRINGS",
+            "state": "AR",
+            "zip": "71851",
+            "download": 512.0,
+            "upload": 512.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 4232)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 381,
+            "Original Address": "716 GAINES ST # 2",
+            "Corrected Address": "716 GAINES ST",
+            "Original ZIP": "71852",
+            "Corrected ZIP": "71852",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-27T19:48:14.746187"
+        },
+        {
+            "OrigRowNum": 411,
+            "Original Address": "3000 W. AVE B # 75",
+            "Corrected Address": "3000 W AVENUE B ST",
+            "Original ZIP": "71801",
+            "Corrected ZIP": "71801",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-27T19:48:14.747634"
+        }
+    ]
+}

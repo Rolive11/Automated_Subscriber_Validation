@@ -1,0 +1,3329 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1502,
+        "Rows with Corrections": 351,
+        "Rows with Errors": 26,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 5,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 363,
+        "Total Errors": 26,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.75,
+        "Validation Date": "2025-08-13 16:11:55",
+        "Addresses Sent to Smarty": 12,
+        "Successful Corrections": 12,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.3,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1497,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1497,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "18860 FM 1937 LOT 1",
+            "Corrected Value": "18860 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "25896 CAMPBELLTON RD #1",
+            "Corrected Value": "25896 CAMPBELLTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Original Value": "5147 HARDY RD #3A",
+            "Corrected Value": "5147 HARDY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "19930 S JETT #1",
+            "Corrected Value": "19930 S JETT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W #25",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 18,
+            "Column": "address",
+            "Original Value": "12290 HIGHWAY 181 S #9",
+            "Corrected Value": "12290 HIGHWAY 181 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W #2",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 26,
+            "Column": "address",
+            "Original Value": "12940 SOUTH US HIGHWAY 181",
+            "Corrected Value": "12940 S US HIGHWAY 181",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Original Value": "19974 FARM TO MARKET 3499",
+            "Corrected Value": "19974 FM 3499",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "3110 DEVILBISS LANE UNIT # 1",
+            "Corrected Value": "3110 DEVILBISS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "19230 FM 1937 #11",
+            "Corrected Value": "19230 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "5865 HIGDON ROAD UNIT # 1",
+            "Corrected Value": "5865 HIGDON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "18860 FM 1937 LOT 5",
+            "Corrected Value": "18860 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 45,
+            "Column": "address",
+            "Original Value": "10725 ESPADA RD LOT 3",
+            "Corrected Value": "10725 ESPADA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "2988 S LOOP 1604 WEST",
+            "Corrected Value": "2988 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 57,
+            "Column": "address",
+            "Original Value": "12750 SOUTHTON RD #3",
+            "Corrected Value": "12750 SOUTHTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "20775 PLEASANTON RD #8",
+            "Corrected Value": "20775 PLEASANTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 61,
+            "Column": "address",
+            "Original Value": "15624 HWY 281 SOUTH",
+            "Corrected Value": "15624 HWY 281 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 71,
+            "Column": "address",
+            "Original Value": "3307 HARDY ROAD #2",
+            "Corrected Value": "3307 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 77,
+            "Column": "address",
+            "Original Value": "370 S LOOP 1604 UNIT # 4",
+            "Corrected Value": "370 S LOOP 1604",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E #A12",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Original Value": "11023 KOSUB LANE UNIT # 3",
+            "Corrected Value": "11023 KOSUB LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "23614 STAR OAKS DR UNIT # 2",
+            "Corrected Value": "23614 STAR OAKS DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E #B5",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 116,
+            "Column": "address",
+            "Original Value": "18690 BENTON CITY RD #1",
+            "Corrected Value": "18690 BENTON CITY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "14660 FM 1937 #3",
+            "Corrected Value": "14660 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 122,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W #2",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "12800 APPLEWHITE RD #130",
+            "Corrected Value": "12800 APPLEWHITE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "2950 RANCH TRAIL #1",
+            "Corrected Value": "2950 RANCH TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Original Value": "13250 LAGUNA #3",
+            "Corrected Value": "13250 LAGUNA",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "16371 SOUTH EVANS ROAD",
+            "Corrected Value": "16371 S EVANS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "17723 OLD CORPUS CHRISTI RD #10",
+            "Corrected Value": "17723 OLD CORPUS CHRISTI RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 164,
+            "Column": "address",
+            "Original Value": "13005 LOOP 1604 S UNIT # 1",
+            "Corrected Value": "13005 LOOP 1604 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "18320 US HWY 281 LOT 2",
+            "Corrected Value": "18320 US HWY 281",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "2154 MARTINEZ LOSOYA #3",
+            "Corrected Value": "2154 MARTINEZ LOSOYA",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "20397 SPANISH GRANT RD LOT 2",
+            "Corrected Value": "20397 SPANISH GRANT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "4593 TX LOOP 1604 W #3",
+            "Corrected Value": "4593 TX LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "20707 OLD LAMM RD #1",
+            "Corrected Value": "20707 OLD LAMM RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "6697 HARRY ROAD LOT # A8",
+            "Corrected Value": "6697 HARRY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "17791 SHADY FALLS #2",
+            "Corrected Value": "17791 SHADY FALLS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "18883 LA GLORIA RD UNIT # 1",
+            "Corrected Value": "18883 LA GLORIA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E #C5",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "608 COUNTRY BREEZE UNIT A",
+            "Corrected Value": "608 COUNTRY BREEZE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "9433 HILDABRANDT #2 SHOP",
+            "Corrected Value": "9433 HILDABRANDT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 220,
+            "Column": "address",
+            "Original Value": "14186 US HIGHWAY 181 ",
+            "Corrected Value": "14186 US HIGHWAY 181",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "10610 NORTH US HIGHWAY 281",
+            "Corrected Value": "10610 N US HIGHWAY 281",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 236,
+            "Column": "address",
+            "Original Value": "17791 SHADY FALLS #15",
+            "Corrected Value": "17791 SHADY FALLS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 241,
+            "Column": "address",
+            "Original Value": "13228 US 181 S UNIT # A1",
+            "Corrected Value": "13228 US 181 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 243,
+            "Column": "address",
+            "Original Value": "21687 CAMPBELLTON ROAD #2",
+            "Corrected Value": "21687 CAMPBELLTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "22238 PLEASANTON RD UNIT # 8A",
+            "Corrected Value": "22238 PLEASANTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "5697 LABUS #3",
+            "Corrected Value": "5697 LABUS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "5080 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "5080 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 283,
+            "Column": "address",
+            "Original Value": "20003 FM 1937 LOT #2",
+            "Corrected Value": "20003 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 288,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E LOT E12",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "12290 S US HWY 181 #53",
+            "Corrected Value": "12290 S US HWY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 301,
+            "Column": "address",
+            "Original Value": "4749 HARDY RD #46",
+            "Corrected Value": "4749 HARDY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Original Value": "185 MARAVILLAS DR #9",
+            "Corrected Value": "185 MARAVILLAS DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 #A11",
+            "Corrected Value": "3230 S LOOP 1604",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 318,
+            "Column": "address",
+            "Original Value": "13061 S US HWY 181 UNIT 6",
+            "Corrected Value": "13061 S US HWY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 319,
+            "Column": "address",
+            "Original Value": "15870 STUART RD LOT 7",
+            "Corrected Value": "15870 STUART RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "17723 OLD CORPUS CHRISTI RD #5",
+            "Corrected Value": "17723 OLD CORPUS CHRISTI RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 324,
+            "Column": "address",
+            "Original Value": "5697 LABUS RD #2",
+            "Corrected Value": "5697 LABUS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 328,
+            "Column": "address",
+            "Original Value": "20098 S JETT ROAD #2",
+            "Corrected Value": "20098 S JETT ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "4270 MICKEY RD #2",
+            "Corrected Value": "4270 MICKEY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Original Value": "16425 OLD CORPUS CHRISTI ROAD LOT # 2",
+            "Corrected Value": "16425 OLD CORPUS CHRISTI ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 337,
+            "Column": "address",
+            "Original Value": "5040 S LOOP 1604 E #2",
+            "Corrected Value": "5040 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 338,
+            "Column": "address",
+            "Original Value": "164 MARAVILLA DR LOT 54",
+            "Corrected Value": "164 MARAVILLA DR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 347,
+            "Column": "address",
+            "Original Value": "19935 US HWY 281 S #2",
+            "Corrected Value": "19935 US HWY 281 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 351,
+            "Column": "address",
+            "Original Value": "21149 US HWY 37 S #8",
+            "Corrected Value": "21149 US HWY 37 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 355,
+            "Column": "address",
+            "Original Value": "5865 HIGDON ROAD UNIT # 2",
+            "Corrected Value": "5865 HIGDON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 359,
+            "Column": "address",
+            "Original Value": "13844 OLD CORPUS CHRISTI #2",
+            "Corrected Value": "13844 OLD CORPUS CHRISTI",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 367,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E #A7",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 369,
+            "Column": "address",
+            "Original Value": "6040 WEST LAGUNA ROAD",
+            "Corrected Value": "6040 W LAGUNA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Original Value": "2080 MARTINEZLOSOYA RD #10",
+            "Corrected Value": "2080 MARTINEZLOSOYA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "12290 HWY 181 S UNIT # 8",
+            "Corrected Value": "12290 HWY 181 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Original Value": "6393 FM 1628 UNIT # 2",
+            "Corrected Value": "6393 FM 1628",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 399,
+            "Column": "address",
+            "Original Value": "14325 STREICH ROAD LOT # 3",
+            "Corrected Value": "14325 STREICH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Original Value": "12145 HIGHWAY 181 SOUTH",
+            "Corrected Value": "12145 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "17250 PLEASANTON ROAD UNIT # 1",
+            "Corrected Value": "17250 PLEASANTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 421,
+            "Column": "address",
+            "Original Value": "14030 OLD CORPUS CHRISTI ROAD LOT # 5",
+            "Corrected Value": "14030 OLD CORPUS CHRISTI ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Original Value": "19515 IH 37 S LOT 4",
+            "Corrected Value": "19515 IH 37 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "9690 HILDEBRANDT ROAD LOT # 1",
+            "Corrected Value": "9690 HILDEBRANDT ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Original Value": "13844 OLD CORPUS CHRISTI #11",
+            "Corrected Value": "13844 OLD CORPUS CHRISTI",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 436,
+            "Column": "address",
+            "Original Value": "22020 APPLEWHITE RD #4",
+            "Corrected Value": "22020 APPLEWHITE RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "6697 HARRY ROAD LOT # B9",
+            "Corrected Value": "6697 HARRY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "2900 BLUE WING RD LOT 6",
+            "Corrected Value": "2900 BLUE WING RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Original Value": "6697 HARRY ROAD LOT # C6",
+            "Corrected Value": "6697 HARRY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "19515 IH 37 S #2",
+            "Corrected Value": "19515 IH 37 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 453,
+            "Column": "address",
+            "Original Value": "4749 HARDY RD #39",
+            "Corrected Value": "4749 HARDY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 463,
+            "Column": "address",
+            "Original Value": "5697 LABUS RD LOT # 6",
+            "Corrected Value": "5697 LABUS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Original Value": "2080 MARTINEZ LOSOYA ROAD LOT 5",
+            "Corrected Value": "2080 MARTINEZ LOSOYA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 474,
+            "Column": "address",
+            "Original Value": "9587 S FOSTER ROAD UNIT # 2",
+            "Corrected Value": "9587 S FOSTER ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 480,
+            "Column": "address",
+            "Original Value": "12870 SOUTHTON ROAD LOT # 2",
+            "Corrected Value": "12870 SOUTHTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "19230 FM 1937 LOT # 3",
+            "Corrected Value": "19230 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 491,
+            "Column": "address",
+            "Original Value": "6697 HARRY RD LOT # C9",
+            "Corrected Value": "6697 HARRY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 492,
+            "Column": "address",
+            "Original Value": "4749 HARDY ROAD LOT # 34",
+            "Corrected Value": "4749 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "5621 HARDY RD #1",
+            "Corrected Value": "5621 HARDY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 501,
+            "Column": "address",
+            "Original Value": "19064 SENIOR ROAD LOT # 1",
+            "Corrected Value": "19064 SENIOR ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 503,
+            "Column": "address",
+            "Original Value": "10537 ESPADA ROAD LOT # 2",
+            "Corrected Value": "10537 ESPADA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "2900 BLUE WING #23",
+            "Corrected Value": "2900 BLUE WING",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "502 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "502 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 522,
+            "Column": "address",
+            "Original Value": "19615 PLEASANTON RD UNIT # 2",
+            "Corrected Value": "19615 PLEASANTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 529,
+            "Column": "address",
+            "Original Value": "2080 MARTINEZLOSOYA RD #9",
+            "Corrected Value": "2080 MARTINEZLOSOYA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "11731 EAST LOOP 1604 S",
+            "Corrected Value": "11731 E LOOP 1604 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "24421 TRUMBO RD UNIT # 1",
+            "Corrected Value": "24421 TRUMBO RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 550,
+            "Column": "address",
+            "Original Value": "835 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "835 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "19950 SOUTH JETT ROAD",
+            "Corrected Value": "19950 S JETT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "54 GALLINAS CREEK DRIVE LOT # 50",
+            "Corrected Value": "54 GALLINAS CREEK DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "18190 US HIGHWAY 281 #2",
+            "Corrected Value": "18190 US HIGHWAY 281",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "10802 FM 1303 UNIT B",
+            "Corrected Value": "10802 FM 1303",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 563,
+            "Column": "address",
+            "Original Value": "310 NEAL RD LOT # 2",
+            "Corrected Value": "310 NEAL RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 572,
+            "Column": "address",
+            "Original Value": "6924 RICHTER RD LOT 2",
+            "Corrected Value": "6924 RICHTER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 574,
+            "Column": "address",
+            "Original Value": "19665 S FLORES RD",
+            "Corrected Value": "19665 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Original Value": "11021 KOSUB LANE LOT # 3",
+            "Corrected Value": "11021 KOSUB LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 578,
+            "Column": "address",
+            "Original Value": "20780 SPANISH GRANT ROAD UNIT # 1",
+            "Corrected Value": "20780 SPANISH GRANT ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 583,
+            "Column": "address",
+            "Original Value": "1954 MARTINEZ LOSOYA ROAD UNIT B",
+            "Corrected Value": "1954 MARTINEZ LOSOYA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "3316 RABEL ROAD UNIT # 2",
+            "Corrected Value": "3316 RABEL ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 595,
+            "Column": "address",
+            "Original Value": "3316 RABEL ROAD UNIT # 3",
+            "Corrected Value": "3316 RABEL ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "565 HALLMARK PATH #2",
+            "Corrected Value": "565 HALLMARK PATH",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 600,
+            "Column": "address",
+            "Original Value": "19191 LAGLORIA ROAD UNIT # 9",
+            "Corrected Value": "19191 LAGLORIA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 606,
+            "Column": "address",
+            "Original Value": "5446 SOUTH FOSTER ROAD",
+            "Corrected Value": "5446 S FOSTER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 611,
+            "Column": "address",
+            "Original Value": "105 EAST NORTH STREET",
+            "Corrected Value": "105 E N STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "22238 PLEASANTON ROAD LOT # 4",
+            "Corrected Value": "22238 PLEASANTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "4138 STORM OAK LOT # 2",
+            "Corrected Value": "4138 STORM OAK",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 621,
+            "Column": "address",
+            "Original Value": "8437 S FOSTER ROAD UNIT # 2",
+            "Corrected Value": "8437 S FOSTER ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 627,
+            "Column": "address",
+            "Original Value": "6880 FM 1628 UNIT # 3",
+            "Corrected Value": "6880 FM 1628",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 637,
+            "Column": "address",
+            "Original Value": "6916 NEW SULPHUR SPRINGS ROAD UNIT # 5",
+            "Corrected Value": "6916 NEW SULPHUR SPRINGS ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 638,
+            "Column": "address",
+            "Original Value": "425 S LOOP 1604 E LOT # 1",
+            "Corrected Value": "425 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 640,
+            "Column": "address",
+            "Original Value": "544 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "544 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 644,
+            "Column": "address",
+            "Original Value": "505 S LOOP 1604 E LOT # 7A",
+            "Corrected Value": "505 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 658,
+            "Column": "address",
+            "Original Value": "4960 HIGDON ROAD UNIT # 2",
+            "Corrected Value": "4960 HIGDON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "465 S LOOP 1604 E UNIT # 1",
+            "Corrected Value": "465 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Original Value": "14255 STREICH RD LOT 2",
+            "Corrected Value": "14255 STREICH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "24421 TRUMBO RD UNIT # 2",
+            "Corrected Value": "24421 TRUMBO RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 669,
+            "Column": "address",
+            "Original Value": "22238 PLEASANTON ROAD LOT # 8B",
+            "Corrected Value": "22238 PLEASANTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 671,
+            "Column": "address",
+            "Original Value": "19260 FM 1937 LOT # 4",
+            "Corrected Value": "19260 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Original Value": "11023 KOSUB UNIT # 2",
+            "Corrected Value": "11023 KOSUB",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "10161 TX LOOP 106 LOT 1",
+            "Corrected Value": "10161 TX LOOP 106",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Original Value": "19205 SOUTHTON RD #2",
+            "Corrected Value": "19205 SOUTHTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Original Value": "726 RANCH ROAD UNIT # 2",
+            "Corrected Value": "726 RANCH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Original Value": "14235 STREICH ROAD UNIT # 5",
+            "Corrected Value": "14235 STREICH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 690,
+            "Column": "address",
+            "Original Value": "9690 HILDEBRANDT #4",
+            "Corrected Value": "9690 HILDEBRANDT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 695,
+            "Column": "address",
+            "Original Value": "21401 SPANISH GRANT ROAD UNIT # 2",
+            "Corrected Value": "21401 SPANISH GRANT ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Original Value": "10110 MACAWAY ROAD ",
+            "Corrected Value": "10110 MACAWAY ROAD",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 703,
+            "Column": "address",
+            "Original Value": "12145 LOOP 107 UNIT # 3",
+            "Corrected Value": "12145 LOOP 107",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "address",
+            "Original Value": "22190 MATHIS RD #2",
+            "Corrected Value": "22190 MATHIS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 709,
+            "Column": "address",
+            "Original Value": "613 PEACEFUL LN LOT 2",
+            "Corrected Value": "613 PEACEFUL LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 715,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 UNIT # B1",
+            "Corrected Value": "3230 S LOOP 1604",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 717,
+            "Column": "address",
+            "Original Value": "7690 SOUTH WW WHITE ROAD",
+            "Corrected Value": "7690 S WW WHITE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Original Value": "3945 SOUTH FOSTER ROAD",
+            "Corrected Value": "3945 S FOSTER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 725,
+            "Column": "address",
+            "Original Value": "1238 COUNTY ROAD 125",
+            "Corrected Value": "1238 CR 125",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 LOT # G9",
+            "Corrected Value": "3230 S LOOP 1604",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "5117 HARDY ROAD LOT # 1",
+            "Corrected Value": "5117 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Original Value": "993 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "993 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 748,
+            "Column": "address",
+            "Original Value": "21023 TRUMBO ROAD LOT # 4A",
+            "Corrected Value": "21023 TRUMBO ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 749,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E #D4",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 750,
+            "Column": "address",
+            "Original Value": "185 WAYCROSS ROAD FRONT UNIT",
+            "Corrected Value": "185 WAYCROSS ROAD FRONT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 753,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E UNIT # A6",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 754,
+            "Column": "address",
+            "Original Value": "12022 DONOP RD LOT 15",
+            "Corrected Value": "12022 DONOP RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 757,
+            "Column": "address",
+            "Original Value": "3625 WEST JETT ROAD",
+            "Corrected Value": "3625 W JETT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 761,
+            "Column": "address",
+            "Original Value": "12290 S US HWY 181 LOT # 19",
+            "Corrected Value": "12290 S US HWY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 766,
+            "Column": "address",
+            "Original Value": "5117 HARDY ROAD UNIT # 5",
+            "Corrected Value": "5117 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "8026 E LOOP 1604 S UNIT # 10",
+            "Corrected Value": "8026 E LOOP 1604 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 776,
+            "Column": "address",
+            "Original Value": "19615 PLEASANTON ROAD UNIT # 3",
+            "Corrected Value": "19615 PLEASANTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 780,
+            "Column": "address",
+            "Original Value": "2750 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "2750 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "10415 ELMENDORF LAVERNIA ROAD UNIT # 1",
+            "Corrected Value": "10415 ELMENDORF LAVERNIA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 786,
+            "Column": "address",
+            "Original Value": "8026 E LOOP 1604 S UNIT # 2",
+            "Corrected Value": "8026 E LOOP 1604 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 790,
+            "Column": "address",
+            "Original Value": "15777 HENZE ROAD LOT # 3",
+            "Corrected Value": "15777 HENZE ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 795,
+            "Column": "address",
+            "Original Value": "4026 BROOK OAK DRIVE UNIT # 1",
+            "Corrected Value": "4026 BROOK OAK DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 796,
+            "Column": "address",
+            "Original Value": "17791 SHADY FALLS LOT # 5",
+            "Corrected Value": "17791 SHADY FALLS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 800,
+            "Column": "address",
+            "Original Value": "3353 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "3353 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 806,
+            "Column": "address",
+            "Original Value": "17250 PLEASANTON ROAD UNIT # 2",
+            "Corrected Value": "17250 PLEASANTON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 810,
+            "Column": "address",
+            "Original Value": "5697 SOUTH LOOP 1604 E",
+            "Corrected Value": "5697 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E LOT A9",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "1081 TRUMBO TRAIL #3",
+            "Corrected Value": "1081 TRUMBO TRAIL",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Original Value": "21849 CAMPBELLTON RD #1",
+            "Corrected Value": "21849 CAMPBELLTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Original Value": "18883 LA GLORIA ROAD UNIT # 2",
+            "Corrected Value": "18883 LA GLORIA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 841,
+            "Column": "address",
+            "Original Value": "14520 PLEASANTON UNIT # 2",
+            "Corrected Value": "14520 PLEASANTON",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "23110 TRUMBO ROAD UNIT # 4",
+            "Corrected Value": "23110 TRUMBO ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 849,
+            "Column": "address",
+            "Original Value": "8026 E LOOP 1604 S UNIT # 14",
+            "Corrected Value": "8026 E LOOP 1604 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 853,
+            "Column": "address",
+            "Original Value": "11620 SOUTH FOSTER ROAD",
+            "Corrected Value": "11620 S FOSTER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 854,
+            "Column": "address",
+            "Original Value": "11477 S FOSTER ROAD UNIT # 5",
+            "Corrected Value": "11477 S FOSTER ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 855,
+            "Column": "address",
+            "Original Value": "4271 S FLORES ROAD UNIT # 1",
+            "Corrected Value": "4271 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Original Value": "425 S LOOP 1604 W UNIT # 2",
+            "Corrected Value": "425 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Original Value": "17592 HIGHWAY 281 SOUTH",
+            "Corrected Value": "17592 HIGHWAY 281 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "18029 FM 1937 LOT # 5",
+            "Corrected Value": "18029 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "12800 APPLEWHITE ROAD LOT # 119",
+            "Corrected Value": "12800 APPLEWHITE ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 882,
+            "Column": "address",
+            "Original Value": "14398 EAST LOOP 1604 SOUTH ACCESS ROAD",
+            "Corrected Value": "14398 E LOOP 1604 S ACCESS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Original Value": "11477 S FOSTER RD #3",
+            "Corrected Value": "11477 S FOSTER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 889,
+            "Column": "address",
+            "Original Value": "4026 BROOK OAK DRIVE UNIT # 2",
+            "Corrected Value": "4026 BROOK OAK DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 890,
+            "Column": "address",
+            "Original Value": "11023 KOSUB LN LOT 1",
+            "Corrected Value": "11023 KOSUB LN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 894,
+            "Column": "address",
+            "Original Value": "13445 US HIGHWAY 87 S UNIT # 2",
+            "Corrected Value": "13445 US HIGHWAY 87 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 901,
+            "Column": "address",
+            "Original Value": "3712 NEW MATHIS RD #5",
+            "Corrected Value": "3712 NEW MATHIS RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "address",
+            "Original Value": "3110 DEVILBISS LANE UNIT # 2",
+            "Corrected Value": "3110 DEVILBISS LANE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 907,
+            "Column": "address",
+            "Original Value": "9439 HILDEBRANDT UNIT # 2",
+            "Corrected Value": "9439 HILDEBRANDT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Original Value": "13228 US 181 S UNIT # A3",
+            "Corrected Value": "13228 US 181 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Original Value": "15718 US HWY 281 S UNIT # 4",
+            "Corrected Value": "15718 US HWY 281 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 911,
+            "Column": "address",
+            "Original Value": "4749 HARDY ROAD UNIT # 50",
+            "Corrected Value": "4749 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Original Value": "19546 LEAL ROAD LOT # 6",
+            "Corrected Value": "19546 LEAL ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Original Value": "5147 HARDY ROAD #3B",
+            "Corrected Value": "5147 HARDY ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 916,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W LOT 18",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 918,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E LOT # C02",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E LOT G1",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 930,
+            "Column": "address",
+            "Original Value": "5147 HARDY RD LOT 3C",
+            "Corrected Value": "5147 HARDY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Original Value": "5595 LABUS ROAD LOT 2",
+            "Corrected Value": "5595 LABUS ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 938,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E LOT C4",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 940,
+            "Column": "address",
+            "Original Value": "4761 EICHMAN UNIT # 2",
+            "Corrected Value": "4761 EICHMAN",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 943,
+            "Column": "address",
+            "Original Value": "23231 HICKORY SHADOW #2",
+            "Corrected Value": "23231 HICKORY SHADOW",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 945,
+            "Column": "address",
+            "Original Value": "24511 OPEN RANGE ROAD UNIT # 2",
+            "Corrected Value": "24511 OPEN RANGE ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 947,
+            "Column": "address",
+            "Original Value": "5944 FARM TO MARKET ROAD 1303",
+            "Corrected Value": "5944 FM 1303",
+            "Correction Type": "Farm to Market to FM",
+            "Status": "Valid"
+        },
+        {
+            "Row": 948,
+            "Column": "address",
+            "Original Value": "21825 PRIEST #1",
+            "Corrected Value": "21825 PRIEST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 950,
+            "Column": "address",
+            "Original Value": "5367 STATE HWY 97 EAST",
+            "Corrected Value": "5367 STATE HWY 97 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 954,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 LOT B3",
+            "Corrected Value": "3230 S LOOP 1604",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Original Value": "20003 FM 1937 LOT #1",
+            "Corrected Value": "20003 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 980,
+            "Column": "address",
+            "Original Value": "21320 SPANISH GRANT RD UNIT A",
+            "Corrected Value": "21320 SPANISH GRANT RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1034,
+            "Column": "address",
+            "Original Value": "2042 SOUTH LOOP 1604 E",
+            "Corrected Value": "2042 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1048,
+            "Column": "address",
+            "Original Value": "19955 SOUTH JETT ROAD",
+            "Corrected Value": "19955 S JETT ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1050,
+            "Column": "address",
+            "Original Value": "6017 WEST LAGUNA",
+            "Corrected Value": "6017 W LAGUNA",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1069,
+            "Column": "address",
+            "Original Value": "19151 CABALLERO SPUR UNIT # 2",
+            "Corrected Value": "19151 CABALLERO SPUR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1084,
+            "Column": "address",
+            "Original Value": "15148 HIGHWAY 181 SOUTH",
+            "Corrected Value": "15148 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1087,
+            "Column": "address",
+            "Original Value": "425 SOUTH LOOP 1604 W",
+            "Corrected Value": "425 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1096,
+            "Column": "address",
+            "Original Value": "425 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "425 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1101,
+            "Column": "address",
+            "Original Value": "3110 DEVILBISS LOT #14",
+            "Corrected Value": "3110 DEVILBISS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1102,
+            "Column": "address",
+            "Original Value": "1573 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "1573 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1109,
+            "Column": "address",
+            "Original Value": "14813 CASSIANO LOT # 9",
+            "Corrected Value": "14813 CASSIANO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1130,
+            "Column": "address",
+            "Original Value": "7063 SOUTH LOOP 1604",
+            "Corrected Value": "7063 S LOOP 1604",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1131,
+            "Column": "address",
+            "Original Value": "14420 HIGHWAY 181 SOUTH",
+            "Corrected Value": "14420 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1149,
+            "Column": "address",
+            "Original Value": "13443 US HIGHWAY 87 SOUTH",
+            "Corrected Value": "13443 US HIGHWAY 87 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1162,
+            "Column": "address",
+            "Original Value": "3680 EAST LOOP 1604 SOUTH",
+            "Corrected Value": "3680 E LOOP 1604 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1172,
+            "Column": "address",
+            "Original Value": "1220 MOGFORD RD #2",
+            "Corrected Value": "1220 MOGFORD RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1173,
+            "Column": "address",
+            "Original Value": "10810 SOUTH BLUE WING",
+            "Corrected Value": "10810 S BLUE WING",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1183,
+            "Column": "address",
+            "Original Value": "12751 HIGHWAY 181 SOUTH",
+            "Corrected Value": "12751 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1184,
+            "Column": "address",
+            "Original Value": "20110 HIGHWAY 281 SOUTH",
+            "Corrected Value": "20110 HIGHWAY 281 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1186,
+            "Column": "address",
+            "Original Value": "2950 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "2950 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1188,
+            "Column": "address",
+            "Original Value": "280 EAST DITTO ROAD",
+            "Corrected Value": "280 E DITTO ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1193,
+            "Column": "address",
+            "Original Value": "8338 SOUTH LOOP 1604",
+            "Corrected Value": "8338 S LOOP 1604",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1200,
+            "Column": "address",
+            "Original Value": "13228 US 181 S UNIT # A2",
+            "Corrected Value": "13228 US 181 S",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1217,
+            "Column": "address",
+            "Original Value": "425 SOUTH LOOP 1604 W",
+            "Corrected Value": "425 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1221,
+            "Column": "address",
+            "Original Value": "12595 LAVERNIA ROAD UNIT B",
+            "Corrected Value": "12595 LAVERNIA ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1225,
+            "Column": "address",
+            "Original Value": "2220 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "2220 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1228,
+            "Column": "address",
+            "Original Value": "101 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "101 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1238,
+            "Column": "address",
+            "Original Value": "17592 HIGHWAY 281 SOUTH",
+            "Corrected Value": "17592 HIGHWAY 281 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1239,
+            "Column": "address",
+            "Original Value": "359 SOUTH LOOP 1604 WEST",
+            "Corrected Value": "359 S LOOP 1604 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1242,
+            "Column": "address",
+            "Original Value": "13445 US 87 EAST",
+            "Corrected Value": "13445 US 87 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1256,
+            "Column": "address",
+            "Original Value": "6297 SOUTH FM 3465",
+            "Corrected Value": "6297 S FM 3465",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1263,
+            "Column": "address",
+            "Original Value": "5049 PITTMAN ROAD LOT # 7",
+            "Corrected Value": "5049 PITTMAN ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1264,
+            "Column": "address",
+            "Original Value": "19930 S JETT #2",
+            "Corrected Value": "19930 S JETT",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1275,
+            "Column": "address",
+            "Original Value": "20775 PLEASANTON UNIT # 5",
+            "Corrected Value": "20775 PLEASANTON",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1297,
+            "Column": "address",
+            "Original Value": "5049 PITTMAN ROAD LOT # 4",
+            "Corrected Value": "5049 PITTMAN ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1298,
+            "Column": "address",
+            "Original Value": "20290 IH 37 SOUTH",
+            "Corrected Value": "20290 IH 37 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1299,
+            "Column": "address",
+            "Original Value": "14370 HIGHWAY 181 SOUTH",
+            "Corrected Value": "14370 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1306,
+            "Column": "address",
+            "Original Value": "2240 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "2240 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1309,
+            "Column": "address",
+            "Original Value": "14781 WATSON ROAD LOT #9",
+            "Corrected Value": "14781 WATSON ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1310,
+            "Column": "address",
+            "Original Value": "14650 IH 35 SOUTH",
+            "Corrected Value": "14650 IH 35 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1321,
+            "Column": "address",
+            "Original Value": "21149 IH 37 SOUTH",
+            "Corrected Value": "21149 IH 37 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1325,
+            "Column": "address",
+            "Original Value": "1420 FM 2537 UNIT # 4",
+            "Corrected Value": "1420 FM 2537",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1333,
+            "Column": "address",
+            "Original Value": "12255 HIGHWAY 181 SOUTH",
+            "Corrected Value": "12255 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1340,
+            "Column": "address",
+            "Original Value": "15437 HIGHWAY 181 SOUTH",
+            "Corrected Value": "15437 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1342,
+            "Column": "address",
+            "Original Value": "14960 HIGHWAY 181 SOUTH",
+            "Corrected Value": "14960 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1343,
+            "Column": "address",
+            "Original Value": "9195 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "9195 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1355,
+            "Column": "address",
+            "Original Value": "11305 E LOOP 1604 SOUTH",
+            "Corrected Value": "11305 E LOOP 1604 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1373,
+            "Column": "address",
+            "Original Value": "3110 DEVILBISS #10",
+            "Corrected Value": "3110 DEVILBISS",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1374,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 EAST",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1378,
+            "Column": "address",
+            "Original Value": "13061 S US HIGHWAY 181 LOT # 8",
+            "Corrected Value": "13061 S US HIGHWAY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1380,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W LOT 19",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1387,
+            "Column": "address",
+            "Original Value": "14420 HIGHWAY 181 SOUTH",
+            "Corrected Value": "14420 HIGHWAY 181 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1392,
+            "Column": "address",
+            "Original Value": "3585 RABEL ROAD UNIT # 2",
+            "Corrected Value": "3585 RABEL ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1408,
+            "Column": "address",
+            "Original Value": "18181 SENIOR UNIT # 9",
+            "Corrected Value": "18181 SENIOR",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1413,
+            "Column": "address",
+            "Original Value": "20003 FM 1937 LOT #3",
+            "Corrected Value": "20003 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1419,
+            "Column": "address",
+            "Original Value": "12290 S US HWY 181 #43",
+            "Corrected Value": "12290 S US HWY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1436,
+            "Column": "address",
+            "Original Value": "19950 FM 1937 #2",
+            "Corrected Value": "19950 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1440,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W #17",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1453,
+            "Column": "address",
+            "Original Value": "1011 S LOOP 1604 W #7",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1461,
+            "Column": "address",
+            "Original Value": "425 S LOOP 1604 W #6",
+            "Corrected Value": "425 S LOOP 1604 W",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1463,
+            "Column": "address",
+            "Original Value": "20320 TRUMBO RD #2",
+            "Corrected Value": "20320 TRUMBO RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1464,
+            "Column": "address",
+            "Original Value": "16371 SOUTH EVANS RD",
+            "Corrected Value": "16371 S EVANS RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1465,
+            "Column": "address",
+            "Original Value": "19260 FM 1937 LOT 1A",
+            "Corrected Value": "19260 FM 1937",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1469,
+            "Column": "address",
+            "Original Value": "13061 S US HWY 181 #11",
+            "Corrected Value": "13061 S US HWY 181",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1476,
+            "Column": "address",
+            "Original Value": "10731 ESPADA RD #2",
+            "Corrected Value": "10731 ESPADA RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1480,
+            "Column": "address",
+            "Original Value": "2240 SOUTH LOOP 1604 EAST",
+            "Corrected Value": "2240 S LOOP 1604 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1490,
+            "Column": "address",
+            "Original Value": "105 OLD PLEASANTON RD #A",
+            "Corrected Value": "105 OLD PLEASANTON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1498,
+            "Column": "address",
+            "Original Value": "1081 TRUMBO TRAIL ",
+            "Corrected Value": "1081 TRUMBO TRAIL",
+            "Correction Type": "PR to PVT RD Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "address",
+            "Original Value": "511 COUNTY ROAD 167",
+            "Corrected Value": "511 CR 167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 56,
+            "Column": "address",
+            "Original Value": "726 COUNTY ROAD 125",
+            "Corrected Value": "726 CR 125",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "360 COUNTY ROAD 105",
+            "Corrected Value": "360 CR 105",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Original Value": "8167 COUNTY ROAD 128",
+            "Corrected Value": "8167 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 168,
+            "Column": "address",
+            "Original Value": "8986 COUNTY ROAD 128",
+            "Corrected Value": "8986 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 211,
+            "Column": "address",
+            "Original Value": "239 COUNTY ROAD 151",
+            "Corrected Value": "239 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 248,
+            "Column": "address",
+            "Original Value": "18025 COUNTY ROAD 163",
+            "Corrected Value": "18025 CR 163",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 271,
+            "Column": "address",
+            "Original Value": "7880 COUNTY ROAD 128",
+            "Corrected Value": "7880 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 306,
+            "Column": "address",
+            "Original Value": "1238 COUNTY ROAD 125",
+            "Corrected Value": "1238 CR 125",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Original Value": "70 COUNTY ROAD 166",
+            "Corrected Value": "70 CR 166",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 368,
+            "Column": "address",
+            "Original Value": "88267 COUNTY ROAD 128",
+            "Corrected Value": "88267 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 374,
+            "Column": "address",
+            "Original Value": "1594 COUNTY ROAD 112",
+            "Corrected Value": "1594 CR 112",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 382,
+            "Column": "address",
+            "Original Value": "7848 COUNTY ROAD 128",
+            "Corrected Value": "7848 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 391,
+            "Column": "address",
+            "Original Value": "8261 COUNTY ROAD 128",
+            "Corrected Value": "8261 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Original Value": "207 COUNTY ROAD 151",
+            "Corrected Value": "207 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Original Value": "17878 COUNTY ROAD 163",
+            "Corrected Value": "17878 CR 163",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Original Value": "235 COUNTY ROAD 151",
+            "Corrected Value": "235 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 512,
+            "Column": "address",
+            "Original Value": "3020 COUNTY ROAD 122",
+            "Corrected Value": "3020 CR 122",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 530,
+            "Column": "address",
+            "Original Value": "8345 COUNTY ROAD 128",
+            "Corrected Value": "8345 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 585,
+            "Column": "address",
+            "Original Value": "640 COUNTY ROAD 161",
+            "Corrected Value": "640 CR 161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Original Value": "7598 COUNTY ROAD 128",
+            "Corrected Value": "7598 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Original Value": "2955 COUNTY ROAD 126",
+            "Corrected Value": "2955 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Original Value": "8181 COUNTY ROAD 128",
+            "Corrected Value": "8181 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "990 COUNTY ROAD 168",
+            "Corrected Value": "990 CR 168",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Original Value": "7598 COUNTY ROAD 128",
+            "Corrected Value": "7598 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 656,
+            "Column": "address",
+            "Original Value": "311 COUNTY RD 167",
+            "Corrected Value": "311 CR 167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "3015 COUNTY ROAD 126",
+            "Corrected Value": "3015 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 731,
+            "Column": "address",
+            "Original Value": "8165 COUNTY ROAD 128",
+            "Corrected Value": "8165 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 746,
+            "Column": "address",
+            "Original Value": "2820 COUNTY ROAD 120",
+            "Corrected Value": "2820 CR 120",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "address",
+            "Original Value": "237 COUNTY ROAD 151",
+            "Corrected Value": "237 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "address",
+            "Original Value": "1162 COUNTY ROAD 122",
+            "Corrected Value": "1162 CR 122",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 852,
+            "Column": "address",
+            "Original Value": "168 COUNTY ROAD 158",
+            "Corrected Value": "168 CR 158",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 864,
+            "Column": "address",
+            "Original Value": "18330 COUNTY ROAD 163",
+            "Corrected Value": "18330 CR 163",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 878,
+            "Column": "address",
+            "Original Value": "8701 COUNTY ROAD 128",
+            "Corrected Value": "8701 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 887,
+            "Column": "address",
+            "Original Value": "800 COUNTY ROAD 125",
+            "Corrected Value": "800 CR 125",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Original Value": "341 COUNTY RD 168",
+            "Corrected Value": "341 CR 168",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 955,
+            "Column": "address",
+            "Original Value": "538 COUNTY ROAD 124",
+            "Corrected Value": "538 CR 124",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1046,
+            "Column": "address",
+            "Original Value": "195 COUNTY ROAD 158",
+            "Corrected Value": "195 CR 158",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1058,
+            "Column": "address",
+            "Original Value": "3560 COUNTY ROAD 126",
+            "Corrected Value": "3560 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1059,
+            "Column": "address",
+            "Original Value": "199 COUNTY ROAD 158",
+            "Corrected Value": "199 CR 158",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1063,
+            "Column": "address",
+            "Original Value": "2645 COUNTY ROAD 115",
+            "Corrected Value": "2645 CR 115",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1076,
+            "Column": "address",
+            "Original Value": "3640 COUNTY ROAD 126",
+            "Corrected Value": "3640 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1111,
+            "Column": "address",
+            "Original Value": "152 COUNTY ROAD 158",
+            "Corrected Value": "152 CR 158",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1128,
+            "Column": "address",
+            "Original Value": "120 COUNTY ROAD 158",
+            "Corrected Value": "120 CR 158",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1147,
+            "Column": "address",
+            "Original Value": "1300 COUNTY ROAD 126",
+            "Corrected Value": "1300 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1148,
+            "Column": "address",
+            "Original Value": "1502 COUNTY ROAD 115",
+            "Corrected Value": "1502 CR 115",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1150,
+            "Column": "address",
+            "Original Value": "1445 COUNTY ROAD 126",
+            "Corrected Value": "1445 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1165,
+            "Column": "address",
+            "Original Value": "1876 COUNTY ROAD 115",
+            "Corrected Value": "1876 CR 115",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1215,
+            "Column": "address",
+            "Original Value": "184 COUNTY ROAD 350",
+            "Corrected Value": "184 CR 350",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1219,
+            "Column": "address",
+            "Original Value": "1998 COUNTY ROAD 126",
+            "Corrected Value": "1998 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1246,
+            "Column": "address",
+            "Original Value": "18455 COUNTY ROAD 163",
+            "Corrected Value": "18455 CR 163",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1248,
+            "Column": "address",
+            "Original Value": "865 COUNTY ROAD 125",
+            "Corrected Value": "865 CR 125",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1291,
+            "Column": "address",
+            "Original Value": "35 COUNTY ROAD 161",
+            "Corrected Value": "35 CR 161",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1319,
+            "Column": "address",
+            "Original Value": "603 COUNTY ROAD 126",
+            "Corrected Value": "603 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1329,
+            "Column": "address",
+            "Original Value": "313 COUNTY ROAD 167",
+            "Corrected Value": "313 CR 167",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1446,
+            "Column": "address",
+            "Original Value": "562 COUNTY ROAD 112",
+            "Corrected Value": "562 CR 112",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1491,
+            "Column": "address",
+            "Original Value": "8094 COUNTY ROAD 128",
+            "Corrected Value": "8094 CR 128",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "zip",
+            "Original Value": "78223",
+            "Corrected Value": "78223",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "15684 FLATTEN RD #2",
+            "Corrected Value": "15684",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "zip",
+            "Original Value": "78264",
+            "Corrected Value": "78264",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 126,
+            "Column": "address",
+            "Original Value": "934 DUKE RD # 4",
+            "Corrected Value": "934 DUKE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "zip",
+            "Original Value": "78223",
+            "Corrected Value": "78223",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 158,
+            "Column": "address",
+            "Original Value": "15730 FLATTEN ROAD #2",
+            "Corrected Value": "15730",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "zip",
+            "Original Value": "78112",
+            "Corrected Value": "78112",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "21825 PRIEST RD # 2",
+            "Corrected Value": "21825 PRIEST RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "zip",
+            "Original Value": "78223",
+            "Corrected Value": "78223",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "10842 GREEN LAKE ST # 7",
+            "Corrected Value": "10842 GREEN LAKE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "zip",
+            "Original Value": "78224",
+            "Corrected Value": "78224",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 278,
+            "Column": "address",
+            "Original Value": "12800 APPLEWHITE RD # 210",
+            "Corrected Value": "12800 APPLEWHITE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "zip",
+            "Original Value": "78264",
+            "Corrected Value": "78264",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 313,
+            "Column": "address",
+            "Original Value": "1011S LOOP 1604 W #7",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "zip",
+            "Original Value": "78264",
+            "Corrected Value": "78264",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "1011 S. LOOP 1604 W. # 7",
+            "Corrected Value": "1011 S LOOP 1604 W",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "zip",
+            "Original Value": "78264",
+            "Corrected Value": "78264",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "645 PEACEFUL LN. # 2",
+            "Corrected Value": "645 PEACEFUL LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 885,
+            "Column": "zip",
+            "Original Value": "78264",
+            "Corrected Value": "78264",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 885,
+            "Column": "address",
+            "Original Value": "3230 S LOOP 1604 E # C7",
+            "Corrected Value": "3230 S LOOP 1604 E",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 817,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "78114",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 817,
+            "Column": "address",
+            "Original Value": "56 PLOCH LN",
+            "Corrected Value": "56 PLOCH LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "78064",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "address",
+            "Original Value": "14040 FM 536",
+            "Corrected Value": "14040 FM 536",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 138,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "116 FLOR DEL SOL ROAD"
+        },
+        {
+            "Row": 484,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "23119 FLAT RIVER"
+        },
+        {
+            "Row": 587,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15735 FLATTEN"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "455 TOWER RD"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "928 TOWER RD"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "181 TOWER ROAD"
+        },
+        {
+            "Row": 759,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15735 FLATTEN RD"
+        },
+        {
+            "Row": 802,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15234 FLATTEN ROAD"
+        },
+        {
+            "Row": 857,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "323 STEVENS ROAD"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "20280A TRUMBO RD"
+        },
+        {
+            "Row": 1039,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "148 TOWER ROAD"
+        },
+        {
+            "Row": 1139,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "706 TOWER ROAD"
+        },
+        {
+            "Row": 1146,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15730 FLATTEN ROAD"
+        },
+        {
+            "Row": 1304,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "15684 FLATTEN"
+        },
+        {
+            "Row": 1337,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PR A53"
+        },
+        {
+            "Row": 1399,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "243 TOWER RD"
+        },
+        {
+            "Row": 1406,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "165 TOWER RD"
+        },
+        {
+            "Row": 1450,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "14810 FLATTEN ROAD"
+        },
+        {
+            "Row": 1458,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "338 TOWER RD"
+        },
+        {
+            "Row": 817,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 834,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 614,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 100574)",
+            "Value": "103907"
+        },
+        {
+            "Row": 556,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 102999)",
+            "Value": "103295"
+        },
+        {
+            "Row": 753,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 102206)",
+            "Value": "105437"
+        },
+        {
+            "Row": 645,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 103592)",
+            "Value": "104284"
+        },
+        {
+            "Row": 43,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 100007)",
+            "Value": "100349"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 614,
+            "customer": "103907",
+            "lat": 29.17182,
+            "lon": -98.40898,
+            "address": "4138 STORM OAK",
+            "city": "ELMENDORF",
+            "state": "TX",
+            "zip": "78112",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 100574)"
+        },
+        {
+            "OrigRowNum": 556,
+            "customer": "103295",
+            "lat": 29.18989,
+            "lon": -98.52068,
+            "address": "22435 TRUMBO ROAD",
+            "city": "SAN ANTONIO",
+            "state": "TX",
+            "zip": "78264",
+            "download": 10.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 102999)"
+        },
+        {
+            "OrigRowNum": 753,
+            "customer": "105437",
+            "lat": 29.22017,
+            "lon": -98.43754,
+            "address": "3230 S LOOP 1604 E",
+            "city": "SAN ANTONIO",
+            "state": "TX",
+            "zip": "78264",
+            "download": 100.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 102206)"
+        },
+        {
+            "OrigRowNum": 645,
+            "customer": "104284",
+            "lat": 29.22866,
+            "lon": -98.27923,
+            "address": "7598 COUNTY ROAD 128",
+            "city": "FLORESVILLE",
+            "state": "TX",
+            "zip": "78114",
+            "download": 1000.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 103592)"
+        },
+        {
+            "OrigRowNum": 43,
+            "customer": "100349",
+            "lat": 29.23558,
+            "lon": -98.45146,
+            "address": "18860 FM 1937",
+            "city": "SAN ANTONIO",
+            "state": "TX",
+            "zip": "78221",
+            "download": 1000.0,
+            "upload": 300.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 100007)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 89,
+            "Original Address": "15684 FLATTEN RD #2",
+            "Corrected Address": "15684",
+            "Original ZIP": "78223",
+            "Corrected ZIP": "78223",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.696612"
+        },
+        {
+            "OrigRowNum": 126,
+            "Original Address": "934 DUKE RD # 4",
+            "Corrected Address": "934 DUKE RD",
+            "Original ZIP": "78264",
+            "Corrected ZIP": "78264",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.698466"
+        },
+        {
+            "OrigRowNum": 158,
+            "Original Address": "15730 FLATTEN ROAD #2",
+            "Corrected Address": "15730",
+            "Original ZIP": "78223",
+            "Corrected ZIP": "78223",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.699380"
+        },
+        {
+            "OrigRowNum": 198,
+            "Original Address": "21825 PRIEST RD # 2",
+            "Corrected Address": "21825 PRIEST RD",
+            "Original ZIP": "78112",
+            "Corrected ZIP": "78112",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.700180"
+        },
+        {
+            "OrigRowNum": 266,
+            "Original Address": "10842 GREEN LAKE ST # 7",
+            "Corrected Address": "10842 GREEN LAKE DR",
+            "Original ZIP": "78223",
+            "Corrected ZIP": "78223",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.700915"
+        },
+        {
+            "OrigRowNum": 278,
+            "Original Address": "12800 APPLEWHITE RD # 210",
+            "Corrected Address": "12800 APPLEWHITE RD",
+            "Original ZIP": "78224",
+            "Corrected ZIP": "78224",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.701595"
+        },
+        {
+            "OrigRowNum": 313,
+            "Original Address": "1011S LOOP 1604 W #7",
+            "Corrected Address": "1011 S LOOP 1604 W LOT 7",
+            "Original ZIP": "78264",
+            "Corrected ZIP": "78264",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.702128"
+        },
+        {
+            "OrigRowNum": 619,
+            "Original Address": "1011 S. LOOP 1604 W. # 7",
+            "Corrected Address": "1011 S LOOP 1604 W LOT 7",
+            "Original ZIP": "78264",
+            "Corrected ZIP": "78264",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.702673"
+        },
+        {
+            "OrigRowNum": 634,
+            "Original Address": "645 PEACEFUL LN. # 2",
+            "Corrected Address": "645 PEACEFUL LN",
+            "Original ZIP": "78264",
+            "Corrected ZIP": "78264",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.703203"
+        },
+        {
+            "OrigRowNum": 885,
+            "Original Address": "3230 S LOOP 1604 E # C7",
+            "Corrected Address": "3230 S LOOP 1604 E LOT C7",
+            "Original ZIP": "78264",
+            "Corrected ZIP": "78264",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.703729"
+        },
+        {
+            "OrigRowNum": 817,
+            "Original Address": "56 PLOCH LN",
+            "Corrected Address": "56 PLOCH LN",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "78114",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.704255"
+        },
+        {
+            "OrigRowNum": 834,
+            "Original Address": "14040 FM 536",
+            "Corrected Address": "14040 FM 536",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "78064",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-13T16:11:54.704782"
+        }
+    ]
+}

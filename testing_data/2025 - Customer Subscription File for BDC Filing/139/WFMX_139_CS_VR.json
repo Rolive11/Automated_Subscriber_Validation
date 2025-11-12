@@ -1,0 +1,4114 @@
+{
+    "Summary": {
+        "Total Rows Processed": 2306,
+        "Rows with Corrections": 123,
+        "Rows with Errors": 123,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "Total Corrections": 246,
+        "Total Errors": 0,
+        "Street Ending Errors": 123,
+        "Validation Time (seconds)": 21.57,
+        "Validation Date": "2025-07-20 07:17:20",
+        "Addresses Sent to Smarty": 123,
+        "Successful Corrections": 123,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 19.99,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 2306,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 2306,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 62,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 62,
+            "Column": "address",
+            "Original Value": "9005 SW HIGHWAY 97",
+            "Corrected Value": "9005 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Original Value": "5070 SE PAULINA HWY",
+            "Corrected Value": "5070 SE PAULINA HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Original Value": "515315 MADRAS HWY",
+            "Corrected Value": "515315 MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Original Value": "10899 POWELL BUTTE HWY",
+            "Corrected Value": "10899 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "12450 NW MADRAS HWY",
+            "Corrected Value": "12450 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Original Value": "750 NW REDWOOD",
+            "Corrected Value": "750 SW REDWOOD LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "20797 NW ONEIL HWY",
+            "Corrected Value": "20797 NW ONEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "20799 NW ONEIL HWY",
+            "Corrected Value": "20799 NW ONEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Original Value": "12775 SW HIGHWAY 126",
+            "Corrected Value": "12775 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "64282 N HIGHWAY 97",
+            "Corrected Value": "64282 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Original Value": "9427 NW PANORAMA VIEW",
+            "Corrected Value": "9427 NW PANORAMA VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "5200 SE MOKI",
+            "Corrected Value": "5200 SE MOKI RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Original Value": "9415 S HIGHWAY 97",
+            "Corrected Value": "9415 S HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Original Value": "4820 SE PAULINA HWY",
+            "Corrected Value": "4820 SE PAULINA HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "5549 NW LONE PINE",
+            "Corrected Value": "5549 NW LONE PINE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Original Value": "15777 SW MAJESTIC VW",
+            "Corrected Value": "15777 SW MAJESTIC VIEW LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Original Value": "7915 W HIGHWAY 126",
+            "Corrected Value": "7915 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Original Value": "7915 W HIGHWAY 126",
+            "Corrected Value": "7915 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Original Value": "15352 SW HIGHWAY 97",
+            "Corrected Value": "15352 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Original Value": "12500 NW MADRAS HWY",
+            "Corrected Value": "12500 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Original Value": "64280 N HIGHWAY 97",
+            "Corrected Value": "64280 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Original Value": "2146 SE MYRTLEWOOD",
+            "Corrected Value": "2146 SE MYRTLEWOOD LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Original Value": "5288 SW QUAIL",
+            "Corrected Value": "5288 SW QUAIL",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Original Value": "7458 SW CULVER HWY",
+            "Corrected Value": "7458 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Original Value": "12518 SW POWELL BUTTE HWY",
+            "Corrected Value": "12518 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "16489 SW CULVER HWY",
+            "Corrected Value": "16489 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Original Value": "7190 N HIGHWAY 97",
+            "Corrected Value": "7190 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Original Value": "8297 W HIGHWAY 126",
+            "Corrected Value": "8297 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "7280 SW HIGHWAY 97",
+            "Corrected Value": "7280 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Original Value": "4010 S ADAMS",
+            "Corrected Value": "4010 S ADAMS DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "1608 SW CULVER HWY",
+            "Corrected Value": "1608 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Original Value": "9420 NW PANORAMA VW",
+            "Corrected Value": "9420 NW PANORAMA VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Original Value": "4009 NE HWY 97",
+            "Corrected Value": "4009 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Original Value": "10862 SW POWELL BUTTE HWY",
+            "Corrected Value": "10862 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "7636 SW POWELL BUTTE HWY",
+            "Corrected Value": "7636 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "15348 HIGHWAY 97",
+            "Corrected Value": "15348 HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Original Value": "6909 SW POWELL BUTTE HWY",
+            "Corrected Value": "6909 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "6061 NW O NEIL HWY",
+            "Corrected Value": "6061 NW O NEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "5549 NW LONE PINE",
+            "Corrected Value": "5549 NW LONE PINE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "14419 SW HIGHWAY 97",
+            "Corrected Value": "14419 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Original Value": "10002 SW POWELL BUTTE HWY",
+            "Corrected Value": "10002 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 657,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 657,
+            "Column": "address",
+            "Original Value": "13604 SW POWELL BUTTE HWY",
+            "Corrected Value": "13604 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 738,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 738,
+            "Column": "address",
+            "Original Value": "6105 SW POWELL BUTTE HWY",
+            "Corrected Value": "6105 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "555 NE NEGUS LP",
+            "Corrected Value": "555 NE NEGUS LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "address",
+            "Original Value": "3902 NW O NEIL HWY",
+            "Corrected Value": "3902 NW O NEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 852,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 852,
+            "Column": "address",
+            "Original Value": "1400 ROGUE RIVER HWY",
+            "Corrected Value": "1400 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 885,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 885,
+            "Column": "address",
+            "Original Value": "1532 SE MYRTLEWOOD",
+            "Corrected Value": "1532 SW MYRTLEWOOD LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 891,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Original Value": "17000 NW ONEIL HWY",
+            "Corrected Value": "17000 NW ONEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 900,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 900,
+            "Column": "address",
+            "Original Value": "62765 POWELL BUTTE HWY",
+            "Corrected Value": "62765 POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 911,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 911,
+            "Column": "address",
+            "Original Value": "15345 SW CULVER HWY",
+            "Corrected Value": "15345 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 929,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Original Value": "2289 SW SILVERGATE",
+            "Corrected Value": "2289 SW SILVERGATE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 945,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 945,
+            "Column": "address",
+            "Original Value": "11075 SE HIGHWAY 26",
+            "Corrected Value": "11075 SE HIGHWAY 26",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 947,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 947,
+            "Column": "address",
+            "Original Value": "15400 SW AQUATIC VW",
+            "Corrected Value": "15400 SW AQUATIC VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 949,
+            "Column": "address",
+            "Original Value": "3457 NW HWY 97",
+            "Corrected Value": "3457 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 969,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 969,
+            "Column": "address",
+            "Original Value": "12797 N HWY 97",
+            "Corrected Value": "12797 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Original Value": "3791 N HIGHWAY 97",
+            "Corrected Value": "3791 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1024,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1024,
+            "Column": "address",
+            "Original Value": "2251 NW MADRAS HWY",
+            "Corrected Value": "2251 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1050,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1050,
+            "Column": "address",
+            "Original Value": "6100 S HWY 97",
+            "Corrected Value": "6100 S HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1075,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1075,
+            "Column": "address",
+            "Original Value": "9438 NW PANORAMA VW",
+            "Corrected Value": "9438 NW PANORAMA VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1079,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1079,
+            "Column": "address",
+            "Original Value": "6418 ROGUE RIVER HWY",
+            "Corrected Value": "6418 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1090,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1090,
+            "Column": "address",
+            "Original Value": "8590 ROGUE RIVER HWY",
+            "Corrected Value": "8590 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1149,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1149,
+            "Column": "address",
+            "Original Value": "5549 NW LONE PINE",
+            "Corrected Value": "5549 NW LONE PINE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1156,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1156,
+            "Column": "address",
+            "Original Value": "6905 ROGUE RIVER HWY",
+            "Corrected Value": "6905 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1164,
+            "Column": "zip",
+            "Original Value": "97703",
+            "Corrected Value": "97703",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1164,
+            "Column": "address",
+            "Original Value": "65940 OLD BEND REDMOND HWY",
+            "Corrected Value": "65940 OLD BEND REDMOND HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1193,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1193,
+            "Column": "address",
+            "Original Value": "12012 SW POWELL BUTTE HWY",
+            "Corrected Value": "12012 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1264,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1264,
+            "Column": "address",
+            "Original Value": "22025 HIGHWAY 20",
+            "Corrected Value": "22025 HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1274,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1274,
+            "Column": "address",
+            "Original Value": "9978 SW POWELL BUTTE HWY",
+            "Corrected Value": "9978 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1279,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1279,
+            "Column": "address",
+            "Original Value": "2461 SW SILVERGATE",
+            "Corrected Value": "2461 SW SILVERGATE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1308,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1308,
+            "Column": "address",
+            "Original Value": "956 PALM",
+            "Corrected Value": "956 SW PALM LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1380,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1380,
+            "Column": "address",
+            "Original Value": "3596 WILLIAMS HWY",
+            "Corrected Value": "3596 WILLIAMS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1389,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1389,
+            "Column": "address",
+            "Original Value": "14489 SW CULVER HWY",
+            "Corrected Value": "14489 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1403,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1403,
+            "Column": "address",
+            "Original Value": "2020 NW MADRAS HWY",
+            "Corrected Value": "2020 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1415,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1415,
+            "Column": "address",
+            "Original Value": "522 SCENIC LP",
+            "Corrected Value": "522 SCENIC LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1468,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1468,
+            "Column": "address",
+            "Original Value": "4307 SW HIGHWAY 97",
+            "Corrected Value": "4307 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1474,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1474,
+            "Column": "address",
+            "Original Value": "12797 N HWY 97",
+            "Corrected Value": "12797 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Original Value": "2660 SW CULVER HWY",
+            "Corrected Value": "2660 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1505,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1505,
+            "Column": "address",
+            "Original Value": "5900 W HIGHWAY 126",
+            "Corrected Value": "5900 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1506,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1506,
+            "Column": "address",
+            "Original Value": "10851 SW POWELL BUTTE HWY",
+            "Corrected Value": "10851 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1507,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1507,
+            "Column": "address",
+            "Original Value": "63132 POWELL BUTTE HWY",
+            "Corrected Value": "63132 POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1538,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1538,
+            "Column": "address",
+            "Original Value": "28040 S CROOKED RIVER HWY",
+            "Corrected Value": "28040 S CROOKED RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1560,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1560,
+            "Column": "address",
+            "Original Value": "15348 HIGHWAY 97",
+            "Corrected Value": "15348 HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1586,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1586,
+            "Column": "address",
+            "Original Value": "20101 NW ONEIL HWY",
+            "Corrected Value": "20101 NW ONEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1589,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1589,
+            "Column": "address",
+            "Original Value": "13432 SW HIGHWAY 126",
+            "Corrected Value": "13432 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1598,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1598,
+            "Column": "address",
+            "Original Value": "10913 SW POWELL BUTTE HWY",
+            "Corrected Value": "10913 SW POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1599,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1599,
+            "Column": "address",
+            "Original Value": "9610 SW CULVER HWY",
+            "Corrected Value": "9610 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1628,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1628,
+            "Column": "address",
+            "Original Value": "13167 SW HIGHWAY 126",
+            "Corrected Value": "13167 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1659,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1659,
+            "Column": "address",
+            "Original Value": "2321 SILVER GATE",
+            "Corrected Value": "2321 SILVER GATE",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1679,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1679,
+            "Column": "address",
+            "Original Value": "11152 SE HIGHWAY 26",
+            "Corrected Value": "11152 SE HIGHWAY 26",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1713,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1713,
+            "Column": "address",
+            "Original Value": "22370 HIGHWAY 20",
+            "Corrected Value": "22370 HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1727,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1727,
+            "Column": "address",
+            "Original Value": "17000 NW ONEIL HWY",
+            "Corrected Value": "17000 NW ONEIL HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1787,
+            "Column": "zip",
+            "Original Value": "97703",
+            "Corrected Value": "97703",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1787,
+            "Column": "address",
+            "Original Value": "18TH AND BRINSON",
+            "Corrected Value": "18 TH AND BRINSON",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1811,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1811,
+            "Column": "address",
+            "Original Value": "64155 N HIGHWAY 97",
+            "Corrected Value": "64155 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1819,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1819,
+            "Column": "address",
+            "Original Value": "23600 HIGHWAY 20",
+            "Corrected Value": "23600 HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1823,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1823,
+            "Column": "address",
+            "Original Value": "7001 ROGUE RIVER HWY",
+            "Corrected Value": "7001 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1831,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1831,
+            "Column": "address",
+            "Original Value": "12404 SW HIGHWAY 126",
+            "Corrected Value": "12404 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1854,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1854,
+            "Column": "address",
+            "Original Value": "7083 ROGUE RIVER HWY",
+            "Corrected Value": "7083 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1855,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1855,
+            "Column": "address",
+            "Original Value": "13410 SW HIGHWAY 126",
+            "Corrected Value": "13410 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1881,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1881,
+            "Column": "address",
+            "Original Value": "14111 SW HIGHWAY 126",
+            "Corrected Value": "14111 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1929,
+            "Column": "zip",
+            "Original Value": "97734",
+            "Corrected Value": "97734",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1929,
+            "Column": "address",
+            "Original Value": "7458 SW CULVER HWY",
+            "Corrected Value": "7458 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1972,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1972,
+            "Column": "address",
+            "Original Value": "63110 POWELL BUTTE HWY",
+            "Corrected Value": "63110 POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1992,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1992,
+            "Column": "address",
+            "Original Value": "218 REDWOOD HWY",
+            "Corrected Value": "218 REDWOOD HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1995,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1995,
+            "Column": "address",
+            "Original Value": "12340 SW HIGHWAY 126",
+            "Corrected Value": "12340 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1996,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1996,
+            "Column": "address",
+            "Original Value": "62855 POWELL BUTTE HWY",
+            "Corrected Value": "62855 POWELL BUTTE HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2012,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2012,
+            "Column": "address",
+            "Original Value": "15200 SW AQUATIC VW",
+            "Corrected Value": "15200 SW AQUATIC VW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2016,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2016,
+            "Column": "address",
+            "Original Value": "2424 NE MOUNTAIN WILLOW",
+            "Corrected Value": "2424 NE MOUNTAIN WILLOW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2037,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2037,
+            "Column": "address",
+            "Original Value": "1720 SW CULVER HWY",
+            "Corrected Value": "1720 SW CULVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2059,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2059,
+            "Column": "address",
+            "Original Value": "12003 NW MADRAS HWY",
+            "Corrected Value": "12003 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2062,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2062,
+            "Column": "address",
+            "Original Value": "1835 MEADOW GLN",
+            "Corrected Value": "1835 MEADOW GLN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2065,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2065,
+            "Column": "address",
+            "Original Value": "9885 W HIGHWAY 126",
+            "Corrected Value": "9885 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2067,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2067,
+            "Column": "address",
+            "Original Value": "63840 N HIGHWAY 97",
+            "Corrected Value": "63840 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2121,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2121,
+            "Column": "address",
+            "Original Value": "7915 W HIGHWAY 126",
+            "Corrected Value": "7915 W HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2144,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2144,
+            "Column": "address",
+            "Original Value": "2786 NW 23RD LP",
+            "Corrected Value": "2786 NW 23RD LOOP",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2162,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2162,
+            "Column": "address",
+            "Original Value": "8392 N HIGHWAY 97",
+            "Corrected Value": "8392 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2163,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2163,
+            "Column": "address",
+            "Original Value": "1275 ROGUE RIVER HWY",
+            "Corrected Value": "1275 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2201,
+            "Column": "zip",
+            "Original Value": "97701",
+            "Corrected Value": "97701",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2201,
+            "Column": "address",
+            "Original Value": "22380 HIGHWAY 20",
+            "Corrected Value": "22380 HIGHWAY 20",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2239,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2239,
+            "Column": "address",
+            "Original Value": "1707 N HIGHWAY 26",
+            "Corrected Value": "1707 N HIGHWAY 26",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2266,
+            "Column": "zip",
+            "Original Value": "97760",
+            "Corrected Value": "97760",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2266,
+            "Column": "address",
+            "Original Value": "7420 N HIGHWAY 97",
+            "Corrected Value": "7420 N HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2288,
+            "Column": "zip",
+            "Original Value": "97754",
+            "Corrected Value": "97754",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2288,
+            "Column": "address",
+            "Original Value": "1283 NW MADRAS HWY",
+            "Corrected Value": "1283 NW MADRAS HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2290,
+            "Column": "zip",
+            "Original Value": "97756",
+            "Corrected Value": "97756",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2290,
+            "Column": "address",
+            "Original Value": "2145 S HIGHWAY 97",
+            "Corrected Value": "2145 S HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2291,
+            "Column": "zip",
+            "Original Value": "97753",
+            "Corrected Value": "97753",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2291,
+            "Column": "address",
+            "Original Value": "12895 SW HIGHWAY 126",
+            "Corrected Value": "12895 SW HIGHWAY 126",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2301,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2301,
+            "Column": "address",
+            "Original Value": "12205 SE HWY 26 MILE POST 12",
+            "Corrected Value": "12205 SE HIGHWAY 26",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2303,
+            "Column": "zip",
+            "Original Value": "97527",
+            "Corrected Value": "97527",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2303,
+            "Column": "address",
+            "Original Value": "3381 ROGUE RIVER HWY",
+            "Corrected Value": "3381 ROGUE RIVER HWY",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2307,
+            "Column": "zip",
+            "Original Value": "97741",
+            "Corrected Value": "97741",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 2307,
+            "Column": "address",
+            "Original Value": "3457 US-97",
+            "Corrected Value": "3457 SW HIGHWAY 97",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [],
+    "Street Ending Errors": [
+        {
+            "Row": 62,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9005 SW HIGHWAY 97"
+        },
+        {
+            "Row": 76,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5070 SE PAULINA HWY"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "515315 MADRAS HWY"
+        },
+        {
+            "Row": 120,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10899 POWELL BUTTE HWY"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12450 NW MADRAS HWY"
+        },
+        {
+            "Row": 130,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "750 NW REDWOOD"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20797 NW ONEIL HWY"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20799 NW ONEIL HWY"
+        },
+        {
+            "Row": 167,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12775 SW HIGHWAY 126"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "64282 N HIGHWAY 97"
+        },
+        {
+            "Row": 190,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9427 NW PANORAMA VIEW"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5200 SE MOKI"
+        },
+        {
+            "Row": 215,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9415 S HIGHWAY 97"
+        },
+        {
+            "Row": 218,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4820 SE PAULINA HWY"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5549 NW LONE PINE"
+        },
+        {
+            "Row": 250,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15777 SW MAJESTIC VW"
+        },
+        {
+            "Row": 255,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7915 W HIGHWAY 126"
+        },
+        {
+            "Row": 262,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7915 W HIGHWAY 126"
+        },
+        {
+            "Row": 281,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15352 SW HIGHWAY 97"
+        },
+        {
+            "Row": 295,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12500 NW MADRAS HWY"
+        },
+        {
+            "Row": 299,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "64280 N HIGHWAY 97"
+        },
+        {
+            "Row": 312,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2146 SE MYRTLEWOOD"
+        },
+        {
+            "Row": 335,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5288 SW QUAIL"
+        },
+        {
+            "Row": 341,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7458 SW CULVER HWY"
+        },
+        {
+            "Row": 343,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12518 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "16489 SW CULVER HWY"
+        },
+        {
+            "Row": 385,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7190 N HIGHWAY 97"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8297 W HIGHWAY 126"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7280 SW HIGHWAY 97"
+        },
+        {
+            "Row": 458,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4010 S ADAMS"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1608 SW CULVER HWY"
+        },
+        {
+            "Row": 460,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9420 NW PANORAMA VW"
+        },
+        {
+            "Row": 466,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4009 NE HWY 97"
+        },
+        {
+            "Row": 472,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10862 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7636 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15348 HIGHWAY 97"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6909 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6061 NW O NEIL HWY"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5549 NW LONE PINE"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14419 SW HIGHWAY 97"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10002 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 657,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13604 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 738,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6105 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "555 NE NEGUS LP"
+        },
+        {
+            "Row": 799,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3902 NW O NEIL HWY"
+        },
+        {
+            "Row": 852,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1400 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 885,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1532 SE MYRTLEWOOD"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17000 NW ONEIL HWY"
+        },
+        {
+            "Row": 900,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "62765 POWELL BUTTE HWY"
+        },
+        {
+            "Row": 911,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15345 SW CULVER HWY"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2289 SW SILVERGATE"
+        },
+        {
+            "Row": 945,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11075 SE HIGHWAY 26"
+        },
+        {
+            "Row": 947,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15400 SW AQUATIC VW"
+        },
+        {
+            "Row": 949,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3457 NW HWY 97"
+        },
+        {
+            "Row": 969,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12797 N HWY 97"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3791 N HIGHWAY 97"
+        },
+        {
+            "Row": 1024,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2251 NW MADRAS HWY"
+        },
+        {
+            "Row": 1050,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6100 S HWY 97"
+        },
+        {
+            "Row": 1075,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9438 NW PANORAMA VW"
+        },
+        {
+            "Row": 1079,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6418 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 1090,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8590 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 1149,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5549 NW LONE PINE"
+        },
+        {
+            "Row": 1156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6905 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 1164,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "65940 OLD BEND REDMOND HWY"
+        },
+        {
+            "Row": 1193,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12012 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1264,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22025 HIGHWAY 20"
+        },
+        {
+            "Row": 1274,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9978 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1279,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2461 SW SILVERGATE"
+        },
+        {
+            "Row": 1308,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "956 PALM"
+        },
+        {
+            "Row": 1380,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3596 WILLIAMS HWY"
+        },
+        {
+            "Row": 1389,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14489 SW CULVER HWY"
+        },
+        {
+            "Row": 1403,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2020 NW MADRAS HWY"
+        },
+        {
+            "Row": 1415,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "522 SCENIC LP"
+        },
+        {
+            "Row": 1468,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4307 SW HIGHWAY 97"
+        },
+        {
+            "Row": 1474,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12797 N HWY 97"
+        },
+        {
+            "Row": 1489,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2660 SW CULVER HWY"
+        },
+        {
+            "Row": 1505,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5900 W HIGHWAY 126"
+        },
+        {
+            "Row": 1506,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10851 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1507,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "63132 POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1538,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "28040 S CROOKED RIVER HWY"
+        },
+        {
+            "Row": 1560,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15348 HIGHWAY 97"
+        },
+        {
+            "Row": 1586,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20101 NW ONEIL HWY"
+        },
+        {
+            "Row": 1589,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13432 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1598,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10913 SW POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1599,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9610 SW CULVER HWY"
+        },
+        {
+            "Row": 1628,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13167 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1659,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2321 SILVER GATE"
+        },
+        {
+            "Row": 1679,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11152 SE HIGHWAY 26"
+        },
+        {
+            "Row": 1713,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22370 HIGHWAY 20"
+        },
+        {
+            "Row": 1727,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "17000 NW ONEIL HWY"
+        },
+        {
+            "Row": 1787,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "18TH AND BRINSON"
+        },
+        {
+            "Row": 1811,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "64155 N HIGHWAY 97"
+        },
+        {
+            "Row": 1819,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "23600 HIGHWAY 20"
+        },
+        {
+            "Row": 1823,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7001 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 1831,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12404 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1854,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7083 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 1855,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13410 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1881,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14111 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1929,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7458 SW CULVER HWY"
+        },
+        {
+            "Row": 1972,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "63110 POWELL BUTTE HWY"
+        },
+        {
+            "Row": 1992,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "218 REDWOOD HWY"
+        },
+        {
+            "Row": 1995,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12340 SW HIGHWAY 126"
+        },
+        {
+            "Row": 1996,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "62855 POWELL BUTTE HWY"
+        },
+        {
+            "Row": 2012,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "15200 SW AQUATIC VW"
+        },
+        {
+            "Row": 2016,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2424 NE MOUNTAIN WILLOW"
+        },
+        {
+            "Row": 2037,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1720 SW CULVER HWY"
+        },
+        {
+            "Row": 2059,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12003 NW MADRAS HWY"
+        },
+        {
+            "Row": 2062,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1835 MEADOW GLN"
+        },
+        {
+            "Row": 2065,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9885 W HIGHWAY 126"
+        },
+        {
+            "Row": 2067,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "63840 N HIGHWAY 97"
+        },
+        {
+            "Row": 2121,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7915 W HIGHWAY 126"
+        },
+        {
+            "Row": 2144,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2786 NW 23RD LP"
+        },
+        {
+            "Row": 2162,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8392 N HIGHWAY 97"
+        },
+        {
+            "Row": 2163,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1275 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 2201,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "22380 HIGHWAY 20"
+        },
+        {
+            "Row": 2239,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1707 N HIGHWAY 26"
+        },
+        {
+            "Row": 2266,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7420 N HIGHWAY 97"
+        },
+        {
+            "Row": 2288,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1283 NW MADRAS HWY"
+        },
+        {
+            "Row": 2290,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2145 S HIGHWAY 97"
+        },
+        {
+            "Row": 2291,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12895 SW HIGHWAY 126"
+        },
+        {
+            "Row": 2301,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12205 SE HWY 26 MILE POST 12"
+        },
+        {
+            "Row": 2303,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3381 ROGUE RIVER HWY"
+        },
+        {
+            "Row": 2307,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3457 US97"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 62,
+            "Original Address": "9005 SW HIGHWAY 97",
+            "Corrected Address": "9005 SW HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:16:59.592659"
+        },
+        {
+            "OrigRowNum": 76,
+            "Original Address": "5070 SE PAULINA HWY",
+            "Corrected Address": "5070 SE PAULINA HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:16:59.741736"
+        },
+        {
+            "OrigRowNum": 97,
+            "Original Address": "515315 MADRAS HWY",
+            "Corrected Address": "515315 MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:16:59.892720"
+        },
+        {
+            "OrigRowNum": 120,
+            "Original Address": "10899 POWELL BUTTE HWY",
+            "Corrected Address": "10899 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.046302"
+        },
+        {
+            "OrigRowNum": 124,
+            "Original Address": "12450 NW MADRAS HWY",
+            "Corrected Address": "12450 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.193919"
+        },
+        {
+            "OrigRowNum": 130,
+            "Original Address": "750 NW REDWOOD",
+            "Corrected Address": "750 SW REDWOOD LN",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.350262"
+        },
+        {
+            "OrigRowNum": 137,
+            "Original Address": "20797 NW ONEIL HWY",
+            "Corrected Address": "20797 NW ONEIL HWY",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.492893"
+        },
+        {
+            "OrigRowNum": 144,
+            "Original Address": "20799 NW ONEIL HWY",
+            "Corrected Address": "20799 NW ONEIL HWY",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.641248"
+        },
+        {
+            "OrigRowNum": 167,
+            "Original Address": "12775 SW HIGHWAY 126",
+            "Corrected Address": "12775 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.790418"
+        },
+        {
+            "OrigRowNum": 189,
+            "Original Address": "64282 N HIGHWAY 97",
+            "Corrected Address": "64282 N HIGHWAY 97",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:00.940215"
+        },
+        {
+            "OrigRowNum": 190,
+            "Original Address": "9427 NW PANORAMA VIEW",
+            "Corrected Address": "9427 NW PANORAMA VW",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.095805"
+        },
+        {
+            "OrigRowNum": 193,
+            "Original Address": "5200 SE MOKI",
+            "Corrected Address": "5200 SE MOKI RD",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.246538"
+        },
+        {
+            "OrigRowNum": 215,
+            "Original Address": "9415 S HIGHWAY 97",
+            "Corrected Address": "9415 S HIGHWAY 97",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.395590"
+        },
+        {
+            "OrigRowNum": 218,
+            "Original Address": "4820 SE PAULINA HWY",
+            "Corrected Address": "4820 SE PAULINA HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.542019"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "5549 NW LONE PINE",
+            "Corrected Address": "5549 NW LONE PINE RD",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.720510"
+        },
+        {
+            "OrigRowNum": 250,
+            "Original Address": "15777 SW MAJESTIC VW",
+            "Corrected Address": "15777 SW MAJESTIC VIEW LN",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:01.897453"
+        },
+        {
+            "OrigRowNum": 255,
+            "Original Address": "7915 W HIGHWAY 126",
+            "Corrected Address": "7915 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:02.082118"
+        },
+        {
+            "OrigRowNum": 262,
+            "Original Address": "7915 W HIGHWAY 126",
+            "Corrected Address": "7915 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:02.265646"
+        },
+        {
+            "OrigRowNum": 281,
+            "Original Address": "15352 SW HIGHWAY 97",
+            "Corrected Address": "15352 SW HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:02.439924"
+        },
+        {
+            "OrigRowNum": 295,
+            "Original Address": "12500 NW MADRAS HWY",
+            "Corrected Address": "12500 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:02.616749"
+        },
+        {
+            "OrigRowNum": 299,
+            "Original Address": "64280 N HIGHWAY 97",
+            "Corrected Address": "64280 N HIGHWAY 97",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:02.825148"
+        },
+        {
+            "OrigRowNum": 312,
+            "Original Address": "2146 SE MYRTLEWOOD",
+            "Corrected Address": "2146 SE MYRTLEWOOD LN",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:03.035233"
+        },
+        {
+            "OrigRowNum": 335,
+            "Original Address": "5288 SW QUAIL",
+            "Corrected Address": "5288 SW QUAIL",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:03.244742"
+        },
+        {
+            "OrigRowNum": 341,
+            "Original Address": "7458 SW CULVER HWY",
+            "Corrected Address": "7458 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:03.456748"
+        },
+        {
+            "OrigRowNum": 343,
+            "Original Address": "12518 SW POWELL BUTTE HWY",
+            "Corrected Address": "12518 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:03.669774"
+        },
+        {
+            "OrigRowNum": 348,
+            "Original Address": "16489 SW CULVER HWY",
+            "Corrected Address": "16489 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:03.879698"
+        },
+        {
+            "OrigRowNum": 385,
+            "Original Address": "7190 N HIGHWAY 97",
+            "Corrected Address": "7190 N HIGHWAY 97",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:04.090102"
+        },
+        {
+            "OrigRowNum": 394,
+            "Original Address": "8297 W HIGHWAY 126",
+            "Corrected Address": "8297 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:04.299498"
+        },
+        {
+            "OrigRowNum": 408,
+            "Original Address": "7280 SW HIGHWAY 97",
+            "Corrected Address": "7280 SW HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:04.514071"
+        },
+        {
+            "OrigRowNum": 458,
+            "Original Address": "4010 S ADAMS",
+            "Corrected Address": "4010 S ADAMS DR",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:04.725150"
+        },
+        {
+            "OrigRowNum": 459,
+            "Original Address": "1608 SW CULVER HWY",
+            "Corrected Address": "1608 SW CULVER HWY",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:04.902376"
+        },
+        {
+            "OrigRowNum": 460,
+            "Original Address": "9420 NW PANORAMA VW",
+            "Corrected Address": "9420 NW PANORAMA VW",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.080882"
+        },
+        {
+            "OrigRowNum": 466,
+            "Original Address": "4009 NE HWY 97",
+            "Corrected Address": "4009 SW HIGHWAY 97",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.256575"
+        },
+        {
+            "OrigRowNum": 472,
+            "Original Address": "10862 SW POWELL BUTTE HWY",
+            "Corrected Address": "10862 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.445141"
+        },
+        {
+            "OrigRowNum": 552,
+            "Original Address": "7636 SW POWELL BUTTE HWY",
+            "Corrected Address": "7636 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.628808"
+        },
+        {
+            "OrigRowNum": 558,
+            "Original Address": "15348 HIGHWAY 97",
+            "Corrected Address": "15348 HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.814880"
+        },
+        {
+            "OrigRowNum": 580,
+            "Original Address": "6909 SW POWELL BUTTE HWY",
+            "Corrected Address": "6909 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:05.994826"
+        },
+        {
+            "OrigRowNum": 596,
+            "Original Address": "6061 NW O NEIL HWY",
+            "Corrected Address": "6061 NW O NEIL HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:06.177811"
+        },
+        {
+            "OrigRowNum": 605,
+            "Original Address": "5549 NW LONE PINE",
+            "Corrected Address": "5549 NW LONE PINE RD",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:06.357583"
+        },
+        {
+            "OrigRowNum": 613,
+            "Original Address": "14419 SW HIGHWAY 97",
+            "Corrected Address": "14419 SW HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:06.531397"
+        },
+        {
+            "OrigRowNum": 628,
+            "Original Address": "10002 SW POWELL BUTTE HWY",
+            "Corrected Address": "10002 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:06.712705"
+        },
+        {
+            "OrigRowNum": 657,
+            "Original Address": "13604 SW POWELL BUTTE HWY",
+            "Corrected Address": "13604 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:06.883839"
+        },
+        {
+            "OrigRowNum": 738,
+            "Original Address": "6105 SW POWELL BUTTE HWY",
+            "Corrected Address": "6105 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:07.088481"
+        },
+        {
+            "OrigRowNum": 784,
+            "Original Address": "555 NE NEGUS LP",
+            "Corrected Address": "555 NE NEGUS LOOP",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:07.294493"
+        },
+        {
+            "OrigRowNum": 799,
+            "Original Address": "3902 NW O NEIL HWY",
+            "Corrected Address": "3902 NW O NEIL HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:07.508650"
+        },
+        {
+            "OrigRowNum": 852,
+            "Original Address": "1400 ROGUE RIVER HWY",
+            "Corrected Address": "1400 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:07.716148"
+        },
+        {
+            "OrigRowNum": 885,
+            "Original Address": "1532 SE MYRTLEWOOD",
+            "Corrected Address": "1532 SW MYRTLEWOOD LN",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:07.924167"
+        },
+        {
+            "OrigRowNum": 891,
+            "Original Address": "17000 NW ONEIL HWY",
+            "Corrected Address": "17000 NW ONEIL HWY",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.073735"
+        },
+        {
+            "OrigRowNum": 900,
+            "Original Address": "62765 POWELL BUTTE HWY",
+            "Corrected Address": "62765 POWELL BUTTE HWY",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.217479"
+        },
+        {
+            "OrigRowNum": 911,
+            "Original Address": "15345 SW CULVER HWY",
+            "Corrected Address": "15345 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.368586"
+        },
+        {
+            "OrigRowNum": 929,
+            "Original Address": "2289 SW SILVERGATE",
+            "Corrected Address": "2289 SW SILVERGATE",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.512733"
+        },
+        {
+            "OrigRowNum": 945,
+            "Original Address": "11075 SE HIGHWAY 26",
+            "Corrected Address": "11075 SE HIGHWAY 26",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.663243"
+        },
+        {
+            "OrigRowNum": 947,
+            "Original Address": "15400 SW AQUATIC VW",
+            "Corrected Address": "15400 SW AQUATIC VW",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.810701"
+        },
+        {
+            "OrigRowNum": 949,
+            "Original Address": "3457 NW HWY 97",
+            "Corrected Address": "3457 SW HIGHWAY 97",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:08.955114"
+        },
+        {
+            "OrigRowNum": 969,
+            "Original Address": "12797 N HWY 97",
+            "Corrected Address": "12797 N HIGHWAY 97",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.107656"
+        },
+        {
+            "OrigRowNum": 975,
+            "Original Address": "3791 N HIGHWAY 97",
+            "Corrected Address": "3791 N HIGHWAY 97",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.264922"
+        },
+        {
+            "OrigRowNum": 1024,
+            "Original Address": "2251 NW MADRAS HWY",
+            "Corrected Address": "2251 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.406044"
+        },
+        {
+            "OrigRowNum": 1050,
+            "Original Address": "6100 S HWY 97",
+            "Corrected Address": "6100 S HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.557382"
+        },
+        {
+            "OrigRowNum": 1075,
+            "Original Address": "9438 NW PANORAMA VW",
+            "Corrected Address": "9438 NW PANORAMA VW",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.702209"
+        },
+        {
+            "OrigRowNum": 1079,
+            "Original Address": "6418 ROGUE RIVER HWY",
+            "Corrected Address": "6418 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:09.858125"
+        },
+        {
+            "OrigRowNum": 1090,
+            "Original Address": "8590 ROGUE RIVER HWY",
+            "Corrected Address": "8590 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.010893"
+        },
+        {
+            "OrigRowNum": 1149,
+            "Original Address": "5549 NW LONE PINE",
+            "Corrected Address": "5549 NW LONE PINE RD",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.160492"
+        },
+        {
+            "OrigRowNum": 1156,
+            "Original Address": "6905 ROGUE RIVER HWY",
+            "Corrected Address": "6905 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.312072"
+        },
+        {
+            "OrigRowNum": 1164,
+            "Original Address": "65940 OLD BEND REDMOND HWY",
+            "Corrected Address": "65940 OLD BEND REDMOND HWY",
+            "Original ZIP": "97703",
+            "Corrected ZIP": "97703",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.456116"
+        },
+        {
+            "OrigRowNum": 1193,
+            "Original Address": "12012 SW POWELL BUTTE HWY",
+            "Corrected Address": "12012 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.607029"
+        },
+        {
+            "OrigRowNum": 1264,
+            "Original Address": "22025 HIGHWAY 20",
+            "Corrected Address": "22025 HIGHWAY 20",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.754065"
+        },
+        {
+            "OrigRowNum": 1274,
+            "Original Address": "9978 SW POWELL BUTTE HWY",
+            "Corrected Address": "9978 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:10.906541"
+        },
+        {
+            "OrigRowNum": 1279,
+            "Original Address": "2461 SW SILVERGATE",
+            "Corrected Address": "2461 SW SILVERGATE",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.066027"
+        },
+        {
+            "OrigRowNum": 1308,
+            "Original Address": "956 PALM",
+            "Corrected Address": "956 SW PALM LN",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.215101"
+        },
+        {
+            "OrigRowNum": 1380,
+            "Original Address": "3596 WILLIAMS HWY",
+            "Corrected Address": "3596 WILLIAMS HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.362225"
+        },
+        {
+            "OrigRowNum": 1389,
+            "Original Address": "14489 SW CULVER HWY",
+            "Corrected Address": "14489 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.509993"
+        },
+        {
+            "OrigRowNum": 1403,
+            "Original Address": "2020 NW MADRAS HWY",
+            "Corrected Address": "2020 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.659288"
+        },
+        {
+            "OrigRowNum": 1415,
+            "Original Address": "522 SCENIC LP",
+            "Corrected Address": "522 SCENIC LOOP",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.802437"
+        },
+        {
+            "OrigRowNum": 1468,
+            "Original Address": "4307 SW HIGHWAY 97",
+            "Corrected Address": "4307 SW HIGHWAY 97",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:11.952126"
+        },
+        {
+            "OrigRowNum": 1474,
+            "Original Address": "12797 N HWY 97",
+            "Corrected Address": "12797 N HIGHWAY 97",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.101144"
+        },
+        {
+            "OrigRowNum": 1489,
+            "Original Address": "2660 SW CULVER HWY",
+            "Corrected Address": "2660 SW CULVER HWY",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.251383"
+        },
+        {
+            "OrigRowNum": 1505,
+            "Original Address": "5900 W HIGHWAY 126",
+            "Corrected Address": "5900 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.400469"
+        },
+        {
+            "OrigRowNum": 1506,
+            "Original Address": "10851 SW POWELL BUTTE HWY",
+            "Corrected Address": "10851 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.550105"
+        },
+        {
+            "OrigRowNum": 1507,
+            "Original Address": "63132 POWELL BUTTE HWY",
+            "Corrected Address": "63132 POWELL BUTTE HWY",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.695360"
+        },
+        {
+            "OrigRowNum": 1538,
+            "Original Address": "28040 S CROOKED RIVER HWY",
+            "Corrected Address": "28040 S CROOKED RIVER HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:12.846630"
+        },
+        {
+            "OrigRowNum": 1560,
+            "Original Address": "15348 HIGHWAY 97",
+            "Corrected Address": "15348 HIGHWAY 97",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.014202"
+        },
+        {
+            "OrigRowNum": 1586,
+            "Original Address": "20101 NW ONEIL HWY",
+            "Corrected Address": "20101 NW ONEIL HWY",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.163424"
+        },
+        {
+            "OrigRowNum": 1589,
+            "Original Address": "13432 SW HIGHWAY 126",
+            "Corrected Address": "13432 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.329144"
+        },
+        {
+            "OrigRowNum": 1598,
+            "Original Address": "10913 SW POWELL BUTTE HWY",
+            "Corrected Address": "10913 SW POWELL BUTTE HWY",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.483234"
+        },
+        {
+            "OrigRowNum": 1599,
+            "Original Address": "9610 SW CULVER HWY",
+            "Corrected Address": "9610 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.634746"
+        },
+        {
+            "OrigRowNum": 1628,
+            "Original Address": "13167 SW HIGHWAY 126",
+            "Corrected Address": "13167 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.784194"
+        },
+        {
+            "OrigRowNum": 1659,
+            "Original Address": "2321 SILVER GATE",
+            "Corrected Address": "2321 SILVER GATE",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:13.939408"
+        },
+        {
+            "OrigRowNum": 1679,
+            "Original Address": "11152 SE HIGHWAY 26",
+            "Corrected Address": "11152 SE HIGHWAY 26",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.091433"
+        },
+        {
+            "OrigRowNum": 1713,
+            "Original Address": "22370 HIGHWAY 20",
+            "Corrected Address": "22370 HIGHWAY 20",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.235165"
+        },
+        {
+            "OrigRowNum": 1727,
+            "Original Address": "17000 NW ONEIL HWY",
+            "Corrected Address": "17000 NW ONEIL HWY",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.380230"
+        },
+        {
+            "OrigRowNum": 1787,
+            "Original Address": "18TH AND BRINSON",
+            "Corrected Address": "18 TH AND BRINSON",
+            "Original ZIP": "97703",
+            "Corrected ZIP": "97703",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.526333"
+        },
+        {
+            "OrigRowNum": 1811,
+            "Original Address": "64155 N HIGHWAY 97",
+            "Corrected Address": "64155 N HIGHWAY 97",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.687415"
+        },
+        {
+            "OrigRowNum": 1819,
+            "Original Address": "23600 HIGHWAY 20",
+            "Corrected Address": "23600 HIGHWAY 20",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.843080"
+        },
+        {
+            "OrigRowNum": 1823,
+            "Original Address": "7001 ROGUE RIVER HWY",
+            "Corrected Address": "7001 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:14.992943"
+        },
+        {
+            "OrigRowNum": 1831,
+            "Original Address": "12404 SW HIGHWAY 126",
+            "Corrected Address": "12404 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.143932"
+        },
+        {
+            "OrigRowNum": 1854,
+            "Original Address": "7083 ROGUE RIVER HWY",
+            "Corrected Address": "7083 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.293753"
+        },
+        {
+            "OrigRowNum": 1855,
+            "Original Address": "13410 SW HIGHWAY 126",
+            "Corrected Address": "13410 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.443489"
+        },
+        {
+            "OrigRowNum": 1881,
+            "Original Address": "14111 SW HIGHWAY 126",
+            "Corrected Address": "14111 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.594757"
+        },
+        {
+            "OrigRowNum": 1929,
+            "Original Address": "7458 SW CULVER HWY",
+            "Corrected Address": "7458 SW CULVER HWY",
+            "Original ZIP": "97734",
+            "Corrected ZIP": "97734",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.736481"
+        },
+        {
+            "OrigRowNum": 1972,
+            "Original Address": "63110 POWELL BUTTE HWY",
+            "Corrected Address": "63110 POWELL BUTTE HWY",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:15.884494"
+        },
+        {
+            "OrigRowNum": 1992,
+            "Original Address": "218 REDWOOD HWY",
+            "Corrected Address": "218 REDWOOD HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.031988"
+        },
+        {
+            "OrigRowNum": 1995,
+            "Original Address": "12340 SW HIGHWAY 126",
+            "Corrected Address": "12340 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.176621"
+        },
+        {
+            "OrigRowNum": 1996,
+            "Original Address": "62855 POWELL BUTTE HWY",
+            "Corrected Address": "62855 POWELL BUTTE HWY",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.342860"
+        },
+        {
+            "OrigRowNum": 2012,
+            "Original Address": "15200 SW AQUATIC VW",
+            "Corrected Address": "15200 SW AQUATIC VW",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.490771"
+        },
+        {
+            "OrigRowNum": 2016,
+            "Original Address": "2424 NE MOUNTAIN WILLOW",
+            "Corrected Address": "2424 NE MOUNTAIN WILLOW",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.643321"
+        },
+        {
+            "OrigRowNum": 2037,
+            "Original Address": "1720 SW CULVER HWY",
+            "Corrected Address": "1720 SW CULVER HWY",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.798307"
+        },
+        {
+            "OrigRowNum": 2059,
+            "Original Address": "12003 NW MADRAS HWY",
+            "Corrected Address": "12003 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:16.952483"
+        },
+        {
+            "OrigRowNum": 2062,
+            "Original Address": "1835 MEADOW GLN",
+            "Corrected Address": "1835 MEADOW GLN",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.100087"
+        },
+        {
+            "OrigRowNum": 2065,
+            "Original Address": "9885 W HIGHWAY 126",
+            "Corrected Address": "9885 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.248080"
+        },
+        {
+            "OrigRowNum": 2067,
+            "Original Address": "63840 N HIGHWAY 97",
+            "Corrected Address": "63840 N HIGHWAY 97",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.396619"
+        },
+        {
+            "OrigRowNum": 2121,
+            "Original Address": "7915 W HIGHWAY 126",
+            "Corrected Address": "7915 W HIGHWAY 126",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.551030"
+        },
+        {
+            "OrigRowNum": 2144,
+            "Original Address": "2786 NW 23RD LP",
+            "Corrected Address": "2786 NW 23RD LOOP",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.702275"
+        },
+        {
+            "OrigRowNum": 2162,
+            "Original Address": "8392 N HIGHWAY 97",
+            "Corrected Address": "8392 N HIGHWAY 97",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.845748"
+        },
+        {
+            "OrigRowNum": 2163,
+            "Original Address": "1275 ROGUE RIVER HWY",
+            "Corrected Address": "1275 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:17.994476"
+        },
+        {
+            "OrigRowNum": 2201,
+            "Original Address": "22380 HIGHWAY 20",
+            "Corrected Address": "22380 HIGHWAY 20",
+            "Original ZIP": "97701",
+            "Corrected ZIP": "97701",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.143002"
+        },
+        {
+            "OrigRowNum": 2239,
+            "Original Address": "1707 N HIGHWAY 26",
+            "Corrected Address": "1707 N HIGHWAY 26",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.288664"
+        },
+        {
+            "OrigRowNum": 2266,
+            "Original Address": "7420 N HIGHWAY 97",
+            "Corrected Address": "7420 N HIGHWAY 97",
+            "Original ZIP": "97760",
+            "Corrected ZIP": "97760",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.437411"
+        },
+        {
+            "OrigRowNum": 2288,
+            "Original Address": "1283 NW MADRAS HWY",
+            "Corrected Address": "1283 NW MADRAS HWY",
+            "Original ZIP": "97754",
+            "Corrected ZIP": "97754",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.586284"
+        },
+        {
+            "OrigRowNum": 2290,
+            "Original Address": "2145 S HIGHWAY 97",
+            "Corrected Address": "2145 S HIGHWAY 97",
+            "Original ZIP": "97756",
+            "Corrected ZIP": "97756",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.739314"
+        },
+        {
+            "OrigRowNum": 2291,
+            "Original Address": "12895 SW HIGHWAY 126",
+            "Corrected Address": "12895 SW HIGHWAY 126",
+            "Original ZIP": "97753",
+            "Corrected ZIP": "97753",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:18.882978"
+        },
+        {
+            "OrigRowNum": 2301,
+            "Original Address": "12205 SE HWY 26 MILE POST 12",
+            "Corrected Address": "12205 SE HIGHWAY 26",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:19.031623"
+        },
+        {
+            "OrigRowNum": 2303,
+            "Original Address": "3381 ROGUE RIVER HWY",
+            "Corrected Address": "3381 ROGUE RIVER HWY",
+            "Original ZIP": "97527",
+            "Corrected ZIP": "97527",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:19.193477"
+        },
+        {
+            "OrigRowNum": 2307,
+            "Original Address": "3457 US-97",
+            "Corrected Address": "3457 SW HIGHWAY 97",
+            "Original ZIP": "97741",
+            "Corrected ZIP": "97741",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-07-20T07:17:19.352840"
+        }
+    ]
+}

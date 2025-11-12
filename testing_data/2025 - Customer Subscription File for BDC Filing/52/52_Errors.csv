@@ -1,0 +1,25 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+5,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SPENCER FARMS
+26,address,PO Boxes not allowed,PO BOX 392
+48,address,PO Boxes not allowed,PO BOX 139
+139,address,Address lacks leading number (optionally prefixed by direction) followed by street name,COMMERCE DR
+176,address,PO Boxes not allowed,PO BOX 53
+202,address,Invalid street name format before street ending,62A W TAYLOR AVE
+212,address,Invalid street name format before street ending,10320E S 00 N
+216,address,PO Boxes not allowed,PO BOX 107
+227,address,PO Boxes not allowed,PO BOX 156
+270,address,PO Boxes not allowed,PO BOX 8
+410,address,PO Boxes not allowed,PO BOX 152
+495,address,Invalid street name format before street ending,9061E 900 S
+518,address,Invalid street name format before street ending,0311S 900 E
+569,address,Invalid street name format before street ending,10200S 1000 E
+575,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TAYLOR BOOK STORE
+156,city,Required field: City cannot be empty,
+370,city,Required field: City cannot be empty,
+156,zip,Required field: Zip cannot be empty,
+370,zip,Required field: Zip cannot be empty,
+482,zip,Required field: Zip cannot be empty,
+30,zip,Invalid ZIP code format,466933
+402,customer,"Data-based duplicate, removed (identical to customer 5534)",4952
+30,zip,Invalid ZIP code,466933

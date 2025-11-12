@@ -1,0 +1,1412 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1743,
+        "Rows with Corrections": 141,
+        "Rows with Errors": 23,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 4,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 142,
+        "Total Errors": 24,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.9,
+        "Validation Date": "2025-08-14 08:45:28",
+        "Addresses Sent to Smarty": 1,
+        "Successful Corrections": 1,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.3,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1739,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1739,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "18046 Co Rd 126",
+            "Corrected Value": "18046 CO RD 126",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 500,
+            "Column": "address",
+            "Original Value": "485 Conifer Dr",
+            "Corrected Value": "485 CONIFER DR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Original Value": "21920 Rinconada Rd",
+            "Corrected Value": "21920 RINCONADA RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Original Value": "19413 N Turkey Creek Rd Morrison CO 80465 USA",
+            "Corrected Value": "19413 N TURKEY CREEK RD MORRISON CO 80465 USA",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 775,
+            "Column": "address",
+            "Original Value": "6842 Starlight Dr",
+            "Corrected Value": "6842 STARLIGHT DR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Original Value": "8433 Quartz Trail",
+            "Corrected Value": "8433 QUARTZ TRAIL",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 999,
+            "Column": "address",
+            "Original Value": "600 S Ridge Rd",
+            "Corrected Value": "600 S RIDGE RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1008,
+            "Column": "address",
+            "Original Value": "85 Victoria Road",
+            "Corrected Value": "85 VICTORIA ROAD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1010,
+            "Column": "address",
+            "Original Value": "20041 Maxwell Dr",
+            "Corrected Value": "20041 MAXWELL DR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1088,
+            "Column": "address",
+            "Original Value": "6781 S Valley Cir",
+            "Corrected Value": "6781 S VALLEY CIR",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1167,
+            "Column": "address",
+            "Original Value": "316 Mt Evans Blvd hyk",
+            "Corrected Value": "316 MT EVANS BLVD HYK",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1174,
+            "Column": "address",
+            "Original Value": "13208 Elsie Rd",
+            "Corrected Value": "13208 ELSIE RD",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "16039 OURAY ROAD EAST",
+            "Corrected Value": "16039 OURAY ROAD E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "30251 KINGS VALLEY EAST",
+            "Corrected Value": "30251 KINGS VALLEY E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "16675 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "16675 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "12668 SOUTH GREEN AVENUE",
+            "Corrected Value": "12668 S GREEN AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Original Value": "15602 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "15602 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 114,
+            "Column": "address",
+            "Original Value": "15463 SOUTH WANDCREST DRIVE",
+            "Corrected Value": "15463 S WANDCREST DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "16915 SOUTH 6TH STREET",
+            "Corrected Value": "16915 S 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "16704 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "16704 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 123,
+            "Column": "address",
+            "Original Value": "30191 KINGS VALLEY EAST",
+            "Corrected Value": "30191 KINGS VALLEY E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "164 SKI RD EAST",
+            "Corrected Value": "164 SKI RD E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 173,
+            "Column": "address",
+            "Original Value": "8006 SOUTH DEER CREEK CANYON ROAD",
+            "Corrected Value": "8006 S DEER CREEK CANYON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "16874 SOUTH 7TH STREET",
+            "Corrected Value": "16874 S 7TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "16556 OURAY ROAD WEST",
+            "Corrected Value": "16556 OURAY ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 198,
+            "Column": "address",
+            "Original Value": "16855 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "16855 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Original Value": "12213 SOUTH MAXWELL HILL ROAD",
+            "Corrected Value": "12213 S MAXWELL HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "16596 OURAY ROAD WEST",
+            "Corrected Value": "16596 OURAY ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "28380 SOUTH RIVER ROAD",
+            "Corrected Value": "28380 S RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "16537 OURAY ROAD WEST",
+            "Corrected Value": "16537 OURAY ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Original Value": "15131 SOUTH LAUSANNE CIRCLE",
+            "Corrected Value": "15131 S LAUSANNE CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Original Value": "66 WEST RANCH TRAIL",
+            "Corrected Value": "66 W RANCH TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 269,
+            "Column": "address",
+            "Original Value": "71 SOUTH JONES CREEK LANE",
+            "Corrected Value": "71 S JONES CREEK LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 296,
+            "Column": "address",
+            "Original Value": "9277 SOUTH DEER CREEK CANYON ROAD",
+            "Corrected Value": "9277 S DEER CREEK CANYON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 297,
+            "Column": "address",
+            "Original Value": "11133 SOUTH BARNEY GULCH ROAD",
+            "Corrected Value": "11133 S BARNEY GULCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Original Value": "8485 SOUTH DOUBLEHEADER RANCH ROAD",
+            "Corrected Value": "8485 S DOUBLEHEADER RANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 409,
+            "Column": "address",
+            "Original Value": "16914 SOUTH 7TH STREET IA3",
+            "Corrected Value": "16914 S 7TH STREET IA3",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 495,
+            "Column": "address",
+            "Original Value": "33957 HARMON RD UNIT B",
+            "Corrected Value": "33957 HARMON RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "65 WEST RANCH TRL",
+            "Corrected Value": "65 W RANCH TRL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 511,
+            "Column": "address",
+            "Original Value": "16448 OURAY RD EAST",
+            "Corrected Value": "16448 OURAY RD E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 556,
+            "Column": "address",
+            "Original Value": "16821 SOUTH BRYN MAWR",
+            "Corrected Value": "16821 S BRYN MAWR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "16070 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "16070 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 575,
+            "Column": "address",
+            "Original Value": "957 SOUTH PINE",
+            "Corrected Value": "957 S PINE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 595,
+            "Column": "address",
+            "Original Value": "9351 SOUTH WATSON GULCH ROAD",
+            "Corrected Value": "9351 S WATSON GULCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 614,
+            "Column": "address",
+            "Original Value": "25997 CONIFER RD UNIT A",
+            "Corrected Value": "25997 CONIFER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 686,
+            "Column": "address",
+            "Original Value": "6128 SOUTH SKYLINE DR",
+            "Corrected Value": "6128 S SKYLINE DR",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "8528 SOUTH JAY LANE",
+            "Corrected Value": "8528 S JAY LANE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 819,
+            "Column": "address",
+            "Original Value": "8536 SOUTH DAVCO DRIVE",
+            "Corrected Value": "8536 S DAVCO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 823,
+            "Column": "address",
+            "Original Value": "8366 SOUTH DAVCO DRIVE",
+            "Corrected Value": "8366 S DAVCO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 827,
+            "Column": "address",
+            "Original Value": "8764 SOUTH ARMADILLO TRAIL",
+            "Corrected Value": "8764 S ARMADILLO TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Original Value": "1 WEST RANCH TRL",
+            "Corrected Value": "1 W RANCH TRL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 926,
+            "Column": "address",
+            "Original Value": "6292 SOUTH VALLEY DRIVE",
+            "Corrected Value": "6292 S VALLEY DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 965,
+            "Column": "address",
+            "Original Value": "7567 SOUTH SETTLERS DRIVE",
+            "Corrected Value": "7567 S SETTLERS DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 975,
+            "Column": "address",
+            "Original Value": "8721 SOUTH FAIRALL RD",
+            "Corrected Value": "8721 S FAIRALL RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 977,
+            "Column": "address",
+            "Original Value": "7987 SOUTH SETTLERS DRIVE",
+            "Corrected Value": "7987 S SETTLERS DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 996,
+            "Column": "address",
+            "Original Value": "8453 SOUTH SCENIC DRIVE",
+            "Corrected Value": "8453 S SCENIC DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1001,
+            "Column": "address",
+            "Original Value": "26367 CONIFER RD STE E",
+            "Corrected Value": "26367 CONIFER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1021,
+            "Column": "address",
+            "Original Value": "12447 SOUTH CINDY AVE",
+            "Corrected Value": "12447 S CINDY AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1032,
+            "Column": "address",
+            "Original Value": "7610 SOUTH HOMESTEADER DRIVE",
+            "Corrected Value": "7610 S HOMESTEADER DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1044,
+            "Column": "address",
+            "Original Value": "8843 SOUTH GRAHAM DRIVE",
+            "Corrected Value": "8843 S GRAHAM DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1049,
+            "Column": "address",
+            "Original Value": "7748 SOUTH TURKEY CREEK ROAD",
+            "Corrected Value": "7748 S TURKEY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1093,
+            "Column": "address",
+            "Original Value": "7777 SOUTH SETTLERS DRIVE",
+            "Corrected Value": "7777 S SETTLERS DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1114,
+            "Column": "address",
+            "Original Value": "7799 SOUTH TURKEY CREEK ROAD",
+            "Corrected Value": "7799 S TURKEY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1119,
+            "Column": "address",
+            "Original Value": "26267 CONIFER ROAD #105",
+            "Corrected Value": "26267 CONIFER ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1130,
+            "Column": "address",
+            "Original Value": "899 SOUTH PINE DRIVE",
+            "Corrected Value": "899 S PINE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1182,
+            "Column": "address",
+            "Original Value": "31438 KINGS VALLEY WEST",
+            "Corrected Value": "31438 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1196,
+            "Column": "address",
+            "Original Value": "8927 SOUTH DEER CREEK CANYON ROAD",
+            "Corrected Value": "8927 S DEER CREEK CANYON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1203,
+            "Column": "address",
+            "Original Value": "12952 SOUTH WAMBLEE VALLEY ROAD",
+            "Corrected Value": "12952 S WAMBLEE VALLEY ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1213,
+            "Column": "address",
+            "Original Value": "16348 OURAY ROAD EAST",
+            "Corrected Value": "16348 OURAY ROAD E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1231,
+            "Column": "address",
+            "Original Value": "7855 SOUTH ARMADILLO TRAIL",
+            "Corrected Value": "7855 S ARMADILLO TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1233,
+            "Column": "address",
+            "Original Value": "17551 NORTH CANYON ROAD",
+            "Corrected Value": "17551 N CANYON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1236,
+            "Column": "address",
+            "Original Value": "9356 SOUTH MICA MINE GULCH ROAD",
+            "Corrected Value": "9356 S MICA MINE GULCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1243,
+            "Column": "address",
+            "Original Value": "31458 KINGS VALLEY WEST",
+            "Corrected Value": "31458 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1248,
+            "Column": "address",
+            "Original Value": "8429 SOUTH TURKEY CREEK ROAD",
+            "Corrected Value": "8429 S TURKEY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1253,
+            "Column": "address",
+            "Original Value": "13262 SOUTH WASATCH STREET",
+            "Corrected Value": "13262 S WASATCH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1254,
+            "Column": "address",
+            "Original Value": "127 NORTH PINE DRIVE",
+            "Corrected Value": "127 N PINE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1256,
+            "Column": "address",
+            "Original Value": "8959 SOUTH HILLVIEW ROAD",
+            "Corrected Value": "8959 S HILLVIEW ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1294,
+            "Column": "address",
+            "Original Value": "31257 KINGS VALLEY WEST",
+            "Corrected Value": "31257 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1329,
+            "Column": "address",
+            "Original Value": "31468 KINGS VALLEY WEST",
+            "Corrected Value": "31468 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1353,
+            "Column": "address",
+            "Original Value": "16330 SOUTH ELK CREEK ROAD",
+            "Corrected Value": "16330 S ELK CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1354,
+            "Column": "address",
+            "Original Value": "15073 SOUTH WANDCREST DRIVE",
+            "Corrected Value": "15073 S WANDCREST DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1409,
+            "Column": "address",
+            "Original Value": "62 WEST RANCH TRAIL",
+            "Corrected Value": "62 W RANCH TRAIL",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1424,
+            "Column": "address",
+            "Original Value": "11802 SOUTH MAXWELL HILL ROAD",
+            "Corrected Value": "11802 S MAXWELL HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1443,
+            "Column": "address",
+            "Original Value": "9431 SOUTH WATSON GULCH ROAD",
+            "Corrected Value": "9431 S WATSON GULCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1452,
+            "Column": "address",
+            "Original Value": "8057 SOUTH CENTAUR DRIVE",
+            "Corrected Value": "8057 S CENTAUR DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1480,
+            "Column": "address",
+            "Original Value": "8575 SOUTH DOUBLEHEADER RANCH ROAD",
+            "Corrected Value": "8575 S DOUBLEHEADER RANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1501,
+            "Column": "address",
+            "Original Value": "6530 SOUTH VALLEY CIRCLE",
+            "Corrected Value": "6530 S VALLEY CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1502,
+            "Column": "address",
+            "Original Value": "8366 SOUTH WARHAWK",
+            "Corrected Value": "8366 S WARHAWK",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1503,
+            "Column": "address",
+            "Original Value": "21633 NORTH TURKEY CREEK ROAD",
+            "Corrected Value": "21633 N TURKEY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1505,
+            "Column": "address",
+            "Original Value": "8176 SOUTH DEER CREEK CANYON ROAD",
+            "Corrected Value": "8176 S DEER CREEK CANYON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1511,
+            "Column": "address",
+            "Original Value": "8091 SOUTH GRIZZLY WAY",
+            "Corrected Value": "8091 S GRIZZLY WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1514,
+            "Column": "address",
+            "Original Value": "8840 SOUTH GRIZZLY WAY",
+            "Corrected Value": "8840 S GRIZZLY WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1515,
+            "Column": "address",
+            "Original Value": "7924 SOUTH FIREHOUSE HILL ROAD",
+            "Corrected Value": "7924 S FIREHOUSE HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1516,
+            "Column": "address",
+            "Original Value": "8081 SOUTH GRIZZLY WAY",
+            "Corrected Value": "8081 S GRIZZLY WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1520,
+            "Column": "address",
+            "Original Value": "719 NORTH PINE DRIVE",
+            "Corrected Value": "719 N PINE DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1530,
+            "Column": "address",
+            "Original Value": "31328 KINGS VALLEY WEST",
+            "Corrected Value": "31328 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1543,
+            "Column": "address",
+            "Original Value": "25797 CONIFER RD UNIT B102",
+            "Corrected Value": "25797 CONIFER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1544,
+            "Column": "address",
+            "Original Value": "25557 CONIFER RD BLDG 7B",
+            "Corrected Value": "25557 CONIFER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1565,
+            "Column": "address",
+            "Original Value": "8561 SOUTH MARIPOSA DRIVE",
+            "Corrected Value": "8561 S MARIPOSA DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1578,
+            "Column": "address",
+            "Original Value": "13558 SOUTH FOXTON ROAD",
+            "Corrected Value": "13558 S FOXTON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1596,
+            "Column": "address",
+            "Original Value": "153 SKI ROAD EAST IA4",
+            "Corrected Value": "153 SKI ROAD E IA4",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1638,
+            "Column": "address",
+            "Original Value": "16456 OURAY ROAD WEST",
+            "Corrected Value": "16456 OURAY ROAD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1647,
+            "Column": "address",
+            "Original Value": "26267 CONIFER RD STE 309",
+            "Corrected Value": "26267 CONIFER RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1653,
+            "Column": "address",
+            "Original Value": "15364 SOUTH SWISS ROAD",
+            "Corrected Value": "15364 S SWISS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1656,
+            "Column": "address",
+            "Original Value": "18050 SOUTH BUFFALO CREEK ROAD",
+            "Corrected Value": "18050 S BUFFALO CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1661,
+            "Column": "address",
+            "Original Value": "20874 NORTH TURKEY CREEK ROAD",
+            "Corrected Value": "20874 N TURKEY CREEK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1668,
+            "Column": "address",
+            "Original Value": "7837 SOUTH SETTLERS DRIVE",
+            "Corrected Value": "7837 S SETTLERS DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1674,
+            "Column": "address",
+            "Original Value": "10354 SOUTH GEORGIA CIRCLE",
+            "Corrected Value": "10354 S GEORGIA CIRCLE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1677,
+            "Column": "address",
+            "Original Value": "12998 SOUTH PARKER AVENUE",
+            "Corrected Value": "12998 S PARKER AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1683,
+            "Column": "address",
+            "Original Value": "31324 KINGS VALLEY WEST",
+            "Corrected Value": "31324 KINGS VALLEY W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1735,
+            "Column": "address",
+            "Original Value": "9670 SOUTH WARHAWK ROAD",
+            "Corrected Value": "9670 S WARHAWK ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "16644 COUNTY RD 126",
+            "Corrected Value": "16644 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 104,
+            "Column": "address",
+            "Original Value": "16675 COUNTY ROAD 126",
+            "Corrected Value": "16675 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 121,
+            "Column": "address",
+            "Original Value": "708 COUNTY ROAD 90",
+            "Corrected Value": "708 CR 90",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "16795 COUNTY RD 126",
+            "Corrected Value": "16795 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "16724 COUNTY ROAD 126",
+            "Corrected Value": "16724 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 239,
+            "Column": "address",
+            "Original Value": "16674 COUNTY RD 126",
+            "Corrected Value": "16674 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "17991 COUNTY ROAD 126",
+            "Corrected Value": "17991 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 292,
+            "Column": "address",
+            "Original Value": "18116 COUNTY ROAD 126",
+            "Corrected Value": "18116 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 323,
+            "Column": "address",
+            "Original Value": "16785 COUNTY ROAD 126",
+            "Corrected Value": "16785 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 416,
+            "Column": "address",
+            "Original Value": "129 COUNTY ROAD 90",
+            "Corrected Value": "129 CR 90",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 467,
+            "Column": "address",
+            "Original Value": "3159 COUNTY ROAD 72",
+            "Corrected Value": "3159 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "16250 COUNTY RD 126",
+            "Corrected Value": "16250 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 538,
+            "Column": "address",
+            "Original Value": "3380 COUNTY ROAD 72",
+            "Corrected Value": "3380 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Original Value": "17005 COUNTY ROAD 126 (IA3)",
+            "Corrected Value": "17005 CR 126 (IA3)",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 608,
+            "Column": "address",
+            "Original Value": "316 COUNTY RD 65",
+            "Corrected Value": "316 CR 65",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 670,
+            "Column": "address",
+            "Original Value": "460 COUNTY ROAD 43A",
+            "Corrected Value": "460 CR 43A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 803,
+            "Column": "address",
+            "Original Value": "3537 COUNTY ROAD 72",
+            "Corrected Value": "3537 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "3681 COUNTY ROAD 72",
+            "Corrected Value": "3681 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1019,
+            "Column": "address",
+            "Original Value": "862 COUNTY ROAD 72",
+            "Corrected Value": "862 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1035,
+            "Column": "address",
+            "Original Value": "4927 COUNTY ROAD 72",
+            "Corrected Value": "4927 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1159,
+            "Column": "address",
+            "Original Value": "16634 COUNTY RD 126",
+            "Corrected Value": "16634 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1208,
+            "Column": "address",
+            "Original Value": "4173 COUNTY ROAD 72",
+            "Corrected Value": "4173 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1449,
+            "Column": "address",
+            "Original Value": "16724 COUNTY ROAD 126",
+            "Corrected Value": "16724 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1451,
+            "Column": "address",
+            "Original Value": "18081 COUNTY ROAD 126",
+            "Corrected Value": "18081 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1481,
+            "Column": "address",
+            "Original Value": "4281 COUNTY ROAD 72",
+            "Corrected Value": "4281 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1570,
+            "Column": "address",
+            "Original Value": "4772 COUNTY ROAD 72",
+            "Corrected Value": "4772 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1590,
+            "Column": "address",
+            "Original Value": "4230 COUNTY ROAD 72",
+            "Corrected Value": "4230 CR 72",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1693,
+            "Column": "address",
+            "Original Value": "18046 COUNTY ROAD 126",
+            "Corrected Value": "18046 CR 126",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "80433",
+            "Corrected Value": "80433",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "11863 SPRINGS ROAD CONIFER CO SUITE#151",
+            "Corrected Value": "11863 SPRINGS RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 70,
+            "Column": "zip",
+            "Original Value": "8070",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 42,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "31280 FLORENCE RD"
+        },
+        {
+            "Row": 110,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19254 FLY FISHING TRAIL"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19635 FLINT LN"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ÃÂÂ¹13814 SHILOH DR"
+        },
+        {
+            "Row": 711,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ÃÂÂ¹13952 DOUGLASS RANCH DR"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20255 FLINT LANE"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20385 FLINT LN"
+        },
+        {
+            "Row": 979,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20345 FLINT LANE"
+        },
+        {
+            "Row": 1027,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PHYSICAL 8556 S DAVCO DR"
+        },
+        {
+            "Row": 1036,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20086 FLINT LN"
+        },
+        {
+            "Row": 1041,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20156 FLINT LN"
+        },
+        {
+            "Row": 1067,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19766 FLINT LANE"
+        },
+        {
+            "Row": 1108,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19255 FLY FISHING TRAIL IA2"
+        },
+        {
+            "Row": 1193,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20346 FLINT LANE"
+        },
+        {
+            "Row": 1216,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20070 FLINT LANE"
+        },
+        {
+            "Row": 1291,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20266 FLINT LANE"
+        },
+        {
+            "Row": 1466,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "19224 FLY FISHING TRAIL"
+        },
+        {
+            "Row": 1562,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "20085 FLINT LN"
+        },
+        {
+            "Row": 70,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "8070"
+        },
+        {
+            "Row": 596,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 985)",
+            "Value": "1725"
+        },
+        {
+            "Row": 1198,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 256)",
+            "Value": "1297"
+        },
+        {
+            "Row": 572,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 963)",
+            "Value": "1549"
+        },
+        {
+            "Row": 874,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 209)",
+            "Value": "700"
+        },
+        {
+            "Row": 70,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "8070"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 596,
+            "customer": "1725",
+            "lat": "",
+            "lon": "",
+            "address": "1617 S PINE DR",
+            "city": "BAILEY",
+            "state": "CO",
+            "zip": "80421",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 985)"
+        },
+        {
+            "OrigRowNum": 1198,
+            "customer": "1297",
+            "lat": "",
+            "lon": "",
+            "address": "26267 CONIFER ROAD",
+            "city": "CONIFER",
+            "state": "CO",
+            "zip": "80433",
+            "download": 50.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 256)"
+        },
+        {
+            "OrigRowNum": 572,
+            "customer": "1549",
+            "lat": "",
+            "lon": "",
+            "address": "29054 MANGY MOOSE TRAIL",
+            "city": "PINE",
+            "state": "CO",
+            "zip": "80470",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 963)"
+        },
+        {
+            "OrigRowNum": 874,
+            "customer": "700",
+            "lat": "",
+            "lon": "",
+            "address": "29907 SUNSET TRAIL",
+            "city": "PINE",
+            "state": "CO",
+            "zip": "80470",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 209)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 5,
+            "Original Address": "11863 SPRINGS ROAD CONIFER CO SUITE#151",
+            "Corrected Address": "11863 SPRINGS RD",
+            "Original ZIP": "80433",
+            "Corrected ZIP": "80433",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T08:45:27.511378"
+        }
+    ]
+}

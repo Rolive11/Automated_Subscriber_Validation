@@ -1,0 +1,1351 @@
+{
+    "Summary": {
+        "Total Rows Processed": 949,
+        "Rows with Corrections": 6,
+        "Rows with Errors": 152,
+        "PO Box Rows Removed": 6,
+        "Invalid Address Rows Removed": 17,
+        "Removed Duplicate Rows": 7,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 6,
+        "Total Errors": 75,
+        "Street Ending Errors": 92,
+        "Validation Time (seconds)": 1.86,
+        "Validation Date": "2025-08-01 14:17:50",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "SKIPPED_DUE_TO_CRITICAL_ERRORS",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 8 rows (0.87%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 919,
+        "Address Errors Found": 8,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.87,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 8 rows (0.87%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 919,
+        "address_error_count": 8,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.87,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 487,
+            "Column": "address",
+            "Original Value": "410 WILSON STREET APT 5",
+            "Corrected Value": "410 WILSON STREET",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 505,
+            "Column": "address",
+            "Original Value": "4360 LINCOLN RD HOLLAND",
+            "Corrected Value": "4360 LINCOLN RD",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 649,
+            "Column": "address",
+            "Original Value": "7547 MOUNTAIN PINE DRIVE NORTEAST",
+            "Corrected Value": "7547 MOUNTAIN PINE DRIVE",
+            "Correction Type": "Non-Permitted Extension Removal After Street Ending",
+            "Status": "Valid"
+        },
+        {
+            "Row": 834,
+            "Column": "address",
+            "Original Value": "9654 YOUNG AVE NORTHEAST",
+            "Corrected Value": "9654 YOUNG AVE NE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Original Value": "WEST MICHIGAN PROPERTY MANAGEMENT",
+            "Corrected Value": "W MICHIGAN PROPERTY MANAGEMENT",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "12559",
+            "Corrected Value": "12559_008",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 869,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALLIED ELECTRIC"
+        },
+        {
+            "Row": 870,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "APOLS WATER GARDENS"
+        },
+        {
+            "Row": 871,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ASHLEY WARD"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BERGER CHEVROLET"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BILL FEGEL"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BRIGHTLY INTERACTIVE"
+        },
+        {
+            "Row": 875,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DAN MALKOWSKI"
+        },
+        {
+            "Row": 876,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DANIEL ARMOCK"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DEMARZ STUDIO"
+        },
+        {
+            "Row": 878,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "DUTHLER ELECTRIC"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "GARY PAONE"
+        },
+        {
+            "Row": 880,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "GRADE EIGHT"
+        },
+        {
+            "Row": 881,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARBOR W APPRAISAL SERVICES"
+        },
+        {
+            "Row": 882,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "K & H GRAIN INC"
+        },
+        {
+            "Row": 883,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "KIM GRACZYK"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "LONE TREE STABLES"
+        },
+        {
+            "Row": 885,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MCM DISPOSAL"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "NATIONAL PILING PRODUCTS"
+        },
+        {
+            "Row": 887,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "O10125 LINDEN DR NW"
+        },
+        {
+            "Row": 888,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "O1119 LUCE ST SW"
+        },
+        {
+            "Row": 889,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "O1187 LUCE ST SW"
+        },
+        {
+            "Row": 890,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "O9923 LINDEN DR NW"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 283"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        },
+        {
+            "Row": 894,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RELIABLE INTERNET LLC"
+        },
+        {
+            "Row": 895,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RIDGEVIEW FARM"
+        },
+        {
+            "Row": 896,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RIDGEVIEW FARM"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RIVERIDGE PRODUCE MARKETING"
+        },
+        {
+            "Row": 898,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ROBB VELTEMA"
+        },
+        {
+            "Row": 899,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SARAH RAGUCKAS"
+        },
+        {
+            "Row": 900,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SHANER AVE NE"
+        },
+        {
+            "Row": 901,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "STEDFAST CONSTRUCTION"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "STEDFAST CONSTRUCTION"
+        },
+        {
+            "Row": 903,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SY TRANSPORT INC"
+        },
+        {
+            "Row": 904,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SYCAMORE LANE INC"
+        },
+        {
+            "Row": 905,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TESLA MOTORS"
+        },
+        {
+            "Row": 906,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TOWER OWNER"
+        },
+        {
+            "Row": 907,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TOWER OWNER"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "TRACY BOERMAN"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "VIA VERDE FARM"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "W MICHIGAN PROPERTY MANAGEMENT"
+        },
+        {
+            "Row": 911,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "WIERSEMA BUILDERS"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "WYGR"
+        },
+        {
+            "Row": 913,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 916,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 918,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 919,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": ""
+        },
+        {
+            "Row": 913,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 914,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 916,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 918,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 919,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Error": "Required field: Address cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 230,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 10398_001",
+            "Value": "10398"
+        },
+        {
+            "Row": 896,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 10579_002",
+            "Value": "10579"
+        },
+        {
+            "Row": 513,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 11533_003",
+            "Value": "11533"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "11650"
+        },
+        {
+            "Row": 76,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 11661_004",
+            "Value": "11661"
+        },
+        {
+            "Row": 902,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 11672_005",
+            "Value": "11672"
+        },
+        {
+            "Row": 199,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 11886_006",
+            "Value": "11886"
+        },
+        {
+            "Row": 723,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 11894_007",
+            "Value": "11894"
+        },
+        {
+            "Row": 148,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 12559_008",
+            "Value": "12559"
+        },
+        {
+            "Row": 334,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "15798"
+        },
+        {
+            "Row": 287,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "15976"
+        },
+        {
+            "Row": 77,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 11661)",
+            "Value": "10816"
+        },
+        {
+            "Row": 334,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 15798)",
+            "Value": "15798"
+        },
+        {
+            "Row": 245,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 11650)",
+            "Value": "11650"
+        },
+        {
+            "Row": 287,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 15976)",
+            "Value": "15976"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 10,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1020 92ND SW"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10262 HUBBARD FARM"
+        },
+        {
+            "Row": 32,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10329 HANNAH LAKE"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1043 E FREE SOIL"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10586 INDIAN RUN"
+        },
+        {
+            "Row": 53,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "10595 DIVISION"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11850 RICHMONT NE"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11859 RICHMONT NE"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11869 RICHMONT"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11881 RICHMONT NE"
+        },
+        {
+            "Row": 98,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11899 RICHMONT"
+        },
+        {
+            "Row": 99,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11924 RICHMONT"
+        },
+        {
+            "Row": 101,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11956 RICHMONT NE"
+        },
+        {
+            "Row": 107,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11981 RICHMONT"
+        },
+        {
+            "Row": 108,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "11999 RICHMONT NE"
+        },
+        {
+            "Row": 135,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "12665 PHELPS"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13219 BUTTERNUT"
+        },
+        {
+            "Row": 148,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "13219 BUTTERNUT"
+        },
+        {
+            "Row": 151,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1335 WILSON"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1380 N LASALLE"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1386 LUCE"
+        },
+        {
+            "Row": 171,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "14245 STACEY NE"
+        },
+        {
+            "Row": 280,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2057 WINDING OAK"
+        },
+        {
+            "Row": 286,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20893 KENOWA NW"
+        },
+        {
+            "Row": 287,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "20893 KENOWA NW"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2106 HILLTOP VIEW"
+        },
+        {
+            "Row": 292,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2107 HILLTOP VIEW"
+        },
+        {
+            "Row": 305,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2130 WILDFLOWER"
+        },
+        {
+            "Row": 309,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2137 WILDFLOWER"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2145 HILLTOP VIEW"
+        },
+        {
+            "Row": 320,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2214 141ST"
+        },
+        {
+            "Row": 326,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2425 N US31"
+        },
+        {
+            "Row": 339,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2675 N US31"
+        },
+        {
+            "Row": 352,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "2896 N US31"
+        },
+        {
+            "Row": 366,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3091 N US31"
+        },
+        {
+            "Row": 375,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3404 SUNSET BLUFF NE"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3407 N US31"
+        },
+        {
+            "Row": 388,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3661 N US31"
+        },
+        {
+            "Row": 394,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3790 N US31"
+        },
+        {
+            "Row": 401,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3875 N US 31"
+        },
+        {
+            "Row": 404,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3887 N US 31"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "3915 N US31"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4014 PATTI"
+        },
+        {
+            "Row": 426,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4018 PATTI"
+        },
+        {
+            "Row": 429,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4023 21ST"
+        },
+        {
+            "Row": 430,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4023 PATTI"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4024 QUIET COVE"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4026 PATTI"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4032 QUIET COVE"
+        },
+        {
+            "Row": 444,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4040 QUIET COVE"
+        },
+        {
+            "Row": 445,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4044 RONALDS"
+        },
+        {
+            "Row": 468,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4077 RONALDS"
+        },
+        {
+            "Row": 479,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4093 SANDY RIDGE"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4095 SANDY RIDGE"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4638 N US 31"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "4713 N US31"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5000 N US31"
+        },
+        {
+            "Row": 577,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "5535 NEW HOLLAND"
+        },
+        {
+            "Row": 601,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "6700 N US31"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7404 BLACK PINE"
+        },
+        {
+            "Row": 632,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7420 BLACK PINE NE"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7523 MOUNTAIN PINE"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7540 RED CEDAR NE"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7552 RED CEDAR NE"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7560 MOUNTAIN PINE"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7563 RED CEDAR"
+        },
+        {
+            "Row": 660,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7576 MOUNTAIN PINE"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "7577 RED CEDAR"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "780 N JACK PINE"
+        },
+        {
+            "Row": 699,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8275 N US31"
+        },
+        {
+            "Row": 710,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8400 N US31"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8467 WHITTALL NE"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8687 11 MILE"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8887 NATURE MEADOWS"
+        },
+        {
+            "Row": 746,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8900 PEACH RIDGE"
+        },
+        {
+            "Row": 749,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "8960 SWIFT"
+        },
+        {
+            "Row": 758,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9011 NATURE MEADOWS"
+        },
+        {
+            "Row": 760,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9020 NATURE MEADOWS"
+        },
+        {
+            "Row": 769,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9100 PARMETER"
+        },
+        {
+            "Row": 770,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9101 PARMETER"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9422 PARMETER NE"
+        },
+        {
+            "Row": 831,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9615 HESSLER CROSSINGS"
+        },
+        {
+            "Row": 835,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9657 HESSLER CROSSING"
+        },
+        {
+            "Row": 836,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9671 HESSLER CROSSING"
+        },
+        {
+            "Row": 837,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9678 HESSLER CROSSING"
+        },
+        {
+            "Row": 839,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9685 HESSLER CROSSING"
+        },
+        {
+            "Row": 840,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9686 HESSLER CROSSING"
+        },
+        {
+            "Row": 847,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9753 HESSLER CROSSING"
+        },
+        {
+            "Row": 848,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9764 HESSLER CROSSING"
+        },
+        {
+            "Row": 849,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9777 HESSLER CROSSING"
+        },
+        {
+            "Row": 851,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9780 ROLLING HILLS"
+        },
+        {
+            "Row": 864,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "9931 ROLLING HILLS"
+        }
+    ],
+    "PO Box Errors": [
+        {
+            "Row": 891,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 283"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 183"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 283"
+        },
+        {
+            "Row": 893,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 8"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 912,
+            "address": "WYGR",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 913,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 914,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 915,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 916,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 917,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 918,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 919,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 920,
+            "address": "",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 913,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 914,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 915,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 916,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 917,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 918,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 919,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        },
+        {
+            "OrigRowNum": 920,
+            "address": "None",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 245,
+            "customer": "11650",
+            "lat": 43.11041,
+            "lon": -85.80862,
+            "address": "18768 8TH AVE",
+            "city": "CONKLIN",
+            "state": "MI",
+            "zip": "49403",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 334,
+            "customer": "15798",
+            "lat": 42.97371,
+            "lon": -85.85213,
+            "address": "2617 RIVERHILL DR",
+            "city": "GRAND RAPIDS",
+            "state": "MI",
+            "zip": "49534",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 287,
+            "customer": "15976",
+            "lat": 43.14878,
+            "lon": -85.79077,
+            "address": "20893 KENOWA NW",
+            "city": "SPARTA",
+            "state": "MI",
+            "zip": "49345",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 77,
+            "customer": "10816",
+            "lat": 42.76704,
+            "lon": -85.65836,
+            "address": "1142 ELECTRIC AVE",
+            "city": "WAYLAND",
+            "state": "MI",
+            "zip": "49348",
+            "download": 1000.0,
+            "upload": 1000.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "fiber",
+            "Error": "Data-based duplicate (same as customer 11661)"
+        },
+        {
+            "OrigRowNum": 334,
+            "customer": "15798",
+            "lat": 42.97371,
+            "lon": -85.85213,
+            "address": "2617 RIVERHILL DR",
+            "city": "GRAND RAPIDS",
+            "state": "MI",
+            "zip": "49534",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 15798)"
+        },
+        {
+            "OrigRowNum": 245,
+            "customer": "11650",
+            "lat": 43.11041,
+            "lon": -85.80862,
+            "address": "18768 8TH AVE",
+            "city": "CONKLIN",
+            "state": "MI",
+            "zip": "49403",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 1,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 11650)"
+        },
+        {
+            "OrigRowNum": 287,
+            "customer": "15976",
+            "lat": 43.14878,
+            "lon": -85.79077,
+            "address": "20893 KENOWA NW",
+            "city": "SPARTA",
+            "state": "MI",
+            "zip": "49345",
+            "download": 1.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 15976)"
+        }
+    ],
+    "Smarty Corrections": []
+}

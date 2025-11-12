@@ -1,0 +1,193 @@
+{
+    "Summary": {
+        "Total Rows Processed": 472,
+        "Rows with Corrections": 8,
+        "Rows with Errors": 6,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 4,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 8,
+        "Total Errors": 6,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.36,
+        "Validation Date": "2025-08-27 21:11:49",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 467,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 467,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 240,
+            "Column": "address",
+            "Original Value": "85 PRIVATE WEST 2",
+            "Corrected Value": "85 PRIVATE W 2",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 245,
+            "Column": "address",
+            "Original Value": "67 PRIVATE WEST 2",
+            "Corrected Value": "67 PRIVATE W 2",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 264,
+            "Column": "address",
+            "Original Value": "43 PRIVATE WEST 8",
+            "Corrected Value": "43 PRIVATE W 8",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 272,
+            "Column": "address",
+            "Original Value": "62 PRIVATE WEST 4",
+            "Corrected Value": "62 PRIVATE W 4",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 274,
+            "Column": "address",
+            "Original Value": "52 PRIVATE WEST 4",
+            "Corrected Value": "52 PRIVATE W 4",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "1298 COUNTY RD",
+            "Corrected Value": "1298 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 405,
+            "Column": "address",
+            "Original Value": "480 COUNTY RD",
+            "Corrected Value": "480 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 407,
+            "Column": "address",
+            "Original Value": "1678 COUNTY RD",
+            "Corrected Value": "1678 CR",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 118,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "918"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "137A BLUE JAY AVE"
+        },
+        {
+            "Row": 418,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "313"
+        },
+        {
+            "Row": 423,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "317"
+        },
+        {
+            "Row": 431,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "101"
+        },
+        {
+            "Row": 383,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2984)",
+            "Value": "10105"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 118,
+            "address": "918",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 418,
+            "address": "313",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 423,
+            "address": "317",
+            "Error": "Address too short"
+        },
+        {
+            "OrigRowNum": 431,
+            "address": "101",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 383,
+            "customer": "10105",
+            "lat": "44.502312",
+            "lon": "-72.715988",
+            "address": "183 WELLS RD",
+            "city": "STOWE",
+            "state": "VT",
+            "zip": "05672",
+            "download": 3.0,
+            "upload": 1.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2984)"
+        }
+    ],
+    "Smarty Corrections": []
+}

@@ -1,0 +1,2628 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1514,
+        "Rows with Corrections": 119,
+        "Rows with Errors": 76,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 72,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 119,
+        "Total Errors": 78,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.09,
+        "Validation Date": "2025-08-14 09:12:18",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1442,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1442,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 1260,
+            "Column": "address",
+            "Original Value": "51000 Nash Mill Road green house",
+            "Corrected Value": "51000 NASH MILL ROAD GREEN HOUSE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "address",
+            "Original Value": "340 NORTH MAIN STREET",
+            "Corrected Value": "340 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "23 SOUTH MAIN STREET",
+            "Corrected Value": "23 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 44,
+            "Column": "address",
+            "Original Value": "10401 EAST RD",
+            "Corrected Value": "10401 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 47,
+            "Column": "address",
+            "Original Value": "10950 EAST ROAD",
+            "Corrected Value": "10950 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 87,
+            "Column": "address",
+            "Original Value": "204 SOUTH HORTENSE STREET",
+            "Corrected Value": "204 S HORTENSE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Original Value": "8651 EAST ROAD",
+            "Corrected Value": "8651 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 103,
+            "Column": "address",
+            "Original Value": "460 EAST GOBBI STREET",
+            "Corrected Value": "460 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Original Value": "2211 SOUTH STATE STREET",
+            "Corrected Value": "2211 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Original Value": "2144 SOUTH STATE STREET",
+            "Corrected Value": "2144 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 119,
+            "Column": "address",
+            "Original Value": "260 OBSERVATORY AVENUE #A",
+            "Corrected Value": "260 OBSERVATORY AVENUE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 124,
+            "Column": "address",
+            "Original Value": "460 EAST GOBBI STREET",
+            "Corrected Value": "460 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 133,
+            "Column": "address",
+            "Original Value": "115 NORTH MAIN STREET",
+            "Corrected Value": "115 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 137,
+            "Column": "address",
+            "Original Value": "306 EAST GOBBI STREET",
+            "Corrected Value": "306 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "5051 NORTH STATE STREET",
+            "Corrected Value": "5051 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "8800 WEST RD",
+            "Corrected Value": "8800 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "8500 EAST RD",
+            "Corrected Value": "8500 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 192,
+            "Column": "address",
+            "Original Value": "10980 WEST RD",
+            "Corrected Value": "10980 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 199,
+            "Column": "address",
+            "Original Value": "35 EAST COMMERCIAL STREET",
+            "Corrected Value": "35 E COMMERCIAL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "66 EAST COMMERCIAL STREET",
+            "Corrected Value": "66 E COMMERCIAL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 202,
+            "Column": "address",
+            "Original Value": "23701 NORTH MAIN STREET",
+            "Corrected Value": "23701 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "152 SOUTH MAIN STREET",
+            "Corrected Value": "152 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "150 SOUTH MAIN STREET",
+            "Corrected Value": "150 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "395 NORTH BARNES STREET",
+            "Corrected Value": "395 N BARNES STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "395 NORTH BARNES STREET",
+            "Corrected Value": "395 N BARNES STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "270 EAST SMITH STREET",
+            "Corrected Value": "270 E SMITH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 221,
+            "Column": "address",
+            "Original Value": "152 S MAIN STREET SUITE C",
+            "Corrected Value": "152 S MAIN STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 222,
+            "Column": "address",
+            "Original Value": "585 NORTH STATE STREET",
+            "Corrected Value": "585 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 223,
+            "Column": "address",
+            "Original Value": "1296 NORTH STATE STREET",
+            "Corrected Value": "1296 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 224,
+            "Column": "address",
+            "Original Value": "4000 NORTH STATE STREET",
+            "Corrected Value": "4000 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "9001 NORTH STATE STREET",
+            "Corrected Value": "9001 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "11900 WEST RD",
+            "Corrected Value": "11900 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Original Value": "11157 WEST RD",
+            "Corrected Value": "11157 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Original Value": "11101 WEST ROAD",
+            "Corrected Value": "11101 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 380,
+            "Column": "address",
+            "Original Value": "10631 WEST RD",
+            "Corrected Value": "10631 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 434,
+            "Column": "address",
+            "Original Value": "4801 N STATE ST SPACE SPC 30",
+            "Corrected Value": "4801 N STATE ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 481,
+            "Column": "address",
+            "Original Value": "9701 EAST RD",
+            "Corrected Value": "9701 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "13801 NORTH BUSCH ROAD",
+            "Corrected Value": "13801 N BUSCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Original Value": "19320 SOUTH MAIN STREET",
+            "Corrected Value": "19320 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "4801 NORTH STATE STREET",
+            "Corrected Value": "4801 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 645,
+            "Column": "address",
+            "Original Value": "19300 SOUTH MAIN STREET",
+            "Corrected Value": "19300 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Original Value": "19873 SOUTH MAIN STREET",
+            "Corrected Value": "19873 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Original Value": "2180 SOUTH STATE STREET",
+            "Corrected Value": "2180 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 660,
+            "Column": "address",
+            "Original Value": "3260 CLARK ROAD #A",
+            "Corrected Value": "3260 CLARK ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 670,
+            "Column": "address",
+            "Original Value": "2261 EAST HILL ROAD",
+            "Corrected Value": "2261 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 678,
+            "Column": "address",
+            "Original Value": "10901 EAST ROAD",
+            "Corrected Value": "10901 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Original Value": "2201 EAST HILL ROAD",
+            "Corrected Value": "2201 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 682,
+            "Column": "address",
+            "Original Value": "901 EAST HILL ROAD",
+            "Corrected Value": "901 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Original Value": "245 SOUTH HUMBOLDT STREET",
+            "Corrected Value": "245 S HUMBOLDT STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Original Value": "24550 NORTH MAIN STREET",
+            "Corrected Value": "24550 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 689,
+            "Column": "address",
+            "Original Value": "1951 EAST HILL ROAD",
+            "Corrected Value": "1951 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "address",
+            "Original Value": "2567 HENDRICKS ROAD #A",
+            "Corrected Value": "2567 HENDRICKS ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Original Value": "317 NORTH MAIN STREET",
+            "Corrected Value": "317 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Original Value": "10960 WEST ROAD",
+            "Corrected Value": "10960 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Original Value": "985 EAST GOBBI STREET",
+            "Corrected Value": "985 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 722,
+            "Column": "address",
+            "Original Value": "1810 INEZ WAY #A",
+            "Corrected Value": "1810 INEZ WAY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Original Value": "681 NORTH OAK STREET",
+            "Corrected Value": "681 N OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 734,
+            "Column": "address",
+            "Original Value": "8681 EAST ROAD",
+            "Corrected Value": "8681 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "460 EAST GOBBI STREET",
+            "Corrected Value": "460 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "317 NORTH MAIN STREET",
+            "Corrected Value": "317 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 747,
+            "Column": "address",
+            "Original Value": "460 EAST GOBBI STREET",
+            "Corrected Value": "460 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 755,
+            "Column": "address",
+            "Original Value": "3801 EAST CALPELLA ROAD",
+            "Corrected Value": "3801 E CALPELLA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 767,
+            "Column": "address",
+            "Original Value": "11210 WEST ROAD",
+            "Corrected Value": "11210 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 770,
+            "Column": "address",
+            "Original Value": "24700 NORTH MAIN STREET",
+            "Corrected Value": "24700 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "50 SOUTH MAIN STREET",
+            "Corrected Value": "50 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 785,
+            "Column": "address",
+            "Original Value": "96 NORTH MAIN STREET",
+            "Corrected Value": "96 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 787,
+            "Column": "address",
+            "Original Value": "11200 EAST ROAD",
+            "Corrected Value": "11200 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Original Value": "3501 TAYLOR DRIVE UNIT UNIT #4",
+            "Corrected Value": "3501 TAYLOR DRIVE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Original Value": "123 WEST LAKE MENDOCINO DRIVE",
+            "Corrected Value": "123 W LAKE MENDOCINO DRIVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 850,
+            "Column": "address",
+            "Original Value": "11201 WEST RD",
+            "Corrected Value": "11201 W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "11375 WEST ROAD",
+            "Corrected Value": "11375 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 867,
+            "Column": "address",
+            "Original Value": "9201 EAST ROAD",
+            "Corrected Value": "9201 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 868,
+            "Column": "address",
+            "Original Value": "10851 EAST ROAD",
+            "Corrected Value": "10851 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "11920 WEST ROAD",
+            "Corrected Value": "11920 W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Original Value": "10551 EAST ROAD",
+            "Corrected Value": "10551 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 882,
+            "Column": "address",
+            "Original Value": "220 WEST GOBBI STREET",
+            "Corrected Value": "220 W GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 891,
+            "Column": "address",
+            "Original Value": "9215 EAST RD",
+            "Corrected Value": "9215 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Original Value": "505 EAST PERKINS STREET",
+            "Corrected Value": "505 E PERKINS STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "address",
+            "Original Value": "600 EAST COMMERCIAL STREET",
+            "Corrected Value": "600 E COMMERCIAL STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 906,
+            "Column": "address",
+            "Original Value": "275 KUNZLER RANCH ROAD #B",
+            "Corrected Value": "275 KUNZLER RANCH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 907,
+            "Column": "address",
+            "Original Value": "1107 SOUTH STATE STREET",
+            "Corrected Value": "1107 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 908,
+            "Column": "address",
+            "Original Value": "697 SOUTH ORCHARD AVENUE",
+            "Corrected Value": "697 S ORCHARD AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Original Value": "9105 EAST SIDE ROAD",
+            "Corrected Value": "9105 E SIDE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1004,
+            "Column": "address",
+            "Original Value": "10101 EAST RD",
+            "Corrected Value": "10101 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1028,
+            "Column": "address",
+            "Original Value": "11210 EAST RD",
+            "Corrected Value": "11210 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1043,
+            "Column": "address",
+            "Original Value": "8493 EAST ROAD",
+            "Corrected Value": "8493 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1047,
+            "Column": "address",
+            "Original Value": "3900 NORTH STATE STREET",
+            "Corrected Value": "3900 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1061,
+            "Column": "address",
+            "Original Value": "80 EAST OAK STREET",
+            "Corrected Value": "80 E OAK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1081,
+            "Column": "address",
+            "Original Value": "10531 EAST ROAD",
+            "Corrected Value": "10531 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1083,
+            "Column": "address",
+            "Original Value": "10450 EAST ROAD",
+            "Corrected Value": "10450 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1099,
+            "Column": "address",
+            "Original Value": "936 EAST SCHOOL WAY",
+            "Corrected Value": "936 E SCHOOL WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1101,
+            "Column": "address",
+            "Original Value": "24700 NORTH MAIN STREET",
+            "Corrected Value": "24700 N MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1117,
+            "Column": "address",
+            "Original Value": "5750 EAST CALPELLA ROAD",
+            "Corrected Value": "5750 E CALPELLA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1133,
+            "Column": "address",
+            "Original Value": "1951 NORTH STATE STREET",
+            "Corrected Value": "1951 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1165,
+            "Column": "address",
+            "Original Value": "10400 EAST RD",
+            "Corrected Value": "10400 E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1180,
+            "Column": "address",
+            "Original Value": "301 EAST SCHOOL WAY",
+            "Corrected Value": "301 E SCHOOL WAY",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1184,
+            "Column": "address",
+            "Original Value": "1281 EAST GOBBI STREET",
+            "Corrected Value": "1281 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1202,
+            "Column": "address",
+            "Original Value": "1787 SOUTH MAIN STREET",
+            "Corrected Value": "1787 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1203,
+            "Column": "address",
+            "Original Value": "178 EAST GOBBI STREET",
+            "Corrected Value": "178 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1322,
+            "Column": "address",
+            "Original Value": "116 SOUTH STATE STREET",
+            "Corrected Value": "116 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1327,
+            "Column": "address",
+            "Original Value": "154 EAST GOBBI STREET",
+            "Corrected Value": "154 E GOBBI STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1348,
+            "Column": "address",
+            "Original Value": "8601 #1 EAST ROAD",
+            "Corrected Value": "8601 #1 E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1390,
+            "Column": "address",
+            "Original Value": "2005 NORTH STATE STREET",
+            "Corrected Value": "2005 N STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1400,
+            "Column": "address",
+            "Original Value": "206 SOUTH STATE STREET",
+            "Corrected Value": "206 S STATE STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1412,
+            "Column": "address",
+            "Original Value": "350 SOUTH HIGHLAND AVENUE",
+            "Corrected Value": "350 S HIGHLAND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1443,
+            "Column": "address",
+            "Original Value": "311 SOUTH MAIN STREET",
+            "Corrected Value": "311 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Original Value": "11001 COUNTY RD 151",
+            "Corrected Value": "11001 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 227,
+            "Column": "address",
+            "Original Value": "11251 COUNTY ROAD 11251",
+            "Corrected Value": "11251 CR 11251",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 482,
+            "Column": "address",
+            "Original Value": "2920 COUNTY ROAD 110",
+            "Corrected Value": "2920 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 506,
+            "Column": "address",
+            "Original Value": "2040 COUNTY ROAD 110",
+            "Corrected Value": "2040 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 521,
+            "Column": "address",
+            "Original Value": "11001 COUNTY ROAD 151",
+            "Corrected Value": "11001 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "11041 COUNTY ROAD 151",
+            "Corrected Value": "11041 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 778,
+            "Column": "address",
+            "Original Value": "11051 COUNTY RD 151",
+            "Corrected Value": "11051 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1185,
+            "Column": "address",
+            "Original Value": "3011 COUNTY ROAD 110",
+            "Corrected Value": "3011 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1332,
+            "Column": "address",
+            "Original Value": "3950 COUNTY ROAD 110",
+            "Corrected Value": "3950 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1366,
+            "Column": "address",
+            "Original Value": "11051 COUNTY ROAD 151",
+            "Corrected Value": "11051 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1380,
+            "Column": "address",
+            "Original Value": "3101 COUNTY ROAD 110",
+            "Corrected Value": "3101 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1381,
+            "Column": "address",
+            "Original Value": "3101 COUNTY ROAD 110",
+            "Corrected Value": "3101 CR 110",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1407,
+            "Column": "address",
+            "Original Value": "11251 COUNTY RD 151",
+            "Corrected Value": "11251 CR 151",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 692,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RIDGEWOOD RANCH ROAD"
+        },
+        {
+            "Row": 763,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "581 STELLA DRIVE"
+        },
+        {
+            "Row": 1348,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8601 #1 E ROAD"
+        },
+        {
+            "Row": 1348,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "8601 #1 E ROAD"
+        },
+        {
+            "Row": 1369,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BLACK BART TRAIL"
+        },
+        {
+            "Row": 1348,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8601 #1 E ROAD"
+        },
+        {
+            "Row": 1118,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 708)",
+            "Value": "1348"
+        },
+        {
+            "Row": 111,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1034)",
+            "Value": "1052"
+        },
+        {
+            "Row": 122,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1034)",
+            "Value": "1148"
+        },
+        {
+            "Row": 573,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1031"
+        },
+        {
+            "Row": 574,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1032"
+        },
+        {
+            "Row": 577,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1036"
+        },
+        {
+            "Row": 579,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1039"
+        },
+        {
+            "Row": 580,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1041"
+        },
+        {
+            "Row": 581,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1042"
+        },
+        {
+            "Row": 584,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1045"
+        },
+        {
+            "Row": 586,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1048"
+        },
+        {
+            "Row": 592,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1056"
+        },
+        {
+            "Row": 594,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1058"
+        },
+        {
+            "Row": 596,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1060"
+        },
+        {
+            "Row": 597,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1061"
+        },
+        {
+            "Row": 598,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1062"
+        },
+        {
+            "Row": 602,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1068"
+        },
+        {
+            "Row": 603,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1069"
+        },
+        {
+            "Row": 608,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1075"
+        },
+        {
+            "Row": 613,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1082"
+        },
+        {
+            "Row": 616,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1087"
+        },
+        {
+            "Row": 625,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1096"
+        },
+        {
+            "Row": 694,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1264"
+        },
+        {
+            "Row": 698,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1275"
+        },
+        {
+            "Row": 749,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1028)",
+            "Value": "1393"
+        },
+        {
+            "Row": 789,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 731)",
+            "Value": "96"
+        },
+        {
+            "Row": 530,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 888)",
+            "Value": "890"
+        },
+        {
+            "Row": 475,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 667)",
+            "Value": "733"
+        },
+        {
+            "Row": 104,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 964)",
+            "Value": "987"
+        },
+        {
+            "Row": 446,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 661)",
+            "Value": "663"
+        },
+        {
+            "Row": 490,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 661)",
+            "Value": "775"
+        },
+        {
+            "Row": 197,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 897)",
+            "Value": "899"
+        },
+        {
+            "Row": 1395,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 399)",
+            "Value": "677"
+        },
+        {
+            "Row": 1396,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 399)",
+            "Value": "678"
+        },
+        {
+            "Row": 221,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1025)",
+            "Value": "1426"
+        },
+        {
+            "Row": 520,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 865)",
+            "Value": "866"
+        },
+        {
+            "Row": 733,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 181)",
+            "Value": "1368"
+        },
+        {
+            "Row": 823,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1285)",
+            "Value": "1108"
+        },
+        {
+            "Row": 631,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1071)",
+            "Value": "1117"
+        },
+        {
+            "Row": 618,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1081)",
+            "Value": "1089"
+        },
+        {
+            "Row": 290,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 93)",
+            "Value": "232"
+        },
+        {
+            "Row": 713,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1314)",
+            "Value": "1315"
+        },
+        {
+            "Row": 1381,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 432)",
+            "Value": "1124"
+        },
+        {
+            "Row": 744,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1326)",
+            "Value": "1384"
+        },
+        {
+            "Row": 286,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 162)",
+            "Value": "219"
+        },
+        {
+            "Row": 303,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 162)",
+            "Value": "272"
+        },
+        {
+            "Row": 321,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 162)",
+            "Value": "319"
+        },
+        {
+            "Row": 977,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 254)",
+            "Value": "318"
+        },
+        {
+            "Row": 769,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1208)",
+            "Value": "1428"
+        },
+        {
+            "Row": 238,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 43)",
+            "Value": "44"
+        },
+        {
+            "Row": 60,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 571)",
+            "Value": "627"
+        },
+        {
+            "Row": 441,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 620)",
+            "Value": "653"
+        },
+        {
+            "Row": 561,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 620)",
+            "Value": "989"
+        },
+        {
+            "Row": 666,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 620)",
+            "Value": "1221"
+        },
+        {
+            "Row": 830,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 620)",
+            "Value": "1304"
+        },
+        {
+            "Row": 503,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 92)",
+            "Value": "807"
+        },
+        {
+            "Row": 210,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1152)",
+            "Value": "1153"
+        },
+        {
+            "Row": 332,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 103)",
+            "Value": "359"
+        },
+        {
+            "Row": 423,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 103)",
+            "Value": "616"
+        },
+        {
+            "Row": 424,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 103)",
+            "Value": "619"
+        },
+        {
+            "Row": 517,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 555)",
+            "Value": "854"
+        },
+        {
+            "Row": 1103,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 490)",
+            "Value": "239"
+        },
+        {
+            "Row": 750,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 95)",
+            "Value": "1394"
+        },
+        {
+            "Row": 752,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 95)",
+            "Value": "1396"
+        },
+        {
+            "Row": 792,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 301)",
+            "Value": "299"
+        },
+        {
+            "Row": 124,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 983)",
+            "Value": "1158"
+        },
+        {
+            "Row": 743,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 740)",
+            "Value": "1383"
+        },
+        {
+            "Row": 747,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 740)",
+            "Value": "1389"
+        },
+        {
+            "Row": 772,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1410)",
+            "Value": "1436"
+        },
+        {
+            "Row": 190,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 818)",
+            "Value": "831"
+        },
+        {
+            "Row": 966,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 158)",
+            "Value": "261"
+        },
+        {
+            "Row": 198,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 894)",
+            "Value": "988"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 1118,
+            "customer": "1348",
+            "lat": "",
+            "lon": "",
+            "address": "100 NELSON RANCH ROAD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 18.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 708)"
+        },
+        {
+            "OrigRowNum": 111,
+            "customer": "1052",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 1034)"
+        },
+        {
+            "OrigRowNum": 122,
+            "customer": "1148",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 1034)"
+        },
+        {
+            "OrigRowNum": 573,
+            "customer": "1031",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 574,
+            "customer": "1032",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 577,
+            "customer": "1036",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 579,
+            "customer": "1039",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 580,
+            "customer": "1041",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 581,
+            "customer": "1042",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 584,
+            "customer": "1045",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 586,
+            "customer": "1048",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 592,
+            "customer": "1056",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 594,
+            "customer": "1058",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 596,
+            "customer": "1060",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 597,
+            "customer": "1061",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 598,
+            "customer": "1062",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 602,
+            "customer": "1068",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 603,
+            "customer": "1069",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 608,
+            "customer": "1075",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 613,
+            "customer": "1082",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 616,
+            "customer": "1087",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 625,
+            "customer": "1096",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 694,
+            "customer": "1264",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 698,
+            "customer": "1275",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 749,
+            "customer": "1393",
+            "lat": "",
+            "lon": "",
+            "address": "10755 MOBILE VILLAGE WAY",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1028)"
+        },
+        {
+            "OrigRowNum": 789,
+            "customer": "96",
+            "lat": "",
+            "lon": "",
+            "address": "11756 MID MOUNTAIN RD",
+            "city": "POTTER VALLEY",
+            "state": "CA",
+            "zip": "95469",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 731)"
+        },
+        {
+            "OrigRowNum": 530,
+            "customer": "890",
+            "lat": "",
+            "lon": "",
+            "address": "12378 BOONVILLE ROAD",
+            "city": "BOONVILLE",
+            "state": "CA",
+            "zip": "95415",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 888)"
+        },
+        {
+            "OrigRowNum": 475,
+            "customer": "733",
+            "lat": "",
+            "lon": "",
+            "address": "12671 MID MOUNTAIN RD",
+            "city": "POTTER VALLEY",
+            "state": "CA",
+            "zip": "95469",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 667)"
+        },
+        {
+            "OrigRowNum": 104,
+            "customer": "987",
+            "lat": "",
+            "lon": "",
+            "address": "13740 OLD RIVER ROAD",
+            "city": "HOPLAND",
+            "state": "CA",
+            "zip": "95449",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 964)"
+        },
+        {
+            "OrigRowNum": 446,
+            "customer": "663",
+            "lat": "",
+            "lon": "",
+            "address": "14000 TOMKI RD",
+            "city": "REDWOOD VALLEY",
+            "state": "CA",
+            "zip": "95470",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 661)"
+        },
+        {
+            "OrigRowNum": 490,
+            "customer": "775",
+            "lat": "",
+            "lon": "",
+            "address": "14000 TOMKI RD",
+            "city": "REDWOOD VALLEY",
+            "state": "CA",
+            "zip": "95470",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 661)"
+        },
+        {
+            "OrigRowNum": 197,
+            "customer": "899",
+            "lat": "",
+            "lon": "",
+            "address": "14000 TOMKI ROAD",
+            "city": "REDWOOD VALLEY",
+            "state": "CA",
+            "zip": "95470",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 897)"
+        },
+        {
+            "OrigRowNum": 1395,
+            "customer": "677",
+            "lat": "",
+            "lon": "",
+            "address": "14111 CA-128",
+            "city": "BOONVILLE",
+            "state": "CA",
+            "zip": "95415",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 399)"
+        },
+        {
+            "OrigRowNum": 1396,
+            "customer": "678",
+            "lat": "",
+            "lon": "",
+            "address": "14111 CA-128",
+            "city": "BOONVILLE",
+            "state": "CA",
+            "zip": "95415",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 399)"
+        },
+        {
+            "OrigRowNum": 221,
+            "customer": "1426",
+            "lat": "",
+            "lon": "",
+            "address": "152 S MAIN STREET",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1025)"
+        },
+        {
+            "OrigRowNum": 520,
+            "customer": "866",
+            "lat": "",
+            "lon": "",
+            "address": "18450 RAY'S ROAD",
+            "city": "PHILO",
+            "state": "CA",
+            "zip": "95466",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 865)"
+        },
+        {
+            "OrigRowNum": 733,
+            "customer": "1368",
+            "lat": "",
+            "lon": "",
+            "address": "18500 RAY'S ROAD",
+            "city": "PHILO",
+            "state": "CA",
+            "zip": "95466",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 181)"
+        },
+        {
+            "OrigRowNum": 823,
+            "customer": "1108",
+            "lat": "",
+            "lon": "",
+            "address": "19590 SHAFER RANCH ROAD",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1285)"
+        },
+        {
+            "OrigRowNum": 631,
+            "customer": "1117",
+            "lat": "",
+            "lon": "",
+            "address": "235 SEABISCUIT DRIVE",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1071)"
+        },
+        {
+            "OrigRowNum": 618,
+            "customer": "1089",
+            "lat": "",
+            "lon": "",
+            "address": "25700 STRING CREEK ROAD",
+            "city": "WILLITS",
+            "state": "CA",
+            "zip": "95490",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1081)"
+        },
+        {
+            "OrigRowNum": 290,
+            "customer": "232",
+            "lat": "",
+            "lon": "",
+            "address": "26101 BIG OAKS DR",
+            "city": "YORKVILLE",
+            "state": "CA",
+            "zip": "95494",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 93)"
+        },
+        {
+            "OrigRowNum": 713,
+            "customer": "1315",
+            "lat": "",
+            "lon": "",
+            "address": "301 KUNZLER RANCH ROAD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1314)"
+        },
+        {
+            "OrigRowNum": 1381,
+            "customer": "1124",
+            "lat": "",
+            "lon": "",
+            "address": "3101 COUNTY ROAD 110",
+            "city": "HOPLAND",
+            "state": "CA",
+            "zip": "95449",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 432)"
+        },
+        {
+            "OrigRowNum": 744,
+            "customer": "1384",
+            "lat": "",
+            "lon": "",
+            "address": "317 N MAIN STREET",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1326)"
+        },
+        {
+            "OrigRowNum": 286,
+            "customer": "219",
+            "lat": "",
+            "lon": "",
+            "address": "31723 CA-128",
+            "city": "YORKVILLE",
+            "state": "CA",
+            "zip": "95494",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 162)"
+        },
+        {
+            "OrigRowNum": 303,
+            "customer": "272",
+            "lat": "",
+            "lon": "",
+            "address": "31723 CA-128",
+            "city": "YORKVILLE",
+            "state": "CA",
+            "zip": "95494",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 162)"
+        },
+        {
+            "OrigRowNum": 321,
+            "customer": "319",
+            "lat": "",
+            "lon": "",
+            "address": "31723 CA-128",
+            "city": "YORKVILLE",
+            "state": "CA",
+            "zip": "95494",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 162)"
+        },
+        {
+            "OrigRowNum": 977,
+            "customer": "318",
+            "lat": "",
+            "lon": "",
+            "address": "31723 CA-128",
+            "city": "YORKVILLE",
+            "state": "CA",
+            "zip": "95494",
+            "download": 18.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 254)"
+        },
+        {
+            "OrigRowNum": 769,
+            "customer": "1428",
+            "lat": "",
+            "lon": "",
+            "address": "3260 CLARK ROAD",
+            "city": "PHILO",
+            "state": "CA",
+            "zip": "95466",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1208)"
+        },
+        {
+            "OrigRowNum": 238,
+            "customer": "44",
+            "lat": "",
+            "lon": "",
+            "address": "3401 TAYLOR DRIVE",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 43)"
+        },
+        {
+            "OrigRowNum": 60,
+            "customer": "627",
+            "lat": "",
+            "lon": "",
+            "address": "3490 BLACK BART TRAIL",
+            "city": "REDWOOD VALLEY",
+            "state": "CA",
+            "zip": "95470",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 571)"
+        },
+        {
+            "OrigRowNum": 441,
+            "customer": "653",
+            "lat": "",
+            "lon": "",
+            "address": "3501 TAYLOR DRIVE",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 620)"
+        },
+        {
+            "OrigRowNum": 561,
+            "customer": "989",
+            "lat": "",
+            "lon": "",
+            "address": "3501 TAYLOR DRIVE",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 620)"
+        },
+        {
+            "OrigRowNum": 666,
+            "customer": "1221",
+            "lat": "",
+            "lon": "",
+            "address": "3501 TAYLOR DRIVE",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 620)"
+        },
+        {
+            "OrigRowNum": 830,
+            "customer": "1304",
+            "lat": "",
+            "lon": "",
+            "address": "3501 TAYLOR DRIVE",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 620)"
+        },
+        {
+            "OrigRowNum": 503,
+            "customer": "807",
+            "lat": "",
+            "lon": "",
+            "address": "3501 TAYLOR DR",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 92)"
+        },
+        {
+            "OrigRowNum": 210,
+            "customer": "1153",
+            "lat": "",
+            "lon": "",
+            "address": "395 N BARNES STREET",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1152)"
+        },
+        {
+            "OrigRowNum": 332,
+            "customer": "359",
+            "lat": "",
+            "lon": "",
+            "address": "4050 BURKE HILL RD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 103)"
+        },
+        {
+            "OrigRowNum": 423,
+            "customer": "616",
+            "lat": "",
+            "lon": "",
+            "address": "4050 BURKE HILL RD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 103)"
+        },
+        {
+            "OrigRowNum": 424,
+            "customer": "619",
+            "lat": "",
+            "lon": "",
+            "address": "4050 BURKE HILL RD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 103)"
+        },
+        {
+            "OrigRowNum": 517,
+            "customer": "854",
+            "lat": "",
+            "lon": "",
+            "address": "4080 BURKE HILL RD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 555)"
+        },
+        {
+            "OrigRowNum": 1103,
+            "customer": "239",
+            "lat": "",
+            "lon": "",
+            "address": "4190 STATE HWY 20",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 18.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 490)"
+        },
+        {
+            "OrigRowNum": 750,
+            "customer": "1394",
+            "lat": "",
+            "lon": "",
+            "address": "4200 CALIFORNIA 20",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 95)"
+        },
+        {
+            "OrigRowNum": 752,
+            "customer": "1396",
+            "lat": "",
+            "lon": "",
+            "address": "4200 CALIFORNIA 20",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 95)"
+        },
+        {
+            "OrigRowNum": 792,
+            "customer": "299",
+            "lat": "",
+            "lon": "",
+            "address": "43700 CA-128",
+            "city": "CLOVERDALE",
+            "state": "CA",
+            "zip": "95425",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 301)"
+        },
+        {
+            "OrigRowNum": 124,
+            "customer": "1158",
+            "lat": "",
+            "lon": "",
+            "address": "460 E GOBBI STREET",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 983)"
+        },
+        {
+            "OrigRowNum": 743,
+            "customer": "1383",
+            "lat": "",
+            "lon": "",
+            "address": "460 E GOBBI STREET",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 740)"
+        },
+        {
+            "OrigRowNum": 747,
+            "customer": "1389",
+            "lat": "",
+            "lon": "",
+            "address": "460 E GOBBI STREET",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 740)"
+        },
+        {
+            "OrigRowNum": 772,
+            "customer": "1436",
+            "lat": "",
+            "lon": "",
+            "address": "5451 BLACK BART TRAIL",
+            "city": "REDWOOD VALLEY",
+            "state": "CA",
+            "zip": "95470",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1410)"
+        },
+        {
+            "OrigRowNum": 190,
+            "customer": "831",
+            "lat": "",
+            "lon": "",
+            "address": "6375 N STATE ST",
+            "city": "CALPELLA",
+            "state": "CA",
+            "zip": "95418",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 818)"
+        },
+        {
+            "OrigRowNum": 966,
+            "customer": "261",
+            "lat": "",
+            "lon": "",
+            "address": "7990 CA-128",
+            "city": "PHILO",
+            "state": "CA",
+            "zip": "95466",
+            "download": 18.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 158)"
+        },
+        {
+            "OrigRowNum": 198,
+            "customer": "988",
+            "lat": "",
+            "lon": "",
+            "address": "800 HENSLEY CREEK RD",
+            "city": "UKIAH",
+            "state": "CA",
+            "zip": "95482",
+            "download": 12.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 1,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 894)"
+        }
+    ],
+    "Smarty Corrections": []
+}

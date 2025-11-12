@@ -1,0 +1,51 @@
+# the python version is 1.3.0.2
+Row,Column,Error,Value
+188,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MAPLE DRIVE
+219,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SWISS DRIVE
+304,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MEADOWS LANE
+624,address,PO Boxes not allowed,PO BOX 399
+895,address,Address lacks leading number (optionally prefixed by direction) followed by street name,TOWER
+1194,address,Address lacks leading number (optionally prefixed by direction) followed by street name,MARTIN CAMP
+1217,address,Address lacks leading number (optionally prefixed by direction) followed by street name,NO ADDRESS  BEAVER LAKE RD
+1513,address,Invalid street name format before street ending,7075HI 93 S
+1658,address,Address too short,990
+1672,address,Address lacks leading number (optionally prefixed by direction) followed by street name,UNIT 11
+1984,address,PO Boxes not allowed,P O BOX 5514
+2450,address,Address too short,79
+2723,address,Invalid street name format before street ending,4291/2 1ST AVE S
+2906,address,Address too short,324
+3150,address,PO Boxes not allowed,400 KICKBUSCH LANE PO BOX 130343
+3491,address,Address lacks leading number (optionally prefixed by direction) followed by street name,BRIAN HARTNETT
+3676,address,Address lacks leading number (optionally prefixed by direction) followed by street name,SCOTT GALLOWAY
+1931,state,Invalid State Abbreviation,mt
+711,city,City contains forbidden character,KALISPELL (EVERGREEN)
+918,zip,Invalid ZIP code format,599
+1463,zip,Invalid ZIP code format,59
+1877,zip,Invalid ZIP code format,599
+1921,zip,Invalid ZIP code format,5911
+3068,zip,Invalid ZIP code format,9922
+3369,zip,Invalid ZIP code format,5991
+1166,lat,Latitude for MT must be between 44.358209 and 49.00139,41.6032207
+1166,lon,Paired coordinate reset due to invalid lat,-73.087749
+1166,lon,Longitude for MT must be between -116.050002 and -104.039138,-73.087749
+2082,lat,Latitude for MT must be between 44.358209 and 49.00139,37.736882
+2082,lon,Paired coordinate reset due to invalid lat,-122.5024207
+2082,lon,Longitude for MT must be between -116.050002 and -104.039138,-122.5024207
+2210,lat,Latitude for MT must be between 44.358209 and 49.00139,36.1688235
+2210,lon,Paired coordinate reset due to invalid lat,-115.2185573
+2244,lat,Latitude for MT must be between 44.358209 and 49.00139,39.4643079
+2244,lon,Paired coordinate reset due to invalid lat,-104.5989203
+2893,lat,Latitude for OR must be positive,48.3875791
+2893,lon,Paired coordinate reset due to invalid lat,-114.0657115
+2893,lon,Longitude for OR must be negative,-114.0657115
+3249,lat,Latitude for CA must be positive,47.9897241
+3249,lon,Paired coordinate reset due to invalid lat,-114.1792205
+3559,lat,Latitude for CO must be positive,48.3285306
+3559,lon,Paired coordinate reset due to invalid lat,-114.3291737
+3559,lon,Longitude for CO must be negative,-114.3291737
+918,zip,Invalid ZIP code,599
+1463,zip,Invalid ZIP code,59
+1877,zip,Invalid ZIP code,599
+1921,zip,Invalid ZIP code,5911
+3068,zip,Invalid ZIP code,9922
+3369,zip,Invalid ZIP code,5991

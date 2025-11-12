@@ -1,0 +1,373 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1645,
+        "Rows with Corrections": 2,
+        "Rows with Errors": 41,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 1,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 4,
+        "Total Errors": 41,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.99,
+        "Validation Date": "2025-08-18 13:32:21",
+        "Addresses Sent to Smarty": 2,
+        "Successful Corrections": 2,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.16,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 1644,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "1.0% for 1501-999999 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 1644,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 1501,
+            "max_subscribers": 999999,
+            "max_error_percentage": 1.0,
+            "description": "Very large files: Up to 1% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 1506,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "47038",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1506,
+            "Column": "address",
+            "Original Value": "18010 RIVERSIDE DR",
+            "Corrected Value": "18010 RIVERSIDE DR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1558,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "42544",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 1558,
+            "Column": "address",
+            "Original Value": "21 HOBART LN",
+            "Corrected Value": "21 HOBART LN",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 121,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2035 STEWARTS LN"
+        },
+        {
+            "Row": 147,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2000 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 150,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1980 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1035 STEWART RIDGE RD"
+        },
+        {
+            "Row": 265,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1420 STEWART RIDGE RD"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1515 STEWARTS LN"
+        },
+        {
+            "Row": 371,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2585 STEWART RIDGE RD"
+        },
+        {
+            "Row": 383,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2220 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2215 STEWARTS LN"
+        },
+        {
+            "Row": 467,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2115 STEWART RIDGE RD"
+        },
+        {
+            "Row": 476,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2310 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 488,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3580 STEWART RIDGE RD"
+        },
+        {
+            "Row": 531,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1515 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 768,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "815 SLIPPERY ROCK RD"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4515 STEWART RIDGE RD"
+        },
+        {
+            "Row": 886,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1190 STEWART RIDGE RD"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1335 STEWART RIDGE RD"
+        },
+        {
+            "Row": 977,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1175 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1052,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1900 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1103,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "3845 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1147,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "560 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1152,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "985 STEWARTS LN SPARTA"
+        },
+        {
+            "Row": 1171,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1130 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1176,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1585 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1181,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1160 STEWARTS LN"
+        },
+        {
+            "Row": 1182,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1830 STEWARTS LN"
+        },
+        {
+            "Row": 1183,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1030 STEWARTS LN"
+        },
+        {
+            "Row": 1226,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1190 STEWARTS LN"
+        },
+        {
+            "Row": 1235,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1675 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1236,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1695 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1255,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1780 STEWARTS LN"
+        },
+        {
+            "Row": 1261,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2220 STEWARTS LN"
+        },
+        {
+            "Row": 1354,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4085 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1383,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4140 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1508,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2510 STEWARTS LN"
+        },
+        {
+            "Row": 1552,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "545 STEWARTS LN"
+        },
+        {
+            "Row": 1581,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "1790 STEWART RIDGE RD"
+        },
+        {
+            "Row": 1598,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "2030 STEWARTS LN"
+        },
+        {
+            "Row": 1506,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 1558,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 1622,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 27189)",
+            "Value": "31145"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 1622,
+            "customer": "31145",
+            "lat": 38.48452745,
+            "lon": -84.92253028,
+            "address": "7340 GRATZ RD",
+            "city": "OWENTON",
+            "state": "KY",
+            "zip": "40359",
+            "download": 12.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_pal",
+            "Error": "Data-based duplicate (same as customer 27189)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 1506,
+            "Original Address": "18010 RIVERSIDE DR",
+            "Corrected Address": "18010 RIVERSIDE DR",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "47038",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-18T13:32:20.618184"
+        },
+        {
+            "OrigRowNum": 1558,
+            "Original Address": "21 HOBART LN",
+            "Corrected Address": "21 HOBART LN",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "42544",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-18T13:32:20.618898"
+        }
+    ]
+}

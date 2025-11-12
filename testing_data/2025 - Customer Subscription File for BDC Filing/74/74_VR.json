@@ -1,0 +1,669 @@
+{
+    "Summary": {
+        "Total Rows Processed": 224,
+        "Rows with Corrections": 47,
+        "Rows with Errors": 9,
+        "PO Box Rows Removed": 8,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 6,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 48,
+        "Total Errors": 14,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.18,
+        "Validation Date": "2025-08-26 08:30:40",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 210,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 210,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "5884 WEST 245TH STREET",
+            "Corrected Value": "5884 W 245TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "6750 WEST 261ST STREET",
+            "Corrected Value": "6750 W 261ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 43,
+            "Column": "address",
+            "Original Value": "23219 NORTH 4TH STREET",
+            "Corrected Value": "23219 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 55,
+            "Column": "address",
+            "Original Value": "425 EAST LORD STREET",
+            "Corrected Value": "425 E LORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "5897 WEST 245TH STREET",
+            "Corrected Value": "5897 W 245TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "7414 WEST 253RD STREET",
+            "Corrected Value": "7414 W 253RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 91,
+            "Column": "address",
+            "Original Value": "23033 NORTH 4TH STREET",
+            "Corrected Value": "23033 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 127,
+            "Column": "address",
+            "Original Value": "27999 SOUTH VALENCIA ROAD",
+            "Corrected Value": "27999 S VALENCIA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Original Value": "WEST 285TH STREET",
+            "Corrected Value": "W 285TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Original Value": "WEST 285TH STREET",
+            "Corrected Value": "W 285TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "27404 SOUTH URISH ROAD",
+            "Corrected Value": "27404 S URISH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 139,
+            "Column": "address",
+            "Original Value": "6571 WEST 253RD STREET",
+            "Corrected Value": "6571 W 253RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Original Value": "403 NORTH 3RD STREET",
+            "Corrected Value": "403 N 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "8284 WEST 245TH STREET",
+            "Corrected Value": "8284 W 245TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 143,
+            "Column": "address",
+            "Original Value": "23030 NORTH 4TH STREET",
+            "Corrected Value": "23030 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "10049 WEST US HWY 56",
+            "Corrected Value": "10049 W US HWY 56",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 145,
+            "Column": "address",
+            "Original Value": "28682 SOUTH URISH ROAD",
+            "Corrected Value": "28682 S URISH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 146,
+            "Column": "address",
+            "Original Value": "410 NORTH 6TH STREET",
+            "Corrected Value": "410 N 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 149,
+            "Column": "address",
+            "Original Value": "28133 SOUTH AUBURN ROAD",
+            "Corrected Value": "28133 S AUBURN ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 153,
+            "Column": "address",
+            "Original Value": "5676 WEST 293RD STREET",
+            "Corrected Value": "5676 W 293RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 156,
+            "Column": "address",
+            "Original Value": "30300 SOUTH CARLSON ROAD",
+            "Corrected Value": "30300 S CARLSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 157,
+            "Column": "address",
+            "Original Value": "926 EAST CALIFORNIA STREET",
+            "Corrected Value": "926 E CALIFORNIA STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 159,
+            "Column": "address",
+            "Original Value": "22148 SOUTH CARLSON ROAD",
+            "Corrected Value": "22148 S CARLSON ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 161,
+            "Column": "address",
+            "Original Value": "9942 WEST 253RD STREET",
+            "Corrected Value": "9942 W 253RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 162,
+            "Column": "address",
+            "Original Value": "6320 WEST 217TH STREET",
+            "Corrected Value": "6320 W 217TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 165,
+            "Column": "address",
+            "Original Value": "23260 SOUTH VALENCIA ROAD",
+            "Corrected Value": "23260 S VALENCIA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 169,
+            "Column": "address",
+            "Original Value": "11472 WEST 229TH STREET",
+            "Corrected Value": "11472 W 229TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "4527 WEST 245TH STREET",
+            "Corrected Value": "4527 W 245TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 175,
+            "Column": "address",
+            "Original Value": "22437 SOUTH HOCH ROAD",
+            "Corrected Value": "22437 S HOCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 176,
+            "Column": "address",
+            "Original Value": "27699 SOUTH HOCH ROAD",
+            "Corrected Value": "27699 S HOCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "23823 SOUTH VALENCIA ROAD",
+            "Corrected Value": "23823 S VALENCIA ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "632 EAST LORD STREET",
+            "Corrected Value": "632 E LORD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "9201 WEST 269TH STREET",
+            "Corrected Value": "9201 W 269TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "10929 WEST 325TH STREET",
+            "Corrected Value": "10929 W 325TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 189,
+            "Column": "address",
+            "Original Value": "22534 SOUTH DAVIS ROAD",
+            "Corrected Value": "22534 S DAVIS ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 191,
+            "Column": "address",
+            "Original Value": "426 NORTH 3RD STREET",
+            "Corrected Value": "426 N 3RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 193,
+            "Column": "address",
+            "Original Value": "300 WEST 4TH STREET",
+            "Corrected Value": "300 W 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "8660 WEST 269TH STREET",
+            "Corrected Value": "8660 W 269TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Original Value": "7920 WEST 253RD STREET",
+            "Corrected Value": "7920 W 253RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "8218 WEST 273RD STREET",
+            "Corrected Value": "8218 W 273RD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "234 NORTH 5TH STREET",
+            "Corrected Value": "234 N 5TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 203,
+            "Column": "address",
+            "Original Value": "8065 WEST 269TH STREET",
+            "Corrected Value": "8065 W 269TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 204,
+            "Column": "address",
+            "Original Value": "603 NORTH 6TH STREET",
+            "Corrected Value": "603 N 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Original Value": "7312 WEST 221ST STREET",
+            "Corrected Value": "7312 W 221ST STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Original Value": "405 NORTH 6TH STREET",
+            "Corrected Value": "405 N 6TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 209,
+            "Column": "address",
+            "Original Value": "23219 NORTH 4TH STREET",
+            "Corrected Value": "23219 N 4TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "314 NORTH MARTIN STREET",
+            "Corrected Value": "314 N MARTIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "1966412",
+            "Corrected Value": "1966412_002",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 94,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 61"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 410"
+        },
+        {
+            "Row": 128,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "W 285TH STREET"
+        },
+        {
+            "Row": 129,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "W 285TH STREET"
+        },
+        {
+            "Row": 48,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1955556_001",
+            "Value": "1955556"
+        },
+        {
+            "Row": 60,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1955569"
+        },
+        {
+            "Row": 95,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1955612"
+        },
+        {
+            "Row": 129,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1966412_002",
+            "Value": "1966412"
+        },
+        {
+            "Row": 137,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2030596"
+        },
+        {
+            "Row": 95,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1955612)",
+            "Value": "1955612"
+        },
+        {
+            "Row": 137,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2030596)",
+            "Value": "2030596"
+        },
+        {
+            "Row": 60,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1955569)",
+            "Value": "1955569"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 94,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 61"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 410"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 95,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 232"
+        },
+        {
+            "Row": 112,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 61"
+        },
+        {
+            "Row": 115,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 410"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 60,
+            "customer": "1955569",
+            "lat": 38.6377122,
+            "lon": -95.8290791,
+            "address": "402 N 4TH ST",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 95,
+            "customer": "1955612",
+            "lat": 38.6338981,
+            "lon": -95.8258207,
+            "address": "PO BOX 232",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 137,
+            "customer": "2030596",
+            "lat": 38.6375512,
+            "lon": -95.8158951,
+            "address": "1048 LAING STREET",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 95,
+            "customer": "1955612",
+            "lat": 38.6338981,
+            "lon": -95.8258207,
+            "address": "PO BOX 232",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1955612)"
+        },
+        {
+            "OrigRowNum": 137,
+            "customer": "2030596",
+            "lat": 38.6375512,
+            "lon": -95.8158951,
+            "address": "1048 LAING STREET",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 25.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2030596)"
+        },
+        {
+            "OrigRowNum": 60,
+            "customer": "1955569",
+            "lat": 38.6377122,
+            "lon": -95.8290791,
+            "address": "402 N 4TH ST",
+            "city": "OSAGE CITY",
+            "state": "KS",
+            "zip": "66523",
+            "download": 10.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1955569)"
+        }
+    ],
+    "Smarty Corrections": []
+}

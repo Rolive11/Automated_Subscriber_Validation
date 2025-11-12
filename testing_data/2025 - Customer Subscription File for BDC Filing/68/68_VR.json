@@ -1,0 +1,227 @@
+{
+    "Summary": {
+        "Total Rows Processed": 146,
+        "Rows with Corrections": 20,
+        "Rows with Errors": 1,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 20,
+        "Total Errors": 1,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 0.13,
+        "Validation Date": "2025-08-21 10:29:09",
+        "Addresses Sent to Smarty": 0,
+        "Successful Corrections": 0,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.0,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 145,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "0.0% for 0-200 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 145,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 0,
+            "max_subscribers": 200,
+            "max_error_percentage": 0.0,
+            "description": "Small files: Zero tolerance for address errors"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 7,
+            "Column": "address",
+            "Original Value": "23400 SOUTHWEST 187TH AVENUE",
+            "Corrected Value": "23400 SW 187TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "32981 SW 210th Ave",
+            "Corrected Value": "32981 SW 210TH AVE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "16550 SW 298th Terrace",
+            "Corrected Value": "16550 SW 298TH TERRACE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 40,
+            "Column": "address",
+            "Original Value": "20570 SOUTHWEST 368TH STREET",
+            "Corrected Value": "20570 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 41,
+            "Column": "address",
+            "Original Value": "20960 SOUTHWEST 368TH STREET",
+            "Corrected Value": "20960 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 42,
+            "Column": "address",
+            "Original Value": "19782 SW 325th St",
+            "Corrected Value": "19782 SW 325TH ST",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "16750 SW 301 Street",
+            "Corrected Value": "16750 SW 301 STREET",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "32070 SOUTHWEST 196TH AVENUE",
+            "Corrected Value": "32070 SW 196TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 94,
+            "Column": "address",
+            "Original Value": "34975 SW 188th Ave",
+            "Corrected Value": "34975 SW 188TH AVE",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 96,
+            "Column": "address",
+            "Original Value": "20460 SOUTHWEST 292ND STREET",
+            "Corrected Value": "20460 SW 292ND STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 100,
+            "Column": "address",
+            "Original Value": "21590 SOUTHWEST 368TH STREET",
+            "Corrected Value": "21590 SW 368TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 136,
+            "Column": "address",
+            "Original Value": "24395 SOUTHWEST 202ND AVENUE",
+            "Corrected Value": "24395 SW 202ND AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "20351 SOUTHWEST 256TH STREET",
+            "Corrected Value": "20351 SW 256TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 22,
+            "Column": "address",
+            "Original Value": "14100 SOUTHWEST 199TH AVENUE",
+            "Corrected Value": "14100 SW 199TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 38,
+            "Column": "address",
+            "Original Value": "35200 SOUTHWEST 212TH AVENUE",
+            "Corrected Value": "35200 SW 212TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 50,
+            "Column": "address",
+            "Original Value": "17 N FLAGLER AVE",
+            "Corrected Value": "17 N",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 89,
+            "Column": "address",
+            "Original Value": "35500 SOUTHWEST 213TH AVENUE",
+            "Corrected Value": "35500 SW 213TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 102,
+            "Column": "address",
+            "Original Value": "14800 SOUTHWEST 184TH STREET",
+            "Corrected Value": "14800 SW 184TH STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 125,
+            "Column": "address",
+            "Original Value": "23750 SOUTHWEST 119TH AVENUE",
+            "Corrected Value": "23750 SW 119TH AVENUE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 131,
+            "Column": "address",
+            "Original Value": "47 NORTH KROME AVE",
+            "Corrected Value": "47 N KROME AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 50,
+            "Column": "address",
+            "Error": "Address too short",
+            "Value": "17 N"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 50,
+            "address": "17 N",
+            "Error": "Address too short"
+        }
+    ],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": []
+}

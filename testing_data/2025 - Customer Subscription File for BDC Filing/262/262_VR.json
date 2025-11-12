@@ -1,0 +1,5662 @@
+{
+    "Summary": {
+        "Total Rows Processed": 1094,
+        "Rows with Corrections": 161,
+        "Rows with Errors": 199,
+        "PO Box Rows Removed": 12,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 137,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 174,
+        "Total Errors": 310,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.56,
+        "Validation Date": "2025-08-14 07:25:15",
+        "Addresses Sent to Smarty": 8,
+        "Successful Corrections": 8,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.3,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 945,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 945,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 2,
+            "Column": "address",
+            "Original Value": "6411 EAST ARCADE ROAD",
+            "Corrected Value": "6411 E ARCADE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "8881 LOWER ST APARTMENT 2",
+            "Corrected Value": "8881 LOWER ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 35,
+            "Column": "address",
+            "Original Value": "8904 BALCOM BEACH RD LOT 40",
+            "Corrected Value": "8904 BALCOM BEACH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 37,
+            "Column": "address",
+            "Original Value": "7967 WEST LAKE RD",
+            "Corrected Value": "7967 W LAKE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 48,
+            "Column": "address",
+            "Original Value": "8904 BALCOM BEACH RD LOT # 44",
+            "Corrected Value": "8904 BALCOM BEACH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Original Value": "WEST CENTERVILLE ROAD",
+            "Corrected Value": "W CENTERVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 80,
+            "Column": "address",
+            "Original Value": "9057 WEST MAIN STREET",
+            "Corrected Value": "9057 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 83,
+            "Column": "address",
+            "Original Value": "6292 HYDE FLATS",
+            "Corrected Value": "6292 HYDE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 84,
+            "Column": "address",
+            "Original Value": "9108 WEST MAIN STREET",
+            "Corrected Value": "9108 W MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 141,
+            "Column": "address",
+            "Original Value": "9756 EAST CENTERVILLE RD",
+            "Corrected Value": "9756 E CENTERVILLE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 163,
+            "Column": "address",
+            "Original Value": "7 NORTH PARK STREET",
+            "Corrected Value": "7 N PARK STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "11924 NORTH RD",
+            "Corrected Value": "11924 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 177,
+            "Column": "address",
+            "Original Value": "9501 WEST BRANCH",
+            "Corrected Value": "9501 W BRANCH",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 178,
+            "Column": "address",
+            "Original Value": "9151 EAST CENTERVILLE ROAD",
+            "Corrected Value": "9151 E CENTERVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Original Value": "9058 WEST BRANCH RD",
+            "Corrected Value": "9058 W BRANCH RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 210,
+            "Column": "address",
+            "Original Value": "3349 WEST YORKSHIRE ROAD",
+            "Corrected Value": "3349 W YORKSHIRE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 212,
+            "Column": "address",
+            "Original Value": "9685 WEST CENTERVILLE RD",
+            "Corrected Value": "9685 W CENTERVILLE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 268,
+            "Column": "address",
+            "Original Value": "6658 OLD EAST ARCADE RD",
+            "Corrected Value": "6658 OLD E ARCADE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 279,
+            "Column": "address",
+            "Original Value": "7473 LAKE HIRAM LOT #121",
+            "Corrected Value": "7473 LAKE HIRAM",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "address",
+            "Original Value": "11614 NORTH RD",
+            "Corrected Value": "11614 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 322,
+            "Column": "address",
+            "Original Value": "9062 WEST BRANCH RD",
+            "Corrected Value": "9062 W BRANCH RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 327,
+            "Column": "address",
+            "Original Value": "8453 NORTH BRANCH ROAD",
+            "Corrected Value": "8453 N BRANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "address",
+            "Original Value": "7941 WEST LAKE ROAD",
+            "Corrected Value": "7941 W LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 346,
+            "Column": "address",
+            "Original Value": "8 SOUTH STREET",
+            "Corrected Value": "8 S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 349,
+            "Column": "address",
+            "Original Value": "6385 HYDE FLAT RD",
+            "Corrected Value": "6385 HYDE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 355,
+            "Column": "address",
+            "Original Value": "11664 NORTH RD",
+            "Corrected Value": "11664 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 365,
+            "Column": "address",
+            "Original Value": "6362 HYDE FLATS ROAD",
+            "Corrected Value": "6362 HYDE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 378,
+            "Column": "address",
+            "Original Value": "966 WEST HUGHES ROAD",
+            "Corrected Value": "966 W HUGHES ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 410,
+            "Column": "address",
+            "Original Value": "7473 HIRAM ROAD LOT #5",
+            "Corrected Value": "7473 HIRAM ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 411,
+            "Column": "address",
+            "Original Value": "531 WEST MAIN",
+            "Corrected Value": "531 W MAIN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 417,
+            "Column": "address",
+            "Original Value": "11906 NORTH RD",
+            "Corrected Value": "11906 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 427,
+            "Column": "address",
+            "Original Value": "6064 HYDE FLAT ROAD",
+            "Corrected Value": "6064 HYDE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 439,
+            "Column": "address",
+            "Original Value": "8932 BALCOM BEACH ROAD UNIT #8",
+            "Corrected Value": "8932 BALCOM BEACH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 443,
+            "Column": "address",
+            "Original Value": "8902 RYAN INLET RD LOT 54",
+            "Corrected Value": "8902 RYAN INLET RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 451,
+            "Column": "address",
+            "Original Value": "7473 HIRAM ROAD COTTAGE #70",
+            "Corrected Value": "7473 HIRAM ROAD COTTAGE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "7473 HIRAM LAKE LOT #7",
+            "Corrected Value": "7473 HIRAM LAKE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 459,
+            "Column": "address",
+            "Original Value": "8901 COUNTY ROAD 49",
+            "Corrected Value": "8901 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "4682 RT 305 SOUTH",
+            "Corrected Value": "4682 RT 305 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 494,
+            "Column": "address",
+            "Original Value": "30 MAIN STREET APT #4",
+            "Corrected Value": "30 MAIN STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 496,
+            "Column": "address",
+            "Original Value": "6235 RT 98 NORTH",
+            "Corrected Value": "6235 RT 98 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 498,
+            "Column": "address",
+            "Original Value": "11509 NORTH RD",
+            "Corrected Value": "11509 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "11115 SCOTCH RD LOT # 1",
+            "Corrected Value": "11115 SCOTCH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "6801 EAST ARCADE ROAD",
+            "Corrected Value": "6801 E ARCADE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 527,
+            "Column": "address",
+            "Original Value": "6523 EAST HILL ROAD",
+            "Corrected Value": "6523 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 537,
+            "Column": "address",
+            "Original Value": "6341 EAST HILL ROAD",
+            "Corrected Value": "6341 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 560,
+            "Column": "address",
+            "Original Value": "9371 WEST BRANCH ROAD",
+            "Corrected Value": "9371 W BRANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 561,
+            "Column": "address",
+            "Original Value": "9068 WEST BRANCH ROAD",
+            "Corrected Value": "9068 W BRANCH ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Original Value": "3116 WEST HILL ROAD",
+            "Corrected Value": "3116 W HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 586,
+            "Column": "address",
+            "Original Value": "21 EAST MAIN STREET",
+            "Corrected Value": "21 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 587,
+            "Column": "address",
+            "Original Value": "11943 NORTH ROAD",
+            "Corrected Value": "11943 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 593,
+            "Column": "address",
+            "Original Value": "6544 EAST HILL ROAD",
+            "Corrected Value": "6544 E HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 605,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD LOT 146",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 611,
+            "Column": "address",
+            "Original Value": "9263 WEST CENTERVILLE ROAD",
+            "Corrected Value": "9263 W CENTERVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 625,
+            "Column": "address",
+            "Original Value": "5879 WEST RIVER ROAD",
+            "Corrected Value": "5879 W RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Original Value": "11225 WEST RIVER ROAD",
+            "Corrected Value": "11225 W RIVER ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 666,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD #56",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 673,
+            "Column": "address",
+            "Original Value": "50 STREAMSIDE ROAD #4951",
+            "Corrected Value": "50 STREAMSIDE ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 683,
+            "Column": "address",
+            "Original Value": "23 EAST MAIN STREET",
+            "Corrected Value": "23 E MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 691,
+            "Column": "address",
+            "Original Value": "10 WOODRUFF ST LOT 3",
+            "Corrected Value": "10 WOODRUFF ST",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 704,
+            "Column": "address",
+            "Original Value": "11115 SCOTCH ROAD LOT 10",
+            "Corrected Value": "11115 SCOTCH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 707,
+            "Column": "address",
+            "Original Value": "11115 SCOTCH ROAD LOT 4",
+            "Corrected Value": "11115 SCOTCH ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 708,
+            "Column": "address",
+            "Original Value": "11629 NORTH RD",
+            "Corrected Value": "11629 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 729,
+            "Column": "address",
+            "Original Value": "6494 COUNTY ROAD 20 E",
+            "Corrected Value": "6494 CR 20 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "8932 BALCOM BEACH RD LOT 10",
+            "Corrected Value": "8932 BALCOM BEACH RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "11630 NORTH ROAD",
+            "Corrected Value": "11630 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 771,
+            "Column": "address",
+            "Original Value": "9814 WEST CENTERVILLE ROAD",
+            "Corrected Value": "9814 W CENTERVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 783,
+            "Column": "address",
+            "Original Value": "11023 MAIN STREET CONDO #5",
+            "Corrected Value": "11023 MAIN STREET CONDO",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 824,
+            "Column": "address",
+            "Original Value": "11779 NORTH ROAD",
+            "Corrected Value": "11779 N ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 862,
+            "Column": "address",
+            "Original Value": "7951 WEST LAKE ROAD",
+            "Corrected Value": "7951 W LAKE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 873,
+            "Column": "address",
+            "Original Value": "8904 BALCOM BEACH ROAD COTTAGE #7",
+            "Corrected Value": "8904 BALCOM BEACH ROAD COTTAGE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Original Value": "3007 WEST HILL ROAD",
+            "Corrected Value": "3007 W HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Original Value": "2 E MAIN STREET APT 22",
+            "Corrected Value": "2 E MAIN STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 904,
+            "Column": "address",
+            "Original Value": "11871 NORTH RD",
+            "Corrected Value": "11871 N RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 905,
+            "Column": "address",
+            "Original Value": "3000 WEST HILL ROAD",
+            "Corrected Value": "3000 W HILL ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 907,
+            "Column": "address",
+            "Original Value": "64 W MAIN STREET APT 2",
+            "Corrected Value": "64 W MAIN STREET",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 930,
+            "Column": "address",
+            "Original Value": "10041 WEST CENTERVILLE ROAD",
+            "Corrected Value": "10041 W CENTERVILLE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 944,
+            "Column": "address",
+            "Original Value": "8900 HILLCREST STREAMSIDE LOT #33",
+            "Corrected Value": "8900 HILLCREST STREAMSIDE",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "lat",
+            "Original Value": 42.3866547,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 684,
+            "Column": "lon",
+            "Original Value": -78.2054972,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "lat",
+            "Original Value": 42.3624494,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "lon",
+            "Original Value": -78.2293148,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "780110",
+            "Corrected Value": "780110_034",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 7,
+            "Column": "customer",
+            "Original Value": "1968947",
+            "Corrected Value": "1968947_014",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "customer",
+            "Original Value": "1031126",
+            "Corrected Value": "1031126_003",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "customer",
+            "Original Value": "1031126",
+            "Corrected Value": "1031126_004",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "770222",
+            "Corrected Value": "770222_025",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "customer",
+            "Original Value": "770513",
+            "Corrected Value": "770513_026",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "771713",
+            "Corrected Value": "771713_030",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 10,
+            "Column": "customer",
+            "Original Value": "771713",
+            "Corrected Value": "771713_031",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "customer",
+            "Original Value": "771713",
+            "Corrected Value": "771713_032",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 17,
+            "Column": "address",
+            "Original Value": "10458 COUNTY ROAD 13",
+            "Corrected Value": "10458 CR 13",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 20,
+            "Column": "address",
+            "Original Value": "9750 COUNTY ROAD 7B",
+            "Corrected Value": "9750 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 54,
+            "Column": "address",
+            "Original Value": "2164 COUNTY RD 24",
+            "Corrected Value": "2164 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 69,
+            "Column": "address",
+            "Original Value": "8917 COUNTY ROAD 23",
+            "Corrected Value": "8917 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "9756 COUNTY ROAD 7B",
+            "Corrected Value": "9756 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 106,
+            "Column": "address",
+            "Original Value": "2211 COUNTY RD 24",
+            "Corrected Value": "2211 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 118,
+            "Column": "address",
+            "Original Value": "9379 COUNTY RD 7B",
+            "Corrected Value": "9379 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 144,
+            "Column": "address",
+            "Original Value": "9699 COUNTY RD 23",
+            "Corrected Value": "9699 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 179,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 181,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 184,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 185,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 186,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 187,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 188,
+            "Column": "address",
+            "Original Value": "2275 COUNTY RD 24",
+            "Corrected Value": "2275 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 194,
+            "Column": "address",
+            "Original Value": "4029 COUNTY RD 6",
+            "Corrected Value": "4029 CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 201,
+            "Column": "address",
+            "Original Value": "8561 COUNTY ROAD 41",
+            "Corrected Value": "8561 CR 41",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 213,
+            "Column": "address",
+            "Original Value": "2204 COUNTY ROAD 24",
+            "Corrected Value": "2204 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 242,
+            "Column": "address",
+            "Original Value": "5873 COUNTY ROAD 4",
+            "Corrected Value": "5873 CR 4",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 266,
+            "Column": "address",
+            "Original Value": "8160 COUNTY ROAD 49",
+            "Corrected Value": "8160 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 273,
+            "Column": "address",
+            "Original Value": "9954 COUNTY RD 7B",
+            "Corrected Value": "9954 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 291,
+            "Column": "address",
+            "Original Value": "1068 COUNTY RD 13C",
+            "Corrected Value": "1068 CR 13C",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 314,
+            "Column": "address",
+            "Original Value": "2188 COUNTY ROAD 24",
+            "Corrected Value": "2188 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 329,
+            "Column": "address",
+            "Original Value": "11023 COUNTY ROAD 36",
+            "Corrected Value": "11023 CR 36",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 350,
+            "Column": "address",
+            "Original Value": "9260 COUNTY RD 23",
+            "Corrected Value": "9260 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 354,
+            "Column": "address",
+            "Original Value": "8738 COUNTY ROAD 49",
+            "Corrected Value": "8738 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 364,
+            "Column": "address",
+            "Original Value": "6174 COUNTY ROAD 20 E",
+            "Corrected Value": "6174 CR 20 E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 403,
+            "Column": "address",
+            "Original Value": "5832 COUNTY ROAD 4",
+            "Corrected Value": "5832 CR 4",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 408,
+            "Column": "address",
+            "Original Value": "997 COUNTY RD 13C",
+            "Corrected Value": "997 CR 13C",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 412,
+            "Column": "address",
+            "Original Value": "8086 COUNTY RD 49",
+            "Corrected Value": "8086 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 447,
+            "Column": "address",
+            "Original Value": "8110 B COUNTY ROAD 49",
+            "Corrected Value": "8110 B CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 544,
+            "Column": "address",
+            "Original Value": "8863 COUNTY ROAD 49",
+            "Corrected Value": "8863 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 548,
+            "Column": "address",
+            "Original Value": "8668 COUNTY ROAD 49",
+            "Corrected Value": "8668 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 552,
+            "Column": "address",
+            "Original Value": "2207 COUNTY ROAD 24",
+            "Corrected Value": "2207 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 553,
+            "Column": "address",
+            "Original Value": "10422 COUNTY ROAD 23",
+            "Corrected Value": "10422 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 558,
+            "Column": "address",
+            "Original Value": "7975 COUNTY ROAD 15",
+            "Corrected Value": "7975 CR 15",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 559,
+            "Column": "address",
+            "Original Value": "10240 COUNTY ROAD 15",
+            "Corrected Value": "10240 CR 15",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 597,
+            "Column": "address",
+            "Original Value": "6821 COUNTY ROAD 20  E",
+            "Corrected Value": "6821 CR 20  E",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 603,
+            "Column": "address",
+            "Original Value": "8900 COUNTY ROAD 49",
+            "Corrected Value": "8900 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 607,
+            "Column": "address",
+            "Original Value": "8328 COUNTY ROAD 49",
+            "Corrected Value": "8328 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 609,
+            "Column": "address",
+            "Original Value": "8447 COUNTY ROAD 49",
+            "Corrected Value": "8447 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "6525 COUNTY ROAD 43",
+            "Corrected Value": "6525 CR 43",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 636,
+            "Column": "address",
+            "Original Value": "9378F COUNTY ROAD 3",
+            "Corrected Value": "9378F CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 640,
+            "Column": "address",
+            "Original Value": "5761 COUNTY ROAD 31A",
+            "Corrected Value": "5761 CR 31A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "10810 COUNTY ROAD 16",
+            "Corrected Value": "10810 CR 16",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 644,
+            "Column": "address",
+            "Original Value": "9378 COUNTY ROAD 3",
+            "Corrected Value": "9378 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Original Value": "9378 COUNTY ROAD 3",
+            "Corrected Value": "9378 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 649,
+            "Column": "address",
+            "Original Value": "8961 COUNTY ROAD 3",
+            "Corrected Value": "8961 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 650,
+            "Column": "address",
+            "Original Value": "8935 COUNTY ROAD 3",
+            "Corrected Value": "8935 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 654,
+            "Column": "address",
+            "Original Value": "11274 COUNTY ROAD 36",
+            "Corrected Value": "11274 CR 36",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 659,
+            "Column": "address",
+            "Original Value": "9011 COUNTY ROAD 3",
+            "Corrected Value": "9011 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 662,
+            "Column": "address",
+            "Original Value": "8380 COUNTY RD 3",
+            "Corrected Value": "8380 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 663,
+            "Column": "address",
+            "Original Value": "8668 COUNTY ROAD 3",
+            "Corrected Value": "8668 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Original Value": "11008 COUNTY ROAD 36",
+            "Corrected Value": "11008 CR 36",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 687,
+            "Column": "address",
+            "Original Value": "2310 COUNTY RD. 24",
+            "Corrected Value": "2310 CR. 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 739,
+            "Column": "address",
+            "Original Value": "5507 COUNTY ROAD 4",
+            "Corrected Value": "5507 CR 4",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 765,
+            "Column": "address",
+            "Original Value": "5858 COUNTY ROAD 31A",
+            "Corrected Value": "5858 CR 31A",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Original Value": "8121 COUNTY ROAD 15",
+            "Corrected Value": "8121 CR 15",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 784,
+            "Column": "address",
+            "Original Value": "4151 COUNTY ROAD 6",
+            "Corrected Value": "4151 CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 799,
+            "Column": "address",
+            "Original Value": "9661 COUNTY ROAD 7B",
+            "Corrected Value": "9661 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 833,
+            "Column": "address",
+            "Original Value": "8730 COUNTY RD 49",
+            "Corrected Value": "8730 CR 49",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "9730 COUNTY ROAD 7B",
+            "Corrected Value": "9730 CR 7B",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 880,
+            "Column": "address",
+            "Original Value": "9339 COUNTY ROAD 23",
+            "Corrected Value": "9339 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 888,
+            "Column": "address",
+            "Original Value": "5649 COUNTY ROAD 4",
+            "Corrected Value": "5649 CR 4",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 903,
+            "Column": "address",
+            "Original Value": "8813 COUNTY RD 3",
+            "Corrected Value": "8813 CR 3",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD # 36",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 46,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD # 72",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 276,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD # 42",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 533,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD # 47",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 557,
+            "Column": "address",
+            "Original Value": "7473 HIRAM RD # 163",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 591,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 591,
+            "Column": "address",
+            "Original Value": "7473 HIRAM ROAD#200",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "zip",
+            "Original Value": "14009",
+            "Corrected Value": "14009",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 592,
+            "Column": "address",
+            "Original Value": "7473 HIRAM ROAD#200",
+            "Corrected Value": "7473 HIRAM RD",
+            "Correction Type": "Smarty Address Correction with Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 741,
+            "Column": "zip",
+            "Original Value": "14884",
+            "Corrected Value": "14884",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 741,
+            "Column": "address",
+            "Original Value": "11020 STONE ROAD CONDO#11",
+            "Corrected Value": "11020 STONE RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 8,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8885B LOWER STREET"
+        },
+        {
+            "Row": 13,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HIRAM RD"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 129"
+        },
+        {
+            "Row": 21,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8885A LOWER STREET"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 224"
+        },
+        {
+            "Row": 59,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "W CENTERVILLE ROAD"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 126"
+        },
+        {
+            "Row": 90,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "W CENTERVILLE RD"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 343"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "10 STEVENS AVENUE"
+        },
+        {
+            "Row": 140,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "RTE 243"
+        },
+        {
+            "Row": 197,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ROUTE 243"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8573A SUNSET DRIVE"
+        },
+        {
+            "Row": 226,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "POB 315"
+        },
+        {
+            "Row": 397,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8083A LAKESHORE DR"
+        },
+        {
+            "Row": 435,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SLUSHER HILL RD"
+        },
+        {
+            "Row": 490,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "11321 FLANAGAN ROAD"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "PEAVY RD AND RTE 15"
+        },
+        {
+            "Row": 551,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "8745 STEBBINS RD"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 617,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 618,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 619,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5406A ACKERMAN HILL RD"
+        },
+        {
+            "Row": 626,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 628,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 629,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 630,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL RD"
+        },
+        {
+            "Row": 636,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "9378F COUNTY ROAD 3"
+        },
+        {
+            "Row": 638,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 651,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "5406B AKERMAN HILL ROAD"
+        },
+        {
+            "Row": 661,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNSET DRIVE"
+        },
+        {
+            "Row": 674,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 675,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 676,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 677,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 678,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 679,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 680,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 681,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "MESSER HILL ROAD"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8770B BARBER ROAD"
+        },
+        {
+            "Row": 694,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "6313 FLYNN ROAD"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 721,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 723,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 724,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 725,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 728,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 730,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 733,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 734,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 736,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 737,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "8489A GLEN ROAD"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALMA ROD & GUN CLUB"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 745,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN"
+        },
+        {
+            "Row": 746,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALMA ROD & GUN CLUB"
+        },
+        {
+            "Row": 748,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALMA ROD & GUN CLUB"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "8741 BARBER RD P O BOX 254"
+        },
+        {
+            "Row": 787,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN"
+        },
+        {
+            "Row": 789,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 793,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALMA ROD & GUN CLUB"
+        },
+        {
+            "Row": 794,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 795,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 796,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 798,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 800,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 801,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 802,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 803,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 804,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 806,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 810,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 811,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 819,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 822,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 826,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 827,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 832,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 857,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 858,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 859,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 860,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 863,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 864,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 865,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 866,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 867,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 870,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 879,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "ALMA ROD & GUN CLUB"
+        },
+        {
+            "Row": 883,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 884,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 887,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 895,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 909,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 911,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 915,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 916,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 917,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 918,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 919,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "HARWOOD HAVEN CAMPGROUND"
+        },
+        {
+            "Row": 920,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "GLEN RD"
+        },
+        {
+            "Row": 921,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "STREAMSIDE LOT #48"
+        },
+        {
+            "Row": 922,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 923,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 924,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 925,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 926,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 927,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 928,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 929,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 931,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 933,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 934,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 936,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 937,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 938,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 939,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 940,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 941,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 945,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 946,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "SUNNY HILL CAMPGROUND"
+        },
+        {
+            "Row": 684,
+            "Column": "lat",
+            "Error": "Latitude for GA must be positive",
+            "Value": "42.3866547"
+        },
+        {
+            "Row": 684,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-78.2054972"
+        },
+        {
+            "Row": 684,
+            "Column": "lon",
+            "Error": "Longitude for GA must be negative",
+            "Value": "-78.2054972"
+        },
+        {
+            "Row": 685,
+            "Column": "lat",
+            "Error": "Latitude for GA must be positive",
+            "Value": "42.3624494"
+        },
+        {
+            "Row": 685,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-78.2293148"
+        },
+        {
+            "Row": 685,
+            "Column": "lon",
+            "Error": "Longitude for GA must be negative",
+            "Value": "-78.2293148"
+        },
+        {
+            "Row": 250,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1031126_001",
+            "Value": "1031126"
+        },
+        {
+            "Row": 251,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 252,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 253,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 254,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1031126_002",
+            "Value": "1031126"
+        },
+        {
+            "Row": 255,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1031126_003",
+            "Value": "1031126"
+        },
+        {
+            "Row": 256,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1031126_004",
+            "Value": "1031126"
+        },
+        {
+            "Row": 257,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 258,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 259,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1031126"
+        },
+        {
+            "Row": 285,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1111644"
+        },
+        {
+            "Row": 289,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1114127_005",
+            "Value": "1114127"
+        },
+        {
+            "Row": 290,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1114127_006",
+            "Value": "1114127"
+        },
+        {
+            "Row": 320,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1158292_007",
+            "Value": "1158292"
+        },
+        {
+            "Row": 338,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1181302_008",
+            "Value": "1181302"
+        },
+        {
+            "Row": 339,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1181302_009",
+            "Value": "1181302"
+        },
+        {
+            "Row": 340,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1181302"
+        },
+        {
+            "Row": 341,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1181302"
+        },
+        {
+            "Row": 462,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1526906_010",
+            "Value": "1526906"
+        },
+        {
+            "Row": 492,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1608860_011",
+            "Value": "1608860"
+        },
+        {
+            "Row": 493,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1608860"
+        },
+        {
+            "Row": 592,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1895371"
+        },
+        {
+            "Row": 669,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1966668_012",
+            "Value": "1966668"
+        },
+        {
+            "Row": 671,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1967044"
+        },
+        {
+            "Row": 676,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1968947"
+        },
+        {
+            "Row": 677,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1968947"
+        },
+        {
+            "Row": 678,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1968947"
+        },
+        {
+            "Row": 679,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1968947_013",
+            "Value": "1968947"
+        },
+        {
+            "Row": 680,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1968947_014",
+            "Value": "1968947"
+        },
+        {
+            "Row": 681,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1968947"
+        },
+        {
+            "Row": 697,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2026916_015",
+            "Value": "2026916"
+        },
+        {
+            "Row": 764,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2191340"
+        },
+        {
+            "Row": 778,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2225953"
+        },
+        {
+            "Row": 854,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "2401412"
+        },
+        {
+            "Row": 23,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769562_016",
+            "Value": "769562"
+        },
+        {
+            "Row": 24,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769562_017",
+            "Value": "769562"
+        },
+        {
+            "Row": 39,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769673_018",
+            "Value": "769673"
+        },
+        {
+            "Row": 62,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769832_019",
+            "Value": "769832"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769844_020",
+            "Value": "769844"
+        },
+        {
+            "Row": 74,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 769913_021",
+            "Value": "769913"
+        },
+        {
+            "Row": 102,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770090_022",
+            "Value": "770090"
+        },
+        {
+            "Row": 105,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770102_023",
+            "Value": "770102"
+        },
+        {
+            "Row": 120,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770222_024",
+            "Value": "770222"
+        },
+        {
+            "Row": 121,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770222_025",
+            "Value": "770222"
+        },
+        {
+            "Row": 152,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "770513"
+        },
+        {
+            "Row": 153,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "770513"
+        },
+        {
+            "Row": 154,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "770513"
+        },
+        {
+            "Row": 155,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770513_026",
+            "Value": "770513"
+        },
+        {
+            "Row": 160,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770600_027",
+            "Value": "770600"
+        },
+        {
+            "Row": 167,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 770918_028",
+            "Value": "770918"
+        },
+        {
+            "Row": 173,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 771341_029",
+            "Value": "771341"
+        },
+        {
+            "Row": 180,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 182,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 771713_030",
+            "Value": "771713"
+        },
+        {
+            "Row": 183,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 184,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 185,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 186,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "771713"
+        },
+        {
+            "Row": 187,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 771713_031",
+            "Value": "771713"
+        },
+        {
+            "Row": 188,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 771713_032",
+            "Value": "771713"
+        },
+        {
+            "Row": 193,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 771824_033",
+            "Value": "771824"
+        },
+        {
+            "Row": 204,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 780110_034",
+            "Value": "780110"
+        },
+        {
+            "Row": 493,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1608860_011)",
+            "Value": "1608860"
+        },
+        {
+            "Row": 746,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2156398)",
+            "Value": "2159748"
+        },
+        {
+            "Row": 879,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2156398)",
+            "Value": "2450429"
+        },
+        {
+            "Row": 676,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968947)",
+            "Value": "1968947"
+        },
+        {
+            "Row": 677,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968947)",
+            "Value": "1968947"
+        },
+        {
+            "Row": 678,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968947)",
+            "Value": "1968947"
+        },
+        {
+            "Row": 681,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968947_014)",
+            "Value": "1968947"
+        },
+        {
+            "Row": 721,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2114103"
+        },
+        {
+            "Row": 723,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2116737"
+        },
+        {
+            "Row": 725,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2117241"
+        },
+        {
+            "Row": 728,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2121646"
+        },
+        {
+            "Row": 730,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2122696"
+        },
+        {
+            "Row": 789,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2259679"
+        },
+        {
+            "Row": 795,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2266555"
+        },
+        {
+            "Row": 798,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2268238"
+        },
+        {
+            "Row": 802,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2269937"
+        },
+        {
+            "Row": 806,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2273023"
+        },
+        {
+            "Row": 810,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2275506"
+        },
+        {
+            "Row": 816,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2284920"
+        },
+        {
+            "Row": 818,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2285993"
+        },
+        {
+            "Row": 827,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2304146"
+        },
+        {
+            "Row": 856,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2411323"
+        },
+        {
+            "Row": 866,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2429926"
+        },
+        {
+            "Row": 870,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2433720"
+        },
+        {
+            "Row": 887,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2466005"
+        },
+        {
+            "Row": 915,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2531598"
+        },
+        {
+            "Row": 923,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2536612"
+        },
+        {
+            "Row": 924,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2536833"
+        },
+        {
+            "Row": 925,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2536949"
+        },
+        {
+            "Row": 926,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2537061"
+        },
+        {
+            "Row": 927,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2537639"
+        },
+        {
+            "Row": 934,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2553778"
+        },
+        {
+            "Row": 938,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2554624"
+        },
+        {
+            "Row": 940,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2555463"
+        },
+        {
+            "Row": 941,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2111633)",
+            "Value": "2556503"
+        },
+        {
+            "Row": 718,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2111471"
+        },
+        {
+            "Row": 724,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2117015"
+        },
+        {
+            "Row": 733,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2130730"
+        },
+        {
+            "Row": 736,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2137473"
+        },
+        {
+            "Row": 811,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2277861"
+        },
+        {
+            "Row": 826,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2303084"
+        },
+        {
+            "Row": 859,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2415222"
+        },
+        {
+            "Row": 861,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2427985"
+        },
+        {
+            "Row": 867,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2430810"
+        },
+        {
+            "Row": 922,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2536495"
+        },
+        {
+            "Row": 928,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2537811"
+        },
+        {
+            "Row": 933,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2553654"
+        },
+        {
+            "Row": 939,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1968931)",
+            "Value": "2554794"
+        },
+        {
+            "Row": 734,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2130765"
+        },
+        {
+            "Row": 735,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2131700"
+        },
+        {
+            "Row": 794,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2266199"
+        },
+        {
+            "Row": 796,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2266876"
+        },
+        {
+            "Row": 801,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2269001"
+        },
+        {
+            "Row": 803,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2270022"
+        },
+        {
+            "Row": 858,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2415189"
+        },
+        {
+            "Row": 911,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2523522"
+        },
+        {
+            "Row": 916,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2531734"
+        },
+        {
+            "Row": 918,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2531956"
+        },
+        {
+            "Row": 929,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2538169"
+        },
+        {
+            "Row": 931,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2552696"
+        },
+        {
+            "Row": 937,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950708)",
+            "Value": "2554621"
+        },
+        {
+            "Row": 618,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950558)",
+            "Value": "1950610"
+        },
+        {
+            "Row": 626,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950558)",
+            "Value": "1950645"
+        },
+        {
+            "Row": 860,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950558)",
+            "Value": "2415420"
+        },
+        {
+            "Row": 946,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950558)",
+            "Value": "2559728"
+        },
+        {
+            "Row": 892,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2270270)",
+            "Value": "2474206"
+        },
+        {
+            "Row": 152,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 770513)",
+            "Value": "770513"
+        },
+        {
+            "Row": 153,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 770513)",
+            "Value": "770513"
+        },
+        {
+            "Row": 154,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 770513)",
+            "Value": "770513"
+        },
+        {
+            "Row": 872,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2321853)",
+            "Value": "2434969"
+        },
+        {
+            "Row": 857,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287914)",
+            "Value": "2411493"
+        },
+        {
+            "Row": 863,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287914)",
+            "Value": "2428680"
+        },
+        {
+            "Row": 865,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287914)",
+            "Value": "2428958"
+        },
+        {
+            "Row": 883,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287914)",
+            "Value": "2461172"
+        },
+        {
+            "Row": 895,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2287914)",
+            "Value": "2476125"
+        },
+        {
+            "Row": 910,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2462335)",
+            "Value": "2523205"
+        },
+        {
+            "Row": 917,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2462335)",
+            "Value": "2531949"
+        },
+        {
+            "Row": 909,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2268686)",
+            "Value": "2519470"
+        },
+        {
+            "Row": 919,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2268686)",
+            "Value": "2532286"
+        },
+        {
+            "Row": 864,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2314684)",
+            "Value": "2428947"
+        },
+        {
+            "Row": 743,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1171634)",
+            "Value": "2158111"
+        },
+        {
+            "Row": 35,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 769649)",
+            "Value": "769652"
+        },
+        {
+            "Row": 341,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1181302_009)",
+            "Value": "1181302"
+        },
+        {
+            "Row": 340,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1181302_008)",
+            "Value": "1181302"
+        },
+        {
+            "Row": 252,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126_001)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 251,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 253,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 257,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126_004)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 258,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126_004)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 259,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1031126_004)",
+            "Value": "1031126"
+        },
+        {
+            "Row": 183,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713_030)",
+            "Value": "771713"
+        },
+        {
+            "Row": 184,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713_030)",
+            "Value": "771713"
+        },
+        {
+            "Row": 185,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713_030)",
+            "Value": "771713"
+        },
+        {
+            "Row": 186,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713_030)",
+            "Value": "771713"
+        },
+        {
+            "Row": 180,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713)",
+            "Value": "771713"
+        },
+        {
+            "Row": 181,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 771713)",
+            "Value": "771713"
+        },
+        {
+            "Row": 740,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1428595)",
+            "Value": "2148833"
+        },
+        {
+            "Row": 671,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1967044)",
+            "Value": "1967044"
+        },
+        {
+            "Row": 646,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1950729)",
+            "Value": "1950740"
+        },
+        {
+            "Row": 764,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2191340)",
+            "Value": "2191340"
+        },
+        {
+            "Row": 592,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1895371)",
+            "Value": "1895371"
+        },
+        {
+            "Row": 88,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 769805)",
+            "Value": "770015"
+        },
+        {
+            "Row": 150,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 769805)",
+            "Value": "770480"
+        },
+        {
+            "Row": 264,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 769805)",
+            "Value": "1042034"
+        },
+        {
+            "Row": 422,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 770258)",
+            "Value": "1438457"
+        },
+        {
+            "Row": 335,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 770084)",
+            "Value": "1177904"
+        },
+        {
+            "Row": 285,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1111644)",
+            "Value": "1111644"
+        },
+        {
+            "Row": 778,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2225953)",
+            "Value": "2225953"
+        },
+        {
+            "Row": 854,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 2401412)",
+            "Value": "2401412"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 129"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 224"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 126"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 343"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "8741 BARBER RD P O BOX 254"
+        },
+        {
+            "Row": 19,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 129"
+        },
+        {
+            "Row": 27,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 224"
+        },
+        {
+            "Row": 79,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 378"
+        },
+        {
+            "Row": 86,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 126"
+        },
+        {
+            "Row": 117,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 343"
+        },
+        {
+            "Row": 752,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "8741 BARBER RD P O BOX 254"
+        }
+    ],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 251,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 252,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 253,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 257,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 258,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 259,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 285,
+            "customer": "1111644",
+            "lat": 42.607956,
+            "lon": -77.808914,
+            "address": "8430 GREEN RD",
+            "city": "DANSVILLE",
+            "state": "NY",
+            "zip": "14437",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 340,
+            "customer": "1181302",
+            "lat": 42.4392294,
+            "lon": -78.427931,
+            "address": "10091 PIGEON HILL RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 341,
+            "customer": "1181302",
+            "lat": 42.4392294,
+            "lon": -78.427931,
+            "address": "10091 PIGEON HILL RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 20.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 493,
+            "customer": "1608860",
+            "lat": 40.7222993,
+            "lon": -73.9959041,
+            "address": "2679 HOOPER RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 592,
+            "customer": "1895371",
+            "lat": 42.5339513,
+            "lon": -78.4230737,
+            "address": "7473 HIRAM ROAD#200",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 671,
+            "customer": "1967044",
+            "lat": 42.4804036,
+            "lon": -78.2466801,
+            "address": "8936 COUNTY RIAD 3",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 676,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 677,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 678,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 681,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 764,
+            "customer": "2191340",
+            "lat": 42.532469,
+            "lon": -78.334863,
+            "address": "7722 HIRAM ROAD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 778,
+            "customer": "2225953",
+            "lat": 42.6120727,
+            "lon": -78.4477293,
+            "address": "5848 MICHIGAN ROAD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 854,
+            "customer": "2401412",
+            "lat": 42.699114,
+            "lon": -77.878657,
+            "address": "6798 BEGOLE RD",
+            "city": "MOUNT MORRIS",
+            "state": "NY",
+            "zip": "14510",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 152,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 153,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 154,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 180,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 8.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 8.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 183,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 184,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 185,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 186,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 493,
+            "customer": "1608860",
+            "lat": 40.7222993,
+            "lon": -73.9959041,
+            "address": "2679 HOOPER RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1608860_011)"
+        },
+        {
+            "OrigRowNum": 746,
+            "customer": "2159748",
+            "lat": 42.0125651,
+            "lon": -78.0576538,
+            "address": "ALMA ROD & GUN CLUB",
+            "city": "ALMA",
+            "state": "NY",
+            "zip": "14708",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2156398)"
+        },
+        {
+            "OrigRowNum": 879,
+            "customer": "2450429",
+            "lat": 42.0125651,
+            "lon": -78.0576538,
+            "address": "ALMA ROD & GUN CLUB",
+            "city": "ALMA",
+            "state": "NY",
+            "zip": "14708",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2156398)"
+        },
+        {
+            "OrigRowNum": 676,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968947)"
+        },
+        {
+            "OrigRowNum": 677,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968947)"
+        },
+        {
+            "OrigRowNum": 678,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968947)"
+        },
+        {
+            "OrigRowNum": 681,
+            "customer": "1968947",
+            "lat": 42.0899153,
+            "lon": -78.1732234,
+            "address": "MESSER HILL ROAD",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968947_014)"
+        },
+        {
+            "OrigRowNum": 721,
+            "customer": "2114103",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 723,
+            "customer": "2116737",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 725,
+            "customer": "2117241",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 728,
+            "customer": "2121646",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 730,
+            "customer": "2122696",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 789,
+            "customer": "2259679",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 795,
+            "customer": "2266555",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 798,
+            "customer": "2268238",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 802,
+            "customer": "2269937",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 806,
+            "customer": "2273023",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 810,
+            "customer": "2275506",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 816,
+            "customer": "2284920",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 818,
+            "customer": "2285993",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 827,
+            "customer": "2304146",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 856,
+            "customer": "2411323",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 866,
+            "customer": "2429926",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 870,
+            "customer": "2433720",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 887,
+            "customer": "2466005",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 915,
+            "customer": "2531598",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 923,
+            "customer": "2536612",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 924,
+            "customer": "2536833",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 925,
+            "customer": "2536949",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 926,
+            "customer": "2537061",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 927,
+            "customer": "2537639",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 934,
+            "customer": "2553778",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 938,
+            "customer": "2554624",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 940,
+            "customer": "2555463",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 941,
+            "customer": "2556503",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2111633)"
+        },
+        {
+            "OrigRowNum": 718,
+            "customer": "2111471",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 724,
+            "customer": "2117015",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 733,
+            "customer": "2130730",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 736,
+            "customer": "2137473",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 811,
+            "customer": "2277861",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 826,
+            "customer": "2303084",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 859,
+            "customer": "2415222",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 861,
+            "customer": "2427985",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 867,
+            "customer": "2430810",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 922,
+            "customer": "2536495",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 928,
+            "customer": "2537811",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 933,
+            "customer": "2553654",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 939,
+            "customer": "2554794",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1968931)"
+        },
+        {
+            "OrigRowNum": 734,
+            "customer": "2130765",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 735,
+            "customer": "2131700",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 794,
+            "customer": "2266199",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 796,
+            "customer": "2266876",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 801,
+            "customer": "2269001",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 803,
+            "customer": "2270022",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 858,
+            "customer": "2415189",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 911,
+            "customer": "2523522",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 916,
+            "customer": "2531734",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 918,
+            "customer": "2531956",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 929,
+            "customer": "2538169",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 931,
+            "customer": "2552696",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 937,
+            "customer": "2554621",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950708)"
+        },
+        {
+            "OrigRowNum": 618,
+            "customer": "1950610",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950558)"
+        },
+        {
+            "OrigRowNum": 626,
+            "customer": "1950645",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950558)"
+        },
+        {
+            "OrigRowNum": 860,
+            "customer": "2415420",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950558)"
+        },
+        {
+            "OrigRowNum": 946,
+            "customer": "2559728",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14715",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950558)"
+        },
+        {
+            "OrigRowNum": 892,
+            "customer": "2474206",
+            "lat": 42.094467,
+            "lon": -78.1784359,
+            "address": "SUNNY HILL CAMPGROUND",
+            "city": "BOLIVAR",
+            "state": "NY",
+            "zip": "14760",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2270270)"
+        },
+        {
+            "OrigRowNum": 152,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 770513)"
+        },
+        {
+            "OrigRowNum": 153,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 770513)"
+        },
+        {
+            "OrigRowNum": 154,
+            "customer": "770513",
+            "lat": 42.3650705,
+            "lon": -78.2526205,
+            "address": "9020 TAYLOR HILL RD",
+            "city": "CANEADEA",
+            "state": "NY",
+            "zip": "14717",
+            "download": 20.0,
+            "upload": 20.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 770513)"
+        },
+        {
+            "OrigRowNum": 872,
+            "customer": "2434969",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVIILE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2321853)"
+        },
+        {
+            "OrigRowNum": 857,
+            "customer": "2411493",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287914)"
+        },
+        {
+            "OrigRowNum": 863,
+            "customer": "2428680",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287914)"
+        },
+        {
+            "OrigRowNum": 865,
+            "customer": "2428958",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287914)"
+        },
+        {
+            "OrigRowNum": 883,
+            "customer": "2461172",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287914)"
+        },
+        {
+            "OrigRowNum": 895,
+            "customer": "2476125",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2287914)"
+        },
+        {
+            "OrigRowNum": 910,
+            "customer": "2523205",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2462335)"
+        },
+        {
+            "OrigRowNum": 917,
+            "customer": "2531949",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2462335)"
+        },
+        {
+            "OrigRowNum": 909,
+            "customer": "2519470",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2268686)"
+        },
+        {
+            "OrigRowNum": 919,
+            "customer": "2532286",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2268686)"
+        },
+        {
+            "OrigRowNum": 864,
+            "customer": "2428947",
+            "lat": 42.3774838,
+            "lon": -78.3929688,
+            "address": "HARWOOD HAVEN CAMPGROUND",
+            "city": "FRANKLINVILLE",
+            "state": "NY",
+            "zip": "14737",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2314684)"
+        },
+        {
+            "OrigRowNum": 743,
+            "customer": "2158111",
+            "lat": 42.3886578,
+            "lon": -78.2015025,
+            "address": "8932 BALCOM BEACH RD",
+            "city": "RUSHFORD",
+            "state": "NY",
+            "zip": "14777",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1171634)"
+        },
+        {
+            "OrigRowNum": 35,
+            "customer": "769652",
+            "lat": 42.389076,
+            "lon": -78.199759,
+            "address": "8904 BALCOM BEACH RD",
+            "city": "RUSHFORD",
+            "state": "NY",
+            "zip": "14777",
+            "download": 6.0,
+            "upload": 4.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 769649)"
+        },
+        {
+            "OrigRowNum": 341,
+            "customer": "1181302",
+            "lat": 42.4392294,
+            "lon": -78.427931,
+            "address": "10091 PIGEON HILL RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 20.0,
+            "upload": 15.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1181302_009)"
+        },
+        {
+            "OrigRowNum": 340,
+            "customer": "1181302",
+            "lat": 42.4392294,
+            "lon": -78.427931,
+            "address": "10091 PIGEON HILL RD",
+            "city": "DELEVAN",
+            "state": "NY",
+            "zip": "14042",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1181302_008)"
+        },
+        {
+            "OrigRowNum": 252,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126_001)"
+        },
+        {
+            "OrigRowNum": 251,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126)"
+        },
+        {
+            "OrigRowNum": 253,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126)"
+        },
+        {
+            "OrigRowNum": 257,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126_004)"
+        },
+        {
+            "OrigRowNum": 258,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126_004)"
+        },
+        {
+            "OrigRowNum": 259,
+            "customer": "1031126",
+            "lat": 42.4456194,
+            "lon": -78.3357794,
+            "address": "10826 OSMUN RD",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 6.0,
+            "upload": 3.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1031126_004)"
+        },
+        {
+            "OrigRowNum": 183,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713_030)"
+        },
+        {
+            "OrigRowNum": 184,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713_030)"
+        },
+        {
+            "OrigRowNum": 185,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713_030)"
+        },
+        {
+            "OrigRowNum": 186,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713_030)"
+        },
+        {
+            "OrigRowNum": 180,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 8.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713)"
+        },
+        {
+            "OrigRowNum": 181,
+            "customer": "771713",
+            "lat": 42.4764816,
+            "lon": -77.8561351,
+            "address": "2275 COUNTY RD 24",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 8.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 771713)"
+        },
+        {
+            "OrigRowNum": 740,
+            "customer": "2148833",
+            "lat": 42.4785204,
+            "lon": -77.850463,
+            "address": "11017 FIRESIDE DRIVE",
+            "city": "SWAIN",
+            "state": "NY",
+            "zip": "14884",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1428595)"
+        },
+        {
+            "OrigRowNum": 671,
+            "customer": "1967044",
+            "lat": 42.4804036,
+            "lon": -78.2466801,
+            "address": "8936 COUNTY RIAD 3",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 15.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1967044)"
+        },
+        {
+            "OrigRowNum": 646,
+            "customer": "1950740",
+            "lat": 42.4818529,
+            "lon": -78.2731255,
+            "address": "9378 COUNTY ROAD 3",
+            "city": "FREEDOM",
+            "state": "NY",
+            "zip": "14065",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1950729)"
+        },
+        {
+            "OrigRowNum": 764,
+            "customer": "2191340",
+            "lat": 42.532469,
+            "lon": -78.334863,
+            "address": "7722 HIRAM ROAD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2191340)"
+        },
+        {
+            "OrigRowNum": 592,
+            "customer": "1895371",
+            "lat": 42.5339513,
+            "lon": -78.4230737,
+            "address": "7473 HIRAM ROAD#200",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 25.0,
+            "upload": 25.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1895371)"
+        },
+        {
+            "OrigRowNum": 88,
+            "customer": "770015",
+            "lat": 42.541283,
+            "lon": -78.337166,
+            "address": "7473 HIRAM RD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 769805)"
+        },
+        {
+            "OrigRowNum": 150,
+            "customer": "770480",
+            "lat": 42.541283,
+            "lon": -78.337166,
+            "address": "7473 HIRAM RD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 769805)"
+        },
+        {
+            "OrigRowNum": 264,
+            "customer": "1042034",
+            "lat": 42.541283,
+            "lon": -78.337166,
+            "address": "7473 HIRAM RD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 12.0,
+            "upload": 8.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 769805)"
+        },
+        {
+            "OrigRowNum": 422,
+            "customer": "1438457",
+            "lat": 42.541283,
+            "lon": -78.337166,
+            "address": "7473 HIRAM RD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 2.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 770258)"
+        },
+        {
+            "OrigRowNum": 335,
+            "customer": "1177904",
+            "lat": 42.541283,
+            "lon": -78.337166,
+            "address": "7473 HIRAM RD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 4.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 770084)"
+        },
+        {
+            "OrigRowNum": 285,
+            "customer": "1111644",
+            "lat": 42.607956,
+            "lon": -77.808914,
+            "address": "8430 GREEN RD",
+            "city": "DANSVILLE",
+            "state": "NY",
+            "zip": "14437",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1111644)"
+        },
+        {
+            "OrigRowNum": 778,
+            "customer": "2225953",
+            "lat": 42.6120727,
+            "lon": -78.4477293,
+            "address": "5848 MICHIGAN ROAD",
+            "city": "ARCADE",
+            "state": "NY",
+            "zip": "14009",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2225953)"
+        },
+        {
+            "OrigRowNum": 854,
+            "customer": "2401412",
+            "lat": 42.699114,
+            "lon": -77.878657,
+            "address": "6798 BEGOLE RD",
+            "city": "MOUNT MORRIS",
+            "state": "NY",
+            "zip": "14510",
+            "download": 25.0,
+            "upload": 9.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 2401412)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 5,
+            "Original Address": "7473 HIRAM RD # 36",
+            "Corrected Address": "7473 HIRAM RD",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.351187"
+        },
+        {
+            "OrigRowNum": 46,
+            "Original Address": "7473 HIRAM RD # 72",
+            "Corrected Address": "7473 HIRAM RD LOT 72",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.352791"
+        },
+        {
+            "OrigRowNum": 276,
+            "Original Address": "7473 HIRAM RD # 42",
+            "Corrected Address": "7473 HIRAM RD",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.353475"
+        },
+        {
+            "OrigRowNum": 533,
+            "Original Address": "7473 HIRAM RD # 47",
+            "Corrected Address": "7473 HIRAM RD",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.354032"
+        },
+        {
+            "OrigRowNum": 557,
+            "Original Address": "7473 HIRAM RD # 163",
+            "Corrected Address": "7473 HIRAM RD",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.354803"
+        },
+        {
+            "OrigRowNum": 591,
+            "Original Address": "7473 HIRAM ROAD#200",
+            "Corrected Address": "7473 HIRAM RD LOT 200",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.355630"
+        },
+        {
+            "OrigRowNum": 592,
+            "Original Address": "7473 HIRAM ROAD#200",
+            "Corrected Address": "7473 HIRAM RD LOT 200",
+            "Original ZIP": "14009",
+            "Corrected ZIP": "14009",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.356262"
+        },
+        {
+            "OrigRowNum": 741,
+            "Original Address": "11020 STONE ROAD CONDO#11",
+            "Corrected Address": "11020 STONE RD",
+            "Original ZIP": "14884",
+            "Corrected ZIP": "14884",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-14T07:25:14.356871"
+        }
+    ]
+}

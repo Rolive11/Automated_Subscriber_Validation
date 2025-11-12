@@ -1,0 +1,2585 @@
+{
+    "Summary": {
+        "Total Rows Processed": 971,
+        "Rows with Corrections": 139,
+        "Rows with Errors": 61,
+        "PO Box Rows Removed": 2,
+        "Invalid Address Rows Removed": 1,
+        "Removed Duplicate Rows": 50,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 141,
+        "Total Errors": 91,
+        "Street Ending Errors": 0,
+        "Validation Time (seconds)": 1.01,
+        "Validation Date": "2025-08-19 11:36:11",
+        "Addresses Sent to Smarty": 3,
+        "Successful Corrections": 3,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.19,
+        "File Status": "Valid",
+        "Validation Reason": "File is valid after removing 1 rows (0.11%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 918,
+        "Address Errors Found": 1,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.11,
+        "Threshold Used": "2.0% for 501-1500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File is valid after removing 1 rows (0.11%) with address issues. Remaining data is ready for FCC BDC submission.",
+        "total_subscribers": 918,
+        "address_error_count": 1,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.11,
+        "threshold_used": {
+            "min_subscribers": 501,
+            "max_subscribers": 1500,
+            "max_error_percentage": 2.0,
+            "description": "Large files: Up to 2% address errors allowed"
+        },
+        "problematic_address_rows": [
+            897
+        ],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 21,
+            "Column": "address",
+            "Original Value": "5962 US 224 WEST",
+            "Corrected Value": "5962 US 224 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 23,
+            "Column": "address",
+            "Original Value": "5387 SETTLEMENT EAST RD",
+            "Corrected Value": "5387 SETTLEMENT E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 34,
+            "Column": "address",
+            "Original Value": "303 EAST ST",
+            "Corrected Value": "303 E ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 51,
+            "Column": "address",
+            "Original Value": "7254 NORTH AUBURN RD",
+            "Corrected Value": "7254 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 52,
+            "Column": "address",
+            "Original Value": "5366 NORTH GREENFIELD RD",
+            "Corrected Value": "5366 N GREENFIELD RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 81,
+            "Column": "address",
+            "Original Value": "4794 US HIGHWAY 224 WEST",
+            "Corrected Value": "4794 US HIGHWAY 224 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "address",
+            "Original Value": "216 OLD STATE RD NORTH",
+            "Corrected Value": "216 OLD STATE RD N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 132,
+            "Column": "address",
+            "Original Value": "5803 WILLARD WEST RD",
+            "Corrected Value": "5803 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 155,
+            "Column": "address",
+            "Original Value": "827 SECTION LINE RD 30 NORTH",
+            "Corrected Value": "827 SECTION LINE RD 30 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 174,
+            "Column": "address",
+            "Original Value": "2445 ST RT 61 SOUTH",
+            "Corrected Value": "2445 ST RT 61 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 180,
+            "Column": "address",
+            "Original Value": "3263 ST RT 224 WEST",
+            "Corrected Value": "3263 ST RT 224 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 182,
+            "Column": "address",
+            "Original Value": "405 WEST WALTON ST",
+            "Corrected Value": "405 W WALTON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 200,
+            "Column": "address",
+            "Original Value": "1901 ST RT4 NORTH",
+            "Corrected Value": "1901 ST RT4 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 219,
+            "Column": "address",
+            "Original Value": "770 STATE ROUTE 162 NORTH",
+            "Corrected Value": "770 STATE ROUTE 162 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 229,
+            "Column": "address",
+            "Original Value": "7024 NORTH AUBURN RD",
+            "Corrected Value": "7024 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 231,
+            "Column": "address",
+            "Original Value": "7228 NORTH AUBURN RD",
+            "Corrected Value": "7228 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 234,
+            "Column": "address",
+            "Original Value": "7236 NORTH AUBURN RD",
+            "Corrected Value": "7236 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 244,
+            "Column": "address",
+            "Original Value": "4995 WILLARD WEST RD",
+            "Corrected Value": "4995 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 258,
+            "Column": "address",
+            "Original Value": "952 PERU OLENA RD WEST",
+            "Corrected Value": "952 PERU OLENA RD W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 261,
+            "Column": "address",
+            "Original Value": "3255 PERU WEST SECTION LINE RD",
+            "Corrected Value": "3255 PERU W SECTION LINE RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "address",
+            "Original Value": "319 1 2 WEST MAPLE ST",
+            "Corrected Value": "319 1 2 W MAPLE ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 294,
+            "Column": "address",
+            "Original Value": "411 NORTH MAIN ST",
+            "Corrected Value": "411 N MAIN ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 331,
+            "Column": "address",
+            "Original Value": "6143 WILLARD WEST RD",
+            "Corrected Value": "6143 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 332,
+            "Column": "address",
+            "Original Value": "6143 WILLARD WEST RD",
+            "Corrected Value": "6143 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 345,
+            "Column": "address",
+            "Original Value": "4529 WEST ST RTE 162",
+            "Corrected Value": "4529 W ST RTE 162",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 348,
+            "Column": "address",
+            "Original Value": "6520 WEST TOWNLINE RD 12",
+            "Corrected Value": "6520 W TOWNLINE RD 12",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 356,
+            "Column": "address",
+            "Original Value": "7339 NORTH AUBURN",
+            "Corrected Value": "7339 N AUBURN",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 357,
+            "Column": "address",
+            "Original Value": "5127 LONDON WEST RD",
+            "Corrected Value": "5127 LONDON W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 362,
+            "Column": "address",
+            "Original Value": "3315 MAY RD APT 598",
+            "Corrected Value": "3315 MAY RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 372,
+            "Column": "address",
+            "Original Value": "4787 WILLARD WEST RD",
+            "Corrected Value": "4787 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 373,
+            "Column": "address",
+            "Original Value": "841 US RT 224 WEST",
+            "Corrected Value": "841 US RT 224 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 376,
+            "Column": "address",
+            "Original Value": "5002 STATE RT 61 SOUTH",
+            "Corrected Value": "5002 STATE RT 61 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 414,
+            "Column": "address",
+            "Original Value": "1036 SOUTH STATE ROUTE 4",
+            "Corrected Value": "1036 S STATE ROUTE 4",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 421,
+            "Column": "address",
+            "Original Value": "6291 WILLARD WEST RD",
+            "Corrected Value": "6291 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 433,
+            "Column": "address",
+            "Original Value": "351 PERU CENTER NORTH",
+            "Corrected Value": "351 PERU CENTER N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 441,
+            "Column": "address",
+            "Original Value": "4579 SETTLEMENT EAST RD",
+            "Corrected Value": "4579 SETTLEMENT E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 455,
+            "Column": "address",
+            "Original Value": "11658 EAST TOWNSHIP RD 44",
+            "Corrected Value": "11658 E TOWNSHIP RD 44",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 469,
+            "Column": "address",
+            "Original Value": "5945 WILLARD WEST RD",
+            "Corrected Value": "5945 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 486,
+            "Column": "address",
+            "Original Value": "4824 SETTLEMENT EAST RD",
+            "Corrected Value": "4824 SETTLEMENT E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 489,
+            "Column": "address",
+            "Original Value": "3909 KOK RD #33",
+            "Corrected Value": "3909 KOK RD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 499,
+            "Column": "address",
+            "Original Value": "7438 NORTH AUBURN RD",
+            "Corrected Value": "7438 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 504,
+            "Column": "address",
+            "Original Value": "408 EAST WALTON ST",
+            "Corrected Value": "408 E WALTON ST",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 508,
+            "Column": "address",
+            "Original Value": "4982 LONDON WEST ROAD",
+            "Corrected Value": "4982 LONDON W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 513,
+            "Column": "address",
+            "Original Value": "11693 EAST US 224",
+            "Corrected Value": "11693 E US 224",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 549,
+            "Column": "address",
+            "Original Value": "131 STATE ROUTE 99 SOUTH",
+            "Corrected Value": "131 STATE ROUTE 99 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 564,
+            "Column": "address",
+            "Original Value": "6037 WILLARD WEST RD",
+            "Corrected Value": "6037 WILLARD W RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 576,
+            "Column": "address",
+            "Original Value": "15061 EAST TOWNSHIP ROAD 124",
+            "Corrected Value": "15061 E TOWNSHIP ROAD 124",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 580,
+            "Column": "address",
+            "Original Value": "12959 E COUNTY ROAD 12",
+            "Corrected Value": "12959 E CR 12",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 582,
+            "Column": "address",
+            "Original Value": "4265 STATE ROUTE 61 LOT 39",
+            "Corrected Value": "4265 STATE ROUTE 61",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 584,
+            "Column": "address",
+            "Original Value": "16977 EAST TOWNSHIP ROAD 88",
+            "Corrected Value": "16977 E TOWNSHIP ROAD 88",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 589,
+            "Column": "address",
+            "Original Value": "11903 EAST TOWNSHIP 44",
+            "Corrected Value": "11903 E TOWNSHIP 44",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 596,
+            "Column": "address",
+            "Original Value": "14290 E COUNTY ROAD 12",
+            "Corrected Value": "14290 E CR 12",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 613,
+            "Column": "address",
+            "Original Value": "519 SOUTH MYRTLE AVE",
+            "Corrected Value": "519 S MYRTLE AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 616,
+            "Column": "address",
+            "Original Value": "386 NEW STATE ROAD NORTH",
+            "Corrected Value": "386 NEW STATE ROAD N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 624,
+            "Column": "address",
+            "Original Value": "12740 E COUNTY ROAD 56",
+            "Corrected Value": "12740 E CR 56",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 634,
+            "Column": "address",
+            "Original Value": "2802 SECTION LINE ROAD 30 SOUTH",
+            "Corrected Value": "2802 SECTION LINE ROAD 30 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 638,
+            "Column": "address",
+            "Original Value": "4908 STATE ROUTE 598 APT 36",
+            "Corrected Value": "4908 STATE ROUTE 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 640,
+            "Column": "address",
+            "Original Value": "7303 SOUTH TOWSHIP ROAD 187",
+            "Corrected Value": "7303 S TOWSHIP ROAD 187",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 641,
+            "Column": "address",
+            "Original Value": "4889 OHIO 598 APT 29",
+            "Corrected Value": "4889 OHIO 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 646,
+            "Column": "address",
+            "Original Value": "4505 NORTH GREENFIELD ROAD",
+            "Corrected Value": "4505 N GREENFIELD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 655,
+            "Column": "address",
+            "Original Value": "172 TOWNLINE ROAD 131 EAST",
+            "Corrected Value": "172 TOWNLINE ROAD 131 E",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 659,
+            "Column": "address",
+            "Original Value": "7609 SOUTH TOWNSHIP ROAD 187",
+            "Corrected Value": "7609 S TOWNSHIP ROAD 187",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 665,
+            "Column": "address",
+            "Original Value": "4427 NORTH GREENFIELD ROAD",
+            "Corrected Value": "4427 N GREENFIELD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 668,
+            "Column": "address",
+            "Original Value": "1716 SOUTH STATE ROUTE 4",
+            "Corrected Value": "1716 S STATE ROUTE 4",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 671,
+            "Column": "address",
+            "Original Value": "15461 EAST TOWNSHIP ROAD 104",
+            "Corrected Value": "15461 E TOWNSHIP ROAD 104",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 672,
+            "Column": "address",
+            "Original Value": "7553 NORTH AUBURN RD",
+            "Corrected Value": "7553 N AUBURN RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 685,
+            "Column": "address",
+            "Original Value": "1266 SECTION LINE ROAD 30 NORTH",
+            "Corrected Value": "1266 SECTION LINE ROAD 30 N",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 691,
+            "Column": "address",
+            "Original Value": "3761 PERU WEST SECTION LINE ROAD",
+            "Corrected Value": "3761 PERU W SECTION LINE ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 693,
+            "Column": "address",
+            "Original Value": "5025 SOUTH TOWNSHIP ROAD 79",
+            "Corrected Value": "5025 S TOWNSHIP ROAD 79",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 694,
+            "Column": "address",
+            "Original Value": "920 STATE ROUTE 162 SOUTH",
+            "Corrected Value": "920 STATE ROUTE 162 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 705,
+            "Column": "address",
+            "Original Value": "2485 SECTION LINE ROAD 30 SOUTH",
+            "Corrected Value": "2485 SECTION LINE ROAD 30 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 716,
+            "Column": "address",
+            "Original Value": "6275 WEST STATE ROUTE 162",
+            "Corrected Value": "6275 W STATE ROUTE 162",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 718,
+            "Column": "address",
+            "Original Value": "16418 EAST TOWNSHIP ROAD 9",
+            "Corrected Value": "16418 E TOWNSHIP ROAD 9",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 719,
+            "Column": "address",
+            "Original Value": "4937 STATE ROUTE 61 SOUTH",
+            "Corrected Value": "4937 STATE ROUTE 61 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 720,
+            "Column": "address",
+            "Original Value": "12731 E COUNTY RD 56",
+            "Corrected Value": "12731 E CR 56",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 726,
+            "Column": "address",
+            "Original Value": "11661 E COUNTY ROAD 56",
+            "Corrected Value": "11661 E CR 56",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 731,
+            "Column": "address",
+            "Original Value": "5331 STATE ROUTE 61 SOUTH",
+            "Corrected Value": "5331 STATE ROUTE 61 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 735,
+            "Column": "address",
+            "Original Value": "5072 NORTH GREENFIELD ROAD",
+            "Corrected Value": "5072 N GREENFIELD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 736,
+            "Column": "address",
+            "Original Value": "5630 STATE ROUTE 61 SOUTH",
+            "Corrected Value": "5630 STATE ROUTE 61 S",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 737,
+            "Column": "address",
+            "Original Value": "15595 EAST TOWNSHIP ROAD 12",
+            "Corrected Value": "15595 E TOWNSHIP ROAD 12",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 742,
+            "Column": "address",
+            "Original Value": "11119 E COUNTY ROAD 58",
+            "Corrected Value": "11119 E CR 58",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 743,
+            "Column": "address",
+            "Original Value": "6074 US 224 WEST",
+            "Corrected Value": "6074 US 224 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 744,
+            "Column": "address",
+            "Original Value": "5418 S COUNTY ROAD 35",
+            "Corrected Value": "5418 S CR 35",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 756,
+            "Column": "address",
+            "Original Value": "1096 EAST STATE ROUTE 162",
+            "Corrected Value": "1096 E STATE ROUTE 162",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 764,
+            "Column": "address",
+            "Original Value": "302 LIBERTY STEET",
+            "Corrected Value": "302 LIBERTY",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 779,
+            "Column": "address",
+            "Original Value": "6578 SOUTH TOWNSHIP ROAD 79",
+            "Corrected Value": "6578 S TOWNSHIP ROAD 79",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 780,
+            "Column": "address",
+            "Original Value": "17289 EAST US 224",
+            "Corrected Value": "17289 E US 224",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 783,
+            "Column": "address",
+            "Original Value": "5224 SETTLEMENT EAST RD",
+            "Corrected Value": "5224 SETTLEMENT E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 788,
+            "Column": "address",
+            "Original Value": "13290 E COUNTY ROAD 12",
+            "Corrected Value": "13290 E CR 12",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 795,
+            "Column": "address",
+            "Original Value": "13674 EAST US HIGHWAY 224",
+            "Corrected Value": "13674 E US HIGHWAY 224",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 800,
+            "Column": "address",
+            "Original Value": "12416 EAST COUNTRY ROAD 6",
+            "Corrected Value": "12416 E COUNTRY ROAD 6",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 813,
+            "Column": "address",
+            "Original Value": "16400 EAST TOWNSHIP RD 9",
+            "Corrected Value": "16400 E TOWNSHIP RD 9",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 814,
+            "Column": "address",
+            "Original Value": "4489 STATE ROUTE 598 APT 32",
+            "Corrected Value": "4489 STATE ROUTE 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 816,
+            "Column": "address",
+            "Original Value": "16009 EAST TOWNSHIP ROAD 104",
+            "Corrected Value": "16009 E TOWNSHIP ROAD 104",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 818,
+            "Column": "address",
+            "Original Value": "118 SOUTH MAIN STREET",
+            "Corrected Value": "118 S MAIN STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 843,
+            "Column": "address",
+            "Original Value": "5224 SETTLEMENT EAST ROAD",
+            "Corrected Value": "5224 SETTLEMENT E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 846,
+            "Column": "address",
+            "Original Value": "4889 STATE ROUTE 598 APT 23",
+            "Corrected Value": "4889 STATE ROUTE 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 850,
+            "Column": "address",
+            "Original Value": "4889 OHIO 598 APT 35",
+            "Corrected Value": "4889 OHIO 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 851,
+            "Column": "address",
+            "Original Value": "4962 LADOW ROAD APT 42",
+            "Corrected Value": "4962 LADOW ROAD",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 856,
+            "Column": "address",
+            "Original Value": "5384 WILLARD WEST ROAD",
+            "Corrected Value": "5384 WILLARD W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 860,
+            "Column": "address",
+            "Original Value": "126 EAST MANSFIELD STREET",
+            "Corrected Value": "126 E MANSFIELD STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 861,
+            "Column": "address",
+            "Original Value": "6206 WILLARD WEST ROAD",
+            "Corrected Value": "6206 WILLARD W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 871,
+            "Column": "address",
+            "Original Value": "8335 SOUTH TOWNSHIP ROAD 77",
+            "Corrected Value": "8335 S TOWNSHIP ROAD 77",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 872,
+            "Column": "address",
+            "Original Value": "4790 SETTLEMENT EAST ROAD",
+            "Corrected Value": "4790 SETTLEMENT E ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 874,
+            "Column": "address",
+            "Original Value": "4809 SETTLEMENT EAST RD",
+            "Corrected Value": "4809 SETTLEMENT E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 876,
+            "Column": "address",
+            "Original Value": "12324 E COUNTY ROAD 36",
+            "Corrected Value": "12324 E CR 36",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 877,
+            "Column": "address",
+            "Original Value": "4441 NORTH GREENFIELD ROAD",
+            "Corrected Value": "4441 N GREENFIELD ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 890,
+            "Column": "address",
+            "Original Value": "1856 PLYMOUTH EAST RD",
+            "Corrected Value": "1856 PLYMOUTH E RD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 892,
+            "Column": "address",
+            "Original Value": "4889 STATE ROUTE 598 APT 6",
+            "Corrected Value": "4889 STATE ROUTE 598",
+            "Correction Type": "Non-Standard Ending Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 901,
+            "Column": "address",
+            "Original Value": "3887 SOUTH TOWNSHIP ROAD 197",
+            "Corrected Value": "3887 S TOWNSHIP ROAD 197",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 902,
+            "Column": "address",
+            "Original Value": "5549 LONDON WEST ROAD",
+            "Corrected Value": "5549 LONDON W ROAD",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 910,
+            "Column": "address",
+            "Original Value": "5646 STATE ROUTE 96 WEST",
+            "Corrected Value": "5646 STATE ROUTE 96 W",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "2256632",
+            "Corrected Value": "2256632_025",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 4,
+            "Column": "customer",
+            "Original Value": "2102337",
+            "Corrected Value": "2102337_023",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 5,
+            "Column": "customer",
+            "Original Value": "1641364",
+            "Corrected Value": "1641364_020",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 15,
+            "Column": "address",
+            "Original Value": "15345 COUNTY RD 24",
+            "Corrected Value": "15345 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 30,
+            "Column": "address",
+            "Original Value": "7712 SENECA COUNTY RD 35",
+            "Corrected Value": "7712 SENECA CR 35",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 233,
+            "Column": "address",
+            "Original Value": "7543 E COUNTY RD 58",
+            "Corrected Value": "7543 E CR 58",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 419,
+            "Column": "address",
+            "Original Value": "11228 COUNTY RD 6",
+            "Corrected Value": "11228 CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 442,
+            "Column": "address",
+            "Original Value": "5657 S COUNTY RD 23",
+            "Corrected Value": "5657 S CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 456,
+            "Column": "address",
+            "Original Value": "13161 COUNTY RD 24",
+            "Corrected Value": "13161 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 462,
+            "Column": "address",
+            "Original Value": "12831 E COUNTY RD 6",
+            "Corrected Value": "12831 E CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 493,
+            "Column": "address",
+            "Original Value": "11114 E COUNTY RD 6",
+            "Corrected Value": "11114 E CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 510,
+            "Column": "address",
+            "Original Value": "14781 COUNTY RD 46",
+            "Corrected Value": "14781 CR 46",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 534,
+            "Column": "address",
+            "Original Value": "12432 E COUNTY RD 6",
+            "Corrected Value": "12432 E CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 543,
+            "Column": "address",
+            "Original Value": "15352 E COUNTY RD 24",
+            "Corrected Value": "15352 E CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 566,
+            "Column": "address",
+            "Original Value": "12893 E COUNTY RD 12",
+            "Corrected Value": "12893 E CR 12",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 573,
+            "Column": "address",
+            "Original Value": "8680 S COUNTY RD 35",
+            "Corrected Value": "8680 S CR 35",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 647,
+            "Column": "address",
+            "Original Value": "13459 COUNTY RD 24",
+            "Corrected Value": "13459 CR 24",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 649,
+            "Column": "address",
+            "Original Value": "16880 COUNTY ROAD 46",
+            "Corrected Value": "16880 CR 46",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 664,
+            "Column": "address",
+            "Original Value": "5490 COUNTY RD 23",
+            "Corrected Value": "5490 CR 23",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 674,
+            "Column": "address",
+            "Original Value": "7731 E COUNTY RD 58",
+            "Corrected Value": "7731 E CR 58",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 696,
+            "Column": "address",
+            "Original Value": "7201 SENECA COUNTY ROAD 58",
+            "Corrected Value": "7201 SENECA CR 58",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 717,
+            "Column": "address",
+            "Original Value": "12503 E COUNTY RD 6",
+            "Corrected Value": "12503 E CR 6",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 772,
+            "Column": "address",
+            "Original Value": "1451 N COUNTY RD. 29",
+            "Corrected Value": "1451 N CR. 29",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 773,
+            "Column": "address",
+            "Original Value": "1451 N COUNTY RD. 29",
+            "Corrected Value": "1451 N CR. 29",
+            "Correction Type": "Address Pattern Conversion",
+            "Status": "Valid"
+        },
+        {
+            "Row": 897,
+            "Column": "address",
+            "Original Value": "7100 OH 103",
+            "Corrected Value": "7100 OH 103",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "44807",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 912,
+            "Column": "address",
+            "Original Value": "11571 E TOWNSHIP RD 58",
+            "Corrected Value": "11571 E TOWNSHIP ROAD 58",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 919,
+            "Column": "zip",
+            "Original Value": "<NA>",
+            "Corrected Value": "44887",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 919,
+            "Column": "address",
+            "Original Value": "6036 STATE ROUTE 39",
+            "Corrected Value": "6036 STATE ROUTE 39",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 73"
+        },
+        {
+            "Row": 205,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4715 STEIN RD"
+        },
+        {
+            "Row": 206,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4715 STEIN RD"
+        },
+        {
+            "Row": 207,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4715 STEIN RD"
+        },
+        {
+            "Row": 208,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4715 STEIN RD"
+        },
+        {
+            "Row": 360,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "6330 STEVENS RD"
+        },
+        {
+            "Row": 525,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "109B W WALTON ST"
+        },
+        {
+            "Row": 526,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "109B W WALTON ST"
+        },
+        {
+            "Row": 700,
+            "Column": "address",
+            "Error": "Invalid street name format before street ending",
+            "Value": "14590EAST TOWNSHIP ROAD 58"
+        },
+        {
+            "Row": 810,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5623 STEVENS ROAD"
+        },
+        {
+            "Row": 811,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "5623 STEVENS ROAD"
+        },
+        {
+            "Row": 830,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4831 STEIN RD"
+        },
+        {
+            "Row": 838,
+            "Column": "address",
+            "Error": "Corrected address lacks valid street name after non-standard ending removal",
+            "Value": "4291 STEIN ROAD"
+        },
+        {
+            "Row": 897,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 912,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 919,
+            "Column": "zip",
+            "Error": "Required field: Zip cannot be empty",
+            "Value": ""
+        },
+        {
+            "Row": 26,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1496998"
+        },
+        {
+            "Row": 63,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 64,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 66,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 67,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 68,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497184"
+        },
+        {
+            "Row": 89,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497318_001",
+            "Value": "1497318"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497318"
+        },
+        {
+            "Row": 109,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497445"
+        },
+        {
+            "Row": 110,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497445"
+        },
+        {
+            "Row": 143,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497669_002",
+            "Value": "1497669"
+        },
+        {
+            "Row": 149,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497722"
+        },
+        {
+            "Row": 158,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497764_003",
+            "Value": "1497764"
+        },
+        {
+            "Row": 164,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497817_004",
+            "Value": "1497817"
+        },
+        {
+            "Row": 165,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497817_005",
+            "Value": "1497817"
+        },
+        {
+            "Row": 166,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497817_006",
+            "Value": "1497817"
+        },
+        {
+            "Row": 170,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497836_007",
+            "Value": "1497836"
+        },
+        {
+            "Row": 176,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497871_008",
+            "Value": "1497871"
+        },
+        {
+            "Row": 177,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497871"
+        },
+        {
+            "Row": 194,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497966_009",
+            "Value": "1497966"
+        },
+        {
+            "Row": 206,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1497989_010",
+            "Value": "1497989"
+        },
+        {
+            "Row": 207,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497989"
+        },
+        {
+            "Row": 208,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1497989"
+        },
+        {
+            "Row": 226,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1498067_011",
+            "Value": "1498067"
+        },
+        {
+            "Row": 303,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1498455"
+        },
+        {
+            "Row": 330,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1498548"
+        },
+        {
+            "Row": 332,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1498550_012",
+            "Value": "1498550"
+        },
+        {
+            "Row": 334,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1498551_013",
+            "Value": "1498551"
+        },
+        {
+            "Row": 383,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1498713"
+        },
+        {
+            "Row": 428,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1498837_014",
+            "Value": "1498837"
+        },
+        {
+            "Row": 526,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1499092"
+        },
+        {
+            "Row": 542,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1499128"
+        },
+        {
+            "Row": 575,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1547138_015",
+            "Value": "1547138"
+        },
+        {
+            "Row": 593,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1592648_016",
+            "Value": "1592648"
+        },
+        {
+            "Row": 594,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1592648_017",
+            "Value": "1592648"
+        },
+        {
+            "Row": 603,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1606255_018",
+            "Value": "1606255"
+        },
+        {
+            "Row": 607,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1610946"
+        },
+        {
+            "Row": 612,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1619666_019",
+            "Value": "1619666"
+        },
+        {
+            "Row": 631,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1641364"
+        },
+        {
+            "Row": 632,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1641364"
+        },
+        {
+            "Row": 633,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 1641364_020",
+            "Value": "1641364"
+        },
+        {
+            "Row": 643,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1685099"
+        },
+        {
+            "Row": 711,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1871049"
+        },
+        {
+            "Row": 712,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, identical row deleted",
+            "Value": "1871049"
+        },
+        {
+            "Row": 773,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2050510_021",
+            "Value": "2050510"
+        },
+        {
+            "Row": 790,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2102337_022",
+            "Value": "2102337"
+        },
+        {
+            "Row": 791,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2102337_023",
+            "Value": "2102337"
+        },
+        {
+            "Row": 811,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2162612_024",
+            "Value": "2162612"
+        },
+        {
+            "Row": 845,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to 2256632_025",
+            "Value": "2256632"
+        },
+        {
+            "Row": 207,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497989_010)",
+            "Value": "1497989"
+        },
+        {
+            "Row": 208,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497989)",
+            "Value": "1497989"
+        },
+        {
+            "Row": 383,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1498713)",
+            "Value": "1498713"
+        },
+        {
+            "Row": 63,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 64,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 65,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 66,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 67,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 68,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497184)",
+            "Value": "1497184"
+        },
+        {
+            "Row": 90,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497318_001)",
+            "Value": "1497318"
+        },
+        {
+            "Row": 26,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1496998)",
+            "Value": "1496998"
+        },
+        {
+            "Row": 643,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1685099)",
+            "Value": "1685099"
+        },
+        {
+            "Row": 526,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1499092)",
+            "Value": "1499092"
+        },
+        {
+            "Row": 149,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497722)",
+            "Value": "1497722"
+        },
+        {
+            "Row": 711,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1871049)",
+            "Value": "1871049"
+        },
+        {
+            "Row": 712,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1871049)",
+            "Value": "1871049"
+        },
+        {
+            "Row": 631,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1641364)",
+            "Value": "1641364"
+        },
+        {
+            "Row": 632,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1641364)",
+            "Value": "1641364"
+        },
+        {
+            "Row": 542,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1499128)",
+            "Value": "1499128"
+        },
+        {
+            "Row": 109,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497445)",
+            "Value": "1497445"
+        },
+        {
+            "Row": 110,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497445)",
+            "Value": "1497445"
+        },
+        {
+            "Row": 330,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1498548)",
+            "Value": "1498548"
+        },
+        {
+            "Row": 607,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1610946)",
+            "Value": "1610946"
+        },
+        {
+            "Row": 177,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1497871)",
+            "Value": "1497871"
+        },
+        {
+            "Row": 303,
+            "Column": "customer",
+            "Error": "Data-based duplicate, removed (identical to customer 1498455)",
+            "Value": "1498455"
+        }
+    ],
+    "Street Ending Errors": [],
+    "PO Box Errors": [
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 73"
+        },
+        {
+            "Row": 97,
+            "Column": "address",
+            "Error": "PO Boxes not allowed",
+            "Value": "PO BOX 73"
+        }
+    ],
+    "Invalid Address Removals": [
+        {
+            "OrigRowNum": 897,
+            "address": "7100 OH 103",
+            "Error": "Address validation failed - removed per threshold policy"
+        }
+    ],
+    "Non-Unique Row Removals": [
+        {
+            "OrigRowNum": 26,
+            "customer": "1496998",
+            "lat": 41.0208294,
+            "lon": -82.7991457,
+            "address": "4511 BIGHAM RD",
+            "city": "ATTICA",
+            "state": "OH",
+            "zip": "44807",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 63,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 64,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 65,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 66,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 67,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 68,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1497318",
+            "lat": 40.9822348,
+            "lon": -82.7880078,
+            "address": "6826 SCOTT RD",
+            "city": "TIRO",
+            "state": "OH",
+            "zip": "44887",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 109,
+            "customer": "1497445",
+            "lat": 41.161961,
+            "lon": -82.82113,
+            "address": "6465 BISMARK RD",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 110,
+            "customer": "1497445",
+            "lat": 41.161961,
+            "lon": -82.82113,
+            "address": "6465 BISMARK RD",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 149,
+            "customer": "1497722",
+            "lat": 41.0477306,
+            "lon": -82.7992994,
+            "address": "5996 U.S. 224",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 177,
+            "customer": "1497871",
+            "lat": 41.2331444,
+            "lon": -82.6737858,
+            "address": "2288 US RT 20",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 207,
+            "customer": "1497989",
+            "lat": 40.825,
+            "lon": -82.684062,
+            "address": "4715 STEIN RD",
+            "city": "SHELBY",
+            "state": "OH",
+            "zip": "44875",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 208,
+            "customer": "1497989",
+            "lat": 40.825,
+            "lon": -82.684062,
+            "address": "4715 STEIN RD",
+            "city": "SHELBY",
+            "state": "OH",
+            "zip": "44875",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 303,
+            "customer": "1498455",
+            "lat": 41.3623239,
+            "lon": -82.8275138,
+            "address": "4500 ST RTE 269",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 330,
+            "customer": "1498548",
+            "lat": 41.164916,
+            "lon": -82.725468,
+            "address": "880 ST RT 99",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 383,
+            "customer": "1498713",
+            "lat": 40.8333767,
+            "lon": -82.8055244,
+            "address": "3526 SWISHER RD.",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 526,
+            "customer": "1499092",
+            "lat": 41.0427771,
+            "lon": -82.731422,
+            "address": "109-B W WALTON ST",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 542,
+            "customer": "1499128",
+            "lat": 41.150832,
+            "lon": -82.613623,
+            "address": "383 NEW STATE RD",
+            "city": "NORWALK",
+            "state": "OH",
+            "zip": "44857",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 607,
+            "customer": "1610946",
+            "lat": 41.2011161,
+            "lon": -82.7059635,
+            "address": "2197 HETTLE ROAD",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 631,
+            "customer": "1641364",
+            "lat": 41.068586,
+            "lon": -82.658869,
+            "address": "2010 TOWNLINE RD 12",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 632,
+            "customer": "1641364",
+            "lat": 41.068586,
+            "lon": -82.658869,
+            "address": "2010 TOWNLINE RD 12",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 643,
+            "customer": "1685099",
+            "lat": 41.0336997,
+            "lon": -82.9437342,
+            "address": "6348 S TWP. RD 79",
+            "city": "ATTICA",
+            "state": "OH",
+            "zip": "44890",
+            "download": 5.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 711,
+            "customer": "1871049",
+            "lat": 41.0520001,
+            "lon": -83.0149129,
+            "address": "9910 E US HWY 224",
+            "city": "BLOOMVILLE",
+            "state": "OH",
+            "zip": "44818",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 712,
+            "customer": "1871049",
+            "lat": 41.0520001,
+            "lon": -83.0149129,
+            "address": "9910 E US HWY 224",
+            "city": "BLOOMVILLE",
+            "state": "OH",
+            "zip": "44818",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Duplicate customer ID, identical row deleted"
+        },
+        {
+            "OrigRowNum": 207,
+            "customer": "1497989",
+            "lat": 40.825,
+            "lon": -82.684062,
+            "address": "4715 STEIN RD",
+            "city": "SHELBY",
+            "state": "OH",
+            "zip": "44875",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497989_010)"
+        },
+        {
+            "OrigRowNum": 208,
+            "customer": "1497989",
+            "lat": 40.825,
+            "lon": -82.684062,
+            "address": "4715 STEIN RD",
+            "city": "SHELBY",
+            "state": "OH",
+            "zip": "44875",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497989)"
+        },
+        {
+            "OrigRowNum": 383,
+            "customer": "1498713",
+            "lat": 40.8333767,
+            "lon": -82.8055244,
+            "address": "3526 SWISHER RD.",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1498713)"
+        },
+        {
+            "OrigRowNum": 63,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 64,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 65,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 66,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 67,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 68,
+            "customer": "1497184",
+            "lat": 40.872775,
+            "lon": -82.778295,
+            "address": "7075 QUIGG RD",
+            "city": "CRESTLINE",
+            "state": "OH",
+            "zip": "44827",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497184)"
+        },
+        {
+            "OrigRowNum": 90,
+            "customer": "1497318",
+            "lat": 40.9822348,
+            "lon": -82.7880078,
+            "address": "6826 SCOTT RD",
+            "city": "TIRO",
+            "state": "OH",
+            "zip": "44887",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497318_001)"
+        },
+        {
+            "OrigRowNum": 26,
+            "customer": "1496998",
+            "lat": 41.0208294,
+            "lon": -82.7991457,
+            "address": "4511 BIGHAM RD",
+            "city": "ATTICA",
+            "state": "OH",
+            "zip": "44807",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1496998)"
+        },
+        {
+            "OrigRowNum": 643,
+            "customer": "1685099",
+            "lat": 41.0336997,
+            "lon": -82.9437342,
+            "address": "6348 S TWP. RD 79",
+            "city": "ATTICA",
+            "state": "OH",
+            "zip": "44890",
+            "download": 5.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1685099)"
+        },
+        {
+            "OrigRowNum": 526,
+            "customer": "1499092",
+            "lat": 41.0427771,
+            "lon": -82.731422,
+            "address": "109-B W WALTON ST",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1499092)"
+        },
+        {
+            "OrigRowNum": 149,
+            "customer": "1497722",
+            "lat": 41.0477306,
+            "lon": -82.7992994,
+            "address": "5996 U.S. 224",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497722)"
+        },
+        {
+            "OrigRowNum": 711,
+            "customer": "1871049",
+            "lat": 41.0520001,
+            "lon": -83.0149129,
+            "address": "9910 E US HWY 224",
+            "city": "BLOOMVILLE",
+            "state": "OH",
+            "zip": "44818",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1871049)"
+        },
+        {
+            "OrigRowNum": 712,
+            "customer": "1871049",
+            "lat": 41.0520001,
+            "lon": -83.0149129,
+            "address": "9910 E US HWY 224",
+            "city": "BLOOMVILLE",
+            "state": "OH",
+            "zip": "44818",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1871049)"
+        },
+        {
+            "OrigRowNum": 631,
+            "customer": "1641364",
+            "lat": 41.068586,
+            "lon": -82.658869,
+            "address": "2010 TOWNLINE RD 12",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1641364)"
+        },
+        {
+            "OrigRowNum": 632,
+            "customer": "1641364",
+            "lat": 41.068586,
+            "lon": -82.658869,
+            "address": "2010 TOWNLINE RD 12",
+            "city": "WILLARD",
+            "state": "OH",
+            "zip": "44890",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1641364)"
+        },
+        {
+            "OrigRowNum": 542,
+            "customer": "1499128",
+            "lat": 41.150832,
+            "lon": -82.613623,
+            "address": "383 NEW STATE RD",
+            "city": "NORWALK",
+            "state": "OH",
+            "zip": "44857",
+            "download": 10.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1499128)"
+        },
+        {
+            "OrigRowNum": 109,
+            "customer": "1497445",
+            "lat": 41.161961,
+            "lon": -82.82113,
+            "address": "6465 BISMARK RD",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497445)"
+        },
+        {
+            "OrigRowNum": 110,
+            "customer": "1497445",
+            "lat": 41.161961,
+            "lon": -82.82113,
+            "address": "6465 BISMARK RD",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 50.0,
+            "upload": 50.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497445)"
+        },
+        {
+            "OrigRowNum": 330,
+            "customer": "1498548",
+            "lat": 41.164916,
+            "lon": -82.725468,
+            "address": "880 ST RT 99",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1498548)"
+        },
+        {
+            "OrigRowNum": 607,
+            "customer": "1610946",
+            "lat": 41.2011161,
+            "lon": -82.7059635,
+            "address": "2197 HETTLE ROAD",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 10.0,
+            "upload": 2.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1610946)"
+        },
+        {
+            "OrigRowNum": 177,
+            "customer": "1497871",
+            "lat": 41.2331444,
+            "lon": -82.6737858,
+            "address": "2288 US RT 20",
+            "city": "MONROEVILLE",
+            "state": "OH",
+            "zip": "44847",
+            "download": 50.0,
+            "upload": 10.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1497871)"
+        },
+        {
+            "OrigRowNum": 303,
+            "customer": "1498455",
+            "lat": 41.3623239,
+            "lon": -82.8275138,
+            "address": "4500 ST RTE 269",
+            "city": "BELLEVUE",
+            "state": "OH",
+            "zip": "44811",
+            "download": 5.0,
+            "upload": 5.0,
+            "voip_lines_quantity": 0,
+            "business_customer": 0,
+            "technology": "wireless_unlicensed",
+            "Error": "Data-based duplicate (same as customer 1498455)"
+        }
+    ],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 897,
+            "Original Address": "7100 OH 103",
+            "Corrected Address": "7100 OH 103",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": null,
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T11:36:10.993228"
+        },
+        {
+            "OrigRowNum": 912,
+            "Original Address": "11571 E TOWNSHIP RD 58",
+            "Corrected Address": "11571 E TOWNSHIP ROAD 58",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "44807",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T11:36:10.994348"
+        },
+        {
+            "OrigRowNum": 919,
+            "Original Address": "6036 STATE ROUTE 39",
+            "Corrected Address": "6036 STATE ROUTE 39",
+            "Original ZIP": "<NA>",
+            "Corrected ZIP": "44887",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-19T11:36:10.994978"
+        }
+    ]
+}

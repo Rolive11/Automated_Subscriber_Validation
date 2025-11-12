@@ -1,0 +1,405 @@
+{
+    "Summary": {
+        "Total Rows Processed": 344,
+        "Rows with Corrections": 23,
+        "Rows with Errors": 9,
+        "PO Box Rows Removed": 0,
+        "Invalid Address Rows Removed": 0,
+        "Removed Duplicate Rows": 0,
+        "PR Addresses Auto-Accepted": 0,
+        "Total Corrections": 29,
+        "Total Errors": 9,
+        "Street Ending Errors": 3,
+        "Validation Time (seconds)": 0.45,
+        "Validation Date": "2025-08-04 09:08:22",
+        "Addresses Sent to Smarty": 4,
+        "Successful Corrections": 4,
+        "Failed Corrections": 0,
+        "Loss Rate (%)": 0.0,
+        "Action Taken": "FLAG_FAILURES_FOR_REVIEW",
+        "Processing Time (seconds)": 0.16,
+        "File Status": "Valid",
+        "Validation Reason": "File passed all validations and is ready for FCC BDC submission.",
+        "Total Subscribers in Final File": 344,
+        "Address Errors Found": 0,
+        "Non-Address Errors Found": 0,
+        "Address Error Percentage": 0.0,
+        "Threshold Used": "3.0% for 201-500 subscribers",
+        "Requires Manual Review": false
+    },
+    "File Validation Details": {
+        "file_status": "Valid",
+        "validation_reason": "File passed all validations and is ready for FCC BDC submission.",
+        "total_subscribers": 344,
+        "address_error_count": 0,
+        "non_address_error_count": 0,
+        "address_error_percentage": 0.0,
+        "threshold_used": {
+            "min_subscribers": 201,
+            "max_subscribers": 500,
+            "max_error_percentage": 3.0,
+            "description": "Medium files: Up to 3% address errors allowed"
+        },
+        "problematic_address_rows": [],
+        "requires_manual_review": false
+    },
+    "Corrections": [
+        {
+            "Row": 121,
+            "Column": "customer",
+            "Original Value": "Dr. Jeffery Angel, MD",
+            "Corrected Value": "Dr. Jeffery Angel MD",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 344,
+            "Column": "customer",
+            "Original Value": "William J Shipley, DDS",
+            "Corrected Value": "William J Shipley DDS",
+            "Correction Type": "Comma Removal",
+            "Status": "Valid"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Original Value": "Batesville AR 72501",
+            "Corrected Value": "BATESVILLE AR 72501",
+            "Correction Type": "Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 6,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 8,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 9,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 11,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 12,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 13,
+            "Column": "technology",
+            "Original Value": "Fiber",
+            "Corrected Value": "fiber",
+            "Correction Type": "Early Technology Case Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 93,
+            "Column": "address",
+            "Original Value": "4505 NORTH CENTRAL AVE",
+            "Corrected Value": "4505 N CENTRAL AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 172,
+            "Column": "address",
+            "Original Value": "1555 NORTH CENTRAL AVE",
+            "Corrected Value": "1555 N CENTRAL AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 254,
+            "Column": "address",
+            "Original Value": "190 WEST SOUTH STREET",
+            "Corrected Value": "190 W S STREET",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 290,
+            "Column": "address",
+            "Original Value": "3964 NORTH CENTRAL AVE",
+            "Corrected Value": "3964 N CENTRAL AVE",
+            "Correction Type": "Compass Direction Normalization",
+            "Status": "Valid"
+        },
+        {
+            "Row": 82,
+            "Column": "lon",
+            "Original Value": 91.793607,
+            "Corrected Value": -91.793607,
+            "Correction Type": "Sign Flip",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "lon",
+            "Original Value": -56.008333,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 147,
+            "Column": "lat",
+            "Original Value": 35.817222,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "lat",
+            "Original Value": 353.789459,
+            "Corrected Value": null,
+            "Correction Type": "Invalid Value Replacement",
+            "Status": "Valid"
+        },
+        {
+            "Row": 183,
+            "Column": "lon",
+            "Original Value": -91.789672,
+            "Corrected Value": null,
+            "Correction Type": "Paired Coordinate Reset",
+            "Status": "Valid"
+        },
+        {
+            "Row": 263,
+            "Column": "lon",
+            "Original Value": 91.794266,
+            "Corrected Value": -91.794266,
+            "Correction Type": "Sign Flip",
+            "Status": "Valid"
+        },
+        {
+            "Row": 3,
+            "Column": "customer",
+            "Original Value": "Mark Calaway",
+            "Corrected Value": "Mark Calaway_001",
+            "Correction Type": "Duplicate Customer Rename",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "zip",
+            "Original Value": "72501-8100",
+            "Corrected Value": "72501",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 88,
+            "Column": "address",
+            "Original Value": "1252 WEBER CHAPEL",
+            "Corrected Value": "1252 WEBBER CHAPEL RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "zip",
+            "Original Value": "72501-8434",
+            "Corrected Value": "72501",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 214,
+            "Column": "address",
+            "Original Value": "995 D&D RD",
+            "Corrected Value": "995 D AND D RD",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "zip",
+            "Original Value": "72501-8630",
+            "Corrected Value": "72501",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Original Value": "100 HAPPY HALLOW",
+            "Corrected Value": "100 HAPPY HOLW",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "zip",
+            "Original Value": "72501-8708",
+            "Corrected Value": "72501",
+            "Correction Type": "Smarty ZIP Code Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Original Value": "90 OAK HILL SPUR",
+            "Corrected Value": "90 OAK HILL SPUR",
+            "Correction Type": "Smarty Address Correction",
+            "Status": "Valid"
+        },
+        {
+            "Row": 316,
+            "Column": "zip",
+            "Original Value": "7250-7465",
+            "Corrected Value": null,
+            "Correction Type": "Invalid ZIP Replacement",
+            "Status": "Valid"
+        }
+    ],
+    "Errors": [
+        {
+            "Row": 214,
+            "Column": "address",
+            "Error": "Invalid format",
+            "Value": "995 D&D RD"
+        },
+        {
+            "Row": 310,
+            "Column": "address",
+            "Error": "Address lacks leading number (optionally prefixed by direction) followed by street name",
+            "Value": "BATESVILLE AR 72501"
+        },
+        {
+            "Row": 317,
+            "Column": "zip",
+            "Error": "Invalid ZIP code format",
+            "Value": "7250-7465"
+        },
+        {
+            "Row": 147,
+            "Column": "lon",
+            "Error": "Longitude for AR must be between -94.617919 and -89.644395",
+            "Value": "-56.008333"
+        },
+        {
+            "Row": 147,
+            "Column": "lat",
+            "Error": "Paired coordinate reset due to invalid lon",
+            "Value": "35.817222"
+        },
+        {
+            "Row": 183,
+            "Column": "lat",
+            "Error": "Latitude for AR must be between 33.004106 and 36.499749",
+            "Value": "353.789459"
+        },
+        {
+            "Row": 183,
+            "Column": "lon",
+            "Error": "Paired coordinate reset due to invalid lat",
+            "Value": "-91.789672"
+        },
+        {
+            "Row": 235,
+            "Column": "customer",
+            "Error": "Duplicate customer ID, renamed to Mark Calaway_001",
+            "Value": "Mark Calaway"
+        },
+        {
+            "Row": 317,
+            "Column": "zip",
+            "Error": "Invalid ZIP code",
+            "Value": "7250-7465"
+        }
+    ],
+    "Street Ending Errors": [
+        {
+            "Row": 88,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "1252 WEBER CHAPEL"
+        },
+        {
+            "Row": 232,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "100 HAPPY HALLOW"
+        },
+        {
+            "Row": 238,
+            "Column": "address",
+            "Error": "Lacks standard street ending",
+            "Value": "90 OAK HILL SPUR"
+        }
+    ],
+    "PO Box Errors": [],
+    "Invalid Address Removals": [],
+    "Non-Unique Row Removals": [],
+    "Smarty Corrections": [
+        {
+            "OrigRowNum": 88,
+            "Original Address": "1252 WEBER CHAPEL",
+            "Corrected Address": "1252 WEBBER CHAPEL RD",
+            "Original ZIP": "72501-8100",
+            "Corrected ZIP": "72501",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:08:22.620287"
+        },
+        {
+            "OrigRowNum": 214,
+            "Original Address": "995 D&D RD",
+            "Corrected Address": "995 D AND D RD",
+            "Original ZIP": "72501-8434",
+            "Corrected ZIP": "72501",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:08:22.620879"
+        },
+        {
+            "OrigRowNum": 232,
+            "Original Address": "100 HAPPY HALLOW",
+            "Corrected Address": "100 HAPPY HOLW",
+            "Original ZIP": "72501-8630",
+            "Corrected ZIP": "72501",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:08:22.621226"
+        },
+        {
+            "OrigRowNum": 238,
+            "Original Address": "90 OAK HILL SPUR",
+            "Corrected Address": "90 OAK HILL SPUR",
+            "Original ZIP": "72501-8708",
+            "Corrected ZIP": "72501",
+            "Status": "Valid",
+            "Error Message": "",
+            "Smarty Key": null,
+            "Timestamp": "2025-08-04T09:08:22.621547"
+        }
+    ]
+}
