@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment / secrets
+.env
+smarty_logs/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Logs
+*.log
+app.log
+
+# Cameron's original code (hardcoded credentials)
+src/Camerons_code/
+
+# Real customer subscription data
+testing_data/
+2025-12-31_Subs/
+CSV_Test/
+CSV_Test_Simplified/
+
+# Customer data files by pattern
+*_Uploaded.csv
+*_Uploaded.xlsx
+*_Uploaded_*.csv
+*_Subscribers.csv
+*_Corrected_Subscribers.xlsx
+*_VR.xlsx
+*_VR.json
+*_Errors.csv
+*_subs.csv
+bdc_subscribers_*
+
+# Specific customer data directories/files with spaces
+2025-12-31 Visp Subscriber Raw Data Files/
+src/Smarty Output/
+src/utils/*.csv
+
+# Specific tracked customer files in root
+356_Uploaded_1.csv
+2_Uploaded.csv
+
+# Git history backup
+.git_backup/
+
+# Claude local settings
+.claude/settings.local.json

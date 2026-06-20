@@ -1,0 +1,921 @@
+================================================================================
+VALIDATE_SUBSCRIPTION_ISP_MOD_3 - FILE HANDLING & EMAIL REFERENCE
+================================================================================
+
+VERSION: mod_3 (Production - Module/Import version)
+LAST UPDATED: 2025-12-17
+
+This document provides a comprehensive reference for file operations, storage
+locations, and email notifications in the subscriber validation system.
+
+AUDIENCE: Internal documentation + New employee onboarding
+
+
+================================================================================
+QUICK FILE REFERENCE
+================================================================================
+
+INPUT:    /var/www/broadband/uploads/{org_id}/{period}/subscribers/*.csv
+VALIDATE: /var/www/broadband/Subscriber_File_Validations/{period}/{org_id}/
+OUTPUT:   /var/www/broadband/uploads/{org_id}/{period}/subscription_processed/
+LOGS:     validate_subs.log (script execution directory)
+
+
+================================================================================
+FILE FLOW OVERVIEW
+================================================================================
+
+1. Customer uploads CSV → /uploads/{org_id}/{period}/subscribers/
+2. Script calls Code A → Validates and creates artifacts
+3. Code A saves to → /Subscriber_File_Validations/{period}/{org_id}/
+4. Script calls Code B → Geocodes and processes data
+5. Code B saves to → /uploads/{org_id}/{period}/subscription_processed/
+6. Emails sent → User gets results, Admin gets all artifacts
+
+
+================================================================================
+INPUT FILES
+================================================================================
+
+LOCATION
+--------
+/var/www/broadband/uploads/{org_id}/{period}/subscribers/
+
+STRUCTURE EXAMPLE
+-----------------
+/var/www/broadband/uploads/
+    └── 371/                          (Organization ID)
+        └── 2025-12-31/               (Filing period)
+            └── subscribers/
+                └── subscriber_file.csv
+
+FILE TYPES
+----------
+*.csv - Subscriber data files uploaded by customers
+
+REQUIRED COLUMNS (12 total, any order)
+---------------------------------------
+- customer              : Customer identifier/name
+- lat                   : Latitude (can be blank for geocoding)
+- lon                   : Longitude (can be blank for geocoding)
+- address               : Street address
+- city                  : City name
+- state                 : Two-letter state code
+- zip                   : ZIP code
+- download              : Download speed (Mbps)
+- upload                : Upload speed (Mbps)
+- voip_lines_quantity   : Number of VoIP lines
+- business_customer     : 0 (residential) or 1 (business)
+- technology            : Technology code name (e.g., 'fiber', 'cable', 'wireless_unlicensed')
+
+→ For new employees: These CSV files contain raw subscriber data from ISPs/
+  providers. Each row represents one subscriber location. The system validates
+  the data, corrects addresses, assigns census tracts, and prepares it for
+  FCC submission.
+
+PERMISSIONS REQUIRED
+--------------------
+- Directory must allow web server to read files
+- Typical: 775 or 777 permissions
+
+
+================================================================================
+VALIDATION ARTIFACTS (CODE A OUTPUT)
+================================================================================
+
+LOCATION
+--------
+/var/www/broadband/Subscriber_File_Validations/{period}/{org_id}/
+
+STRUCTURE EXAMPLE
+-----------------
+/var/www/broadband/Subscriber_File_Validations/
+    └── 2025-12-31/                   (Filing period)
+        └── 371/                      (Organization ID)
+            ├── 371_Original.csv
+            ├── 371_Corrected_Subscribers.csv
+            ├── 371_Corrected_Subscribers.xlsx
+            ├── 371_VR.xlsx
+            └── 371_Column_Count_Errors.xlsx (if column errors exist)
+
+FILES CREATED
+-------------
+
+{org_id}_Original.csv
+  - Copy of the original uploaded file
+  - Preserved for audit trail
+  - Created: Always
+
+{org_id}_Corrected_Subscribers.csv
+  - Validated and corrected subscriber data
+  - Address corrections applied via USPS/Smarty API
+  - Duplicate customers renamed with incremental numbers
+  - This file is used by Code B for further processing
+  - Created: When validation passes (return code 0 or 1)
+
+{org_id}_Corrected_Subscribers.xlsx
+  - Excel version with color-coded cells:
+    • GREEN: Auto-corrected to USPS standards
+    • RED/PINK: Requires manual correction
+    • YELLOW: Should be reviewed (e.g., missing zip codes)
+  - Includes OrigRowNum column for tracking
+  - Created: When validation finds issues (return code 1)
+
+{org_id}_modified_subscription_file.xlsx
+  - Same as Corrected_Subscribers.xlsx but with OrigRowNum column removed
+  - This is the version sent to customers for corrections
+  - Created: When data validation fails (return code 1)
+
+{org_id}_VR.xlsx (Validation Report)
+  - Complete record of all corrections made
+  - Address validation results from Smarty API
+  - Duplicate handling log
+  - Processing details
+  - Sent to customer on successful processing
+  - Created: When validation passes (return code 0)
+
+{org_id}_Column_Count_Errors.xlsx
+  - Details about column header mismatches
+  - Shows expected vs actual headers
+  - Created: When header validation fails (return code 2)
+
+→ For new employees: Code A is the validation engine. It checks data format,
+  validates addresses against USPS database, identifies errors, and creates
+  color-coded Excel files showing exactly what needs to be fixed. The VR.xlsx
+  file is the "receipt" showing all corrections that were made automatically.
+
+PERMISSIONS REQUIRED
+--------------------
+⚠️ CRITICAL: This directory must be writable by the web server user
+- Fix: chmod 777 /var/www/broadband/Subscriber_File_Validations
+- The script needs to create period/{org_id} subdirectories dynamically
+
+
+================================================================================
+PROCESSING OUTPUT FILES (CODE B)
+================================================================================
+
+LOCATION
+--------
+/var/www/broadband/uploads/{org_id}/{period}/subscription_processed/
+
+STRUCTURE EXAMPLE
+-----------------
+/var/www/broadband/uploads/371/2025-12-31/
+    └── subscription_processed/
+        ├── 371_subscription_processed.csv
+        ├── 477_371_subscription_processed.csv
+        ├── 371_voice_subscription_processed.csv (if VoIP present)
+        ├── 371_voice_state_data.txt (if VoIP present)
+        └── processing_errors.txt (if geocoding errors)
+
+FILES CREATED
+-------------
+
+{org_id}_subscription_processed.csv
+  - Aggregated subscriber data by census tract
+  - Format: tract, technology, download, upload, total, residential
+  - Ready for FCC BDC submission
+  - Technology codes as-is (71 stays 71)
+  - Created: Always on successful processing
+
+477_{org_id}_subscription_processed.csv
+  - Form 477 compatible version
+  - Same data but technology code 71 converted to 70
+  - Format: tract, technology, download, upload, total, residential
+  - Created: Always on successful processing
+
+{org_id}_voice_subscription_processed.csv
+  - VoIP subscriber data aggregated by census tract
+  - Format: tract, service_type, total, residential
+  - service_type is always '1' (VoIP)
+  - Created: Only if subscribers have voip_lines_quantity > 0
+
+{org_id}_voice_state_data.txt
+  - Summary of VoIP lines by state and technology
+  - Human-readable format
+  - Example:
+      state 48
+      tech code 70: 150
+      tech code 50: 75
+  - Created: Only if VoIP data exists
+
+processing_errors.txt
+  - Lists addresses that failed geocoding
+  - Format: "error geocoding row X addr: [full address]"
+  - Includes timestamp
+  - Created: Only if geocoding errors occur
+
+→ For new employees: Code B takes the validated CSV from Code A and performs
+  geocoding (finding GPS coordinates), census tract assignment, and aggregation.
+  The output files are ready to submit directly to the FCC. The 477 version is
+  for legacy Form 477 compatibility.
+
+TEMPORARY FILES
+---------------
+Location: /tmp/
+Files: /tmp/{org_id}_subscription_processed.csv (and variants)
+Purpose: Intermediate processing before moving to final location
+Lifecycle: Created during processing, copied to final location, may remain in /tmp
+
+
+================================================================================
+DATABASE TABLES
+================================================================================
+
+1. broadband.users
+------------------
+PURPOSE: Stores customer/user information including email addresses
+
+FIELDS:
+  - org_id (integer)           : Organization ID (primary key)
+  - name (text)                : User/company name
+  - email (text)               : User's email address for notifications
+  - [other fields...]          : Additional user profile data
+
+USED FOR:
+  - Retrieving customer email addresses for notifications
+  - Personalizing emails with customer name
+
+QUERY EXAMPLE:
+  SELECT name, email FROM broadband.users WHERE org_id = 371 LIMIT 1;
+
+
+2. broadband.filer_processing_status
+-------------------------------------
+PURPOSE: Tracks processing status for each organization and filing period
+
+FIELDS:
+  - org_id (integer)                    : Organization ID
+  - filing_period (date)                : Filing period (e.g., '2025-12-31')
+  - subscription_processed (boolean)    : True when processing complete
+  - subscription_status (text)          : Current processing status
+  - [other fields...]                   : Additional tracking fields
+
+STATUS VALUES:
+  - 'processing'                : Validation started
+  - 'complete'                  : Successfully processed
+  - 'data_validation_failed'    : Code A found data errors
+  - 'header_validation_failed'  : Column headers don't match
+  - 'geocoding_errors'          : Some addresses couldn't be geocoded
+  - 'system_error'              : Technical failure
+
+UPDATED:
+  - Start of processing → 'processing'
+  - After Code A validation → status based on result
+  - After Code B completion → 'complete' or 'geocoding_errors'
+
+QUERY EXAMPLE:
+  UPDATE broadband.filer_processing_status
+  SET subscription_processed = true, subscription_status = 'complete'
+  WHERE org_id = 371 AND filing_period = '2025-12-31';
+
+
+3. broadband.messages
+---------------------
+PURPOSE: User-facing notification messages displayed in web interface
+
+FIELDS:
+  - message_type (text)    : Type of message (e.g., 'subscriber')
+  - message (text)         : Message content displayed to user
+  - datetime (timestamp)   : When message was created
+  - org_id (integer)       : Organization ID
+
+MESSAGE TYPES:
+  - 'subscriber' : Subscriber file processing notifications
+
+ALL POSSIBLE MESSAGES (Complete List):
+---------------------------------------
+1. 'Subscriber file processing complete'
+   When: Successful processing (Code A valid, Code B complete, no geocoding errors)
+   Status: filer_processing_status.subscription_status = 'complete'
+
+2. 'Subscriber file processing error. Check your email for details.'
+   When: ANY error occurs during processing
+   Scenarios:
+     - Data validation failed (Code A return code 1)
+     - Header validation failed (Code A return code 2)
+     - System error (Code A return code 3+)
+     - Geocoding errors (Code B partial success)
+   Status: filer_processing_status.subscription_status =
+     'data_validation_failed', 'header_validation_failed',
+     'system_error', or 'geocoding_errors'
+
+QUERY EXAMPLE:
+  INSERT INTO broadband.messages
+  (message_type, message, datetime, org_id)
+  VALUES ('subscriber', 'Processing complete', now(), 371);
+
+→ For new employees: This creates popup notifications in the web interface
+  so users can see status updates without checking email.
+
+
+4. subscribers.subs_{org_id}
+-----------------------------
+PURPOSE: Stores processed subscriber data for each organization
+
+TABLE NAME: Dynamic - subscribers.subs_371, subscribers.subs_223, etc.
+
+FIELDS:
+  - customer (text)                 : Customer identifier/name
+  - lat (numeric)                   : Latitude coordinate
+  - lon (numeric)                   : Longitude coordinate
+  - address (text)                  : Street address
+  - address2 (text)                 : Address line 2 (if needed)
+  - city (text)                     : City name
+  - state (text)                    : State code
+  - zip (text)                      : ZIP code
+  - download (numeric)              : Download speed (Mbps)
+  - upload (numeric)                : Upload speed (Mbps)
+  - voip_lines_quantity (integer)   : Number of VoIP lines
+  - business_customer (numeric)     : 0=residential, 1=business
+  - technology (integer)            : Technology code (10, 43, 50, 70, 71, 72)
+  - tech (text)                     : Technology name (e.g., 'fiber', 'cable')
+  - tract (text)                    : Census tract GEOID (11 digits)
+  - match (boolean)                 : Address match flag
+  - bdc_id (integer)                : BDC identifier
+  - type (text)                     : 'Active' or other status
+  - date (timestamp)                : Processing timestamp
+  - notes (text)                    : Additional notes
+
+LIFECYCLE:
+  - Table is DROPPED and recreated each processing run
+  - Previous data backed up to subs_{org_id}_temp if exists
+  - Non-'Active' records restored from backup after processing
+
+INDEX:
+  - subs_{org_id}_customer_index on customer field
+
+TECHNOLOGY CODES:
+  - 10  : ethernet
+  - 11  : adsl2
+  - 43  : cable
+  - 50  : fiber
+  - 70  : wireless_unlicensed
+  - 71  : wireless_pal / wireless_educational
+  - 72  : wireless_gaa
+
+→ For new employees: This is the main subscriber database table. Each ISP
+  gets their own table (subs_371, subs_223, etc.). The script rebuilds this
+  table from scratch each time to ensure data is current.
+
+
+================================================================================
+EMAIL CONFIGURATION
+================================================================================
+
+CONFIGURATION FILE (Primary)
+-----------------------------
+Location: /var/www/broadband/src/config/email_config.json
+
+STRUCTURE:
+{
+  "from_address": "info@regulatorysolutions.us",
+  "admin_email": "rolive@regulatorysolutions.us",
+  "bcc_addresses": "email1@example.com, email2@example.com, email3@example.com",
+  "smtp_user": "info@regulatorysolutions.us"
+}
+
+FIELDS:
+  - from_address    : Email shown in "From:" field
+  - admin_email     : Primary admin recipient for admin notifications
+  - bcc_addresses   : Comma-separated list of emails to BCC on ALL emails
+  - smtp_user       : SMTP authentication username
+
+BEHAVIOR:
+  - BCC list always includes rolive@regulatorysolutions.us (emergency contact)
+  - If file is missing or invalid, falls back to hardcoded defaults
+  - Emergency notification sent to rolive@regulatorysolutions.us on config failure
+
+→ For new employees: This JSON file controls who receives admin notifications.
+  The BCC list gets copied on EVERY email (user and admin), providing oversight.
+
+
+FALLBACK CONFIGURATION (Hardcoded)
+-----------------------------------
+Used when email_config.json is missing or invalid:
+
+  from_address: info@regulatorysolutions.us
+  admin_email:  rolive@regulatorysolutions.us
+  bcc_list:     [rolive@regulatorysolutions.us]
+  smtp_user:    info@regulatorysolutions.us
+
+
+DATABASE EMAIL SOURCE
+---------------------
+Customer emails: Retrieved from broadband.users table
+  Query: SELECT name, email FROM broadband.users WHERE org_id = {org_id}
+  Used for: User notification emails
+  Fallback: If not found, uses email from function parameter
+
+
+ENVIRONMENT VARIABLES (Required)
+---------------------------------
+  SMTP_PASSWORD      : Gmail/SMTP password for sending emails
+  SMTP_USER          : Optional override for smtp_user (defaults to JSON config)
+
+SMTP CONFIGURATION
+------------------
+  Server: smtp.gmail.com
+  Port:   465 (SSL)
+  Auth:   info@regulatorysolutions.us (or SMTP_USER override)
+
+
+HOW TO MODIFY EMAIL RECIPIENTS
+-------------------------------
+
+TO ADD/REMOVE ADMIN RECIPIENTS:
+  1. SSH to production server
+  2. Edit: /var/www/broadband/src/config/email_config.json
+  3. Modify "bcc_addresses" field (comma-separated list)
+  4. Save file
+  5. No restart required - changes take effect immediately
+
+  Example:
+    "bcc_addresses": "admin1@company.com, admin2@company.com, admin3@company.com"
+
+TO CHANGE CUSTOMER EMAIL:
+  1. Update database:
+     UPDATE broadband.users SET email = 'newemail@example.com' WHERE org_id = 371;
+  2. Changes take effect on next processing run
+
+TO CHANGE FROM ADDRESS:
+  1. Edit /var/www/broadband/src/config/email_config.json
+  2. Modify "from_address" field
+  3. Update SMTP credentials if changing email provider
+
+EMERGENCY CONTACT:
+  - rolive@regulatorysolutions.us is always included (hardcoded)
+  - Cannot be removed (safety mechanism)
+  - Receives notifications even if config file fails
+
+
+================================================================================
+EMAIL NOTIFICATIONS - DETAILED REFERENCE
+================================================================================
+
+OVERVIEW
+--------
+The system sends two types of emails:
+  1. USER EMAILS: Sent to customer (from broadband.users table)
+  2. ADMIN EMAILS: Sent to admin_email, BCC to entire admin team
+
+All emails include BCC to admin team from email_config.json.
+
+
+--------------------------------------------------------------------------------
+1. SUCCESS EMAIL (Code A Valid, Code B Complete)
+--------------------------------------------------------------------------------
+
+SENT TO: Customer email (broadband.users)
+BCC TO:  Admin team (email_config.json bcc_addresses)
+SUBJECT: FCC BDC Subscriber File Successfully Processed ({org_id})
+ATTACHMENTS: {org_id}_VR.xlsx (Validation Report)
+
+BOILERPLATE TEXT:
+---------------------------------------
+Dear {customer_name},
+
+Thank you for submitting your subscriber file to Regulatory Solutions for FCC
+BDC processing.
+
+We are pleased to inform you that your subscriber file has been successfully
+processed and validated.
+
+Your data has been geocoded, validated against census tract boundaries, and
+prepared for FCC submission.
+
+Attached to this email is your complete Validation Report ({org_id}_VR.xlsx).
+This report contains:
+- All corrections made to your data (addresses, coordinates, formatting, etc.)
+- Smarty API address validations performed
+- Any duplicate records that were renamed
+- A complete processing log
+
+We recommend reviewing this report and updating your source database to reflect
+these corrections for future submissions.
+
+If we discover any issues during our final review, we will contact you
+promptly. Otherwise, your subscriber file submission is complete and no
+further action is required on your part.
+
+Thank you for your timely attention to this important filing requirement.
+
+Best regards,
+The Regulatory Solutions Team
+---------------------------------------
+
+ADMIN EMAIL (Phase 1 - Code A Results):
+  SUBJECT: Code A Validation Results - Org {org_id}, Period {period}
+  ATTACHMENTS: All Code A artifacts from Subscriber_File_Validations/
+  MESSAGE: "Code A validation completed successfully... [details]"
+
+ADMIN EMAIL (Phase 2 - Code B Results):
+  SUBJECT: Code B Processing Results - Org {org_id}, Period {period}
+  ATTACHMENTS: All output files from subscription_processed/
+  MESSAGE: "Code B processing completed successfully... [statistics]"
+
+DATABASE UPDATES:
+  - filer_processing_status.subscription_status = 'complete'
+  - filer_processing_status.subscription_processed = true
+  - messages: 'Subscriber file processing complete'
+
+
+--------------------------------------------------------------------------------
+2. INVALID DATA EMAIL (Code A Return Code 1)
+--------------------------------------------------------------------------------
+
+SENT TO: Customer email (broadband.users)
+BCC TO:  Admin team (email_config.json bcc_addresses)
+SUBJECT: Your FCC BDC Subscriber File Failed to Complete Processing due to
+         Errors; Action Requested ({org_id})
+ATTACHMENTS: {org_id}_modified_subscription_file.xlsx
+
+BOILERPLATE TEXT:
+---------------------------------------
+Dear {customer_name},
+
+Thank you for uploading your subscriber file to Regulatory Solutions for FCC
+BDC processing.
+
+Initial review of the file suggests the file needs a little help.
+
+We have attached a file called {org_id}_Corrected_Subscribers.xlsx to this
+email. This file is your original subscriber file that has been partially
+corrected. This file identifies errors that need to be manually corrected.
+The file has color-coded cells:
+- Green cells have been automatically corrected to match USPS standards
+- Red and Pink cells need manual correction, and
+- Yellow cells should be reviewed and corrected as appropriate (e.g., missing
+  zip codes)
+
+Please:
+1. Open the attached {org_id}_Modified_Subscribers.xlsx file
+2. Correct the Red and Pink data cells
+3. Review and correct Yellow cells if possible. Any you cannot fix will likely
+   be auto-corrected when you resubmit.
+4. Complete your repairs and SAVE THE FILE IN A CSV format, then
+5. Re-upload the corrected CSV file
+
+If the file passes inspection, you will receive an email with a complete
+validation report.
+
+For detailed requirements and instructions, please refer to:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+Thanks for taking care of this.
+If you need help, please contact RSI at 972-836-7107.
+
+Best regards,
+The Regulatory Solutions Team
+---------------------------------------
+
+ADMIN EMAIL:
+  SUBJECT: Code A Validation Results - Org {org_id}, Period {period}
+  ATTACHMENTS: All Code A artifacts
+  MESSAGE: "Code A validation completed... File Status: INVALID... [debug output]"
+
+DATABASE UPDATES:
+  - filer_processing_status.subscription_status = 'data_validation_failed'
+  - filer_processing_status.subscription_processed = true
+  - messages: 'Subscriber file processing error. Check your email for details.'
+
+NOTE: Processing stops after this email. Code B is not executed.
+
+
+--------------------------------------------------------------------------------
+3. HEADER ERROR EMAIL (Code A Return Code 2)
+--------------------------------------------------------------------------------
+
+SENT TO: Customer email (broadband.users)
+BCC TO:  Admin team (email_config.json bcc_addresses)
+SUBJECT: FCC BDC Subscriber File - Column Header Error
+ATTACHMENTS: {org_id}_Original.csv
+
+BOILERPLATE TEXT:
+---------------------------------------
+Dear {customer_name},
+
+Thank you for uploading your subscriber file to Regulatory Solutions for FCC
+BDC processing.
+
+We were unable to process your file because the column headers do not match
+the required format.
+
+Your file must contain exactly these 12 column headers (in any order):
+• customer
+• lat
+• lon
+• address
+• city
+• state
+• zip
+• download
+• upload
+• voip_lines_quantity
+• business_customer
+• technology
+
+Common Issues:
+- Column headers have extra spaces or special characters
+- Headers are in a different row (not the first row)
+- Headers are misspelled or use different names
+- File contains extra rows before the header row
+
+What to do next:
+1. Review your attached file and verify the column headers match exactly
+2. Correct the headers to match the required names above
+3. Ensure headers are in the first row of your file
+4. Save your file and re-upload
+
+For detailed requirements and a template, please refer to:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+If you need assistance, please contact RSI at 972-836-7107.
+
+Best regards,
+The Regulatory Solutions Team
+---------------------------------------
+
+ADMIN EMAIL:
+  SUBJECT: Code A Validation Results - Org {org_id}, Period {period}
+  ATTACHMENTS: Code A artifacts (including column error file if available)
+  MESSAGE: "Code A validation FAILED... File Status: HEADER ERROR..."
+
+DATABASE UPDATES:
+  - filer_processing_status.subscription_status = 'header_validation_failed'
+  - filer_processing_status.subscription_processed = true
+  - messages: 'Subscriber file processing error. Check your email for details.'
+
+NOTE: Processing stops after this email. Code B is not executed.
+
+
+--------------------------------------------------------------------------------
+4. SYSTEM ERROR EMAIL (Code A Return Code 3 or other)
+--------------------------------------------------------------------------------
+
+SENT TO: Customer email (broadband.users)
+BCC TO:  Admin team (email_config.json bcc_addresses)
+SUBJECT: Subscriber File Processing Error
+ATTACHMENTS: {org_id}_Original.csv (if available)
+
+BOILERPLATE TEXT:
+---------------------------------------
+Dear {customer_name},
+
+We encountered a technical issue while processing your subscriber file that
+prevented validation from completing.
+
+This is typically due to file format issues such as:
+- Missing required columns
+- Incorrect file structure
+- File encoding problems
+
+Please verify your file follows the subscriber template format and re-upload,
+or contact our support team for assistance.
+
+For your convenience, detailed field requirements are available at:
+https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+Best regards,
+The Regulatory Solutions Team
+---------------------------------------
+
+ADMIN EMAIL:
+  SUBJECT: Code A Validation Results - Org {org_id}, Period {period}
+  ATTACHMENTS: Any available artifacts
+  MESSAGE: "Code A validation FAILED... File Status: ERROR... [full traceback]"
+
+DATABASE UPDATES:
+  - filer_processing_status.subscription_status = 'system_error'
+  - filer_processing_status.subscription_processed = true
+  - messages: 'Subscriber file processing error. Check your email for details.'
+
+NOTE: Processing stops after this email. Code B is not executed.
+
+
+--------------------------------------------------------------------------------
+5. GEOCODING ERRORS EMAIL (Code A Valid, Code B Partial Success)
+--------------------------------------------------------------------------------
+
+SENT TO: Customer email (broadband.users)
+BCC TO:  Admin team (email_config.json bcc_addresses)
+SUBJECT: Subscriber File Processing - Geocoding Issues
+ATTACHMENTS: None
+
+BOILERPLATE TEXT:
+---------------------------------------
+Dear {customer_name},
+
+Your subscriber file passed validation but we encountered geocoding errors
+for some addresses:
+
+Date: {timestamp}
+
+error geocoding row 15 addr: 123 INVALID ST, SOMECITY, TX 75001
+error geocoding row 42 addr: 999 NONEXISTENT AVE, OTHERCITY, TX 75002
+[additional errors listed...]
+
+These addresses could not be geocoded and may need manual coordinate entry.
+The rest of your file has been processed successfully.
+
+Best Regards,
+
+The Regulatory Solutions Team
+---------------------------------------
+
+ADMIN EMAIL:
+  SUBJECT: Code B Processing Results - Org {org_id}, Period {period}
+  ATTACHMENTS: All output files including processing_errors.txt
+  MESSAGE: "Code B processing completed with geocoding errors... [details]"
+
+DATABASE UPDATES:
+  - filer_processing_status.subscription_status = 'geocoding_errors'
+  - filer_processing_status.subscription_processed = true
+  - messages: 'Subscriber file processing error. Check your email for details.'
+
+NOTE: Processing completes. Output files are still generated for valid records.
+
+
+================================================================================
+EMAIL TROUBLESHOOTING
+================================================================================
+
+EMAIL CONFIG FILE ERRORS
+-------------------------
+If /var/www/broadband/src/config/email_config.json is missing or invalid:
+  1. System falls back to hardcoded defaults
+  2. Emergency notification sent to rolive@regulatorysolutions.us
+  3. Regular emails still sent (using defaults)
+  4. Check validate_subs.log for "[EMAIL CONFIG ERROR]" entries
+
+SMTP ERRORS
+-----------
+If SMTP_PASSWORD environment variable not set:
+  - Script raises: ValueError("SMTP_PASSWORD environment variable not set")
+  - No emails sent
+  - Processing may continue but notifications fail
+
+To fix:
+  export SMTP_PASSWORD='your-gmail-app-password'
+
+EMAIL NOT RECEIVED
+------------------
+Check these in order:
+  1. Verify email address in broadband.users table
+  2. Check validate_subs.log for "User email sent successfully" message
+  3. Verify BCC addresses in email_config.json are correct
+  4. Check spam/junk folders
+  5. Verify SMTP credentials are valid
+
+
+================================================================================
+LOGGING
+================================================================================
+
+LOG FILE
+--------
+Location: validate_subs.log (in script execution directory)
+
+LOGGED EVENTS
+-------------
+- Processing start/end with timestamps
+- Email configuration loading (success/failure)
+- Code A subprocess execution and results
+- File paths being processed
+- Email sending status (to whom, attachments, success/failure)
+- Database operations
+- Error messages and tracebacks
+- Geocoding errors
+- File system operations
+
+SAMPLE LOG ENTRIES
+------------------
+[EMAIL CONFIG] Successfully loaded from /var/www/broadband/src/config/email_config.json
+[SEND EMAIL] Preparing to send email to customer: user@example.com
+[SEND EMAIL] BCC list: admin1@example.com, admin2@example.com, rolive@regulatorysolutions.us
+Added user attachment: 371_VR.xlsx
+User email sent successfully to user@example.com
+[PHASE 2 SUCCESS] Success email sent to user with VR attachment: user@example.com
+
+MONITORING
+----------
+To watch processing in real-time:
+  tail -f validate_subs.log
+
+To search for specific org_id:
+  grep "org_id=371" validate_subs.log
+
+
+================================================================================
+PROCESS FLOW DIAGRAM
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PHASE 1: CODE A VALIDATION                                              │
+└─────────────────────────────────────────────────────────────────────────┘
+
+INPUT: /var/www/broadband/uploads/{org_id}/{period}/subscribers/*.csv
+   │
+   ├──> Code A subprocess called
+   │      (python3 -m src.main {file} {org_id} {period})
+   │
+   ├──> Code A validates headers and data
+   │
+   ├──> Code A creates artifacts
+   │      └──> /var/www/broadband/Subscriber_File_Validations/{period}/{org_id}/
+   │           ├── {org_id}_Original.csv
+   │           ├── {org_id}_Corrected_Subscribers.csv
+   │           ├── {org_id}_Corrected_Subscribers.xlsx
+   │           ├── {org_id}_VR.xlsx
+   │           └── {org_id}_Column_Count_Errors.xlsx (if errors)
+   │
+   ├──> Return Code Analysis:
+   │      0 = Valid (proceed to Phase 2)
+   │      1 = Invalid data (send corrected file to user, STOP)
+   │      2 = Header error (send error email, STOP)
+   │      3+ = System error (send error email, STOP)
+   │
+   └──> Send Admin Email (Code A results + all artifacts)
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PHASE 2: CODE B PROCESSING (Only if Phase 1 returns 0)                  │
+└─────────────────────────────────────────────────────────────────────────┘
+
+INPUT: {org_id}_Corrected_Subscribers.csv from Code A
+   │
+   ├──> Read validated CSV
+   │
+   ├──> Geocode missing coordinates (Google Maps API)
+   │      (only for rows with empty lat/lon)
+   │
+   ├──> Assign census tracts
+   │      Query: census_data.tracts20 with ST_Intersects
+   │
+   ├──> Insert into subscribers.subs_{org_id} table
+   │      (table dropped and recreated)
+   │
+   ├──> Create output files:
+   │      └──> /var/www/broadband/uploads/{org_id}/{period}/subscription_processed/
+   │           ├── {org_id}_subscription_processed.csv
+   │           ├── 477_{org_id}_subscription_processed.csv
+   │           ├── {org_id}_voice_subscription_processed.csv (if VoIP)
+   │           ├── {org_id}_voice_state_data.txt (if VoIP)
+   │           └── processing_errors.txt (if geocoding errors)
+   │
+   ├──> Update database:
+   │      - filer_processing_status: status = 'complete' or 'geocoding_errors'
+   │      - messages: Success or error message
+   │
+   ├──> Send Admin Email (Code B results + output files)
+   │
+   └──> Send User Email (Success + VR.xlsx or Geocoding errors)
+
+
+================================================================================
+QUICK REFERENCE CHECKLIST
+================================================================================
+
+BEFORE PROCESSING
+-----------------
+[ ] Subscriber CSV uploaded to /var/www/broadband/uploads/{org_id}/{period}/subscribers/
+[ ] File has correct 12 column headers
+[ ] Subscriber_File_Validations directory has 777 permissions
+[ ] Database connection available
+[ ] Environment variables set (DB_PASSWORD, SMTP_PASSWORD, GOOGLE_MAPS_API_KEY)
+[ ] Email config file exists: /var/www/broadband/src/config/email_config.json
+
+AFTER PROCESSING - SUCCESS
+---------------------------
+[ ] Output files created in subscription_processed/
+[ ] Validation artifacts in Subscriber_File_Validations/
+[ ] Database table subscribers.subs_{org_id} updated
+[ ] filer_processing_status shows 'complete'
+[ ] User received success email with VR.xlsx
+[ ] Admin received two emails (Code A + Code B results)
+
+AFTER PROCESSING - FAILURE
+---------------------------
+[ ] Check validate_subs.log for error details
+[ ] Verify which phase failed (Code A or Code B)
+[ ] Check email notifications sent to user and admin
+[ ] Review filer_processing_status for error status
+[ ] Check database messages table for user notification
+
+
+================================================================================
+SUPPORT & CONTACTS
+================================================================================
+
+Emergency Contact:  rolive@regulatorysolutions.us (always BCC'd)
+Phone Support:      972-836-7107
+Documentation:      https://regulatorysolutions.us/downloads/subscriber_template_instructionsV2.pdf
+
+Log File:           validate_subs.log
+Email Config:       /var/www/broadband/src/config/email_config.json
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================

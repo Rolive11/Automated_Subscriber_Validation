@@ -1,0 +1,9 @@
+customer,lat,lon,address,city,state,zip,download,upload,voip_lines_quantity,business_customer,technology
+Valid Record,33.9425,-117.2297,123 Main St,Riverside,CA,92501,100,25,0,0,fiber
+Missing Coords,,,456 Broadway,New York,NY,10012,250,50,1,0,fiber
+Bad Address,41.8781,-87.6298,99999 Fake St,Chicago,IL,60611,500,100,0,1,fiber
+Invalid State,29.7604,-95.3698,321 Texas St,Houston,XX,77002,100,25,0,0,fiber
+Valid Record 2,39.7392,-104.9903,654 Colfax Ave,Denver,CO,80202,250,50,0,0,wireless_unlicensed
+Typo in City,47.6062,-122.3321,987 Pike St,Seatle,WA,98101,100,25,0,0,fiber
+Negative Download,33.4484,-112.0740,147 Central Ave,Phoenix,AZ,85004,-100,25,1,0,wireless_unlicensed
+Missing Zip,39.9526,-75.1652,258 Market St,Philadelphia,PA,,500,100,0,0,fiber

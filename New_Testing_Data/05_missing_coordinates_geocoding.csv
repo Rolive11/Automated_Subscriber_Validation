@@ -1,0 +1,8 @@
+customer,lat,lon,address,city,state,zip,download,upload,voip_lines_quantity,business_customer,technology
+No Coordinates 1,,,123 Main St,Riverside,CA,92501,100,25,0,0,fiber
+No Coordinates 2,,,456 Broadway,New York,NY,10012,250,50,1,0,fiber
+Partial Coords 1,33.9425,,789 Michigan Ave,Chicago,IL,60611,500,100,0,1,fiber
+Partial Coords 2,,-95.3698,321 Texas St,Houston,TX,77002,100,25,2,0,fiber
+Good Coords,39.7392,-104.9903,654 Colfax Ave,Denver,CO,80202,1000,250,0,0,wireless_unlicensed
+Blank Coords,,,987 Pike St,Seattle,WA,98101,100,25,0,0,fiber
+No Lat Only,,-112.0740,147 Central Ave,Phoenix,AZ,85004,250,50,1,0,wireless_unlicensed
