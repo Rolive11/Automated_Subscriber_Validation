@@ -75,6 +75,61 @@ import re
 import json
 import pandas as pd
 
+
+class TeeOutput:
+    """Duplicates stdout to both console and a log file with timestamps."""
+    def __init__(self, log_file_path):
+        self.terminal = sys.stdout
+        self.log_file_path = log_file_path
+        self.log_file = open(log_file_path, 'w')
+        self.log_file.write(f"=== Console Log Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")
+        self.log_file.flush()
+
+    def write(self, message):
+        self.terminal.write(message)
+        if message.strip():
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            self.log_file.write(f"[{timestamp}] {message}")
+            if not message.endswith('\n'):
+                self.log_file.write('\n')
+        elif message == '\n':
+            self.log_file.write('\n')
+        self.log_file.flush()
+
+    def flush(self):
+        self.terminal.flush()
+        self.log_file.flush()
+
+    def close(self):
+        self.log_file.write(f"\n=== Console Log Ended: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")
+        self.log_file.close()
+
+
+_console_logger = None
+
+
+def init_console_logging():
+    """Initialize console logging to /var/www/broadband/Console_Printout.log"""
+    global _console_logger
+    log_path = '/var/www/broadband/Console_Printout.log'
+    try:
+        _console_logger = TeeOutput(log_path)
+        sys.stdout = _console_logger
+        print(f"Console logging initialized to: {log_path}")
+    except Exception as e:
+        print(f"WARNING: Could not initialize console logging to {log_path}: {e}")
+        print("Continuing without file logging...")
+
+
+def close_console_logging():
+    """Close the console logger and restore stdout"""
+    global _console_logger
+    if _console_logger:
+        sys.stdout = _console_logger.terminal
+        _console_logger.close()
+        _console_logger = None
+
+
 # Load environment variables from .env file if it exists
 try:
     from dotenv import load_dotenv
@@ -472,7 +527,8 @@ def call_code_a_validation(org_id, period, subscriber_file_path):
     """
 
     # Build Code A command
-    base_output_dir = f"/var/www/broadband/uploads/{org_id}/{period}"
+    upload_base_dir = os.getenv('UPLOAD_BASE_DIR', '/var/www/broadband/uploads')
+    base_output_dir = f"{upload_base_dir}/{org_id}/{period}"
     code_a_base_dir = "/var/www/broadband"
 
     cmd = [
@@ -1756,23 +1812,16 @@ The Regulatory Solutions Team"""
     return
 
 def main(ispid,per,user_email):
-	# Check command line arguments
-	"""if len(sys.argv) < 4:
-	    print("ERROR: Missing required arguments")
-	    print("Usage: python3 validate_subscription_isp_mod_2.py {isp_id} yyyy-mm-dd {user_email}")
-	    print("Example: python3 validate_subscription_isp_mod_2.py 123 2025-06-30 user@example.com")
-	    sys.exit(1)
+	if os.getenv('CONSOLE_LOG', 'false').lower() == 'true':
+	    init_console_logging()
 
-	ispid = sys.argv[1]
-	per = sys.argv[2]
-	user_email = sys.argv[3]
-	"""
 	ispid = str(ispid)
 	# Validate email format (basic validation)
 	email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 	if not re.match(email_pattern, user_email):
 	    print(f"ERROR: Invalid email format: {user_email}")
 	    print("Please provide a valid email address")
+	    close_console_logging()
 	    sys.exit(1)
 
 	now = datetime.now()
@@ -1783,13 +1832,14 @@ def main(ispid,per,user_email):
 	    print(f'validate_subscription_isp run for ISP {ispid}, Period {per}, User Email {user_email}\n', file=f)
 
 
-	db_host = os.getenv('DB_HOST', 'localhost')
-	db_port = os.getenv('DB_PORT', '5432')
-	db_name = os.getenv('DB_NAME', 'broadband')
-	db_user = os.getenv('DB_USER', 'broadband')
-	db_password = os.getenv('DB_PASSWORD')
+	db_host = os.getenv('DBHOST', 'localhost')
+	db_port = os.getenv('DBPORT', '5432')
+	db_name = os.getenv('USERDB', 'broadband')
+	db_user = os.getenv('DBUSER', 'broadband')
+	db_password = os.getenv('DBPASSWORD')
 	if not db_password:
-	    raise ValueError("DB_PASSWORD environment variable not set")
+	    raise ValueError("DBPASSWORD environment variable not set")
+	upload_base_dir = os.getenv('UPLOAD_BASE_DIR', '/var/www/broadband/uploads')
 
 	global conn
 	conn = psycopg2.connect(
@@ -1843,7 +1893,7 @@ def main(ispid,per,user_email):
 	# ps_cursor.close()
 
 
-	dir_path = r'/var/www/broadband/uploads'
+	dir_path = upload_base_dir
 	procisp = 0
 	endperiod = ''
 	for path in os.listdir(dir_path):
@@ -1890,4 +1940,15 @@ def main(ispid,per,user_email):
 
 	with open('validate_subs.log', 'a') as f:
 	    print('validate_subscription_isp run done for ' + str(ispid) + '\n', file=f)
- 
+
+	close_console_logging()
+
+
+if __name__ == '__main__':
+    if len(sys.argv) < 4:
+        print("ERROR: Missing required arguments")
+        print("Usage: python3 validate_subscription_isp_mod_4.py {isp_id} yyyy-mm-dd {user_email}")
+        print("Example: python3 validate_subscription_isp_mod_4.py 306 2025-12-31 user@example.com")
+        sys.exit(1)
+    main(sys.argv[1], sys.argv[2], sys.argv[3])
+
