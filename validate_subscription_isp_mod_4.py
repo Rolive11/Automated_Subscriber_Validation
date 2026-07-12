@@ -52,6 +52,7 @@ See COMPREHENSIVE_SOLUTION_SUMMARY.md for detailed documentation.
 """
 
 import csv
+import io
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import sys
@@ -1522,7 +1523,6 @@ The Regulatory Solutions Team"""
             conn.commit()
 
             # Continue with successful processing - create output files
-            tmpout = "/tmp/" + isp + "_subscription_processed.csv"
             outfil = periodpath + "/subscription_processed/" + \
                 isp + "_subscription_processed.csv"
             dirExist = os.path.exists(periodpath + "/subscription_processed/")
@@ -1545,26 +1545,24 @@ The Regulatory Solutions Team"""
                             count(customer) - sum(business_customer) as residential
                             from subscribers.subs_""" + isp + """ where technology > 1 and type = 'Active'
                             group by tract,technology,download,upload
-                            order by tract, download, upload) to '""" + tmpout + """' with CSV DELIMITER ','  """
-            cursor.execute(sql)
+                            order by tract, download, upload) TO STDOUT WITH CSV DELIMITER ','"""
+            output = io.StringIO()
+            cursor.copy_expert(sql, output)
+            output.seek(0)
+            lines = output.readlines()
+            lenl = len(lines)
             fcnt = 1
-            with open(tmpout, 'r') as f:
-                lines = f.readlines()
-                lenl = len(lines)
-                with open(outfil, 'w') as fo:
-                    for l in lines:
-                        if "\n" in l:
-                            print("found new line")
-                            nlpos = l.find("\n")
-                            nl = l[:nlpos]
-                            print("nl", nl)
-                            if fcnt < lenl:
-                                nl = nl + "\n"
-                            fo.write(nl)
-                            fcnt += 1
+            with open(outfil, 'w') as fo:
+                for l in lines:
+                    if "\n" in l:
+                        nlpos = l.find("\n")
+                        nl = l[:nlpos]
+                        if fcnt < lenl:
+                            nl = nl + "\n"
+                        fo.write(nl)
+                        fcnt += 1
 
             # Create 477 version (change 71 to 70)
-            tmpout = "/tmp/477_" + isp + "_subscription_processed.csv"
             outfil = periodpath + "/subscription_processed/477_" + \
                 isp + "_subscription_processed.csv"
             sql = """COPY (Select tract,
@@ -1576,16 +1574,16 @@ The Regulatory Solutions Team"""
                             count(customer) as total,
                             count(customer) - sum(business_customer) as residential
                             from subscribers.subs_""" + isp + """ where technology > 1
-                             group by tract,techcode,download,upload) to '""" + tmpout + """' with CSV DELIMITER ','  """
-            cursor.execute(sql)
-            with open(tmpout) as f:
-                contents = f.read()
+                             group by tract,techcode,download,upload) TO STDOUT WITH CSV DELIMITER ','"""
+            output = io.StringIO()
+            cursor.copy_expert(sql, output)
+            output.seek(0)
+            contents = output.read()
             with open(outfil, "w") as fo:
                 print(contents, file=fo)
 
             # Handle VoIP processing if needed
             if voipneeded == True:
-                tmpout = "/tmp/" + isp + "voice_subscription_processed.csv"
                 outfil = periodpath + "/subscription_processed/" + \
                     isp + "_voice_subscription_processed.csv"
                 isExist = os.path.exists(outfil)
@@ -1596,23 +1594,22 @@ The Regulatory Solutions Team"""
                         '1' as service_type,
                         sum(voip_lines_quantity) as total,
                         sum(voip_lines_quantity) - (sum(business_customer * voip_lines_quantity)) as residential
-                        from subscribers.subs_""" + isp + """ where voip_lines_quantity > 0 group by tract order by tract) to '""" + tmpout + """' with CSV DELIMITER ','  """
-                cursor.execute(sql)
+                        from subscribers.subs_""" + isp + """ where voip_lines_quantity > 0 group by tract order by tract) TO STDOUT WITH CSV DELIMITER ','"""
+                output = io.StringIO()
+                cursor.copy_expert(sql, output)
+                output.seek(0)
+                lines = output.readlines()
+                lenl = len(lines)
                 fcnt = 1
-                with open(tmpout, 'r') as f:
-                    lines = f.readlines()
-                    lenl = len(lines)
-                    with open(outfil, 'w') as fo:
-                        for l in lines:
-                            if "\n" in l:
-                                print("found new line")
-                                nlpos = l.find("\n")
-                                nl = l[:nlpos]
-                                print("nl", nl)
-                                if fcnt < lenl:
-                                    nl = nl + "\n"
-                                fo.write(nl)
-                                fcnt += 1
+                with open(outfil, 'w') as fo:
+                    for l in lines:
+                        if "\n" in l:
+                            nlpos = l.find("\n")
+                            nl = l[:nlpos]
+                            if fcnt < lenl:
+                                nl = nl + "\n"
+                            fo.write(nl)
+                            fcnt += 1
 
                 # Create voice state data
                 outfil = periodpath + "/subscription_processed/" + isp + "_voice_state_data.txt"
