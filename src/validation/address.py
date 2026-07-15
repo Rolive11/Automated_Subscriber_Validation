@@ -5,6 +5,7 @@ import pandas as pd
 from src.config.settings import PO_BOX, RURAL_ROUTES, STREET_ENDINGS, SPECIFIC_ROAD_PATTERN, FORBIDDEN_CHARS, VALID_STATES, NON_STANDARD_ENDINGS
 from src.utils.logging import debug_print
 from src.validation.smarty_validation import SMARTY_ELIGIBLE_ERRORS
+from src.validation.general import should_skip_address_requirement
 
 def append_error_with_tracking(error_msg, orig_row, col_name, value, idx, errors, flagged_cells):
     """Append error and flag cell with OrigRowNum tracking."""
@@ -412,15 +413,9 @@ def validate_address_column(cleaned_df, errors, corrected_cells, flagged_cells, 
     for idx, val in enumerate(cleaned_df["address"].fillna("").astype(str).str.strip()):
         orig_row = cleaned_df["OrigRowNum"][idx]
 
-        # Check if ALL address fields are empty (GPS-only row)
-        address_empty = not val or val.strip() == ""
-        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
-        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
-        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
-
-        # If ALL address fields are empty, skip address validation (GPS-only row)
-        if address_empty and city_empty and state_empty and zip_empty:
-            debug_print(f"Skipping address validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+        # Skip address validation for GPS-only rows or rows with valid coordinates
+        if should_skip_address_requirement(cleaned_df.iloc[idx]):
+            debug_print(f"Skipping address validation for OrigRowNum={orig_row}: GPS-only row or valid coordinates present")
             continue
 
         state = cleaned_df["state"][idx]

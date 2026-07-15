@@ -163,6 +163,36 @@ def get_state_from_zip(zip_code):
         debug_print(f"Error getting state from ZIP {zip_code}: {str(e)}")
         return None
 
+def has_valid_coordinates(row):
+    """
+    True if lat and lon are both present and non-blank on this row.
+
+    Relies on validate_coordinates() having already run earlier in the
+    pipeline to reset genuinely invalid values back to blank -- this only
+    checks presence, not numeric validity, so callers must run after that
+    cleanup step to get a meaningful answer.
+    """
+    lat_val = row.get('lat', '')
+    lon_val = row.get('lon', '')
+    lat_present = pd.notna(lat_val) and str(lat_val).strip() != ""
+    lon_present = pd.notna(lon_val) and str(lon_val).strip() != ""
+    return lat_present and lon_present
+
+def should_skip_address_requirement(row):
+    """
+    True if address/city/state/zip validation should be skipped for this
+    row -- either all four fields are blank (pure GPS-only row), or valid
+    coordinates are already present (Code B only needs lat/lon; a tech who
+    dropped a pin doesn't also need a hand-typed address). Single source of
+    truth replacing four previously-duplicated inline checks.
+    """
+    address_empty = pd.isna(row.get('address', '')) or str(row.get('address', '')).strip() == ""
+    city_empty = pd.isna(row.get('city', '')) or str(row.get('city', '')).strip() == ""
+    state_empty = pd.isna(row.get('state', '')) or str(row.get('state', '')).strip() == ""
+    zip_empty = pd.isna(row.get('zip', '')) or str(row.get('zip', '')).strip() == ""
+    all_address_fields_empty = address_empty and city_empty and state_empty and zip_empty
+    return all_address_fields_empty or has_valid_coordinates(row)
+
 def validate_and_correct_state(state_val, zip_val, idx, orig_row, errors, corrected_cells, flagged_cells):
     """Validate and correct state using ZIP code."""
     state_val = state_val.strip() if pd.notna(state_val) else ""
@@ -263,16 +293,12 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
                             debug_print(f"Skipping required field error for {col} at OrigRowNum={orig_row}: VoIP technology does not require speeds")
                             continue
 
-                    # Skip required field errors for address fields if ALL address fields are empty (GPS-only row)
+                    # Skip required field errors for address fields if the row is GPS-only
+                    # (all address fields blank) or already has valid coordinates
                     if col in ["address", "city", "state", "zip"]:
                         row_data = cleaned_df.iloc[idx]
-                        address_empty = pd.isna(row_data.get('address', '')) or str(row_data.get('address', '')).strip() == ""
-                        city_empty = pd.isna(row_data.get('city', '')) or str(row_data.get('city', '')).strip() == ""
-                        state_empty = pd.isna(row_data.get('state', '')) or str(row_data.get('state', '')).strip() == ""
-                        zip_empty = pd.isna(row_data.get('zip', '')) or str(row_data.get('zip', '')).strip() == ""
-
-                        if address_empty and city_empty and state_empty and zip_empty:
-                            debug_print(f"Skipping required field error for {col} at OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+                        if should_skip_address_requirement(row_data):
+                            debug_print(f"Skipping required field error for {col} at OrigRowNum={orig_row}: GPS-only row or valid coordinates present")
                             continue
 
                     error_msg = f"Required field: {col.capitalize()} cannot be empty"

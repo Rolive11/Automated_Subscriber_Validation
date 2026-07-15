@@ -17,7 +17,7 @@ from src.utils.logging import debug_print
 from src.config.settings import EXPECTED_COLUMNS, VALID_STATES, VALID_TECHNOLOGIES, STATE_LAT_RANGES, STATE_LON_RANGES, DTYPE_DICT, GREEN_FILL, PINK_FILL, YELLOW_FILL, RED_FILL
 from src.validation.customer import validate_customer_uniqueness, remove_full_row_duplicates
 from src.validation.address import validate_address, validate_address_column
-from src.validation.general import validate_general_columns, validate_and_correct_state
+from src.validation.general import validate_general_columns, validate_and_correct_state, should_skip_address_requirement
 from src.validation.coordinates import validate_coordinates
 from src.validation.smarty_validation import process_smarty_corrections
 
@@ -961,19 +961,18 @@ def validate_subscriber_file(input_csv, company_id, period):
     # This runs early to reduce processing on duplicate data
     cleaned_df = remove_full_row_duplicates(cleaned_df, errors, rows_to_remove, duplicate_removals, corrected_cells, flagged_cells)
 
+    # Coordinates are validated/cleaned here, before any address-requirement check,
+    # so should_skip_address_requirement() below sees genuinely-validated lat/lon
+    # (not raw input that validate_coordinates would later reset to blank)
+    validate_coordinates(cleaned_df, errors, corrected_cells, flagged_cells)
+
     # Phase 1: Non-standard address endings and state correction
     for idx, val in enumerate(cleaned_df["address"].fillna("").astype(str).str.strip()):
         orig_row = cleaned_df["OrigRowNum"][idx]
 
-        # Check if ALL address fields are empty (GPS-only row)
-        address_empty = not val or val.strip() == ""
-        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
-        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
-        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
-
-        # If ALL address fields are empty, skip address validation (GPS-only row)
-        if address_empty and city_empty and state_empty and zip_empty:
-            debug_print(f"Phase 1: Skipping address validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+        # Skip address validation for GPS-only rows or rows with valid coordinates
+        if should_skip_address_requirement(cleaned_df.iloc[idx]):
+            debug_print(f"Phase 1: Skipping address validation for OrigRowNum={orig_row}: GPS-only row or valid coordinates present")
             continue
 
         state = cleaned_df["state"][idx]  # NEW: Get state from the row
@@ -985,14 +984,9 @@ def validate_subscriber_file(input_csv, company_id, period):
     for idx, (state_val, zip_val) in enumerate(zip(cleaned_df["state"].fillna(""), cleaned_df["zip"].fillna(""))):
         orig_row = cleaned_df["OrigRowNum"][idx]
 
-        # Check if ALL address fields are empty (GPS-only row) - skip state validation
-        address_empty = pd.isna(cleaned_df["address"].iloc[idx]) or str(cleaned_df["address"].iloc[idx]).strip() == ""
-        city_empty = pd.isna(cleaned_df["city"].iloc[idx]) or str(cleaned_df["city"].iloc[idx]).strip() == ""
-        state_empty = pd.isna(cleaned_df["state"].iloc[idx]) or str(cleaned_df["state"].iloc[idx]).strip() == ""
-        zip_empty = pd.isna(cleaned_df["zip"].iloc[idx]) or str(cleaned_df["zip"].iloc[idx]).strip() == ""
-
-        if address_empty and city_empty and state_empty and zip_empty:
-            debug_print(f"Skipping state validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+        # Skip state validation for GPS-only rows or rows with valid coordinates
+        if should_skip_address_requirement(cleaned_df.iloc[idx]):
+            debug_print(f"Skipping state validation for OrigRowNum={orig_row}: GPS-only row or valid coordinates present")
             continue
 
         corrected_state = validate_and_correct_state(state_val, zip_val, idx, orig_row, errors, corrected_cells, flagged_cells)
@@ -1005,7 +999,6 @@ def validate_subscriber_file(input_csv, company_id, period):
 
     # Phase 2: Comprehensive validation (keeping all rows in DataFrame)
     validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
-    validate_coordinates(cleaned_df, errors, corrected_cells, flagged_cells)
     validate_address_column(cleaned_df, errors, corrected_cells, flagged_cells, pobox_errors, rows_to_remove)
 
     # Keep DataFrame in original input order - no sorting needed
