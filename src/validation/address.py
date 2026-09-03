@@ -235,7 +235,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             validation_passed = True
         else:
             # Street endings already include required leading space in the pattern
-            street_ending_matches = list(re.finditer(rf"(?:{STREET_ENDINGS})(?:\s|$)", address, re.IGNORECASE))
+            street_ending_matches = list(re.finditer(rf"(?:{STREET_ENDINGS})(?=\s|$)", address, re.IGNORECASE))
             compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
             number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
 
@@ -248,7 +248,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
                 # Validate street name before the ending
                 address_before_ending = address[:last_match.start()].strip()
                 # Regex: Optional directional prefix, house number (with optional letter suffix), followed by street name (letters, spaces, hyphens, apostrophes)
-                street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\d*\s+[\w\s'-]+"
+                street_name_pattern = r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\d*(?:\s+\d+/\d+)?(?:\s+[\w\s'-]+)?$"
                 if re.match(street_name_pattern, address_before_ending):
                     debug_print(f"Valid street name found for OrigRowNum={orig_row}: '{address_before_ending}'")
                     validation_passed = True
@@ -308,7 +308,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             debug_print(f"DEBUG: Match groups: {non_standard_match.groups()}")
             debug_print(f"DEBUG: Corrected address: '{corrected_address}'")
             # Ensure the corrected address still has a valid street name (allow letter suffix on house number)
-            street_name_check = re.match(r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\d*\s+[\w\s\-']+", corrected_address)
+            street_name_check = re.match(r"(?i)^(?:(N|S|E|W|NE|NW|SE|SW)\s?)?\d+[A-Z]?\d*(?:\s+\d+/\d+)?\s+[\w\s\-']+", corrected_address)
             debug_print(f"DEBUG: Street name check result: {street_name_check is not None}")
             if street_name_check:
                 corrected_cells[(idx, "address")] = {
@@ -338,7 +338,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             address_before_tower = address[:tower_match.start()].strip()
 
             # Check if address before TOWER ends with a street ending
-            if re.search(rf"(?:{STREET_ENDINGS})(?:\s|$)", address_before_tower, re.IGNORECASE):
+            if re.search(rf"(?:{STREET_ENDINGS})(?=\s|$)", address_before_tower, re.IGNORECASE):
                 corrected_address = address_before_tower
                 corrected_cells[(idx, "address")] = {
                     "row": int(orig_row),
@@ -360,7 +360,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             return True
 
     # Check for house number if street ending exists, allowing optional directional prefixes
-    street_ending_match = re.search(rf"\s+(?:{STREET_ENDINGS})\.?(?:\s*$|\s+\S+)", address, re.IGNORECASE)
+    street_ending_match = re.search(rf"(?:{STREET_ENDINGS})\.?(?:\s*$|\s+\S+)", address, re.IGNORECASE)
     if street_ending_match:
         address_before_ending = address[:street_ending_match.start()].strip()
         # Regex: Optional directional prefix (with optional space) followed by one or more digits and optional letter suffix
@@ -393,7 +393,7 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
 
     if not specific_road_match:
         # Only check for standard street endings if it's not a specific road type
-        final_street_ending_matches = list(re.finditer(rf"\s+(?:{STREET_ENDINGS})\b", address, re.IGNORECASE))
+        final_street_ending_matches = list(re.finditer(rf"(?:{STREET_ENDINGS})\b", address, re.IGNORECASE))
         compass_ending_matches = list(re.finditer(r"\b(?:N|NE|E|SE|S|SW|W|NW)\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
         number_number_compass_matches = list(re.finditer(r"\b\d+\s+\d+\s+(?:N|NE|E|SE|S|SW|W|NW)\b$", address, re.IGNORECASE))
 

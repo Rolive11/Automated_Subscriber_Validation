@@ -35,6 +35,102 @@ EXPECTED_COLUMNS = [
 SMARTY_USAGE_LOG_PATH = "./smarty_logs/Smarty_Usage_Log.csv"
 
 # Street ending patterns
+# USPS Publication 28, Appendix C1 (Street Suffix Abbreviations) -- the full,
+# official 208-entry table. Source: https://pe.usps.com/text/pub28/28apc_002.htm
+# (fetched 2026-09-03). Both the full word and the official abbreviation are
+# accepted as a valid street ending -- matches how CostQuest's own Fabric
+# address-matching treats them (fuzzy-matches Ave./Avenue interchangeably; see
+# reference_costquest_cass_standards memory). Previously this file hand-maintained
+# a partial ~19-entry list (missing 189 of the 208 official types -- Ridge, Point,
+# Cove, Valley, Landing, Highway, Village, Park, and ~180 more), which combined
+# with a regex bug in the old SINGLE_WORD_ENDINGS (a stray leading '|' created an
+# empty alternation branch, making the whole street-ending check match ANYTHING,
+# confirmed live 2026-09-03 -- e.g. 'XYZZY QWERTY 12345' matched) meant the check
+# was silently a no-op. Fixing the bug alone, without also fixing this coverage
+# gap, would have started rejecting ~90% of legitimately-suffixed real addresses
+# (Ridge, Point, Cove, etc.) the moment it shipped -- both are fixed together here.
+USPS_STREET_SUFFIXES = {
+    "ALLEY": "ALY", "ANNEX": "ANX", "ARCADE": "ARC", "AVENUE": "AVE",
+    "BAYOU": "BYU", "BEACH": "BCH", "BEND": "BND", "BLUFF": "BLF",
+    "BLUFFS": "BLFS", "BOTTOM": "BTM", "BOULEVARD": "BLVD", "BRANCH": "BR",
+    "BRIDGE": "BRG", "BROOK": "BRK", "BROOKS": "BRKS", "BURG": "BG",
+    "BURGS": "BGS", "BYPASS": "BYP", "CAMP": "CP", "CANYON": "CYN",
+    "CAPE": "CPE", "CAUSEWAY": "CSWY", "CENTER": "CTR", "CENTERS": "CTRS",
+    "CIRCLE": "CIR", "CIRCLES": "CIRS", "CLIFF": "CLF", "CLIFFS": "CLFS",
+    "CLUB": "CLB", "COMMON": "CMN", "COMMONS": "CMNS", "CORNER": "COR",
+    "CORNERS": "CORS", "COURSE": "CRSE", "COURT": "CT", "COURTS": "CTS",
+    "COVE": "CV", "COVES": "CVS", "CREEK": "CRK", "CRESCENT": "CRES",
+    "CREST": "CRST", "CROSSING": "XING", "CROSSROAD": "XRD", "CROSSROADS": "XRDS",
+    "CURVE": "CURV", "DALE": "DL", "DAM": "DM", "DIVIDE": "DV",
+    "DRIVE": "DR", "DRIVES": "DRS", "ESTATE": "EST", "ESTATES": "ESTS",
+    "EXPRESSWAY": "EXPY", "EXTENSION": "EXT", "EXTENSIONS": "EXTS", "FALL": "FALL",
+    "FALLS": "FLS", "FERRY": "FRY", "FIELD": "FLD", "FIELDS": "FLDS",
+    "FLAT": "FLT", "FLATS": "FLTS", "FORD": "FRD", "FORDS": "FRDS",
+    "FOREST": "FRST", "FORESTS": "FRST", "FORGE": "FRG", "FORGES": "FRGS",
+    "FORK": "FRK", "FORKS": "FRKS", "FORT": "FT", "FREEWAY": "FWY",
+    "GARDEN": "GDN", "GARDENS": "GDNS", "GATEWAY": "GTWY", "GLEN": "GLN",
+    "GLENS": "GLNS", "GREEN": "GRN", "GREENS": "GRNS", "GROVE": "GRV",
+    "GROVES": "GRVS", "HARBOR": "HBR", "HARBORS": "HBRS", "HAVEN": "HVN",
+    "HEIGHTS": "HTS", "HIGHWAY": "HWY", "HILL": "HL", "HILLS": "HLS",
+    "HOLLOW": "HOLW", "INLET": "INLT", "ISLAND": "IS", "ISLANDS": "ISS",
+    "ISLE": "ISLE", "JUNCTION": "JCT", "JUNCTIONS": "JCTS", "KEY": "KY",
+    "KEYS": "KYS", "KNOLL": "KNL", "KNOLLS": "KNLS", "LAKE": "LK",
+    "LAKES": "LKS", "LAND": "LAND", "LANDING": "LNDG", "LANE": "LN",
+    "LIGHT": "LGT", "LIGHTS": "LGTS", "LOAF": "LF", "LOCK": "LCK",
+    "LOCKS": "LCKS", "LODGE": "LDG", "LOOP": "LOOP", "MALL": "MALL",
+    "MANOR": "MNR", "MANORS": "MNRS", "MEADOW": "MDW", "MEADOWS": "MDWS",
+    "MEWS": "MEWS", "MILL": "ML", "MILLS": "MLS", "MISSION": "MSN",
+    "MOTORWAY": "MTWY", "MOUNT": "MT", "MOUNTAIN": "MTN", "MOUNTAINS": "MTNS",
+    "NECK": "NCK", "ORCHARD": "ORCH", "OVAL": "OVAL", "OVERPASS": "OPAS",
+    "PARK": "PARK", "PARKS": "PARK", "PARKWAY": "PKWY", "PARKWAYS": "PKWY",
+    "PASS": "PASS", "PASSAGE": "PSGE", "PATH": "PATH", "PIKE": "PIKE",
+    "PINE": "PNE", "PINES": "PNES", "PLACE": "PL", "PLAIN": "PLN",
+    "PLAINS": "PLNS", "PLAZA": "PLZ", "POINT": "PT", "POINTS": "PTS",
+    "PORT": "PRT", "PORTS": "PRTS", "PRAIRIE": "PR", "RADIAL": "RADL",
+    "RAMP": "RAMP", "RANCH": "RNCH", "RANCHES": "RNCHS", "RAPID": "RPD",
+    "RAPIDS": "RPDS", "REST": "RST", "RIDGE": "RDG", "RIDGES": "RDGS",
+    "RIVER": "RIV", "ROAD": "RD", "ROADS": "RDS", "ROUTE": "RTE",
+    "ROW": "ROW", "RUE": "RUE", "RUN": "RUN", "SHOAL": "SHL",
+    "SHOALS": "SHLS", "SHORE": "SHR", "SHORES": "SHRS", "SKYWAY": "SKWY",
+    "SPRING": "SPG", "SPRINGS": "SPGS", "SPUR": "SPUR", "SPURS": "SPUR",
+    "SQUARE": "SQ", "SQUARES": "SQS", "STATION": "STA", "STRAVENUE": "STRA",
+    "STREAM": "STRM", "STREET": "ST", "STREETS": "STS", "SUMMIT": "SMT",
+    "TERRACE": "TER", "THROUGHWAY": "TRWY", "TRACE": "TRCE", "TRACK": "TRAK",
+    "TRAFFICWAY": "TRFY", "TRAIL": "TRL", "TRAILER": "TRLR", "TUNNEL": "TUNL",
+    "TURNPIKE": "TPKE", "UNDERPASS": "UPAS", "UNION": "UN", "UNIONS": "UNS",
+    "VALLEY": "VLY", "VALLEYS": "VLYS", "VIADUCT": "VIA", "VIEW": "VW",
+    "VIEWS": "VWS", "VILLAGE": "VLG", "VILLAGES": "VLGS", "VILLE": "VL",
+    "VISTA": "VIS", "WALK": "WALK", "WALKS": "WALK", "WALL": "WALL",
+    "WAY": "WAY", "WAYS": "WAYS", "WELL": "WL", "WELLS": "WLS",
+}
+
+# USPS Publication 28, Appendix C2 (Secondary Unit Designators) -- full official
+# table. Source: https://pe.usps.com/text/pub28/28apc_003.htm (fetched 2026-09-03).
+# Previously NON_STANDARD_ENDINGS below hand-listed a partial subset (missing
+# Basement, Front, Key, Lobby, Lower, Penthouse, Pier, Rear, Side, Stop, Trailer,
+# Upper, and the full word "Department") and misspelled "Hanger" as "Hangar" --
+# both spellings are now accepted, nothing removed, to avoid any regression risk.
+USPS_SECONDARY_UNIT_DESIGNATORS = {
+    "APARTMENT": "APT", "BASEMENT": "BSMT", "BUILDING": "BLDG", "DEPARTMENT": "DEPT",
+    "FLOOR": "FL", "FRONT": "FRNT", "HANGER": "HNGR", "KEY": "KEY",
+    "LOBBY": "LBBY", "LOT": "LOT", "LOWER": "LOWR", "OFFICE": "OFC",
+    "PENTHOUSE": "PH", "PIER": "PIER", "REAR": "REAR", "ROOM": "RM",
+    "SIDE": "SIDE", "SLIP": "SLIP", "SPACE": "SPC", "STOP": "STOP",
+    "SUITE": "STE", "TRAILER": "TRLR", "UNIT": "UNIT", "UPPER": "UPPR",
+}
+
+def _build_street_ending_pattern(suffix_map):
+    r"""Builds a `\sTOKEN\b` alternation from a {full: abbrev} map, deduped
+    (some USPS entries share an unabbreviated form, e.g. PARK/PARKS both -> "PARK")
+    and sorted longest-first so multi-character tokens aren't shadowed by a
+    shorter one earlier in the alternation."""
+    tokens = set()
+    for full, abbrev in suffix_map.items():
+        tokens.add(full)
+        tokens.add(abbrev)
+    ordered = sorted(tokens, key=len, reverse=True)
+    return "|".join(rf"\s{t}\b" for t in ordered)
+
 MULTI_WORD_ENDINGS = (
     r"\bUS Highway\b|\bUS Hwy\b|\bPrivate Road\b|\bCounty Road\b|\bCounty Rd\b|\bCo Rd\b|\bState Route\b|"
     r"\bFarm to Market\b|\bCounty Hwy \d+\b|\bCounty FM \d+\b|\bFM Road \d+\b|"
@@ -42,13 +138,7 @@ MULTI_WORD_ENDINGS = (
     r"\bRoute C-\d+\b|\bRoute [A-Z]{2}\b|\b[A-Z]{2} Road\b|\bRS \d+\b|\bKY RS \d+\b"
     r"|\bLoop \d+(?: (?:N|S|E|W|NE|NW|SE|SW))?\b"
 )
-SINGLE_WORD_ENDINGS = (
-    r"\sAlley\b|\sALY\b|\sAvenue\b|\sAve\b|\sAv\b|\sBoulevard\b|\sBlvd\b|\sCircle\b|\sCir\b|\sCr\b|"
-    r"\sCourt\b|\sCt\b|\sDrive\b|\sDr\b|\sExpressway\b|\sExpy\b|\sLane\b|\sLn\b|\sLoop\b|"
-    r"\sParkway\b|\sPkwy\b|\sPlace\b|\sPl\b|\sRoad\b|\sRd\b|\sSquare\b|\sSq\b|\sStreet\b|\sSt\b|"
-    r"\sTerrace\b|\sTer\b|\sTrail\b|\sTrl\b|\sWay\b|\sWy\b|\sShores\b|\sCreek\b|\sCrk\b|"
-    r"|\sLoop \d+(?: (?:N|S|E|W|NE|NW|SE|SW))?\b"
-)
+SINGLE_WORD_ENDINGS = _build_street_ending_pattern(USPS_STREET_SUFFIXES)
 SPECIFIC_ROAD_PATTERN = (
     r"(?i)(?:\d+\s+)?(?:(?:County|Co)\s*(?:Road|Rd|CR)(?:\s+[A-Z]{1,2})?|CR\s+[A-Z]{1,2}|Private\s*Road|Us\s*Hwy|Hwy\s*\d+|"
     r"HWY\s*\d+|Highway\s*\d+|Farm\s*to\s*Market|Farm\s*Road|Farm\s*to\s*Market\s*Road|"
@@ -62,7 +152,26 @@ STREET_ENDINGS = f"({MULTI_WORD_ENDINGS})|({SINGLE_WORD_ENDINGS})"
 PO_BOX = r"\b(?:PO Box|P\.O\. Box|Post Office Box|P\s*O\s*Box|POBox|P\.O\.Box)\b"
 RURAL_ROUTES = r"\bRR \d+ Box \d+\b|\bRural Route \d+ Box \d+\b|\bR\.R\. \d+ Box \d+\b|\bHC \d+ Box \d+\b"
 FORBIDDEN_CHARS = r'[!@#$%^&*()+={}[\]|\"?:;<,>]'
-NON_STANDARD_ENDINGS = r"(?i)(?:^|\s)(Apt|Apartment|Suite|Ste|Unit|Room|Rm|Floor|Fl|Building|Bldg|Dept|Ofc|Lot|Slip|Space|Hangar|Box)(?:\s*[A-Z0-9][\w\-]*)?(?=\s*$)|(?:^|\s)(#|@)[\w\-]+(?=\s*$)"
+
+def _build_non_standard_ending_pattern(designator_map):
+    """Builds the NON_STANDARD_ENDINGS alternation from a {full: abbrev} map,
+    plus two tokens kept from the original hand-written list that AREN'T real
+    USPS Appendix C2 designators: "Hangar" (official spelling is "Hanger",
+    HNGR -- both accepted so real customer data spelled either way still
+    matches) and "Box" (not a C2 designator at all -- kept because it's used
+    here to strip a trailing rural-route box number, e.g. "RR 1 BOX 23";
+    see RURAL_ROUTES' own handling in address.py for the whole-pattern case).    """
+    tokens = set()
+    for full, abbrev in designator_map.items():
+        tokens.add(full.capitalize())
+        tokens.add(abbrev.capitalize())
+    tokens.add("Hangar")  # non-standard spelling, kept for compatibility -- see docstring
+    tokens.add("Box")     # not a real C2 designator -- kept for rural-route handling, see docstring
+    ordered = sorted(tokens, key=len, reverse=True)
+    alternation = "|".join(ordered)
+    return rf"(?i)(?:^|\s)({alternation})(?:\s*[A-Z0-9][\w\-]*)?(?=\s*$)|(?:^|\s)(#|@)[\w\-]+(?=\s*$)"
+NON_STANDARD_ENDINGS = _build_non_standard_ending_pattern(USPS_SECONDARY_UNIT_DESIGNATORS)
+
 
 # State coordinate ranges
 STATE_LON_RANGES = {

@@ -181,17 +181,34 @@ def has_valid_coordinates(row):
 def should_skip_address_requirement(row):
     """
     True if address/city/state/zip validation should be skipped for this
-    row -- either all four fields are blank (pure GPS-only row), or valid
-    coordinates are already present (Code B only needs lat/lon; a tech who
-    dropped a pin doesn't also need a hand-typed address). Single source of
-    truth replacing four previously-duplicated inline checks.
+    row -- ONLY when all four fields are genuinely blank (a pure GPS-only
+    row: a tech dropped a pin and typed nothing else, so there's nothing to
+    validate). Single source of truth for four call sites (address.py's
+    address validator, general.py's required-field and format checks,
+    file_handling.py's Phase 1 address/state validation and save_excel's
+    ZIP check).
+
+    CHANGED 2026-09-03, per the user's explicit direction: this used to
+    ALSO skip whenever has_valid_coordinates(row) was true, regardless of
+    whether address/city/state/zip were populated -- meaning a row with
+    valid lat/lon AND a populated but genuinely malformed address (e.g.
+    "GARBAGE NOT AN ADDRESS AT ALL") skipped validation entirely, produced
+    zero errors, and passed Code A silently. Confirmed live against the
+    real python3 -m src.main entry point before this fix: File Status
+    'Valid', 0 errors, Requires Manual Review: False for exactly that case.
+    The user's intended behavior, confirmed explicitly: valid lat/lon with
+    NO address/city/state/zip at all is fine (Code B only needs lat/lon,
+    nothing to check) -- but valid lat/lon with a POPULATED address that
+    has real errors must still be flagged and fixed before the file can
+    proceed, same as any other row. Removing the has_valid_coordinates()
+    branch does exactly that: the only remaining skip condition is
+    "genuinely nothing here to validate."
     """
     address_empty = pd.isna(row.get('address', '')) or str(row.get('address', '')).strip() == ""
     city_empty = pd.isna(row.get('city', '')) or str(row.get('city', '')).strip() == ""
     state_empty = pd.isna(row.get('state', '')) or str(row.get('state', '')).strip() == ""
     zip_empty = pd.isna(row.get('zip', '')) or str(row.get('zip', '')).strip() == ""
-    all_address_fields_empty = address_empty and city_empty and state_empty and zip_empty
-    return all_address_fields_empty or has_valid_coordinates(row)
+    return address_empty and city_empty and state_empty and zip_empty
 
 def validate_and_correct_state(state_val, zip_val, idx, orig_row, errors, corrected_cells, flagged_cells):
     """Validate and correct state using ZIP code."""
@@ -350,16 +367,17 @@ def validate_general_columns(cleaned_df, errors, corrected_cells, flagged_cells)
             if (idx, col) in flagged_cells and isinstance(flagged_cells[(idx, col)], tuple) and flagged_cells[(idx, col)][0].startswith("Required field:"):
                 continue
 
-            # Skip address field validation for GPS-only rows
+            # Skip address field format validation for GPS-only rows or rows with
+            # valid coordinates -- same exemption already used for the required-field
+            # check above, via should_skip_address_requirement() (all fields empty OR
+            # has_valid_coordinates()). Previously this only checked "all fields empty,"
+            # so a row with a valid lat/lon but a populated, badly-formatted zip/address
+            # still failed format validation despite the coordinate exemption applying
+            # everywhere else in this function.
             if col in ["address", "city", "state", "zip"]:
                 row_data = cleaned_df.iloc[idx]
-                address_empty = pd.isna(row_data.get('address', '')) or str(row_data.get('address', '')).strip() == ""
-                city_empty = pd.isna(row_data.get('city', '')) or str(row_data.get('city', '')).strip() == ""
-                state_empty = pd.isna(row_data.get('state', '')) or str(row_data.get('state', '')).strip() == ""
-                zip_empty = pd.isna(row_data.get('zip', '')) or str(row_data.get('zip', '')).strip() == ""
-
-                if address_empty and city_empty and state_empty and zip_empty:
-                    debug_print(f"Skipping {col} format validation for OrigRowNum={orig_row}: All address fields empty (GPS-only row)")
+                if should_skip_address_requirement(row_data):
+                    debug_print(f"Skipping {col} format validation for OrigRowNum={orig_row}: GPS-only row or valid coordinates present")
                     continue
 
             if col == "customer":
