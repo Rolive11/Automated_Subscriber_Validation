@@ -2,7 +2,7 @@
 
 import re
 import pandas as pd
-from src.config.settings import PO_BOX, RURAL_ROUTES, STREET_ENDINGS, SPECIFIC_ROAD_PATTERN, FORBIDDEN_CHARS, VALID_STATES, NON_STANDARD_ENDINGS
+from src.config.settings import PO_BOX, RURAL_ROUTES, STREET_ENDINGS, SPECIFIC_ROAD_PATTERN, FORBIDDEN_CHARS, VALID_STATES, NON_STANDARD_ENDINGS, USPS_STREET_SUFFIXES
 from src.utils.logging import debug_print
 from src.validation.smarty_validation import SMARTY_ELIGIBLE_ERRORS
 from src.validation.general import should_skip_address_requirement
@@ -404,6 +404,41 @@ def validate_address(address, orig_row, idx, errors, corrected_cells, flagged_ce
             validation_passed = False
     else:
         debug_print(f"Final check: Specific road pattern matched for OrigRowNum={orig_row}: Address='{address}' (Highway/County Road/etc.) - skipping standard ending check")
+
+    # Abbreviate a full-word suffix to its official USPS form (e.g. "STREET"
+    # -> "ST") -- added 2026-09-06. Everything above this point only ever
+    # ACCEPTED either form as valid; it never actually rewrote the data, so
+    # Fabric's exact-match address matching (which stores addresses in
+    # abbreviated form) kept failing on genuinely valid, correctly-formatted
+    # addresses that simply used the full word. Confirmed live 2026-09-03
+    # against a real customer file (org 132): abbreviating raised the real
+    # Fabric match rate from 26.8% to 33.3% on that file alone. Tolerates one
+    # trailing bare directional after the suffix (e.g. "...STREET W" ->
+    # "...ST W", a real pattern found in that same file) so it isn't lost as
+    # part of the abbreviation. Only touches an address already confirmed
+    # valid -- never guesses at one that failed the checks above.
+    if validation_passed and address:
+        tokens = address.split()
+        new_tokens = None
+        if tokens:
+            last_key = tokens[-1].upper().rstrip('.')
+            if last_key in USPS_STREET_SUFFIXES and USPS_STREET_SUFFIXES[last_key] != last_key:
+                new_tokens = tokens[:-1] + [USPS_STREET_SUFFIXES[last_key]]
+            elif len(tokens) >= 2 and tokens[-1].upper() in ('N', 'S', 'E', 'W'):
+                second_last_key = tokens[-2].upper().rstrip('.')
+                if second_last_key in USPS_STREET_SUFFIXES and USPS_STREET_SUFFIXES[second_last_key] != second_last_key:
+                    new_tokens = tokens[:-2] + [USPS_STREET_SUFFIXES[second_last_key], tokens[-1]]
+        if new_tokens:
+            new_address = ' '.join(new_tokens)
+            corrected_cells[(idx, "address")] = {
+                "row": int(orig_row),
+                "original": address,
+                "corrected": new_address,
+                "type": "Street Suffix Abbreviation",
+                "status": "Valid"
+            }
+            debug_print(f"Abbreviated street suffix for OrigRowNum={orig_row}: '{address}' -> '{new_address}'")
+            address = new_address
 
     return validation_passed
 
